@@ -1,0 +1,54 @@
+name: Build and deploy to Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+# Least privilege. This job reads the repo and writes to Pages. Nothing else.
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Never let two deploys race. Cancel the older one.
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      # No npm install. The build has zero runtime dependencies on purpose, so
+      # there is no lockfile to audit and nothing to install at deploy time.
+
+      - name: Verify source isolation still holds
+        run: npm run test
+
+      - name: Build site
+        run: npm run build
+
+      # Only dist/ is uploaded. This is the important difference from a repo
+      # that serves its own root: pipeline code, source configs, and curated
+      # working files are never published, because they are never in the
+      # artifact in the first place.
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

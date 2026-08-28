@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Benefit",
+  "description": "One benefit, program, or exemption available to Veterans in one jurisdiction. Every record must be traceable to an official page, because we are a signpost and never the authority.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "jurisdiction", "category", "title", "summary", "officialUrl", "confidence", "source", "verifiedAt"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Stable slug, unique within the source. Changing it changes the page URL, so treat it as permanent.",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "minLength": 3,
+      "maxLength": 90
+    },
+    "jurisdiction": {
+      "type": "string",
+      "description": "Two-letter code from data/jurisdictions.json, or US for federal.",
+      "pattern": "^[A-Z]{2}$"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "property-tax", "income-tax", "education", "employment", "health",
+        "recreation", "vehicle", "housing", "burial", "financial", "legal",
+        "license-fee", "family", "business", "other"
+      ]
+    },
+    "title": { "type": "string", "minLength": 4, "maxLength": 160 },
+    "summary": {
+      "type": "string",
+      "description": "Plain-language, one or two sentences. Written for a Veteran, not a caseworker.",
+      "minLength": 20,
+      "maxLength": 600
+    },
+    "details": {
+      "type": "array",
+      "description": "Plain-text paragraphs. Never HTML.",
+      "maxItems": 30,
+      "items": { "type": "string", "minLength": 1, "maxLength": 2000 }
+    },
+    "eligibility": {
+      "type": "array",
+      "maxItems": 30,
+      "items": { "type": "string", "minLength": 3, "maxLength": 600 }
+    },
+    "amount": {
+      "type": "string",
+      "description": "Dollar value or exemption size, as written by the source. Kept as text because sources phrase it inconsistently.",
+      "maxLength": 300
+    },
+    "agency": { "type": "string", "maxLength": 200 },
+    "statuteRef": { "type": "string", "maxLength": 200 },
+    "officialUrl": {
+      "type": "string",
+      "format": "url",
+      "description": "The authoritative government page. Required: this is what the Veteran should trust, not us."
+    },
+    "applyUrl": { "type": "string", "format": "url" },
+    "phone": { "type": "string", "maxLength": 40 },
+    "confidence": {
+      "type": "string",
+      "description": "verified: a human checked it. scraped: automated, unreviewed. needs-review: automation flagged a problem.",
+      "enum": ["verified", "scraped", "needs-review"]
+    },
+    "verifiedAt": { "type": "string", "format": "date" },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "title"],
+      "properties": {
+        "id": { "type": "string", "maxLength": 80 },
+        "title": { "type": "string", "maxLength": 200 },
+        "homepage": { "type": "string", "format": "url" }
+      }
+    }
+  }
+}

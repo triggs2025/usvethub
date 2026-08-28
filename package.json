@@ -1,0 +1,22 @@
+{
+  "name": "usvethub",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "National Veteran resource guide covering all 50 states, DC, and the 5 US territories.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node scripts/build-site.mjs",
+    "serve": "node scripts/serve.mjs",
+    "dev": "node scripts/build-site.mjs && node scripts/serve.mjs",
+    "scrape": "node pipeline/core/run.mjs",
+    "scrape:list": "node pipeline/core/run.mjs --list",
+    "scrape:one": "node pipeline/core/run.mjs --only",
+    "jurisdictions": "node scripts/build-jurisdictions.mjs",
+    "test": "node scripts/test-isolation.mjs && node scripts/test-build.mjs",
+    "test:isolation": "node scripts/test-isolation.mjs",
+    "test:build": "node scripts/test-build.mjs"
+  }
+}

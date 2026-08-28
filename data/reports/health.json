@@ -1,0 +1,23 @@
+{
+  "generatedAt": "2026-08-28T22:00:52.197Z",
+  "total": 2,
+  "ok": 2,
+  "warned": 0,
+  "failed": 0,
+  "sources": [
+    {
+      "sourceId": "curated-benefits",
+      "status": "ok",
+      "reason": null,
+      "recordCount": 0,
+      "finishedAt": "2026-08-28T22:00:52.172Z"
+    },
+    {
+      "sourceId": "va-state-offices",
+      "status": "ok",
+      "reason": null,
+      "recordCount": 54,
+      "finishedAt": "2026-08-28T22:00:52.190Z"
+    }
+  ]
+}

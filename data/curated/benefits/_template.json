@@ -1,0 +1,40 @@
+[
+  {
+    "_comment": "TEMPLATE. Files starting with an underscore are ignored by the pipeline. Copy this to a real name like az.json, delete the _comment lines, and fill it in. Run `npm run scrape:one curated-benefits` to check your work: any mistake is reported by field name and nothing broken gets published.",
+
+    "id": "az-property-tax-exemption",
+    "_id": "Permanent. It becomes part of the page URL. Lowercase letters, numbers, hyphens.",
+
+    "jurisdiction": "AZ",
+    "_jurisdiction": "Two-letter code. See data/jurisdictions.json for all 56.",
+
+    "category": "property-tax",
+    "_category": "One of: property-tax, income-tax, education, employment, health, recreation, vehicle, housing, burial, financial, legal, license-fee, family, business, other.",
+
+    "title": "Disabled Veteran property tax exemption",
+    "summary": "A short, plain-language description. Two sentences at most. Write it for a Veteran reading on a phone, not for a caseworker.",
+
+    "amount": "Up to $4,748 of assessed value, as of 2026",
+    "_amount": "Optional. Copy the figure and the year from the official page. Never estimate.",
+
+    "eligibility": [
+      "One plain-language condition per line",
+      "Copy the substance from the official page rather than paraphrasing loosely"
+    ],
+
+    "details": [
+      "Optional longer paragraphs. Plain text only, never HTML."
+    ],
+
+    "agency": "Arizona Department of Revenue",
+    "statuteRef": "A.R.S. 42-11111",
+
+    "officialUrl": "https://example.gov/the-page-you-actually-read",
+    "_officialUrl": "REQUIRED. The government page you read to write this. Not a search result, not a blog, not another directory.",
+
+    "applyUrl": "https://example.gov/the-application-form",
+
+    "confidence": "verified",
+    "_confidence": "Only write 'verified' if you personally opened officialUrl and confirmed every claim above. If you are working from memory or a secondhand source, use 'needs-review' instead. A wrong benefit figure can cost a Veteran a filing deadline."
+  }
+]

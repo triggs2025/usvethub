@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Organization",
+  "description": "One organization a Veteran can contact. Contact details here are OFFICE contact details published by the organization itself. No personal contact information for any individual belongs in this repo, because everything in it is published to the open web.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "name", "orgType", "jurisdiction", "confidence", "source", "verifiedAt"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "minLength": 3,
+      "maxLength": 90
+    },
+    "name": { "type": "string", "minLength": 3, "maxLength": 200 },
+    "orgType": {
+      "type": "string",
+      "enum": [
+        "vso", "county-vso", "state-agency", "federal-agency", "nonprofit",
+        "health", "legal-aid", "employment", "housing", "education",
+        "food", "crisis", "other"
+      ]
+    },
+    "jurisdiction": { "type": "string", "pattern": "^[A-Z]{2}$" },
+    "county": { "type": "string", "maxLength": 120 },
+    "city": { "type": "string", "maxLength": 120 },
+    "address": { "type": "string", "maxLength": 300 },
+    "postalCode": { "type": "string", "pattern": "^\\d{5}(-\\d{4})?$" },
+    "latitude": { "type": "number", "minimum": -90, "maximum": 90 },
+    "longitude": { "type": "number", "minimum": -180, "maximum": 180 },
+    "phone": { "type": "string", "maxLength": 40 },
+    "email": { "type": "string", "maxLength": 200 },
+    "website": { "type": "string", "format": "url" },
+    "description": { "type": "string", "maxLength": 1500 },
+    "services": {
+      "type": "array",
+      "maxItems": 25,
+      "items": { "type": "string", "minLength": 2, "maxLength": 120 }
+    },
+    "vaAccredited": {
+      "type": "boolean",
+      "description": "True only when the organization appears on VA's accreditation list. Matters because unaccredited claim agents charging fees are a known predatory pattern."
+    },
+    "nationalAffiliate": { "type": "string", "maxLength": 200 },
+    "confidence": { "type": "string", "enum": ["verified", "scraped", "needs-review"] },
+    "verifiedAt": { "type": "string", "format": "date" },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "title"],
+      "properties": {
+        "id": { "type": "string", "maxLength": 80 },
+        "title": { "type": "string", "maxLength": 200 },
+        "homepage": { "type": "string", "format": "url" }
+      }
+    }
+  }
+}

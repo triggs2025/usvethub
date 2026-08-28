@@ -1,0 +1,12 @@
+{
+  "id": "zz-test-hang",
+  "title": "Deliberately broken: hangs forever",
+  "homepage": "https://example.com/",
+  "recordType": "organization",
+  "enabled": false,
+  "timeoutMs": 5000,
+  "maxRequests": 1,
+  "notes": [
+    "Fixture for scripts/test-isolation.mjs. Deliberately broken. Never enable."
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "sourceId": "zz-test-drop",
+  "recordType": "organization",
+  "jurisdiction": null,
+  "generatedAt": "2026-08-28T22:00:58.051Z",
+  "records": [
+    {
+      "id": "org-00",
+      "name": "Veterans Organization Number 0",
+      "orgType": "nonprofit",
+      "jurisdiction": "TX",
+      "confidence": "scraped",
+      "source": {
+        "id": "zz-test-drop",
+        "title": "Deliberately broken: simulates a site redesign",
+        "homepage": "https://example.com/"
+      },
+      "verifiedAt": "2026-08-28"
+    },
+    {
+      "id": "org-01",
+      "name": "Veterans Organization Number 1",
+      "orgType": "nonprofit",
+      "jurisdiction": "TX",
+      "confidence": "scraped",
+      "source": {
+        "id": "zz-test-drop",
+        "title": "Deliberately broken: simulates a site redesign",
+        "homepage": "https://example.com/"
+      },
+      "verifiedAt": "2026-08-28"
+    },
+    {
+      "id": "org-02",
+      "name": "Veterans Organization Number 2",
+      "orgType": "nonprofit",
+      "jurisdiction": "TX",
+      "confidence": "scraped",
+      "source": {
+        "id": "zz-test-drop",
+        "title": "Deliberately broken: simulates a site redesign",
+        "homepage": "https://example.com/"
+      },
+      "verifiedAt": "2026-08-28"
+    },
+    {
+      "id": "org-03",
+      "name": "Veterans Organization Number 3",
+      "orgType": "nonprofit",
+      "jurisdiction": "TX",
+      "confidence": "scraped",
+      "source": {
+        "id": "zz-test-drop",
+        "title": "Deliberately broken: simulates a site redesign",
+        "homepage": "https://example.com/"
+      },
+      "verifiedAt": "2026-08-28"
+    },
+    {
+      "id": "org-04",
+      "name": "Veterans Organization Number 4",
+      "orgType": "nonprofit",
+      "jurisdiction": "TX",
+      "confidence": "scraped",
+      "source": {
+        "id": "zz-test-drop",
+        "title": "Deliberately broken: simulates a site redesign",
+        "homepage": "https://example.com/"
+      },
+      "verifiedAt": "2026-08-28"
+    },
+    {
+      "id": "org-05",
+      "name": "Veterans Organization Number 5",
+      "orgType": "nonprofit",
+      "jurisdiction": "TX",
+      "confidence": "scraped",
+      "source": {
+        "id": "zz-test-drop",
+        "title": "Deliberately broken: simulates a site redesign",
+        "homepage": "https://example.com/"
+      },
+      "verifiedAt": "2026-08-28"
+    },
+    {
+      "id": "org-06",
+      "name": "Veterans Organization Number 6",
+      "orgType": "nonprofit",
+      "jurisdiction": "TX",
+      "confidence": "scraped",
+      "source": {
+        "id": "zz-test-drop",
+        "title": "Deliberately broken: simulates a site redesign",
+        "homepage": "https://example.com/"
+      },
+      "verifiedAt": "2026-08-28"
+    },
+    {
+      "id": "org-07",
+      "name": "Veterans Organization Number 7",
+      "orgType": "nonprofit",
+      "jurisdiction": "TX",
+      "confidence": "scraped",
+      "source": {
+        "id": "zz-test-drop",
+        "title": "Deliberately broken: simulates a site redesign",
+        "homepage": "https://example.com/"
+      },
+      "verifiedAt": "2026-08-28"
+    },
+    {
+      "id": "org-08",
+      "name": "Veterans Organization Number 8",
+      "orgType": "nonprofit",
+      "jurisdiction": "TX",
+      "confidence": "scraped",
+      "source": {
+        "id": "zz-test-drop",
+        "title": "Deliberately broken: simulates a site redesign",
+        "homepage": "https://example.com/"
+      },
+      "verifiedAt": "2026-08-28"
+    },
+    {
+      "id": "org-09",
+      "name": "Veterans Organization Number 9",
+      "orgType": "nonprofit",
+      "jurisdiction": "TX",
+      "confidence": "scraped",
+      "source": {
+        "id": "zz-test-drop",
+        "title": "Deliberately broken: simulates a site redesign",
+        "homepage": "https://example.com/"
+      },
+      "verifiedAt": "2026-08-28"
+    }
+  ]
+}

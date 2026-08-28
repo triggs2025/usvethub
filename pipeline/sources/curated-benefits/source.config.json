@@ -1,0 +1,21 @@
+{
+  "id": "curated-benefits",
+  "title": "USVetHub verified benefit records",
+  "homepage": "https://usvethub.com/about/",
+  "recordType": "benefit",
+  "jurisdiction": null,
+  "enabled": true,
+  "schedule": "on-change",
+  "timeoutMs": 30000,
+  "maxRequests": 0,
+  "guards": {
+    "minRecords": 0,
+    "maxDropRatio": 1
+  },
+  "notes": [
+    "Reads hand-written records from data/curated/benefits/*.json. Touches no network.",
+    "This is the layer a person edits. Some state benefit rules will never scrape cleanly, and a hand-checked record beats a confidently wrong scraped one on the pages that get the most traffic.",
+    "Records here are marked confidence: verified, which means a human read the official page. Do not mark anything verified that you have not actually read.",
+    "Guards are relaxed on purpose: a human deleting a record is an intentional edit, not a scraper breaking."
+  ]
+}

@@ -1,0 +1,678 @@
+{
+  "generatedBy": "scripts/build-jurisdictions.mjs",
+  "count": 56,
+  "jurisdictions": [
+    {
+      "code": "AL",
+      "name": "Alabama",
+      "type": "state",
+      "slug": "alabama",
+      "veteransAgency": null,
+      "curation": {
+        "benefitsReviewed": false,
+        "orgsReviewed": false,
+        "notes": null
+      }
+    },
+    {
+      "code": "AK",
+      "name": "Alaska",
+      "type": "state",
+      "slug": "alaska",
+      "veteransAgency": null,
+      "curation": {
+        "benefitsReviewed": false,
+        "orgsReviewed": false,
+        "notes": null
+      }
+    },
+    {
+      "code": "AS",
+      "name": "American Samoa",
+      "type": "territory",
+      "slug": "american-samoa",
+      "veteransAgency": null,
+      "curation": {
+        "benefitsReviewed": false,
+        "orgsReviewed": false,
+        "notes": null
+      }
+    },
+    {
+      "code": "AZ",
+      "name": "Arizona",
+      "type": "state",
+      "slug": "arizona",
+      "veteransAgency": null,
+      "curation": {
+        "benefitsReviewed": false,
+        "orgsReviewed": false,
+        "notes": null
+      }
+    },
+    {
+      "code": "AR",
+      "name": "Arkansas",
+      "type": "state",
+      "slug": "arkansas",
+      "veteransAgency": null,
+      "curation": {
+        "benefitsReviewed": false,
+        "orgsReviewed": false,
+        "notes": null
+      }
+    },
+    {
+      "code": "CA",
+      "name": "California",
+      "type": "state",
+      "slug": "california",
+      "veteransAgency": null,
+      "curation": {
+        "benefitsReviewed": false,
+        "orgsReviewed": false,
+        "notes": null
+      }
+    },
+    {
+      "code": "CO",
+      "name": "Colorado",
+      "type": "state",
+      "slug": "colorado",
+      "veteransAgency": null,
+      "curation": {
+        "benefitsReviewed": false,
+        "orgsReviewed": false,
+        "notes": null
+      }
+    },
+    {
+      "code": "CT",
+      "name": "Connecticut",
+      "type": "state",
+      "slug": "connecticut",
+      "veteransAgency": null,
+      "curation": {
+        "benefitsReviewed": false,
+        "orgsReviewed": false,
+        "notes": null
+      }
+    },
+    {
+      "code": "DE",
+      "name": "Delaware",
+      "type": "state",
+      "slug": "delaware",
+      "veteransAgency": null,
+      "curation": {
+        "benefitsReviewed": false,
+        "orgsReviewed": false,
+        "notes": null
+      }
+    },
+    {
+      "code": "DC",
+      "name": "District of Columbia",
+      "type": "district",
+      "slug": "district-of-columbia",
+      "veteransAgency": null,
+      "curation": {
+        "benefitsReviewed": false,
+        "orgsReviewed": false,
+        "notes": null
+      }
+    },
+    {
+      "code": "FL",
+      "name": "Florida",
+      "type": "state",
+      "slug": "florida",
+      "veteransAgency": null,
+      "curation": {
+        "benefitsReviewed": false,
+        "orgsReviewed": false,
+        "notes": null
+      }
+    },
+    {
+      "code": "GA",
+      "name": "Georgia",
+      "type": "state",
+      "slug": "georgia",
+      "veteransAgency": null,
+      "curation": {
+        "benefitsReviewed": false,
+        "orgsReviewed": false,
+        "notes": null
+      }
+    },
+    {
+      "code": "GU",
+      "name": "Guam",
+      "type": "territory",
+      "slug": "guam",
+      "veteransAgency": null,
+      "curation": {
+        "benefitsReviewed": false,
+        "orgsReviewed": false,
+        "notes": null
+      }
+    },
+    {
+      "code": "HI",
+      "name": "Hawaii",
+      "type": "state",
+      "slug": "hawaii",
+      "veteransAgency": null,
+      "curation": {
+        "benefitsReviewed": false,
+        "orgsReviewed": false,
+        "notes": null
+      }
+    },
+    {
+      "code": "ID",
+      "name": "Idaho",
+      "type": "state",
+      "slug": "idaho",
+      "veteransAgency": null,
+      "curation": {
+        "benefitsReviewed": false,
+        "orgsReviewed": false,
+        "notes": null
+      }
+    },
+    {
+      "code": "IL",
+      "name": "Illinois",
+      "type": "state",
+      "slug": "illinois",
+      "veteransAgency": null,
+      "curation": {
+        "benefitsReviewed": false,
+        "orgsReviewed": false,
+        "notes": null
+      }
+    },
+    {
+      "code": "IN",
+      "name": "Indiana",
+      "type": "state",
+      "slug": "indiana",
+      "veteransAgency": null,
+      "curation": {
+        "benefitsReviewed": false,
+        "orgsReviewed": false,
+        "notes": null
+      }
+    },
+    {
+      "code": "IA",
+      "name": "Iowa",
+      "type": "state",
+      "slug": "iowa",
+      "veteransAgency": null,
+      "curation": {
+        "benefitsReviewed": false,
+        "orgsReviewed": false,
+        "notes": null
+      }
+    },
+    {
+      "code": "KS",
+      "name": "Kansas",
+      "type": "state",
+      "slug": "kansas",
+      "veteransAgency": null,
+      "curation": {
+        "benefitsReviewed": false,
+        "orgsReviewed": false,
+        "notes": null
+      }
+    },
+    {
+      "code": "KY",
+      "name": "Kentucky",
+      "type": "state",
+      "slug": "kentucky",
+      "veteransAgency": null,
+      "curation": {
+        "benefitsReviewed": false,
+        "orgsReviewed": false,
+        "notes": null
+      }
+    },
+    {
+      "code": "LA",
+      "name": "Louisiana",
+      "type": "state",
+      "slug": "louisiana",
+      "veteransAgency": null,
+      "curation": {
+        "benefitsReviewed": false,
+        "orgsReviewed": false,
+        "notes": null
+      }
+    },
+    {
+      "code": "ME",
+      "name": "Maine",
+      "type": "state",
+      "slug": "maine",
+      "veteransAgency": null,
+      "curation": {
+        "benefitsReviewed": false,
+        "orgsReviewed": false,
+        "notes": null
+      }
+    },
+    {
+      "code": "MD",
+      "name": "Maryland",
+      "type": "state",
+      "slug": "maryland",
+      "veteransAgency": null,
+      "curation": {
+        "benefitsReviewed": false,
+        "orgsReviewed": false,
+        "notes": null
+      }
+    },
+    {
+      "code": "MA",
+      "name": "Massachusetts",
+      "type": "state",
+      "slug": "massachusetts",
+      "veteransAgency": null,
+      "curation": {
+        "benefitsReviewed": false,
+        "orgsReviewed": false,
+        "notes": null
+      }
+    },
+    {
+      "code": "MI",
+      "name": "Michigan",
+      "type": "state",
+      "slug": "michigan",
+      "veteransAgency": null,
+      "curation": {
+        "benefitsReviewed": false,
+        "orgsReviewed": false,
+        "notes": null
+      }
+    },
+    {
+      "code": "MN",
+      "name": "Minnesota",
+      "type": "state",
+      "slug": "minnesota",
+      "veteransAgency": null,
+      "curation": {
+        "benefitsReviewed": false,
+        "orgsReviewed": false,
+        "notes": null
+      }
+    },
+    {
+      "code": "MS",
+      "name": "Mississippi",
+      "type": "state",
+      "slug": "mississippi",
+      "veteransAgency": null,
+      "curation": {
+        "benefitsReviewed": false,
+        "orgsReviewed": false,
+        "notes": null
+      }
+    },
+    {
+      "code": "MO",
+      "name": "Missouri",
+      "type": "state",
+      "slug": "missouri",
+      "veteransAgency": null,
+      "curation": {
+        "benefitsReviewed": false,
+        "orgsReviewed": false,
+        "notes": null
+      }
+    },
+    {
+      "code": "MT",
+      "name": "Montana",
+      "type": "state",
+      "slug": "montana",
+      "veteransAgency": null,
+      "curation": {
+        "benefitsReviewed": false,
+        "orgsReviewed": false,
+        "notes": null
+      }
+    },
+    {
+      "code": "NE",
+      "name": "Nebraska",
+      "type": "state",
+      "slug": "nebraska",
+      "veteransAgency": null,
+      "curation": {
+        "benefitsReviewed": false,
+        "orgsReviewed": false,
+        "notes": null
+      }
+    },
+    {
+      "code": "NV",
+      "name": "Nevada",
+      "type": "state",
+      "slug": "nevada",
+      "veteransAgency": null,
+      "curation": {
+        "benefitsReviewed": false,
+        "orgsReviewed": false,
+        "notes": null
+      }
+    },
+    {
+      "code": "NH",
+      "name": "New Hampshire",
+      "type": "state",
+      "slug": "new-hampshire",
+      "veteransAgency": null,
+      "curation": {
+        "benefitsReviewed": false,
+        "orgsReviewed": false,
+        "notes": null
+      }
+    },
+    {
+      "code": "NJ",
+      "name": "New Jersey",
+      "type": "state",
+      "slug": "new-jersey",
+      "veteransAgency": null,
+      "curation": {
+        "benefitsReviewed": false,
+        "orgsReviewed": false,
+        "notes": null
+      }
+    },
+    {
+      "code": "NM",
+      "name": "New Mexico",
+      "type": "state",
+      "slug": "new-mexico",
+      "veteransAgency": null,
+      "curation": {
+        "benefitsReviewed": false,
+        "orgsReviewed": false,
+        "notes": null
+      }
+    },
+    {
+      "code": "NY",
+      "name": "New York",
+      "type": "state",
+      "slug": "new-york",
+      "veteransAgency": null,
+      "curation": {
+        "benefitsReviewed": false,
+        "orgsReviewed": false,
+        "notes": null
+      }
+    },
+    {
+      "code": "NC",
+      "name": "North Carolina",
+      "type": "state",
+      "slug": "north-carolina",
+      "veteransAgency": null,
+      "curation": {
+        "benefitsReviewed": false,
+        "orgsReviewed": false,
+        "notes": null
+      }
+    },
+    {
+      "code": "ND",
+      "name": "North Dakota",
+      "type": "state",
+      "slug": "north-dakota",
+      "veteransAgency": null,
+      "curation": {
+        "benefitsReviewed": false,
+        "orgsReviewed": false,
+        "notes": null
+      }
+    },
+    {
+      "code": "MP",
+      "name": "Northern Mariana Islands",
+      "type": "territory",
+      "slug": "northern-mariana-islands",
+      "veteransAgency": null,
+      "curation": {
+        "benefitsReviewed": false,
+        "orgsReviewed": false,
+        "notes": null
+      }
+    },
+    {
+      "code": "OH",
+      "name": "Ohio",
+      "type": "state",
+      "slug": "ohio",
+      "veteransAgency": null,
+      "curation": {
+        "benefitsReviewed": false,
+        "orgsReviewed": false,
+        "notes": null
+      }
+    },
+    {
+      "code": "OK",
+      "name": "Oklahoma",
+      "type": "state",
+      "slug": "oklahoma",
+      "veteransAgency": null,
+      "curation": {
+        "benefitsReviewed": false,
+        "orgsReviewed": false,
+        "notes": null
+      }
+    },
+    {
+      "code": "OR",
+      "name": "Oregon",
+      "type": "state",
+      "slug": "oregon",
+      "veteransAgency": null,
+      "curation": {
+        "benefitsReviewed": false,
+        "orgsReviewed": false,
+        "notes": null
+      }
+    },
+    {
+      "code": "PA",
+      "name": "Pennsylvania",
+      "type": "state",
+      "slug": "pennsylvania",
+      "veteransAgency": null,
+      "curation": {
+        "benefitsReviewed": false,
+        "orgsReviewed": false,
+        "notes": null
+      }
+    },
+    {
+      "code": "PR",
+      "name": "Puerto Rico",
+      "type": "territory",
+      "slug": "puerto-rico",
+      "veteransAgency": null,
+      "curation": {
+        "benefitsReviewed": false,
+        "orgsReviewed": false,
+        "notes": null
+      }
+    },
+    {
+      "code": "RI",
+      "name": "Rhode Island",
+      "type": "state",
+      "slug": "rhode-island",
+      "veteransAgency": null,
+      "curation": {
+        "benefitsReviewed": false,
+        "orgsReviewed": false,
+        "notes": null
+      }
+    },
+    {
+      "code": "SC",
+      "name": "South Carolina",
+      "type": "state",
+      "slug": "south-carolina",
+      "veteransAgency": null,
+      "curation": {
+        "benefitsReviewed": false,
+        "orgsReviewed": false,
+        "notes": null
+      }
+    },
+    {
+      "code": "SD",
+      "name": "South Dakota",
+      "type": "state",
+      "slug": "south-dakota",
+      "veteransAgency": null,
+      "curation": {
+        "benefitsReviewed": false,
+        "orgsReviewed": false,
+        "notes": null
+      }
+    },
+    {
+      "code": "TN",
+      "name": "Tennessee",
+      "type": "state",
+      "slug": "tennessee",
+      "veteransAgency": null,
+      "curation": {
+        "benefitsReviewed": false,
+        "orgsReviewed": false,
+        "notes": null
+      }
+    },
+    {
+      "code": "TX",
+      "name": "Texas",
+      "type": "state",
+      "slug": "texas",
+      "veteransAgency": null,
+      "curation": {
+        "benefitsReviewed": false,
+        "orgsReviewed": false,
+        "notes": null
+      }
+    },
+    {
+      "code": "VI",
+      "name": "US Virgin Islands",
+      "type": "territory",
+      "slug": "us-virgin-islands",
+      "veteransAgency": null,
+      "curation": {
+        "benefitsReviewed": false,
+        "orgsReviewed": false,
+        "notes": null
+      }
+    },
+    {
+      "code": "UT",
+      "name": "Utah",
+      "type": "state",
+      "slug": "utah",
+      "veteransAgency": null,
+      "curation": {
+        "benefitsReviewed": false,
+        "orgsReviewed": false,
+        "notes": null
+      }
+    },
+    {
+      "code": "VT",
+      "name": "Vermont",
+      "type": "state",
+      "slug": "vermont",
+      "veteransAgency": null,
+      "curation": {
+        "benefitsReviewed": false,
+        "orgsReviewed": false,
+        "notes": null
+      }
+    },
+    {
+      "code": "VA",
+      "name": "Virginia",
+      "type": "state",
+      "slug": "virginia",
+      "veteransAgency": null,
+      "curation": {
+        "benefitsReviewed": false,
+        "orgsReviewed": false,
+        "notes": null
+      }
+    },
+    {
+      "code": "WA",
+      "name": "Washington",
+      "type": "state",
+      "slug": "washington",
+      "veteransAgency": null,
+      "curation": {
+        "benefitsReviewed": false,
+        "orgsReviewed": false,
+        "notes": null
+      }
+    },
+    {
+      "code": "WV",
+      "name": "West Virginia",
+      "type": "state",
+      "slug": "west-virginia",
+      "veteransAgency": null,
+      "curation": {
+        "benefitsReviewed": false,
+        "orgsReviewed": false,
+        "notes": null
+      }
+    },
+    {
+      "code": "WI",
+      "name": "Wisconsin",
+      "type": "state",
+      "slug": "wisconsin",
+      "veteransAgency": null,
+      "curation": {
+        "benefitsReviewed": false,
+        "orgsReviewed": false,
+        "notes": null
+      }
+    },
+    {
+      "code": "WY",
+      "name": "Wyoming",
+      "type": "state",
+      "slug": "wyoming",
+      "veteransAgency": null,
+      "curation": {
+        "benefitsReviewed": false,
+        "orgsReviewed": false,
+        "notes": null
+      }
+    }
+  ]
+}

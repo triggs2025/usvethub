@@ -1,0 +1,21 @@
+{
+  "id": "va-state-offices",
+  "title": "VA DiscoverVA directory of state Departments of Veterans Affairs",
+  "homepage": "https://discover.va.gov/external-resources/?_resource_type=state-veterans-affairs-office",
+  "recordType": "organization",
+  "jurisdiction": null,
+  "enabled": true,
+  "schedule": "weekly",
+  "timeoutMs": 120000,
+  "maxRequests": 6,
+  "delayMs": 1500,
+  "guards": {
+    "minRecords": 40,
+    "maxDropRatio": 0.15
+  },
+  "notes": [
+    "Reached through the site's public WordPress REST API rather than the rendered page. The API returns structured fields, so a theme redesign cannot silently break the parse.",
+    "va.gov/statedva.htm still meta-refreshes here as of 2026-08-28. If this endpoint moves, start from that legacy URL again.",
+    "Covers territories, which is exactly the coverage most 'all 50 states' resources miss."
+  ]
+}

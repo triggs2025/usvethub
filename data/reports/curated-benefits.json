@@ -1,0 +1,17 @@
+{
+  "status": "ok",
+  "reason": null,
+  "published": true,
+  "unchanged": true,
+  "recordCount": 0,
+  "previousCount": 0,
+  "rejected": [],
+  "startedAt": "2026-08-28T22:00:52.166Z",
+  "finishedAt": "2026-08-28T22:00:52.172Z",
+  "requestsUsed": 0,
+  "sourceId": "curated-benefits",
+  "log": [
+    "[curated-benefits] 0 curated benefit(s) from 0 file(s)",
+    "[curated-benefits] published 0 record(s) to .\\data\\published\\benefits\\curated-benefits.json"
+  ]
+}

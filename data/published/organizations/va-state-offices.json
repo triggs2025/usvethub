@@ -1,0 +1,1109 @@
+{
+  "sourceId": "va-state-offices",
+  "recordType": "organization",
+  "jurisdiction": null,
+  "generatedAt": "2026-08-28T22:00:52.166Z",
+  "records": [
+    {
+      "id": "alabama-department-of-veterans-affairs",
+      "name": "Alabama Department of Veterans Affairs",
+      "orgType": "state-agency",
+      "jurisdiction": "AL",
+      "confidence": "scraped",
+      "website": "https://va.alabama.gov/",
+      "phone": "(334) 242-5077",
+      "description": "The Alabama Department of Veterans Affairs is committed to providing you with the information you need and invite you to look through our site for information on benefits, services and programs.",
+      "services": [
+        "State Veteran benefits",
+        "Claims assistance referral"
+      ],
+      "source": {
+        "id": "va-state-offices",
+        "title": "VA DiscoverVA directory of state Departments of Veterans Affairs",
+        "homepage": "https://discover.va.gov/external-resources/?_resource_type=state-veterans-affairs-office"
+      },
+      "verifiedAt": "2026-08-28"
+    },
+    {
+      "id": "alaska-office-of-veterans-affairs",
+      "name": "Alaska Office of Veterans Affairs",
+      "orgType": "state-agency",
+      "jurisdiction": "AK",
+      "confidence": "scraped",
+      "website": "https://veterans.alaska.gov/home/",
+      "phone": "(888) 248-3682",
+      "description": "The Alaska Office of Veterans Affairs serves as the primary advocate for Alaska's veterans and strives to help our veterans and their families improve their lives. From helping veterans to file claims for education, medical or other benefits to assisting them in obtaining earned military awards, the Office of Veterans Affairs is here to serve you.",
+      "services": [
+        "State Veteran benefits",
+        "Claims assistance referral"
+      ],
+      "source": {
+        "id": "va-state-offices",
+        "title": "VA DiscoverVA directory of state Departments of Veterans Affairs",
+        "homepage": "https://discover.va.gov/external-resources/?_resource_type=state-veterans-affairs-office"
+      },
+      "verifiedAt": "2026-08-28"
+    },
+    {
+      "id": "arizona-department-of-veterans-services",
+      "name": "Arizona Department of Veterans Services",
+      "orgType": "state-agency",
+      "jurisdiction": "AZ",
+      "confidence": "scraped",
+      "website": "https://dvs.az.gov/",
+      "phone": "(602) 255-3373",
+      "description": "The Arizona Department of Veterans’ Services (ADVS) provides direct services to Veterans through the administration of 50+ professional benefit counselors located throughout the state - helping Veterans connect with their VA benefits, two skilled-nursing Veterans' Home facilities in Phoenix and Tucson provide short and long-term care (with new homes in Flagstaff and Yuma), and three Arizona Veterans' Memorial Cemeteries: in Sierra Vista, Camp Navajo near Flagstaff, and in Marana north of Tucson.",
+      "services": [
+        "State Veteran benefits",
+        "Claims assistance referral"
+      ],
+      "source": {
+        "id": "va-state-offices",
+        "title": "VA DiscoverVA directory of state Departments of Veterans Affairs",
+        "homepage": "https://discover.va.gov/external-resources/?_resource_type=state-veterans-affairs-office"
+      },
+      "verifiedAt": "2026-08-28"
+    },
+    {
+      "id": "arkansas-department-of-veterans-affairs",
+      "name": "Arkansas Department of Veterans Affairs",
+      "orgType": "state-agency",
+      "jurisdiction": "AR",
+      "confidence": "scraped",
+      "website": "https://www.veterans.arkansas.gov/",
+      "phone": "(501) 683-2382",
+      "email": "adva.public@arkansas.gov",
+      "description": "Serving Arkansas Veterans and their eligible dependents, through advocacy and education to access federal and state benefits, high-quality long-term nursing care, and burial honors.",
+      "services": [
+        "State Veteran benefits",
+        "Claims assistance referral"
+      ],
+      "source": {
+        "id": "va-state-offices",
+        "title": "VA DiscoverVA directory of state Departments of Veterans Affairs",
+        "homepage": "https://discover.va.gov/external-resources/?_resource_type=state-veterans-affairs-office"
+      },
+      "verifiedAt": "2026-08-28"
+    },
+    {
+      "id": "california-department-of-veterans-affairs",
+      "name": "California Department of Veterans Affairs (CalVet)",
+      "orgType": "state-agency",
+      "jurisdiction": "CA",
+      "confidence": "scraped",
+      "website": "https://www.calvet.ca.gov/",
+      "phone": "(800) 952-5626",
+      "description": "The California Department of Veterans Affairs (CalVet) works to serve California veterans and their families. With nearly 1.6 million veterans living in the State, CalVet strives to ensure that its veterans of every era and their families get the state and federal benefits and services they have earned and deserve as a result of selfless and honorable military service. CalVet strives to serve veterans and their families with dignity and compassion and to help them achieve their highest quality of life.",
+      "services": [
+        "State Veteran benefits",
+        "Claims assistance referral"
+      ],
+      "source": {
+        "id": "va-state-offices",
+        "title": "VA DiscoverVA directory of state Departments of Veterans Affairs",
+        "homepage": "https://discover.va.gov/external-resources/?_resource_type=state-veterans-affairs-office"
+      },
+      "verifiedAt": "2026-08-28"
+    },
+    {
+      "id": "colorado-division-of-veterans-affairs",
+      "name": "Colorado Department of Military and Veterans Affairs",
+      "orgType": "state-agency",
+      "jurisdiction": "CO",
+      "confidence": "scraped",
+      "website": "https://vets.colorado.gov/",
+      "description": "The Colorado Division of Veterans Affairs (DVA) is a state agency mandated by state statute. We are one of the four major operational divisions of the Department of Military and Veterans Affairs(opens in new window). We offer advocacy to Colorado Veterans, family members and survivors in securing benefits they may be entitled to through their military service by providing the highest level of customer care and service with our specially trained service officers.",
+      "services": [
+        "State Veteran benefits",
+        "Claims assistance referral"
+      ],
+      "source": {
+        "id": "va-state-offices",
+        "title": "VA DiscoverVA directory of state Departments of Veterans Affairs",
+        "homepage": "https://discover.va.gov/external-resources/?_resource_type=state-veterans-affairs-office"
+      },
+      "verifiedAt": "2026-08-28"
+    },
+    {
+      "id": "connecticut-state-department-of-veterans-affairs",
+      "name": "Connecticut State Department of Veterans Affairs",
+      "orgType": "state-agency",
+      "jurisdiction": "CT",
+      "confidence": "scraped",
+      "website": "https://portal.ct.gov/dva",
+      "phone": "(860) 616-2562",
+      "description": "The rich legacy of Connecticut providing care for Veterans and their dependents stretches back to July 4, 1864, when Benjamin Fitch, philanthropist of Darien, established the home for Civil War veterans, and the children of men killed in that war.",
+      "services": [
+        "State Veteran benefits",
+        "Claims assistance referral"
+      ],
+      "source": {
+        "id": "va-state-offices",
+        "title": "VA DiscoverVA directory of state Departments of Veterans Affairs",
+        "homepage": "https://discover.va.gov/external-resources/?_resource_type=state-veterans-affairs-office"
+      },
+      "verifiedAt": "2026-08-28"
+    },
+    {
+      "id": "delaware-office-of-veterans-services",
+      "name": "Delaware Office of Veterans Services",
+      "orgType": "state-agency",
+      "jurisdiction": "DE",
+      "confidence": "scraped",
+      "website": "https://vets.delaware.gov/",
+      "phone": "(302) 739-2792",
+      "email": "dos_ovs@delaware.gov",
+      "description": "The Delaware Commission of Veterans Affairs (DCVA) was established in 1987 to provide assistance to Delaware's veterans, their spouses and dependent children.",
+      "services": [
+        "State Veteran benefits",
+        "Claims assistance referral"
+      ],
+      "source": {
+        "id": "va-state-offices",
+        "title": "VA DiscoverVA directory of state Departments of Veterans Affairs",
+        "homepage": "https://discover.va.gov/external-resources/?_resource_type=state-veterans-affairs-office"
+      },
+      "verifiedAt": "2026-08-28"
+    },
+    {
+      "id": "florida-department-of-veterans-affairs",
+      "name": "Florida Department of Veterans Affairs",
+      "orgType": "state-agency",
+      "jurisdiction": "FL",
+      "confidence": "scraped",
+      "website": "https://www.floridavets.org/",
+      "phone": "(844) 693-5838",
+      "email": "fdva.vso@fdva.fl.gov",
+      "description": "With 1.5 million veterans, Florida is the most veteran-friendly state in the nation. The Florida Department of Veterans’ Affairs is the premier point of entry for Florida veterans to access earned services, benefits and support. Thank you for your service. We honor you.",
+      "services": [
+        "State Veteran benefits",
+        "Claims assistance referral"
+      ],
+      "source": {
+        "id": "va-state-offices",
+        "title": "VA DiscoverVA directory of state Departments of Veterans Affairs",
+        "homepage": "https://discover.va.gov/external-resources/?_resource_type=state-veterans-affairs-office"
+      },
+      "verifiedAt": "2026-08-28"
+    },
+    {
+      "id": "georgia-department-of-veterans-affairs",
+      "name": "Georgia Department of Veterans Affairs",
+      "orgType": "state-agency",
+      "jurisdiction": "GA",
+      "confidence": "scraped",
+      "website": "https://veterans.georgia.gov/",
+      "phone": "(404) 656-2300",
+      "email": "gavetsvc@vs.state.ga.us",
+      "description": "The Georgia Department of Veterans Service is an agency of state government created for the purpose of advising, counseling, and assisting Georgia’s veterans and their families in receiving their rightful benefits under the vast and complex framework of veterans’ laws.",
+      "services": [
+        "State Veteran benefits",
+        "Claims assistance referral"
+      ],
+      "source": {
+        "id": "va-state-offices",
+        "title": "VA DiscoverVA directory of state Departments of Veterans Affairs",
+        "homepage": "https://discover.va.gov/external-resources/?_resource_type=state-veterans-affairs-office"
+      },
+      "verifiedAt": "2026-08-28"
+    },
+    {
+      "id": "guam-office-of-veterans-affairs",
+      "name": "Guam Office of Veterans Affairs",
+      "orgType": "state-agency",
+      "jurisdiction": "GU",
+      "confidence": "scraped",
+      "website": "https://gvao.guam.gov/",
+      "phone": "(671) 475-8388",
+      "email": "tim.aguon@gvao.guam.gov",
+      "description": "The Guam Office of Veterans Affairs administers three (3) major programs and other veterans functions: The agency coordinates veterans’ affairs programs in the Territory, offers informational and advisory services to all veterans, active duty personnel and their dependents and assists in presenting claims against the United States on their entitlements under federal laws.",
+      "services": [
+        "State Veteran benefits",
+        "Claims assistance referral"
+      ],
+      "source": {
+        "id": "va-state-offices",
+        "title": "VA DiscoverVA directory of state Departments of Veterans Affairs",
+        "homepage": "https://discover.va.gov/external-resources/?_resource_type=state-veterans-affairs-office"
+      },
+      "verifiedAt": "2026-08-28"
+    },
+    {
+      "id": "hawaii-office-of-veterans-services",
+      "name": "Hawai’i Office of Veterans’ Services",
+      "orgType": "state-agency",
+      "jurisdiction": "HI",
+      "confidence": "scraped",
+      "website": "https://dod.hawaii.gov/ovs/",
+      "phone": "(808) 433-0420",
+      "email": "ovs@hawaii.gov",
+      "description": "The Office of Veterans’ Services (OVS) is the principal state office responsible for the development and management of policies and programs related to veterans, their dependents, and/or survivors. The OVS acts as a liaison between the Governor and veterans’ organizations and also between the Department of Veterans Affairs and individual veterans. Our objectives are to assist veterans in obtaining State and federal entitlements, to supply the latest information on veterans’ issues and to provide advice and support to veterans making the transition back into civilian life.",
+      "services": [
+        "State Veteran benefits",
+        "Claims assistance referral"
+      ],
+      "source": {
+        "id": "va-state-offices",
+        "title": "VA DiscoverVA directory of state Departments of Veterans Affairs",
+        "homepage": "https://discover.va.gov/external-resources/?_resource_type=state-veterans-affairs-office"
+      },
+      "verifiedAt": "2026-08-28"
+    },
+    {
+      "id": "illinois-department-of-veterans-affairs",
+      "name": "Illinois Department of Veterans Affairs",
+      "orgType": "state-agency",
+      "jurisdiction": "IL",
+      "confidence": "scraped",
+      "website": "https://veterans.illinois.gov/",
+      "phone": "(800) 437-9824",
+      "email": "idva.media@illinois.gov",
+      "description": "Our team is poised to help you navigate services and benefits, and finding the right long-term home for you. And, if we don't have the direct service or answers, we promise a warm hand-off to those who can. You can learn about our team and partners here. Let's keep the communication going.",
+      "services": [
+        "State Veteran benefits",
+        "Claims assistance referral"
+      ],
+      "source": {
+        "id": "va-state-offices",
+        "title": "VA DiscoverVA directory of state Departments of Veterans Affairs",
+        "homepage": "https://discover.va.gov/external-resources/?_resource_type=state-veterans-affairs-office"
+      },
+      "verifiedAt": "2026-08-28"
+    },
+    {
+      "id": "indiana-department-of-veterans-affairs",
+      "name": "Indiana Department of Veterans Affairs",
+      "orgType": "state-agency",
+      "jurisdiction": "IN",
+      "confidence": "scraped",
+      "website": "https://www.in.gov/dva/",
+      "phone": "(317) 232-3910",
+      "description": "This Indiana Veteran Community consists of veterans, family members, caregivers, friends, organizations, and providers that touch veteran lives in some way. Indiana owes a great debt to its veterans, past and present, for their personal sacrifices and dedicated service. IDVA is committed to providing quality services, benefits, and programming.",
+      "services": [
+        "State Veteran benefits",
+        "Claims assistance referral"
+      ],
+      "source": {
+        "id": "va-state-offices",
+        "title": "VA DiscoverVA directory of state Departments of Veterans Affairs",
+        "homepage": "https://discover.va.gov/external-resources/?_resource_type=state-veterans-affairs-office"
+      },
+      "verifiedAt": "2026-08-28"
+    },
+    {
+      "id": "iowa-department-of-veterans-affairs",
+      "name": "Iowa Department of Veterans Affairs",
+      "orgType": "state-agency",
+      "jurisdiction": "IA",
+      "confidence": "scraped",
+      "website": "https://dva.iowa.gov/",
+      "phone": "(515) 252-4698",
+      "email": "idva@iowa.gov",
+      "description": "Iowa wants every veteran to make a successful transition back into civilian life and community. The Iowa Department of Veterans Affairs is here to help all veterans obtain services and benefits that they and their families are entitled to. The Iowa Department of Veterans Affairs, Iowa Veterans Benefits, Iowa Veterans Home and Iowa Veterans Cemetery recognize and honor Iowa’s veterans and their families by providing the highest quality programs, services, and benefits.",
+      "services": [
+        "State Veteran benefits",
+        "Claims assistance referral"
+      ],
+      "source": {
+        "id": "va-state-offices",
+        "title": "VA DiscoverVA directory of state Departments of Veterans Affairs",
+        "homepage": "https://discover.va.gov/external-resources/?_resource_type=state-veterans-affairs-office"
+      },
+      "verifiedAt": "2026-08-28"
+    },
+    {
+      "id": "kansas-commission-on-veterans-affairs-office",
+      "name": "Kansas Commission on Veterans Affairs Office",
+      "orgType": "state-agency",
+      "jurisdiction": "KS",
+      "confidence": "scraped",
+      "website": "https://kcva.ks.gov/",
+      "phone": "(785) 296-3976",
+      "description": "The Kansas Commission on Veterans Affairs (KCVAO) continues to help our state's Veterans and their families to improve the quality of their lives. From helping Veterans to file claims for education, medical or other benefits, to assisting them in obtaining earned medals and military awards, KCVAO is here to serve you.",
+      "services": [
+        "State Veteran benefits",
+        "Claims assistance referral"
+      ],
+      "source": {
+        "id": "va-state-offices",
+        "title": "VA DiscoverVA directory of state Departments of Veterans Affairs",
+        "homepage": "https://discover.va.gov/external-resources/?_resource_type=state-veterans-affairs-office"
+      },
+      "verifiedAt": "2026-08-28"
+    },
+    {
+      "id": "kentucky-department-of-veterans-affairs",
+      "name": "Kentucky Department of Veterans Affairs",
+      "orgType": "state-agency",
+      "jurisdiction": "KY",
+      "confidence": "scraped",
+      "website": "https://veterans.ky.gov/Pages/index.aspx",
+      "phone": "(502) 564-9203",
+      "description": "Serving Veterans in the Commonwealth is our mission, our job, and our privilege. We work every day to make sure Kentucky's 295,000 veterans and their families receive all the benefits and services they have earned. Here you will find information on benefits counseling, skilled long-term care at state veterans centers, dignified interment at state veterans cemeteries, health care, education, employment and special programs for women veterans, homeless veterans and others.",
+      "services": [
+        "State Veteran benefits",
+        "Claims assistance referral"
+      ],
+      "source": {
+        "id": "va-state-offices",
+        "title": "VA DiscoverVA directory of state Departments of Veterans Affairs",
+        "homepage": "https://discover.va.gov/external-resources/?_resource_type=state-veterans-affairs-office"
+      },
+      "verifiedAt": "2026-08-28"
+    },
+    {
+      "id": "louisiana-department-of-veterans-affairs",
+      "name": "Louisiana Department of Veterans Affairs",
+      "orgType": "state-agency",
+      "jurisdiction": "LA",
+      "confidence": "scraped",
+      "website": "https://www.vetaffairs.la.gov/",
+      "phone": "(225) 219-5000",
+      "email": "veteran@la.gov",
+      "description": "The Louisiana Department of Veterans Affairs aids residents of the State of Louisiana who served in the Armed Forces of the United States during any war, combat or special periods of service during peacetime, along with their dependents and beneficiaries, in receiving any and all benefits to which they may be entitled under the law of the United States or the states thereof.",
+      "services": [
+        "State Veteran benefits",
+        "Claims assistance referral"
+      ],
+      "source": {
+        "id": "va-state-offices",
+        "title": "VA DiscoverVA directory of state Departments of Veterans Affairs",
+        "homepage": "https://discover.va.gov/external-resources/?_resource_type=state-veterans-affairs-office"
+      },
+      "verifiedAt": "2026-08-28"
+    },
+    {
+      "id": "maine-bureau-of-veterans-services",
+      "name": "Maine Bureau of Veterans’ Services",
+      "orgType": "state-agency",
+      "jurisdiction": "ME",
+      "confidence": "scraped",
+      "website": "https://www.maine.gov/veterans/",
+      "phone": "(207) 287-7020",
+      "email": "mainebvs@maine.gov",
+      "description": "We are fortunate in Maine to have a rich tradition of military service. Over 300,000 Mainers have been affected by service, whether as a veteran, retiree, family member, Guard or Reserve, or active duty personnel. Many of our veterans have returned home to become community leaders and advocates for other veterans through the Maine Military and Community Network and other Veteran Councils.",
+      "services": [
+        "State Veteran benefits",
+        "Claims assistance referral"
+      ],
+      "source": {
+        "id": "va-state-offices",
+        "title": "VA DiscoverVA directory of state Departments of Veterans Affairs",
+        "homepage": "https://discover.va.gov/external-resources/?_resource_type=state-veterans-affairs-office"
+      },
+      "verifiedAt": "2026-08-28"
+    },
+    {
+      "id": "maryland-department-of-veterans-affairs",
+      "name": "Maryland Department of Veterans Affairs",
+      "orgType": "state-agency",
+      "jurisdiction": "MD",
+      "confidence": "scraped",
+      "website": "https://veterans.maryland.gov/",
+      "phone": "(410) 260-3838",
+      "description": "The Maryland Department of Veterans Affairs was created by the State Legislature in 1999 as an executive agency with the mission of assisting veterans, active duty service members, their families and dependents, in securing benefits earned through military service. The Department’s origin follows the history of the Maryland Veterans Commission back to 1924, when the Soldiers’ Relief Fund Commission was formed to administer a State relief fund for disabled veterans of World War I.",
+      "services": [
+        "State Veteran benefits",
+        "Claims assistance referral"
+      ],
+      "source": {
+        "id": "va-state-offices",
+        "title": "VA DiscoverVA directory of state Departments of Veterans Affairs",
+        "homepage": "https://discover.va.gov/external-resources/?_resource_type=state-veterans-affairs-office"
+      },
+      "verifiedAt": "2026-08-28"
+    },
+    {
+      "id": "massachusetts-executive-office-of-veterans-services",
+      "name": "Massachusetts Executive Office of Veterans Services",
+      "orgType": "state-agency",
+      "jurisdiction": "MA",
+      "confidence": "scraped",
+      "website": "https://www.mass.gov/orgs/executive-office-of-veterans-services",
+      "phone": "(617) 210-5480",
+      "description": "Our mission is to provide the highest quality programs, benefits, and advocacy to Massachusetts veterans alongside federal and local partners.",
+      "services": [
+        "State Veteran benefits",
+        "Claims assistance referral"
+      ],
+      "source": {
+        "id": "va-state-offices",
+        "title": "VA DiscoverVA directory of state Departments of Veterans Affairs",
+        "homepage": "https://discover.va.gov/external-resources/?_resource_type=state-veterans-affairs-office"
+      },
+      "verifiedAt": "2026-08-28"
+    },
+    {
+      "id": "mayors-office-of-veterans-affairs",
+      "name": "Mayor’s Office of Veterans Affairs",
+      "orgType": "state-agency",
+      "jurisdiction": "DC",
+      "confidence": "scraped",
+      "website": "https://communityaffairs.dc.gov/mova",
+      "phone": "(202) 724-5454",
+      "email": "ova@dc.gov",
+      "description": "The Office of Veterans Affairs was created as an entity under the Executive Office of the Mayor in October 2001. The office was established to provide veteran benefits, assistance, information, outreach, effective advocacy, claims processing assistance and service provider coordination to veterans and their families so that they can access their entitled resources and benefits. The office also develops, coordinates and attends veteran commemorative events that recognize the military service and sacrifice of District of Columbia veterans.",
+      "services": [
+        "State Veteran benefits",
+        "Claims assistance referral"
+      ],
+      "source": {
+        "id": "va-state-offices",
+        "title": "VA DiscoverVA directory of state Departments of Veterans Affairs",
+        "homepage": "https://discover.va.gov/external-resources/?_resource_type=state-veterans-affairs-office"
+      },
+      "verifiedAt": "2026-08-28"
+    },
+    {
+      "id": "michigan-veterans-affairs-agency",
+      "name": "Michigan Veterans Affairs Agency",
+      "orgType": "state-agency",
+      "jurisdiction": "MI",
+      "confidence": "scraped",
+      "website": "https://www.michigan.gov/mvaa",
+      "phone": "(800) 642-4838",
+      "email": "mvaaresourcecenter@michigan.gov",
+      "description": "The Michigan Veterans Affairs Agency is the central coordinating agency, providing support, care, advocacy and service to veterans and their families. MVAA was created by Executive Order 2013-2 and began operations on March 20, 2013, the 10th anniversary of Operation Iraqi Freedom. MVAA is a state government agency and is housed within Michigan Department of Military and Veterans Affairs.",
+      "services": [
+        "State Veteran benefits",
+        "Claims assistance referral"
+      ],
+      "source": {
+        "id": "va-state-offices",
+        "title": "VA DiscoverVA directory of state Departments of Veterans Affairs",
+        "homepage": "https://discover.va.gov/external-resources/?_resource_type=state-veterans-affairs-office"
+      },
+      "verifiedAt": "2026-08-28"
+    },
+    {
+      "id": "minnesota-department-of-veterans-affairs",
+      "name": "Minnesota Department of Veterans Affairs",
+      "orgType": "state-agency",
+      "jurisdiction": "MN",
+      "confidence": "scraped",
+      "website": "https://mn.gov/mdva/",
+      "phone": "(800) 546-5838",
+      "description": "The Minnesota Department of Veterans Affairs runs Minnesota's state Veterans Homes, state Veterans Cemeteries, and assists Minnesota's 308,000 Veterans and their dependents to obtain the benefits and services provided by the United States Department of Veterans Affairs.",
+      "services": [
+        "State Veteran benefits",
+        "Claims assistance referral"
+      ],
+      "source": {
+        "id": "va-state-offices",
+        "title": "VA DiscoverVA directory of state Departments of Veterans Affairs",
+        "homepage": "https://discover.va.gov/external-resources/?_resource_type=state-veterans-affairs-office"
+      },
+      "verifiedAt": "2026-08-28"
+    },
+    {
+      "id": "mississippi-department-of-veterans-affairs",
+      "name": "Mississippi Department of Veterans Affairs",
+      "orgType": "state-agency",
+      "jurisdiction": "MS",
+      "confidence": "scraped",
+      "website": "https://www.msva.ms.gov/",
+      "phone": "(601) 576-4850",
+      "description": "Veterans have a unique choice regarding where they get their health care. Because of your service, you are eligible to apply for VA health care. When you sign up for VA care, you join the nation's largest integrated healthcare system with access to experts who understand the Veteran population and service-connected health issues.",
+      "services": [
+        "State Veteran benefits",
+        "Claims assistance referral"
+      ],
+      "source": {
+        "id": "va-state-offices",
+        "title": "VA DiscoverVA directory of state Departments of Veterans Affairs",
+        "homepage": "https://discover.va.gov/external-resources/?_resource_type=state-veterans-affairs-office"
+      },
+      "verifiedAt": "2026-08-28"
+    },
+    {
+      "id": "missouri-veterans-commission",
+      "name": "Missouri Veterans Commission",
+      "orgType": "state-agency",
+      "jurisdiction": "MO",
+      "confidence": "scraped",
+      "website": "https://mvc.dps.mo.gov/",
+      "phone": "(573) 751-3779",
+      "email": "movets@mvc.dps.mo.gov",
+      "description": "The Missouri Veterans Commission is a state agency established by Missouri Statute to aid all Veterans, their dependents, and legal representatives by providing information regarding the rights of Veterans and their dependents and to assist Veterans accessing their available benefits through State and Federal Government.",
+      "services": [
+        "State Veteran benefits",
+        "Claims assistance referral"
+      ],
+      "source": {
+        "id": "va-state-offices",
+        "title": "VA DiscoverVA directory of state Departments of Veterans Affairs",
+        "homepage": "https://discover.va.gov/external-resources/?_resource_type=state-veterans-affairs-office"
+      },
+      "verifiedAt": "2026-08-28"
+    },
+    {
+      "id": "montana-veterans-affairs-division",
+      "name": "Montana Veterans Affairs Division",
+      "orgType": "state-agency",
+      "jurisdiction": "MT",
+      "confidence": "scraped",
+      "website": "https://dma.mt.gov/mvad/",
+      "phone": "(406) 542-2501",
+      "description": "Montana Veterans Affairs Division- Missoula is located at 1911 Tower St in Missoula, Montana 59804. Montana Veterans Affairs Division- Missoula can be contacted via phone at 406-542-2501 for pricing, hours and directions.",
+      "services": [
+        "State Veteran benefits",
+        "Claims assistance referral"
+      ],
+      "source": {
+        "id": "va-state-offices",
+        "title": "VA DiscoverVA directory of state Departments of Veterans Affairs",
+        "homepage": "https://discover.va.gov/external-resources/?_resource_type=state-veterans-affairs-office"
+      },
+      "verifiedAt": "2026-08-28"
+    },
+    {
+      "id": "nebraska-department-of-veterans-affairs",
+      "name": "Nebraska Department of Veterans’ Affairs",
+      "orgType": "state-agency",
+      "jurisdiction": "NE",
+      "confidence": "scraped",
+      "website": "https://veterans.nebraska.gov/",
+      "phone": "(402) 471-2458",
+      "email": "ndva@nebraska.gov",
+      "description": "Our mission is to honor Nebraska veterans and their families by providing excellent service, assistance, and care through veterans services, state veterans' homes, and veterans cemeteries.",
+      "services": [
+        "State Veteran benefits",
+        "Claims assistance referral"
+      ],
+      "source": {
+        "id": "va-state-offices",
+        "title": "VA DiscoverVA directory of state Departments of Veterans Affairs",
+        "homepage": "https://discover.va.gov/external-resources/?_resource_type=state-veterans-affairs-office"
+      },
+      "verifiedAt": "2026-08-28"
+    },
+    {
+      "id": "nevada-department-of-veterans-services",
+      "name": "Nevada Department of Veterans Services",
+      "orgType": "state-agency",
+      "jurisdiction": "NV",
+      "confidence": "scraped",
+      "website": "https://veterans.nv.gov/",
+      "phone": "(775) 688-1653",
+      "email": "pio.ndvs@veterans.nv.gov",
+      "description": "ll Nevada veterans, servicemembers and their families understand and can connect to benefits and services they have earned.",
+      "services": [
+        "State Veteran benefits",
+        "Claims assistance referral"
+      ],
+      "source": {
+        "id": "va-state-offices",
+        "title": "VA DiscoverVA directory of state Departments of Veterans Affairs",
+        "homepage": "https://discover.va.gov/external-resources/?_resource_type=state-veterans-affairs-office"
+      },
+      "verifiedAt": "2026-08-28"
+    },
+    {
+      "id": "new-hampshire-department-of-military-affairs-and-veterans-services",
+      "name": "New Hampshire Department of Military Affairs and Veterans Services",
+      "orgType": "state-agency",
+      "jurisdiction": "NH",
+      "confidence": "scraped",
+      "website": "https://www.dmavs.nh.gov/",
+      "phone": "(603) 225-1200",
+      "description": "The Division of Veterans Services assists Veterans who are residents of New Hampshire or their dependents in securing all benefits or preferences to which they may be entitled under any state or federal laws or regulations.",
+      "services": [
+        "State Veteran benefits",
+        "Claims assistance referral"
+      ],
+      "source": {
+        "id": "va-state-offices",
+        "title": "VA DiscoverVA directory of state Departments of Veterans Affairs",
+        "homepage": "https://discover.va.gov/external-resources/?_resource_type=state-veterans-affairs-office"
+      },
+      "verifiedAt": "2026-08-28"
+    },
+    {
+      "id": "new-jersey-department-of-military-and-veterans-affairs",
+      "name": "New Jersey Department of Military and Veterans Affairs",
+      "orgType": "state-agency",
+      "jurisdiction": "NJ",
+      "confidence": "scraped",
+      "website": "https://www.nj.gov/military/",
+      "phone": "(609) 530-6892",
+      "description": "The mission of the Department of Military and Veterans Affairs is to provide trained and ready forces prepared for rapid response to a wide range of civil and military operations, while providing exemplary services to citizens and Veterans of New Jersey.",
+      "services": [
+        "State Veteran benefits",
+        "Claims assistance referral"
+      ],
+      "source": {
+        "id": "va-state-offices",
+        "title": "VA DiscoverVA directory of state Departments of Veterans Affairs",
+        "homepage": "https://discover.va.gov/external-resources/?_resource_type=state-veterans-affairs-office"
+      },
+      "verifiedAt": "2026-08-28"
+    },
+    {
+      "id": "new-mexico-department-of-veterans-services",
+      "name": "New Mexico Department of Veterans Services",
+      "orgType": "state-agency",
+      "jurisdiction": "NM",
+      "confidence": "scraped",
+      "website": "https://www.nmdvs.org/",
+      "phone": "(866) 433-8387",
+      "email": "nmdvs.info@dvs.nm.gov",
+      "description": "The New Mexico Department of Veterans’ Services is here to help veterans and eligible family members understand, navigate, and obtain federal and state benefits. Our mission is to provide the highest quality care, service, and advocacy for the men and women, and their eligible family members, who have served as members of the United States Armed Forces, and to be the premier agency that anticipates and meets the changing needs of New Mexico’s veterans and their families.",
+      "services": [
+        "State Veteran benefits",
+        "Claims assistance referral"
+      ],
+      "source": {
+        "id": "va-state-offices",
+        "title": "VA DiscoverVA directory of state Departments of Veterans Affairs",
+        "homepage": "https://discover.va.gov/external-resources/?_resource_type=state-veterans-affairs-office"
+      },
+      "verifiedAt": "2026-08-28"
+    },
+    {
+      "id": "new-york-state-department-of-veterans-services",
+      "name": "New York State Department of Veterans’ Services",
+      "orgType": "state-agency",
+      "jurisdiction": "NY",
+      "confidence": "scraped",
+      "website": "https://veterans.ny.gov/",
+      "phone": "(518) 474-6114",
+      "email": "dvsinfo@veterans.ny.gov",
+      "description": "The New York State Department of Veterans’ Services (DVS) advocates on behalf of New York’s Veterans and their families, as individuals and as a group, to ensure they receive benefits granted by law for service in the United States Uniformed Services.",
+      "services": [
+        "State Veteran benefits",
+        "Claims assistance referral"
+      ],
+      "source": {
+        "id": "va-state-offices",
+        "title": "VA DiscoverVA directory of state Departments of Veterans Affairs",
+        "homepage": "https://discover.va.gov/external-resources/?_resource_type=state-veterans-affairs-office"
+      },
+      "verifiedAt": "2026-08-28"
+    },
+    {
+      "id": "north-carolina-department-of-military-and-veterans-affairs",
+      "name": "North Carolina Department of Military and Veterans Affairs",
+      "orgType": "state-agency",
+      "jurisdiction": "NC",
+      "confidence": "scraped",
+      "website": "https://www.milvets.nc.gov/",
+      "phone": "(844) 624-8387",
+      "description": "The Veterans Affairs Commission functions to advise the Secretary of Military and Veterans Affairs on matters relating to the affairs of Veterans in North Carolina, to maintain a continuing review of the operation and budgeting of existing programs for Veterans and their dependents, and to promulgate rules and regulations concerning the awarding of scholarships for Children of North Carolina Veterans.",
+      "services": [
+        "State Veteran benefits",
+        "Claims assistance referral"
+      ],
+      "source": {
+        "id": "va-state-offices",
+        "title": "VA DiscoverVA directory of state Departments of Veterans Affairs",
+        "homepage": "https://discover.va.gov/external-resources/?_resource_type=state-veterans-affairs-office"
+      },
+      "verifiedAt": "2026-08-28"
+    },
+    {
+      "id": "north-dakota-department-of-veterans-affairs",
+      "name": "North Dakota Department of Veterans Affairs",
+      "orgType": "state-agency",
+      "jurisdiction": "ND",
+      "confidence": "scraped",
+      "website": "https://www.veterans.nd.gov/",
+      "phone": "(701) 239-7165",
+      "description": "North Dakota is home to over 55,000 Veterans. Our goal is to ensure that every Veteran in the State of North Dakota receives every benefit to which he or she may be entitled from the US Department of Veterans Affairs (VA), other agencies, and the State of North Dakota.",
+      "services": [
+        "State Veteran benefits",
+        "Claims assistance referral"
+      ],
+      "source": {
+        "id": "va-state-offices",
+        "title": "VA DiscoverVA directory of state Departments of Veterans Affairs",
+        "homepage": "https://discover.va.gov/external-resources/?_resource_type=state-veterans-affairs-office"
+      },
+      "verifiedAt": "2026-08-28"
+    },
+    {
+      "id": "ohio-department-of-veterans-services",
+      "name": "Ohio Department of Veterans Services",
+      "orgType": "state-agency",
+      "jurisdiction": "OH",
+      "confidence": "scraped",
+      "website": "https://dvs.ohio.gov/",
+      "description": "We provide opportunities and resources for our veteran community through advocacy, collaboration and partnerships.",
+      "services": [
+        "State Veteran benefits",
+        "Claims assistance referral"
+      ],
+      "source": {
+        "id": "va-state-offices",
+        "title": "VA DiscoverVA directory of state Departments of Veterans Affairs",
+        "homepage": "https://discover.va.gov/external-resources/?_resource_type=state-veterans-affairs-office"
+      },
+      "verifiedAt": "2026-08-28"
+    },
+    {
+      "id": "oklahoma-department-of-veterans-affairs",
+      "name": "Oklahoma Department of Veterans Affairs",
+      "orgType": "state-agency",
+      "jurisdiction": "OK",
+      "confidence": "scraped",
+      "website": "https://oklahoma.gov/veterans.html",
+      "phone": "(405) 523-4000",
+      "email": "communications@odva.ok.gov",
+      "services": [
+        "State Veteran benefits",
+        "Claims assistance referral"
+      ],
+      "source": {
+        "id": "va-state-offices",
+        "title": "VA DiscoverVA directory of state Departments of Veterans Affairs",
+        "homepage": "https://discover.va.gov/external-resources/?_resource_type=state-veterans-affairs-office"
+      },
+      "verifiedAt": "2026-08-28"
+    },
+    {
+      "id": "oregon-department-of-veterans-affairs",
+      "name": "Oregon Department of Veterans Affairs",
+      "orgType": "state-agency",
+      "jurisdiction": "OR",
+      "confidence": "scraped",
+      "website": "https://www.oregon.gov/ODVA/Pages/default.aspx",
+      "phone": "(503) 373-2085",
+      "email": "orvetsbenefits@odva.state.or.us",
+      "description": "Care at the Oregon Veterans' Homes is an earned benefit available to veterans, their spouses, and parents who had a child die while serving in the U.S. Armed Forces. To be eligible for this benefit, qualifying veterans must have served as defined by the U.S. Department of Veterans Affairs (Federal VA) and received an honorable discharge from their branch of service. A physician's recommendation that skilled nursing care is needed is required in order to be admitted into either Veterans' Home.",
+      "services": [
+        "State Veteran benefits",
+        "Claims assistance referral"
+      ],
+      "source": {
+        "id": "va-state-offices",
+        "title": "VA DiscoverVA directory of state Departments of Veterans Affairs",
+        "homepage": "https://discover.va.gov/external-resources/?_resource_type=state-veterans-affairs-office"
+      },
+      "verifiedAt": "2026-08-28"
+    },
+    {
+      "id": "pennsylvania-department-of-military-and-veterans-affairs",
+      "name": "Pennsylvania Department of Military and Veterans Affairs",
+      "orgType": "state-agency",
+      "jurisdiction": "PA",
+      "confidence": "scraped",
+      "website": "https://www.dmva.pa.gov/Pages/default.aspx",
+      "description": "Pennsylvania's Department of Military and Veterans Affairs has a dual mission: to provide quality service to the commonwealth’s veterans and their families, and to oversee and support the members of the Pennsylvania National Guard.",
+      "services": [
+        "State Veteran benefits",
+        "Claims assistance referral"
+      ],
+      "source": {
+        "id": "va-state-offices",
+        "title": "VA DiscoverVA directory of state Departments of Veterans Affairs",
+        "homepage": "https://discover.va.gov/external-resources/?_resource_type=state-veterans-affairs-office"
+      },
+      "verifiedAt": "2026-08-28"
+    },
+    {
+      "id": "puerto-rico-office-of-the-veterans-advocate",
+      "name": "Puerto Rico Office of the Veterans Advocate",
+      "orgType": "state-agency",
+      "jurisdiction": "PR",
+      "confidence": "scraped",
+      "website": "https://www.opv.pr.gov/",
+      "phone": "(787) 758-5760",
+      "description": "Our greatest concern is the well-being of our Veterans.",
+      "services": [
+        "State Veteran benefits",
+        "Claims assistance referral"
+      ],
+      "source": {
+        "id": "va-state-offices",
+        "title": "VA DiscoverVA directory of state Departments of Veterans Affairs",
+        "homepage": "https://discover.va.gov/external-resources/?_resource_type=state-veterans-affairs-office"
+      },
+      "verifiedAt": "2026-08-28"
+    },
+    {
+      "id": "rhode-island-office-of-veterans-services",
+      "name": "Rhode Island Office of Veterans Services",
+      "orgType": "state-agency",
+      "jurisdiction": "RI",
+      "confidence": "scraped",
+      "website": "https://vets.ri.gov/",
+      "phone": "(401) 921-2119",
+      "description": "Our goals are to reduce homelessness amongst Veterans, Veterans living in poverty, Veteran unemployment rates, ensure Veterans receive proper medical care, continue quality customer service at the Rhode Island Veterans Home and Rhode Island Veterans Memorial Cemetery and ensure every Veteran has an opportunity to make it in Rhode Island.",
+      "services": [
+        "State Veteran benefits",
+        "Claims assistance referral"
+      ],
+      "source": {
+        "id": "va-state-offices",
+        "title": "VA DiscoverVA directory of state Departments of Veterans Affairs",
+        "homepage": "https://discover.va.gov/external-resources/?_resource_type=state-veterans-affairs-office"
+      },
+      "verifiedAt": "2026-08-28"
+    },
+    {
+      "id": "south-carolina-department-of-veterans-affairs",
+      "name": "South Carolina Department of Veterans’ Affairs",
+      "orgType": "state-agency",
+      "jurisdiction": "SC",
+      "confidence": "scraped",
+      "website": "https://scdva.sc.gov/",
+      "phone": "(803) 734-0200",
+      "email": "va@scdva.sc.gov",
+      "description": "The South Carolina Department of Veterans’ Affairs leads and enables a state-wide coalition of partners to create and sustain an environment in which Veterans and their families can thrive as valued and contributing members of the South Carolina community and the Nation.",
+      "services": [
+        "State Veteran benefits",
+        "Claims assistance referral"
+      ],
+      "source": {
+        "id": "va-state-offices",
+        "title": "VA DiscoverVA directory of state Departments of Veterans Affairs",
+        "homepage": "https://discover.va.gov/external-resources/?_resource_type=state-veterans-affairs-office"
+      },
+      "verifiedAt": "2026-08-28"
+    },
+    {
+      "id": "south-dakota-department-of-veterans-affairs",
+      "name": "South Dakota Department of Veterans Affairs",
+      "orgType": "state-agency",
+      "jurisdiction": "SD",
+      "confidence": "scraped",
+      "website": "https://vetaffairs.sd.gov/default.aspx",
+      "phone": "(605) 773-3269",
+      "description": "We provide comprehensive care and quality service to veterans and their families, regarding health care, education, disability benefits, long-term care, and burial honors by providing professional customer service and care",
+      "services": [
+        "State Veteran benefits",
+        "Claims assistance referral"
+      ],
+      "source": {
+        "id": "va-state-offices",
+        "title": "VA DiscoverVA directory of state Departments of Veterans Affairs",
+        "homepage": "https://discover.va.gov/external-resources/?_resource_type=state-veterans-affairs-office"
+      },
+      "verifiedAt": "2026-08-28"
+    },
+    {
+      "id": "tennessee-department-of-veterans-services",
+      "name": "Tennessee Department of Veterans Services",
+      "orgType": "state-agency",
+      "jurisdiction": "TN",
+      "confidence": "scraped",
+      "website": "https://www.tn.gov/veteran.html",
+      "phone": "(615) 741-2345",
+      "email": "tn.veterans@tn.gov",
+      "description": "Our mission is to serve veterans of all eras through passionate advocacy, informative outreach, and an honorable final resting place.",
+      "services": [
+        "State Veteran benefits",
+        "Claims assistance referral"
+      ],
+      "source": {
+        "id": "va-state-offices",
+        "title": "VA DiscoverVA directory of state Departments of Veterans Affairs",
+        "homepage": "https://discover.va.gov/external-resources/?_resource_type=state-veterans-affairs-office"
+      },
+      "verifiedAt": "2026-08-28"
+    },
+    {
+      "id": "texas-veterans-commission",
+      "name": "Texas Veterans Commission",
+      "orgType": "state-agency",
+      "jurisdiction": "TX",
+      "confidence": "scraped",
+      "website": "https://www.tvc.texas.gov/",
+      "phone": "(512) 463-6564",
+      "email": "info@tvc.texas.gov",
+      "description": "The Texas Veterans Commission will provide quality service through nine program areas: Claims Department, Veterans Employment Services, Veterans Education Services, Communications and Veterans Outreach, Veteran Entrepreneur Program, Health Care Advocacy, Veterans Mental Health Program, Women Veterans Program, and the Fund for Veterans’ Assistance.",
+      "services": [
+        "State Veteran benefits",
+        "Claims assistance referral"
+      ],
+      "source": {
+        "id": "va-state-offices",
+        "title": "VA DiscoverVA directory of state Departments of Veterans Affairs",
+        "homepage": "https://discover.va.gov/external-resources/?_resource_type=state-veterans-affairs-office"
+      },
+      "verifiedAt": "2026-08-28"
+    },
+    {
+      "id": "utah-department-of-veterans-and-military-affairs",
+      "name": "Utah Department of Veterans and Military Affairs",
+      "orgType": "state-agency",
+      "jurisdiction": "UT",
+      "confidence": "scraped",
+      "website": "https://veterans.utah.gov/",
+      "phone": "(801) 326-2372",
+      "email": "veterans@utah.gov",
+      "description": "The Utah Department of Veterans and Military Affairs assists Veterans and current members of the U.S. Armed Forces and their dependents in numerous capacities. This includes the preparing and securing of claims for compensation, hospitalization, education, vocational training, and other benefits or privileges which Veterans and our current armed forces have earned through their military service.",
+      "services": [
+        "State Veteran benefits",
+        "Claims assistance referral"
+      ],
+      "source": {
+        "id": "va-state-offices",
+        "title": "VA DiscoverVA directory of state Departments of Veterans Affairs",
+        "homepage": "https://discover.va.gov/external-resources/?_resource_type=state-veterans-affairs-office"
+      },
+      "verifiedAt": "2026-08-28"
+    },
+    {
+      "id": "vermont-office-of-veterans-affairs",
+      "name": "Vermont Office of Veterans Affairs",
+      "orgType": "state-agency",
+      "jurisdiction": "VT",
+      "confidence": "scraped",
+      "website": "https://veterans.vermont.gov/",
+      "phone": "(802) 828-3379",
+      "description": "Each state offers a unique set of benefits and services for its veterans and their families. The Office of Veterans Affairs is a state government organization that administers many of Vermont's veteran programs.",
+      "services": [
+        "State Veteran benefits",
+        "Claims assistance referral"
+      ],
+      "source": {
+        "id": "va-state-offices",
+        "title": "VA DiscoverVA directory of state Departments of Veterans Affairs",
+        "homepage": "https://discover.va.gov/external-resources/?_resource_type=state-veterans-affairs-office"
+      },
+      "verifiedAt": "2026-08-28"
+    },
+    {
+      "id": "virgin-islands-office-of-veterans-affairs-st-croix",
+      "name": "Virgin Islands Office of Veterans Affairs , St. Croix",
+      "orgType": "state-agency",
+      "jurisdiction": "VI",
+      "confidence": "scraped",
+      "website": "https://veterans.vi.gov/",
+      "phone": "(340) 773-8387",
+      "email": "info_va@va.vi.gov",
+      "services": [
+        "State Veteran benefits",
+        "Claims assistance referral"
+      ],
+      "source": {
+        "id": "va-state-offices",
+        "title": "VA DiscoverVA directory of state Departments of Veterans Affairs",
+        "homepage": "https://discover.va.gov/external-resources/?_resource_type=state-veterans-affairs-office"
+      },
+      "verifiedAt": "2026-08-28"
+    },
+    {
+      "id": "virgin-islands-office-of-veterans-affairs-st-thomas",
+      "name": "Virgin Islands Office of Veterans Affairs , St Thomas",
+      "orgType": "state-agency",
+      "jurisdiction": "VI",
+      "confidence": "scraped",
+      "website": "https://veterans.vi.gov/",
+      "phone": "(340) 773-8387",
+      "email": "info_va@va.vi.gov",
+      "services": [
+        "State Veteran benefits",
+        "Claims assistance referral"
+      ],
+      "source": {
+        "id": "va-state-offices",
+        "title": "VA DiscoverVA directory of state Departments of Veterans Affairs",
+        "homepage": "https://discover.va.gov/external-resources/?_resource_type=state-veterans-affairs-office"
+      },
+      "verifiedAt": "2026-08-28"
+    },
+    {
+      "id": "virginia-department-of-veterans-services",
+      "name": "Virginia Department of Veterans Services",
+      "orgType": "state-agency",
+      "jurisdiction": "VA",
+      "confidence": "scraped",
+      "website": "https://www.dvs.virginia.gov/",
+      "phone": "(804) 786-0286",
+      "email": "info@dvs.virginia.gov",
+      "description": "The Department of Veterans Services (DVS) is organized into six service delivery sections: benefits; veteran and family support; veterans education, transition, and employment; veterans care centers; veterans cemeteries; and the Virginia War Memorial.",
+      "services": [
+        "State Veteran benefits",
+        "Claims assistance referral"
+      ],
+      "source": {
+        "id": "va-state-offices",
+        "title": "VA DiscoverVA directory of state Departments of Veterans Affairs",
+        "homepage": "https://discover.va.gov/external-resources/?_resource_type=state-veterans-affairs-office"
+      },
+      "verifiedAt": "2026-08-28"
+    },
+    {
+      "id": "washington-department-of-veterans-affairs",
+      "name": "Washington Department of Veterans Affairs",
+      "orgType": "state-agency",
+      "jurisdiction": "WA",
+      "confidence": "scraped",
+      "website": "https://www.dva.wa.gov/",
+      "phone": "(800) 562-2308",
+      "email": "benefits@dva.wa.gov",
+      "description": "The Washington State Department of Veterans Affairs helps connect veterans and their family members to the benefits and services they earned through their military service. Our Central Office is located in Olympia and includes a Veterans Service Center as well as administrative support for all agency programs.",
+      "services": [
+        "State Veteran benefits",
+        "Claims assistance referral"
+      ],
+      "source": {
+        "id": "va-state-offices",
+        "title": "VA DiscoverVA directory of state Departments of Veterans Affairs",
+        "homepage": "https://discover.va.gov/external-resources/?_resource_type=state-veterans-affairs-office"
+      },
+      "verifiedAt": "2026-08-28"
+    },
+    {
+      "id": "west-virginia-department-of-veterans-assistance",
+      "name": "West Virginia Department of Veterans Assistance",
+      "orgType": "state-agency",
+      "jurisdiction": "WV",
+      "confidence": "scraped",
+      "website": "https://veterans.wv.gov/",
+      "phone": "(304) 558-3661",
+      "description": "The Department of Veterans Assistance operates 14 benefits offices and a claims office throughout the state. Accredited Veterans Service Officers (VSOs) at these locations advise veterans and their families on issues relating to veterans' benefits, including access to healthcare, employment assistance, housing benefits, and more.",
+      "services": [
+        "State Veteran benefits",
+        "Claims assistance referral"
+      ],
+      "source": {
+        "id": "va-state-offices",
+        "title": "VA DiscoverVA directory of state Departments of Veterans Affairs",
+        "homepage": "https://discover.va.gov/external-resources/?_resource_type=state-veterans-affairs-office"
+      },
+      "verifiedAt": "2026-08-28"
+    },
+    {
+      "id": "wisconsin-department-of-veterans-affairs",
+      "name": "Wisconsin Department of Veterans Affairs",
+      "orgType": "state-agency",
+      "jurisdiction": "WI",
+      "confidence": "scraped",
+      "website": "https://dva.wi.gov/Pages/Home.aspx",
+      "phone": "(800) 947-8387",
+      "description": "The Wisconsin Department of Veterans Affairs was created in 1945 to consolidate separate veterans programs under one agency. Today, the WDVA provides grants and a variety of services to eligible Wisconsin veterans and their families.",
+      "services": [
+        "State Veteran benefits",
+        "Claims assistance referral"
+      ],
+      "source": {
+        "id": "va-state-offices",
+        "title": "VA DiscoverVA directory of state Departments of Veterans Affairs",
+        "homepage": "https://discover.va.gov/external-resources/?_resource_type=state-veterans-affairs-office"
+      },
+      "verifiedAt": "2026-08-28"
+    },
+    {
+      "id": "wyoming-veterans-commission",
+      "name": "Wyoming Veterans Commission",
+      "orgType": "state-agency",
+      "jurisdiction": "WY",
+      "confidence": "scraped",
+      "website": "https://www.wyomilitary.wyo.gov/resources/veteran/veterans-commission/",
+      "phone": "(307) 777-8152",
+      "description": "It is an honor to serve in The Cowboy Guard. In our formations, we take care of each other in combat, within our state, or across our nation; our people are the priority. We answer our nation’s call to fight and win against any enemy and safeguard our fellow citizens. Therefore, we have two moral responsibilities; preparing The Cowboy Guard to serve as both the Sword and the Shield and caring for our Soldiers, Airmen, Civilians, and Families.",
+      "services": [
+        "State Veteran benefits",
+        "Claims assistance referral"
+      ],
+      "source": {
+        "id": "va-state-offices",
+        "title": "VA DiscoverVA directory of state Departments of Veterans Affairs",
+        "homepage": "https://discover.va.gov/external-resources/?_resource_type=state-veterans-affairs-office"
+      },
+      "verifiedAt": "2026-08-28"
+    }
+  ]
+}

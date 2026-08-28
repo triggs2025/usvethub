@@ -1,0 +1,12 @@
+{
+  "id": "zz-test-crash",
+  "title": "Deliberately broken: throws",
+  "homepage": "https://example.com/",
+  "recordType": "organization",
+  "enabled": false,
+  "timeoutMs": 15000,
+  "maxRequests": 1,
+  "notes": [
+    "Fixture for scripts/test-isolation.mjs. Deliberately broken. Never enable."
+  ]
+}

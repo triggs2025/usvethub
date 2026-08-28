@@ -1,0 +1,23 @@
+# Build output. Regenerated from data/ on every deploy, never committed.
+dist/
+
+# HTTP cache for the scrapers. Local speed aid, worthless in git.
+.cache/
+
+node_modules/
+
+# Never commit a credential. If a source ever needs an API key it belongs in
+# GitHub Actions secrets, read at run time, and never written to a file here.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# OS and editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+.idea/
+.vscode/

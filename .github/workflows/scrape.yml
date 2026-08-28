@@ -1,0 +1,86 @@
+name: Refresh data
+
+on:
+  schedule:
+    # Sundays at 09:00 UTC. Weekly is the right cadence: benefit rules change on
+    # legislative timescales, and hammering state sites daily would be rude and
+    # would get us blocked.
+    - cron: '0 9 * * 0'
+  workflow_dispatch:
+    inputs:
+      only:
+        description: 'Run a single source by id (blank runs all)'
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scrape
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Run sources
+        # No --strict. A failing source must not fail the job, because the job
+        # failing would skip the commit and throw away the 55 sources that DID
+        # work. Failures are recorded in data/reports/ and shown publicly on
+        # /data-health/ instead.
+        run: |
+          if [ -n "${{ inputs.only }}" ]; then
+            node pipeline/core/run.mjs --only "${{ inputs.only }}"
+          else
+            node pipeline/core/run.mjs
+          fi
+
+      - name: Summarize
+        if: always()
+        run: |
+          echo '## Data refresh' >> $GITHUB_STEP_SUMMARY
+          node -e "
+            const h = require('./data/reports/health.json');
+            console.log(\`| Source | Status | Records | Notes |\`);
+            console.log(\`|---|---|---|---|\`);
+            for (const s of h.sources) {
+              console.log(\`| \${s.sourceId} | \${s.status} | \${s.recordCount} | \${(s.reason||'').replace(/\|/g,' ')} |\`);
+            }
+          " >> $GITHUB_STEP_SUMMARY
+
+      - name: Commit changed data
+        run: |
+          git config user.name  'usvethub-bot'
+          git config user.email 'bot@usvethub.com'
+          git add data/published data/reports data/snapshots
+          if git diff --staged --quiet; then
+            echo 'No data changed.'
+          else
+            git commit -m 'data: weekly refresh'
+            git push
+          fi
+
+      # Fail the job AFTER committing, so a broken source is visible in the
+      # Actions tab without having blocked the good data from landing.
+      - name: Flag failing sources
+        run: |
+          node -e "
+            const h = require('./data/reports/health.json');
+            if (h.failed > 0) {
+              console.error(h.failed + ' source(s) failed. The site still built with their last good data.');
+              for (const s of h.sources.filter(s => s.status === 'failed')) {
+                console.error('  - ' + s.sourceId + ': ' + s.reason);
+              }
+              process.exit(1);
+            }
+            console.log('All ' + h.total + ' source(s) healthy.');
+          "
