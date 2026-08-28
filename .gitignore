@@ -21,3 +21,6 @@ desktop.ini
 *.swp
 .idea/
 .vscode/
+
+# Fixture residue from the isolation tests.
+data/snapshots/zz-test-*.json
