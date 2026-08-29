@@ -1,0 +1,280 @@
+[
+  {
+    "id": "pa-disabled-veterans-real-estate-tax-exemption",
+    "jurisdiction": "PA",
+    "category": "property-tax",
+    "title": "Disabled Veterans Real Estate Tax Exemption",
+    "summary": "Pennsylvania can exempt a Veteran's principal residence from real estate tax if the VA rates the Veteran 100 percent permanently disabled, unemployable, blind, paraplegic, or as having lost two or more limbs, and the State Veterans' Commission finds financial need.",
+    "amount": "Full exemption from real estate tax on the principal dwelling. There is no partial or scaled exemption.",
+    "eligibility": [
+      "Pennsylvania resident with an Honorable or Under Honorable Conditions discharge from the U.S. Armed Forces",
+      "Served during a period of war as determined by the U.S. Department of Veterans Affairs. DMVA says operation-specific or service-specific expeditionary medals can also establish wartime service",
+      "Has one of the following from the VA: 100 percent permanent service-connected disability, total disability individual unemployability, service-connected blindness, paraplegia, or loss of two or more limbs",
+      "The property is the principal dwelling and is owned solely by the Veteran, jointly with a spouse, or as an estate by the entirety",
+      "The State Veterans' Commission must determine that the Veteran has financial need",
+      "An unmarried surviving spouse may continue to receive the exemption if the Commission determines need"
+    ],
+    "details": [
+      "The need test works off a published income level. The statute sets a presumption of need at $75,000 or less and directs that the figure be adjusted for changes in the Consumer Price Index and published in the Pennsylvania Bulletin. DMVA states the adjusted presumptive need level is $114,637 as of January 1, 2025. Confirm the current figure with your County Director of Veterans Affairs before relying on it.",
+      "If your household income is above the presumptive level you are not automatically disqualified. You must instead document that your monthly allowable expenses exceed your monthly household income.",
+      "You apply through the County Director of Veterans Affairs in the county where you live, not directly to the state.",
+      "Under the statute the county assessment board grants the exemption once the State Veterans' Commission certifies eligibility, and the Commission reviews exemptions periodically. Denials may be appealed to the Adjutant General.",
+      "DMVA asks that general questions go to Ra-retx@pa.gov, and that completed applications and personal information not be sent by email."
+    ],
+    "agency": "Pennsylvania Department of Military and Veterans Affairs, with the State Veterans' Commission and county assessment offices",
+    "statuteRef": "51 Pa.C.S. Ch. 89 (sections 8901 to 8906)",
+    "officialUrl": "https://www.pa.gov/agencies/dmva/pennsylvania-veterans/pa-vetconnect/state-veterans-programs/financial-assistance/retx",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "pa-educational-gratuity-program",
+    "jurisdiction": "PA",
+    "category": "education",
+    "title": "Educational Gratuity Program for children of disabled or deceased Veterans",
+    "summary": "Pennsylvania pays a per-semester gratuity directly to an approved Pennsylvania school for the child of a wartime Veteran who is rated 100 percent permanently and totally disabled or who died in service or from a service-connected disability.",
+    "amount": "Up to $500 per term or semester per qualified child, paid directly to the approved educational institution. Payments run no longer than four scholastic years, which DMVA describes as eight payments.",
+    "eligibility": [
+      "The child is between 16 and 23 years of age. The statute allows payments to continue past 23 if the child is still completing the course of study",
+      "The child has lived in Pennsylvania for the five years immediately before applying",
+      "The child attends an approved educational institution located in Pennsylvania",
+      "The child demonstrates financial need",
+      "The Veteran parent had an Honorable or Under Honorable Conditions discharge and served during a period of war or armed conflict, and is rated 100 percent permanent and total service-connected disabled by the VA",
+      "Alternatively, the Veteran parent died in service during a period of war or armed conflict, or died as a result of a service-connected disability"
+    ],
+    "details": [
+      "The money goes to the school, not to the student or the family.",
+      "DMVA lists the documents to bring: the Veteran's DD214 or military death certificate, the applicant's birth certificate, photo identification, and proof of five years of Pennsylvania residency.",
+      "You apply through the County Director of Veterans Affairs in the county where you live.",
+      "The statute lets the department adjust the per-term amount to stay within the appropriation, so the payment can be less than the maximum.",
+      "DMVA points applicants to the VA WEAMS tool to check whether a Pennsylvania school is approved. General questions go to Ra-eg@pa.gov, and personal information should not be emailed."
+    ],
+    "agency": "Pennsylvania Department of Military and Veterans Affairs",
+    "statuteRef": "51 Pa.C.S. Ch. 87 (sections 8701 to 8703)",
+    "officialUrl": "https://www.pa.gov/agencies/dmva/pennsylvania-veterans/pa-vetconnect/state-veterans-programs/financial-assistance/educational-gratuity-program",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "pa-veterans-temporary-assistance",
+    "jurisdiction": "PA",
+    "category": "financial",
+    "title": "Veterans' Temporary Assistance for a short-term financial emergency",
+    "summary": "Pennsylvania offers a limited cash grant to a Veteran or an unmarried surviving spouse who temporarily cannot afford the necessities of life. It covers food, shelter, fuel, and clothing only, and it is meant for a documented immediate emergency.",
+    "amount": "Up to $1,600 in a 12-month period, per DMVA. The statute itself sets no dollar figure. It caps assistance at the established maximum or the documented amount of need, whichever is less.",
+    "eligibility": [
+      "Honorable discharge from the U.S. Armed Forces documented by a DD Form 214, or died in service or killed in action, or has a service-connected disability certified by the VA",
+      "Eligible applicants are the Veteran or the unmarried surviving spouse of a deceased Veteran",
+      "Bona fide Pennsylvania resident who does not maintain legal residence in another state",
+      "Temporarily unable to afford the necessities of life because of loss of income, assets, or support due to sickness, disability, unemployment, or natural or manmade disaster",
+      "Not receiving sufficient assistance from another state or federal agency",
+      "Must show a clear and present direct and immediate need"
+    ],
+    "details": [
+      "The grant is restricted to food, shelter, fuel, and clothing. It is not general-purpose cash.",
+      "The statute prohibits paying assistance in the form of relief orders, and lets the department scale amounts to the money available in the fund.",
+      "DMVA lists the supporting documents: DD Form 214, proof of residency, documentation of the loss of employment or income, proof of other benefits and income, and receipts for the expenses.",
+      "You apply through the County Director of Veterans Affairs in the county where you live. A denial can be appealed to the Adjutant General.",
+      "General questions go to Ra-vta@pa.gov. DMVA asks that completed applications and personal information not be emailed."
+    ],
+    "agency": "Pennsylvania Department of Military and Veterans Affairs",
+    "statuteRef": "51 Pa.C.S. Ch. 85 (sections 8501 to 8505)",
+    "officialUrl": "https://www.pa.gov/agencies/dmva/pennsylvania-veterans/pa-vetconnect/state-veterans-programs/financial-assistance/benefits--veterans-temporary-assistance",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "pa-blind-veterans-pension",
+    "jurisdiction": "PA",
+    "category": "financial",
+    "title": "Blind Veterans Pension",
+    "summary": "Pennsylvania pays a state pension to a Veteran whose service-connected injury or disease caused blindness. The statute says it is paid in addition to any other assistance the Veteran receives from the Commonwealth or the federal government.",
+    "amount": "$150 per month, in addition to other Commonwealth and federal assistance",
+    "eligibility": [
+      "Was a resident of Pennsylvania upon entering military service and listed Pennsylvania as the residence on enlistment",
+      "Honorable or Under Honorable Conditions discharge. A dishonorable discharge disqualifies the applicant",
+      "A service-connected injury or disease resulted in loss of vision",
+      "Visual acuity with correcting lenses of 3/60 or 10/200 or the equivalent, or less, in the better eye, or the visual field of the better eye is contracted to not greater than 20 degrees"
+    ],
+    "details": [
+      "The Adjutant General determines eligibility and the decision is final under the statute.",
+      "You apply through the County Director of Veterans Affairs in the county where you live.",
+      "DMVA lists the documents that speed processing: a copy of the DD214, proof of Pennsylvania residency at entry into military service, and the U.S. Department of Veterans Affairs decision letter.",
+      "General questions go to RA-MVVeteransPension@pa.gov. Completed applications and personal information should not be emailed."
+    ],
+    "agency": "Pennsylvania Department of Military and Veterans Affairs",
+    "statuteRef": "51 Pa.C.S. section 7701",
+    "officialUrl": "https://www.pa.gov/agencies/dmva/pennsylvania-veterans/pa-vetconnect/state-veterans-programs/financial-assistance/blind-veterans-pension",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "pa-amputee-paralyzed-veterans-pension",
+    "jurisdiction": "PA",
+    "category": "health",
+    "title": "Amputee and Paralyzed Veterans Pension",
+    "summary": "Pennsylvania pays a state pension to a Veteran who lost, or lost the use of, two or more extremities because of a service-connected injury or disease. It is paid on top of other Commonwealth and federal assistance.",
+    "amount": "$150 per month, in addition to other Commonwealth and federal assistance",
+    "eligibility": [
+      "Was a Pennsylvania resident upon entering military service and listed the Commonwealth as the residence on enlistment",
+      "Honorable or Under Honorable Conditions discharge. A dishonorable discharge disqualifies the applicant",
+      "A service-connected injury or disease resulted in the loss, or the permanent and severe or complete paralysis, of two or more limbs",
+      "At least a 40 percent disability compensation rating in each of the affected limbs, as certified by the U.S. Department of Veterans Affairs"
+    ],
+    "details": [
+      "The Adjutant General determines eligibility and issues the implementing regulations.",
+      "You apply through the County Director of Veterans Affairs in the county where you live.",
+      "DMVA lists the documents that speed processing: a copy of the DD214, proof of Pennsylvania residency at entry into military service, and the U.S. Department of Veterans Affairs decision letter.",
+      "DMVA cites 51 Pa. Consolidated Statutes Chapter 77 and 43 Pa. Code Chapter 5 as the legal authority.",
+      "General questions go to RA-MVVeteransPension@pa.gov. Completed applications and personal information should not be emailed."
+    ],
+    "agency": "Pennsylvania Department of Military and Veterans Affairs",
+    "statuteRef": "51 Pa.C.S. section 7702",
+    "officialUrl": "https://www.pa.gov/agencies/dmva/pennsylvania-veterans/pa-vetconnect/state-veterans-programs/financial-assistance/amputee-and-paralyzed-veterans-pension",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "pa-military-pay-income-tax-treatment",
+    "jurisdiction": "PA",
+    "category": "income-tax",
+    "title": "How Pennsylvania taxes military pay and military retired pay",
+    "summary": "Pennsylvania does not tax federal active duty pay earned outside the state, and does not tax military retired or retainer pay. Military service performed inside Pennsylvania by a Pennsylvania resident is generally taxable compensation.",
+    "amount": "Retired or retainer pay is exempt from PA personal income tax. Active duty pay earned outside Pennsylvania is not taxable. Active duty pay for service performed inside Pennsylvania is taxable, with a narrow emergency exception.",
+    "eligibility": [
+      "You are a Pennsylvania resident filing a PA personal income tax return",
+      "For the out-of-state exclusion, the pay must be for federal active duty or federal active duty for training performed outside Pennsylvania"
+    ],
+    "details": [
+      "The Department of Revenue states that military pay received while on federal active duty or federal active duty for training outside Pennsylvania is not taxable. Revenue asks that copies of military orders be submitted with the return to document the out-of-state duty.",
+      "Income received by a Pennsylvania resident for military service performed inside Pennsylvania is taxable even if the member is on federal active duty or active duty for training, unless it is active military duty within Pennsylvania for an emergency under 35 Pa.C.S. Ch. 76.",
+      "Reservists and National Guard members on federal active duty for training under Title 10 or Title 32 follow the same rule. Compensation for weekend drills performed inside Pennsylvania remains taxable.",
+      "The PA Personal Income Tax Guide states that retired or retainer pay of a member or former member of a uniformed service calculated under Chapter 71 of Title 10, U.S. Code, is exempt from PA personal income tax.",
+      "The same guide excludes from taxable compensation a disability pension, disability annuity, or similar allowance for physical injuries or sickness resulting from active service in the armed forces of the United States.",
+      "Revenue states that hazardous duty pay or pay earned in a combat zone is not included in eligibility income for Tax Forgiveness, and that a Pennsylvania resident serving in a combat zone gets an automatic filing extension matching the federal one, up to 180 days from the last day of service."
+    ],
+    "agency": "Pennsylvania Department of Revenue",
+    "officialUrl": "https://www.pa.gov/en/agencies/revenue/resources/tax-types-and-information/personal-income-tax/military-pay.html",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "pa-veterans-preference-public-employment",
+    "jurisdiction": "PA",
+    "category": "employment",
+    "title": "Veterans' preference in Pennsylvania public employment",
+    "summary": "Pennsylvania adds 10 points to a Veteran's passing civil service examination score and requires appointing authorities to give preference to a qualified Veteran on the eligible list. The same preference extends to certain spouses and surviving spouses.",
+    "amount": "10 additional points added to a passing civil service examination score, which then sets the Veteran's standing on the eligible list",
+    "eligibility": [
+      "Served in the armed forces of the United States, including a reserve component or the National Guard",
+      "Completed the initial contractual military service obligation",
+      "Last discharge or release was under conditions other than dishonorable",
+      "A member still on active duty may qualify within 90 days of an approved discharge after three or more years of service",
+      "Service is documented by a DD214, DD215, or NGB-22, or by a statement of service",
+      "A surviving spouse of a deceased service member, and the spouse of a Veteran the VA has classified as having a permanent total disability, receive the same preference"
+    ],
+    "details": [
+      "Two separate things happen. Section 7103 adds the 10 examination points for civil service appointments. Section 7104 requires an appointing authority filling a non-civil-service public position to give preference to a qualified Veteran.",
+      "The State Civil Service Commission states that appointing authorities must grant preference to a Veteran on the eligible list notwithstanding the Veteran's standing on that list, provided proper procedures are followed.",
+      "Section 7105 directs that military training and experience be counted as the equivalent of formal education when qualifications are assessed.",
+      "Chapter 71 also provides that age and a non-incapacitating physical impairment cannot disqualify an otherwise qualified Veteran, and that years of military service count toward seniority.",
+      "Chapter 71 is the exclusive Veterans' preference law for the Commonwealth, so it applies to Commonwealth and municipal public positions alike.",
+      "The Governor's Office of Administration handles preference questions at 717-783-6655 and ra-cs-vetpreference@pa.gov."
+    ],
+    "agency": "Pennsylvania State Civil Service Commission and the Governor's Office of Administration",
+    "statuteRef": "51 Pa.C.S. Ch. 71 (sections 7101 to 7111), especially sections 7103, 7104, 7105, and 7108",
+    "officialUrl": "https://www.pa.gov/agencies/scsc/veterans",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "pa-veteran-free-vehicle-registration",
+    "jurisdiction": "PA",
+    "category": "vehicle",
+    "title": "Free vehicle registration and Veterans designation on a PA driver license",
+    "summary": "PennDOT waives registration and title fees on one vehicle for Veterans in several specific categories, including Purple Heart and Medal of Honor recipients and former prisoners of war. Pennsylvania also lets a Veteran add a Veterans designation to a driver license.",
+    "amount": "Registration and title fees are waived on one passenger vehicle or truck weighing 9,000 pounds or less. License plate fees still apply.",
+    "eligibility": [
+      "Lost a limb, lost an eye, or became partially paralyzed while serving in the U.S. Armed Forces",
+      "Was captured by the enemy in an armed conflict for which the Department of Defense authorizes a campaign medal",
+      "Was awarded the Congressional Medal of Honor",
+      "Was awarded the Purple Heart"
+    ],
+    "details": [
+      "The waiver covers one passenger vehicle or truck of 9,000 pounds or less. Plate fees are not waived.",
+      "The application is PennDOT form MV-371DV, which carries the full eligibility list and the required documentation.",
+      "Separately, PennDOT lets a Veteran add a Veterans designation to a standard driver license or to a commercial driver license.",
+      "PennDOT also offers military special registration plates, a military status endorsement for active duty members, a military CDL skills test waiver, and a process to register a vehicle in Pennsylvania while assigned out of state or deployed overseas.",
+      "PennDOT separately issues Severely Disabled Veteran parking placards. For those, the disability must be service-connected and certified by the U.S. Department of Veterans Affairs Regional Office Administrator in Philadelphia or Pittsburgh, and PennDOT accepts VA letters showing a 100 percent service-connected disability."
+    ],
+    "agency": "PennDOT Driver and Vehicle Services",
+    "officialUrl": "https://www.pa.gov/services/dmv/apply-for-free-registration-for-eligible-veterans",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "pa-disabled-veteran-hunting-furtaker-license",
+    "jurisdiction": "PA",
+    "category": "recreation",
+    "title": "Free and reduced-fee hunting and furtaker licenses for disabled Veterans",
+    "summary": "A Pennsylvania resident Veteran whose wartime disability includes the loss or loss of use of a limb, or who is rated 100 percent disabled by the VA, gets a free hunting or furtaking license. Veterans rated 60 to 99 percent get one at a reduced fee.",
+    "amount": "No charge for the resident disabled Veteran hunting and furtaker licenses. For a 60 to 99 percent rating the statute sets a $1 license. The Game Commission publishes the reduced disabled Veteran hunting and furtaker license at $2.97.",
+    "eligibility": [
+      "Pennsylvania resident who is a Veteran of a war or armed conflict, with a service-incurred disability",
+      "Free license: the disability consists of the loss of one or more limbs, or the loss of the use of one or more limbs, or the Veteran is 100 percent disabled as certified by the U.S. Department of Veterans Affairs",
+      "Reduced-fee license: a disability rating between 60 and 99 percent as certified by the U.S. Department of Veterans Affairs",
+      "The applicant must otherwise qualify and be mentally and physically fit to hunt",
+      "The application must state that the applicant is a war or armed conflict Veteran and that the qualifying disability was service incurred"
+    ],
+    "details": [
+      "You apply to the Game Commission or to a county treasurer. The issuing agent or the Commission may require the applicant's discharge papers.",
+      "A Veteran whose qualifying disability is permanent may obtain a lifetime license. The Game Commission lists the resident disabled Veteran lifetime hunting and furtaker licenses, and their renewals, at no charge, and says the lifetime licenses are issued through county treasurers only.",
+      "The Game Commission lists a disabled Veteran license replacement at $6.97.",
+      "A former prisoner of war may buy a resident hunting license for $1 plus the current issuing fee under the same statute. The Game Commission publishes the prisoner of war hunting license at $2.97.",
+      "The Game Commission also publishes resident military, National Guard, and reserves hunting licenses at $2.97."
+    ],
+    "agency": "Pennsylvania Game Commission, and county treasurers",
+    "statuteRef": "34 Pa.C.S. section 2706",
+    "officialUrl": "https://www.pa.gov/agencies/pgc/huntingandtrapping/licenses-and-permits/license-types",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "pa-disabled-veteran-fishing-license",
+    "jurisdiction": "PA",
+    "category": "license-fee",
+    "title": "Free and reduced-fee fishing licenses for disabled Veterans",
+    "summary": "A Pennsylvania resident Veteran rated 100 percent service-connected disabled can get a free disabled Veteran lifetime fishing license. A Veteran rated 60 to 99 percent can get a resident fishing license at a reduced fee set by statute at $1.",
+    "amount": "Free lifetime fishing license at a 100 percent rating, plus a free Combination Trout and Lake Erie Permit. The statute sets the license at $1 for a 60 to 99 percent rating.",
+    "eligibility": [
+      "Pennsylvania resident",
+      "Service-connected disability certified by the U.S. Department of Veterans Affairs",
+      "Free lifetime license: rated 100 percent disabled by the VA",
+      "Reduced-fee license: rated 60 to 99 percent disabled by the VA",
+      "A former prisoner of war certified by the appropriate branch of the armed forces may also obtain a resident fishing license for $1 under the same statute"
+    ],
+    "details": [
+      "The Fish and Boat Commission states that a Veteran who qualifies for the free license is also issued a Combination Trout and Lake Erie Permit free of charge.",
+      "The first license must be obtained in person from a county treasurer, the Fish and Boat Commission's Harrisburg office, or one of the six regional law enforcement offices.",
+      "Bring proof of Pennsylvania residency, such as a driver license or other documentation of domicile, and written certification from the U.S. Department of Veterans Affairs confirming the service-connected disability rating.",
+      "After the first verification, annual renewals can be obtained from any issuing agent or online at huntfish.pa.gov."
+    ],
+    "agency": "Pennsylvania Fish and Boat Commission, and county treasurers",
+    "statuteRef": "30 Pa.C.S. section 2707",
+    "officialUrl": "https://www.pa.gov/services/fishandboat/apply-for-fishing-license-disabled-veteran",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "pa-state-veterans-homes",
+    "jurisdiction": "PA",
+    "category": "housing",
+    "title": "Pennsylvania Veterans Homes long-term care admission",
+    "summary": "Pennsylvania runs six state Veterans Homes offering long-term care. Veterans, their spouses, and surviving spouses may apply. Residents pay a monthly maintenance fee set according to their ability to pay.",
+    "eligibility": [
+      "Served in the U.S. Armed Forces or the Pennsylvania Military Forces and was discharged under honorable conditions",
+      "Had Pennsylvania as the home of record upon entry into military service, or is a bona fide Pennsylvania resident. Current Pennsylvania residents receive priority in admissions",
+      "Spouses of eligible Veterans and surviving spouses of eligible Veterans may also apply"
+    ],
+    "details": [
+      "The six homes are the Delaware Valley Veterans' Home in Philadelphia County, the Gino J. Merli Veterans' Center in Lackawanna County, the Hollidaysburg Veterans' Home in Blair County, the Pennsylvania Soldiers' and Sailors' Home in Erie County, the Southeastern Veterans' Center in Chester County, and the Southwestern Veterans' Center in Allegheny County.",
+      "A resident makes monthly payments against maintenance fee liability in accordance with the resident's ability to pay.",
+      "Admissions are first come, first served, and an admissions committee determines the level of care needed. A decision may be appealed.",
+      "DMVA lists conditions that make an applicant ineligible, including a need for mental health care or custody, behavior that threatens the applicant or others, a need for treatment the home cannot provide, unresolved alcoholism or substance abuse, contagious disease, and a felony conviction unless the applicant shows good character and has been conviction-free for at least five years after incarceration.",
+      "The homes state that they provide varying levels of care, so confirm which level a specific home offers before applying."
+    ],
+    "agency": "Pennsylvania Department of Military and Veterans Affairs",
+    "officialUrl": "https://www.pa.gov/agencies/dmva/pa-veterans-homes/eligibility",
+    "confidence": "needs-review"
+  }
+]

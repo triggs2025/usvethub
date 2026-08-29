@@ -99,6 +99,7 @@ catches a source site redesign before it wipes a state's page.
   meaning is not.
 - **No em dashes** anywhere, in code comments, copy, or replies. Period, comma,
   colon, or middot. `cleanText()` normalizes them out of scraped data.
+- **Expect state AGENCY sites to block automated fetching, and cite the statute instead.** Confirmed across eight states: dvs.az.gov, azdor.gov, floridavets.org, ftb.ca.gov, calvet.ca.gov, dvs.virginia.gov, dvs.ohio.gov and others all refuse. Legislature sites reliably do not. Statute is the better citation anyway: authoritative, stable, and it does not change wording in a redesign.
 - **Prefer an official API over scraping a page.** `va-state-offices` uses
   discover.va.gov's WordPress REST API instead of parsing the rendered page. It
   is one request instead of thirty and it does not break on a redesign.
