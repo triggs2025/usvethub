@@ -64,15 +64,71 @@ destroy the trust the entire project depends on.
 Draft. Publish it publicly at `/advertising/` before the first ad runs, so it is
 a commitment rather than an intention.
 
-**We will not accept advertising from:**
+Revised 2026-08-29 after Tony pushed back on a blanket ban on paid claims
+help, and he was right to. The earlier draft said "nobody who charges a fee".
+That is too blunt, and it would have excluded lawyers Veterans genuinely need
+when they are fighting a denial.
 
-- Anyone charging Veterans a fee or a percentage to prepare, file, or appeal a
-  VA claim. Accredited representation is free by law.
-- Unaccredited claim agents and "claim consultants" generally.
-- For-profit education lead generation targeting GI Bill benefits.
+### Paid claims help: the line is legal, not editorial
+
+Federal law already draws this line, which means we do not have to invent one
+and cannot be argued out of it.
+
+- **Only VA-accredited attorneys and claims agents may charge a fee at all.**
+  38 U.S.C. 5904 and 38 CFR 14.636.
+- **They may only charge for work done after VA has issued a decision** on the
+  initial claim. Charging for an initial claim is prohibited, accredited or not.
+- **Accredited VSO representatives are always free.** Never paid, by anyone.
+- A fee agreement over 20 percent of past-due benefits is one VA will not pay
+  directly, which is a signal worth noticing.
+
+So there is a legitimate paid lane: an accredited attorney representing a
+Veteran on an appeal after a denial. That is real work, often genuinely
+necessary, and refusing to let those advertisers reach Veterans would not
+protect anyone.
+
+**The predator is not "someone who charges". It is someone charging for an
+initial claim, or someone charging without accreditation.** Both are unlawful.
+
+### What an advertiser in this category must produce
+
+Any advertiser whose `advertiserCategory` is `claims-representation` is
+approved only after ALL of the following. The schema will not validate a sponsor
+record without them.
+
+1. **VA accreditation number**, verified against the VA Office of General
+   Counsel accreditation search. Record the date it was checked.
+2. **A live interview** with Tony. Not a form submission. Record who conducted
+   it and when.
+3. **LinkedIn, Facebook or business page, and a direct contact name.** An
+   advertiser unwilling to be identifiable is telling you something.
+4. **Confirmation in writing that they do not charge for initial claims.**
+5. **Their creative must not imply** that paying is necessary, faster, or that
+   free accredited help is inferior.
+
+Re-verify accreditation at every renewal. Accreditation can be revoked, and a
+lapsed one is exactly the case worth catching.
+
+**We will still not accept advertising from:**
+
+- Anyone charging for an **initial** VA claim. This is unlawful, not merely
+  distasteful, and no interview makes it acceptable.
+- Anyone charging a fee for claims work **without VA accreditation**.
 - Pension poaching, structured settlement buyouts, or anyone offering a lump sum
   in exchange for future benefit payments.
 - Anything requiring a payday-style APR disclosure.
+- For-profit education lead generation targeting GI Bill benefits.
+
+### Why the bar is higher now that this is a for-profit
+
+Decided 2026-08-29: USVetHub is a for-profit company. That cuts against us here
+and it is worth being honest about.
+
+A nonprofit turning down a lucrative advertiser looks principled. A for-profit
+doing it is giving up money it wanted. That is precisely why the rule has to be
+written down, tied to an objective federal test, and enforced by a schema that
+refuses the record, rather than left to a judgement call made in a month where
+revenue is short.
 
 **Every paid placement is labeled "Sponsored"** in text, adjacent to the
 creative, not only in a corner badge.

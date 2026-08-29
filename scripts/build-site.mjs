@@ -171,9 +171,14 @@ const filterBar = ({ target, label, placeholder, chips = [] }) => html`
  * own origin because a hotlinked image can be swapped after we approved it.
  */
 function sponsorSlot(slot, jurisdictionCode = null) {
-  const live = sponsors.find(
-    (s) => s.slot === slot && (slot !== 'jurisdiction' || s.jurisdiction === jurisdictionCode),
-  );
+  // A sponsor with no jurisdictions listed is a national buy and runs
+  // everywhere. One record covers fifty states rather than fifty records.
+  const live = sponsors.find((s) => {
+    if (s.slot !== slot) return false;
+    if (slot !== 'jurisdiction') return true;
+    if (!s.jurisdictions || s.jurisdictions.length === 0) return true;
+    return s.jurisdictions.includes(jurisdictionCode);
+  });
   if (!live) return '';
 
   return html`
