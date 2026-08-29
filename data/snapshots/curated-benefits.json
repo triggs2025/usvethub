@@ -2,6 +2,151 @@
   "sourceId": "curated-benefits",
   "recordType": "benefit",
   "jurisdiction": null,
-  "generatedAt": "2026-08-28T21:59:09.911Z",
-  "records": []
+  "generatedAt": "2026-08-29T04:08:19.522Z",
+  "records": [
+    {
+      "id": "az-disabled-veteran-hunting-fishing-license",
+      "jurisdiction": "AZ",
+      "category": "recreation",
+      "title": "Free or reduced-fee hunting and fishing license",
+      "summary": "Arizona gives a complimentary hunting and fishing license to Veterans with a permanent 100 percent service-connected disability, and a reduced-fee license to Veterans with a lower service-connected rating. One year of Arizona residency is required either way.",
+      "amount": "Free at a permanent 100 percent rating. Up to 25 percent off the full license fee for a lower service-connected rating.",
+      "eligibility": [
+        "You have lived in Arizona for one year or more immediately before you apply",
+        "You receive US government compensation for a service-connected disability",
+        "A permanent service-connected disability rated 100 percent disabling qualifies for a complimentary license",
+        "Any other service-connected disability qualifies for a license at up to 25 percent below the full fee"
+      ],
+      "details": [
+        "The one-year Arizona residency requirement applies to both versions and is separate from your VA rating.",
+        "Issued by the Arizona Game and Fish Department, which asks for a copy of your VA benefits letter.",
+        "If the VA certifies your 100 percent rating as permanent and not subject to reevaluation, you do not have to recertify at renewal."
+      ],
+      "agency": "Arizona Game and Fish Department",
+      "statuteRef": "A.R.S. 17-333",
+      "officialUrl": "https://www.azleg.gov/ars/17/00333.htm",
+      "confidence": "verified",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "az-disabled-veteran-property-tax-exemption",
+      "jurisdiction": "AZ",
+      "category": "property-tax",
+      "title": "Property tax exemption for Veterans with a service-connected disability",
+      "summary": "If the VA rates you 100 percent service-connected disabled, your property is fully exempt from Arizona property tax. Below 100 percent, you get a partial exemption scaled to your rating.",
+      "amount": "Full exemption at a 100 percent rating. Below that, a set amount multiplied by your VA disability percentage.",
+      "eligibility": [
+        "You are a Veteran discharged, separated, or released under honorable conditions from the uniformed services",
+        "The VA has assigned you a service-connected disability rating",
+        "A 100 percent rating exempts the property entirely",
+        "Below 100 percent, the exemption is the statutory amount multiplied by your rating percentage",
+        "Income and property assessment limits apply, and both are adjusted every year"
+      ],
+      "details": [
+        "The statute sets a base exemption amount of $4,188, which the Arizona Department of Revenue adjusts every year for inflation. The current year's figure is higher than the number written in the statute, so confirm the exact amount with your county assessor before you rely on it.",
+        "This is claimed through your county assessor, not through the state. Deadlines are set at the county level.",
+        "Arizona has amended this exemption more than once in recent sessions, including changes to how it applies to a primary residence at a 100 percent rating. Check the current statute text if your situation is close to the line."
+      ],
+      "agency": "Arizona Department of Revenue, administered by county assessors",
+      "statuteRef": "A.R.S. 42-11111",
+      "officialUrl": "https://www.azleg.gov/ars/42/11111.htm",
+      "confidence": "verified",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "az-military-retirement-pay-tax-exemption",
+      "jurisdiction": "AZ",
+      "category": "income-tax",
+      "title": "Military retirement pay is fully exempt from Arizona income tax",
+      "summary": "Arizona does not tax military retired or retainer pay. Since the 2021 tax year the full amount is subtracted from your Arizona gross income, with no cap.",
+      "amount": "The full amount received, no cap, for tax years from 2021 onward",
+      "eligibility": [
+        "You receive retired or retainer pay from the uniformed services of the United States",
+        "Uniformed services includes the US military, the Public Health Service Commissioned Corps, and the NOAA Commissioned Officer Corps",
+        "There is no disability rating requirement and no income test"
+      ],
+      "details": [
+        "The cap was removed in stages. Through 2018 the subtraction was capped at $2,500, for 2019 and 2020 it was $3,500, and from the 2021 tax year onward it is the full amount received.",
+        "This is a subtraction on your Arizona return, so you have to claim it. It is not automatic.",
+        "Arizona separately does not tax active duty military pay."
+      ],
+      "agency": "Arizona Department of Revenue",
+      "statuteRef": "A.R.S. 43-1022(26)",
+      "officialUrl": "https://www.azleg.gov/ars/43/01022.htm",
+      "confidence": "verified",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "az-purple-heart-tuition-waiver",
+      "jurisdiction": "AZ",
+      "category": "education",
+      "title": "Tuition waiver scholarship at Arizona public colleges and universities",
+      "summary": "Arizona waives tuition at its public universities and community colleges for Purple Heart recipients rated at least 50 percent disabled, and for the children and surviving spouses of service members killed in the line of duty.",
+      "amount": "Full tuition. Up to 64 credit hours at a community college, or the credits required for a bachelor's degree at a university.",
+      "eligibility": [
+        "Purple Heart recipient from the US armed forces with a VA disability rating of 50 percent or more",
+        "Or a National Guard member awarded a Purple Heart after September 11, 2001",
+        "Or the child, age 30 or younger, or the unmarried surviving spouse of a service member or first responder killed in the line of duty or who died of line-of-duty injuries",
+        "Or the child or unmarried surviving spouse of an Arizona resident Veteran or service member who suffered a post-traumatic stress injury in the line of duty and died by suicide",
+        "Purple Heart recipients with a felony conviction are not eligible"
+      ],
+      "details": [
+        "The same statute also covers dependents of peace officers, firefighters, correctional officers, emergency paramedics, and National Guard members killed in the line of duty.",
+        "Apply through the financial aid office of the Arizona public university or community college you plan to attend."
+      ],
+      "agency": "Arizona Board of Regents and the community college districts",
+      "statuteRef": "A.R.S. 15-1808",
+      "officialUrl": "https://www.azleg.gov/ars/15/01808.htm",
+      "confidence": "verified",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "az-vehicle-license-tax-exemption",
+      "jurisdiction": "AZ",
+      "category": "vehicle",
+      "title": "Vehicle license tax and registration fee exemption",
+      "summary": "Veterans certified by the VA at 100 percent disability and drawing compensation on that basis pay no vehicle license tax and no registration fees on one vehicle.",
+      "amount": "No vehicle license tax and no registration fees on one vehicle",
+      "eligibility": [
+        "The VA has certified you as 100 percent disabled and you are drawing compensation on that basis",
+        "Covers one personally owned vehicle, or a vehicle you own with another party, and any replacement of it",
+        "You must show satisfactory proof of the certification when you first register the vehicle",
+        "A surviving spouse keeps the exemption until remarriage or death"
+      ],
+      "details": [
+        "This covers one vehicle at a time. Replacing that vehicle carries the exemption over; adding a second vehicle does not.",
+        "Handled by the Arizona Department of Transportation Motor Vehicle Division at registration."
+      ],
+      "agency": "Arizona Department of Transportation, Motor Vehicle Division",
+      "statuteRef": "A.R.S. 28-5802",
+      "officialUrl": "https://www.azleg.gov/ars/28/05802.htm",
+      "confidence": "verified",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    }
+  ]
 }

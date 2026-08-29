@@ -12,7 +12,7 @@ import { join } from 'node:path';
 import { readJson } from '../pipeline/core/registry.mjs';
 import { layout, esc, escUrl, html, SITE, SITE_URL } from '../src/lib/html.mjs';
 import {
-  loadAll, isStale, daysSince, STALE_AFTER_DAYS, ORG_TYPE_LABELS, CATEGORY_LABELS,
+  loadAll, isStale, daysSince, STALE_AFTER_DAYS, ORG_TYPE_LABELS, CATEGORY_LABELS, CATEGORIES,
 } from '../src/lib/data.mjs';
 
 const OUT = join(process.cwd(), 'dist');
@@ -62,10 +62,17 @@ function orgCard(org) {
 function benefitCard(benefit) {
   return html`<article class="card">
     <h3>${esc(benefit.title)}</h3>
-    <p class="tag">${esc(CATEGORY_LABELS[benefit.category] ?? benefit.category)}${benefit.amount ? html` · ${esc(benefit.amount)}` : ''}</p>
+    <p class="tag">${esc(CATEGORY_LABELS[benefit.category] ?? benefit.category)}</p>
+    ${benefit.amount ? html`<p class="amount">${esc(benefit.amount)}</p>` : ''}
     <p>${esc(benefit.summary)}</p>
     ${benefit.eligibility?.length
       ? html`<details><summary>Who qualifies</summary><ul>${benefit.eligibility.map((e) => html`<li>${esc(e)}</li>`)}</ul></details>`
+      : ''}
+    ${benefit.details?.length
+      ? html`<details><summary>What else to know</summary>${benefit.details.map((d) => html`<p>${esc(d)}</p>`)}</details>`
+      : ''}
+    ${benefit.statuteRef || benefit.agency
+      ? html`<p class="admin">${[benefit.agency, benefit.statuteRef].filter(Boolean).map(esc).join(' · ')}</p>`
       : ''}
     <p class="contact">
       <a href="${escUrl(benefit.officialUrl)}" rel="noopener">Official page</a>
@@ -247,11 +254,31 @@ for (const j of jurisdictions) {
 
       <section>
         <h2>Benefits and programs</h2>
-        ${byCategory.size
-          ? [...byCategory.entries()].sort((a, b) => a[0].localeCompare(b[0])).map(([category, list]) => html`
-              <h3 class="cat">${esc(CATEGORY_LABELS[category] ?? category)}</h3>
-              <div class="grid two">${list.map(benefitCard)}</div>`)
-          : empty('benefit information', j.name)}
+
+        <p class="lede">Every category below appears on every state and territory page, so you always
+        know what to look for. A category with nothing in it means we have not published it for
+        ${esc(j.name)} yet, not that ${esc(j.name)} offers nothing.</p>
+
+        <ul class="cat-index">
+          ${CATEGORIES.map((category) => {
+            const count = byCategory.get(category.key)?.length ?? 0;
+            return count
+              ? html`<li><a href="#cat-${esc(category.key)}"><strong>${esc(category.label)}</strong><small>${esc(count)}</small></a></li>`
+              : html`<li class="is-empty"><span><strong>${esc(category.label)}</strong><small>none yet</small></span></li>`;
+          })}
+        </ul>
+
+        ${CATEGORIES.map((category) => {
+          const list = byCategory.get(category.key) ?? [];
+          return html`
+            <section class="cat-section${list.length ? '' : ' is-empty'}" id="cat-${esc(category.key)}">
+              <h3 class="cat">${esc(category.label)}</h3>
+              <p class="cat-blurb">${esc(category.blurb)}</p>
+              ${list.length
+                ? html`<div class="grid two">${list.map(benefitCard)}</div>`
+                : html`<p class="cat-none">Nothing published for ${esc(j.name)} yet.</p>`}
+            </section>`;
+        })}
       </section>
 
       <section>

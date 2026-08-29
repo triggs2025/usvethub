@@ -206,11 +206,30 @@ h2 small { font-weight: 400; color: var(--muted); font-size: 0.7em; }
   color: var(--muted); margin: 0 0 10px; font-weight: 600;
 }
 .card p { margin: 0 0 10px; }
+/* The dollar figure is the first thing most people look for, so give it weight.
+   Kept out of .tag on purpose: .tag is uppercased, and a full sentence of
+   uppercase text is unreadable. */
+.card .amount {
+  font-weight: 700;
+  color: var(--navy-soft);
+  border-left: 3px solid var(--gold);
+  padding-left: 11px;
+  margin-bottom: 12px;
+}
+/* Navy on a dark surface is unreadable, so the amount switches to the gold. */
+@media (prefers-color-scheme: dark) {
+  .card .amount { color: var(--gold-bright); }
+  .cat-index small { background: var(--gold); color: #17130a; }
+}
 .card .contact { font-size: 15px; font-weight: 600; }
 .card .source { font-size: 13px; color: var(--muted); margin: 10px 0 0; }
 .card details { margin: 8px 0; font-size: 15px; }
 .card details summary { cursor: pointer; font-weight: 600; }
 .card details ul { margin: 8px 0 0; padding-left: 20px; }
+.card details p { margin: 8px 0 0; }
+/* Administering agency and statute cite. Useful to the minority who want it,
+   quiet enough not to crowd the plain-language summary everyone else reads. */
+.card .admin { font-size: 13px; color: var(--muted); margin: 10px 0 6px; }
 
 .stale {
   font-size: 14px; background: var(--accent-bg); border-left: 3px solid var(--gold);
@@ -223,8 +242,60 @@ h2 small { font-weight: 400; color: var(--muted); font-size: 0.7em; }
 }
 .callout h2 { margin-top: 22px; }
 
-.cat { margin: 26px 0 10px; font-size: 16px; text-transform: uppercase;
+.cat { margin: 0 0 4px; font-size: 16px; text-transform: uppercase;
        letter-spacing: 0.06em; color: var(--muted); }
+
+/* Category index. Every jurisdiction page shows the full category set, so a
+   Veteran sees the same shape of page in Guam as in Texas. Categories we have
+   nothing for yet are shown greyed and unlinked rather than hidden: an empty
+   category is honest information, and it shows us where the gaps are. */
+.cat-index {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(215px, 1fr));
+  gap: 8px;
+  list-style: none;
+  padding: 0;
+  margin: 18px 0 34px;
+}
+.cat-index a,
+.cat-index span {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px 13px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  text-decoration: none;
+  color: var(--text);
+  font-size: 15px;
+}
+.cat-index a:hover { background: var(--accent-bg); border-color: var(--navy-soft); }
+.cat-index small {
+  flex: none;
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  background: var(--navy-soft);
+  border-radius: 20px;
+  padding: 2px 9px;
+}
+.cat-index .is-empty span { background: transparent; border-style: dashed; color: var(--muted); }
+.cat-index .is-empty small { background: transparent; color: var(--muted); font-weight: 400; padding: 0; }
+
+.cat-section { margin: 0 0 30px; scroll-margin-top: 16px; }
+.cat-blurb { margin: 0 0 12px; color: var(--muted); font-size: 15px; }
+.cat-none {
+  margin: 0;
+  padding: 12px 15px;
+  border: 1px dashed var(--border);
+  border-radius: var(--radius);
+  color: var(--muted);
+  font-size: 15px;
+}
+/* Empty categories stay on the page but recede, so the ones with content lead. */
+.cat-section.is-empty { opacity: 0.75; margin-bottom: 20px; }
 
 .empty {
   border: 1px dashed var(--border); border-radius: var(--radius);

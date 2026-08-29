@@ -96,20 +96,33 @@ export const ORG_TYPE_LABELS = {
   other: 'Other',
 };
 
-export const CATEGORY_LABELS = {
-  'property-tax': 'Property tax',
-  'income-tax': 'Income tax',
-  education: 'Education',
-  employment: 'Employment',
-  health: 'Health care',
-  recreation: 'Parks and recreation',
-  vehicle: 'Vehicles and licensing',
-  housing: 'Housing',
-  burial: 'Burial and memorial',
-  financial: 'Financial help',
-  legal: 'Legal',
-  'license-fee': 'License and permit fees',
-  family: 'Family and survivors',
-  business: 'Business',
-  other: 'Other',
-};
+/**
+ * The category set, in the order it appears on every jurisdiction page.
+ *
+ * Every jurisdiction shows every category, whether or not we have records for
+ * it yet. That is deliberate: a Veteran in Wyoming and a Veteran in Guam should
+ * find the same shape of page, and an empty category is useful information
+ * rather than something to hide. It also shows us exactly where the gaps are.
+ *
+ * The keys match the enum in data/schema/benefit.schema.json. Changing a key
+ * is a data migration; changing a label is not.
+ */
+export const CATEGORIES = [
+  { key: 'employment', label: 'Jobs and employment', blurb: 'Hiring preference, job placement, licensing credit for military experience.' },
+  { key: 'education', label: 'Schooling and education', blurb: 'Tuition waivers, in-state residency, scholarships, and support for dependents.' },
+  { key: 'business', label: 'Entrepreneurship and business', blurb: 'Veteran-owned business certification, procurement preference, startup help.' },
+  { key: 'health', label: 'Health care', blurb: 'State health programs, mental health, long-term care, Veteran homes.' },
+  { key: 'housing', label: 'Housing', blurb: 'Home loan help, property assistance, homelessness prevention.' },
+  { key: 'property-tax', label: 'Property tax', blurb: 'Exemptions and reductions on the home you own.' },
+  { key: 'income-tax', label: 'Income tax', blurb: 'How the state treats military pay, retirement pay, and VA compensation.' },
+  { key: 'financial', label: 'Financial help', blurb: 'Emergency grants, relief funds, and direct financial assistance.' },
+  { key: 'vehicle', label: 'Vehicles and driving', blurb: 'Registration fees, license plates, driver license notations.' },
+  { key: 'recreation', label: 'Parks and recreation', blurb: 'Hunting and fishing licenses, park passes, camping.' },
+  { key: 'license-fee', label: 'License and permit fees', blurb: 'Professional and occupational licensing fee waivers.' },
+  { key: 'legal', label: 'Legal', blurb: 'Legal aid, Veteran treatment courts, discharge upgrade help.' },
+  { key: 'family', label: 'Family and survivors', blurb: 'Benefits for spouses, children, and surviving family.' },
+  { key: 'burial', label: 'Burial and memorial', blurb: 'State Veteran cemeteries, burial allowances, headstones, honors.' },
+  { key: 'other', label: 'Other', blurb: 'Everything that does not fit the categories above.' },
+];
+
+export const CATEGORY_LABELS = Object.fromEntries(CATEGORIES.map((c) => [c.key, c.label]));
