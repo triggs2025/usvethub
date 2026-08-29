@@ -69,9 +69,18 @@ catches a source site redesign before it wipes a state's page.
 
 ## House rules
 
-- **Veteran is always capitalized.** Same rule as AZVLC.
+- **Veteran is always capitalized in copy we write.** Same rule as AZVLC.
+- **Quoted text from a source is published verbatim.** Decided 2026-08-28. Some
+  agency descriptions say lowercase "veterans" in their own words. Leave them.
+  The capitalization rule governs our prose, not theirs. Editing someone else's
+  published words to fit our style misattributes an editorial stance to them,
+  and being an accurate signpost is the entire value of this site.
+  The line: **normalize typography, never change words.** Collapsing
+  whitespace, decoding entities, and converting em dashes are fine, because they
+  do not change what was said. Changing a word, its capitalization, or its
+  meaning is not.
 - **No em dashes** anywhere, in code comments, copy, or replies. Period, comma,
-  colon, or middot. `cleanText()` strips them from scraped data automatically.
+  colon, or middot. `cleanText()` normalizes them out of scraped data.
 - **Prefer an official API over scraping a page.** `va-state-offices` uses
   discover.va.gov's WordPress REST API instead of parsing the rendered page. It
   is one request instead of thirty and it does not break on a redesign.

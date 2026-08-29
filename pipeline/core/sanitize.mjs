@@ -40,6 +40,12 @@ export function cleanText(input) {
   text = text.replace(/[\u0000-\u001f\u007f-\u009f\u00ad\u200b-\u200f\u2028\u2029\u202a-\u202e\u2066-\u2069\u2060\ufeff]/g, ' ');
 
   // House rule: no em dashes anywhere in published copy.
+  //
+  // This is the ONLY editorial change we make to text we quote. It is allowed
+  // because it normalizes typography without changing a word. Do not extend
+  // this to word changes, and specifically do not capitalize "veterans" inside
+  // a quoted description: those are the source's own words and ship verbatim.
+  // See the house rules in CLAUDE.md.
   text = text.replace(/[—–]/g, ', ');
 
   return text.replace(/\s+/g, ' ').trim();
