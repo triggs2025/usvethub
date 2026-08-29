@@ -117,6 +117,15 @@ catches a source site redesign before it wipes a state's page.
 - **VA Lighthouse APIs need a key** (`api.va.gov` returns 401 without one).
   Free, but it is an application. Needed before the Phase 2 facilities work.
 
+## Advertising
+
+The site becomes a media property. The plan is in `docs/ADVERTISING.md` and the
+short version is: **direct-sold, first-party creatives only, no programmatic ad
+JavaScript.** Not because of purity, but because a programmatic network would
+serve VA claim consultants and for-profit college lead-gen to Veterans on a site
+whose homepage tells them never to pay for claim help. Read that doc before
+adding anything ad related.
+
 ## Status
 
 Phase 1, in progress. Working: the pipeline, the isolation guarantees, 56

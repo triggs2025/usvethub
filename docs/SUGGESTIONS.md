@@ -46,6 +46,8 @@ Status key: **OPEN** needs a decision · **DECIDED** settled, see the note ·
 
 | # | Date | Suggestion | Why it matters |
 |---|---|---|---|
+| 32 | 2026-08-29 | Advertising is a requirement, not a maybe | **DECIDED by Tony: build it in, securely.** Full plan in [ADVERTISING.md](ADVERTISING.md). Direct-sold first-party creatives, no third-party ad JavaScript, no programmatic. Not implemented yet: it waits for a first advertiser so we build the real shape rather than a guess. |
+| 33 | 2026-08-29 | Add a Content Security Policy now, while the site runs zero JavaScript | **OPEN, do this soon.** Easiest to lock down before ads exist, and it makes every future third-party script an explicit decision instead of a silent one. Ships as a meta tag since Pages cannot send headers. |
 | 10 | 2026-08-28 | Written advertising policy before the first ad runs | **OPEN.** Veterans are heavily targeted by claim sharks, predatory for-profit schools, and VA-loan refi churn. Some of it pays extremely well. Taking that money would poison the brand we are building and could draw regulatory attention. Decide the line in writing while it is still hypothetical. |
 | 11 | 2026-08-28 | Never render scraped HTML as HTML | **OPEN, treat as a hard rule.** A scraped page can contain a `<script>` tag. Everything scraped gets text-extracted and escaped. This is the single most likely way a static site still gets compromised. |
 | 12 | 2026-08-28 | Crisis resources need special handling | **OPEN.** The Veterans Crisis Line (988, press 1) should be correct and reachable from every page. Stale or wrong crisis info is the one error with a real human cost. Consider hardcoding it rather than scraping it. |
