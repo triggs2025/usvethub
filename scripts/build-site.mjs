@@ -211,6 +211,7 @@ function discountCard(discount) {
     ${discount.verificationService ? html`<p class="admin">Verified through ${esc(discount.verificationService)}</p>` : ''}
     <p class="contact"><a href="${escUrl(discount.officialUrl)}" rel="noopener">Offer details</a></p>
     ${discount.paidPlacement ? html`<p class="sponsor-flag inline">Paid placement</p>` : ''}
+    ${confidenceNote(discount)}
     ${stale
       ? html`<p class="stale">Last checked ${esc(discount.verifiedAt)}. Discounts change without notice, so confirm at the register.</p>`
       : ''}
