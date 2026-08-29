@@ -6,11 +6,16 @@ scraped and API-sourced data. Long term it also becomes a media property.
 
 ## Where it lives
 
-- **Live site:** https://usvethub.com (GitHub Pages, custom domain via
-  `public/CNAME`)
+- **Live now:** https://triggs2025.github.io/usvethub/
+- **Repo:** https://github.com/triggs2025/usvethub · branch `main` · **public**
+  (decided 2026-08-29: no secrets and no PII by design, all data is public
+  government information, and Pages works on the free tier)
+- **Target domain:** usvethub.com, owned, DNS not yet pointed at GitHub. Until
+  the A records are changed at GoDaddy the custom domain stays unset in Pages
+  settings, so the github.io URL keeps working. `public/CNAME` already holds
+  the domain and will apply once DNS resolves.
 - **Local:** `C:\Users\triggs\usvethub` · outside the `Claude Code` container
   folder, like Skilled Vets
-- **Repo:** not yet pushed. Branch will be `main`.
 
 ## The one architectural idea
 
