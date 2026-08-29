@@ -73,6 +73,17 @@ Status key: **OPEN** needs a decision · **DECIDED** settled, see the note ·
 | 13 | 2026-08-28 | Check each state site's terms and `robots.txt` before scraping it | **OPEN.** Federal works are public domain, but state sites vary. Rate limit politely and identify the crawler honestly. |
 | 14 | 2026-08-28 | No PII in this repo, ever | **OPEN, standing rule.** The AZVLC lesson: a private GitHub repo still publishes every file it gives Pages to the open web. Any future contact form or submission queue lives in a separate, unpublished repo. |
 
+### Nonprofits, reviews and ratings
+
+| # | Date | Suggestion | Why it matters |
+|---|---|---|---|
+| 80 | 2026-08-29 | Nonprofit directory built from the IRS registry, not scraped | **DONE. 11,800 organizations across 55 jurisdictions.** Built as a repeatable pipeline source on the IRS Exempt Organizations Business Master File via ProPublica, rather than the one-off agent Tony asked for. The registry is authoritative, needs no API key, carries the EIN, and re-runs monthly. A scrape would have given somebody else editorial choices, stale copies, and no EIN. |
+| 81 | 2026-08-29 | Registration is not a recommendation, and the page says so | **DECIDED, load-bearing.** Veteran charities have a documented history of raising money that mostly funds more fundraising. Every listing links to that organization's Form 990 filings so a donor can see what share of spending reaches programs. Financial filings are far harder to fake than testimonials, which is exactly why they matter more than star ratings here. |
+| 82 | 2026-08-29 | Show the 501(c) subsection on every listing | **DECIDED.** 4,174 are c3, 1,658 are c4, 5,966 are c19. Donations to a c3 are generally deductible and to a c4 generally are not, which surprises most donors. Showing it costs nothing and prevents a real misunderstanding. |
+| 83 | 2026-08-29 | KNOWN GAP: no activity filter on the nonprofit list | **OPEN.** The BMF contains organizations that registered once and never filed again. The search endpoint returns have_filings as null on every record, so gating on it would need one API call per EIN, roughly 12,000 requests. The directory therefore includes some dormant registrations. Stated on the page rather than hidden. Fixable later with a slow background enrichment pass. |
+| 84 | 2026-08-29 | Use sub_name, not name, for chapter and post organizations | **DONE, and worth remembering for any BMF work.** The BMF puts the parent in `name`, so every American Legion post in a state came back as "American Legion" and produced a page of identical rows. `sub_name` carries the post identity: "American Legion 0001 Luke Greenway Post". Also recovered 800 records that had been deduplicating into each other. |
+| 85 | 2026-08-29 | Nonprofits are a separate section, not merged into Organizations | **DECIDED.** 11,800 nonprofits would bury the 54 state agencies that are the actual front door for most Veterans. Nonprofits live at /nonprofits/ with a page per state, compact rows rather than cards, and each state page links across. Rows not cards because 293 cards on one page is unreadable and weighs megabytes. |
+
 ### Platform and expansion
 
 | # | Date | Suggestion | Why it matters |

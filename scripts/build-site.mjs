@@ -41,7 +41,7 @@ ASSETS.css = `/${CSS_NAME}`;
 ASSETS.js = `/${JS_NAME}`;
 
 const site = loadAll();
-const { jurisdictions, benefits, federal, organizations, discounts, sponsors, health } = site;
+const { jurisdictions, benefits, federal, organizations, nonprofits, discounts, sponsors, health } = site;
 
 // ---------------------------------------------------------------- components
 
@@ -218,6 +218,32 @@ function discountCard(discount) {
     ${sourceLine(discount)}
   </article>`;
 }
+
+const SUBSECTION_LABEL = {
+  3: '501(c)(3) charity',
+  4: '501(c)(4) social welfare',
+  19: '501(c)(19) armed forces',
+};
+
+/**
+ * One nonprofit, as a compact row.
+ *
+ * Deliberately not a card. There are up to 293 of these on a page, and cards at
+ * that density are unreadable and weigh several megabytes.
+ *
+ * The 501(c) subsection is shown on every row because donors routinely assume
+ * any nonprofit is a c3 and that giving is deductible. For a c4 it generally is
+ * not, and that is worth knowing before you give.
+ */
+const nonprofitRow = (org) => html`<li class="np" data-filter-item
+  data-category="c${esc(org.irsSubsection)}"
+  data-search="${esc(`${org.name} ${org.city ?? ''} ${SUBSECTION_LABEL[org.irsSubsection] ?? ''} ${org.nteeCode ?? ''}`)}">
+  <div class="np-main">
+    <strong>${esc(org.name)}</strong>
+    <small>${esc(org.city ?? '')}${org.city ? ' · ' : ''}${esc(SUBSECTION_LABEL[org.irsSubsection] ?? 'Registered nonprofit')}</small>
+  </div>
+  <a href="${escUrl(org.website)}" rel="nofollow noopener">Filings</a>
+</li>`;
 
 const empty = (what, jurisdictionName) => html`<div class="empty">
   <p><strong>We have not published ${esc(what)} for ${esc(jurisdictionName)} yet.</strong></p>
@@ -445,6 +471,16 @@ for (const j of jurisdictions) {
             <p class="lede">These come from the VA, not from ${esc(j.name)}, so they are the same
             wherever you live. Most Veterans are eligible for more of these than they realise.</p>
             <div class="grid two">${federal.map(benefitCard)}</div>
+          </section>`
+        : ''}
+
+      ${j.nonprofits.length
+        ? html`<section>
+            <div class="section-head"><h2>Nonprofits <small>${esc(j.nonprofits.length)} registered</small></h2></div>
+            <p class="lede">${esc(j.nonprofits.length)} IRS-registered nonprofits serve Veterans in
+            ${esc(j.name)}. Registration is not a recommendation, so each listing links to its
+            financial filings.</p>
+            <p><a class="button button-ghost" href="${escUrl(`/nonprofits/${j.slug}/`)}">Browse ${esc(j.name)} nonprofits</a></p>
           </section>`
         : ''}
 
@@ -744,6 +780,85 @@ page('/free-help/', layout({
       : html`<p class="cat-none">Nothing published yet.</p>`}
   `,
 }));
+
+// --------------------------------------------------------------- nonprofits
+
+const npDisclaimer = html`
+  <section class="warn">
+    <h2>Read this before you give</h2>
+    <p>Every organization below is registered with the IRS, and that is <strong>all</strong>
+    registration means. It is not a recommendation, and it is not evidence that an
+    organization is well run or that your money reaches a Veteran. Veteran charities have a
+    long and documented history of raising money that mostly pays for more fundraising.</p>
+    <p><strong>Check the filings before you donate.</strong> Every listing links to that
+    organization's Form 990 financial filings, where you can see what share of spending
+    actually goes to programs. That is far harder to fake than a testimonial.</p>
+    <p>Note the subsection too. Donations to a <strong>501(c)(3)</strong> are generally tax
+    deductible. Donations to a <strong>501(c)(4)</strong> generally are not, which surprises
+    a lot of people.</p>
+  </section>`;
+
+page('/nonprofits/', layout({
+  title: 'Veteran nonprofits',
+  path: '/nonprofits/',
+  description:
+    `${nonprofits.length} IRS-registered nonprofits serving Veterans across the United States, ` +
+    'each linked to its financial filings.',
+  breadcrumbs: [{ label: 'Home', href: '/' }, { label: 'Nonprofits' }],
+  body: html`
+    <h1>Veteran nonprofits</h1>
+    <p class="lede">${esc(nonprofits.length.toLocaleString('en-US'))} organizations registered with
+    the IRS as 501(c)(3), 501(c)(4), or 501(c)(19) and serving Veterans. Drawn from the federal
+    Exempt Organizations Business Master File, not from a hand-picked list.</p>
+
+    ${npDisclaimer}
+
+    <div class="section-head"><h2>By state and territory</h2></div>
+    ${filterBar({ target: '#np-state-grid', label: 'Filter states', placeholder: 'Search states and territories' })}
+    <ul class="grid states" id="np-state-grid">
+      ${jurisdictions.filter((j) => j.nonprofits.length).map((j) => html`<li data-filter-item data-search="${esc(`${j.name} ${j.code}`)}">
+        <a href="${escUrl(`/nonprofits/${j.slug}/`)}">
+          <strong>${esc(j.name)}</strong>
+          <small>${esc(j.nonprofits.length)}</small>
+        </a>
+      </li>`)}
+    </ul>
+    <p class="no-results" data-filter-empty hidden>No state or territory matches that.</p>
+  `,
+}));
+
+for (const j of jurisdictions.filter((x) => x.nonprofits.length)) {
+  page(`/nonprofits/${j.slug}/`, layout({
+    title: `Veteran nonprofits in ${j.name}`,
+    path: `/nonprofits/${j.slug}/`,
+    description: `${j.nonprofits.length} IRS-registered nonprofits serving Veterans in ${j.name}, each linked to its financial filings.`,
+    breadcrumbs: [
+      { label: 'Home', href: '/' },
+      { label: 'Nonprofits', href: '/nonprofits/' },
+      { label: j.name },
+    ],
+    body: html`
+      <h1>Veteran nonprofits in ${esc(j.name)}</h1>
+      <p class="lede">${esc(j.nonprofits.length)} organizations registered with the IRS and serving
+      Veterans in ${esc(j.name)}. Registration is not a recommendation: check the filings.</p>
+
+      ${filterBar({
+        target: '#np-list',
+        label: `Filter ${j.name} nonprofits`,
+        placeholder: 'Search by name or city',
+        chips: [
+          { key: 'c3', label: '501(c)(3) charities' },
+          { key: 'c4', label: '501(c)(4) social welfare' },
+          { key: 'c19', label: '501(c)(19) armed forces' },
+        ],
+      })}
+      <p class="no-results" data-filter-empty hidden>Nothing matches that.</p>
+      <ul class="np-list" id="np-list">${j.nonprofits.map(nonprofitRow)}</ul>
+
+      ${npDisclaimer}
+    `,
+  }));
+}
 
 // ------------------------------------------------------------- brand review
 // Internal reference page. Noindex, and kept out of the sitemap. It exists so

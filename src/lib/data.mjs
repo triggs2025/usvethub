@@ -60,6 +60,14 @@ export function loadAll() {
 
   const byCode = new Map(jurisdictions.map((j) => [j.code, j]));
 
+  // Registered nonprofits are separated from the hand-curated directory. There
+  // are roughly ten thousand of them, so mixing them in would bury the 54 state
+  // agencies that are the actual front door for most Veterans.
+  const nonprofits = organizations
+    .filter((o) => o.orgType === 'nonprofit')
+    .sort((a, b) => a.name.localeCompare(b.name));
+  const directory = organizations.filter((o) => o.orgType !== 'nonprofit');
+
   // Attach each jurisdiction's own records once, so pages do not re-filter
   // the full arrays 56 times.
   for (const jurisdiction of jurisdictions) {
@@ -76,7 +84,9 @@ export function loadAll() {
     if (benefit.jurisdiction === 'US') continue;
     byCode.get(benefit.jurisdiction)?.benefits.push(benefit);
   }
-  for (const org of organizations) byCode.get(org.jurisdiction)?.organizations.push(org);
+  for (const org of directory) byCode.get(org.jurisdiction)?.organizations.push(org);
+  for (const jurisdiction of jurisdictions) jurisdiction.nonprofits = [];
+  for (const org of nonprofits) byCode.get(org.jurisdiction)?.nonprofits.push(org);
 
   for (const jurisdiction of jurisdictions) {
     jurisdiction.benefits.sort((a, b) => a.title.localeCompare(b.title));
@@ -100,7 +110,8 @@ export function loadAll() {
   const liveSponsors = sponsors.filter((s) => s.startsAt <= today && s.endsAt >= today);
 
   return {
-    jurisdictions, byCode, benefits, federal, organizations,
+    jurisdictions, byCode, benefits, federal,
+    organizations: directory, nonprofits,
     discounts: liveDiscounts, sponsors: liveSponsors,
     health, loadIssues,
   };

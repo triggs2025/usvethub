@@ -1,0 +1,24 @@
+{
+  "id": "irs-veteran-nonprofits",
+  "title": "IRS exempt organizations, via ProPublica Nonprofit Explorer",
+  "homepage": "https://projects.propublica.org/nonprofits/",
+  "recordType": "organization",
+  "jurisdiction": null,
+  "enabled": true,
+  "schedule": "monthly",
+  "timeoutMs": 1500000,
+  "maxRequests": 700,
+  "delayMs": 1100,
+  "requestTimeoutMs": 25000,
+  "guards": {
+    "minRecords": 200,
+    "maxDropRatio": 0.25
+  },
+  "notes": [
+    "Built on the IRS Exempt Organizations Business Master File, served through ProPublica's Nonprofit Explorer API. No key required, and it is the authoritative registry rather than a scraped directory.",
+    "NTEE W30 is Military and Veterans Organizations. It is the cleanest filter but NOT a complete one: many Veteran-serving charities file under P (human services), L (housing), or F (mental health), so a keyword pass runs alongside it.",
+    "hasFilings is the activity signal. The BMF is full of registered shells that have never filed a 990, and publishing those would pad the directory with organizations a Veteran cannot actually reach.",
+    "Monthly is the right cadence. The BMF updates monthly and nonprofit status changes slowly.",
+    "This is a large source. The 25 minute timeout and 700 request budget are deliberate, and it runs in its own process so a slow run blocks nothing else."
+  ]
+}
