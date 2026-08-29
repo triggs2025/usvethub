@@ -25,6 +25,9 @@ scraped and API-sourced data. Long term it also becomes a media property.
 | `docs/SECURITY.md` | Threat model, what protects the site, and the stated gaps. |
 | `docs/ADVERTISING.md` | The ad business, and why programmatic is refused. |
 | `docs/IMAGERY.md` | Photography brief, licensing, and model releases. |
+| `docs/PLATFORM.md` | Menu, advertisers, submissions, dashboard, mobile. The back-end architecture. |
+| `docs/INFRASTRUCTURE.md` | Plesk, Cloudflare, GoHighLevel, Oracle: what to use for what. |
+| `docs/REVIEWS.md` | Reviews and ratings design. Not built. |
 | `docs/SUGGESTIONS.md` | Running log of every idea, decision, and open question. |
 
 ## The one architectural idea
