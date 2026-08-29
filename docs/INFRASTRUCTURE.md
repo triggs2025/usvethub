@@ -166,22 +166,35 @@ it goes in a separate private repo that Pages never touches.
 
 ---
 
-## GoHighLevel sub-account setup
-
-Tony creates this. Claude does not create accounts, including sub-accounts.
-
-### Sub-account details
+## GoHighLevel sub-account · CREATED 2026-08-29
 
 | Field | Value |
 |---|---|
 | Business name | USVetHub |
+| Sub-account ID | `0IT3ZzlAbAs2RBwQZfD6` |
 | Website | https://usvethub.com |
-| Mailing address | PO Box 93621, Phoenix, AZ 85070 · **confirm before use** |
-| Time zone | America/Phoenix |
-| Industry | Media / Publishing |
+| Mailing address | PO Box 93621, Phoenix, AZ 85070 |
+| Phone | 602-524-5299 |
+| Time zone | GMT-07:00 America/Phoenix (MST) |
+| Snapshot | Blank |
 
-The address needs confirming. 85070 is a Phoenix PO Box ZIP, so "93621" reads
-as a box number rather than a street number, but that is an inference.
+The address is confirmed: PO Box 93621 already appears on the AZ Veterans and
+AI Nymph sub-accounts, which resolved the earlier ambiguity about whether 93621
+was a box number or a street number.
+
+**Created from a Blank snapshot deliberately.** Importing one of the 122
+industry templates would have loaded workflows, funnels, and automations nobody
+designed for this property, and some of those templates send email.
+
+### Two settings left at their defaults, worth a second look
+
+1. **Account type is "This is my client's account"**, the form default.
+   USVetHub is Tony's own property, so "This is my own account" may be more
+   accurate. It was left alone because that toggle affects agency rebilling, and
+   guessing at a billing setting is worse than leaving the default. One click to
+   change under the sub-account's settings.
+2. **Business Niche was left blank.** Media or Publishing is the closest fit if
+   it matters for reporting.
 
 **Keep it a separate sub-account from NSC Shirts.** Different business, different
 audience, and a shared list would eventually mean sending Veteran benefit email

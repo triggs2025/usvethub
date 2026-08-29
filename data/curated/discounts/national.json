@@ -1,0 +1,263 @@
+[
+  {
+    "id": "home-depot-veteran-discount",
+    "business": "The Home Depot",
+    "reach": "national",
+    "category": "retail",
+    "offer": "10 percent off eligible items",
+    "summary": "The Home Depot gives US Veterans, active service members, and spouses 10 percent off eligible items in stores and online every day. You register once, then the benefit is tied to your account.",
+    "eligibility": [
+      "US Veterans",
+      "Active duty service members",
+      "Spouses of eligible members"
+    ],
+    "howToRedeem": "Register for the Military Discount benefit through The Home Depot app or website and complete identity verification. Once enrolled, sign in to your account at checkout online, or open the app at the register in store to apply the discount.",
+    "verificationService": "SheerID",
+    "officialUrl": "https://corporate.homedepot.com/news/company/how-claim-your-military-discount-home-depot",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "lowes-veteran-discount",
+    "business": "Lowe's",
+    "reach": "national",
+    "category": "retail",
+    "offer": "10 percent off most full-priced items",
+    "summary": "Lowe's Everyday Military Discount takes 10 percent off most full-priced items in Lowe's stores and on Lowes.com. Enrolled members are also upgraded inside the MyLowe's Rewards program.",
+    "eligibility": [
+      "Honorably serving or formerly serving members of the US armed forces, including Army, Marine Corps, Navy, Air Force, Coast Guard, Space Force, National Guard, NOAA Corps, and USPHS Commissioned Corps",
+      "Spouses of eligible members"
+    ],
+    "howToRedeem": "Create a Lowes.com personal account, verify your military status through ID.me, then sign in online or give your MyLowe's Rewards phone number at store checkout. A valid photo ID may be requested in store. The discount does not apply to sale items, services, major appliances, commodities such as lumber and electrical wire, or gift cards.",
+    "verificationService": "ID.me",
+    "officialUrl": "https://www.lowes.com/l/about/honor-our-military",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "verizon-veteran-discount",
+    "business": "Verizon",
+    "reach": "national",
+    "category": "wireless",
+    "offer": "10 percent off mobile plans, 25 percent off select accessories",
+    "summary": "Verizon discounts monthly mobile service by 10 percent for military members and Veterans, plus 25 percent off select accessories. Home internet discounts are offered separately. The benefit applies to both new and existing customers.",
+    "eligibility": [
+      "US active duty",
+      "Retirees and Veterans",
+      "Current or former Guard and Reserve",
+      "Gold Star family members"
+    ],
+    "howToRedeem": "Verify your military status with ID.me through Verizon's military discount page, then the discount is applied to your qualifying account. Verizon may occasionally ask you to re-verify.",
+    "verificationService": "ID.me",
+    "officialUrl": "https://www.verizon.com/discounts/military/",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "t-mobile-veteran-discount",
+    "business": "T-Mobile",
+    "reach": "national",
+    "category": "wireless",
+    "offer": "Military Savings pricing on Experience plans, advertised as $720 per year saved on 4 lines",
+    "summary": "T-Mobile sells discounted Military Savings versions of its Experience plans to military families and Veteran families. The military member must be the primary account holder and must keep a valid military line on the account.",
+    "eligibility": [
+      "Active duty military",
+      "Veterans",
+      "National Guard and Reserve",
+      "Gold Star family members",
+      "Military member must be the primary account holder"
+    ],
+    "howToRedeem": "Switch to a Military Savings plan online, by calling 611, or at a T-Mobile store, then verify military status within 45 days of activation. Failing to verify in that window moves the account off the discounted plan and can raise the price by up to $20 per line.",
+    "officialUrl": "https://www.t-mobile.com/cell-phone-plans/military-discount-plans",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "apple-veteran-discount",
+    "business": "Apple",
+    "reach": "national",
+    "category": "technology",
+    "offer": "10 percent off",
+    "summary": "Apple runs a Veterans and Military Store with 10 percent off for service members, Veterans, and their household family members. You shop a separate storefront after verifying your status.",
+    "eligibility": [
+      "Current and Veteran members of the US military",
+      "National Guard and Reserve members",
+      "Immediate family members living in the same household"
+    ],
+    "howToRedeem": "Verify your Veteran or active military status with ID.me, then shop the Veterans and Military Store on apple.com. Apple Card Monthly Installments and Apple Upgrade are not available payment options on this offer.",
+    "verificationService": "ID.me",
+    "officialUrl": "https://www.apple.com/shop/browse/home/veterans_military",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "samsung-veteran-discount",
+    "business": "Samsung",
+    "reach": "national",
+    "category": "technology",
+    "offer": "Up to 30 percent off, varies by product line",
+    "summary": "Samsung's military offer program gives service members, Veterans, and retirees savings that vary by product line, up to 30 percent, and the savings can be combined with public and seasonal offers. Purchase limits apply per product category.",
+    "eligibility": [
+      "Active military with a .mil email address",
+      "Veterans",
+      "Retired military personnel"
+    ],
+    "howToRedeem": "Create a Samsung account, then verify with your .mil email address or through ID.me. Samsung also accepts verification through benefits providers such as GovX or WeSalute. Limits are two products per category per email address in 12 months, with accessories limited to four.",
+    "verificationService": "ID.me",
+    "officialUrl": "https://www.samsung.com/us/shop/offer-program/military/",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "national-park-service-military-pass",
+    "business": "National Park Service",
+    "reach": "national",
+    "category": "travel",
+    "offer": "Free America the Beautiful pass",
+    "summary": "Veterans and Gold Star Family members can get a free America the Beautiful Military Lifetime Pass, and current military and dependents can get a free Military Annual Pass. The pass covers entrance and standard day-use fees at national parks and other federal recreation sites.",
+    "eligibility": [
+      "Veterans qualify for the free Military Lifetime Pass",
+      "Gold Star Family members qualify for the free Military Lifetime Pass",
+      "Current US military and dependents qualify for the free Military Annual Pass"
+    ],
+    "howToRedeem": "Get the pass in person at one of more than 1,000 federal recreation sites, as a digital pass through recreation.gov, or by mail through the USGS online store, which can take up to three weeks. Passholders must show valid photo ID with the pass. The pass covers one private vehicle or four people, depending on how the site charges.",
+    "officialUrl": "https://www.nps.gov/planyourvisit/passes.htm",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "amtrak-veteran-discount",
+    "business": "Amtrak",
+    "reach": "national",
+    "category": "travel",
+    "offer": "10 percent off the lowest available rail fare",
+    "summary": "Veterans of the US military get 10 percent off the lowest available rail fare on most Amtrak trains. Active duty members and their families have a separate 10 percent discount.",
+    "eligibility": [
+      "Veterans with a valid military Veteran identification card",
+      "Service in Army, Navy, Air Force, Marine Corps, Coast Guard, or Space Force",
+      "Commissioned officers of NOAA Corps, US Public Health Service, or US Merchant Marine"
+    ],
+    "howToRedeem": "Select the Veteran or military discount for each passenger when booking, and carry your Veteran ID when you travel. The discount does not cover sleeping accommodation charges, is not valid on certain Amtrak Connection services or the Canadian portion of joint Amtrak and VIA Rail service, and may not combine with other offers.",
+    "officialUrl": "https://www.amtrak.com/veterans-discount",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "wyndham-hotels-veteran-discount",
+    "business": "Wyndham Hotels and Resorts",
+    "reach": "national",
+    "category": "travel",
+    "offer": "At least 15 percent off the standard rate",
+    "summary": "Wyndham's Military Appreciation Rate is at least 15 percent off a property's standard rate at participating hotels across brands including Days Inn, Super 8, La Quinta, Ramada, and Wyndham.",
+    "eligibility": [
+      "Active, Reserve, Veteran, or retired members of the US or Canadian military",
+      "Spouses of eligible members"
+    ],
+    "howToRedeem": "Book with rate code SML through a Wyndham direct booking channel, such as the Wyndham website or app, a brand site, the toll-free reservation line, or the property itself. Show valid military identification at check-in. The rate is subject to availability, cannot be combined with other offers, and blackout dates may apply.",
+    "officialUrl": "https://www.wyndhamhotels.com/wyndham-rewards/military",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "under-armour-veteran-discount",
+    "business": "Under Armour",
+    "reach": "national",
+    "category": "retail",
+    "offer": "20 percent off",
+    "summary": "Under Armour gives 20 percent off to service members, Veterans, and military family members on UA.com, in the UA app, and at UA Brand House stores. UA Factory House locations offer 10 percent off instead.",
+    "eligibility": [
+      "Active duty service members",
+      "Retirees and Veterans",
+      "Military spouses and military family members"
+    ],
+    "howToRedeem": "Verify with ID.me, then choose the Military and First Responder Discount at checkout on UA.com or in the UA app. The discount cannot be combined with other promo codes or sitewide promotions and does not apply to gift cards.",
+    "verificationService": "ID.me",
+    "officialUrl": "https://www.underarmour.com/en-us/t/troop-id-instructions.html",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "michaels-veteran-discount",
+    "business": "Michaels",
+    "reach": "national",
+    "category": "retail",
+    "offer": "15 percent off the entire purchase, including sale items",
+    "summary": "Michaels gives verified military members and Veterans 15 percent off their entire purchase, including sale items, online and in store every day. The benefit runs through a Michaels Rewards account.",
+    "eligibility": [
+      "Military members and Veterans",
+      "Immediate family members"
+    ],
+    "howToRedeem": "Log in or create a Michaels Rewards account, complete the verification step, then sign in online or give your Michaels Rewards phone number at checkout in store. Exclusions include Everyday Value items, clearance, buy and get items, custom framing, books and magazines, gift cards, and craft technology machines such as Cricut and Silhouette.",
+    "officialUrl": "https://www.michaels.com/military-discount",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "bass-pro-shops-veteran-discount",
+    "business": "Bass Pro Shops",
+    "reach": "national",
+    "category": "retail",
+    "offer": "10 percent off most merchandise, 5 percent off firearms and ammunition",
+    "summary": "Bass Pro Shops gives verified military personnel and Veterans 10 percent off eligible merchandise and 5 percent off firearms and ammunition. The same discount extends to law enforcement, firefighters, and EMTs.",
+    "eligibility": [
+      "Verified military personnel and Veterans",
+      "Law enforcement officers, firefighters, and EMTs also qualify"
+    ],
+    "howToRedeem": "In store, present a current ID showing your military status. Online or by phone, create a Bass Pro Shops account and submit your information through their verification process, then follow the instructions to apply the discount to orders.",
+    "officialUrl": "https://help.basspro.com/company-information-e8cd63ea/does-bass-pro-shops-offer-a-military-discount-245b5a2c",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "chevrolet-veteran-discount",
+    "business": "Chevrolet",
+    "reach": "national",
+    "category": "automotive",
+    "offer": "$500 total cash allowance on most models",
+    "summary": "Chevrolet's military offer provides a $500 total cash allowance on most models for active service members, Veterans, and their families. Chevrolet also lists 25 percent off a SiriusXM subscription and up to 20 percent off OnStar.",
+    "eligibility": [
+      "Active service members",
+      "Veterans",
+      "Family members of eligible service members and Veterans"
+    ],
+    "howToRedeem": "Claim the bonus cash through the Chevy Salutes military page, then bring the offer to a participating Chevrolet dealer when you buy or lease.",
+    "officialUrl": "https://www.chevrolet.com/chevy-cares/military-support",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "outback-steakhouse-veteran-discount",
+    "business": "Outback Steakhouse",
+    "reach": "national",
+    "category": "food",
+    "offer": "10 percent off the entire check",
+    "summary": "Outback Steakhouse's Heroes Discount gives Veterans and service members 10 percent off their entire check, all day, every day, with valid service ID. Police, firefighters, first responders, and medical staff also qualify.",
+    "eligibility": [
+      "Military Veterans and service members",
+      "Immediate family members of military personnel",
+      "Police officers, firefighters, first responders, nurses, doctors, and medical staff"
+    ],
+    "howToRedeem": "Present valid service ID at the restaurant. Accepted proof includes a Uniformed Services ID card, retired ID card, current Leave and Earnings Statement, a Veterans organization card such as American Legion or VFW, a DD214, a Veteran Identification Card, or a photo of yourself in uniform. Alcohol and tax are excluded, one discount per table, and the discount is not available on online orders.",
+    "officialUrl": "https://www.outback.com/offers/military-mates",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "united-parks-waves-of-honor-veteran-discount",
+    "business": "United Parks and Resorts, Waves of Honor",
+    "reach": "national",
+    "category": "entertainment",
+    "offer": "Free and discounted park tickets, varies by park",
+    "summary": "Waves of Honor is the military ticket and discount program covering SeaWorld, Busch Gardens, Sesame Place, Aquatica, and Discovery Cove. Both active duty members and Veterans are listed as eligible, and the specific offer is set by each park.",
+    "eligibility": [
+      "Active duty military personnel",
+      "Veterans"
+    ],
+    "howToRedeem": "Choose your park on the Waves of Honor page and follow that park's link to see and claim its current military ticket or discount offer. Offers and verification steps differ by park, so confirm details on the park page before you travel.",
+    "officialUrl": "https://www.unitedparks.com/programs/waves-of-honor/",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "linkedin-veteran-premium-subscription",
+    "business": "LinkedIn",
+    "reach": "national",
+    "category": "professional",
+    "offer": "Free 12-month LinkedIn Premium subscription",
+    "summary": "LinkedIn offers eligible Veterans, military spouses, and transitioning service members a complimentary 12-month LinkedIn Premium subscription. It is a one-time offer per person and the subscription ends automatically after the year.",
+    "eligibility": [
+      "Veterans of the US Armed Forces",
+      "Spouses of service members or Veterans",
+      "Active duty service members in a near-term job transition",
+      "Must be working with an authorized nonprofit partner and have no current Premium subscription"
+    ],
+    "howToRedeem": "Get a redemption code through the career services team at an authorized nonprofit partner: Student Veterans of America, Hire Heroes USA, or Hire Our Heroes. Codes are first come, first served and availability can be limited.",
+    "officialUrl": "https://www.linkedin.com/help/linkedin/answer/a518653",
+    "confidence": "needs-review"
+  }
+]
