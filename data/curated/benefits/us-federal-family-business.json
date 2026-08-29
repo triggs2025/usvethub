@@ -1,0 +1,99 @@
+[
+  {
+    "id": "us-sdvosb-vetcert",
+    "jurisdiction": "US",
+    "category": "business",
+    "title": "Veteran-owned small business certification (VetCert)",
+    "summary": "Certifying your business as Veteran-owned, or service-disabled Veteran-owned, lets you compete for federal contracts set aside specifically for you. The government targets at least 5 percent of federal contracting dollars at service-disabled Veteran-owned firms.",
+    "amount": "Access to sole-source and set-aside federal contracts",
+    "eligibility": [
+      "The VA identifies you as a Veteran, or as a service-disabled Veteran for SDVOSB status",
+      "At least 51 percent of the business is owned and controlled by one or more Veterans",
+      "For SDVOSB, at least 51 percent is owned by service-disabled Veterans",
+      "The business meets SBA small business size standards for its industry",
+      "A permanently disabled Veteran may still qualify where a spouse or caregiver runs daily operations"
+    ],
+    "details": [
+      "Certification is handled by the Small Business Administration. Apply through the SBA certifications portal, not through the VA.",
+      "Certified Veteran-owned firms can compete under the VA Vets First program as well as government-wide set-asides.",
+      "The SBA also runs a Surplus Personal Property program giving access to unused federal property through State Agencies for Surplus Property.",
+      "Help line: 866-722-4357, Monday to Friday, 8am to 6pm Eastern."
+    ],
+    "agency": "US Small Business Administration",
+    "officialUrl": "https://www.sba.gov/federal-contracting/contracting-assistance-programs/veteran-contracting-assistance-programs",
+    "applyUrl": "https://certifications.sba.gov/",
+    "phone": "866-722-4357",
+    "confidence": "verified"
+  },
+  {
+    "id": "us-dependency-indemnity-compensation",
+    "jurisdiction": "US",
+    "category": "family",
+    "title": "Dependency and Indemnity Compensation (DIC) for survivors",
+    "summary": "A tax-free monthly payment to the surviving spouse, children, or dependent parents of a service member who died on duty, or of a Veteran who died from a service-connected condition.",
+    "amount": "Tax-free monthly payment, varying by survivor type and dependents",
+    "eligibility": [
+      "The service member died while on active duty, active duty for training, or inactive-duty training",
+      "Or the Veteran died from a service-connected condition",
+      "Or the Veteran had a totally disabling service-connected rating for 10 years before death, 5 years after discharge, or 1 year if a former prisoner of war",
+      "Surviving spouse: married within 15 years of discharge, or married at least a year, or you had a child together",
+      "Surviving children: unmarried, under 18, or under 23 and in school, and not already covered by the spouse payment",
+      "Surviving parents: biological, adoptive, or foster, with income below the limit"
+    ],
+    "details": [
+      "REMARRIAGE RULE, which catches many families out: a surviving spouse who remarries can keep DIC if they were at least 57 at remarriage before December 2003, or at least 55 at remarriage from January 2021 onward.",
+      "Rates change every year with a cost-of-living adjustment, so check the current table rather than a figure you were quoted before.",
+      "Filing is free. An accredited service officer will help at no charge."
+    ],
+    "agency": "US Department of Veterans Affairs",
+    "officialUrl": "https://www.va.gov/family-and-caregiver-benefits/survivor-compensation/dependency-indemnity-compensation/",
+    "phone": "800-827-1000",
+    "confidence": "verified"
+  },
+  {
+    "id": "us-dependents-educational-assistance",
+    "jurisdiction": "US",
+    "category": "education",
+    "title": "Survivors and Dependents Educational Assistance (Chapter 35)",
+    "summary": "Monthly payments toward education for the children and spouses of a Veteran who is permanently and totally disabled from service, died from a service-connected cause, or is missing, captured, or detained.",
+    "amount": "Up to 36 months of monthly payments, or 45 months if training began before August 2018",
+    "eligibility": [
+      "The Veteran or service member is permanently and totally disabled from a service-connected condition, died of a service-connected cause, is missing in action, captured, forcibly detained, or hospitalized for a service-connected disability",
+      "Children: any age if eligibility began on or after 1 August 2023. Otherwise 18, or younger with a high school diploma or GED",
+      "Spouses: eligible whether married or unmarried at the time of application"
+    ],
+    "details": [
+      "TIME LIMITS depend on when eligibility began. For children eligible on or after 1 August 2023 there is no time limit at all. Before that date it is generally 8 years, ending at age 26.",
+      "For spouses, no limit if the qualifying event was on or after 1 August 2023. Before that, generally 10 years, or 20 years if the service member died on active duty.",
+      "This is separate from the Post-9/11 GI Bill and from transferred GI Bill entitlement. Compare them before choosing, because you may be eligible for more than one."
+    ],
+    "agency": "US Department of Veterans Affairs",
+    "officialUrl": "https://www.va.gov/education/survivor-dependent-benefits/dependents-education-assistance/",
+    "applyUrl": "https://www.va.gov/education/how-to-apply/",
+    "phone": "888-442-4551",
+    "confidence": "verified"
+  },
+  {
+    "id": "us-disability-housing-grants",
+    "jurisdiction": "US",
+    "category": "housing",
+    "title": "Specially Adapted Housing and Special Home Adaptation grants",
+    "summary": "Grant money to buy, build, or modify a home so you can live in it with a service-connected disability. You can draw on the grant up to six separate times over your lifetime.",
+    "amount": "Usable up to 6 times over your lifetime",
+    "eligibility": [
+      "You own or will own the home",
+      "SAH: qualifying service-connected disabilities include the loss, or loss of use, of more than one limb, and blindness in both eyes within set limits",
+      "SHA: qualifying disabilities include the loss, or loss of use, of both hands, and severe burn or respiratory injuries"
+    ],
+    "details": [
+      "Both grants cover buying, building, or adapting a permanent home to suit the disability.",
+      "You do not have to spend it all at once. You can use part in one year and the remainder in later years, up to six uses in total.",
+      "Grant maximums are set annually, so confirm the current figure with VA rather than relying on a number you were quoted previously."
+    ],
+    "agency": "US Department of Veterans Affairs",
+    "officialUrl": "https://www.va.gov/housing-assistance/disability-housing-grants/",
+    "applyUrl": "https://www.va.gov/housing-assistance/disability-housing-grants/how-to-apply/",
+    "phone": "877-827-3702",
+    "confidence": "verified"
+  }
+]

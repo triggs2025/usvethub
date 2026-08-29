@@ -45,6 +45,23 @@ const { jurisdictions, benefits, federal, organizations, discounts, sponsors, he
 
 // ---------------------------------------------------------------- components
 
+/**
+ * Says out loud when a record has not been checked by a person yet.
+ *
+ * This site's whole claim is that entries are verified against an official
+ * source. Research drafts are useful, but showing one with the same confidence
+ * as a human-checked record would make that claim false. So the reader is told,
+ * on the card, in plain words.
+ */
+const confidenceNote = (record) =>
+  record.confidence === 'verified'
+    ? ''
+    : html`<p class="unchecked">
+        <strong>Draft, not yet checked by a person.</strong>
+        Researched from the official source linked below, but nobody here has
+        confirmed it line by line yet. Verify with the agency before you rely on it.
+      </p>`;
+
 const staleNote = (record) =>
   isStale(record)
     ? html`<p class="stale">Last checked ${esc(record.verifiedAt)}, over ${STALE_AFTER_DAYS} days ago. Confirm with the agency before relying on it.</p>`
@@ -91,6 +108,7 @@ function benefitCard(benefit) {
       <a href="${escUrl(benefit.officialUrl)}" rel="noopener">Official page</a>
       ${benefit.applyUrl ? html` · <a href="${escUrl(benefit.applyUrl)}" rel="noopener">How to apply</a>` : ''}
     </p>
+    ${confidenceNote(benefit)}
     ${staleNote(benefit)}
     ${sourceLine(benefit)}
   </article>`;

@@ -2,7 +2,7 @@
   "sourceId": "curated-benefits",
   "recordType": "benefit",
   "jurisdiction": null,
-  "generatedAt": "2026-08-29T06:02:09.704Z",
+  "generatedAt": "2026-08-29T06:07:24.003Z",
   "records": [
     {
       "id": "az-disabled-veteran-hunting-fishing-license",
@@ -257,6 +257,725 @@
       "verifiedAt": "2026-08-29"
     },
     {
+      "id": "ca-calvet-home-loan",
+      "jurisdiction": "CA",
+      "category": "housing",
+      "title": "CalVet home loan for Veterans and active duty service members",
+      "summary": "California runs its own home and farm loan program for Veterans through the Veterans' Farm and Home Purchase Act. It is a state program, separate from the federal VA home loan guaranty.",
+      "eligibility": [
+        "Any Veteran as defined in Military and Veterans Code 980, which generally requires qualifying wartime or designated-period service and an honorable discharge or release under honorable conditions",
+        "Or any person currently on active duty in the military or naval service of the United States who meets the other qualifications in section 980",
+        "Section 980 also covers Reserve and National Guard members called to and released from active duty during periods a presidential executive order specifies the United States is engaged in combat or homeland defense",
+        "People separated under dishonorable conditions, separated because of alienage, or whose service was training only are excluded"
+      ],
+      "details": [
+        "The stated object of the article is to provide Veterans with the opportunity to acquire farms and homes.",
+        "Terms, rates, loan limits, and property requirements are set by the California Department of Veterans Affairs and change over time. Get current terms directly from CalVet before you shop for a house.",
+        "This is not the federal VA loan. Do not assume a rule you read about the federal program carries over to CalVet, and ask specifically how the two interact if you are eligible for both.",
+        "The eligibility definition in section 980 is detailed and period-specific. If your service dates are near a boundary, have a County Veterans Service Officer read the statute against your DD-214."
+      ],
+      "agency": "California Department of Veterans Affairs (CalVet)",
+      "statuteRef": "Cal. Mil. & Vet. Code 987.52, definition at Cal. Mil. & Vet. Code 980",
+      "officialUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=MVC&sectionNum=987.52.",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "ca-college-fee-waiver-veteran-dependents",
+      "jurisdiction": "CA",
+      "category": "education",
+      "title": "College Fee Waiver for the children and spouses of disabled or deceased Veterans",
+      "summary": "California waives system-wide tuition and fees at UC, CSU, and community colleges for certain dependents of Veterans with a service-connected disability or who died in service. Most categories carry an income test.",
+      "eligibility": [
+        "A child of a Veteran who has a service-connected disability, was killed in service, or died of a service-connected disability, if the child's annual income including parental support is below the state poverty level figure named in the statute",
+        "A dependent, or an unmarried surviving spouse, of a California National Guard member killed or permanently disabled in the line of duty while in the active service of the state",
+        "An undergraduate who is a Medal of Honor recipient, or a child age 27 or younger of a Medal of Honor recipient, subject to the same income test and a California residency requirement for the recipient"
+      ],
+      "details": [
+        "The waiver covers system-wide fees at a University of California campus, a California State University campus, or a California Community College. The statute conditions University of California participation on action by the Regents.",
+        "The income test is written as annual household income below the amount calculated for a single person with no dependents under Revenue and Taxation Code 18501. That figure changes, so ask the county veterans service office to run your numbers rather than guessing.",
+        "Applications are handled through your County Veterans Service Office, not the college financial aid office. There are several plans under this program with different rules, so bring your DD-214 and the Veteran's VA rating letter to the appointment."
+      ],
+      "agency": "California Department of Veterans Affairs, through County Veterans Service Offices",
+      "statuteRef": "Cal. Educ. Code 66025.3",
+      "officialUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=EDC&sectionNum=66025.3",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "ca-disabled-veteran-business-enterprise-contracting",
+      "jurisdiction": "CA",
+      "category": "business",
+      "title": "Disabled Veteran Business Enterprise participation in state contracts",
+      "summary": "California sets a participation goal for certified Disabled Veteran Business Enterprises on state contracts. Certifying your business makes it easier for state agencies and their prime contractors to award you work.",
+      "amount": "The statute states a DVBE participation goal of a minimum of 3 percent of total contract value.",
+      "eligibility": [
+        "A sole proprietorship at least 51 percent owned by one or more disabled Veterans, or the comparable ownership structure for a corporation or joint venture",
+        "One or more disabled Veterans control the management and daily business operations",
+        "The home office is located in the United States and is not a branch or subsidiary of a foreign corporation or other foreign entity"
+      ],
+      "details": [
+        "This is a participation goal placed on state procurement, not a guaranteed award. It creates a reason for agencies and prime contractors to seek you out once you are certified.",
+        "Certification is handled by the Department of General Services Office of Small Business and DVBE Services. Certification is a separate step from registering as a state vendor.",
+        "Military and Veterans Code 999 also carries substantial penalties for fraudulent DVBE claims. Read the certification requirements carefully before you file."
+      ],
+      "agency": "California Department of General Services, Office of Small Business and DVBE Services",
+      "statuteRef": "Cal. Mil. & Vet. Code 999",
+      "officialUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=MVC&sectionNum=999.",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "ca-disabled-veteran-license-plates",
+      "jurisdiction": "CA",
+      "category": "vehicle",
+      "title": "Disabled Veteran license plates from the DMV",
+      "summary": "California issues special Disabled Veteran license plates with no additional plate fee. A county veterans service officer or the VA can certify your disability instead of a physician.",
+      "eligibility": [
+        "You meet the Vehicle Code definition of disabled Veteran, which requires a disability from injury or disease suffered on active service with the armed forces",
+        "Qualifying conditions include a disability rated at 100 percent by the VA or the service branch for a diagnosed disease or disorder that substantially impairs mobility",
+        "Also qualifying: a disability so severe that you cannot move without an assistive device, the loss or loss of use of one or more limbs, or permanent blindness as defined in Welfare and Institutions Code 19153"
+      ],
+      "details": [
+        "Vehicle Code 5007 says the department issues these plates without additional fees.",
+        "For Disabled Veteran plates the DMV must accept a certificate from a county veterans service officer, the California Department of Veterans Affairs, or the United States Department of Veterans Affairs in place of the physician's certificate that other applicants have to supply.",
+        "The Vehicle Code definition of disabled Veteran in section 295.7 is narrower than a general VA service-connected rating. A rating below 100 percent does not qualify unless one of the other listed conditions applies to you.",
+        "Separate rules govern vehicle registration fee exemptions. Ask the DMV directly about registration fees rather than assuming the plate rule covers them."
+      ],
+      "agency": "California Department of Motor Vehicles",
+      "statuteRef": "Cal. Veh. Code 5007, definition at Cal. Veh. Code 295.7",
+      "officialUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=VEH&sectionNum=5007.",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "ca-disabled-veterans-property-tax-exemption",
+      "jurisdiction": "CA",
+      "category": "property-tax",
+      "title": "Disabled Veterans' property tax exemption on your home",
+      "summary": "California exempts part of the assessed value of your principal residence if you are blind in both eyes, lost the use of two or more limbs, or are totally disabled from a service-connected injury or disease. A larger exemption applies if your household income is under the annual limit.",
+      "amount": "Statute sets a base exemption of $100,000 of assessed value and $150,000 for low-income claimants. Both figures and the income limit are compounded annually for inflation, so the current amounts are higher.",
+      "eligibility": [
+        "You are a Veteran who is blind in both eyes, has lost the use of two or more limbs, or is totally disabled as a result of injury or disease incurred in military service",
+        "The exemption applies to your principal place of residence",
+        "The larger low-income exemption applies only if household income is at or below the annual limit set in statute and adjusted for inflation",
+        "Unmarried surviving spouses of qualifying Veterans may also claim the exemption. Confirm your situation with your county assessor"
+      ],
+      "details": [
+        "The dollar figures written into the statute are not the amounts in force today. Revenue and Taxation Code 205.5 sets a base of $100,000 and a low-income amount of $150,000, with a $40,000 household income limit, and then compounds all three annually by a California Consumer Price Index inflation factor measured February to February.",
+        "To show how far the figures have moved: the Board of Equalization page lists the 2018 basic exemption at $134,706, the 2018 low-income exemption at $202,060, and the 2018 household income limit at $60,490. Do not use those numbers for a current filing. Ask your county assessor for this year's figures.",
+        "You claim it on form BOE-261-G, Claim for Disabled Veterans' Property Tax Exemption, which you get from your county assessor. You will need proof of your disability rating and your character of discharge.",
+        "Deadlines per the Board of Equalization: for the basic exemption, file between the date of the eligibility event and the following January 1, or 90 days after the eligibility event, whichever is later. The low-income exemption must be claimed every year, and filing between January 1 and February 15 gets 100 percent of the exemption, February 16 through December 10 gets 90 percent, and after December 10 gets 85 percent."
+      ],
+      "agency": "California State Board of Equalization, administered by county assessors",
+      "statuteRef": "Cal. Rev. & Tax. Code 205.5",
+      "officialUrl": "https://www.boe.ca.gov/proptaxes/dv_exemption.htm",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "ca-military-retirement-pay-income-tax-exclusion",
+      "jurisdiction": "CA",
+      "category": "income-tax",
+      "title": "Partial state income tax exclusion for military retirement pay",
+      "summary": "California now lets qualified taxpayers leave a capped amount of federal uniformed services retirement pay out of state gross income. There is a federal adjusted gross income ceiling and the provision is temporary.",
+      "amount": "The statute text posted on leginfo caps the exclusion at $20,000 of retirement pay per year. Confirm the current year cap with the Franchise Tax Board before you file.",
+      "eligibility": [
+        "You receive retirement pay from the federal government for service in the uniformed services, which the statute defines to include the Armed Forces, the National Guard when on active duty, the Public Health Service Commissioned Corps, and the NOAA Commissioned Officer Corps",
+        "Federal adjusted gross income of $250,000 or less for a surviving spouse or spouses filing a joint return",
+        "Federal adjusted gross income of $125,000 or less for any other individual"
+      ],
+      "details": [
+        "The exclusion applies to taxable years beginning on or after January 1, 2025 and before January 1, 2030, and the section is repealed as of December 1, 2030.",
+        "A companion section, Revenue and Taxation Code 17132.10, gives a parallel exclusion for Survivor Benefit Plan annuity payments received by a surviving spouse or other named beneficiary, with the same dollar cap, the same income ceilings, and the same 2025 through 2029 window.",
+        "This is an exclusion you claim on your California return. It is not automatic and it does not change anything on your federal return.",
+        "The Legislature has repeatedly revisited the cap on this exclusion. Check the Franchise Tax Board instructions for the tax year you are filing before relying on a specific dollar figure."
+      ],
+      "agency": "California Franchise Tax Board",
+      "statuteRef": "Cal. Rev. & Tax. Code 17132.9",
+      "officialUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=17132.9.",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "ca-professional-license-renewal-waiver-active-duty",
+      "jurisdiction": "CA",
+      "category": "license-fee",
+      "title": "Professional license renewal fees waived during active duty",
+      "summary": "If you held a valid license from a California Department of Consumer Affairs board when you were called to active duty, the board must waive renewal fees and continuing education while you serve. There are strict notice deadlines after you are discharged.",
+      "eligibility": [
+        "You held a current and valid license or registration with the board at the time you were called to active duty",
+        "The waiver runs only for the period you are on active duty service",
+        "You give the board written documentation substantiating your active duty service",
+        "Active duty includes service in the United States Armed Forces and California National Guard duty, including duty under a state emergency proclamation"
+      ],
+      "details": [
+        "The waiver covers renewal fees, continuing education requirements, and other renewal requirements while you are on active duty.",
+        "Two deadlines matter after you separate. You must notify the board of your discharge within 60 days of receiving your notice of discharge, and you must meet all necessary renewal requirements within six months.",
+        "This applies to boards within the Department of Consumer Affairs as defined in Business and Professions Code section 22. Contact your specific board, since each one handles the paperwork differently.",
+        "This is a benefit tied to active duty service, not to Veteran status by itself. Separate expedited licensure rules exist for Veterans and military spouses, so ask your board about those as well."
+      ],
+      "agency": "California Department of Consumer Affairs licensing boards",
+      "statuteRef": "Cal. Bus. & Prof. Code 114.3",
+      "officialUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=114.3.",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "ca-reduced-fee-sport-fishing-license-disabled-veterans",
+      "jurisdiction": "CA",
+      "category": "recreation",
+      "title": "Reduced-fee sport fishing license for disabled Veterans",
+      "summary": "Honorably discharged Veterans rated 50 percent or more service-connected disabled can buy a California sport fishing license at a steeply reduced fee. You have to prequalify with the Department of Fish and Wildlife first.",
+      "eligibility": [
+        "Honorable discharge from the United States armed forces",
+        "Service-connected disability rating of 50 percent or greater",
+        "The reduced-fee disabled Veteran license is available to residents and nonresidents"
+      ],
+      "details": [
+        "You must prequalify before you can buy the license. Send the Department of Fish and Wildlife documentation from the United States Department of Veterans Affairs verifying your discharge status and your disability rating.",
+        "The CDFW page listed the disabled Veteran sport fishing license at $10.04 at a CDFW office and $10.54 through a license agent. License fees are reset every year, so treat those as illustrative and check the current price before you buy.",
+        "This covers the base sport fishing license. Report cards and validations for salmon, steelhead, sturgeon, spiny lobster, and similar species are priced separately."
+      ],
+      "agency": "California Department of Fish and Wildlife",
+      "officialUrl": "https://wildlife.ca.gov/Licensing/Fishing/Reduced-Fee",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "ca-state-employment-veterans-preference",
+      "jurisdiction": "CA",
+      "category": "employment",
+      "title": "Veterans' preference in California state civil service hiring",
+      "summary": "If you pass an entrance examination for a California state job, veterans' preference places you in the top rank of the resulting eligibility list. Certain spouses and surviving spouses get the same placement.",
+      "eligibility": [
+        "You are a Veteran who passes the entrance examination for the position",
+        "Or you are the widow or widower of a Veteran",
+        "Or you are the spouse of a Veteran rated 100 percent disabled",
+        "Anyone dishonorably discharged or released is excluded"
+      ],
+      "details": [
+        "The preference works by ranking, not by adding points to your score. Qualifying applicants who pass the entrance exam are placed in the top rank of the eligibility list, which is what puts your name in front of a hiring manager.",
+        "The statute is written around entrance examinations and the resulting eligibility list. It does not by its terms extend to promotional examinations for people already in state service.",
+        "You have to claim and document the preference through CalHR. Verify your status before you apply for a job rather than after."
+      ],
+      "agency": "California Department of Human Resources (CalHR)",
+      "statuteRef": "Cal. Gov. Code 18973.1",
+      "officialUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=18973.1",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "ca-state-park-pass-disabled-veterans",
+      "jurisdiction": "CA",
+      "category": "recreation",
+      "title": "State park pass for disabled Veterans and former prisoners of war",
+      "summary": "If you are a California resident Veteran rated at least 50 percent service-connected disabled, or you were held as a prisoner of war, you can get a pass covering the state park system. It includes boat launching facilities.",
+      "eligibility": [
+        "You are a California resident",
+        "You have a 50 percent or greater service-connected disability, or you were held as a prisoner of war",
+        "You were honorably discharged",
+        "You provide proof of eligibility to the department"
+      ],
+      "details": [
+        "The statute says the pass admits the bearer to all facilities in units of the state park system, including boat launching facilities.",
+        "Apply through California State Parks. Bring your VA rating letter and your DD-214 or other discharge document.",
+        "Confirm what the pass covers at the specific park you plan to visit. Some concession-operated facilities inside state parks charge separately."
+      ],
+      "agency": "California Department of Parks and Recreation",
+      "statuteRef": "Cal. Pub. Res. Code 5011.5",
+      "officialUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PRC&sectionNum=5011.5.",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "ca-veterans-homes-of-california",
+      "jurisdiction": "CA",
+      "category": "health",
+      "title": "Admission to the Veterans Homes of California",
+      "summary": "California operates eight Veterans Homes offering long-term care, assisted living, adult day health, and independent living. Eligible spouses and domestic partners can be admitted alongside a Veteran.",
+      "eligibility": [
+        "Aged or disabled persons who served in the Armed Forces of the United States and were discharged or released from active duty under conditions other than dishonorable",
+        "Bona fide California resident who meets the federal VA benefit requirements referenced in the statute",
+        "A spouse or registered domestic partner of an eligible Veteran, subject to a joint residency requirement of at least one year",
+        "A surviving spouse or domestic partner of a Medal of Honor recipient or a former prisoner of war"
+      ],
+      "details": [
+        "The eight homes are in Yountville, Barstow, Chula Vista, West Los Angeles, Lancaster, Ventura, Fresno, and Redding.",
+        "Not every home offers every level of care. Confirm which levels of care are available at the location you are considering before you apply.",
+        "The statute establishes admission priority for Medal of Honor recipients, former prisoners of war, Veterans rated 70 percent or more service-connected disabled, and Veterans who meet needs-based criteria set by the secretary.",
+        "Residents pay a share of the cost. Fee structures depend on level of care, disability rating, and income, so ask the admissions office at the specific home for a written fee estimate."
+      ],
+      "agency": "California Department of Veterans Affairs (CalVet)",
+      "statuteRef": "Cal. Mil. & Vet. Code 1012, homes defined at Cal. Mil. & Vet. Code 1010",
+      "officialUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=MVC&sectionNum=1012.",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "fl-bill-young-veteran-tuition-waiver",
+      "jurisdiction": "FL",
+      "category": "education",
+      "title": "Congressman C.W. Bill Young Veteran Tuition Waiver: pay in-state rates",
+      "summary": "Florida public colleges, universities, and career centers must waive out-of-state fees for honorably discharged Veterans who physically reside in Florida while enrolled. You pay the resident rate even if you have not yet met normal residency rules.",
+      "amount": "Waiver of out-of-state fees. Tuition and fees cannot exceed the resident rate",
+      "eligibility": [
+        "An honorably discharged Veteran of the U.S. Armed Forces, the U.S. Reserve Forces, or the National Guard who physically resides in Florida while enrolled",
+        "Or a person entitled to and using VA educational assistance for a quarter, semester, or term beginning after July 1, 2015, who physically resides in Florida while enrolled",
+        "Applies at state universities, Florida College System institutions, school district career centers under Fla. Stat. 1001.44, and charter technical career centers"
+      ],
+      "details": [
+        "This is a waiver of the out-of-state surcharge, not free tuition. You still owe the in-state amount, which is where your GI Bill or other aid comes in.",
+        "The waiver is established in subsection (13) of Fla. Stat. 1009.26.",
+        "Institutions are required to report annually on the waivers they grant.",
+        "Ask the school's Veteran services or registrar office to apply the waiver. It is not always applied automatically."
+      ],
+      "agency": "Florida public postsecondary institutions",
+      "statuteRef": "Fla. Stat. 1009.26(13)",
+      "officialUrl": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=1000-1099/1009/Sections/1009.26.html",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "fl-combat-disabled-veteran-age-65-tax-discount",
+      "jurisdiction": "FL",
+      "category": "property-tax",
+      "title": "Homestead tax discount at age 65 for a combat-related disability",
+      "summary": "At 65 or older with a combat-related permanent disability, your homestead property tax is discounted by the same percentage as your VA disability rating. A 70 percent rating means a 70 percent discount.",
+      "amount": "A percentage discount equal to your VA permanent service-connected disability percentage",
+      "eligibility": [
+        "Age 65 or older",
+        "Partially or totally permanently disabled",
+        "The disability was combat-related",
+        "Honorably discharged upon separation from military service"
+      ],
+      "details": [
+        "The statute reads: \"The discount shall be in a percentage equal to the percentage of the veteran's permanent, service-connected disability as determined by the United States Department of Veterans Affairs.\"",
+        "This is a percentage discount off the tax owed, not a fixed dollar exemption, so it can be worth far more than the $5,000 exemption under Fla. Stat. 196.24.",
+        "The combat-related requirement is the part people miss. A high rating that is not combat-related does not qualify for this particular discount.",
+        "Apply through your county property appraiser. Check with them on the current filing deadline and on what evidence they want that the disability is combat-related."
+      ],
+      "agency": "Florida county property appraisers",
+      "statuteRef": "Fla. Stat. 196.082",
+      "officialUrl": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199/0196/Sections/0196.082.html",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "fl-disabled-ex-servicemember-5000-exemption",
+      "jurisdiction": "FL",
+      "category": "property-tax",
+      "title": "$5,000 property tax exemption at a 10 percent or higher wartime disability",
+      "summary": "A Florida resident ex-servicemember discharged under honorable conditions and disabled 10 percent or more during a wartime period gets $5,000 of property value exempted from taxation. An unremarried surviving spouse is entitled to the same exemption.",
+      "amount": "$5,000 of property value",
+      "eligibility": [
+        "An ex-servicemember as defined in Fla. Stat. 196.012 who is a bona fide Florida resident",
+        "Discharged under honorable conditions",
+        "Disabled to a degree of 10 percent or more by misfortune or while serving during a period of wartime service as defined in Fla. Stat. 1.01(14)",
+        "An unremarried surviving spouse of such a disabled ex-servicemember also qualifies"
+      ],
+      "details": [
+        "A certificate of disability from the U.S. Government or the U.S. Department of Veterans Affairs, produced to the county property appraiser, is prima facie evidence that you are entitled to the exemption.",
+        "As with the total and permanent exemption, you may apply before you have the VA paperwork in hand. When it arrives the exemption is granted back to the date of your original application and excess taxes paid are refunded, limited to the 4 year period in section 197.182(1)(e).",
+        "This is a much smaller benefit than the full exemption under Fla. Stat. 196.081. If your disability is total and permanent, look at that one instead."
+      ],
+      "agency": "Florida county property appraisers",
+      "statuteRef": "Fla. Stat. 196.24",
+      "officialUrl": "https://www.flsenate.gov/Laws/Statutes/2024/196.24",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "fl-disabled-veteran-hunting-fishing-license",
+      "jurisdiction": "FL",
+      "category": "recreation",
+      "title": "Free hunting and fishing licenses at a 50 percent or higher rating",
+      "summary": "Honorably discharged Veterans certified with a service-connected disability rating of 50 percent or greater are exempt from Florida recreational license and permit fees. The license runs 5 years and is reissued on request.",
+      "amount": "No fee for the recreational license or permit",
+      "eligibility": [
+        "A disabled Veteran of the U.S. Armed Forces honorably discharged upon separation from service",
+        "Certified by the U.S. Department of Veterans Affairs or by any branch of the U.S. Armed Forces as having a service-connected disability percentage rating of 50 percent or greater",
+        "You must show proof of that certification or determination"
+      ],
+      "details": [
+        "The exemption is at Fla. Stat. 379.353(1)(c). The license expires after 5 years and must be reissued on request every 5 years after that, a change effective July 1, 2024.",
+        "A separate provision, Fla. Stat. 379.353(2)(q), exempts participants in organized outdoor recreational events whose primary purpose is the rehabilitation or enjoyment of disabled Veterans with a service-connected rating of zero or higher, or of active duty or reserve servicemembers. That exemption covers the Veteran or servicemember, immediate family, and one designated assistant for the duration of the event.",
+        "Apply through the Florida Fish and Wildlife Conservation Commission or a county tax collector."
+      ],
+      "agency": "Florida Fish and Wildlife Conservation Commission",
+      "statuteRef": "Fla. Stat. 379.353",
+      "officialUrl": "https://www.flsenate.gov/Laws/Statutes/2024/379.353",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "fl-driver-license-fee-exemption",
+      "jurisdiction": "FL",
+      "category": "vehicle",
+      "title": "No driver license or ID card fees at a 100 percent disability rating",
+      "summary": "An honorably discharged Veteran with a 100 percent total and permanent service-connected disability rating is exempt from all driver license and identification card fees in Fla. Stat. 322.21. You still have to meet the normal qualifications for the license.",
+      "amount": "All fees required by Fla. Stat. 322.21 are waived",
+      "eligibility": [
+        "Honorably discharged from the Armed Forces",
+        "And either holding a valid identification card issued by the Florida Department of Veterans' Affairs under Fla. Stat. 295.17, or determined by the U.S. Department of Veterans Affairs to have a 100 percent total and permanent service-connected disability rating for compensation, or determined to have a service-connected total and permanent disability rating of 100 percent and in receipt of disability retirement pay from a branch of the U.S. Armed Services",
+        "You must otherwise be qualified to obtain a driver license under Chapter 322"
+      ],
+      "details": [
+        "The exemption is in subsection (7) of Fla. Stat. 322.21.",
+        "The Florida Department of Veterans' Affairs identification card issued under Fla. Stat. 295.17 is one accepted route to proving eligibility, so getting that card can be worth doing on its own.",
+        "Bring your proof to the tax collector or driver license office. Fees are not waived retroactively, so present it before you pay."
+      ],
+      "agency": "Florida Department of Highway Safety and Motor Vehicles",
+      "statuteRef": "Fla. Stat. 322.21(7)",
+      "officialUrl": "https://www.flsenate.gov/Laws/Statutes/2024/322.21",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "fl-education-benefits-dependents-deceased-disabled-servicemembers",
+      "jurisdiction": "FL",
+      "category": "family",
+      "title": "State-paid education for children and spouses of deceased or 100 percent disabled servicemembers",
+      "summary": "Florida declares it state policy to provide education at state expense to dependent children and spouses of servicemembers who died from service-connected causes or who have a 100 percent service-connected disability rating. Residency and application timing rules apply.",
+      "eligibility": [
+        "A dependent child of a servicemember who died from a service-connected injury, disease, or disability, or who has a 100 percent service-connected disability rating",
+        "A spouse of a deceased servicemember who applies within 5 years of the servicemember's death",
+        "A spouse of a disabled servicemember who has been married to them for at least 1 year, with benefits available only during the marriage",
+        "Residency conditions apply, including Florida being listed as the official home of record in DEERS or otherwise qualifying as a Florida resident"
+      ],
+      "details": [
+        "Fla. Stat. 295.01 sets the policy. The actual award amounts, minimum requirements, and enrollment rules live in Fla. Stat. 295.03 through 295.05 and Fla. Stat. 1009.40, so read those before you count on a specific dollar figure.",
+        "The 100 percent rating can be shown through the VA, through military retirement for disability, or through a valid Florida Department of Veterans' Affairs identification card.",
+        "The 5 year application window for a surviving spouse is easy to miss. If your servicemember has died, start this early.",
+        "Related sections in Chapter 295 cover children of prisoners of war and persons missing in action, and children of servicemembers lost in specific named operations."
+      ],
+      "agency": "Florida Department of Veterans' Affairs",
+      "statuteRef": "Fla. Stat. 295.01",
+      "officialUrl": "https://www.flsenate.gov/Laws/Statutes/2024/295.01",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "fl-free-dv-license-plate",
+      "jurisdiction": "FL",
+      "category": "vehicle",
+      "title": "Free DV license plate for a 100 percent service-connected disability",
+      "summary": "Florida issues a free DV license plate to honorably discharged Veterans with a 100 percent service-connected disability rating, or whose vehicle was bought with VA financial assistance. Service charges still apply at registration and renewal.",
+      "amount": "The license plate is free. Statutory service charges at initial registration and renewal still apply",
+      "eligibility": [
+        "Honorably discharged from the U.S. Armed Forces",
+        "Continuous Florida residency for 5 years, or domicile established under the provisions the statute names",
+        "And one of: the vehicle was purchased with VA financial assistance, or the VA determined you have a service-connected 100 percent disability rating, or you have a 100 percent service-connected disability rating while receiving disability retirement pay"
+      ],
+      "details": [
+        "Proof is a valid Florida Department of Veterans' Affairs identification card, or a letter from the U.S. Department of Veterans Affairs certifying a service-connected disability rating of 100 percent.",
+        "Renewal requires a certified statement that you still qualify.",
+        "The plate must be removed when you sell the vehicle, but it can be transferred to another vehicle you own.",
+        "You may choose a military or specialty plate instead, but the statute notes those do not carry the same parking and accessibility protections that the DV plate does."
+      ],
+      "agency": "Florida Department of Highway Safety and Motor Vehicles",
+      "statuteRef": "Fla. Stat. 320.084",
+      "officialUrl": "https://www.flsenate.gov/Laws/Statutes/2024/320.084",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "fl-home-modification-permit-fee-exemption",
+      "jurisdiction": "FL",
+      "category": "license-fee",
+      "title": "No county or city permit fees for accessibility improvements to your home",
+      "summary": "A totally and permanently disabled Veteran does not pay any county or municipal license or permit fee to make a dwelling they own habitable or safe, such as ramps or widened doors. It covers the fee, not the cost of the work.",
+      "amount": "Any license or permit fee charged by a county or municipality for the qualifying improvement",
+      "eligibility": [
+        "A Florida resident Veteran, honorably discharged, who is totally and permanently disabled",
+        "Holding a valid Florida Department of Veterans' Affairs identification card, or a 100 percent service-connected disability rating from the U.S. Department of Veterans Affairs, or military retirement pay for that disability",
+        "The dwelling is owned by the Veteran",
+        "The improvements are ramps, widening of doors, and similar improvements for the purpose of making the dwelling habitable or safe for the Veteran"
+      ],
+      "details": [
+        "The statute says such a Veteran is \"not required to pay any license or permit fee, by whatever name known, to any county or municipality in order to make improvements upon a dwelling owned by the veteran.\"",
+        "The limit is the type of work. General remodeling that is not about making the home habitable or safe for you is not covered.",
+        "Raise the exemption with the county or city building department when you pull the permit, and bring your VA identification card or rating letter."
+      ],
+      "agency": "Florida county and municipal building departments",
+      "statuteRef": "Fla. Stat. 295.16",
+      "officialUrl": "https://www.flsenate.gov/Laws/Statutes/2024/295.16",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "fl-no-state-personal-income-tax",
+      "jurisdiction": "FL",
+      "category": "income-tax",
+      "title": "Florida does not tax personal income, including military and VA pay",
+      "summary": "The Florida Constitution bars a state income tax on natural persons who are residents of the state. Your military retired pay, drill pay, and VA disability compensation are not taxed by Florida.",
+      "details": [
+        "Fla. Stat. 220.02(1) refers to \"the mandate in s. 5, Art. VII of the State Constitution that no income tax be levied upon natural persons who are residents and citizens of this state.\"",
+        "Because there is no personal income tax at all, Florida has no separate military retirement pay exclusion or Veteran income tax credit. There is nothing to apply for and no form to file.",
+        "The Florida Department of Revenue's list of taxes and fees it administers does not include a personal income tax. It does administer corporate income tax, sales and use tax, and others.",
+        "Federal tax rules still apply. VA disability compensation remains non-taxable federally, and military retired pay is still federally taxable."
+      ],
+      "agency": "Florida Department of Revenue",
+      "statuteRef": "Fla. Const. art. VII, s. 5, as referenced in Fla. Stat. 220.02(1)",
+      "officialUrl": "https://www.flsenate.gov/Laws/Statutes/2024/220.02",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "fl-purple-heart-tuition-waiver",
+      "jurisdiction": "FL",
+      "category": "education",
+      "title": "Tuition waiver for Purple Heart and superior combat decoration recipients",
+      "summary": "Florida public institutions must waive tuition for undergraduate college credit and career certificate programs for recipients of the Purple Heart or a combat decoration superior in precedence. The waiver covers 110 percent of the credit hours the program requires.",
+      "amount": "Tuition for 110 percent of the required credit hours of the program you are enrolled in",
+      "eligibility": [
+        "You received a Purple Heart or another combat decoration superior in precedence",
+        "You are enrolled in an undergraduate college credit program or a career certificate program",
+        "You must meet the statute's criteria on enrollment status, Florida residency, and submitting documentation"
+      ],
+      "details": [
+        "This waiver is subsection (8) of Fla. Stat. 1009.26. It applies at state universities, Florida College System institutions, school district career centers under Fla. Stat. 1001.44, and charter technical career centers.",
+        "It is a tuition waiver, which is broader than the out-of-state fee waiver under the Bill Young program. If you qualify for both, ask the school which applies to your program.",
+        "Confirm with the institution exactly which documentation of the award they require and the residency conditions that apply to you."
+      ],
+      "agency": "Florida public postsecondary institutions",
+      "statuteRef": "Fla. Stat. 1009.26(8)",
+      "officialUrl": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=1000-1099/1009/Sections/1009.26.html",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "fl-state-veterans-nursing-homes",
+      "jurisdiction": "FL",
+      "category": "health",
+      "title": "State veterans nursing homes",
+      "summary": "Florida operates state veterans nursing homes for Veterans who need nursing home care and are Florida residents when they apply. Service-connected disability moves you up the admission priority list.",
+      "eligibility": [
+        "You are a Veteran, have eligible peacetime service, or are the spouse or surviving spouse of a Veteran",
+        "You are in need of nursing home care",
+        "You are a resident of the state at the time of application",
+        "You have no outstanding debt to the department for prior services",
+        "You apply for all available governmental financial assistance",
+        "You obtain approval from the U.S. Department of Veterans Affairs"
+      ],
+      "details": [
+        "Admission priority runs in this order: Florida resident Veterans eligible under state law, then Veterans with a VA-determined service-connected disability or discharged for a disability incurred in service where that disability is why care is needed, then Veterans with a non-service-connected disability who cannot afford nursing home care and swear under oath to that inability, then spouses or surviving spouses of Veterans in those categories.",
+        "The director may waive the residency requirement for evacuees from a state under a disaster emergency declaration.",
+        "Chapter 296 also covers the Veterans' Domiciliary Home of Florida under Part I and Veterans' Adult Day Health Care under Part III. If nursing home level care is more than you need, look at those.",
+        "The homes are run by the Florida Department of Veterans' Affairs. Contact them for the current list of homes, waiting lists, and cost of care."
+      ],
+      "agency": "Florida Department of Veterans' Affairs",
+      "statuteRef": "Fla. Stat. 296.36",
+      "officialUrl": "https://www.flsenate.gov/Laws/Statutes/2024/296.36",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "fl-total-permanent-disability-homestead-exemption",
+      "jurisdiction": "FL",
+      "category": "property-tax",
+      "title": "Full homestead property tax exemption for a total and permanent service-connected disability",
+      "summary": "If you were honorably discharged with a service-connected total and permanent disability, the home you own and live in is exempt from property tax entirely. You prove it with the VA letter certifying total and permanent disability.",
+      "amount": "The full ad valorem tax on your homestead",
+      "eligibility": [
+        "Honorably discharged with a service-connected total and permanent disability",
+        "A letter from the United States Government or the U.S. Department of Veterans Affairs certifying that you are totally and permanently disabled",
+        "You own the real estate and use it as your homestead",
+        "You were a permanent resident of Florida on January 1 of the tax year you are claiming"
+      ],
+      "details": [
+        "The statute says producing the total and permanent disability letter to your county property appraiser is prima facie evidence that you are entitled to the exemption.",
+        "You can apply before the VA documentation arrives. Once you send the documentation in, the exemption is granted as of the date of your original application and excess taxes you paid are refunded, limited to the 4 year period in section 197.182(1)(e).",
+        "If the Veteran dies first, the exemption carries over to the surviving spouse for as long as they hold title, live there, and do not remarry. A spouse who sells can transfer an exemption amount not exceeding the amount on the most recent tax roll to a new primary residence.",
+        "A separate provision in the same section gives a full exemption to the surviving spouse of a Veteran who died from service-connected causes while on active duty.",
+        "If you buy a new property between January 1 and November 1, the statute provides a prorated refund path once the exemption is granted on the new property the next tax year.",
+        "This is claimed through your county property appraiser, not through a state office."
+      ],
+      "agency": "Florida county property appraisers",
+      "statuteRef": "Fla. Stat. 196.081",
+      "officialUrl": "https://www.flsenate.gov/Laws/Statutes/2024/196.081",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "fl-veteran-business-enterprise-certification",
+      "jurisdiction": "FL",
+      "category": "business",
+      "title": "Certified veteran business enterprise state contracting preference",
+      "summary": "Florida certifies businesses at least 51 percent owned by wartime or service-disabled Veterans. When bids are equal on price, quality, and service, the state must award the contract to the certified veteran business enterprise.",
+      "eligibility": [
+        "At least 51 percent owned by one or more wartime Veterans or service-disabled Veterans",
+        "Management and daily business operations controlled by qualifying Veterans, or by the spouse or permanent caregiver in the case of a Veteran with a permanent total disability",
+        "Independently owned and operated",
+        "200 or fewer full-time employees",
+        "Net worth of $5 million or less",
+        "Doing business in Florida"
+      ],
+      "details": [
+        "The preference is a tie-breaker. State agencies must award to the certified veteran business enterprise when bids are equal with respect to all relevant considerations, including price, quality, and service.",
+        "If more than one preference-eligible business submits an equal bid, the contract goes to the one with the smallest net worth.",
+        "Political subdivisions are encouraged, not required, to give similar consideration.",
+        "Certification is done by the Florida Department of Management Services. You have to be certified before the preference applies, so do it before you bid."
+      ],
+      "agency": "Florida Department of Management Services",
+      "statuteRef": "Fla. Stat. 295.187",
+      "officialUrl": "https://www.flsenate.gov/Laws/Statutes/2024/295.187",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "fl-veterans-preference-public-employment",
+      "jurisdiction": "FL",
+      "category": "employment",
+      "title": "Veterans preference in state and local government hiring and retention",
+      "summary": "Florida and its counties, cities, and districts must give preference in appointment and retention to Veterans and certain family members. Reserve and Guard members and honorably discharged Veterans are also included.",
+      "eligibility": [
+        "Disabled Veterans who served on active duty, received an honorable discharge, and have established a present service-connected disability, or who receive VA compensation",
+        "The spouse of a person with a total service-connected disability, or the spouse of a person missing in action",
+        "A parent or the widow or widower of a servicemember who died in combat-related circumstances",
+        "A Veteran who served at least 1 day during a wartime period as defined in Fla. Stat. 1.01(14), not counting active duty for training",
+        "Any Veteran as defined in the statute, not counting active duty for training",
+        "A current member of any reserve component of the U.S. Armed Forces or the Florida National Guard"
+      ],
+      "details": [
+        "Employers may waive a postsecondary education requirement for reserve and Guard members and for honorably discharged Veterans who are otherwise qualified.",
+        "How the preference is applied depends on the hiring process. Fla. Stat. 295.08 covers positions using a numerically based selection process and 295.085 covers positions that do not.",
+        "Fla. Stat. 295.09 covers reinstatement, reemployment, and promotion preference. Fla. Stat. 295.11 gives you an investigation and administrative hearing route if a preferred applicant is not hired.",
+        "State agencies and political subdivisions must develop written Veteran recruitment plans with annual hiring goals and must track preference usage statistically.",
+        "A separate section, Fla. Stat. 295.188, addresses preference in hiring Veterans by private employers."
+      ],
+      "agency": "Florida Department of Veterans' Affairs and Florida Department of Management Services",
+      "statuteRef": "Fla. Stat. 295.07",
+      "officialUrl": "https://www.flsenate.gov/Laws/Statutes/2024/295.07",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
       "id": "tx-100-percent-disabled-veteran-homestead-exemption",
       "jurisdiction": "TX",
       "category": "property-tax",
@@ -377,6 +1096,95 @@
       "verifiedAt": "2026-08-29"
     },
     {
+      "id": "us-dependency-indemnity-compensation",
+      "jurisdiction": "US",
+      "category": "family",
+      "title": "Dependency and Indemnity Compensation (DIC) for survivors",
+      "summary": "A tax-free monthly payment to the surviving spouse, children, or dependent parents of a service member who died on duty, or of a Veteran who died from a service-connected condition.",
+      "amount": "Tax-free monthly payment, varying by survivor type and dependents",
+      "eligibility": [
+        "The service member died while on active duty, active duty for training, or inactive-duty training",
+        "Or the Veteran died from a service-connected condition",
+        "Or the Veteran had a totally disabling service-connected rating for 10 years before death, 5 years after discharge, or 1 year if a former prisoner of war",
+        "Surviving spouse: married within 15 years of discharge, or married at least a year, or you had a child together",
+        "Surviving children: unmarried, under 18, or under 23 and in school, and not already covered by the spouse payment",
+        "Surviving parents: biological, adoptive, or foster, with income below the limit"
+      ],
+      "details": [
+        "REMARRIAGE RULE, which catches many families out: a surviving spouse who remarries can keep DIC if they were at least 57 at remarriage before December 2003, or at least 55 at remarriage from January 2021 onward.",
+        "Rates change every year with a cost-of-living adjustment, so check the current table rather than a figure you were quoted before.",
+        "Filing is free. An accredited service officer will help at no charge."
+      ],
+      "agency": "US Department of Veterans Affairs",
+      "officialUrl": "https://www.va.gov/family-and-caregiver-benefits/survivor-compensation/dependency-indemnity-compensation/",
+      "phone": "800-827-1000",
+      "confidence": "verified",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "us-dependents-educational-assistance",
+      "jurisdiction": "US",
+      "category": "education",
+      "title": "Survivors and Dependents Educational Assistance (Chapter 35)",
+      "summary": "Monthly payments toward education for the children and spouses of a Veteran who is permanently and totally disabled from service, died from a service-connected cause, or is missing, captured, or detained.",
+      "amount": "Up to 36 months of monthly payments, or 45 months if training began before August 2018",
+      "eligibility": [
+        "The Veteran or service member is permanently and totally disabled from a service-connected condition, died of a service-connected cause, is missing in action, captured, forcibly detained, or hospitalized for a service-connected disability",
+        "Children: any age if eligibility began on or after 1 August 2023. Otherwise 18, or younger with a high school diploma or GED",
+        "Spouses: eligible whether married or unmarried at the time of application"
+      ],
+      "details": [
+        "TIME LIMITS depend on when eligibility began. For children eligible on or after 1 August 2023 there is no time limit at all. Before that date it is generally 8 years, ending at age 26.",
+        "For spouses, no limit if the qualifying event was on or after 1 August 2023. Before that, generally 10 years, or 20 years if the service member died on active duty.",
+        "This is separate from the Post-9/11 GI Bill and from transferred GI Bill entitlement. Compare them before choosing, because you may be eligible for more than one."
+      ],
+      "agency": "US Department of Veterans Affairs",
+      "officialUrl": "https://www.va.gov/education/survivor-dependent-benefits/dependents-education-assistance/",
+      "applyUrl": "https://www.va.gov/education/how-to-apply/",
+      "phone": "888-442-4551",
+      "confidence": "verified",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "us-disability-housing-grants",
+      "jurisdiction": "US",
+      "category": "housing",
+      "title": "Specially Adapted Housing and Special Home Adaptation grants",
+      "summary": "Grant money to buy, build, or modify a home so you can live in it with a service-connected disability. You can draw on the grant up to six separate times over your lifetime.",
+      "amount": "Usable up to 6 times over your lifetime",
+      "eligibility": [
+        "You own or will own the home",
+        "SAH: qualifying service-connected disabilities include the loss, or loss of use, of more than one limb, and blindness in both eyes within set limits",
+        "SHA: qualifying disabilities include the loss, or loss of use, of both hands, and severe burn or respiratory injuries"
+      ],
+      "details": [
+        "Both grants cover buying, building, or adapting a permanent home to suit the disability.",
+        "You do not have to spend it all at once. You can use part in one year and the remainder in later years, up to six uses in total.",
+        "Grant maximums are set annually, so confirm the current figure with VA rather than relying on a number you were quoted previously."
+      ],
+      "agency": "US Department of Veterans Affairs",
+      "officialUrl": "https://www.va.gov/housing-assistance/disability-housing-grants/",
+      "applyUrl": "https://www.va.gov/housing-assistance/disability-housing-grants/how-to-apply/",
+      "phone": "877-827-3702",
+      "confidence": "verified",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
       "id": "us-national-cemetery-burial",
       "jurisdiction": "US",
       "category": "burial",
@@ -430,6 +1238,38 @@
       "officialUrl": "https://www.va.gov/education/about-gi-bill-benefits/post-9-11/",
       "applyUrl": "https://www.va.gov/education/how-to-apply/",
       "phone": "888-442-4551",
+      "confidence": "verified",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "us-sdvosb-vetcert",
+      "jurisdiction": "US",
+      "category": "business",
+      "title": "Veteran-owned small business certification (VetCert)",
+      "summary": "Certifying your business as Veteran-owned, or service-disabled Veteran-owned, lets you compete for federal contracts set aside specifically for you. The government targets at least 5 percent of federal contracting dollars at service-disabled Veteran-owned firms.",
+      "amount": "Access to sole-source and set-aside federal contracts",
+      "eligibility": [
+        "The VA identifies you as a Veteran, or as a service-disabled Veteran for SDVOSB status",
+        "At least 51 percent of the business is owned and controlled by one or more Veterans",
+        "For SDVOSB, at least 51 percent is owned by service-disabled Veterans",
+        "The business meets SBA small business size standards for its industry",
+        "A permanently disabled Veteran may still qualify where a spouse or caregiver runs daily operations"
+      ],
+      "details": [
+        "Certification is handled by the Small Business Administration. Apply through the SBA certifications portal, not through the VA.",
+        "Certified Veteran-owned firms can compete under the VA Vets First program as well as government-wide set-asides.",
+        "The SBA also runs a Surplus Personal Property program giving access to unused federal property through State Agencies for Surplus Property.",
+        "Help line: 866-722-4357, Monday to Friday, 8am to 6pm Eastern."
+      ],
+      "agency": "US Small Business Administration",
+      "officialUrl": "https://www.sba.gov/federal-contracting/contracting-assistance-programs/veteran-contracting-assistance-programs",
+      "applyUrl": "https://certifications.sba.gov/",
+      "phone": "866-722-4357",
       "confidence": "verified",
       "source": {
         "id": "curated-benefits",

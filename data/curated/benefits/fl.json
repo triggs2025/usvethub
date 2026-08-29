@@ -1,0 +1,326 @@
+[
+  {
+    "id": "fl-total-permanent-disability-homestead-exemption",
+    "jurisdiction": "FL",
+    "category": "property-tax",
+    "title": "Full homestead property tax exemption for a total and permanent service-connected disability",
+    "summary": "If you were honorably discharged with a service-connected total and permanent disability, the home you own and live in is exempt from property tax entirely. You prove it with the VA letter certifying total and permanent disability.",
+    "amount": "The full ad valorem tax on your homestead",
+    "eligibility": [
+      "Honorably discharged with a service-connected total and permanent disability",
+      "A letter from the United States Government or the U.S. Department of Veterans Affairs certifying that you are totally and permanently disabled",
+      "You own the real estate and use it as your homestead",
+      "You were a permanent resident of Florida on January 1 of the tax year you are claiming"
+    ],
+    "details": [
+      "The statute says producing the total and permanent disability letter to your county property appraiser is prima facie evidence that you are entitled to the exemption.",
+      "You can apply before the VA documentation arrives. Once you send the documentation in, the exemption is granted as of the date of your original application and excess taxes you paid are refunded, limited to the 4 year period in section 197.182(1)(e).",
+      "If the Veteran dies first, the exemption carries over to the surviving spouse for as long as they hold title, live there, and do not remarry. A spouse who sells can transfer an exemption amount not exceeding the amount on the most recent tax roll to a new primary residence.",
+      "A separate provision in the same section gives a full exemption to the surviving spouse of a Veteran who died from service-connected causes while on active duty.",
+      "If you buy a new property between January 1 and November 1, the statute provides a prorated refund path once the exemption is granted on the new property the next tax year.",
+      "This is claimed through your county property appraiser, not through a state office."
+    ],
+    "agency": "Florida county property appraisers",
+    "statuteRef": "Fla. Stat. 196.081",
+    "officialUrl": "https://www.flsenate.gov/Laws/Statutes/2024/196.081",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "fl-disabled-ex-servicemember-5000-exemption",
+    "jurisdiction": "FL",
+    "category": "property-tax",
+    "title": "$5,000 property tax exemption at a 10 percent or higher wartime disability",
+    "summary": "A Florida resident ex-servicemember discharged under honorable conditions and disabled 10 percent or more during a wartime period gets $5,000 of property value exempted from taxation. An unremarried surviving spouse is entitled to the same exemption.",
+    "amount": "$5,000 of property value",
+    "eligibility": [
+      "An ex-servicemember as defined in Fla. Stat. 196.012 who is a bona fide Florida resident",
+      "Discharged under honorable conditions",
+      "Disabled to a degree of 10 percent or more by misfortune or while serving during a period of wartime service as defined in Fla. Stat. 1.01(14)",
+      "An unremarried surviving spouse of such a disabled ex-servicemember also qualifies"
+    ],
+    "details": [
+      "A certificate of disability from the U.S. Government or the U.S. Department of Veterans Affairs, produced to the county property appraiser, is prima facie evidence that you are entitled to the exemption.",
+      "As with the total and permanent exemption, you may apply before you have the VA paperwork in hand. When it arrives the exemption is granted back to the date of your original application and excess taxes paid are refunded, limited to the 4 year period in section 197.182(1)(e).",
+      "This is a much smaller benefit than the full exemption under Fla. Stat. 196.081. If your disability is total and permanent, look at that one instead."
+    ],
+    "agency": "Florida county property appraisers",
+    "statuteRef": "Fla. Stat. 196.24",
+    "officialUrl": "https://www.flsenate.gov/Laws/Statutes/2024/196.24",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "fl-combat-disabled-veteran-age-65-tax-discount",
+    "jurisdiction": "FL",
+    "category": "property-tax",
+    "title": "Homestead tax discount at age 65 for a combat-related disability",
+    "summary": "At 65 or older with a combat-related permanent disability, your homestead property tax is discounted by the same percentage as your VA disability rating. A 70 percent rating means a 70 percent discount.",
+    "amount": "A percentage discount equal to your VA permanent service-connected disability percentage",
+    "eligibility": [
+      "Age 65 or older",
+      "Partially or totally permanently disabled",
+      "The disability was combat-related",
+      "Honorably discharged upon separation from military service"
+    ],
+    "details": [
+      "The statute reads: \"The discount shall be in a percentage equal to the percentage of the veteran's permanent, service-connected disability as determined by the United States Department of Veterans Affairs.\"",
+      "This is a percentage discount off the tax owed, not a fixed dollar exemption, so it can be worth far more than the $5,000 exemption under Fla. Stat. 196.24.",
+      "The combat-related requirement is the part people miss. A high rating that is not combat-related does not qualify for this particular discount.",
+      "Apply through your county property appraiser. Check with them on the current filing deadline and on what evidence they want that the disability is combat-related."
+    ],
+    "agency": "Florida county property appraisers",
+    "statuteRef": "Fla. Stat. 196.082",
+    "officialUrl": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199/0196/Sections/0196.082.html",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "fl-bill-young-veteran-tuition-waiver",
+    "jurisdiction": "FL",
+    "category": "education",
+    "title": "Congressman C.W. Bill Young Veteran Tuition Waiver: pay in-state rates",
+    "summary": "Florida public colleges, universities, and career centers must waive out-of-state fees for honorably discharged Veterans who physically reside in Florida while enrolled. You pay the resident rate even if you have not yet met normal residency rules.",
+    "amount": "Waiver of out-of-state fees. Tuition and fees cannot exceed the resident rate",
+    "eligibility": [
+      "An honorably discharged Veteran of the U.S. Armed Forces, the U.S. Reserve Forces, or the National Guard who physically resides in Florida while enrolled",
+      "Or a person entitled to and using VA educational assistance for a quarter, semester, or term beginning after July 1, 2015, who physically resides in Florida while enrolled",
+      "Applies at state universities, Florida College System institutions, school district career centers under Fla. Stat. 1001.44, and charter technical career centers"
+    ],
+    "details": [
+      "This is a waiver of the out-of-state surcharge, not free tuition. You still owe the in-state amount, which is where your GI Bill or other aid comes in.",
+      "The waiver is established in subsection (13) of Fla. Stat. 1009.26.",
+      "Institutions are required to report annually on the waivers they grant.",
+      "Ask the school's Veteran services or registrar office to apply the waiver. It is not always applied automatically."
+    ],
+    "agency": "Florida public postsecondary institutions",
+    "statuteRef": "Fla. Stat. 1009.26(13)",
+    "officialUrl": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=1000-1099/1009/Sections/1009.26.html",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "fl-purple-heart-tuition-waiver",
+    "jurisdiction": "FL",
+    "category": "education",
+    "title": "Tuition waiver for Purple Heart and superior combat decoration recipients",
+    "summary": "Florida public institutions must waive tuition for undergraduate college credit and career certificate programs for recipients of the Purple Heart or a combat decoration superior in precedence. The waiver covers 110 percent of the credit hours the program requires.",
+    "amount": "Tuition for 110 percent of the required credit hours of the program you are enrolled in",
+    "eligibility": [
+      "You received a Purple Heart or another combat decoration superior in precedence",
+      "You are enrolled in an undergraduate college credit program or a career certificate program",
+      "You must meet the statute's criteria on enrollment status, Florida residency, and submitting documentation"
+    ],
+    "details": [
+      "This waiver is subsection (8) of Fla. Stat. 1009.26. It applies at state universities, Florida College System institutions, school district career centers under Fla. Stat. 1001.44, and charter technical career centers.",
+      "It is a tuition waiver, which is broader than the out-of-state fee waiver under the Bill Young program. If you qualify for both, ask the school which applies to your program.",
+      "Confirm with the institution exactly which documentation of the award they require and the residency conditions that apply to you."
+    ],
+    "agency": "Florida public postsecondary institutions",
+    "statuteRef": "Fla. Stat. 1009.26(8)",
+    "officialUrl": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=1000-1099/1009/Sections/1009.26.html",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "fl-education-benefits-dependents-deceased-disabled-servicemembers",
+    "jurisdiction": "FL",
+    "category": "family",
+    "title": "State-paid education for children and spouses of deceased or 100 percent disabled servicemembers",
+    "summary": "Florida declares it state policy to provide education at state expense to dependent children and spouses of servicemembers who died from service-connected causes or who have a 100 percent service-connected disability rating. Residency and application timing rules apply.",
+    "eligibility": [
+      "A dependent child of a servicemember who died from a service-connected injury, disease, or disability, or who has a 100 percent service-connected disability rating",
+      "A spouse of a deceased servicemember who applies within 5 years of the servicemember's death",
+      "A spouse of a disabled servicemember who has been married to them for at least 1 year, with benefits available only during the marriage",
+      "Residency conditions apply, including Florida being listed as the official home of record in DEERS or otherwise qualifying as a Florida resident"
+    ],
+    "details": [
+      "Fla. Stat. 295.01 sets the policy. The actual award amounts, minimum requirements, and enrollment rules live in Fla. Stat. 295.03 through 295.05 and Fla. Stat. 1009.40, so read those before you count on a specific dollar figure.",
+      "The 100 percent rating can be shown through the VA, through military retirement for disability, or through a valid Florida Department of Veterans' Affairs identification card.",
+      "The 5 year application window for a surviving spouse is easy to miss. If your servicemember has died, start this early.",
+      "Related sections in Chapter 295 cover children of prisoners of war and persons missing in action, and children of servicemembers lost in specific named operations."
+    ],
+    "agency": "Florida Department of Veterans' Affairs",
+    "statuteRef": "Fla. Stat. 295.01",
+    "officialUrl": "https://www.flsenate.gov/Laws/Statutes/2024/295.01",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "fl-no-state-personal-income-tax",
+    "jurisdiction": "FL",
+    "category": "income-tax",
+    "title": "Florida does not tax personal income, including military and VA pay",
+    "summary": "The Florida Constitution bars a state income tax on natural persons who are residents of the state. Your military retired pay, drill pay, and VA disability compensation are not taxed by Florida.",
+    "details": [
+      "Fla. Stat. 220.02(1) refers to \"the mandate in s. 5, Art. VII of the State Constitution that no income tax be levied upon natural persons who are residents and citizens of this state.\"",
+      "Because there is no personal income tax at all, Florida has no separate military retirement pay exclusion or Veteran income tax credit. There is nothing to apply for and no form to file.",
+      "The Florida Department of Revenue's list of taxes and fees it administers does not include a personal income tax. It does administer corporate income tax, sales and use tax, and others.",
+      "Federal tax rules still apply. VA disability compensation remains non-taxable federally, and military retired pay is still federally taxable."
+    ],
+    "agency": "Florida Department of Revenue",
+    "statuteRef": "Fla. Const. art. VII, s. 5, as referenced in Fla. Stat. 220.02(1)",
+    "officialUrl": "https://www.flsenate.gov/Laws/Statutes/2024/220.02",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "fl-veterans-preference-public-employment",
+    "jurisdiction": "FL",
+    "category": "employment",
+    "title": "Veterans preference in state and local government hiring and retention",
+    "summary": "Florida and its counties, cities, and districts must give preference in appointment and retention to Veterans and certain family members. Reserve and Guard members and honorably discharged Veterans are also included.",
+    "eligibility": [
+      "Disabled Veterans who served on active duty, received an honorable discharge, and have established a present service-connected disability, or who receive VA compensation",
+      "The spouse of a person with a total service-connected disability, or the spouse of a person missing in action",
+      "A parent or the widow or widower of a servicemember who died in combat-related circumstances",
+      "A Veteran who served at least 1 day during a wartime period as defined in Fla. Stat. 1.01(14), not counting active duty for training",
+      "Any Veteran as defined in the statute, not counting active duty for training",
+      "A current member of any reserve component of the U.S. Armed Forces or the Florida National Guard"
+    ],
+    "details": [
+      "Employers may waive a postsecondary education requirement for reserve and Guard members and for honorably discharged Veterans who are otherwise qualified.",
+      "How the preference is applied depends on the hiring process. Fla. Stat. 295.08 covers positions using a numerically based selection process and 295.085 covers positions that do not.",
+      "Fla. Stat. 295.09 covers reinstatement, reemployment, and promotion preference. Fla. Stat. 295.11 gives you an investigation and administrative hearing route if a preferred applicant is not hired.",
+      "State agencies and political subdivisions must develop written Veteran recruitment plans with annual hiring goals and must track preference usage statistically.",
+      "A separate section, Fla. Stat. 295.188, addresses preference in hiring Veterans by private employers."
+    ],
+    "agency": "Florida Department of Veterans' Affairs and Florida Department of Management Services",
+    "statuteRef": "Fla. Stat. 295.07",
+    "officialUrl": "https://www.flsenate.gov/Laws/Statutes/2024/295.07",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "fl-free-dv-license-plate",
+    "jurisdiction": "FL",
+    "category": "vehicle",
+    "title": "Free DV license plate for a 100 percent service-connected disability",
+    "summary": "Florida issues a free DV license plate to honorably discharged Veterans with a 100 percent service-connected disability rating, or whose vehicle was bought with VA financial assistance. Service charges still apply at registration and renewal.",
+    "amount": "The license plate is free. Statutory service charges at initial registration and renewal still apply",
+    "eligibility": [
+      "Honorably discharged from the U.S. Armed Forces",
+      "Continuous Florida residency for 5 years, or domicile established under the provisions the statute names",
+      "And one of: the vehicle was purchased with VA financial assistance, or the VA determined you have a service-connected 100 percent disability rating, or you have a 100 percent service-connected disability rating while receiving disability retirement pay"
+    ],
+    "details": [
+      "Proof is a valid Florida Department of Veterans' Affairs identification card, or a letter from the U.S. Department of Veterans Affairs certifying a service-connected disability rating of 100 percent.",
+      "Renewal requires a certified statement that you still qualify.",
+      "The plate must be removed when you sell the vehicle, but it can be transferred to another vehicle you own.",
+      "You may choose a military or specialty plate instead, but the statute notes those do not carry the same parking and accessibility protections that the DV plate does."
+    ],
+    "agency": "Florida Department of Highway Safety and Motor Vehicles",
+    "statuteRef": "Fla. Stat. 320.084",
+    "officialUrl": "https://www.flsenate.gov/Laws/Statutes/2024/320.084",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "fl-driver-license-fee-exemption",
+    "jurisdiction": "FL",
+    "category": "vehicle",
+    "title": "No driver license or ID card fees at a 100 percent disability rating",
+    "summary": "An honorably discharged Veteran with a 100 percent total and permanent service-connected disability rating is exempt from all driver license and identification card fees in Fla. Stat. 322.21. You still have to meet the normal qualifications for the license.",
+    "amount": "All fees required by Fla. Stat. 322.21 are waived",
+    "eligibility": [
+      "Honorably discharged from the Armed Forces",
+      "And either holding a valid identification card issued by the Florida Department of Veterans' Affairs under Fla. Stat. 295.17, or determined by the U.S. Department of Veterans Affairs to have a 100 percent total and permanent service-connected disability rating for compensation, or determined to have a service-connected total and permanent disability rating of 100 percent and in receipt of disability retirement pay from a branch of the U.S. Armed Services",
+      "You must otherwise be qualified to obtain a driver license under Chapter 322"
+    ],
+    "details": [
+      "The exemption is in subsection (7) of Fla. Stat. 322.21.",
+      "The Florida Department of Veterans' Affairs identification card issued under Fla. Stat. 295.17 is one accepted route to proving eligibility, so getting that card can be worth doing on its own.",
+      "Bring your proof to the tax collector or driver license office. Fees are not waived retroactively, so present it before you pay."
+    ],
+    "agency": "Florida Department of Highway Safety and Motor Vehicles",
+    "statuteRef": "Fla. Stat. 322.21(7)",
+    "officialUrl": "https://www.flsenate.gov/Laws/Statutes/2024/322.21",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "fl-disabled-veteran-hunting-fishing-license",
+    "jurisdiction": "FL",
+    "category": "recreation",
+    "title": "Free hunting and fishing licenses at a 50 percent or higher rating",
+    "summary": "Honorably discharged Veterans certified with a service-connected disability rating of 50 percent or greater are exempt from Florida recreational license and permit fees. The license runs 5 years and is reissued on request.",
+    "amount": "No fee for the recreational license or permit",
+    "eligibility": [
+      "A disabled Veteran of the U.S. Armed Forces honorably discharged upon separation from service",
+      "Certified by the U.S. Department of Veterans Affairs or by any branch of the U.S. Armed Forces as having a service-connected disability percentage rating of 50 percent or greater",
+      "You must show proof of that certification or determination"
+    ],
+    "details": [
+      "The exemption is at Fla. Stat. 379.353(1)(c). The license expires after 5 years and must be reissued on request every 5 years after that, a change effective July 1, 2024.",
+      "A separate provision, Fla. Stat. 379.353(2)(q), exempts participants in organized outdoor recreational events whose primary purpose is the rehabilitation or enjoyment of disabled Veterans with a service-connected rating of zero or higher, or of active duty or reserve servicemembers. That exemption covers the Veteran or servicemember, immediate family, and one designated assistant for the duration of the event.",
+      "Apply through the Florida Fish and Wildlife Conservation Commission or a county tax collector."
+    ],
+    "agency": "Florida Fish and Wildlife Conservation Commission",
+    "statuteRef": "Fla. Stat. 379.353",
+    "officialUrl": "https://www.flsenate.gov/Laws/Statutes/2024/379.353",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "fl-state-veterans-nursing-homes",
+    "jurisdiction": "FL",
+    "category": "health",
+    "title": "State veterans nursing homes",
+    "summary": "Florida operates state veterans nursing homes for Veterans who need nursing home care and are Florida residents when they apply. Service-connected disability moves you up the admission priority list.",
+    "eligibility": [
+      "You are a Veteran, have eligible peacetime service, or are the spouse or surviving spouse of a Veteran",
+      "You are in need of nursing home care",
+      "You are a resident of the state at the time of application",
+      "You have no outstanding debt to the department for prior services",
+      "You apply for all available governmental financial assistance",
+      "You obtain approval from the U.S. Department of Veterans Affairs"
+    ],
+    "details": [
+      "Admission priority runs in this order: Florida resident Veterans eligible under state law, then Veterans with a VA-determined service-connected disability or discharged for a disability incurred in service where that disability is why care is needed, then Veterans with a non-service-connected disability who cannot afford nursing home care and swear under oath to that inability, then spouses or surviving spouses of Veterans in those categories.",
+      "The director may waive the residency requirement for evacuees from a state under a disaster emergency declaration.",
+      "Chapter 296 also covers the Veterans' Domiciliary Home of Florida under Part I and Veterans' Adult Day Health Care under Part III. If nursing home level care is more than you need, look at those.",
+      "The homes are run by the Florida Department of Veterans' Affairs. Contact them for the current list of homes, waiting lists, and cost of care."
+    ],
+    "agency": "Florida Department of Veterans' Affairs",
+    "statuteRef": "Fla. Stat. 296.36",
+    "officialUrl": "https://www.flsenate.gov/Laws/Statutes/2024/296.36",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "fl-veteran-business-enterprise-certification",
+    "jurisdiction": "FL",
+    "category": "business",
+    "title": "Certified veteran business enterprise state contracting preference",
+    "summary": "Florida certifies businesses at least 51 percent owned by wartime or service-disabled Veterans. When bids are equal on price, quality, and service, the state must award the contract to the certified veteran business enterprise.",
+    "eligibility": [
+      "At least 51 percent owned by one or more wartime Veterans or service-disabled Veterans",
+      "Management and daily business operations controlled by qualifying Veterans, or by the spouse or permanent caregiver in the case of a Veteran with a permanent total disability",
+      "Independently owned and operated",
+      "200 or fewer full-time employees",
+      "Net worth of $5 million or less",
+      "Doing business in Florida"
+    ],
+    "details": [
+      "The preference is a tie-breaker. State agencies must award to the certified veteran business enterprise when bids are equal with respect to all relevant considerations, including price, quality, and service.",
+      "If more than one preference-eligible business submits an equal bid, the contract goes to the one with the smallest net worth.",
+      "Political subdivisions are encouraged, not required, to give similar consideration.",
+      "Certification is done by the Florida Department of Management Services. You have to be certified before the preference applies, so do it before you bid."
+    ],
+    "agency": "Florida Department of Management Services",
+    "statuteRef": "Fla. Stat. 295.187",
+    "officialUrl": "https://www.flsenate.gov/Laws/Statutes/2024/295.187",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "fl-home-modification-permit-fee-exemption",
+    "jurisdiction": "FL",
+    "category": "license-fee",
+    "title": "No county or city permit fees for accessibility improvements to your home",
+    "summary": "A totally and permanently disabled Veteran does not pay any county or municipal license or permit fee to make a dwelling they own habitable or safe, such as ramps or widened doors. It covers the fee, not the cost of the work.",
+    "amount": "Any license or permit fee charged by a county or municipality for the qualifying improvement",
+    "eligibility": [
+      "A Florida resident Veteran, honorably discharged, who is totally and permanently disabled",
+      "Holding a valid Florida Department of Veterans' Affairs identification card, or a 100 percent service-connected disability rating from the U.S. Department of Veterans Affairs, or military retirement pay for that disability",
+      "The dwelling is owned by the Veteran",
+      "The improvements are ramps, widening of doors, and similar improvements for the purpose of making the dwelling habitable or safe for the Veteran"
+    ],
+    "details": [
+      "The statute says such a Veteran is \"not required to pay any license or permit fee, by whatever name known, to any county or municipality in order to make improvements upon a dwelling owned by the veteran.\"",
+      "The limit is the type of work. General remodeling that is not about making the home habitable or safe for you is not covered.",
+      "Raise the exemption with the county or city building department when you pull the permit, and bring your VA identification card or rating letter."
+    ],
+    "agency": "Florida county and municipal building departments",
+    "statuteRef": "Fla. Stat. 295.16",
+    "officialUrl": "https://www.flsenate.gov/Laws/Statutes/2024/295.16",
+    "confidence": "needs-review"
+  }
+]
