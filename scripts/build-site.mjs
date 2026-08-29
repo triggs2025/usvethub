@@ -203,8 +203,6 @@ page('/', layout({
         : ''}
 
       <div class="wrap hero-content">
-        <p class="eyebrow">All 50 states · DC · 5 territories</p>
-
         <div class="hero-headline">
           <h1>Know what you <em>earned</em>.</h1>
         </div>
