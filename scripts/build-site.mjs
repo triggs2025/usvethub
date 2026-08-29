@@ -11,6 +11,7 @@ import { mkdirSync, writeFileSync, rmSync, cpSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
 import { readJson } from '../pipeline/core/registry.mjs';
 import { layout, esc, escUrl, html, SITE, SITE_URL } from '../src/lib/html.mjs';
+import { LOGOS, ACTIVE_LOGO } from '../src/lib/logos.mjs';
 import {
   loadAll, isStale, daysSince, STALE_AFTER_DAYS, ORG_TYPE_LABELS, CATEGORY_LABELS, CATEGORIES,
 } from '../src/lib/data.mjs';
@@ -502,6 +503,62 @@ page('/about/bot/', layout({
   `,
 }));
 
+// ------------------------------------------------------------- brand review
+// Internal reference page. Noindex, and kept out of the sitemap. It exists so
+// logo and tagline choices get made by looking at them at real size rather
+// than by reading a description of them.
+
+const TAGLINES = [
+  { text: 'Every Veteran benefit, every state, one place', note: 'Current. Descriptive and clear. Says exactly what the site is, and nothing about how it feels.' },
+  { text: 'You earned it. Go get it.', note: 'Most energetic. Reads as a buddy telling you to stop leaving money on the table. Skews youngest.' },
+  { text: 'Know what you earned.', note: 'Calm and confident. Works for a 25 year old and a 75 year old, which few of these do.' },
+  { text: 'Every benefit. Every state. No runaround.', note: 'Descriptive plus attitude. The word runaround does the emotional work.' },
+  { text: 'Stop guessing. Start claiming.', note: 'Strong call to action. Slightly harder sell, and claiming may read as VA-claims specific.' },
+  { text: 'Claim what is yours.', note: 'Short and forceful. Same caveat: claim carries VA baggage.' },
+  { text: '50 states. 5 territories. Zero guesswork.', note: 'Leads with the coverage number, which is the genuinely hard part to copy.' },
+];
+
+page('/design/', layout({
+  title: 'Brand review',
+  path: '/design/',
+  noindex: true,
+  description: 'Internal page for choosing the USVetHub mark and tagline.',
+  body: html`
+    <h1>Brand review</h1>
+    <p class="lede">Internal page. Not linked from anywhere and not in the sitemap.
+    Pick one mark and one tagline, then this page can go.</p>
+
+    <div class="section-head"><h2>Marks</h2></div>
+    <div class="grid three">
+      ${Object.entries(LOGOS).map(([key, logo]) => html`
+        <div class="card">
+          <div class="logo-row">
+            <span class="logo-lg">${logo.render(72)}</span>
+            <span class="logo-md">${logo.render(34)}</span>
+            <span class="logo-sm">${logo.render(16)}</span>
+          </div>
+          <div class="logo-row logo-dark">
+            <span class="logo-lg">${logo.render(72)}</span>
+            <span class="logo-md">${logo.render(34)}</span>
+            <span class="logo-sm">${logo.render(16)}</span>
+          </div>
+          <h3>${esc(logo.name)}</h3>
+          <p class="tag">${esc(key)}${key === ACTIVE_LOGO ? ' · in use' : ''}</p>
+        </div>`)}
+    </div>
+
+    <div class="section-head"><h2>Taglines</h2></div>
+    <div class="grid two">
+      ${TAGLINES.map((t, i) => html`
+        <div class="card">
+          <p class="tag">Option ${esc(i + 1)}</p>
+          <p class="tagline-sample">${esc(t.text)}</p>
+          <p>${esc(t.note)}</p>
+        </div>`)}
+    </div>
+  `,
+}));
+
 page('/404.html', layout({
   title: 'Page not found',
   path: '/404.html',
@@ -527,7 +584,7 @@ if (!isProductionDomain && existsSync(join(OUT, 'CNAME'))) {
   console.log('  CNAME withheld: this build targets ' + SITE_URL);
 }
 
-const urls = pages.filter((p) => p !== '/404.html');
+const urls = pages.filter((p) => p !== '/404.html' && p !== '/design/');
 writeFileSync(join(OUT, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${urls.map((p) => `  <url><loc>${SITE.url}${p}</loc></url>`).join('\n')}

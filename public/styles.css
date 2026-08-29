@@ -117,17 +117,20 @@ a:hover { text-decoration-thickness: 2px; }
 
 /* ----------------------------------------------------------------- masthead */
 .masthead {
-  background: var(--navy-950);
-  color: #fff;
+  background: var(--surface);
+  color: var(--text);
   position: sticky; top: 0; z-index: 40;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  border-bottom: 1px solid var(--border);
+  box-shadow: 0 1px 0 rgba(9, 17, 30, 0.03);
 }
 .masthead .wrap {
   display: flex; flex-wrap: wrap; gap: 16px;
   align-items: center; justify-content: space-between;
   padding-top: 13px; padding-bottom: 13px;
 }
-.brand { display: flex; align-items: center; gap: 13px; color: #fff; text-decoration: none; }
+.brand { display: flex; align-items: center; gap: 12px; color: var(--text); text-decoration: none; }
+.brand .mark { color: var(--navy-600); display: flex; flex: none; }
+@media (prefers-color-scheme: dark) { .brand .mark { color: var(--gold-400); } }
 .brand-mark {
   width: 32px; height: 32px; flex: none; border-radius: 7px;
   background: linear-gradient(160deg, var(--gold-300), var(--gold-500) 55%, var(--gold-600));
@@ -141,14 +144,14 @@ a:hover { text-decoration-thickness: 2px; }
 }
 .brand-text { display: flex; flex-direction: column; line-height: 1.2; }
 .brand-text strong { font-size: 20px; letter-spacing: -0.01em; }
-.brand-text small { font-size: 12px; color: #9fb0c6; }
+.brand-text small { font-size: 12px; color: var(--text-2); }
 .masthead nav { display: flex; gap: 6px; }
 .masthead nav a {
-  color: #dbe4ef; font-weight: 600; text-decoration: none; font-size: 15px;
+  color: var(--text-2); font-weight: 600; text-decoration: none; font-size: 15px;
   padding: 8px 14px; border-radius: var(--radius-pill);
   transition: background 0.18s var(--ease), color 0.18s var(--ease);
 }
-.masthead nav a:hover { background: rgba(255, 255, 255, 0.1); color: #fff; }
+.masthead nav a:hover { background: var(--bg-alt); color: var(--navy-600); }
 
 main { padding-bottom: 72px; }
 
@@ -173,45 +176,82 @@ h2 small { font-weight: 400; color: var(--text-2); font-size: 0.62em; letter-spa
 }
 
 /* --------------------------------------------------------------------- hero
-   Full-bleed dark band. The dark block is what makes the page stop feeling
-   like a document and start feeling like a site. */
+   Light and warm, not a dark slab. The energy comes from colour and scale
+   rather than from darkness: an amber-to-sky wash behind the type, a headline
+   big enough to be the loudest thing on the page, and the video band sitting
+   on top of it with real shadow.
+
+   Dark mode gets its own treatment further down, so a visitor whose device is
+   in dark mode still gets a dark hero. */
 .hero {
   position: relative;
   background:
-    radial-gradient(1200px 520px at 12% -10%, rgba(45, 92, 150, 0.55), transparent 60%),
-    radial-gradient(900px 460px at 88% 0%, rgba(240, 180, 41, 0.16), transparent 62%),
-    linear-gradient(180deg, var(--navy-900), var(--navy-950));
-  color: #fff;
+    radial-gradient(1100px 560px at 8% -18%, rgba(240, 180, 41, 0.4), transparent 58%),
+    radial-gradient(1000px 520px at 92% -8%, rgba(58, 130, 214, 0.26), transparent 60%),
+    radial-gradient(760px 420px at 55% 108%, rgba(196, 52, 43, 0.09), transparent 62%),
+    linear-gradient(180deg, #fffdf8, var(--bg));
+  color: var(--text);
   margin-bottom: 8px;
-  padding: clamp(38px, 6vw, 76px) 0 clamp(30px, 4vw, 54px);
+  padding: clamp(34px, 5.4vw, 66px) 0 clamp(30px, 4vw, 52px);
   overflow: hidden;
 }
+/* Faint chevron field, echoing the logo. Barely visible on purpose: it gives
+   the block texture without becoming wallpaper. */
+.hero::before {
+  content: ""; position: absolute; inset: 0; pointer-events: none;
+  background-image:
+    linear-gradient(135deg, rgba(35, 72, 118, 0.055) 25%, transparent 25%),
+    linear-gradient(225deg, rgba(35, 72, 118, 0.055) 25%, transparent 25%);
+  background-size: 46px 46px;
+  mask-image: linear-gradient(200deg, rgba(0, 0, 0, 0.55), transparent 62%);
+}
 .hero::after {
-  content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 1px;
-  background: linear-gradient(90deg, transparent, var(--gold-500), transparent);
+  content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 3px;
+  background: linear-gradient(90deg, var(--gold-400), var(--red-500) 46%, var(--navy-600));
 }
 .hero > .wrap { position: relative; z-index: 1; }
-.hero h1 { max-width: 17ch; margin-top: 0; }
+.hero h1 { max-width: 16ch; margin-top: 0; font-weight: 800; }
+/* Highlight is a painted underline rather than gradient text: it survives
+   Windows high-contrast mode, which blanks background-clipped text entirely. */
 .hero h1 em {
-  font-style: normal;
-  background: linear-gradient(180deg, var(--gold-300), var(--gold-500));
-  -webkit-background-clip: text; background-clip: text; color: transparent;
+  font-style: normal; position: relative; white-space: nowrap;
 }
-.hero .lede { color: #c5d2e2; max-width: 60ch; }
-.hero-actions { margin: 28px 0 0; display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+.hero h1 em::after {
+  content: ""; position: absolute; left: -2px; right: -2px; bottom: 0.06em; height: 0.34em;
+  background: linear-gradient(90deg, var(--gold-400), var(--gold-300));
+  border-radius: 3px; z-index: -1;
+}
+.hero .lede { color: var(--text-2); max-width: 58ch; }
+.hero-actions { margin: 30px 0 0; display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
 
 .eyebrow {
   display: inline-flex; align-items: center; gap: 9px;
-  font-size: 13px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase;
-  color: var(--gold-300);
-  background: rgba(240, 180, 41, 0.12);
-  border: 1px solid rgba(240, 180, 41, 0.3);
-  padding: 6px 15px; border-radius: var(--radius-pill);
-  margin: 0 0 20px;
+  font-size: 13px; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--navy-700);
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid var(--border);
+  padding: 7px 16px; border-radius: var(--radius-pill);
+  margin: 0 0 20px; box-shadow: var(--shadow-sm);
 }
 .eyebrow::before {
-  content: ""; width: 7px; height: 7px; border-radius: 50%;
-  background: var(--gold-400); box-shadow: 0 0 0 4px rgba(240, 180, 41, 0.22);
+  content: ""; width: 8px; height: 8px; border-radius: 50%;
+  background: var(--red-500); box-shadow: 0 0 0 4px rgba(196, 52, 43, 0.18);
+}
+
+@media (prefers-color-scheme: dark) {
+  .hero {
+    background:
+      radial-gradient(1100px 540px at 10% -14%, rgba(45, 92, 150, 0.5), transparent 60%),
+      radial-gradient(900px 460px at 90% -6%, rgba(240, 180, 41, 0.14), transparent 62%),
+      linear-gradient(180deg, var(--navy-900), var(--navy-950));
+    color: #fff;
+  }
+  .hero::before { opacity: 0.35; }
+  .hero .lede { color: #c5d2e2; }
+  .hero h1 em::after { background: linear-gradient(90deg, var(--gold-500), var(--gold-400)); opacity: 0.9; }
+  .eyebrow { color: var(--gold-300); background: rgba(240, 180, 41, 0.12); border-color: rgba(240, 180, 41, 0.3); }
+  .stats b { color: #fff; }
+  .stats span { color: #93a4bb; }
 }
 
 .button {
@@ -228,20 +268,31 @@ h2 small { font-weight: 400; color: var(--text-2); font-size: 0.62em; letter-spa
 .button:active { transform: translateY(0); }
 
 .button-ghost {
-  background: transparent; color: #fff;
-  border: 1px solid rgba(255, 255, 255, 0.32);
-  box-shadow: none; font-weight: 700;
+  background: var(--surface); color: var(--navy-700);
+  border: 1px solid var(--border-strong);
+  box-shadow: var(--shadow-sm); font-weight: 700;
 }
-.button-ghost:hover { background: rgba(255, 255, 255, 0.1); box-shadow: none; }
+.button-ghost:hover { background: var(--bg-alt); box-shadow: var(--shadow-md); }
+@media (prefers-color-scheme: dark) {
+  .button-ghost { background: transparent; color: #fff; border-color: rgba(255, 255, 255, 0.32); box-shadow: none; }
+  .button-ghost:hover { background: rgba(255, 255, 255, 0.1); box-shadow: none; }
+}
 
 /* Stat strip. Big numbers do more for credibility than a paragraph. */
 .stats { display: flex; flex-wrap: wrap; gap: 30px 46px; margin: 34px 0 0; padding: 0; list-style: none; }
 .stats li { display: flex; flex-direction: column; }
 .stats b {
-  font-size: clamp(26px, 3.2vw, 38px); line-height: 1; letter-spacing: -0.03em;
-  color: #fff; font-variant-numeric: tabular-nums;
+  font-size: clamp(30px, 3.6vw, 44px); line-height: 1; letter-spacing: -0.035em;
+  color: var(--navy-700); font-variant-numeric: tabular-nums; font-weight: 800;
 }
-.stats span { font-size: 13px; letter-spacing: 0.06em; text-transform: uppercase; color: #93a4bb; margin-top: 7px; }
+.stats span { font-size: 12.5px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--text-2); margin-top: 8px; }
+/* A gold tick above each number, so the strip reads as a designed unit rather
+   than four loose figures. */
+.stats li { position: relative; padding-top: 14px; }
+.stats li::before {
+  content: ""; position: absolute; top: 0; left: 0; width: 26px; height: 3px;
+  border-radius: 2px; background: var(--gold-400);
+}
 .stat { font-size: 15px; color: var(--text-2); }
 
 /* ------------------------------------------------------------- hero videos */
@@ -263,10 +314,14 @@ h2 small { font-weight: 400; color: var(--text-2); font-size: 0.62em; letter-spa
   background: linear-gradient(180deg, transparent, rgba(7, 13, 24, 0.9));
 }
 .hero-note {
-  font-size: 13px; color: #a9b8cc;
+  font-size: 13px; color: var(--text-2);
   border-left: 2px solid var(--gold-500); padding: 6px 0 6px 13px; margin: 18px 0 0;
 }
-.hero-note code { font-size: 12px; background: rgba(255, 255, 255, 0.09); padding: 2px 6px; border-radius: 4px; }
+.hero-note code { font-size: 12px; background: rgba(9, 17, 30, 0.06); padding: 2px 6px; border-radius: 4px; }
+@media (prefers-color-scheme: dark) {
+  .hero-note { color: #a9b8cc; }
+  .hero-note code { background: rgba(255, 255, 255, 0.09); }
+}
 
 @media (prefers-reduced-motion: reduce) {
   .hero-video video { display: none; }
@@ -514,3 +569,17 @@ tr.row-warned td:nth-child(2) { color: var(--gold-600); font-weight: 800; }
   .hero { background: none; color: #000; padding: 0; }
   .card { break-inside: avoid; box-shadow: none; }
 }
+
+/* ------------------------------------------------- brand review page only */
+.logo-row {
+  display: flex; align-items: center; gap: 22px;
+  padding: 18px 16px; border-radius: var(--radius-sm);
+  background: var(--bg-alt); color: var(--navy-700); margin-bottom: 10px;
+}
+.logo-row.logo-dark { background: var(--navy-950); color: var(--gold-400); }
+.logo-row span { display: flex; }
+.tagline-sample {
+  font-size: clamp(21px, 2.4vw, 27px); font-weight: 800; line-height: 1.18;
+  letter-spacing: -0.02em; color: var(--navy-700); margin: 4px 0 12px;
+}
+@media (prefers-color-scheme: dark) { .tagline-sample { color: var(--gold-300); } }

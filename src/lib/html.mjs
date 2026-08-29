@@ -6,6 +6,8 @@
  * is how a static site still ends up serving someone else's script.
  */
 
+import { LOGOS, ACTIVE_LOGO } from './logos.mjs';
+
 const ESCAPES = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' };
 
 /** Escape for HTML text and double-quoted attribute contexts. */
@@ -122,7 +124,7 @@ const CRISIS_BAR = `
  * @param {string} page.body       already-escaped HTML
  * @param {Array}  [page.breadcrumbs]  [{ label, href }]
  */
-export function layout({ title, description, path, body, breadcrumbs = [], jsonLd = null }) {
+export function layout({ title, description, path, body, breadcrumbs = [], jsonLd = null, noindex = false }) {
   const fullTitle = path === '/' ? `${SITE.name} · ${SITE.tagline}` : `${title} · ${SITE.name}`;
   const canonical = `${SITE.url}${path}`;
 
@@ -147,6 +149,7 @@ export function layout({ title, description, path, body, breadcrumbs = [], jsonL
 <title>${esc(fullTitle)}</title>
 <meta name="description" content="${esc(description || SITE.description)}">
 <link rel="canonical" href="${esc(canonical)}">
+${noindex ? '<meta name="robots" content="noindex, nofollow">' : ''}
 <meta property="og:title" content="${esc(fullTitle)}">
 <meta property="og:description" content="${esc(description || SITE.description)}">
 <meta property="og:url" content="${esc(canonical)}">
@@ -165,7 +168,7 @@ ${CRISIS_BAR}
 <header class="masthead">
   <div class="wrap">
     <a class="brand" href="${escUrl('/')}">
-      <span class="brand-mark" aria-hidden="true"></span>
+      <span class="mark">${LOGOS[ACTIVE_LOGO].render(34)}</span>
       <span class="brand-text"><strong>USVetHub</strong><small>${esc(SITE.tagline)}</small></span>
     </a>
     <nav aria-label="Main">
