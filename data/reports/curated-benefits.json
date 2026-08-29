@@ -3,16 +3,17 @@
   "reason": null,
   "published": true,
   "unchanged": false,
-  "recordCount": 5,
-  "previousCount": 5,
+  "recordCount": 13,
+  "previousCount": 9,
   "rejected": [],
-  "startedAt": "2026-08-29T04:11:11.662Z",
-  "finishedAt": "2026-08-29T04:11:11.680Z",
+  "startedAt": "2026-08-29T04:47:53.609Z",
+  "finishedAt": "2026-08-29T04:47:53.629Z",
   "requestsUsed": 0,
   "sourceId": "curated-benefits",
   "log": [
-    "[curated-benefits] az.json: 5 record(s)",
-    "[curated-benefits] 5 curated benefit(s) from 1 file(s)",
-    "[curated-benefits] published 5 record(s) to .\\data\\published\\benefits\\curated-benefits.json"
+    "[curated-benefits] az.json: 9 record(s)",
+    "[curated-benefits] tx.json: 4 record(s)",
+    "[curated-benefits] 13 curated benefit(s) from 2 file(s)",
+    "[curated-benefits] published 13 record(s) to .\\data\\published\\benefits\\curated-benefits.json"
   ]
 }

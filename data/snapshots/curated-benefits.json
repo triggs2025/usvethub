@@ -2,7 +2,7 @@
   "sourceId": "curated-benefits",
   "recordType": "benefit",
   "jurisdiction": null,
-  "generatedAt": "2026-08-29T04:08:19.522Z",
+  "generatedAt": "2026-08-29T04:45:44.179Z",
   "records": [
     {
       "id": "az-disabled-veteran-hunting-fishing-license",
@@ -10,7 +10,7 @@
       "category": "recreation",
       "title": "Free or reduced-fee hunting and fishing license",
       "summary": "Arizona gives a complimentary hunting and fishing license to Veterans with a permanent 100 percent service-connected disability, and a reduced-fee license to Veterans with a lower service-connected rating. One year of Arizona residency is required either way.",
-      "amount": "Free at a permanent 100 percent rating. Up to 25 percent off the full license fee for a lower service-connected rating.",
+      "amount": "Free at 100 percent. Up to 25 percent off otherwise.",
       "eligibility": [
         "You have lived in Arizona for one year or more immediately before you apply",
         "You receive US government compensation for a service-connected disability",
@@ -39,7 +39,7 @@
       "category": "property-tax",
       "title": "Property tax exemption for Veterans with a service-connected disability",
       "summary": "If the VA rates you 100 percent service-connected disabled, your property is fully exempt from Arizona property tax. Below 100 percent, you get a partial exemption scaled to your rating.",
-      "amount": "Full exemption at a 100 percent rating. Below that, a set amount multiplied by your VA disability percentage.",
+      "amount": "Fully exempt at 100 percent. Below that, scaled to your rating.",
       "eligibility": [
         "You are a Veteran discharged, separated, or released under honorable conditions from the uniformed services",
         "The VA has assigned you a service-connected disability rating",
@@ -64,12 +64,40 @@
       "verifiedAt": "2026-08-29"
     },
     {
+      "id": "az-military-family-relief-fund",
+      "jurisdiction": "AZ",
+      "category": "financial",
+      "title": "Military Family Relief Fund",
+      "summary": "Arizona pays need-based financial assistance of up to $20,000 per family to service members and families affected by a death, wound, injury, or serious illness connected to military service.",
+      "amount": "Up to $20,000 per family, based on financial need",
+      "eligibility": [
+        "The service member was killed, wounded, injured, or became seriously ill, with separate subaccounts for service after September 11, 2001 and on or before that date",
+        "An Arizona connection is required: deployed from an Arizona military base, claimed Arizona as home of record, was in the Arizona National Guard at deployment, or established residency with proof of at least twelve continuous months of physical presence in Arizona before applying",
+        "Assistance is based on demonstrated financial need resulting from the military service"
+      ],
+      "details": [
+        "Covered uses include stipends for living expenses for up to six months for families of those killed in combat, temporary housing and medical travel for families of hospitalized service members, and other living expenses the committee approves.",
+        "IMPORTANT: the statute establishes this fund through December 31, 2026. Check whether the Legislature has extended it before relying on it.",
+        "The fund is made up of private donations, grants, and bequests, so available money varies."
+      ],
+      "agency": "Arizona Department of Veterans' Services",
+      "statuteRef": "A.R.S. 41-608.04",
+      "officialUrl": "https://www.azleg.gov/ars/41/00608-04.htm",
+      "confidence": "verified",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
       "id": "az-military-retirement-pay-tax-exemption",
       "jurisdiction": "AZ",
       "category": "income-tax",
       "title": "Military retirement pay is fully exempt from Arizona income tax",
       "summary": "Arizona does not tax military retired or retainer pay. Since the 2021 tax year the full amount is subtracted from your Arizona gross income, with no cap.",
-      "amount": "The full amount received, no cap, for tax years from 2021 onward",
+      "amount": "Full amount, no cap, from tax year 2021 onward",
       "eligibility": [
         "You receive retired or retainer pay from the uniformed services of the United States",
         "Uniformed services includes the US military, the Public Health Service Commissioned Corps, and the NOAA Commissioned Officer Corps",
@@ -97,7 +125,7 @@
       "category": "education",
       "title": "Tuition waiver scholarship at Arizona public colleges and universities",
       "summary": "Arizona waives tuition at its public universities and community colleges for Purple Heart recipients rated at least 50 percent disabled, and for the children and surviving spouses of service members killed in the line of duty.",
-      "amount": "Full tuition. Up to 64 credit hours at a community college, or the credits required for a bachelor's degree at a university.",
+      "amount": "Full tuition, up to 64 credit hours at a community college",
       "eligibility": [
         "Purple Heart recipient from the US armed forces with a VA disability rating of 50 percent or more",
         "Or a National Guard member awarded a Purple Heart after September 11, 2001",
@@ -121,12 +149,37 @@
       "verifiedAt": "2026-08-29"
     },
     {
+      "id": "az-state-veteran-homes",
+      "jurisdiction": "AZ",
+      "category": "health",
+      "title": "Arizona State Veteran Homes",
+      "summary": "Arizona operates skilled nursing and long-term care homes for Veterans. The Department of Veterans Services is authorized by statute to build and run them and sets the admission rules and resident charges.",
+      "eligibility": [
+        "Admission rules and resident charges are set by the Department of Veterans Services, not fixed in statute",
+        "Contact the Department directly to check eligibility and current waiting lists"
+      ],
+      "details": [
+        "The statute authorizes the Department to acquire property for, construct, and operate Veterans home facilities in Arizona. The detailed admission criteria live in administrative rule rather than in the statute, so the Department is the place to confirm them.",
+        "Homes operate in Phoenix and Tucson, with additional homes in Flagstaff and Yuma. Confirm current locations and availability with the Department."
+      ],
+      "agency": "Arizona Department of Veterans' Services",
+      "statuteRef": "A.R.S. 41-603",
+      "officialUrl": "https://www.azleg.gov/ars/41/00603.htm",
+      "confidence": "verified",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
       "id": "az-vehicle-license-tax-exemption",
       "jurisdiction": "AZ",
       "category": "vehicle",
       "title": "Vehicle license tax and registration fee exemption",
       "summary": "Veterans certified by the VA at 100 percent disability and drawing compensation on that basis pay no vehicle license tax and no registration fees on one vehicle.",
-      "amount": "No vehicle license tax and no registration fees on one vehicle",
+      "amount": "No vehicle license tax or registration fees on one vehicle",
       "eligibility": [
         "The VA has certified you as 100 percent disabled and you are drawing compensation on that basis",
         "Covers one personally owned vehicle, or a vehicle you own with another party, and any replacement of it",
@@ -140,6 +193,61 @@
       "agency": "Arizona Department of Transportation, Motor Vehicle Division",
       "statuteRef": "A.R.S. 28-5802",
       "officialUrl": "https://www.azleg.gov/ars/28/05802.htm",
+      "confidence": "verified",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "az-veterans-memorial-cemeteries",
+      "jurisdiction": "AZ",
+      "category": "burial",
+      "title": "Arizona Veterans' Memorial Cemeteries",
+      "summary": "Arizona establishes and operates state cemeteries for Veterans, and provides burial services there for Arizona National Guard and US Armed Forces Reserve members discharged under honorable conditions.",
+      "eligibility": [
+        "Veterans, under the Department of Veterans Services rules",
+        "Members of the Arizona National Guard whose service was terminated under honorable conditions",
+        "Members of the United States armed forces reserves whose service was terminated under honorable conditions"
+      ],
+      "details": [
+        "The statute authorizes the Department to acquire property for, establish, and operate cemeteries for Veterans in Arizona, and specifically to provide burial services for Guard and Reserve members separated under honorable conditions.",
+        "State cemeteries operate at Sierra Vista, Camp Navajo near Flagstaff, and Marana north of Tucson. Confirm current locations and eligibility with the Department before making arrangements."
+      ],
+      "agency": "Arizona Department of Veterans' Services",
+      "statuteRef": "A.R.S. 41-603",
+      "officialUrl": "https://www.azleg.gov/ars/41/00603.htm",
+      "confidence": "verified",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "az-veterans-preference-state-employment",
+      "jurisdiction": "AZ",
+      "category": "employment",
+      "title": "Veterans preference points in state and local government hiring",
+      "summary": "Arizona adds preference points to your merit-system exam grade for state and local government jobs: five points for a Veteran, ten if you have a service-connected disability.",
+      "amount": "5 points, or 10 points with a service-connected disability",
+      "eligibility": [
+        "You are a Veteran of the armed forces taking a merit-system employment exam for the state or a political subdivision",
+        "You must earn a passing grade without the preference first, then the points are added",
+        "A service-connected disability raises the preference to ten points",
+        "A spouse or surviving spouse of a Veteran who died of a service-connected disability gets the five-point preference"
+      ],
+      "details": [
+        "The points are added to a passing grade. They do not turn a failing exam into a passing one.",
+        "This applies to Arizona state government and to political subdivisions such as counties and cities that use a merit system.",
+        "The same statute gives a five-point preference to a person with a disability, separate from Veteran status."
+      ],
+      "agency": "Arizona Department of Administration and local merit systems",
+      "statuteRef": "A.R.S. 38-492",
+      "officialUrl": "https://www.azleg.gov/ars/38/00492.htm",
       "confidence": "verified",
       "source": {
         "id": "curated-benefits",
