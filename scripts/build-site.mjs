@@ -13,6 +13,7 @@ import { createHash } from 'node:crypto';
 import { readJson } from '../pipeline/core/registry.mjs';
 import { layout, esc, escUrl, html, SITE, SITE_URL, ASSETS } from '../src/lib/html.mjs';
 import { LOGOS, ACTIVE_LOGO } from '../src/lib/logos.mjs';
+import { payingForHelpBody, payingForHelpMeta } from '../src/pages/paying-for-help.mjs';
 import {
   loadAll, isStale, daysSince, STALE_AFTER_DAYS, ORG_TYPE_LABELS, CATEGORY_LABELS, CATEGORIES,
   DISCOUNT_CATEGORIES, DISCOUNT_CATEGORY_LABELS, DISCOUNT_STALE_AFTER_DAYS, FREE_HELP_ORG_TYPES,
@@ -748,8 +749,10 @@ page('/free-help/', layout({
     <section class="warn">
       <h2>Never pay to file a VA claim</h2>
       <p>Accredited Veterans Service Organizations file claims for free. That is the law, not a
-      courtesy. Anyone asking for a percentage of your back pay or a fee to "unlock" a rating is not
-      acting in your interest. If you are being charged, stop and call a service officer below.</p>
+      courtesy. <strong>Nobody may charge you to file your first claim</strong>, and that includes
+      lawyers. After VA issues a decision, an accredited attorney may legally charge to help with an
+      appeal, which is a different situation entirely.</p>
+      <p class="hero-actions"><a class="button" href="${escUrl('/free-help/paying-for-help/')}">Read the rules on paying for help</a></p>
     </section>
 
     ${sponsorSlot('free-help')}
@@ -784,6 +787,16 @@ page('/free-help/', layout({
         >${orgCard(org)}</div>`)}</div>`
       : html`<p class="cat-none">Nothing published yet.</p>`}
   `,
+}));
+
+page(payingForHelpMeta.path, layout({
+  ...payingForHelpMeta,
+  breadcrumbs: [
+    { label: 'Home', href: '/' },
+    { label: 'Free help', href: '/free-help/' },
+    { label: 'Paying for help' },
+  ],
+  body: payingForHelpBody,
 }));
 
 // --------------------------------------------------------------- nonprofits

@@ -60,6 +60,16 @@ Status key: **OPEN** needs a decision · **DECIDED** settled, see the note ·
 | 26 | 2026-08-28 | Hand-curate the three missing state offices | **OPEN, small and concrete.** VA's own directory has no entry for **Idaho, American Samoa, or the Northern Mariana Islands**. All three have Veteran offices in reality. 53 of 56 jurisdictions are covered automatically; these three need a person. |
 | 27 | 2026-08-28 | Add county Veteran Service Officers | **OPEN.** The state agency is the front door, but the county service officer is who a Veteran actually sits down with. There are roughly 3,000 of them and no single national list, so this is the largest data project on the roadmap and probably the most valuable. |
 
+### Advertising policy and vetting
+
+| # | Date | Suggestion | Why it matters |
+|---|---|---|---|
+| 108 | 2026-08-29 | Paid claims help is allowed, but only inside the legal line | **DECIDED by Tony, and he was right to push back.** The earlier blanket ban would have excluded the accredited attorneys a Veteran genuinely needs to fight a denial. Federal law draws a sharper line than the draft did: only VA-accredited attorneys and claims agents may charge, and only for work after VA issues a decision. Charging for an initial claim is prohibited for everyone. The predator is not "someone who charges", it is someone charging for an initial claim or charging without accreditation. |
+| 109 | 2026-08-29 | Advertiser vetting for claims-representation is now enforced by schema | **DONE.** Verified VA accreditation number, a live interview rather than a form, LinkedIn or business page plus named contact, written confirmation they do not charge for initial claims, and creative that must not imply paying is faster. Re-verified at renewal, because accreditation can be revoked. |
+| 110 | 2026-08-29 | Public page explaining who may charge for claims help | **DONE at /free-help/paying-for-help/.** Tony asked for this because he personally knows Veterans who paid for an initial claim. Quotes 38 CFR 14.636 directly: 20 percent of past-due benefits is presumed reasonable, above 33 and one third percent is presumed unreasonable. Links VA's accreditation search so a Veteran can check in a minute, and gives the three reporting routes including reportfraud.ftc.gov, which VA itself recommends because it notifies the accreditation program. |
+| 111 | 2026-08-29 | One sponsor record can run nationally or on chosen states | **DONE.** Omit jurisdictions for all 56, or list codes for a regional buy. Tony should never manage 56 separate placements. |
+| 112 | 2026-08-29 | Skip ethical ad networks | **RECOMMENDED, not yet decided.** They sell on page topic rather than visitor tracking, so no cookies and no profiles. But it is still a third-party script and one CSP exception, and crucially the advertiser is still not ours to choose. For a Veteran site that is the whole risk. Direct sales plus newsletter sponsorship pays better and keeps control. |
+
 ### Trust, legal, and safety
 
 | # | Date | Suggestion | Why it matters |
