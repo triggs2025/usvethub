@@ -61,7 +61,30 @@ check('a populated state page shows its source and check date', /class="source"/
 check('sitemap.xml exists and lists pages', existsSync('dist/sitemap.xml') && read('sitemap.xml').includes('<loc>'));
 check('robots.txt exists', existsSync('dist/robots.txt'));
 check('404 page exists', existsSync('dist/404.html'));
-check('CNAME ships so the custom domain survives deploys', existsSync('dist/CNAME') && read('CNAME').trim() === 'usvethub.com');
+// CNAME must ship for a production-domain build and must NOT ship for a
+// subpath build, or Pages claims a domain whose DNS is not ready.
+const prodBuild = !process.env.SITE_BASE_URL || new URL(process.env.SITE_BASE_URL).pathname.replace(/\/+$/, '') === '';
+check(
+  prodBuild ? 'CNAME ships for a production-domain build' : 'CNAME is withheld from a subpath build',
+  prodBuild ? existsSync('dist/CNAME') && read('CNAME').trim() === 'usvethub.com' : !existsSync('dist/CNAME'),
+);
+
+// Every internal link must carry the deploy base, or the whole site 404s when
+// served from a subpath. This is the bug that shipped a stylesheet-less site.
+const baseExpected = prodBuild ? '' : new URL(process.env.SITE_BASE_URL).pathname.replace(/\/+$/, '');
+const homeHtml = read('index.html');
+check(
+  `stylesheet href carries the deploy base "${baseExpected || '(root)'}"`,
+  homeHtml.includes(`href="${baseExpected}/styles.css"`),
+  (homeHtml.match(/href="[^"]*styles\.css"/) || ['not found'])[0],
+);
+check(
+  'state links carry the deploy base',
+  homeHtml.includes(`href="${baseExpected}/arizona/"`),
+);
+
+// The CSP is the guard that makes every future third-party script deliberate.
+check('every page carries a Content-Security-Policy', pageFiles.every((f) => readFileSync(f, 'utf8').includes("default-src 'none'")));
 
 // 6. Fixture data must never reach the public site.
 const fixtureLeak = pageFiles.filter((f) => readFileSync(f, 'utf8').includes('zz-test-'));

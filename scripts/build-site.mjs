@@ -9,7 +9,7 @@
  */
 import { mkdirSync, writeFileSync, rmSync, cpSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
-import { layout, esc, escUrl, html, SITE } from '../src/lib/html.mjs';
+import { layout, esc, escUrl, html, SITE, SITE_URL } from '../src/lib/html.mjs';
 import {
   loadAll, isStale, daysSince, STALE_AFTER_DAYS, ORG_TYPE_LABELS, CATEGORY_LABELS,
 } from '../src/lib/data.mjs';
@@ -102,7 +102,7 @@ page('/', layout({
         USVetHub gathers what each state offers Veterans and their families, in plain
         language, with a link to the official source for every single entry.
       </p>
-      <p class="hero-actions"><a class="button" href="/states/">Find your state</a></p>
+      <p class="hero-actions"><a class="button" href="${escUrl('/states/')}">Find your state</a></p>
       <p class="stat">
         ${esc(jurisdictions.length)} jurisdictions ·
         ${esc(organizations.length)} organizations ·
@@ -115,7 +115,7 @@ page('/', layout({
       <h2>Start with your state</h2>
       <ul class="grid states">
         ${jurisdictions.map((j) => html`<li>
-          <a href="/${esc(j.slug)}/">
+          <a href="${escUrl(`/${j.slug}/`)}">
             <strong>${esc(j.name)}</strong>
             <small>${esc(j.organizations.length + j.benefits.length)} listing${j.organizations.length + j.benefits.length === 1 ? '' : 's'}</small>
           </a>
@@ -160,7 +160,7 @@ page('/states/', layout({
       return html`<section>
         <h2>${esc(heading)}</h2>
         <ul class="grid states">
-          ${group.map((j) => html`<li><a href="/${esc(j.slug)}/">
+          ${group.map((j) => html`<li><a href="${escUrl(`/${j.slug}/`)}">
             <strong>${esc(j.name)}</strong>
             <small>${esc(j.organizations.length + j.benefits.length)} listing${j.organizations.length + j.benefits.length === 1 ? '' : 's'}</small>
           </a></li>`)}
@@ -382,13 +382,23 @@ page('/404.html', layout({
   body: html`
     <h1>We could not find that page</h1>
     <p class="lede">It may have moved, or it may not exist yet.</p>
-    <p><a class="button" href="/states/">Find your state</a></p>
+    <p><a class="button" href="${escUrl('/states/')}">Find your state</a></p>
   `,
 }));
 
 // ------------------------------------------------------------ static assets
 
 if (existsSync('public')) cpSync('public', OUT, { recursive: true });
+
+// CNAME tells Pages to claim the custom domain. Ship it only when this build is
+// actually FOR that domain. Shipping it from a github.io subpath build would
+// point Pages at a hostname whose DNS is not pointed back yet, taking the site
+// offline at both URLs.
+const isProductionDomain = new URL(SITE_URL).pathname.replace(/\/+$/, '') === '';
+if (!isProductionDomain && existsSync(join(OUT, 'CNAME'))) {
+  rmSync(join(OUT, 'CNAME'));
+  console.log('  CNAME withheld: this build targets ' + SITE_URL);
+}
 
 const urls = pages.filter((p) => p !== '/404.html');
 writeFileSync(join(OUT, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>

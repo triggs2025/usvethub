@@ -15,8 +15,28 @@ export function esc(value) {
 }
 
 /**
+ * Where this build will be served from.
+ *
+ * GitHub project Pages serve at /<repo>/, not at the root, so a root-absolute
+ * href like /styles.css 404s there. Set SITE_BASE_URL to the real deploy target
+ * and every internal link is prefixed automatically.
+ *
+ *   https://usvethub.com                    -> base ''
+ *   https://triggs2025.github.io/usvethub   -> base '/usvethub'
+ *
+ * Default is the production domain, so pointing DNS at GitHub and dropping the
+ * env var is the only step needed to cut over.
+ */
+export const SITE_URL = (process.env.SITE_BASE_URL || 'https://usvethub.com').replace(/\/+$/, '');
+const BASE = new URL(SITE_URL).pathname.replace(/\/+$/, '');
+
+/**
  * Escape a URL for an href. Returns '#' for anything that is not http(s), so a
  * bad link renders as a dead link instead of an executable one.
+ *
+ * Site-relative paths additionally get the deploy base prefixed, which is why
+ * every internal link in the site goes through here rather than being written
+ * literally into a template.
  */
 export function escUrl(value) {
   if (!value) return '#';
@@ -26,7 +46,7 @@ export function escUrl(value) {
     return esc(parsed.toString());
   } catch {
     // Site-relative paths are ours, so they are safe, but still escape them.
-    return String(value).startsWith('/') ? esc(value) : '#';
+    return String(value).startsWith('/') ? esc(BASE + value) : '#';
   }
 }
 
@@ -43,10 +63,36 @@ export function html(strings, ...values) {
 /** Marks a string as already-safe HTML built by our own code. */
 export const raw = (value) => value ?? '';
 
+/**
+ * Content Security Policy.
+ *
+ * Written while the site runs zero JavaScript, which is the cheapest time to
+ * lock it down. Note there is no `script-src` allowance at all: `default-src
+ * 'none'` denies scripts, and nothing on the site needs one. Anything added
+ * later has to widen this deliberately, which is the point. See
+ * docs/ADVERTISING.md before adding an ad script.
+ *
+ * `img-src` and `style-src` are 'self' only. Every external host in the output
+ * is a navigation link, never an asset, so nothing legitimate is blocked.
+ *
+ * Deliberately absent: `frame-ancestors`, which browsers ignore in a meta tag.
+ * It only works as a real header, and GitHub Pages cannot send one. A static
+ * site with no forms, no cookies, and no session has nothing a clickjacker can
+ * usefully steal, so this is an accepted gap rather than an unnoticed one.
+ */
+const CSP = [
+  "default-src 'none'",
+  "img-src 'self'",
+  "style-src 'self'",
+  "font-src 'self'",
+  "base-uri 'none'",
+  "form-action 'none'",
+].join('; ');
+
 export const SITE = {
   name: 'USVetHub',
   tagline: 'Every Veteran benefit, every state, one place',
-  url: 'https://usvethub.com',
+  url: SITE_URL,
   description:
     'A free, plain-language guide to Veteran benefits and organizations in all 50 states, ' +
     'the District of Columbia, and the 5 US territories.',
@@ -98,8 +144,10 @@ export function layout({ title, description, path, body, breadcrumbs = [], jsonL
 <meta property="og:url" content="${esc(canonical)}">
 <meta property="og:site_name" content="${esc(SITE.name)}">
 <meta property="og:type" content="website">
-<link rel="stylesheet" href="/styles.css">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta http-equiv="Content-Security-Policy" content="${CSP}">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<link rel="stylesheet" href="${escUrl('/styles.css')}">
+<link rel="icon" href="${escUrl('/favicon.svg')}" type="image/svg+xml">
 ${jsonLd ? `<script type="application/ld+json">${JSON.stringify(jsonLd).replace(/</g, '\\u003c')}</script>` : ''}
 </head>
 <body>
@@ -107,14 +155,14 @@ ${jsonLd ? `<script type="application/ld+json">${JSON.stringify(jsonLd).replace(
 ${CRISIS_BAR}
 <header class="masthead">
   <div class="wrap">
-    <a class="brand" href="/">
+    <a class="brand" href="${escUrl('/')}">
       <span class="brand-mark" aria-hidden="true"></span>
       <span class="brand-text"><strong>USVetHub</strong><small>${esc(SITE.tagline)}</small></span>
     </a>
     <nav aria-label="Main">
-      <a href="/states/">States</a>
-      <a href="/organizations/">Organizations</a>
-      <a href="/about/">About</a>
+      <a href="${escUrl('/states/')}">States</a>
+      <a href="${escUrl('/organizations/')}">Organizations</a>
+      <a href="${escUrl('/about/')}">About</a>
     </nav>
   </div>
 </header>
@@ -133,9 +181,9 @@ ${body}
       medical, or financial advice.
     </p>
     <p class="fineprint">
-      <a href="/data-health/">Data health</a> ·
-      <a href="/about/">About</a> ·
-      <a href="/about/bot/">For webmasters</a> ·
+      <a href="${escUrl('/data-health/')}">Data health</a> ·
+      <a href="${escUrl('/about/')}">About</a> ·
+      <a href="${escUrl('/about/bot/')}">For webmasters</a> ·
       Never pay anyone to file a VA claim. Accredited help is free.
     </p>
   </div>

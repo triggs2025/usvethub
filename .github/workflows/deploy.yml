@@ -32,7 +32,18 @@ jobs:
       - name: Verify source isolation still holds
         run: npm run test
 
+      # WHERE THIS BUILD IS SERVED FROM.
+      #
+      # GitHub project Pages serve at /<repo>/, so every internal link needs
+      # that prefix. Getting this wrong ships a site with no stylesheet, which
+      # is exactly what happened on the first deploy.
+      #
+      # TO CUT OVER TO usvethub.com: point the apex A records at GitHub
+      # (185.199.108-111.153), then delete these two lines. The default target
+      # is the production domain, and the build starts shipping CNAME again.
       - name: Build site
+        env:
+          SITE_BASE_URL: https://triggs2025.github.io/usvethub
         run: npm run build
 
       # Only dist/ is uploaded. This is the important difference from a repo
