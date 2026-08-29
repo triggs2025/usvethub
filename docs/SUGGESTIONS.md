@@ -73,6 +73,21 @@ Status key: **OPEN** needs a decision · **DECIDED** settled, see the note ·
 | 13 | 2026-08-28 | Check each state site's terms and `robots.txt` before scraping it | **OPEN.** Federal works are public domain, but state sites vary. Rate limit politely and identify the crawler honestly. |
 | 14 | 2026-08-28 | No PII in this repo, ever | **OPEN, standing rule.** The AZVLC lesson: a private GitHub repo still publishes every file it gives Pages to the open web. Any future contact form or submission queue lives in a separate, unpublished repo. |
 
+### Platform and expansion
+
+| # | Date | Suggestion | Why it matters |
+|---|---|---|---|
+| 60 | 2026-08-29 | Full platform plan: menu, advertisers, submissions, dashboard | **OPEN, see [PLATFORM.md](PLATFORM.md).** The list splits cleanly: discounts, nonprofits, free services and ad slots need no server; advertiser self-service, an analytics dashboard and public submissions all do. |
+| 61 | 2026-08-29 | Keep the back end on a separate system from the public site | **OPEN, and it is the important one.** admin.usvethub.com holds logins, database and forms. Approved records are exported to JSON, committed to git, and only then built into the static site. The public site never reads the database, so a fully compromised admin system cannot deface usvethub.com. The scraper blast wall applied to the whole platform. |
+| 62 | 2026-08-29 | Consider moving hosting to Cloudflare | **OPEN, decide before the back end is built.** Solves four things at once: edge analytics with no cookies and no third-party script, R2 for video which removes the Pages bandwidth ceiling, real HTTP headers which close the frame-ancestors gap, and Workers for the back end. |
+| 63 | 2026-08-29 | Five nav items: Benefits, Discounts, Organizations, Free help, About | **OPEN.** Excludes "Resources", which labels nothing since everything here is a resource, and "Good deals", which duplicates Discounts. |
+| 64 | 2026-08-29 | Discounts rot faster than any other data on the site | **OPEN, plan for it now.** A benefit changes with legislation; a discount changes when a regional manager decides it does. Needs a shorter staleness window than the 120 days benefits use, and 200 confirmed offers beat 2,000 scraped ones. Also where affiliate revenue would sit, so disclosure rules apply. |
+| 65 | 2026-08-29 | Every public submission is a proposal, never a publication | **OPEN, treat as a hard rule.** Submissions land in a moderation queue and a human approves before anything is exported, validated, committed and deployed. That one human step defeats the whole category of attacks where a malicious listing publishes itself. Submitter contact details are PII and live only in the admin database, never in the public repo. |
+| 66 | 2026-08-29 | Build ad slots before the advertiser back end | **OPEN, recommendation.** A spreadsheet and a JSON file will run the first ten advertisers perfectly well. Do not build self-service software for customers who do not exist yet. |
+| 67 | 2026-08-29 | Mobile app as a PWA installed from the site | **PARKED by Tony, deliberately not built.** A Progressive Web App is exactly what he described: installed from the website, no app store, no review queue, no developer fees. The real argument is offline access to your own state benefits and the crisis numbers, so a Veteran with no signal still has the number. Cost is a service worker and a cache invalidation problem. Revisit once the public sections are done. |
+| 68 | 2026-08-29 | Robust without cluttered: depth behind the surface, never on it | **OPEN as a standing rule.** Five nav items permanently, one primary action per page, progressive disclosure inside cards, filters instead of sub-navigation, empty states shown rather than hidden. New sections become children of an existing item, never a sixth. |
+| 69 | 2026-08-29 | Mobile is the primary case, not the fallback | **OPEN as a standing rule.** The audience reads on a phone, often in a waiting room, sometimes on limited data, often over 50. Test every new section at 375px before calling it done. Never shrink type to make something fit: cut the something. |
+
 ### Site and product
 
 | # | Date | Suggestion | Why it matters |
