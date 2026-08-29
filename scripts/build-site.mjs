@@ -197,18 +197,26 @@ page('/', layout({
         ? html`<div class="hero-media" aria-hidden="true">
              <div class="hero-band">${heroBand(hero)}</div>
              <div class="hero-scrim"></div>
-           </div>`
+           </div>
+           <ul class="hero-captions" aria-hidden="true">${hero.videos.slice(0, 3).map((v) =>
+             html`<li>${esc(v.caption ?? '')}</li>`)}</ul>`
         : ''}
 
       <div class="wrap hero-content">
         <p class="eyebrow">All 50 states · DC · 5 territories</p>
-        <h1>Know what you <em>earned</em>.</h1>
-        <p class="hero-sub">Every Veteran benefit, every state, one place.</p>
-        <p class="lede">${esc(hero?.lede ?? SITE.description)}</p>
-        <p class="hero-actions">
-          <a class="button" href="${escUrl(hero?.ctaHref ?? '/states/')}">${esc(hero?.ctaLabel ?? 'Find your state')}</a>
-          <a class="button button-ghost" href="${escUrl('/organizations/')}">Browse organizations</a>
-        </p>
+
+        <div class="hero-headline">
+          <h1>Know what you <em>earned</em>.</h1>
+        </div>
+
+        <div class="hero-copy">
+          <p class="hero-sub">Every Veteran benefit, every state, one place.</p>
+          <p class="lede">${esc(hero?.lede ?? SITE.description)}</p>
+          <p class="hero-actions">
+            <a class="button" href="${escUrl(hero?.ctaHref ?? '/states/')}">${esc(hero?.ctaLabel ?? 'Find your state')}</a>
+            <a class="button button-ghost" href="${escUrl('/organizations/')}">Browse organizations</a>
+          </p>
+        </div>
 
         <ul class="stats">
           <li><b>${esc(jurisdictions.length)}</b><span>Jurisdictions</span></li>
@@ -217,11 +225,6 @@ page('/', layout({
           <li><b>${esc(organizations.length)}</b><span>Organizations</span></li>
         </ul>
       </div>
-
-      ${hero?.videos?.length
-        ? html`<ul class="hero-captions">${hero.videos.slice(0, 3).map((v) =>
-            html`<li>${esc(v.caption ?? '')}</li>`)}</ul>`
-        : ''}
     </section>
 
     <section>
