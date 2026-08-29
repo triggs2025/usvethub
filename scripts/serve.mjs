@@ -5,11 +5,25 @@
  * unknown path serves 404.html. That way a link that works locally works live.
  */
 import { createServer } from 'node:http';
+import { execFileSync } from 'node:child_process';
 import { readFileSync, existsSync, statSync } from 'node:fs';
-import { join, normalize, extname } from 'node:path';
+import { join, normalize, extname, dirname } from 'node:path';
+import { fileURLToPath } from 'node:url';
 
-const ROOT = join(process.cwd(), 'dist');
+// Resolve from this file, not from process.cwd(), so the server works when it
+// is launched by absolute path from another directory.
+const PROJECT = dirname(dirname(fileURLToPath(import.meta.url)));
+const ROOT = join(PROJECT, 'dist');
 const PORT = Number(process.env.PORT || 4321);
+
+// Always serve a fresh build. A preview showing yesterday's HTML is worse than
+// no preview, because it looks like the change did not work.
+if (!process.argv.includes('--no-build')) {
+  execFileSync(process.execPath, [join(PROJECT, 'scripts', 'build-site.mjs')], {
+    cwd: PROJECT,
+    stdio: 'inherit',
+  });
+}
 
 const TYPES = {
   '.html': 'text/html; charset=utf-8',

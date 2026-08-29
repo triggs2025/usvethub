@@ -61,6 +61,7 @@ Status key: **OPEN** needs a decision · **DECIDED** settled, see the note ·
 | 18 | 2026-08-28 | Capitalize Veteran everywhere | **DECIDED.** House rule carried over from AZVLC, now in `CLAUDE.md`. |
 | 28 | 2026-08-28 | Publish a public data-health page | **BUILT** at `/data-health/`. Shows every source and anything currently failing. Worth keeping even when it is embarrassing: a resource guide that hides its own staleness is not trustworthy. |
 | 29 | 2026-08-28 | A "compare two states" page | **OPEN, refinement of 16.** The data model already supports it, since every benefit is categorized and jurisdiction-tagged. Blocked only on having benefit records to compare. |
+| 31 | 2026-08-28 | Decide whether to rewrite lowercase "veterans" inside scraped descriptions | **OPEN, needs Tony.** Our house rule capitalizes Veteran, but several state agency descriptions we pull from VA say "Alaska's veterans" in the agency's own words. Right now we publish them verbatim. Editing a quoted description to match our style is a small misrepresentation of someone else's copy. The alternative is that our own prose and the quoted prose disagree on the same page. Leaning toward leaving quotes verbatim and keeping the rule for copy we write. |
 | 30 | 2026-08-28 | Do not launch publicly until several states have real benefit data | **OPEN.** Right now 56 pages exist and 53 have one organization each. That is honest, and the empty states say so plainly, but it is not yet worth promoting. Suggest 5 to 10 fully curated states before any launch push. |
 
 ### Business and media
