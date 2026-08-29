@@ -1,0 +1,291 @@
+[
+  {
+    "id": "wa-disabled-veteran-property-tax-exemption",
+    "jurisdiction": "WA",
+    "category": "property-tax",
+    "title": "Property tax exemption for Veterans with a service-connected disability",
+    "summary": "Washington exempts part of the property tax on a Veteran's primary residence based on VA disability rating and household income. A 2025 law is phasing the rating requirement down from 80 percent to 20 percent over several years.",
+    "amount": "Varies by income tier. The lowest tier exempts regular property taxes on the greater of $60,000 or 60 percent of the residence valuation. The middle tier exempts the greater of $50,000 or 35 percent, capped at $70,000 of valuation.",
+    "eligibility": [
+      "You own and occupy the residence as your primary home in Washington",
+      "You are a Veteran of the armed forces entitled to and receiving compensation from the US Department of Veterans Affairs",
+      "You qualify with a total disability rating for a service-connected disability, without regard to evaluation percent",
+      "Or you qualify by combined service-connected evaluation rating, which the statute phases down: 60 percent or higher from January 1, 2026 through December 31, 2026, 40 percent or higher from January 1, 2027 through December 31, 2027, and 20 percent or higher beginning January 1, 2028",
+      "Your combined disposable income must be at or below one of three county-specific income thresholds",
+      "There is no minimum age for the Veteran pathway. A surviving spouse or surviving domestic partner of a person receiving the exemption at the time of death qualifies at 57 or older if they otherwise meet the requirements"
+    ],
+    "details": [
+      "The phase down comes from House Bill 1106, enacted as chapter 200, Laws of 2025, effective July 27, 2025. Its title is 'Recognizing the tremendous sacrifices made by our military veterans by phasing down the disability rating requirements to ensure more disabled veterans are eligible for property tax relief.'",
+      "The Department of Revenue benefit page still described an 80 percent requirement when this record was written, while the statute already carries the lower phased figures. Ask your county assessor which rating applies to the assessment year you are filing for.",
+      "Income thresholds are not fixed dollar figures statewide. RCW 84.36.383 sets them as the greater of the prior year threshold or a percentage of county median household income, so the dollar cutoff differs by county and changes over time. Get the current number for your county from the assessor or from the Department of Revenue.",
+      "At the top income tier the exemption applies to excess property taxes, the additional state property tax under RCW 84.52.065(2), and certain voter-approved levy portions. At the two lower tiers you also get an exemption from regular property taxes as described in the amount field.",
+      "Qualifying also freezes the assessed valuation used for the exemption at the value on the later of January 1, 1995 or January 1 of the assessment year you first qualified. Later improvements are added at their true and fair value.",
+      "You apply through your county assessor, not the state. Renewal is required periodically as determined by the local assessor."
+    ],
+    "agency": "Washington State Department of Revenue, administered by county assessors",
+    "statuteRef": "RCW 84.36.379 through 84.36.389, amended by 2025 c 200 s 1",
+    "officialUrl": "https://app.leg.wa.gov/RCW/default.aspx?cite=84.36.381",
+    "applyUrl": "https://dor.wa.gov/taxes-rates/property-tax/property-tax-exemption-seniors-people-retired-due-disability-and-veterans-disabilities",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "wa-property-tax-deferral",
+    "jurisdiction": "WA",
+    "category": "property-tax",
+    "title": "Property tax and special assessment deferral for homeowners with limited income",
+    "summary": "Washington lets qualifying homeowners postpone paying property taxes and special assessments on their residence. The state pays the county on your behalf and records a lien that is repaid later, typically when the home is sold or transferred.",
+    "amount": "Deferral is allowed on up to 80 percent of the claimant's equity value in the residence.",
+    "eligibility": [
+      "You must be 60 years of age or older on December 31 of the year the deferral claim is filed, or you must have been retired from regular gainful employment by reason of disability at the time of filing",
+      "You must meet the other requirements of the RCW 84.36.381 exemption apart from its age and income limits",
+      "Your combined disposable income must be at or below the deferral income threshold, which is set as a percentage of county median household income",
+      "You must own the residence where the taxes are imposed",
+      "You must keep fire and casualty insurance in place covering the state's interest in your equity value"
+    ],
+    "details": [
+      "This is a general low income program, not a Veteran specific one. Chapter 84.38 RCW does not create a separate Veteran category. A Veteran under 60 who is not retired from gainful employment by reason of disability will not qualify for the deferral even if that Veteran qualifies for the RCW 84.36.381 exemption.",
+      "Deferral is not forgiveness. The deferred amount becomes a lien in favor of the state with priority over most other liens, and interest accrues on the balance. Confirm the current interest rate with your county assessor or the Department of Revenue before you rely on any figure.",
+      "You file a written declaration with your county assessor.",
+      "The deferral can be combined with the exemption. Many claimants take the exemption first, then defer what is still owed."
+    ],
+    "agency": "Washington State Department of Revenue, filed with county assessors",
+    "statuteRef": "Chapter 84.38 RCW, RCW 84.38.030",
+    "officialUrl": "https://app.leg.wa.gov/RCW/default.aspx?cite=84.38.030",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "wa-no-state-personal-income-tax",
+    "jurisdiction": "WA",
+    "category": "income-tax",
+    "title": "Washington has no state personal income tax on military pay or retired pay",
+    "summary": "The Department of Revenue states that Washington does not currently have an individual income tax. Active duty pay, military retired pay, VA disability compensation, and survivor benefits are therefore not taxed by the state.",
+    "amount": "No state personal income tax is currently imposed on any wage, retirement, or benefit income.",
+    "eligibility": [
+      "This applies to every Washington resident, so there is no Veteran specific filing, form, or subtraction to claim",
+      "You do not file a Washington personal income tax return"
+    ],
+    "details": [
+      "The Department of Revenue's income tax page states: 'Washington does not currently have an individual income tax.'",
+      "That same page describes a change coming later. Beginning January 1, 2028, a 9.9 percent tax applies to individuals and married couples filing jointly with more than $1 million in annual adjusted gross income, with the first returns due in April 2029. Confirm the details and any exclusions with the Department of Revenue before relying on this, since implementing rules were not final when this record was written.",
+      "You still owe federal income tax. Military retired pay is federally taxable. VA disability compensation is not federally taxable.",
+      "Washington raises revenue through sales tax, business and occupation tax, and property tax instead, so a low state income tax bill does not mean a low overall tax burden."
+    ],
+    "agency": "Washington State Department of Revenue",
+    "officialUrl": "https://dor.wa.gov/taxes-rates/income-tax",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "wa-veteran-dependent-tuition-waiver",
+    "jurisdiction": "WA",
+    "category": "education",
+    "title": "Tuition and fee waivers at Washington public colleges for Veterans and their families",
+    "summary": "Washington public universities and community and technical colleges must waive all tuition and fees for the children and spouses of Veterans who became totally disabled, died in service, or are POW or MIA. They may waive tuition for other eligible Veterans and Guard members.",
+    "amount": "Full tuition and fees for the required waiver. Total credits earned using the waiver may not exceed 250 quarter credits or the semester equivalent. A textbook and course materials stipend of $500 per academic year is also provided, subject to amounts appropriated.",
+    "eligibility": [
+      "Required full waiver: a child, spouse, domestic partner, or surviving spouse or surviving domestic partner of an eligible Veteran or National Guard member who became totally disabled as a result of active federal military or naval service, or who is federally determined to be a prisoner of war or missing in action",
+      "Required full waiver: a child or surviving spouse or surviving domestic partner of an eligible Veteran or National Guard member who lost his or her life as a result of active federal military or naval service",
+      "A child must be a Washington domiciliary between 17 and 26 years old. Marital status does not affect eligibility",
+      "A surviving spouse or surviving domestic partner must be a Washington domiciliary and has 10 years to use the waiver, running from the latest of the date of death, the date of total disability, or the federal determination of service-connected death, total disability, or POW or MIA status",
+      "Remarriage or registration in a subsequent domestic partnership ends eligibility for the required waiver",
+      "Permissive waiver: the governing boards may waive all or a portion of tuition and fees for an eligible Veteran or National Guard member, and separately for a Washington domiciliary Veteran who did not serve on foreign soil or in international waters"
+    ],
+    "details": [
+      "'Eligible veteran or national guard member' is defined in the statute as a Washington domiciliary who served in active federal service under Title 10 or Title 32 in a war or conflict fought on foreign soil or in international waters, or in support of those serving there, and who has a qualifying discharge as defined in RCW 73.04.005.",
+      "'Totally disabled' means a person determined to be 100 percent disabled by the federal Department of Veterans Affairs.",
+      "Waivers under subsection (3) for Veterans who did not serve on foreign soil carry no state general fund support, so whether a school offers them depends on that school's budget. Ask the campus directly.",
+      "Graduate tuition waivers are not required for those who qualify, but the statute encourages them.",
+      "Recipients may attend full time or part time, and continued participation is subject to the school's satisfactory progress policy.",
+      "Private vocational schools and private higher education institutions are encouraged, not required, to offer comparable waivers.",
+      "Apply through the financial aid or Veteran services office at the Washington public college or university you plan to attend."
+    ],
+    "agency": "Governing boards of the state universities, regional universities, The Evergreen State College, and the community and technical colleges",
+    "statuteRef": "RCW 28B.15.621",
+    "officialUrl": "https://app.leg.wa.gov/RCW/default.aspx?cite=28B.15.621",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "wa-veterans-employment-preference",
+    "jurisdiction": "WA",
+    "category": "employment",
+    "title": "Veterans scoring criteria and hiring preference in Washington public employment",
+    "summary": "Washington adds a percentage to a Veteran's passing score on competitive examinations for state, county, and municipal jobs. Veterans also receive preference in appointment to public departments and on state and county public works.",
+    "amount": "10 percent added to a passing score for service during a period of war or armed conflict. 5 percent otherwise. 5 percent on promotional examinations for those called to active service from public employment.",
+    "eligibility": [
+      "You are a Veteran as defined in RCW 41.04.007, or a member of the uniformed services as defined in RCW 41.04.010",
+      "You have a qualifying discharge as defined in RCW 73.04.005, shown by a DD Form 214, NGB Form 22, or equivalent successor discharge paperwork",
+      "A predischarge certification may be used if issued no more than 120 days before submission, with official discharge documentation supplied within 30 days after discharge",
+      "Under RCW 73.16.010 the preference also reaches spouses of active duty service members and spouses of Veterans with a disability"
+    ],
+    "details": [
+      "The 10 percent applies to a Veteran or uniformed service member who served during a period of war or in an armed conflict as defined in RCW 41.04.005 and who does not receive military retirement.",
+      "The 5 percent applies to a Veteran or uniformed service member who did not serve during a period of war or armed conflict, or who is receiving military retirement.",
+      "The 10 percent and the general 5 percent are added until your first appointment and may not be used in promotional examinations.",
+      "The separate 5 percent for someone called to active military service from employment with the state or a political subdivision or municipal corporation applies to promotional examinations, and only until the first promotion.",
+      "The percentage is added to a passing mark, grade, or rating only, based on a possible rating of 100 points as perfect. It does not turn a failing score into a passing one.",
+      "RCW 73.16.010 separately provides that a physical impairment that does not prevent you from performing the job's duties is not a disqualifying factor.",
+      "You must claim the preference. Ask the hiring agency how, and be ready to attach your discharge document."
+    ],
+    "agency": "Washington state agencies, counties, cities, and municipal corporations, plus contractors administering their examinations",
+    "statuteRef": "RCW 41.04.010 and RCW 73.16.010",
+    "officialUrl": "https://app.leg.wa.gov/RCW/default.aspx?cite=41.04.010",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "wa-veterans-innovations-program",
+    "jurisdiction": "WA",
+    "category": "financial",
+    "title": "Veterans Innovations Program emergency financial assistance",
+    "summary": "The Washington State Department of Veterans Affairs runs the Veterans Innovations Program to provide crisis and emergency relief plus education, training, and employment assistance to post 9/11 Veterans, National Guard members, and reservists facing financial hardship.",
+    "eligibility": [
+      "Washington resident",
+      "Served on or after September 11, 2001",
+      "Served honorably, or are already eligible for federal Department of Veterans Affairs monetary benefits, or were separated with a less than honorable characterization of service due solely to sexual orientation, gender identity, or gender expression, or to actions or statements related to them, regardless of characterization of service",
+      "Is experiencing financial hardship where income is not sufficient to meet basic needs",
+      "Presents a discernable positive outcome",
+      "Request is within the grant funding capabilities",
+      "A complete application with required documentation must be submitted"
+    ],
+    "details": [
+      "RCW 43.60A.160 directs the department to provide funding for crisis and emergency relief and for education, training, and employment assistance to eligible Veterans, National Guard members, and armed forces reserves.",
+      "WDVA reports the program has been used for employment transition, homelessness and eviction or foreclosure prevention, education transition, utility shutoff prevention, and transportation needs.",
+      "The program is funded from the Veterans Innovations Program account under RCW 43.60A.185 and awards depend on available funding, so there is no entitlement. Apply early rather than at the last moment.",
+      "WDVA did not publish a maximum award or lifetime limit on its program page. Ask before you count on a specific amount.",
+      "Submit the VIP application to wdvavip@dva.wa.gov, or call 1-800-562-2308."
+    ],
+    "agency": "Washington State Department of Veterans Affairs",
+    "statuteRef": "RCW 43.60A.160 and RCW 43.60A.185",
+    "officialUrl": "https://dva.wa.gov/benefits/veterans-innovations-program",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "wa-veterans-estate-management-program",
+    "jurisdiction": "WA",
+    "category": "legal",
+    "title": "Veterans Estate Management Program fiduciary and protective payee services",
+    "summary": "WDVA can serve as VA fiduciary, Social Security representative payee, or executor for Veterans and their dependents who cannot manage their own finances, making sure income goes to housing, food, clothing, and medical care.",
+    "eligibility": [
+      "The statute covers an incapacitated Veteran or an incapacitated Veteran's dependent who is a Washington resident and whose federal benefits are tied to a fiduciary appointment",
+      "WDVA may act when no responsible family member is available to serve",
+      "The director may also act as executor of a deceased Veteran's estate where no executor has been designated"
+    ],
+    "details": [
+      "RCW 73.04.130 authorizes the director to implement a veteran estate management program and to petition for appointment as fiduciary or executor, serving without bond.",
+      "The statute preserves existing rights of succession under other law and respects designations made in a Veteran's will.",
+      "WDVA describes the program as protective payee services: making timely payments to clients and vendors for housing, food, clothing, and medical care, protecting client assets from creditor claims and financial loss, and helping clients access all available federal and state benefits.",
+      "RCW 73.04.140 prohibits the director or any other department employee from serving as guardian for a resident of the Washington state Veterans homes.",
+      "WDVA did not publish a fee schedule for this program. Ask what, if anything, is deducted before you enroll.",
+      "Contact 1-800-562-2308 or 360-485-1807, or write to the Washington State Department of Veterans Affairs, 1102 Quince St. SE, PO Box 41150, Olympia, WA 98504-1150."
+    ],
+    "agency": "Washington State Department of Veterans Affairs",
+    "statuteRef": "RCW 73.04.130 and RCW 73.04.131",
+    "officialUrl": "https://dva.wa.gov/veterans-service-members-and-their-families/veterans-benefits/veterans-estate-management-program",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "wa-disabled-veteran-license-plates",
+    "jurisdiction": "WA",
+    "category": "vehicle",
+    "title": "Disabled American Veteran and former prisoner of war license plates",
+    "summary": "Washington issues Disabled American Veteran and former prisoner of war plates for one personal use vehicle with no vehicle license fees, license plate fees, or excise taxes. A qualifying Veteran can instead keep regular plates and still get the same fee and tax exemption.",
+    "amount": "One personal use vehicle is issued without payment of any vehicle license fees, license plate fees, or excise taxes.",
+    "eligibility": [
+      "You are a Veteran as defined in RCW 41.04.007 and are the recorded registered owner of the vehicle",
+      "The statute lists five qualifying paths: certification from the VA or your military service that you have a service-connected disability rating; loss of use of both hands or one foot; capture and incarceration by an enemy during a period of war with the United States plus receipt of a prisoner of war medal; blindness in both eyes as a result of military service; or being rated and receiving service-connected compensation at the 100 percent rate that is expected to exist for more than one year",
+      "The vehicle must be a personal use motor vehicle required to display one or two plates, excluding vehicles registered under chapter 46.87 RCW",
+      "The exemption does not apply to commercially registered or commercially used vehicles"
+    ],
+    "details": [
+      "The Department of Licensing's published requirement is an eligibility letter from the US Department of Veterans Affairs verifying a 100 percent VA disability rating expected to last more than one year, which is narrower than the full list of paths in the statute. If you qualify under one of the other statutory paths, raise it with DOL directly rather than assuming you are ineligible.",
+      "Under subsection (3) you may skip the special plate and apply for regular issue or any qualifying special plate while still receiving the full vehicle license fee and excise tax exemption.",
+      "DOL states these plates cover motorcycles, motor homes, passenger vehicles, and trucks in personal use, regardless of gross weight, and that the plates do not need to be renewed.",
+      "The plates may be transferred to another motor vehicle you own by applying to DOL, a county auditor, an agent, or a subagent.",
+      "Disabled American Veteran plates cannot be personalized.",
+      "The department may periodically verify the 100 percent rate.",
+      "Unauthorized use of one of these plates is a gross misdemeanor.",
+      "Apply by mail with your VA eligibility letter and the Military Services and Veterans License Plate Application, with the disabled American veteran plates or tabs box checked."
+    ],
+    "agency": "Washington State Department of Licensing",
+    "statuteRef": "RCW 46.18.235",
+    "officialUrl": "https://app.leg.wa.gov/RCW/default.aspx?cite=46.18.235",
+    "applyUrl": "https://dol.wa.gov/vehicles-and-boats/license-plates/get-custom-plates/special-design-plates/disabled-american-veteran",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "wa-disabled-veteran-hunting-fishing-license",
+    "jurisdiction": "WA",
+    "category": "recreation",
+    "title": "Reduced rate hunting and fishing licenses for Veterans with a disability",
+    "summary": "Washington issues reduced rate combination fishing licenses and reduced rate hunting licenses to residents with a 30 percent or more service-connected disability. Nonresident Veterans with a disability pay what a nondisabled Washington resident pays.",
+    "amount": "The statute sets the reduced combination fishing license rate at $6.90 and sets all hunting licenses at the reduced rate of a youth hunting license fee. Dealer and transaction fees may be added on top, so confirm the checkout total with WDFW.",
+    "eligibility": [
+      "Washington resident with a 30 percent or more service-connected disability from military service",
+      "Or a Washington resident 65 or older with a qualifying military discharge and a service-connected disability",
+      "The same reduced rates in this statute also cover residents who use a wheelchair, residents who are blind or visually impaired, and residents with a documented developmental disability",
+      "A written application is required"
+    ],
+    "details": [
+      "The statute text reads: 'Upon written application, a combination fishing license shall be issued at the reduced rate of $6.90 and all hunting licenses shall be issued at the reduced rate of a youth hunting license fee'.",
+      "For nonresidents the statute provides that upon department verification of eligibility, a nonstate resident Veteran with a disability who otherwise satisfies the criteria must be issued a combination fishing license or any hunting license at the same cost charged to a nondisabled Washington resident for the same license.",
+      "The same section provides free small game, big game, and migratory bird permits to State Guard and National Guard members, full time or participating in part time drills.",
+      "The dollar figure above is the amount written in the statute. Fees can be changed by the legislature, so verify the current price with the Washington Department of Fish and Wildlife before you budget for it.",
+      "You will need documentation of your VA rating when you apply."
+    ],
+    "agency": "Washington Department of Fish and Wildlife",
+    "statuteRef": "RCW 77.32.480",
+    "officialUrl": "https://app.leg.wa.gov/RCW/default.aspx?cite=77.32.480",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "wa-state-veterans-homes",
+    "jurisdiction": "WA",
+    "category": "health",
+    "title": "Washington State Veterans Homes long term and nursing care",
+    "summary": "Washington operates four state Veterans homes offering 24 hour nursing care, medical care, and pharmacy services to Veterans, and in some cases to spouses, surviving spouses, and Gold Star parents.",
+    "eligibility": [
+      "Applicants must be actual bona fide residents of Washington at the time of application",
+      "Served at any time in any branch of the United States armed forces, including the National Guard, per WDVA's published criteria",
+      "Received an honorable discharge, or are already eligible for federal Department of Veterans Affairs monetary benefits",
+      "The statute also covers members of the state militia disabled while on duty, and Filipino World War II Veterans who served with American forces",
+      "Spouses and domestic partners may be admitted, with a requirement in the statute that they were married to and living with the Veteran for three years before application, or were residents of a state Veterans home if married afterward",
+      "Parents of a child who died in military service may also be admitted",
+      "All applicants must apply for all federal and state benefits for which they may be eligible, including medical assistance under chapter 74.09 RCW"
+    ],
+    "details": [
+      "The four homes are the Washington Soldiers Home in Orting, the Washington Veterans Home in Port Orchard also known as Retsil, the Spokane Veterans Home, and the Walla Walla Veterans Home.",
+      "WDVA states the homes are Medicare and Medicaid certified and provide 24 hour nursing care, medical care, and pharmacy services, along with physical and occupational therapy, recreation, social services, hospice, and religious programs.",
+      "Cost is not free. The statute contemplates that resident income is deposited and applied, and requires applicants to pursue federal and state benefits first. Ask the admissions team for a written explanation of what you will owe before you sign anything.",
+      "RCW 73.04.140 bars the WDVA director and department employees from serving as guardian for a home resident.",
+      "Call the admission team at 1-877-838-7787 to arrange a tour and start an application."
+    ],
+    "agency": "Washington State Department of Veterans Affairs",
+    "statuteRef": "Chapter 72.36 RCW, RCW 72.36.030",
+    "officialUrl": "https://dva.wa.gov/veterans-homes",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "wa-state-veterans-cemetery",
+    "jurisdiction": "WA",
+    "category": "burial",
+    "title": "Washington State Veterans Cemetery at Medical Lake",
+    "summary": "Washington operates a state Veterans cemetery in Medical Lake, west of Spokane, for honorably discharged Veterans and eligible family members. There is no direct charge for interment of a Veteran or service member.",
+    "amount": "No direct charge for interment of a Veteran or military member. WDVA published a $311 charge for interment or memorialization of a family member effective October 1, 2025, which cannot be prepaid and is adjusted annually based on the consumer price index. Confirm the current figure before you plan.",
+    "eligibility": [
+      "Open to members of the armed forces who have met a minimum active duty service requirement and were discharged under conditions other than dishonorable",
+      "Spouses, state registered domestic partners, widows and widowers, and minor dependent children may also be eligible",
+      "Unmarried adult children with disabilities may be eligible in certain circumstances",
+      "The statute ties eligibility to the federal standards in 38 C.F.R. Sec. 38.620"
+    ],
+    "details": [
+      "The cemetery is at 21702 West Espanola Road, Medical Lake, WA 99022, about three miles west of Fairchild Air Force Base.",
+      "RCW 72.36.115 directs WDVA to establish and maintain an eastern Washington state Veterans cemetery and to adopt rules defining services, eligibility, fees, and general operations. Fee details live in rule and on WDVA's site, not in the statute.",
+      "Interment options include casketed remains and cremated remains, with casket burial sites, columbarium niches, in-ground cremation inurnment, and a scattering garden.",
+      "WDVA describes interment as an earned federal benefit and submits VA plot allowance claims directly, or Department of Defense claims for service members, rather than billing the family.",
+      "Washington Veterans are also entitled to interment at Tahoma National Cemetery. The state cemetery was created to give eastern Washington families a closer option.",
+      "You can request a pre-need eligibility determination from WDVA rather than leaving it to your family. Cemetery phone: (509) 299-6280."
+    ],
+    "agency": "Washington State Department of Veterans Affairs",
+    "statuteRef": "RCW 72.36.115",
+    "officialUrl": "https://dva.wa.gov/veterans-service-members-and-their-families/cemetery",
+    "confidence": "needs-review"
+  }
+]
