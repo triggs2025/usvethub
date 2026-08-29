@@ -2,7 +2,7 @@
   "sourceId": "curated-benefits",
   "recordType": "benefit",
   "jurisdiction": null,
-  "generatedAt": "2026-08-29T04:47:53.609Z",
+  "generatedAt": "2026-08-29T05:30:12.846Z",
   "records": [
     {
       "id": "az-disabled-veteran-hunting-fishing-license",
@@ -368,6 +368,185 @@
       "agency": "Texas state agencies",
       "statuteRef": "Texas Government Code 657.002 to 657.004",
       "officialUrl": "https://statutes.capitol.texas.gov/Docs/GV/htm/GV.657.htm",
+      "confidence": "verified",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "us-national-cemetery-burial",
+      "jurisdiction": "US",
+      "category": "burial",
+      "title": "Burial in a VA national cemetery",
+      "summary": "Veterans, and in many cases their spouses and dependent children, can be buried in a VA national cemetery. Spouses remain eligible even if they remarried.",
+      "eligibility": [
+        "Veterans who did not separate under dishonorable conditions",
+        "Service members who die while on active duty",
+        "Surviving spouses of Veterans, including those who have since remarried",
+        "Minor children, and unmarried adult dependent children, of Veterans",
+        "Special rules cover Reserve members, ROTC officers, NOAA and Public Health Service officers, WWII Merchant Mariners, Philippine Armed Forces Veterans, and Hmong Veterans"
+      ],
+      "details": [
+        "That surviving spouses stay eligible after remarrying surprises a lot of families, and it is worth knowing before making other arrangements.",
+        "Plan ahead. You can apply for a pre-need eligibility determination so your family is not making this decision under pressure.",
+        "Many states also run their own Veteran cemeteries with separate rules. Check your state page as well as this."
+      ],
+      "agency": "US Department of Veterans Affairs, National Cemetery Administration",
+      "officialUrl": "https://www.va.gov/burials-memorials/eligibility/",
+      "applyUrl": "https://www.va.gov/burials-memorials/pre-need-eligibility/",
+      "phone": "800-535-1117",
+      "confidence": "verified",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "us-post-911-gi-bill",
+      "jurisdiction": "US",
+      "category": "education",
+      "title": "Post-9/11 GI Bill",
+      "summary": "Pays the full cost of in-state tuition and fees at a public college, plus a monthly housing allowance and a books stipend. Up to 36 months of benefits, and for most Veterans it never expires.",
+      "amount": "Up to 36 months. Full in-state public tuition and fees, plus housing and books.",
+      "eligibility": [
+        "At least 90 days on active duty on or after 11 September 2001",
+        "Or you received a Purple Heart on or after that date and were honorably discharged",
+        "Or you served 30 continuous days and were discharged for a service-connected disability",
+        "Or you are a dependent using benefits transferred to you"
+      ],
+      "details": [
+        "Maximum entitlement is 36 months. Serving 56 months or more can open access to up to 48 months across combined programs.",
+        "IMPORTANT DEADLINE: if you were discharged before 1 January 2013, benefits expire 15 years after you separated. Discharged on or after that date, there is no expiration, thanks to the Forever GI Bill.",
+        "Full in-state tuition and fees at public schools. Private and foreign schools are capped at a set rate.",
+        "The monthly housing allowance is based on the cost of living where your school is located, and is not paid during school breaks.",
+        "It also funds tutoring, licensing and certification tests, and work-study."
+      ],
+      "agency": "US Department of Veterans Affairs",
+      "officialUrl": "https://www.va.gov/education/about-gi-bill-benefits/post-9-11/",
+      "applyUrl": "https://www.va.gov/education/how-to-apply/",
+      "phone": "888-442-4551",
+      "confidence": "verified",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "us-va-disability-compensation",
+      "jurisdiction": "US",
+      "category": "financial",
+      "title": "VA disability compensation",
+      "summary": "A tax-free monthly payment for an illness or injury caused or made worse by your military service. This is the benefit most other VA benefits key off, so it is usually the first thing to file for.",
+      "amount": "Tax-free monthly payment, scaled to your disability rating",
+      "eligibility": [
+        "You have a current illness or injury affecting your body or mind",
+        "And you served on active duty, active duty for training, or inactive duty training",
+        "And at least one applies: the condition began during service, service made a pre-existing condition worse, or a service-related disability appeared after discharge",
+        "An other than honorable, bad conduct, or dishonorable discharge may block eligibility, but a discharge upgrade or a VA Character of Discharge review can change that"
+      ],
+      "details": [
+        "Presumptive conditions are approved without you having to prove service caused them. These include a chronic illness appearing within one year of discharge, illnesses linked to toxic exposure, and conditions resulting from being a prisoner of war.",
+        "Covered conditions include chronic back pain, lung disease, hearing loss, PTSD, depression, and cancers linked to toxic exposure.",
+        "Rates change annually with a cost-of-living adjustment, so check the current rate table rather than relying on a figure you were quoted before.",
+        "Filing is free. An accredited Veterans Service Officer will help you file at no charge, and you should never pay a percentage of your back pay to anyone."
+      ],
+      "agency": "US Department of Veterans Affairs",
+      "officialUrl": "https://www.va.gov/disability/eligibility/",
+      "applyUrl": "https://www.va.gov/disability/how-to-file-claim/",
+      "phone": "800-827-1000",
+      "confidence": "verified",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "us-va-health-care",
+      "jurisdiction": "US",
+      "category": "health",
+      "title": "VA health care",
+      "summary": "Enrolling in VA health care gives you access to VA medical centers and clinics nationwide. The PACT Act widened eligibility considerably, so it is worth re-checking even if you were turned down before.",
+      "eligibility": [
+        "If you enlisted after 7 September 1980, or entered active duty after 16 October 1981, you generally need 24 continuous months of service or the full period you were called up",
+        "That requirement is waived if you were discharged for a service-connected disability, for a hardship, or under an early out",
+        "Reserve and National Guard members must have completed their full federal active-duty period",
+        "You must not have a dishonorable discharge. Other than honorable and bad conduct discharges may still qualify after a discharge upgrade or a Character of Discharge review"
+      ],
+      "details": [
+        "VA sorts enrollees into one of eight priority groups. Your group affects how quickly you enrol and what copays you pay.",
+        "You land in a higher priority group if you have a service-connected disability, are a post-9/11 combat Veteran, were a prisoner of war, hold a Purple Heart, or were exposed to toxins such as Agent Orange or asbestos.",
+        "The PACT Act extended eligibility to Veterans who served in Vietnam, the Gulf War, Iraq, Afghanistan, or any other combat zone after 9/11. If you were previously denied, apply again."
+      ],
+      "agency": "US Department of Veterans Affairs",
+      "officialUrl": "https://www.va.gov/health-care/eligibility/",
+      "applyUrl": "https://www.va.gov/health-care/apply/application/introduction",
+      "phone": "877-222-8387",
+      "confidence": "verified",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "us-va-home-loan",
+      "jurisdiction": "US",
+      "category": "housing",
+      "title": "VA-backed home loan",
+      "summary": "A VA guaranty lets a lender offer better terms than a conventional mortgage. Nearly 90 percent of VA-backed loans are made with no down payment at all.",
+      "amount": "Nearly 90 percent of VA-backed loans are made with no down payment",
+      "eligibility": [
+        "Veterans, service members, and some surviving spouses qualify based on service history and duty status",
+        "You need a Certificate of Eligibility to prove to a lender that you qualify",
+        "You still have to meet the lender's own credit and income requirements: the VA guarantees part of the loan, it does not lend the money"
+      ],
+      "details": [
+        "Four programs: purchase loans, Native American Direct Loans, interest rate reduction refinance loans, and cash-out refinance loans.",
+        "A VA funding fee usually applies, and some Veterans are exempt from it, including many with a service-connected disability. Ask before you assume you owe it.",
+        "The benefit is reusable. Using it once does not spend it forever.",
+        "Be cautious of refinance offers that arrive by mail or phone shortly after you close. Aggressive VA loan churning is a well-documented problem and it costs Veterans money."
+      ],
+      "agency": "US Department of Veterans Affairs",
+      "officialUrl": "https://www.va.gov/housing-assistance/home-loans/",
+      "applyUrl": "https://www.va.gov/housing-assistance/home-loans/how-to-request-coe/",
+      "phone": "877-827-3702",
+      "confidence": "verified",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "us-veteran-readiness-employment",
+      "jurisdiction": "US",
+      "category": "employment",
+      "title": "Veteran Readiness and Employment (Chapter 31)",
+      "summary": "If a service-connected disability limits your ability to work, VR&E helps you retrain, find work, or start a business. It is separate from the GI Bill and does not use up your GI Bill entitlement.",
+      "eligibility": [
+        "You have a service-connected disability that limits your ability to work or prevents you from working",
+        "Eligibility is decided case by case with a Vocational Rehabilitation Counselor"
+      ],
+      "details": [
+        "Five tracks: returning to a former job, rapid access to employment, self-employment, long-term training services, and independent living for Veterans not currently able to work.",
+        "It also provides educational and career counselling.",
+        "Worth comparing against the GI Bill before you choose. VR&E is aimed at Veterans whose disability affects their capacity to work, and the two programs are separate entitlements."
+      ],
+      "agency": "US Department of Veterans Affairs",
+      "officialUrl": "https://www.va.gov/careers-employment/vocational-rehabilitation/",
+      "applyUrl": "https://www.va.gov/careers-employment/vocational-rehabilitation/how-to-apply/",
+      "phone": "800-827-1000",
       "confidence": "verified",
       "source": {
         "id": "curated-benefits",

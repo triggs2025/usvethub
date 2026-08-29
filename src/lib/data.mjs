@@ -64,7 +64,16 @@ export function loadAll() {
     jurisdiction.benefits = [];
     jurisdiction.organizations = [];
   }
-  for (const benefit of benefits) byCode.get(benefit.jurisdiction)?.benefits.push(benefit);
+  // Federal benefits apply everywhere, so they are kept separate and rendered on
+  // every jurisdiction page rather than being duplicated 56 times in the data.
+  const federal = benefits
+    .filter((b) => b.jurisdiction === 'US')
+    .sort((a, b) => a.title.localeCompare(b.title));
+
+  for (const benefit of benefits) {
+    if (benefit.jurisdiction === 'US') continue;
+    byCode.get(benefit.jurisdiction)?.benefits.push(benefit);
+  }
   for (const org of organizations) byCode.get(org.jurisdiction)?.organizations.push(org);
 
   for (const jurisdiction of jurisdictions) {
@@ -77,7 +86,7 @@ export function loadAll() {
       jurisdiction.organizations.find((o) => o.orgType === 'state-agency') ?? null;
   }
 
-  return { jurisdictions, byCode, benefits, organizations, health, loadIssues };
+  return { jurisdictions, byCode, benefits, federal, organizations, health, loadIssues };
 }
 
 export const ORG_TYPE_LABELS = {

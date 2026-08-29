@@ -99,6 +99,17 @@ const CSP = [
   "form-action 'none'",
 ].join('; ');
 
+/**
+ * Fingerprinted asset names, filled in by the build.
+ *
+ * Pages reference the stylesheet and script through this table rather than by a
+ * literal path. The build renames each file to include a hash of its contents,
+ * so a changed file gets a new URL and a browser can never serve last week's
+ * CSS against this week's HTML. That failure mode is not cosmetic: new markup
+ * with old CSS renders as an unstyled mess, which is exactly what it did once.
+ */
+export const ASSETS = { css: '/styles.css', js: '/app.js' };
+
 export const SITE = {
   name: 'USVetHub',
   tagline: 'Know what you earned.',
@@ -159,9 +170,9 @@ ${noindex ? '<meta name="robots" content="noindex, nofollow">' : ''}
 <meta property="og:type" content="website">
 <meta http-equiv="Content-Security-Policy" content="${CSP}">
 <meta name="referrer" content="strict-origin-when-cross-origin">
-<link rel="stylesheet" href="${escUrl('/styles.css')}">
+<link rel="stylesheet" href="${escUrl(ASSETS.css)}">
 <link rel="icon" href="${escUrl('/favicon.svg')}" type="image/svg+xml">
-<script src="${escUrl('/app.js')}" defer></script>
+<script src="${escUrl(ASSETS.js)}" defer></script>
 ${jsonLd ? `<script type="application/ld+json">${JSON.stringify(jsonLd).replace(/</g, '\\u003c')}</script>` : ''}
 </head>
 <body>

@@ -7,10 +7,11 @@
  *
  *   npm run build
  */
-import { mkdirSync, writeFileSync, rmSync, cpSync, existsSync } from 'node:fs';
+import { mkdirSync, writeFileSync, rmSync, cpSync, existsSync, renameSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
+import { createHash } from 'node:crypto';
 import { readJson } from '../pipeline/core/registry.mjs';
-import { layout, esc, escUrl, html, SITE, SITE_URL } from '../src/lib/html.mjs';
+import { layout, esc, escUrl, html, SITE, SITE_URL, ASSETS } from '../src/lib/html.mjs';
 import { LOGOS, ACTIVE_LOGO } from '../src/lib/logos.mjs';
 import {
   loadAll, isStale, daysSince, STALE_AFTER_DAYS, ORG_TYPE_LABELS, CATEGORY_LABELS, CATEGORIES,
@@ -28,8 +29,18 @@ function page(path, content) {
   writeFileSync(file, content);
 }
 
+// Fingerprint the assets before any page renders, since every page embeds
+// their names. Eight hex characters is ample: this guards against staleness,
+// not against collision attacks.
+const fingerprint = (file) =>
+  createHash('sha256').update(readFileSync(join('public', file))).digest('hex').slice(0, 8);
+const CSS_NAME = `styles.${fingerprint('styles.css')}.css`;
+const JS_NAME = `app.${fingerprint('app.js')}.js`;
+ASSETS.css = `/${CSS_NAME}`;
+ASSETS.js = `/${JS_NAME}`;
+
 const site = loadAll();
-const { jurisdictions, benefits, organizations, health } = site;
+const { jurisdictions, benefits, federal, organizations, health } = site;
 
 // ---------------------------------------------------------------- components
 
@@ -201,9 +212,9 @@ page('/', layout({
 
         <ul class="stats">
           <li><b>${esc(jurisdictions.length)}</b><span>Jurisdictions</span></li>
+          <li><b>${esc(federal.length)}</b><span>Federal benefits</span></li>
+          <li><b>${esc(benefits.length - federal.length)}</b><span>State benefits</span></li>
           <li><b>${esc(organizations.length)}</b><span>Organizations</span></li>
-          <li><b>${esc(benefits.length)}</b><span>Benefits</span></li>
-          <li><b>${esc(withData.length)}</b><span>With published data</span></li>
         </ul>
       </div>
 
@@ -215,7 +226,8 @@ page('/', layout({
 
     <section>
       <div class="section-head"><h2>Start with your state</h2></div>
-      <p class="lede">Type to jump straight to yours.</p>
+      <p class="lede">Counts show what each state or territory offers on its own. Every page also
+      carries the ${esc(federal.length)} federal benefits, which are the same wherever you live.</p>
       ${filterBar({ target: '#state-grid', label: 'Filter states and territories', placeholder: 'Search states and territories' })}
       <ul class="grid states" id="state-grid">
         ${jurisdictions.map((j) => html`<li data-filter-item data-search="${esc(`${j.name} ${j.code}`)}">
@@ -347,6 +359,15 @@ for (const j of jurisdictions) {
             </section>`;
         })}
       </section>
+
+      ${federal.length
+        ? html`<section class="federal">
+            <div class="section-head"><h2>Federal benefits <small>available in every state</small></h2></div>
+            <p class="lede">These come from the VA, not from ${esc(j.name)}, so they are the same
+            wherever you live. Most Veterans are eligible for more of these than they realise.</p>
+            <div class="grid two">${federal.map(benefitCard)}</div>
+          </section>`
+        : ''}
 
       <section>
         <h2>Organizations</h2>
@@ -582,6 +603,11 @@ page('/404.html', layout({
 // ------------------------------------------------------------ static assets
 
 if (existsSync('public')) cpSync('public', OUT, { recursive: true });
+
+// Emit the hashed copies and drop the unhashed originals, so nothing can link
+// to a URL that is allowed to go stale.
+renameSync(join(OUT, 'styles.css'), join(OUT, CSS_NAME));
+renameSync(join(OUT, 'app.js'), join(OUT, JS_NAME));
 
 // CNAME tells Pages to claim the custom domain. Ship it only when this build is
 // actually FOR that domain. Shipping it from a github.io subpath build would

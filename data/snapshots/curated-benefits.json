@@ -2,7 +2,7 @@
   "sourceId": "curated-benefits",
   "recordType": "benefit",
   "jurisdiction": null,
-  "generatedAt": "2026-08-29T04:45:44.179Z",
+  "generatedAt": "2026-08-29T04:47:53.609Z",
   "records": [
     {
       "id": "az-disabled-veteran-hunting-fishing-license",
@@ -248,6 +248,126 @@
       "agency": "Arizona Department of Administration and local merit systems",
       "statuteRef": "A.R.S. 38-492",
       "officialUrl": "https://www.azleg.gov/ars/38/00492.htm",
+      "confidence": "verified",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "tx-100-percent-disabled-veteran-homestead-exemption",
+      "jurisdiction": "TX",
+      "category": "property-tax",
+      "title": "Total property tax exemption on your home at a 100 percent rating",
+      "summary": "A Veteran awarded 100 percent disability compensation with a rating of 100 percent disabled, or of individual unemployability, pays no property tax at all on the total appraised value of their residence homestead.",
+      "amount": "The total appraised value of your residence homestead",
+      "eligibility": [
+        "The VA has awarded you 100 percent disability compensation for a service-connected disability",
+        "And your rating is either 100 percent disabled or individual unemployability",
+        "The property must be your residence homestead as defined in Texas Tax Code Section 11.13",
+        "A surviving spouse may continue the exemption if the Veteran qualified at the time of death"
+      ],
+      "details": [
+        "Individual unemployability counts the same as a 100 percent schedular rating for this exemption. That catches a lot of Veterans who assume they do not qualify.",
+        "This is separate from and much larger than the partial exemption under Section 11.22. Check both.",
+        "Claimed through your county appraisal district, not the state."
+      ],
+      "agency": "Texas county appraisal districts",
+      "statuteRef": "Texas Tax Code 11.131",
+      "officialUrl": "https://statutes.capitol.texas.gov/Docs/TX/htm/TX.11.htm",
+      "confidence": "verified",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "tx-disabled-veteran-partial-property-tax-exemption",
+      "jurisdiction": "TX",
+      "category": "property-tax",
+      "title": "Partial property tax exemption by disability rating",
+      "summary": "Texas exempts part of the assessed value of a property you own on a sliding scale tied to your VA disability rating, from $5,000 at a 10 percent rating up to $12,000 at 70 percent or more.",
+      "amount": "$5,000 to $12,000 of assessed value, by rating bracket",
+      "eligibility": [
+        "10 percent up to 30 percent rating: $5,000 of assessed value",
+        "30 percent up to 50 percent rating: $7,500",
+        "50 percent up to 70 percent rating: $10,000",
+        "70 percent and over: $12,000",
+        "You also get the full $12,000 if you are 65 or older with a rating of at least 10 percent, are totally blind in one or both eyes, or have lost the use of one or more limbs",
+        "A surviving spouse may be entitled to a portion of the exemption"
+      ],
+      "details": [
+        "You designate which property the exemption applies to. It does not have to be a homestead.",
+        "The age-65 provision matters: a 10 percent rating that is worth $5,000 before 65 is worth $12,000 after, which is a big jump that is easy to miss.",
+        "If you have a 100 percent rating or individual unemployability, look at the total homestead exemption under Section 11.131 instead, which is far larger."
+      ],
+      "agency": "Texas county appraisal districts",
+      "statuteRef": "Texas Tax Code 11.22",
+      "officialUrl": "https://statutes.capitol.texas.gov/Docs/TX/htm/TX.11.htm",
+      "confidence": "verified",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "tx-hazlewood-act-tuition-exemption",
+      "jurisdiction": "TX",
+      "category": "education",
+      "title": "Hazlewood Act tuition exemption",
+      "summary": "Texas public colleges and universities must waive tuition and most required fees for qualifying Veterans, up to 150 credit hours. It is one of the most generous state education benefits in the country.",
+      "amount": "Tuition and most required fees, up to 150 credit hours",
+      "eligibility": [
+        "You currently reside in Texas",
+        "And you entered the service in Texas, declared Texas as your home of record, or would have been a Texas resident when you entered service",
+        "You were honorably discharged after more than 180 days of active duty, excluding training",
+        "You served during a qualifying period, which includes the national emergency that began September 11, 2001, the Persian Gulf War, Panama, Grenada and Lebanon, Vietnam, the Cold War, Korea, and both World Wars"
+      ],
+      "details": [
+        "The exemption covers tuition, dues, fees, and other required charges, including correspondence course fees. It specifically excludes general deposit fees, student services fees, and any charge for lodging, board, or clothing.",
+        "The cap is a cumulative 150 credit hours across all use of this exemption, not 150 hours per institution or per degree.",
+        "Related provisions in the same chapter extend the benefit to some spouses and children. Ask the institution's veteran services office about Hazlewood Legacy.",
+        "Apply through the financial aid or veteran services office at the Texas public institution you attend."
+      ],
+      "agency": "Texas public institutions of higher education",
+      "statuteRef": "Texas Education Code 54.341",
+      "officialUrl": "https://statutes.capitol.texas.gov/Docs/ED/htm/ED.54.htm",
+      "confidence": "verified",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "tx-military-employment-preference",
+      "jurisdiction": "TX",
+      "category": "employment",
+      "title": "Military employment preference for state agency jobs",
+      "summary": "Texas state agencies must give hiring preference to Veterans and certain military family members over other applicants who are not better qualified, and every agency has a goal of Veterans making up at least 20 percent of its workforce.",
+      "amount": "Hiring preference, plus a 20 percent Veteran workforce goal at every state agency",
+      "eligibility": [
+        "A Veteran, including a Veteran with a disability",
+        "A Veteran's surviving spouse who has not remarried",
+        "An orphan of a Veteran killed while on active duty",
+        "The spouse of a member of the US armed forces or Texas National Guard serving on active duty",
+        "The spouse of a Veteran, where the spouse is the household's primary income and the Veteran has a total disability rating based on a service-connected disability of at least 70 percent or individual unemployability"
+      ],
+      "details": [
+        "The preference applies over other applicants for the same position who do not have a greater qualification. It is a tie-breaker in your favour, not an automatic hire.",
+        "The statute sets an order of priority: a Veteran with a disability first, then a Veteran, then a qualifying spouse, then a Veteran's surviving spouse.",
+        "Each state agency must set a goal of hiring Veterans into full-time positions equal to at least 20 percent of its total employees, and may set a higher goal."
+      ],
+      "agency": "Texas state agencies",
+      "statuteRef": "Texas Government Code 657.002 to 657.004",
+      "officialUrl": "https://statutes.capitol.texas.gov/Docs/GV/htm/GV.657.htm",
       "confidence": "verified",
       "source": {
         "id": "curated-benefits",

@@ -73,10 +73,17 @@ check(
 // served from a subpath. This is the bug that shipped a stylesheet-less site.
 const baseExpected = prodBuild ? '' : new URL(process.env.SITE_BASE_URL).pathname.replace(/\/+$/, '');
 const homeHtml = read('index.html');
+const cssHref = (homeHtml.match(/href="([^"]*styles\.[0-9a-f]{8}\.css)"/) || [])[1];
 check(
-  `stylesheet href carries the deploy base "${baseExpected || '(root)'}"`,
-  homeHtml.includes(`href="${baseExpected}/styles.css"`),
-  (homeHtml.match(/href="[^"]*styles\.css"/) || ['not found'])[0],
+  `stylesheet is fingerprinted and carries the deploy base "${baseExpected || '(root)'}"`,
+  Boolean(cssHref) && cssHref.startsWith(`${baseExpected}/styles.`),
+  cssHref ?? 'no fingerprinted stylesheet found',
+);
+// An unhashed copy left in dist would be a URL that is allowed to go stale,
+// which is the entire failure this mechanism exists to prevent.
+check(
+  'no unhashed styles.css or app.js is published',
+  !existsSync('dist/styles.css') && !existsSync('dist/app.js'),
 );
 check(
   'state links carry the deploy base',
@@ -126,7 +133,10 @@ check(
   'filter controls ship hidden and are revealed only by app.js',
   homeHtml.includes('class="filter" data-filter') && !homeHtml.includes('class="filter is-ready"'),
 );
-check('app.js is served from our own origin', homeHtml.includes(`src="${baseExpected}/app.js"`));
+check(
+  'app.js is fingerprinted and served from our own origin',
+  new RegExp(`src="${baseExpected}/app\.[0-9a-f]{8}\.js"`).test(homeHtml),
+);
 check('CSP allows first-party script and nothing else', homeHtml.includes("script-src 'self'"));
 check(
   'no inline event handlers anywhere, which the CSP would refuse',
