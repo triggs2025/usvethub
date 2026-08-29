@@ -30,9 +30,34 @@ platform actually needs, and says plainly which ones to avoid for which jobs.
 
 ---
 
-## 1. Cloudflare in front of GitHub Pages · do this first
+## 1. Cloudflare in front of GitHub Pages · DEFERRED 2026-08-29
 
-This is the highest-value, lowest-risk move available, and it does **not**
+**Tony prefers to keep DNS at GoDaddy.** That is a reasonable call and nothing
+is broken by it. GitHub Pages works fine on GoDaddy A records, which is exactly
+how AZVLC runs today.
+
+What staying on GoDaddy costs, stated plainly so the trade is visible:
+
+- **Analytics needs another answer.** Edge analytics requires Cloudflare to be
+  in the request path. Cloudflare Web Analytics does also offer a script-based
+  version that works on any host, sets no cookies, and would need one narrow CSP
+  exception for a single domain. That is the cheapest way to get the visitor
+  dashboard without moving DNS.
+- **The frame-ancestors gap stays open.** Real HTTP headers need a proxy, and
+  GitHub Pages cannot send them. Recorded as an accepted gap in SECURITY.md, and
+  with no forms, cookies, or sessions there is little for a clickjacker to take.
+- No edge caching or DDoS shielding, which does not matter at current traffic.
+
+**The admin back end does not depend on this.** Cloudflare Workers can run on a
+workers.dev subdomain with DNS untouched. A custom admin.usvethub.com hostname
+would need the zone on Cloudflare, so start on workers.dev and revisit only if
+the vanity hostname matters.
+
+The original recommendation is kept below for the day it is reconsidered.
+
+### Original recommendation
+
+This was the highest-value, lowest-risk move available, and it does **not**
 require moving hosting.
 
 Point `usvethub.com` DNS at Cloudflare (free plan), and have Cloudflare proxy
@@ -199,6 +224,16 @@ designed for this property, and some of those templates send email.
 **Keep it a separate sub-account from NSC Shirts.** Different business, different
 audience, and a shared list would eventually mean sending Veteran benefit email
 to apparel customers.
+
+### Built so far
+
+- **Advertisers pipeline**, created 2026-08-29 with seven stages: Prospect,
+  Contacted, Proposal sent, **Policy check**, Live, Renewal due, Lapsed.
+  Policy check is a real gate, not a formality: the sponsor schema will not
+  validate a record without a named human who checked the advertiser against
+  docs/ADVERTISING.md, and for claims-representation advertisers that includes a
+  verified VA accreditation number.
+- Custom fields: not yet created. The list is below.
 
 ### What this sub-account is for
 
