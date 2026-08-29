@@ -233,7 +233,44 @@ to apparel customers.
   validate a record without a named human who checked the advertiser against
   docs/ADVERTISING.md, and for claims-representation advertisers that includes a
   verified VA accreditation number.
-- Custom fields: not yet created. The list is below.
+- **Custom fields: 1 of 13 created.** `Advertiser name` exists on the
+  Opportunity object in the Opportunity Details folder.
+
+  The remaining twelve are listed below and are faster to create by hand than
+  by automation. The create-field panel resists it: the folder dropdown does not
+  commit on a click, an "unsaved changes" dialog fires on unrelated clicks, and
+  the page zoom changed mid-sequence. About twenty seconds each by hand.
+
+  **The recipe that works:** Create field, then set Field name FIRST, then Add
+  to object, then click into Folder name and TYPE "Opportunity" and press Enter
+  rather than clicking the option. The Create button stays greyed until the
+  folder actually commits, which is the tell that it worked.
+
+### Remaining custom fields
+
+All on the **Opportunity** object, folder **Opportunity Details**. Names are
+chosen so the auto-generated key matches the sponsor schema field.
+
+| Field name | Type | Maps to |
+|---|---|---|
+| Headline | Single line | `headline`, max 90 characters |
+| Body | Multi line | `body`, max 300 characters |
+| CTA label | Single line | `ctaLabel` |
+| Destination URL | Single line | `destinationUrl` |
+| Slot | Dropdown | `slot`: jurisdiction, discounts, organizations, free-help |
+| Jurisdictions | Single line | `jurisdictions`. Comma-separated state codes, or blank for a national buy across all 56 |
+| Flight start | Date picker | `startsAt` |
+| Flight end | Date picker | `endsAt` |
+| Policy reviewed by | Single line | `policyReviewedBy`. Required before any ad runs |
+| Advertiser category | Dropdown | `advertiserCategory`: claims-representation, legal-other, education, employment, housing, financial, health, retail, nonprofit, government, other |
+| VA accreditation number | Single line | `vaAccreditationNumber`. **Required when category is claims-representation** |
+| Due diligence links | Multi line | LinkedIn, Facebook, business site, contact name. One field rather than four, since it is read by a human not parsed |
+| Interviewed by and on | Single line | Who ran the interview and when. Required for claims-representation |
+
+The last three exist because of the advertising policy: an advertiser selling
+claims help is approved only after a verified accreditation number, a live
+interview, and identifiable business presence. See
+[ADVERTISING.md](ADVERTISING.md).
 
 ### What this sub-account is for
 
