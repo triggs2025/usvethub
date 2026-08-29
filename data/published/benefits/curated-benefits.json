@@ -2,7 +2,7 @@
   "sourceId": "curated-benefits",
   "recordType": "benefit",
   "jurisdiction": null,
-  "generatedAt": "2026-08-29T06:07:24.003Z",
+  "generatedAt": "2026-08-29T06:09:01.309Z",
   "records": [
     {
       "id": "az-disabled-veteran-hunting-fishing-license",
@@ -1388,6 +1388,309 @@
       "applyUrl": "https://www.va.gov/careers-employment/vocational-rehabilitation/how-to-apply/",
       "phone": "800-827-1000",
       "confidence": "verified",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "va-benefits-claims-assistance",
+      "jurisdiction": "VA",
+      "category": "legal",
+      "title": "Free help filing your federal VA disability claim",
+      "summary": "The Virginia Department of Veterans Services is responsible by statute for benefits claims processing for Virginia-domiciled Veterans and their eligible spouses, orphans, and dependents. Its benefits staff help you prepare and file federal VA claims.",
+      "eligibility": [
+        "Virginia-domiciled Veterans of the Armed Forces of the United States",
+        "Eligible spouses, orphans, and dependents of those Veterans",
+        "The Department sets the detailed eligibility guidelines, which must meet the intent of the federal statutes and regulations for the programs involved"
+      ],
+      "details": [
+        "This is Virginia state help with a federal benefit. The claim itself goes to the U.S. Department of Veterans Affairs. The state staff who help you prepare it work for the Commonwealth and do not charge you.",
+        "The statute also directs the Department to build an automated system for electronic preparation of Veterans disability claims, so it can move claims faster.",
+        "The Department must cooperate with the U.S. Department of Veterans Affairs, the U.S. Department of Housing and Urban Development, and the U.S. Department of Labor on Veterans benefits and services, under Va. Code 2.2-2004.",
+        "Never pay a fee to have an initial VA disability claim prepared. Accredited representatives and state service officers do it at no cost."
+      ],
+      "agency": "Virginia Department of Veterans Services",
+      "statuteRef": "Va. Code 2.2-2001",
+      "officialUrl": "https://law.lis.virginia.gov/vacode/title2.2/chapter20/section2.2-2001/",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "va-disabled-veteran-license-plates-and-fee-waiver",
+      "jurisdiction": "VA",
+      "category": "vehicle",
+      "title": "DV license plates and no annual registration fee on one vehicle",
+      "summary": "Virginia issues red, white, and blue DV plates to any Veteran the VA certifies has a service-connected disability. One vehicle you own and use personally is exempt from the annual registration fee.",
+      "amount": "No annual registration fee under Va. Code 46.2-694, and no annual fee under 46.2-725 B 3, on one motor vehicle",
+      "eligibility": [
+        "The U.S. Department of Veterans Affairs has certified that you have a service-connected disability",
+        "Your application must include that certification from the VA",
+        "The fee exemption covers one motor vehicle owned and used personally by the disabled Veteran",
+        "An unremarried surviving spouse of a disabled Veteran may also be issued the plates, and a DV plate may transfer to the unremarried surviving spouse on the Veteran's death"
+      ],
+      "details": [
+        "Standard DV plates do not by themselves authorize you to park in spaces reserved for people with disabilities that limit or impair the ability to walk.",
+        "If you also have a disability that limits or impairs your ability to walk, you can apply for DV disabled parking plates showing the international symbol of access. Those do authorize accessible parking. That application needs a signed certification from a licensed physician, podiatrist, chiropractor, advanced practice registered nurse, or physician assistant.",
+        "The registration fee exemption is available whether you display the DV plates or the standard passenger plates, as long as you have filed the service-connected disability certification.",
+        "Handled through the Virginia Department of Motor Vehicles."
+      ],
+      "agency": "Virginia Department of Motor Vehicles",
+      "statuteRef": "Va. Code 46.2-739",
+      "officialUrl": "https://law.lis.virginia.gov/vacode/title46.2/chapter6/section46.2-739/",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "va-disabled-veteran-lifetime-hunting-fishing-license",
+      "jurisdiction": "VA",
+      "category": "recreation",
+      "title": "Lifetime hunting and freshwater fishing license for disabled Veterans",
+      "summary": "A resident Veteran with a service-connected disability can buy a nontransferable license valid for life to hunt and freshwater fish anywhere in Virginia. It is free at a total and permanent rating and discounted at lower ratings.",
+      "amount": "No cost at totally and permanently disabled. $50 at 70 percent or more. $75 at 50 percent or more. $100 at 30 percent or more.",
+      "eligibility": [
+        "You are a resident Veteran disabled due to a service-connected disability",
+        "Rated totally and permanently disabled by the U.S. Department of Veterans Affairs: no cost",
+        "Rated 70 percent or more but less than totally and permanently disabled: $50",
+        "Rated 50 percent or more but less than 70 percent: $75",
+        "Rated 30 percent or more but less than 50 percent: $100"
+      ],
+      "details": [
+        "The license is valid for life and is nontransferable.",
+        "You can buy it as a combined hunt and freshwater fish license, or hunt only, or freshwater fish only. The price depends on which one you buy.",
+        "One limit worth knowing: the license does not let you fish in waters stocked with trout by the Department or another public body. You need the separate trout license for those.",
+        "Issued by the Virginia Department of Wildlife Resources under 4VAC15-20-65."
+      ],
+      "agency": "Virginia Department of Wildlife Resources",
+      "statuteRef": "Va. Code 29.1-302",
+      "officialUrl": "https://law.lis.virginia.gov/vacode/title29.1/chapter3/section29.1-302/",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "va-disabled-veteran-real-property-tax-exemption",
+      "jurisdiction": "VA",
+      "category": "property-tax",
+      "title": "Full real property tax exemption at a 100 percent permanent and total rating",
+      "summary": "If the VA rates you 100 percent service-connected, permanent and total, Virginia exempts your principal residence from local real property tax. The exemption covers the dwelling plus up to one acre of land it sits on.",
+      "amount": "The full assessed value of the qualifying dwelling plus up to one acre of land. The statute sets no dollar cap.",
+      "eligibility": [
+        "The U.S. Department of Veterans Affairs has rated you 100 percent service-connected, permanent, and total",
+        "You occupy the real property as your principal place of residence",
+        "Applies to tax years beginning on or after January 1, 2011",
+        "A surviving spouse also qualifies if the Veteran died on or after January 1, 2011 and the spouse has not remarried",
+        "A surviving spouse may move to a different principal residence and keep the exemption"
+      ],
+      "details": [
+        "The exemption starts on the date of your rating if you already own a qualifying home, or on the date you acquire the property if you buy after January 1, 2011.",
+        "You claim it by filing an affidavit or written statement with your county, city, or town under Va. Code 58.1-3219.6. File it. A locality is not liable for interest on a refund for taxes you paid before you filed.",
+        "Manufactured homes qualify even if you do not own the land underneath.",
+        "The exemption also reaches property held in a revocable trust, an irrevocable trust with a life estate, or a joint tenancy. Leasehold interests are excluded, and a jointly owned property with non-qualifying owners is prorated by ownership percentage.",
+        "This is administered by your local commissioner of the revenue or assessor, not by the state."
+      ],
+      "agency": "Virginia counties, cities, and towns",
+      "statuteRef": "Va. Code 58.1-3219.5",
+      "officialUrl": "https://law.lis.virginia.gov/vacode/title58.1/chapter32/section58.1-3219.5/",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "va-military-benefits-income-tax-subtraction",
+      "jurisdiction": "VA",
+      "category": "income-tax",
+      "title": "Virginia income tax subtraction for military retirement and survivor benefits",
+      "summary": "Virginia lets you subtract military retirement income from your state taxable income. For tax years beginning on or after January 1, 2025 the cap is $40,000, and there is no age requirement.",
+      "amount": "Up to $40,000 of military benefits for tax years beginning on or after January 1, 2025. Up to $30,000 for tax year 2024.",
+      "eligibility": [
+        "You receive military benefits as defined by the statute",
+        "For the 2024 and later subtraction there is no age requirement: it is allowed for an individual of any age",
+        "The earlier subtraction, covering tax years 2022 and 2023 at $10,000 and $20,000, was allowed only for an individual age 55 or older",
+        "You cannot claim this subtraction on income for which you already claimed another Virginia or federal credit, exemption, subtraction, or deduction"
+      ],
+      "details": [
+        "The statute defines military benefits as military retirement income for service in the Armed Forces, qualified military benefits under Internal Revenue Code Section 134, Survivor Benefit Plan payments to the surviving spouse of a Veteran, and military benefits paid to the surviving spouse of a Veteran.",
+        "Survivor Benefit Plan income counts. Surviving spouses often miss this.",
+        "Virginia also has a separate subtraction of up to $15,000 of military basic pay for members on extended active duty for more than 90 days. That one phases out dollar for dollar above $15,000 and disappears at $30,000 of basic pay. See the Virginia Department of Taxation military tax tips page.",
+        "The cap amounts are set in statute by tax year. Check the current year figure on the Department of Taxation site before you file."
+      ],
+      "agency": "Virginia Department of Taxation",
+      "statuteRef": "Va. Code 58.1-322.02(18)",
+      "officialUrl": "https://law.lis.virginia.gov/vacode/title58.1/chapter3/section58.1-322.02/",
+      "applyUrl": "https://www.tax.virginia.gov/military-tax-tips",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "va-military-survivors-and-dependents-education-program",
+      "jurisdiction": "VA",
+      "category": "education",
+      "title": "Virginia Military Survivors and Dependents Education Program tuition waiver",
+      "summary": "VMSDEP waives tuition and mandatory fees at Virginia public colleges for the spouse or child of a service member killed, missing, captured, or rated at least 90 percent permanently disabled from service. A separate fund can add money for room, board, and books.",
+      "amount": "Waiver of tuition and mandatory fees at a Virginia public institution. Stipend of up to $2,000, or the amount set in the general appropriation act, for room and board, books and supplies, and other expenses.",
+      "eligibility": [
+        "You are the spouse, or a child between the ages of 16 and 29, of a qualifying service member",
+        "The service member was killed, became missing in action, or became a prisoner of war while on active duty in the Armed Forces, the Reserves, or the Virginia National Guard during operations against terrorism, a peacekeeping mission, a terrorist act, or any armed conflict",
+        "Or the Veteran was rated by the U.S. Department of Veterans Affairs as totally and permanently disabled, or at least 90 percent permanently disabled, due to that service, and was discharged under conditions other than dishonorable",
+        "You must be admitted to a Virginia public institution of higher education and meet the domicile requirements in the statute",
+        "The Commissioner of Veterans Services may certify a dependent over age 29 where extenuating circumstances kept the child from using the benefit before age 30"
+      ],
+      "details": [
+        "The Commissioner of Veterans Services certifies eligibility. The waiver is applied by the school once you are admitted.",
+        "The domicile test looks at the service member, not the student. The service member must have established Virginia domicile at the time of entering active service or being called to active duty, or for a set period before, among other options in subsection C.",
+        "A stepchild counts as a child if the service member claimed the stepchild on a tax return or in DEERS while on active duty.",
+        "The stipend from the Virginia Military Survivors and Dependents Education Fund is separate from the waiver and is limited: combined with any other scholarship, grant, or waiver, it cannot exceed your actual allowed educational expenses. Each institution decides how the available fund money is distributed each year.",
+        "Funding rules for this program have been changed by the General Assembly more than once in recent years. Confirm the current stipend amount and any enrollment conditions with the Department of Veterans Services before you count on a figure."
+      ],
+      "agency": "Virginia Department of Veterans Services",
+      "statuteRef": "Va. Code 23.1-608 and 23.1-608.1",
+      "officialUrl": "https://law.lis.virginia.gov/vacode/title23.1/chapter6/section23.1-608/",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "va-service-disabled-veteran-owned-business-certification",
+      "jurisdiction": "VA",
+      "category": "business",
+      "title": "Service disabled Veteran-owned business certification and state contracting",
+      "summary": "Virginia certifies small business owners as having service disabled Veteran status, and every public body must run a program to help service disabled Veteran-owned businesses win contracts. Awards to these businesses count toward agency contracting goals.",
+      "eligibility": [
+        "You are a small business owner and you request the certification",
+        "For the business definition, at least 51 percent of the business or its equity ownership is owned by one or more service disabled Veterans",
+        "Both management and daily business operations are controlled by one or more service disabled Veterans",
+        "A service disabled Veteran served on active duty, was discharged or released under conditions other than dishonorable, and has a service-connected disability rating fixed by the U.S. Department of Veterans Affairs"
+      ],
+      "details": [
+        "The Department of Veterans Services adopts the regulations to certify service disabled Veteran status on request of the business owner, under Va. Code 2.2-2001 subsection D.",
+        "Under Va. Code 2.2-4310, no public body may discriminate against a bidder because of status as a service disabled Veteran, and public bodies must include businesses from the certified list kept by the Department of Small Business and Supplier Diversity when they solicit.",
+        "Contracts and subcontracts awarded to service disabled Veteran-owned businesses are credited toward the small business, women-owned business, and minority-owned business contracting and subcontracting goals of state agencies and their contractors. That gives agencies a reason to look for you.",
+        "Two agencies are involved. The Department of Veterans Services certifies the service disabled Veteran status. The Department of Small Business and Supplier Diversity maintains the vendor list public bodies must solicit from."
+      ],
+      "agency": "Virginia Department of Veterans Services and Department of Small Business and Supplier Diversity",
+      "statuteRef": "Va. Code 2.2-2001 and 2.2-4310",
+      "officialUrl": "https://law.lis.virginia.gov/vacode/title2.2/chapter43/section2.2-4310/",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "va-state-veterans-cemeteries-burial",
+      "jurisdiction": "VA",
+      "category": "burial",
+      "title": "Burial in a state-operated Virginia Veterans cemetery",
+      "summary": "The Commonwealth owns and operates Veterans cemeteries through the Department of Veterans Services. Burial vaults are provided at cost, and the state pays the burial fee for certain National Guard and Reserve members and for spouses.",
+      "eligibility": [
+        "Virginia-domiciled Veterans and their spouses, orphans, and dependents, under guidelines the Department sets consistent with federal rules",
+        "The Commonwealth pays any burial fee charged for a member of the National Guard and Reserve buried at a state-operated Veterans cemetery",
+        "The Commonwealth also pays any burial fee for a deceased spouse of a member or Veteran of the Armed Forces or the National Guard and Reserve, whether the spouse dies before or after the member",
+        "Both of those fee payments depend on funds being appropriated or received for the purpose"
+      ],
+      "details": [
+        "Burial vaults are provided at cost to eligible Veterans and their family members interred at state-operated Veterans cemeteries. At cost, not free.",
+        "The Department of Veterans Services sets the eligibility guidelines, and the statute requires those guidelines to meet the intent of the federal statutes and regulations governing federal programs for Veterans and their spouses, orphans, and dependents.",
+        "These state cemeteries are separate from national cemeteries run by the U.S. Department of Veterans Affairs. Confirm locations, current fees, and pre-registration with the Department of Veterans Services.",
+        "Va. Code 2.2-2001 makes the Department responsible for operating and maintaining the Veterans cemeteries the Commonwealth owns."
+      ],
+      "agency": "Virginia Department of Veterans Services",
+      "statuteRef": "Va. Code 2.2-2001",
+      "officialUrl": "https://law.lis.virginia.gov/vacode/title2.2/chapter20/section2.2-2001/",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "va-veteran-and-family-support-behavioral-health",
+      "jurisdiction": "VA",
+      "category": "health",
+      "title": "Virginia Veteran and Family Support: mental health and rehabilitation referrals",
+      "summary": "Virginia runs a program that connects Veterans, transitioning service members, National Guard and Reserve members, and their families to mental health and rehabilitation services. Staff build a resource plan with you and check on your progress.",
+      "eligibility": [
+        "Service members transitioning from military to civilian life",
+        "Veterans",
+        "Members of the Virginia National Guard",
+        "Virginia residents in the Armed Forces Reserves",
+        "Family members of any of the above"
+      ],
+      "details": [
+        "The Department of Veterans Services runs this with the Department of Behavioral Health and Developmental Services and the Department for Aging and Rehabilitative Services.",
+        "The statute directs the program to work with you on a coordinated resources plan that names the providers who can meet your needs, refer you to them, and then periodically monitor your progress toward the goals you identified.",
+        "Family members are included by statute. You do not have to be the Veteran to reach out.",
+        "Separately, Va. Code 2.2-2001 makes the Department of Veterans Services responsible for the medical care centers for Veterans that the Commonwealth owns and operates. These are state Veterans care centers offering skilled nursing and long term care. Contact the Department of Veterans Services for current locations, admission rules, and rates.",
+        "Program activity depends on the public and private funds appropriated for it."
+      ],
+      "agency": "Virginia Department of Veterans Services",
+      "statuteRef": "Va. Code 2.2-2001.1",
+      "officialUrl": "https://law.lis.virginia.gov/vacode/title2.2/chapter20/section2.2-2001.1/",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "va-veterans-preference-state-employment",
+      "jurisdiction": "VA",
+      "category": "employment",
+      "title": "Veterans hiring preference for Commonwealth of Virginia jobs",
+      "summary": "Virginia gives Veterans a hiring preference for state employment. On a written exam your score goes up by five percent, or by 10 percent if the VA has fixed a service-connected disability rating for you.",
+      "amount": "Five percent added to a passing written exam score, or 10 percent with a service-connected disability rating",
+      "eligibility": [
+        "You are a Veteran with an honorable discharge and the military service the statute specifies",
+        "The increase applies only if you pass the examination",
+        "A surviving spouse of a Veteran killed in the line of duty also gets the preference",
+        "A surviving child under age 27 of a Veteran killed in the line of duty also gets the preference",
+        "Members of the Virginia National Guard get a separate preference of five percentage points added to a passing assessment score"
+      ],
+      "details": [
+        "For state positions that are not based on passing an exam, a Veteran, surviving spouse, or child who meets all the knowledge, skill, and ability requirements is given preference during the selection process. Veterans with a disability rating get additional consideration.",
+        "The National Guard preference does not apply to a position limited to current state employees, and it does not apply if another applicant is a Veteran or a former prisoner of war.",
+        "This is preference, not a guarantee of hire. You still have to meet the posted requirements for the job."
+      ],
+      "agency": "Commonwealth of Virginia state agencies",
+      "statuteRef": "Va. Code 2.2-2903",
+      "officialUrl": "https://law.lis.virginia.gov/vacode/title2.2/chapter29/section2.2-2903/",
+      "confidence": "needs-review",
       "source": {
         "id": "curated-benefits",
         "title": "USVetHub verified benefit records",

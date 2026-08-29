@@ -3,11 +3,11 @@
   "reason": null,
   "published": true,
   "unchanged": false,
-  "recordCount": 48,
-  "previousCount": 19,
+  "recordCount": 58,
+  "previousCount": 48,
   "rejected": [],
-  "startedAt": "2026-08-29T06:07:24.003Z",
-  "finishedAt": "2026-08-29T06:07:24.028Z",
+  "startedAt": "2026-08-29T06:09:01.309Z",
+  "finishedAt": "2026-08-29T06:09:01.335Z",
   "requestsUsed": 0,
   "sourceId": "curated-benefits",
   "log": [
@@ -17,7 +17,8 @@
     "[curated-benefits] tx.json: 4 record(s)",
     "[curated-benefits] us-federal-family-business.json: 4 record(s)",
     "[curated-benefits] us-federal.json: 6 record(s)",
-    "[curated-benefits] 48 curated benefit(s) from 6 file(s)",
-    "[curated-benefits] published 48 record(s) to .\\data\\published\\benefits\\curated-benefits.json"
+    "[curated-benefits] va-state.json: 10 record(s)",
+    "[curated-benefits] 58 curated benefit(s) from 7 file(s)",
+    "[curated-benefits] published 58 record(s) to .\\data\\published\\benefits\\curated-benefits.json"
   ]
 }
