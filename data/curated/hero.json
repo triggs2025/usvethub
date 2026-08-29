@@ -1,36 +1,46 @@
 {
-  "_comment": "Homepage hero. Edit this file to change the headline or swap the videos. No code change needed. Keep exactly three videos: the layout is a three-across band that stacks on mobile.",
+  "_comment": "Homepage hero. Edit this file to change the headline or swap the videos. No code change needed. Keep exactly three videos: the layout is a three-across band that stacks to one column on mobile.",
 
   "headline": "Every Veteran benefit, every state, one place",
   "lede": "You earned these benefits. Finding them should not be a second deployment. USVetHub gathers what each state offers Veterans and their families, in plain language, with a link to the official source for every single entry.",
   "ctaLabel": "Find your state",
   "ctaHref": "/states/",
 
-  "_videos": "Each needs src, poster, and caption. src and poster must be site-relative paths under /video/, because the Content Security Policy allows media from our own origin only. Set placeholder to false once real footage is in.",
+  "_videos": "src and poster must be site-relative paths under /video/. The Content Security Policy allows media from our own origin only, so a remote URL will be blocked, not merely discouraged. Keep clips to 6-10 seconds, silent with no audio track at all, and 854x480 or smaller. Total video weight is capped at 12 MB by a build test.",
+
+  "_captions": "Captions are the message, not a label for the footage. Served is the Veterans clip, Connected is the families clip, Supported is the service dog clip. File names describe what is on screen so footage is easy to swap; captions say what it means.",
+
+  "_alt": "alt describes the poster still for someone who cannot see it, and it is the only text a screen reader gets from these figures. Once real footage lands, replace the placeholder wording with what is actually on screen. Be specific and plain: 'Two Veterans talking outside a VA clinic' beats 'Veterans'.",
+
+  "_releases": "Before real footage of identifiable people goes live, confirm a signed release exists for every person on screen, including children with a parent or guardian signature. Record where each release is filed in the release field. This is a commercial site, so implied consent is not enough.",
+
   "videos": [
     {
-      "id": "serve",
-      "src": "/video/serve.mp4",
-      "poster": "/video/serve.jpg",
+      "id": "veterans",
+      "src": "/video/veterans.mp4",
+      "poster": "/video/veterans.jpg",
       "caption": "Served",
-      "alt": "Placeholder motion graphic in navy tones"
+      "alt": "Placeholder motion graphic in navy tones. Replace with a description of the Veterans footage.",
+      "release": null
     },
     {
-      "id": "connect",
-      "src": "/video/connect.mp4",
-      "poster": "/video/connect.jpg",
+      "id": "families",
+      "src": "/video/families.mp4",
+      "poster": "/video/families.jpg",
       "caption": "Connected",
-      "alt": "Placeholder motion graphic in navy and gold tones"
+      "alt": "Placeholder motion graphic in navy and gold tones. Replace with a description of the families footage.",
+      "release": null
     },
     {
-      "id": "thrive",
-      "src": "/video/thrive.mp4",
-      "poster": "/video/thrive.jpg",
+      "id": "service-dogs",
+      "src": "/video/service-dogs.mp4",
+      "poster": "/video/service-dogs.jpg",
       "caption": "Supported",
-      "alt": "Placeholder motion graphic in dark red tones"
+      "alt": "Placeholder motion graphic in dark red tones. Replace with a description of the service dog footage.",
+      "release": null
     }
   ],
 
   "placeholder": true,
-  "_placeholder": "true renders a small 'placeholder footage' note under the band so nobody mistakes the test loops for finished work. Set to false when real footage lands."
+  "_placeholder": "true renders a note under the band so nobody mistakes the test loops for finished work. Set to false when real footage lands."
 }
