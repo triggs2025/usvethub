@@ -101,7 +101,7 @@ const CSP = [
 
 export const SITE = {
   name: 'USVetHub',
-  tagline: 'Every Veteran benefit, every state, one place',
+  tagline: 'Know what you earned.',
   url: SITE_URL,
   description:
     'A free, plain-language guide to Veteran benefits and organizations in all 50 states, ' +
@@ -125,7 +125,9 @@ const CRISIS_BAR = `
  * @param {Array}  [page.breadcrumbs]  [{ label, href }]
  */
 export function layout({ title, description, path, body, breadcrumbs = [], jsonLd = null, noindex = false }) {
-  const fullTitle = path === '/' ? `${SITE.name} · ${SITE.tagline}` : `${title} · ${SITE.name}`;
+  const fullTitle = path === '/'
+    ? `${SITE.name} · Veteran benefits by state, in plain language`
+    : `${title} · ${SITE.name}`;
   const canonical = `${SITE.url}${path}`;
 
   const crumbs = breadcrumbs.length

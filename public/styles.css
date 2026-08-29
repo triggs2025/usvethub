@@ -305,7 +305,19 @@ h2 small { font-weight: 400; color: var(--text-2); font-size: 0.62em; letter-spa
   transition: transform 0.35s var(--ease);
 }
 .hero-video:hover { transform: translateY(-4px); }
-.hero-video video, .hero-video .hero-still { display: block; width: 100%; height: 100%; object-fit: cover; }
+.hero-video video, .hero-video img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.hero-video.is-photo img { position: static; z-index: auto; }
+/* Photo credit, required by most licences and by simple good manners. */
+.media-credit {
+  position: absolute; right: 8px; top: 8px;
+  font-size: 10.5px; letter-spacing: 0.04em; color: #fff;
+  background: rgba(7, 13, 24, 0.62); border-radius: 4px; padding: 3px 7px;
+}
+.hero-sub {
+  font-size: clamp(17px, 1.7vw, 21px); font-weight: 700;
+  color: var(--navy-600); margin: 0 0 14px; letter-spacing: -0.01em;
+}
+@media (prefers-color-scheme: dark) { .hero-sub { color: var(--gold-300); } }
 .hero-video .hero-still { position: absolute; inset: 0; z-index: -1; }
 .hero-video figcaption {
   position: absolute; left: 0; right: 0; bottom: 0;

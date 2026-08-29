@@ -158,15 +158,27 @@ const hero = readJson(join(process.cwd(), 'data', 'curated', 'hero.json'), null)
  * The captions carry whatever meaning the band has.
  */
 function heroBand(config) {
-  return config.videos.slice(0, 3).map((video) => html`
-      <figure class="hero-video">
-        <video autoplay muted loop playsinline preload="metadata"
-               poster="${escUrl(video.poster)}" aria-hidden="true" tabindex="-1">
-          <source src="${escUrl(video.src)}" type="video/mp4">
+  return config.videos.slice(0, 3).map((item) => {
+    // A panel is either a looping clip or a still photograph. Photographs are
+    // the cheaper and often better option: a real face does more for this page
+    // than any amount of motion, and a still costs a fraction of the bandwidth.
+    const isPhoto = item.type === 'image' || (!item.src && item.poster);
+
+    const media = isPhoto
+      ? html`<img src="${escUrl(item.poster ?? item.src)}" alt="${esc(item.alt ?? '')}" loading="eager" decoding="async">`
+      : html`<video autoplay muted loop playsinline preload="metadata"
+               poster="${escUrl(item.poster)}" aria-hidden="true" tabindex="-1">
+          <source src="${escUrl(item.src)}" type="video/mp4">
         </video>
-        <img class="hero-still" src="${escUrl(video.poster)}" alt="${esc(video.alt ?? '')}">
-        ${video.caption ? html`<figcaption>${esc(video.caption)}</figcaption>` : ''}
-      </figure>`);
+        <img class="hero-still" src="${escUrl(item.poster)}" alt="${esc(item.alt ?? '')}">`;
+
+    return html`
+      <figure class="hero-video${isPhoto ? ' is-photo' : ''}">
+        ${media}
+        ${item.caption ? html`<figcaption>${esc(item.caption)}</figcaption>` : ''}
+        ${item.credit ? html`<span class="media-credit">${esc(item.credit)}</span>` : ''}
+      </figure>`;
+  });
 }
 
 page('/', layout({
@@ -181,7 +193,8 @@ page('/', layout({
     <section class="hero full-bleed">
       <div class="wrap">
         <p class="eyebrow">All 50 states · DC · 5 territories</p>
-        <h1>Every Veteran benefit, <em>every state</em>, one place</h1>
+        <h1>Know what you <em>earned</em>.</h1>
+        <p class="hero-sub">Every Veteran benefit, every state, one place.</p>
         <p class="lede">${esc(hero?.lede ?? SITE.description)}</p>
         <p class="hero-actions">
           <a class="button" href="${escUrl(hero?.ctaHref ?? '/states/')}">${esc(hero?.ctaLabel ?? 'Find your state')}</a>
