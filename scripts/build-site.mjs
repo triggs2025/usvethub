@@ -83,6 +83,54 @@ function benefitCard(benefit) {
   </article>`;
 }
 
+/**
+ * Category icons. Inline SVG, because an icon font or a sprite from a CDN
+ * would be a third-party request the CSP refuses, and rightly.
+ *
+ * Deliberately simple geometry: these read at 18px, which is the only size
+ * they are ever drawn at.
+ */
+const ICON_PATHS = {
+  employment: 'M3 7h18v13H3zM8 7V4h8v3M3 13h18',
+  education: 'M12 4 2 9l10 5 10-5zM6 11.5V16c0 1.5 2.7 3 6 3s6-1.5 6-3v-4.5',
+  business: 'M4 20V9l8-5 8 5v11M9 20v-6h6v6M2 20h20',
+  health: 'M12 20s-7-4.5-7-9.5A4 4 0 0 1 12 8a4 4 0 0 1 7 2.5C19 15.5 12 20 12 20z',
+  housing: 'M3 11 12 4l9 7M6 10v10h12V10M10 20v-5h4v5',
+  'property-tax': 'M3 11 12 4l9 7M6 10v10h12V10M12 13v4M10.5 14.2h3',
+  'income-tax': 'M12 3v18M8 7h6a2.5 2.5 0 0 1 0 5h-4a2.5 2.5 0 0 0 0 5h6',
+  financial: 'M2 8h20v10H2zM2 12h20M6 15h3',
+  vehicle: 'M4 16v-4l2-5h12l2 5v4M4 16h16M6.5 16v2h-2v-2M19.5 16v2h-2v-2M7 12.5h2M15 12.5h2',
+  recreation: 'M3 20l6-8 4 5 2-2.5L21 20zM7.5 6.5a1.8 1.8 0 1 0 0-.1',
+  'license-fee': 'M5 3h9l5 5v13H5zM14 3v5h5M8 13h8M8 17h5',
+  legal: 'M12 4v16M6 20h12M5 8h14M8 8l-3 6h6zM16 8l-3 6h6z',
+  family: 'M8 11a3 3 0 1 0 0-.1M17 12a2.4 2.4 0 1 0 0-.1M2 20c0-3.3 2.7-5 6-5s6 1.7 6 5M15 20c0-2.3 1.3-3.6 3.5-3.6S22 17.7 22 20',
+  burial: 'M7 21V9a5 5 0 0 1 10 0v12zM12 6v6M9.5 8.5h5',
+  other: 'M5 12a1.6 1.6 0 1 0 0-.1M12 12a1.6 1.6 0 1 0 0-.1M19 12a1.6 1.6 0 1 0 0-.1',
+};
+
+const icon = (key) => html`<span class="ico" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24"
+  fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"
+  ><path d="${esc(ICON_PATHS[key] ?? ICON_PATHS.other)}"/></svg></span>`;
+
+/**
+ * A search box, rendered hidden and revealed by app.js.
+ *
+ * Server-rendering it hidden is the whole trick: a visitor without JavaScript
+ * never sees a control that would do nothing, and still gets the full list.
+ */
+const filterBar = ({ target, label, placeholder, chips = [] }) => html`
+  <div class="filter" data-filter data-filter-target="${esc(target)}">
+    <div class="filter-row">
+      <label class="visually-hidden" for="filter-input">${esc(label)}</label>
+      <input type="search" id="filter-input" placeholder="${esc(placeholder)}" autocomplete="off" spellcheck="false">
+      <span class="filter-count" data-filter-count aria-live="polite"></span>
+    </div>
+    ${chips.length
+      ? html`<div class="chips">${chips.map((chip) => html`<button type="button" class="chip"
+          data-filter-chip="${esc(chip.key)}" aria-pressed="false">${esc(chip.label)}</button>`)}</div>`
+      : ''}
+  </div>`;
+
 const empty = (what, jurisdictionName) => html`<div class="empty">
   <p><strong>We have not published ${esc(what)} for ${esc(jurisdictionName)} yet.</strong></p>
   <p>This page exists because ${esc(jurisdictionName)} Veterans deserve one. We are
@@ -129,36 +177,45 @@ page('/', layout({
     name: SITE.name, url: SITE.url, description: SITE.description,
   },
   body: html`
-    <section class="hero">
-      <h1>${esc(hero?.headline ?? 'Every Veteran benefit, every state, one place')}</h1>
-      <p class="lede">${esc(hero?.lede ?? SITE.description)}</p>
-      <p class="hero-actions"><a class="button" href="${escUrl(hero?.ctaHref ?? '/states/')}">${esc(hero?.ctaLabel ?? 'Find your state')}</a></p>
+    <section class="hero full-bleed">
+      <div class="wrap">
+        <p class="eyebrow">All 50 states · DC · 5 territories</p>
+        <h1>Every Veteran benefit, <em>every state</em>, one place</h1>
+        <p class="lede">${esc(hero?.lede ?? SITE.description)}</p>
+        <p class="hero-actions">
+          <a class="button" href="${escUrl(hero?.ctaHref ?? '/states/')}">${esc(hero?.ctaLabel ?? 'Find your state')}</a>
+          <a class="button button-ghost" href="${escUrl('/organizations/')}">Browse organizations</a>
+        </p>
 
-      ${hero?.videos?.length
-        ? html`<div class="hero-band" role="group" aria-label="USVetHub in three words">${heroBand(hero)}</div>
-               ${hero.placeholder
-                 ? html`<p class="hero-note">Placeholder footage. Drop real clips into <code>public/video/</code>, then set <code>placeholder</code> to false in <code>data/curated/hero.json</code>.</p>`
-                 : ''}`
-        : ''}
+        ${hero?.videos?.length
+          ? html`<div class="hero-band" role="group" aria-label="USVetHub in three words">${heroBand(hero)}</div>
+                 ${hero.placeholder
+                   ? html`<p class="hero-note">Placeholder footage. Drop real clips into <code>public/video/</code>, then set <code>placeholder</code> to false in <code>data/curated/hero.json</code>.</p>`
+                   : ''}`
+          : ''}
 
-      <p class="stat">
-        ${esc(jurisdictions.length)} jurisdictions ·
-        ${esc(organizations.length)} organizations ·
-        ${esc(benefits.length)} benefits ·
-        ${esc(withData.length)} jurisdictions with published data
-      </p>
+        <ul class="stats">
+          <li><b>${esc(jurisdictions.length)}</b><span>Jurisdictions</span></li>
+          <li><b>${esc(organizations.length)}</b><span>Organizations</span></li>
+          <li><b>${esc(benefits.length)}</b><span>Benefits</span></li>
+          <li><b>${esc(withData.length)}</b><span>With published data</span></li>
+        </ul>
+      </div>
     </section>
 
     <section>
-      <h2>Start with your state</h2>
-      <ul class="grid states">
-        ${jurisdictions.map((j) => html`<li>
-          <a href="${escUrl(`/${j.slug}/`)}">
+      <div class="section-head"><h2>Start with your state</h2></div>
+      <p class="lede">Type to jump straight to yours.</p>
+      ${filterBar({ target: '#state-grid', label: 'Filter states and territories', placeholder: 'Search states and territories' })}
+      <ul class="grid states" id="state-grid">
+        ${jurisdictions.map((j) => html`<li data-filter-item data-search="${esc(`${j.name} ${j.code}`)}">
+          <a href="${escUrl(`/${j.slug}/`)}" data-count="${esc(j.organizations.length + j.benefits.length)}">
             <strong>${esc(j.name)}</strong>
             <small>${esc(j.organizations.length + j.benefits.length)} listing${j.organizations.length + j.benefits.length === 1 ? '' : 's'}</small>
           </a>
         </li>`)}
       </ul>
+      <p class="no-results" data-filter-empty hidden>No state or territory matches that. Check the spelling, or clear the box to see all ${esc(jurisdictions.length)}.</p>
     </section>
 
     <section class="promise">
@@ -263,8 +320,8 @@ for (const j of jurisdictions) {
           ${CATEGORIES.map((category) => {
             const count = byCategory.get(category.key)?.length ?? 0;
             return count
-              ? html`<li><a href="#cat-${esc(category.key)}"><strong>${esc(category.label)}</strong><small>${esc(count)}</small></a></li>`
-              : html`<li class="is-empty"><span><strong>${esc(category.label)}</strong><small>none yet</small></span></li>`;
+              ? html`<li><a href="#cat-${esc(category.key)}">${icon(category.key)}<b>${esc(category.label)}</b><small>${esc(count)}</small></a></li>`
+              : html`<li class="is-empty"><span>${icon(category.key)}<b>${esc(category.label)}</b><small>none yet</small></span></li>`;
           })}
         </ul>
 
@@ -308,11 +365,23 @@ page('/organizations/', layout({
   body: html`
     <h1>Organization directory</h1>
     <p class="lede">${esc(organizations.length)} organizations serving Veterans, grouped by what they do.</p>
+    ${filterBar({
+      target: '#org-list',
+      label: 'Filter organizations',
+      placeholder: 'Search by name, state, or service',
+      chips: [...byType.keys()].sort().map((type) => ({ key: type, label: ORG_TYPE_LABELS[type] ?? type })),
+    })}
+    <p class="no-results" data-filter-empty hidden>No organization matches that yet.</p>
+    <div id="org-list">
     ${[...byType.entries()].sort((a, b) => a[0].localeCompare(b[0])).map(([type, list]) => html`
-      <section>
-        <h2>${esc(ORG_TYPE_LABELS[type] ?? type)} <small>(${esc(list.length)})</small></h2>
-        <div class="grid two">${list.sort((a, b) => a.name.localeCompare(b.name)).map(orgCard)}</div>
+      <section data-filter-group>
+        <div class="section-head"><h2>${esc(ORG_TYPE_LABELS[type] ?? type)} <small>${esc(list.length)}</small></h2></div>
+        <div class="grid two">${list.sort((a, b) => a.name.localeCompare(b.name)).map((org) => html`<div
+          data-filter-item data-category="${esc(org.orgType)}"
+          data-search="${esc(`${org.name} ${org.jurisdiction} ${org.city ?? ''} ${(org.services ?? []).join(' ')}`)}"
+        >${orgCard(org)}</div>`)}</div>
       </section>`)}
+    </div>
   `,
 }));
 

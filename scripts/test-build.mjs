@@ -119,6 +119,24 @@ check(
   `currently ${videoMB.toFixed(2)} MB. Compress, shorten, or move to a CDN before raising this.`,
 );
 
+// Interactivity is progressive enhancement, so the filter controls must ship
+// hidden. If they ever render visible server-side, a visitor without JS gets a
+// search box that silently does nothing.
+check(
+  'filter controls ship hidden and are revealed only by app.js',
+  homeHtml.includes('class="filter" data-filter') && !homeHtml.includes('class="filter is-ready"'),
+);
+check('app.js is served from our own origin', homeHtml.includes(`src="${baseExpected}/app.js"`));
+check('CSP allows first-party script and nothing else', homeHtml.includes("script-src 'self'"));
+check(
+  'no inline event handlers anywhere, which the CSP would refuse',
+  !pageFiles.some((f) => / on(click|load|error|mouseover)=/i.test(readFileSync(f, 'utf8'))),
+);
+check(
+  'the full state list is present in the HTML, not built by script',
+  (homeHtml.match(/data-filter-item/g) || []).length === jurisdictions.length,
+);
+
 // 6. Fixture data must never reach the public site.
 const fixtureLeak = pageFiles.filter((f) => readFileSync(f, 'utf8').includes('zz-test-'));
 check('no test fixture data reached the site', fixtureLeak.length === 0, fixtureLeak.join(', '));

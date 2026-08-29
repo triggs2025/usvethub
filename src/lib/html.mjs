@@ -86,6 +86,13 @@ const CSP = [
   "media-src 'self'", // the homepage hero videos; self-hosted, never a third party
   "style-src 'self'",
   "font-src 'self'",
+  // Widened 2026-08-29 to make filtering and search possible. Deliberately
+  // 'self' with no 'unsafe-inline' and no host allowlist, so the only script
+  // that can ever run is a file we wrote and serve ourselves. An inline
+  // handler, a CDN tag, or an analytics snippet is still refused by the
+  // browser. Everything in public/app.js is progressive enhancement, so a
+  // visitor who blocks it loses convenience and no content.
+  "script-src 'self'",
   "base-uri 'none'",
   "form-action 'none'",
 ].join('; ');
@@ -149,6 +156,7 @@ export function layout({ title, description, path, body, breadcrumbs = [], jsonL
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <link rel="stylesheet" href="${escUrl('/styles.css')}">
 <link rel="icon" href="${escUrl('/favicon.svg')}" type="image/svg+xml">
+<script src="${escUrl('/app.js')}" defer></script>
 ${jsonLd ? `<script type="application/ld+json">${JSON.stringify(jsonLd).replace(/</g, '\\u003c')}</script>` : ''}
 </head>
 <body>
