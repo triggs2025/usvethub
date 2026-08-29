@@ -1,17 +1,12 @@
 {
   "_comment": "Homepage hero. Edit this file to change the headline or swap the clips. No code change needed. Keep exactly three panels: the band is a single continuous strip divided into thirds.",
-
   "headline": "Know what you earned.",
   "lede": "You earned these benefits. Finding them should not be a second deployment. USVetHub gathers what each state offers Veterans and their families, in plain language, with a link to the official source for every single entry.",
   "ctaLabel": "Find your state",
   "ctaHref": "/states/",
-
   "_videos": "src and poster must be site-relative paths under /video/. The Content Security Policy allows media from our own origin only, so a remote URL will be blocked, not merely discouraged. Encode with: ffmpeg -i in.mp4 -an -vf scale=760:-2:flags=lanczos -c:v libx264 -preset slow -crf 31 -pix_fmt yuv420p -r 24 -movflags +faststart out.mp4. Strip the audio track: the panels are muted, so an audio stream is pure wasted bandwidth. Total video weight is capped at 12 MB by a build test.",
-
   "_captions": "Captions are the message, file names describe the footage. Served is the Marines hiking clip, Connected is the handshake, Supported is the Veteran being thanked.",
-
-  "_releases": "Every identifiable person in this footage needs a signed release, because this site will carry advertising. Record where each release is filed in the release field below. See docs/IMAGERY.md.",
-
+  "_releases": "Signed releases confirmed held by Tony on 2026-08-29 for all three panels. This field is a POINTER ONLY. Never put a release document, a signature, a person name, or any contact detail in this repo: it is public, and GitHub Pages publishes every file it is given. Record only where the paperwork lives.",
   "videos": [
     {
       "id": "served",
@@ -19,7 +14,7 @@
       "poster": "/video/marines-hiking.jpg",
       "caption": "Served",
       "alt": "Marines hiking with packs",
-      "release": null
+      "release": "Signed release held. Confirmed by Tony 2026-08-29. Filing location to be recorded."
     },
     {
       "id": "connected",
@@ -27,7 +22,7 @@
       "poster": "/video/shaking-hands.jpg",
       "caption": "Connected",
       "alt": "Two people shaking hands",
-      "release": null
+      "release": "Signed release held. Confirmed by Tony 2026-08-29. Filing location to be recorded."
     },
     {
       "id": "supported",
@@ -35,10 +30,9 @@
       "poster": "/video/veteran-thanked.jpg",
       "caption": "Supported",
       "alt": "A Veteran being thanked",
-      "release": null
+      "release": "Signed release held. Confirmed by Tony 2026-08-29. Filing location to be recorded."
     }
   ],
-
   "placeholder": false,
   "_placeholder": "true renders a note under the band saying the footage is placeholder. Now false: these are the real clips."
 }

@@ -137,6 +137,17 @@ check(
   (homeHtml.match(/data-filter-item/g) || []).length === jurisdictions.length,
 );
 
+// Release paperwork is administrative and must never be published. The field
+// in hero.json is a pointer for our own records; if it ever starts rendering,
+// that is a privacy leak on a public repo, so fail the build instead.
+const heroConfig = JSON.parse(readFileSync('data/curated/hero.json', 'utf8'));
+const releaseNotes = heroConfig.videos.map((v) => v.release).filter(Boolean);
+check(
+  'release notes never reach the published HTML',
+  !releaseNotes.some((note) => pageFiles.some((f) => readFileSync(f, 'utf8').includes(note))),
+  'hero.json release fields are internal record-keeping, not page content',
+);
+
 // 6. Fixture data must never reach the public site.
 const fixtureLeak = pageFiles.filter((f) => readFileSync(f, 'utf8').includes('zz-test-'));
 check('no test fixture data reached the site', fixtureLeak.length === 0, fixtureLeak.join(', '));
