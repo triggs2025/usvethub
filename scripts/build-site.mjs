@@ -9,6 +9,7 @@
  */
 import { mkdirSync, writeFileSync, rmSync, cpSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
+import { readJson } from '../pipeline/core/registry.mjs';
 import { layout, esc, escUrl, html, SITE, SITE_URL } from '../src/lib/html.mjs';
 import {
   loadAll, isStale, daysSince, STALE_AFTER_DAYS, ORG_TYPE_LABELS, CATEGORY_LABELS,
@@ -86,6 +87,32 @@ const empty = (what, jurisdictionName) => html`<div class="empty">
 
 const withData = jurisdictions.filter((j) => j.benefits.length || j.organizations.length);
 
+const hero = readJson(join(process.cwd(), 'data', 'curated', 'hero.json'), null);
+
+/**
+ * Homepage hero: headline, call to action, and a three-across video band.
+ *
+ * Every clip is self-hosted, muted, and loops. Each one also renders its poster
+ * as a real `img`, and under prefers-reduced-motion the CSS hides the video and
+ * shows that image instead. That is how the band respects motion sensitivity
+ * with no JavaScript: the site runs none, and the CSP has no script-src clause
+ * at all, so a scripted solution was never on the table.
+ *
+ * The videos are decorative, so they are aria-hidden and out of the tab order.
+ * The captions carry whatever meaning the band has.
+ */
+function heroBand(config) {
+  return config.videos.slice(0, 3).map((video) => html`
+      <figure class="hero-video">
+        <video autoplay muted loop playsinline preload="metadata"
+               poster="${escUrl(video.poster)}" aria-hidden="true" tabindex="-1">
+          <source src="${escUrl(video.src)}" type="video/mp4">
+        </video>
+        <img class="hero-still" src="${escUrl(video.poster)}" alt="${esc(video.alt ?? '')}">
+        ${video.caption ? html`<figcaption>${esc(video.caption)}</figcaption>` : ''}
+      </figure>`);
+}
+
 page('/', layout({
   title: 'Home',
   path: '/',
@@ -96,13 +123,17 @@ page('/', layout({
   },
   body: html`
     <section class="hero">
-      <h1>Every Veteran benefit, every state, one place</h1>
-      <p class="lede">
-        You earned these benefits. Finding them should not be a second deployment.
-        USVetHub gathers what each state offers Veterans and their families, in plain
-        language, with a link to the official source for every single entry.
-      </p>
-      <p class="hero-actions"><a class="button" href="${escUrl('/states/')}">Find your state</a></p>
+      <h1>${esc(hero?.headline ?? 'Every Veteran benefit, every state, one place')}</h1>
+      <p class="lede">${esc(hero?.lede ?? SITE.description)}</p>
+      <p class="hero-actions"><a class="button" href="${escUrl(hero?.ctaHref ?? '/states/')}">${esc(hero?.ctaLabel ?? 'Find your state')}</a></p>
+
+      ${hero?.videos?.length
+        ? html`<div class="hero-band" role="group" aria-label="USVetHub in three words">${heroBand(hero)}</div>
+               ${hero.placeholder
+                 ? html`<p class="hero-note">Placeholder footage. Drop real clips into <code>public/video/</code>, then set <code>placeholder</code> to false in <code>data/curated/hero.json</code>.</p>`
+                 : ''}`
+        : ''}
+
       <p class="stat">
         ${esc(jurisdictions.length)} jurisdictions ·
         ${esc(organizations.length)} organizations ·

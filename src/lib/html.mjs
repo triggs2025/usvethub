@@ -83,6 +83,7 @@ export const raw = (value) => value ?? '';
 const CSP = [
   "default-src 'none'",
   "img-src 'self'",
+  "media-src 'self'", // the homepage hero videos; self-hosted, never a third party
   "style-src 'self'",
   "font-src 'self'",
   "base-uri 'none'",

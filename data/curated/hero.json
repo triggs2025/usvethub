@@ -1,0 +1,36 @@
+{
+  "_comment": "Homepage hero. Edit this file to change the headline or swap the videos. No code change needed. Keep exactly three videos: the layout is a three-across band that stacks on mobile.",
+
+  "headline": "Every Veteran benefit, every state, one place",
+  "lede": "You earned these benefits. Finding them should not be a second deployment. USVetHub gathers what each state offers Veterans and their families, in plain language, with a link to the official source for every single entry.",
+  "ctaLabel": "Find your state",
+  "ctaHref": "/states/",
+
+  "_videos": "Each needs src, poster, and caption. src and poster must be site-relative paths under /video/, because the Content Security Policy allows media from our own origin only. Set placeholder to false once real footage is in.",
+  "videos": [
+    {
+      "id": "serve",
+      "src": "/video/serve.mp4",
+      "poster": "/video/serve.jpg",
+      "caption": "Served",
+      "alt": "Placeholder motion graphic in navy tones"
+    },
+    {
+      "id": "connect",
+      "src": "/video/connect.mp4",
+      "poster": "/video/connect.jpg",
+      "caption": "Connected",
+      "alt": "Placeholder motion graphic in navy and gold tones"
+    },
+    {
+      "id": "thrive",
+      "src": "/video/thrive.mp4",
+      "poster": "/video/thrive.jpg",
+      "caption": "Supported",
+      "alt": "Placeholder motion graphic in dark red tones"
+    }
+  ],
+
+  "placeholder": true,
+  "_placeholder": "true renders a small 'placeholder footage' note under the band so nobody mistakes the test loops for finished work. Set to false when real footage lands."
+}

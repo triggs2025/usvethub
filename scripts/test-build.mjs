@@ -6,7 +6,7 @@
  * lost its source attribution, or scraped content escaping into markup.
  */
 import { execFileSync } from 'node:child_process';
-import { readFileSync, existsSync, readdirSync } from 'node:fs';
+import { readFileSync, existsSync, readdirSync, statSync } from 'node:fs';
 import { join } from 'node:path';
 import { readJson } from '../pipeline/core/registry.mjs';
 
@@ -85,6 +85,39 @@ check(
 
 // The CSP is the guard that makes every future third-party script deliberate.
 check('every page carries a Content-Security-Policy', pageFiles.every((f) => readFileSync(f, 'utf8').includes("default-src 'none'")));
+
+// Hero video band.
+const heroVideos = [...homeHtml.matchAll(/<source src="([^"]+)"/g)].map((m) => m[1]);
+check('hero band has three videos', heroVideos.length === 3, heroVideos.join(', '));
+check(
+  'every hero video is self-hosted, never a third party',
+  heroVideos.every((src) => src.startsWith(`${baseExpected}/video/`)),
+  'a remote video URL would be blocked by media-src and would leak visitors to another host',
+);
+check('CSP allows media from our own origin', homeHtml.includes("media-src 'self'"));
+check(
+  'each hero video has a poster, so something paints before the video loads',
+  (homeHtml.match(/<video[^>]+poster="/g) || []).length === 3,
+);
+check(
+  'reduced-motion still image is rendered for every clip',
+  (homeHtml.match(/class="hero-still"/g) || []).length === 3,
+);
+
+// Video is the fastest way to blow through Pages' bandwidth allowance and to
+// wreck Core Web Vitals, which the ad business depends on. Budget it explicitly
+// rather than discovering the problem from a GitHub warning email.
+const VIDEO_BUDGET_MB = 12;
+let videoBytes = 0;
+for (const file of existsSync('dist/video') ? readdirSync('dist/video') : []) {
+  if (/\.(mp4|webm|mov)$/i.test(file)) videoBytes += statSync(join('dist/video', file)).size;
+}
+const videoMB = videoBytes / 1048576;
+check(
+  `hero video weight is within the ${VIDEO_BUDGET_MB} MB budget`,
+  videoMB <= VIDEO_BUDGET_MB,
+  `currently ${videoMB.toFixed(2)} MB. Compress, shorten, or move to a CDN before raising this.`,
+);
 
 // 6. Fixture data must never reach the public site.
 const fixtureLeak = pageFiles.filter((f) => readFileSync(f, 'utf8').includes('zz-test-'));
