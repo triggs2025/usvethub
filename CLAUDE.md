@@ -17,6 +17,16 @@ scraped and API-sourced data. Long term it also becomes a media property.
 - **Local:** `C:\Users\triggs\usvethub` · outside the `Claude Code` container
   folder, like Skilled Vets
 
+## Documentation
+
+| Doc | For |
+|---|---|
+| `docs/RUNBOOK.md` | Fixing the site without help. Written for 11pm with no developer. |
+| `docs/SECURITY.md` | Threat model, what protects the site, and the stated gaps. |
+| `docs/ADVERTISING.md` | The ad business, and why programmatic is refused. |
+| `docs/IMAGERY.md` | Photography brief, licensing, and model releases. |
+| `docs/SUGGESTIONS.md` | Running log of every idea, decision, and open question. |
+
 ## The one architectural idea
 
 **Data collection and site rendering are completely separate, and every data

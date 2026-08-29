@@ -289,8 +289,12 @@ h2 small { font-weight: 400; color: var(--text-2); font-size: 0.62em; letter-spa
 
 /* Stats sit on a hairline that runs the full width, tying the two columns
    together so the block reads as one composition rather than two. */
+/* Four equal columns rather than a flex row, so the figures distribute evenly
+   across exactly the same width as the headline and the paragraph above them
+   instead of bunching to the left. */
 .stats {
-  display: flex; flex-wrap: wrap; gap: 20px clamp(26px, 4.4vw, 64px);
+  display: grid; grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 22px clamp(16px, 2vw, 32px);
   margin: clamp(28px, 3.4vw, 44px) 0 0; padding: clamp(20px, 2.4vw, 28px) 0 0;
   list-style: none; border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
@@ -340,6 +344,7 @@ h2 small { font-weight: 400; color: var(--text-2); font-size: 0.62em; letter-spa
 
 @media (max-width: 760px) {
   .hero { min-height: clamp(500px, 82vh, 680px); }
+  .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .hero-band, .hero-captions { grid-template-columns: 1fr; grid-template-rows: repeat(3, 1fr); }
   .hero-captions { display: none; }
   .hero-scrim {

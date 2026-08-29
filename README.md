@@ -51,6 +51,16 @@ one that returns invalid records including a `javascript:` URL, and one that
 simulates a source site redesign by losing 80% of its records. Every one is
 contained, and the previously good data survives.
 
+## If something breaks
+
+Read [`docs/RUNBOOK.md`](docs/RUNBOOK.md). It assumes no knowledge of this
+codebase and covers the common failures, how to tell them apart, and how to put
+the site back to a known good state with one command.
+
+The short version: the live site is static HTML built from committed data, so a
+broken scraper produces stale data and a loud report, never an outage. Security
+posture and its stated gaps are in [`docs/SECURITY.md`](docs/SECURITY.md).
+
 ## Contributing data
 
 Most contributions are records, not code. See
