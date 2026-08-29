@@ -163,3 +163,61 @@ it goes in a separate private repo that Pages never touches.
 3. Sell the first advertisers manually, tracking them in GoHighLevel.
 4. Only then build the admin back end on Plesk, once there are real advertisers
    whose actual needs can shape it.
+
+---
+
+## GoHighLevel sub-account setup
+
+Tony creates this. Claude does not create accounts, including sub-accounts.
+
+### Sub-account details
+
+| Field | Value |
+|---|---|
+| Business name | USVetHub |
+| Website | https://usvethub.com |
+| Mailing address | PO Box 93621, Phoenix, AZ 85070 · **confirm before use** |
+| Time zone | America/Phoenix |
+| Industry | Media / Publishing |
+
+The address needs confirming. 85070 is a Phoenix PO Box ZIP, so "93621" reads
+as a box number rather than a street number, but that is an inference.
+
+**Keep it a separate sub-account from NSC Shirts.** Different business, different
+audience, and a shared list would eventually mean sending Veteran benefit email
+to apparel customers.
+
+### What this sub-account is for
+
+Per [PLATFORM.md](PLATFORM.md), GoHighLevel runs the business and never the
+website.
+
+1. **Advertiser pipeline.** Suggested stages: Prospect, Contacted, Proposal
+   sent, Policy check, Live, Renewal due, Lapsed.
+   *Policy check* is a real stage, not a formality: no ad runs until a named
+   human has checked it against `docs/ADVERTISING.md`, and the sponsor schema
+   requires that name before the record will validate.
+2. **Invoicing and payment** for placements.
+3. **The newsletter**, which [ADVERTISING.md](ADVERTISING.md) argues should come
+   before display advertising, since sponsorship pays far more per reader.
+4. **Advertiser enquiry landing page**, hosted on GHL and linked to from the
+   site.
+
+### The rule that must not be broken
+
+**Never embed a GoHighLevel form, chat widget, or tracking script on
+usvethub.com.** It would put third-party JavaScript on the public site, which
+the Content Security Policy exists to prevent and would refuse anyway.
+
+Link out to a GHL-hosted page instead. That keeps the static site sealed while
+GHL handles anything that needs to capture data.
+
+### Custom fields worth creating for advertisers
+
+These mirror the sponsor schema, so a signed advertiser can be turned into a
+record without a second round of questions:
+
+`advertiser_name`, `slot` (jurisdiction / discounts / organizations /
+free-help), `jurisdiction` (state code, if buying a state page), `headline`
+(90 characters), `body` (300 characters), `cta_label`, `destination_url`,
+`creative_file`, `flight_start`, `flight_end`, `policy_reviewed_by`.
