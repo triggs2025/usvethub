@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Discount",
+  "description": "A discount or offer available to Veterans or service members. The most perishable data on the site: a benefit changes with legislation, a discount changes when a regional manager decides it does. Verification is the product. 200 confirmed offers beat 2,000 scraped ones.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "business", "reach", "category", "summary", "officialUrl", "confidence", "source", "verifiedAt"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "minLength": 3,
+      "maxLength": 90
+    },
+    "business": {
+      "type": "string",
+      "description": "The company or organization offering it.",
+      "minLength": 2,
+      "maxLength": 160
+    },
+    "reach": {
+      "type": "string",
+      "description": "national works anywhere in the US. state is limited to one jurisdiction. local is a single town or store.",
+      "enum": ["national", "state", "local"]
+    },
+    "jurisdiction": {
+      "type": "string",
+      "description": "Required when reach is state or local. Omitted for national.",
+      "pattern": "^[A-Z]{2}$"
+    },
+    "city": { "type": "string", "maxLength": 120 },
+    "category": {
+      "type": "string",
+      "enum": [
+        "retail", "food", "travel", "automotive", "home-services", "fitness",
+        "entertainment", "technology", "professional", "financial", "wireless", "other"
+      ]
+    },
+    "offer": {
+      "type": "string",
+      "description": "The discount itself, as specifically as the source states it. \"10 percent off\" beats \"discount available\".",
+      "maxLength": 200
+    },
+    "summary": { "type": "string", "minLength": 15, "maxLength": 600 },
+    "eligibility": {
+      "type": "array",
+      "maxItems": 20,
+      "items": { "type": "string", "minLength": 3, "maxLength": 400 }
+    },
+    "howToRedeem": { "type": "string", "maxLength": 600 },
+    "verificationService": {
+      "type": "string",
+      "description": "Third-party ID verification the business uses, if any. Worth surfacing because it tells a Veteran what they will be asked for.",
+      "maxLength": 80
+    },
+    "officialUrl": {
+      "type": "string",
+      "format": "url",
+      "description": "The business's own page describing the offer. Required. Never a coupon aggregator: those go stale and are frequently wrong."
+    },
+    "expiresAt": {
+      "type": "string",
+      "format": "date",
+      "description": "Only when the source states an end date. Expired offers are hidden at build time."
+    },
+    "paidPlacement": {
+      "type": "boolean",
+      "description": "True if the business paid for this listing. Must be disclosed on the page, and must never affect ordering or inclusion."
+    },
+    "confidence": { "type": "string", "enum": ["verified", "scraped", "needs-review"] },
+    "verifiedAt": { "type": "string", "format": "date" },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "title"],
+      "properties": {
+        "id": { "type": "string", "maxLength": 80 },
+        "title": { "type": "string", "maxLength": 200 },
+        "homepage": { "type": "string", "format": "url" }
+      }
+    }
+  }
+}

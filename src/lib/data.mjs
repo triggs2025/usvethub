@@ -48,6 +48,8 @@ export function loadAll() {
   const { jurisdictions } = readJson(join(DATA_DIR, 'jurisdictions.json'));
   const benefits = loadRecordType('benefit');
   const organizations = loadRecordType('organization');
+  const discounts = loadRecordType('discount');
+  const sponsors = loadRecordType('sponsor');
   const health = readJson(join(DATA_DIR, 'reports', 'health.json'), {
     generatedAt: null, total: 0, ok: 0, warned: 0, failed: 0, sources: [],
   });
@@ -86,7 +88,22 @@ export function loadAll() {
       jurisdiction.organizations.find((o) => o.orgType === 'state-agency') ?? null;
   }
 
-  return { jurisdictions, byCode, benefits, federal, organizations, health, loadIssues };
+  // Discounts rot fast, so an offer past its stated end date is dropped at
+  // build rather than shown with an apology.
+  const today = new Date().toISOString().slice(0, 10);
+  const liveDiscounts = discounts
+    .filter((d) => !d.expiresAt || d.expiresAt >= today)
+    .sort((a, b) => a.business.localeCompare(b.business));
+
+  // A flight that has not started, or has ended, does not render. The daily
+  // rebuild is what makes that happen on time rather than at the next push.
+  const liveSponsors = sponsors.filter((s) => s.startsAt <= today && s.endsAt >= today);
+
+  return {
+    jurisdictions, byCode, benefits, federal, organizations,
+    discounts: liveDiscounts, sponsors: liveSponsors,
+    health, loadIssues,
+  };
 }
 
 export const ORG_TYPE_LABELS = {
@@ -135,3 +152,34 @@ export const CATEGORIES = [
 ];
 
 export const CATEGORY_LABELS = Object.fromEntries(CATEGORIES.map((c) => [c.key, c.label]));
+
+/** Discounts are the most perishable data here, so they go stale sooner. */
+export const DISCOUNT_STALE_AFTER_DAYS = 60;
+
+export const DISCOUNT_CATEGORIES = [
+  { key: 'retail', label: 'Retail' },
+  { key: 'food', label: 'Food and dining' },
+  { key: 'travel', label: 'Travel' },
+  { key: 'automotive', label: 'Automotive' },
+  { key: 'home-services', label: 'Home services' },
+  { key: 'fitness', label: 'Fitness' },
+  { key: 'entertainment', label: 'Entertainment' },
+  { key: 'technology', label: 'Technology' },
+  { key: 'wireless', label: 'Phone and internet' },
+  { key: 'financial', label: 'Financial' },
+  { key: 'professional', label: 'Professional services' },
+  { key: 'other', label: 'Other' },
+];
+
+export const DISCOUNT_CATEGORY_LABELS =
+  Object.fromEntries(DISCOUNT_CATEGORIES.map((c) => [c.key, c.label]));
+
+/**
+ * Organization types that count as free help.
+ *
+ * Kept separate from browsing the directory because the intent differs:
+ * browsing is exploring, needing free legal help is today.
+ */
+export const FREE_HELP_ORG_TYPES = [
+  'vso', 'county-vso', 'state-agency', 'legal-aid', 'crisis', 'food', 'housing', 'employment',
+];

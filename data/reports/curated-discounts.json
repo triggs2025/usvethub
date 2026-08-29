@@ -1,0 +1,17 @@
+{
+  "status": "ok",
+  "reason": null,
+  "published": true,
+  "unchanged": false,
+  "recordCount": 0,
+  "previousCount": 0,
+  "rejected": [],
+  "startedAt": "2026-08-29T06:02:09.704Z",
+  "finishedAt": "2026-08-29T06:02:09.711Z",
+  "requestsUsed": 0,
+  "sourceId": "curated-discounts",
+  "log": [
+    "[curated-discounts] 0 curated discount(s) from 0 file(s)",
+    "[curated-discounts] published 0 record(s) to .\\data\\published\\discounts\\curated-discounts.json"
+  ]
+}

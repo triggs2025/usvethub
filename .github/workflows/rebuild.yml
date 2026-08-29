@@ -1,0 +1,47 @@
+name: Daily rebuild
+
+# Sponsor flights and discount expiry dates are evaluated at BUILD time, not at
+# page load, because the site is static. Without a scheduled rebuild an expired
+# ad or a dead offer would keep rendering until the next push. This is the job
+# that makes those dates mean something.
+on:
+  schedule:
+    - cron: '0 8 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify source isolation still holds
+        run: npm test
+      - name: Build site
+        env:
+          SITE_BASE_URL: https://triggs2025.github.io/usvethub
+        run: npm run build
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

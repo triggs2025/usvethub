@@ -1,0 +1,19 @@
+{
+  "id": "curated-sponsors",
+  "title": "USVetHub paid placements",
+  "homepage": "https://usvethub.com/about/",
+  "recordType": "sponsor",
+  "jurisdiction": null,
+  "enabled": true,
+  "schedule": "on-change",
+  "timeoutMs": 30000,
+  "maxRequests": 0,
+  "guards": {
+    "minRecords": 0,
+    "maxDropRatio": 1
+  },
+  "notes": [
+    "Paid advertising placements. Ads are data, not code: each passes schema validation, so a malformed URL or an expired flight simply does not render. No third-party ad script exists anywhere on this site.",
+    "Guards are relaxed on purpose: a human deleting a record is an intentional edit, not a scraper breaking."
+  ]
+}

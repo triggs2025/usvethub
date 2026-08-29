@@ -185,8 +185,10 @@ ${CRISIS_BAR}
       <span class="brand-text"><strong>USVetHub</strong><small>${esc(SITE.tagline)}</small></span>
     </a>
     <nav aria-label="Main">
-      <a href="${escUrl('/states/')}">States</a>
+      <a href="${escUrl('/benefits/')}">Benefits</a>
+      <a href="${escUrl('/discounts/')}">Discounts</a>
       <a href="${escUrl('/organizations/')}">Organizations</a>
+      <a href="${escUrl('/free-help/')}">Free help</a>
       <a href="${escUrl('/about/')}">About</a>
     </nav>
   </div>

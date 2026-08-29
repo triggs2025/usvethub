@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Sponsor",
+  "description": "One paid advertising placement. Ads are DATA here, not code: a sponsor passes the same validation as every other record, so a malformed URL or an expired flight cannot render. See docs/ADVERTISING.md for why there is no third-party ad script anywhere on this site.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "advertiser", "slot", "headline", "destinationUrl", "startsAt", "endsAt", "policyReviewedBy", "source", "verifiedAt"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "minLength": 3,
+      "maxLength": 90
+    },
+    "advertiser": { "type": "string", "minLength": 2, "maxLength": 160 },
+    "slot": {
+      "type": "string",
+      "description": "Where it renders. jurisdiction requires a jurisdiction code.",
+      "enum": ["jurisdiction", "discounts", "organizations", "free-help"]
+    },
+    "jurisdiction": {
+      "type": "string",
+      "description": "Required when slot is jurisdiction. One sponsor per state page.",
+      "pattern": "^[A-Z]{2}$"
+    },
+    "headline": { "type": "string", "minLength": 4, "maxLength": 90 },
+    "body": { "type": "string", "maxLength": 300 },
+    "ctaLabel": { "type": "string", "maxLength": 40 },
+    "destinationUrl": { "type": "string", "format": "url" },
+    "image": {
+      "type": "string",
+      "description": "Site-relative path under /sponsors/. Creatives are DOWNLOADED AND RE-HOSTED, never hotlinked: a hotlinked image is a third-party request that can be swapped for something else after we approved it.",
+      "pattern": "^/sponsors/[a-z0-9][a-z0-9._-]*$",
+      "maxLength": 200
+    },
+    "imageAlt": { "type": "string", "maxLength": 200 },
+    "startsAt": { "type": "string", "format": "date" },
+    "endsAt": { "type": "string", "format": "date" },
+    "policyReviewedBy": {
+      "type": "string",
+      "description": "Who checked this against the advertising policy in docs/ADVERTISING.md, and when. Required: no ad runs without a named human having read the policy against it. Never put a claim-shark, pension-poaching, or GI Bill lead-gen advertiser on this site.",
+      "minLength": 3,
+      "maxLength": 160
+    },
+    "notes": { "type": "string", "maxLength": 500 },
+    "verifiedAt": { "type": "string", "format": "date" },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "title"],
+      "properties": {
+        "id": { "type": "string", "maxLength": 80 },
+        "title": { "type": "string", "maxLength": 200 },
+        "homepage": { "type": "string", "format": "url" }
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "curated-discounts",
+  "title": "USVetHub verified discounts",
+  "homepage": "https://usvethub.com/about/",
+  "recordType": "discount",
+  "jurisdiction": null,
+  "enabled": true,
+  "schedule": "on-change",
+  "timeoutMs": 30000,
+  "maxRequests": 0,
+  "guards": {
+    "minRecords": 0,
+    "maxDropRatio": 1
+  },
+  "notes": [
+    "Hand-verified discounts. Discounts rot faster than any other data here, so the staleness window is deliberately short and every record links to the business own page rather than a coupon aggregator.",
+    "Guards are relaxed on purpose: a human deleting a record is an intentional edit, not a scraper breaking."
+  ]
+}

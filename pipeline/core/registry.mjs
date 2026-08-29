@@ -21,6 +21,8 @@ export const REPORT_DIR = join(DATA_DIR, 'reports');
 export const RECORD_TYPES = {
   benefit: { dir: join(PUBLISHED_DIR, 'benefits'), schema: 'benefit.schema.json' },
   organization: { dir: join(PUBLISHED_DIR, 'organizations'), schema: 'organization.schema.json' },
+  discount: { dir: join(PUBLISHED_DIR, 'discounts'), schema: 'discount.schema.json' },
+  sponsor: { dir: join(PUBLISHED_DIR, 'sponsors'), schema: 'sponsor.schema.json' },
 };
 
 export function readJson(path, fallback = undefined) {

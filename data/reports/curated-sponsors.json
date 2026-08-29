@@ -1,0 +1,17 @@
+{
+  "status": "ok",
+  "reason": null,
+  "published": true,
+  "unchanged": false,
+  "recordCount": 0,
+  "previousCount": 0,
+  "rejected": [],
+  "startedAt": "2026-08-29T06:02:09.708Z",
+  "finishedAt": "2026-08-29T06:02:09.716Z",
+  "requestsUsed": 0,
+  "sourceId": "curated-sponsors",
+  "log": [
+    "[curated-sponsors] 0 curated sponsor(s) from 0 file(s)",
+    "[curated-sponsors] published 0 record(s) to .\\data\\published\\sponsors\\curated-sponsors.json"
+  ]
+}

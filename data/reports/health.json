@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-28T22:00:52.197Z",
-  "total": 2,
-  "ok": 2,
+  "generatedAt": "2026-08-29T06:02:10.612Z",
+  "total": 4,
+  "ok": 4,
   "warned": 0,
   "failed": 0,
   "sources": [
@@ -9,15 +9,29 @@
       "sourceId": "curated-benefits",
       "status": "ok",
       "reason": null,
+      "recordCount": 19,
+      "finishedAt": "2026-08-29T06:02:09.726Z"
+    },
+    {
+      "sourceId": "curated-discounts",
+      "status": "ok",
+      "reason": null,
       "recordCount": 0,
-      "finishedAt": "2026-08-28T22:00:52.172Z"
+      "finishedAt": "2026-08-29T06:02:09.711Z"
+    },
+    {
+      "sourceId": "curated-sponsors",
+      "status": "ok",
+      "reason": null,
+      "recordCount": 0,
+      "finishedAt": "2026-08-29T06:02:09.716Z"
     },
     {
       "sourceId": "va-state-offices",
       "status": "ok",
       "reason": null,
       "recordCount": 54,
-      "finishedAt": "2026-08-28T22:00:52.190Z"
+      "finishedAt": "2026-08-29T06:02:10.516Z"
     }
   ]
 }

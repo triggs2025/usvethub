@@ -15,6 +15,7 @@ import { layout, esc, escUrl, html, SITE, SITE_URL, ASSETS } from '../src/lib/ht
 import { LOGOS, ACTIVE_LOGO } from '../src/lib/logos.mjs';
 import {
   loadAll, isStale, daysSince, STALE_AFTER_DAYS, ORG_TYPE_LABELS, CATEGORY_LABELS, CATEGORIES,
+  DISCOUNT_CATEGORIES, DISCOUNT_CATEGORY_LABELS, DISCOUNT_STALE_AFTER_DAYS, FREE_HELP_ORG_TYPES,
 } from '../src/lib/data.mjs';
 
 const OUT = join(process.cwd(), 'dist');
@@ -40,7 +41,7 @@ ASSETS.css = `/${CSS_NAME}`;
 ASSETS.js = `/${JS_NAME}`;
 
 const site = loadAll();
-const { jurisdictions, benefits, federal, organizations, health } = site;
+const { jurisdictions, benefits, federal, organizations, discounts, sponsors, health } = site;
 
 // ---------------------------------------------------------------- components
 
@@ -142,6 +143,62 @@ const filterBar = ({ target, label, placeholder, chips = [] }) => html`
           data-filter-chip="${esc(chip.key)}" aria-pressed="false">${esc(chip.label)}</button>`)}</div>`
       : ''}
   </div>`;
+
+/**
+ * A paid placement.
+ *
+ * Renders NOTHING when no live sponsor matches, so slots can exist in the
+ * layout long before anything is sold and never leave a hole. Ads are data
+ * here, not code: no third-party script, and the creative is served from our
+ * own origin because a hotlinked image can be swapped after we approved it.
+ */
+function sponsorSlot(slot, jurisdictionCode = null) {
+  const live = sponsors.find(
+    (s) => s.slot === slot && (slot !== 'jurisdiction' || s.jurisdiction === jurisdictionCode),
+  );
+  if (!live) return '';
+
+  return html`
+    <aside class="sponsor" aria-label="Sponsored">
+      <p class="sponsor-flag">Sponsored</p>
+      <a href="${escUrl(live.destinationUrl)}" rel="sponsored noopener">
+        ${live.image ? html`<img src="${escUrl(live.image)}" alt="${esc(live.imageAlt ?? '')}" loading="lazy" decoding="async">` : ''}
+        <span class="sponsor-copy">
+          <strong>${esc(live.headline)}</strong>
+          ${live.body ? html`<span>${esc(live.body)}</span>` : ''}
+          <em>${esc(live.ctaLabel ?? 'Learn more')}</em>
+        </span>
+      </a>
+      <p class="sponsor-by">Paid placement by ${esc(live.advertiser)}. Paying never affects what we list or how we rank it.</p>
+    </aside>`;
+}
+
+function discountCard(discount) {
+  const stale = daysSince(discount.verifiedAt) > DISCOUNT_STALE_AFTER_DAYS;
+  const where = discount.reach === 'national'
+    ? 'Nationwide'
+    : [discount.city, discount.jurisdiction].filter(Boolean).join(', ');
+
+  return html`<article class="card" data-filter-item
+    data-category="${esc(discount.category)}"
+    data-search="${esc(`${discount.business} ${discount.summary} ${where} ${DISCOUNT_CATEGORY_LABELS[discount.category] ?? ''}`)}">
+    <h3>${esc(discount.business)}</h3>
+    <p class="tag">${esc(DISCOUNT_CATEGORY_LABELS[discount.category] ?? discount.category)} · ${esc(where)}</p>
+    ${discount.offer ? html`<p class="amount">${esc(discount.offer)}</p>` : ''}
+    <p>${esc(discount.summary)}</p>
+    ${discount.eligibility?.length
+      ? html`<details><summary>Who qualifies</summary><ul>${discount.eligibility.map((e) => html`<li>${esc(e)}</li>`)}</ul></details>`
+      : ''}
+    ${discount.howToRedeem ? html`<details><summary>How to redeem</summary><p>${esc(discount.howToRedeem)}</p></details>` : ''}
+    ${discount.verificationService ? html`<p class="admin">Verified through ${esc(discount.verificationService)}</p>` : ''}
+    <p class="contact"><a href="${escUrl(discount.officialUrl)}" rel="noopener">Offer details</a></p>
+    ${discount.paidPlacement ? html`<p class="sponsor-flag inline">Paid placement</p>` : ''}
+    ${stale
+      ? html`<p class="stale">Last checked ${esc(discount.verifiedAt)}. Discounts change without notice, so confirm at the register.</p>`
+      : ''}
+    ${sourceLine(discount)}
+  </article>`;
+}
 
 const empty = (what, jurisdictionName) => html`<div class="empty">
   <p><strong>We have not published ${esc(what)} for ${esc(jurisdictionName)} yet.</strong></p>
@@ -361,6 +418,8 @@ for (const j of jurisdictions) {
         })}
       </section>
 
+      ${sponsorSlot('jurisdiction', j.code)}
+
       ${federal.length
         ? html`<section class="federal">
             <div class="section-head"><h2>Federal benefits <small>available in every state</small></h2></div>
@@ -531,6 +590,139 @@ page('/about/bot/', layout({
       rather we kept the listing but pulled from a feed or API you maintain, we would much
       prefer that. Get in touch and we will switch to it.
     </p>
+  `,
+}));
+
+// ------------------------------------------------------------------ benefits
+
+page('/benefits/', layout({
+  title: 'Veteran benefits',
+  path: '/benefits/',
+  description: 'Federal Veteran benefits plus what every state and territory offers on top of them.',
+  breadcrumbs: [{ label: 'Home', href: '/' }, { label: 'Benefits' }],
+  body: html`
+    <h1>Veteran benefits</h1>
+    <p class="lede">Benefits come from two places. Federal benefits are the same wherever you live.
+    State benefits are on top of those and vary a lot, which is why the same Veteran can be worth
+    thousands more in one state than another.</p>
+
+    <div class="section-head"><h2>Federal benefits <small>the same in every state</small></h2></div>
+    ${federal.length
+      ? html`<div class="grid two">${federal.map(benefitCard)}</div>`
+      : html`<p class="cat-none">Nothing published yet.</p>`}
+
+    <div class="section-head"><h2>By state and territory</h2></div>
+    <p class="lede">Counts show what each place offers on its own, on top of the federal benefits above.</p>
+    ${filterBar({ target: '#benefits-state-grid', label: 'Filter states', placeholder: 'Search states and territories' })}
+    <ul class="grid states" id="benefits-state-grid">
+      ${jurisdictions.map((j) => html`<li data-filter-item data-search="${esc(`${j.name} ${j.code}`)}">
+        <a href="${escUrl(`/${j.slug}/`)}" data-count="${esc(j.benefits.length)}">
+          <strong>${esc(j.name)}</strong>
+          <small>${esc(j.benefits.length)}</small>
+        </a>
+      </li>`)}
+    </ul>
+    <p class="no-results" data-filter-empty hidden>No state or territory matches that.</p>
+  `,
+}));
+
+// ----------------------------------------------------------------- discounts
+
+page('/discounts/', layout({
+  title: 'Veteran discounts',
+  path: '/discounts/',
+  description: 'Verified discounts for Veterans and service members, confirmed on each business own website.',
+  breadcrumbs: [{ label: 'Home', href: '/' }, { label: 'Discounts' }],
+  body: html`
+    <h1>Veteran discounts</h1>
+    <p class="lede">Every offer here was confirmed on the business's own website, not copied from a
+    coupon site. Discounts change without notice, so we show you when we last checked and link you
+    straight to the source.</p>
+
+    ${sponsorSlot('discounts')}
+
+    ${discounts.length
+      ? html`
+        ${filterBar({
+          target: '#discount-list',
+          label: 'Filter discounts',
+          placeholder: 'Search by business, category, or place',
+          chips: DISCOUNT_CATEGORIES
+            .filter((c) => discounts.some((d) => d.category === c.key))
+            .map((c) => ({ key: c.key, label: c.label })),
+        })}
+        <p class="no-results" data-filter-empty hidden>No discount matches that yet.</p>
+        <div class="grid two" id="discount-list">${discounts.map(discountCard)}</div>`
+      : html`<div class="empty">
+          <p><strong>The discount directory is being built.</strong></p>
+          <p>We are only publishing offers we have confirmed on the business's own website. That is
+          slower than scraping a list, and it is the entire point: a directory of discounts that do
+          not work at the register is worse than no directory at all.</p>
+        </div>`}
+
+    <section class="warn">
+      <h2>How this stays honest</h2>
+      <p>A business can pay to be featured here, and if it does, the listing says
+      <strong>Paid placement</strong> on its face. Paying never affects whether we list a business or
+      where it appears. If an offer is wrong, tell us and we will pull it.</p>
+    </section>
+  `,
+}));
+
+// ----------------------------------------------------------------- free help
+
+const freeHelp = organizations
+  .filter((o) => FREE_HELP_ORG_TYPES.includes(o.orgType))
+  .sort((a, b) => a.name.localeCompare(b.name));
+
+page('/free-help/', layout({
+  title: 'Free help',
+  path: '/free-help/',
+  description: 'Free, accredited help for Veterans: claims assistance, legal aid, tax preparation, and crisis support.',
+  breadcrumbs: [{ label: 'Home', href: '/' }, { label: 'Free help' }],
+  body: html`
+    <h1>Free help</h1>
+    <p class="lede">Some of the most valuable help available to you costs nothing, and a lot of
+    Veterans pay for it anyway because nobody told them.</p>
+
+    <section class="warn">
+      <h2>Never pay to file a VA claim</h2>
+      <p>Accredited Veterans Service Organizations file claims for free. That is the law, not a
+      courtesy. Anyone asking for a percentage of your back pay or a fee to "unlock" a rating is not
+      acting in your interest. If you are being charged, stop and call a service officer below.</p>
+    </section>
+
+    ${sponsorSlot('free-help')}
+
+    <div class="section-head"><h2>Right now, at no cost</h2></div>
+    <div class="grid three">
+      <div>
+        <h3>Crisis support</h3>
+        <p>Call or text <a href="tel:988">988</a> then press <strong>1</strong>, or text
+        <a href="sms:838255">838255</a>. Free, confidential, 24 hours a day, for all Veterans and
+        their families. You do not need to be enrolled in VA care.</p>
+      </div>
+      <div>
+        <h3>Claims help</h3>
+        <p>An accredited service officer will prepare and file your claim at no charge. Your state
+        Veteran agency can connect you with one in your county.</p>
+      </div>
+      <div>
+        <h3>VA benefits hotline</h3>
+        <p>Call <a href="tel:18008271000">1-800-827-1000</a> for questions about compensation,
+        pension, education, and survivor benefits.</p>
+      </div>
+    </div>
+
+    <div class="section-head"><h2>Organizations offering free help</h2></div>
+    ${freeHelp.length
+      ? html`
+        ${filterBar({ target: '#free-help-list', label: 'Filter free help', placeholder: 'Search by name or state' })}
+        <p class="no-results" data-filter-empty hidden>Nothing matches that yet.</p>
+        <div class="grid two" id="free-help-list">${freeHelp.map((org) => html`<div
+          data-filter-item data-search="${esc(`${org.name} ${org.jurisdiction} ${org.city ?? ''}`)}"
+        >${orgCard(org)}</div>`)}</div>`
+      : html`<p class="cat-none">Nothing published yet.</p>`}
   `,
 }));
 
