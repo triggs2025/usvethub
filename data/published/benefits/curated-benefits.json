@@ -2,7 +2,7 @@
   "sourceId": "curated-benefits",
   "recordType": "benefit",
   "jurisdiction": null,
-  "generatedAt": "2026-08-29T22:07:33.656Z",
+  "generatedAt": "2026-08-29T22:14:35.217Z",
   "records": [
     {
       "id": "az-disabled-veteran-hunting-fishing-license",
@@ -981,7 +981,7 @@
       "category": "property-tax",
       "title": "Disabled Veteran homestead tax exemption",
       "summary": "Georgia gives qualifying disabled Veterans a large homestead exemption on the home they own and live in. The exemption amount is set by a federal index and changes from year to year, so confirm the current figure with your county tax commissioner.",
-      "amount": "Set by an index rate established by the U.S. Secretary of Veterans Affairs under 38 U.S.C. 2102. The Georgia Department of Veterans Service lists the maximum as $121,812 for 2025. Value above the exemption stays taxable. Confirm the current year figure with your county.",
+      "amount": "Up to $126,526 of assessed value for FY2026",
       "eligibility": [
         "You are an honorably discharged Georgia Veteran",
         "You own the home and use it as your primary residence",
@@ -990,13 +990,15 @@
         "An unremarried surviving spouse or minor child of a qualified deceased Veteran may continue the exemption while occupying the home as a residence"
       ],
       "details": [
-        "You file an Application for Homestead Exemption with your county tax officials, not with the state. The Georgia Department of Veterans Service notes that administration of the exemption is as interpreted by the tax commissioners of Georgia's 159 counties, so ask your own county about filing dates and required proof.",
-        "The exemption amount is not a fixed dollar figure in practice. It is indexed, so the number published for one year does not carry over to the next. Ask your county tax commissioner for the amount in effect for the year you are filing."
+        "The maximum is not a Georgia number. O.C.G.A. 48-5-48 ties it to the federal Specially Adapted Housing grant amount under 38 U.S.C. 2102, which the Secretary of Veterans Affairs raises each year by a cost-of-construction index.",
+        "For fiscal year 2026 that amount is $126,526, effective 1 October 2025, a 3.87 percent increase on the previous year. Confirmed against the Federal Register notice, not a secondary summary.",
+        "IMPORTANT: the Georgia Department of Veterans Service page still publishes the 2025 figure of $121,812. That is the previous year. If a county quotes you the lower number, the federal index is the authority and it is worth asking.",
+        "Claimed through your county tax commissioner, not the state. Counties set their own filing deadlines."
       ],
       "agency": "Georgia Department of Veterans Service and county tax commissioners",
       "statuteRef": "O.C.G.A. 48-5-48",
       "officialUrl": "https://veterans.georgia.gov/disabled-veteran-homestead-tax-exemption",
-      "confidence": "needs-review",
+      "confidence": "verified",
       "source": {
         "id": "curated-benefits",
         "title": "USVetHub verified benefit records",
@@ -2678,7 +2680,7 @@
       "category": "housing",
       "title": "Specially Adapted Housing and Special Home Adaptation grants",
       "summary": "Grant money to buy, build, or modify a home so you can live in it with a service-connected disability. You can draw on the grant up to six separate times over your lifetime.",
-      "amount": "Usable up to 6 times over your lifetime",
+      "amount": "Up to $126,526 (SAH) or $25,349 (SHA) in FY2026, usable across 6 lifetime uses",
       "eligibility": [
         "You own or will own the home",
         "SAH: qualifying service-connected disabilities include the loss, or loss of use, of more than one limb, and blindness in both eyes within set limits",
@@ -2686,8 +2688,10 @@
       ],
       "details": [
         "Both grants cover buying, building, or adapting a permanent home to suit the disability.",
-        "You do not have to spend it all at once. You can use part in one year and the remainder in later years, up to six uses in total.",
-        "Grant maximums are set annually, so confirm the current figure with VA rather than relying on a number you were quoted previously."
+        "FY2026 maximums, effective 1 October 2025: $126,526 for a Specially Adapted Housing grant under 38 U.S.C. 2101(a), and $25,349 for a Special Home Adaptation grant under 2101(b). Both rose 3.87 percent on the year.",
+        "Temporary Residence Adaptation, for adapting a home you are living in temporarily, is capped separately at $50,961 under 2101(a) or $9,099 under 2101(b) for FY2026.",
+        "You do not have to spend it all at once. You can use part in one year and the remainder later, up to six uses in total.",
+        "These figures change every 1 October with the cost-of-construction index, so check the current year before you plan around them."
       ],
       "agency": "US Department of Veterans Affairs",
       "officialUrl": "https://www.va.gov/housing-assistance/disability-housing-grants/",

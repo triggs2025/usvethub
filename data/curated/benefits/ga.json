@@ -5,7 +5,7 @@
     "category": "property-tax",
     "title": "Disabled Veteran homestead tax exemption",
     "summary": "Georgia gives qualifying disabled Veterans a large homestead exemption on the home they own and live in. The exemption amount is set by a federal index and changes from year to year, so confirm the current figure with your county tax commissioner.",
-    "amount": "Set by an index rate established by the U.S. Secretary of Veterans Affairs under 38 U.S.C. 2102. The Georgia Department of Veterans Service lists the maximum as $121,812 for 2025. Value above the exemption stays taxable. Confirm the current year figure with your county.",
+    "amount": "Up to $126,526 of assessed value for FY2026",
     "eligibility": [
       "You are an honorably discharged Georgia Veteran",
       "You own the home and use it as your primary residence",
@@ -14,13 +14,15 @@
       "An unremarried surviving spouse or minor child of a qualified deceased Veteran may continue the exemption while occupying the home as a residence"
     ],
     "details": [
-      "You file an Application for Homestead Exemption with your county tax officials, not with the state. The Georgia Department of Veterans Service notes that administration of the exemption is as interpreted by the tax commissioners of Georgia's 159 counties, so ask your own county about filing dates and required proof.",
-      "The exemption amount is not a fixed dollar figure in practice. It is indexed, so the number published for one year does not carry over to the next. Ask your county tax commissioner for the amount in effect for the year you are filing."
+      "The maximum is not a Georgia number. O.C.G.A. 48-5-48 ties it to the federal Specially Adapted Housing grant amount under 38 U.S.C. 2102, which the Secretary of Veterans Affairs raises each year by a cost-of-construction index.",
+      "For fiscal year 2026 that amount is $126,526, effective 1 October 2025, a 3.87 percent increase on the previous year. Confirmed against the Federal Register notice, not a secondary summary.",
+      "IMPORTANT: the Georgia Department of Veterans Service page still publishes the 2025 figure of $121,812. That is the previous year. If a county quotes you the lower number, the federal index is the authority and it is worth asking.",
+      "Claimed through your county tax commissioner, not the state. Counties set their own filing deadlines."
     ],
     "agency": "Georgia Department of Veterans Service and county tax commissioners",
     "statuteRef": "O.C.G.A. 48-5-48",
     "officialUrl": "https://veterans.georgia.gov/disabled-veteran-homestead-tax-exemption",
-    "confidence": "needs-review"
+    "confidence": "verified"
   },
   {
     "id": "ga-military-retirement-income-exclusion",

@@ -79,7 +79,7 @@
     "category": "housing",
     "title": "Specially Adapted Housing and Special Home Adaptation grants",
     "summary": "Grant money to buy, build, or modify a home so you can live in it with a service-connected disability. You can draw on the grant up to six separate times over your lifetime.",
-    "amount": "Usable up to 6 times over your lifetime",
+    "amount": "Up to $126,526 (SAH) or $25,349 (SHA) in FY2026, usable across 6 lifetime uses",
     "eligibility": [
       "You own or will own the home",
       "SAH: qualifying service-connected disabilities include the loss, or loss of use, of more than one limb, and blindness in both eyes within set limits",
@@ -87,8 +87,10 @@
     ],
     "details": [
       "Both grants cover buying, building, or adapting a permanent home to suit the disability.",
-      "You do not have to spend it all at once. You can use part in one year and the remainder in later years, up to six uses in total.",
-      "Grant maximums are set annually, so confirm the current figure with VA rather than relying on a number you were quoted previously."
+      "FY2026 maximums, effective 1 October 2025: $126,526 for a Specially Adapted Housing grant under 38 U.S.C. 2101(a), and $25,349 for a Special Home Adaptation grant under 2101(b). Both rose 3.87 percent on the year.",
+      "Temporary Residence Adaptation, for adapting a home you are living in temporarily, is capped separately at $50,961 under 2101(a) or $9,099 under 2101(b) for FY2026.",
+      "You do not have to spend it all at once. You can use part in one year and the remainder later, up to six uses in total.",
+      "These figures change every 1 October with the cost-of-construction index, so check the current year before you plan around them."
     ],
     "agency": "US Department of Veterans Affairs",
     "officialUrl": "https://www.va.gov/housing-assistance/disability-housing-grants/",
