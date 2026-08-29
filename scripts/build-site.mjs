@@ -159,25 +159,16 @@ const hero = readJson(join(process.cwd(), 'data', 'curated', 'hero.json'), null)
  */
 function heroBand(config) {
   return config.videos.slice(0, 3).map((item) => {
-    // A panel is either a looping clip or a still photograph. Photographs are
-    // the cheaper and often better option: a real face does more for this page
-    // than any amount of motion, and a still costs a fraction of the bandwidth.
     const isPhoto = item.type === 'image' || (!item.src && item.poster);
-
-    const media = isPhoto
-      ? html`<img src="${escUrl(item.poster ?? item.src)}" alt="${esc(item.alt ?? '')}" loading="eager" decoding="async">`
-      : html`<video autoplay muted loop playsinline preload="metadata"
-               poster="${escUrl(item.poster)}" aria-hidden="true" tabindex="-1">
-          <source src="${escUrl(item.src)}" type="video/mp4">
-        </video>
-        <img class="hero-still" src="${escUrl(item.poster)}" alt="${esc(item.alt ?? '')}">`;
-
     return html`
-      <figure class="hero-video${isPhoto ? ' is-photo' : ''}">
-        ${media}
-        ${item.caption ? html`<figcaption>${esc(item.caption)}</figcaption>` : ''}
-        ${item.credit ? html`<span class="media-credit">${esc(item.credit)}</span>` : ''}
-      </figure>`;
+      <div class="hero-panel">
+        ${isPhoto
+          ? html`<img src="${escUrl(item.poster ?? item.src)}" alt="" decoding="async">`
+          : html`<video autoplay muted loop playsinline preload="auto" poster="${escUrl(item.poster)}">
+               <source src="${escUrl(item.src)}" type="video/mp4">
+             </video>
+             <img class="hero-still" src="${escUrl(item.poster)}" alt="" decoding="async">`}
+      </div>`;
   });
 }
 
@@ -191,7 +182,14 @@ page('/', layout({
   },
   body: html`
     <section class="hero full-bleed">
-      <div class="wrap">
+      ${hero?.videos?.length
+        ? html`<div class="hero-media" aria-hidden="true">
+             <div class="hero-band">${heroBand(hero)}</div>
+             <div class="hero-scrim"></div>
+           </div>`
+        : ''}
+
+      <div class="wrap hero-content">
         <p class="eyebrow">All 50 states · DC · 5 territories</p>
         <h1>Know what you <em>earned</em>.</h1>
         <p class="hero-sub">Every Veteran benefit, every state, one place.</p>
@@ -201,13 +199,6 @@ page('/', layout({
           <a class="button button-ghost" href="${escUrl('/organizations/')}">Browse organizations</a>
         </p>
 
-        ${hero?.videos?.length
-          ? html`<div class="hero-band" role="group" aria-label="USVetHub in three words">${heroBand(hero)}</div>
-                 ${hero.placeholder
-                   ? html`<p class="hero-note">Placeholder footage. Drop real clips into <code>public/video/</code>, then set <code>placeholder</code> to false in <code>data/curated/hero.json</code>.</p>`
-                   : ''}`
-          : ''}
-
         <ul class="stats">
           <li><b>${esc(jurisdictions.length)}</b><span>Jurisdictions</span></li>
           <li><b>${esc(organizations.length)}</b><span>Organizations</span></li>
@@ -215,6 +206,11 @@ page('/', layout({
           <li><b>${esc(withData.length)}</b><span>With published data</span></li>
         </ul>
       </div>
+
+      ${hero?.videos?.length
+        ? html`<ul class="hero-captions">${hero.videos.slice(0, 3).map((v) =>
+            html`<li>${esc(v.caption ?? '')}</li>`)}</ul>`
+        : ''}
     </section>
 
     <section>

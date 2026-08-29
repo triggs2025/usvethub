@@ -1,46 +1,44 @@
 {
-  "_comment": "Homepage hero. Edit this file to change the headline or swap the videos. No code change needed. Keep exactly three videos: the layout is a three-across band that stacks to one column on mobile.",
+  "_comment": "Homepage hero. Edit this file to change the headline or swap the clips. No code change needed. Keep exactly three panels: the band is a single continuous strip divided into thirds.",
 
-  "headline": "Every Veteran benefit, every state, one place",
+  "headline": "Know what you earned.",
   "lede": "You earned these benefits. Finding them should not be a second deployment. USVetHub gathers what each state offers Veterans and their families, in plain language, with a link to the official source for every single entry.",
   "ctaLabel": "Find your state",
   "ctaHref": "/states/",
 
-  "_videos": "src and poster must be site-relative paths under /video/. The Content Security Policy allows media from our own origin only, so a remote URL will be blocked, not merely discouraged. Keep clips to 6-10 seconds, silent with no audio track at all, and 854x480 or smaller. Total video weight is capped at 12 MB by a build test.",
+  "_videos": "src and poster must be site-relative paths under /video/. The Content Security Policy allows media from our own origin only, so a remote URL will be blocked, not merely discouraged. Encode with: ffmpeg -i in.mp4 -an -vf scale=760:-2:flags=lanczos -c:v libx264 -preset slow -crf 31 -pix_fmt yuv420p -r 24 -movflags +faststart out.mp4. Strip the audio track: the panels are muted, so an audio stream is pure wasted bandwidth. Total video weight is capped at 12 MB by a build test.",
 
-  "_captions": "Captions are the message, not a label for the footage. Served is the Veterans clip, Connected is the families clip, Supported is the service dog clip. File names describe what is on screen so footage is easy to swap; captions say what it means.",
+  "_captions": "Captions are the message, file names describe the footage. Served is the Marines hiking clip, Connected is the handshake, Supported is the Veteran being thanked.",
 
-  "_alt": "alt describes the poster still for someone who cannot see it, and it is the only text a screen reader gets from these figures. Once real footage lands, replace the placeholder wording with what is actually on screen. Be specific and plain: 'Two Veterans talking outside a VA clinic' beats 'Veterans'.",
-
-  "_releases": "Before real footage of identifiable people goes live, confirm a signed release exists for every person on screen, including children with a parent or guardian signature. Record where each release is filed in the release field. This is a commercial site, so implied consent is not enough.",
+  "_releases": "Every identifiable person in this footage needs a signed release, because this site will carry advertising. Record where each release is filed in the release field below. See docs/IMAGERY.md.",
 
   "videos": [
     {
-      "id": "veterans",
-      "src": "/video/veterans.mp4",
-      "poster": "/video/veterans.jpg",
+      "id": "served",
+      "src": "/video/marines-hiking.mp4",
+      "poster": "/video/marines-hiking.jpg",
       "caption": "Served",
-      "alt": "Placeholder motion graphic in navy tones. Replace with a description of the Veterans footage.",
+      "alt": "Marines hiking with packs",
       "release": null
     },
     {
-      "id": "families",
-      "src": "/video/families.mp4",
-      "poster": "/video/families.jpg",
+      "id": "connected",
+      "src": "/video/shaking-hands.mp4",
+      "poster": "/video/shaking-hands.jpg",
       "caption": "Connected",
-      "alt": "Placeholder motion graphic in navy and gold tones. Replace with a description of the families footage.",
+      "alt": "Two people shaking hands",
       "release": null
     },
     {
-      "id": "service-dogs",
-      "src": "/video/service-dogs.mp4",
-      "poster": "/video/service-dogs.jpg",
+      "id": "supported",
+      "src": "/video/veteran-thanked.mp4",
+      "poster": "/video/veteran-thanked.jpg",
       "caption": "Supported",
-      "alt": "Placeholder motion graphic in dark red tones. Replace with a description of the service dog footage.",
+      "alt": "A Veteran being thanked",
       "release": null
     }
   ],
 
-  "placeholder": true,
-  "_placeholder": "true renders a note under the band so nobody mistakes the test loops for finished work. Set to false when real footage lands."
+  "placeholder": false,
+  "_placeholder": "true renders a note under the band saying the footage is placeholder. Now false: these are the real clips."
 }
