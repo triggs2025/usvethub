@@ -53,8 +53,34 @@ export const logoShield = (size = 34) => `
         opacity="0.55" d="M19 45 L32 33 L45 45"/>
 </svg>`;
 
+/**
+ * D. Star chevron. Tony's idea: the three chevrons in red, white and blue on a
+ * gold five-point star.
+ *
+ * Two things to judge honestly when looking at it. First, this is the only mark
+ * here with fixed colours, so it cannot inherit currentColor: it will not go
+ * one-colour for an embroidered polo, a fax, or a single-colour stamp without a
+ * separate version being drawn. Second, a star's usable interior is only the
+ * central pentagon, roughly a third of its bounding box, so the chevrons have
+ * to be small, which is where it gets tested at 16px.
+ *
+ * The star path is computed geometry, not eyeballed: outer radius 30, inner
+ * radius at the standard 0.382 ratio, first point at twelve o'clock.
+ */
+export const logoStarChevron = (size = 34) => `
+<svg width="${size}" height="${size}" viewBox="0 0 64 64" aria-hidden="true">
+  <path fill="#f0b429" stroke="#a8750d" stroke-width="1.2" stroke-linejoin="round"
+        d="M32.00 2.00 L38.74 22.73 L60.53 22.73 L42.90 35.54 L49.63 56.27 L32.00 43.46 L14.37 56.27 L21.10 35.54 L3.47 22.73 L25.26 22.73 Z"/>
+  <g fill="none" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke="#b22234" d="M25 26 L32 21.5 L39 26"/>
+    <path stroke="#ffffff" d="M25 31.5 L32 27 L39 31.5"/>
+    <path stroke="#1c3760" d="M25 37 L32 32.5 L39 37"/>
+  </g>
+</svg>`;
+
 export const LOGOS = {
   chevron: { render: logoChevron, name: 'Chevron rise' },
+  starChevron: { render: logoStarChevron, name: 'Star chevron (red, white, blue on gold)' },
   compass: { render: logoCompass, name: 'Compass star' },
   shield: { render: logoShield, name: 'Shield chevron' },
 };

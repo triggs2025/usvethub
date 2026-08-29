@@ -199,7 +199,7 @@ page('/', layout({
              <div class="hero-scrim"></div>
            </div>
            <ul class="hero-captions" aria-hidden="true">${hero.videos.slice(0, 3).map((v) =>
-             html`<li>${esc(v.caption ?? '')}</li>`)}</ul>`
+             html`<li><span>${esc(v.caption ?? '')}</span></li>`)}</ul>`
         : ''}
 
       <div class="wrap hero-content">
@@ -564,14 +564,16 @@ page('/design/', layout({
       ${Object.entries(LOGOS).map(([key, logo]) => html`
         <div class="card">
           <div class="logo-row">
-            <span class="logo-lg">${logo.render(72)}</span>
-            <span class="logo-md">${logo.render(34)}</span>
-            <span class="logo-sm">${logo.render(16)}</span>
+            <span>${logo.render(112)}</span>
+            <span>${logo.render(48)}</span>
+            <span>${logo.render(28)}</span>
+            <span>${logo.render(16)}</span>
           </div>
           <div class="logo-row logo-dark">
-            <span class="logo-lg">${logo.render(72)}</span>
-            <span class="logo-md">${logo.render(34)}</span>
-            <span class="logo-sm">${logo.render(16)}</span>
+            <span>${logo.render(112)}</span>
+            <span>${logo.render(48)}</span>
+            <span>${logo.render(28)}</span>
+            <span>${logo.render(16)}</span>
           </div>
           <h3>${esc(logo.name)}</h3>
           <p class="tag">${esc(key)}${key === ACTIVE_LOGO ? ' · in use' : ''}</p>

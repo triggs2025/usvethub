@@ -225,11 +225,20 @@ h2 small { font-weight: 400; color: var(--text-2); font-size: 0.62em; letter-spa
   display: grid; grid-template-columns: repeat(3, 1fr);
   gap: 1px; list-style: none; margin: 0; padding: 0;
 }
-.hero-captions li {
-  padding: 13px 18px; text-align: center;
-  font-size: 11.5px; font-weight: 800; letter-spacing: 0.18em; text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.92);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+.hero-captions li { display: flex; justify-content: center; padding: 14px 12px; }
+/* A gold chip rather than white text on the footage. White type over moving
+   video is legible only as long as the frame behind it stays dark, and it does
+   not. The chip carries its own background, so the label holds at every frame.
+   Same gold and same dark ink as the primary button, so the page has one
+   accent rather than two. */
+.hero-captions span {
+  display: inline-block;
+  padding: 6px 15px;
+  border-radius: var(--radius-pill);
+  background: linear-gradient(180deg, var(--gold-400), var(--gold-500));
+  color: var(--navy-950);
+  font-size: 11px; font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.4);
 }
 
 /* The copy spans the whole hero: headline left, supporting column right, stats
@@ -342,6 +351,7 @@ h2 small { font-weight: 400; color: var(--text-2); font-size: 0.62em; letter-spa
 .grid.states { grid-template-columns: repeat(auto-fill, minmax(224px, 1fr)); }
 .grid.two { grid-template-columns: repeat(auto-fill, minmax(345px, 1fr)); }
 .grid.three { grid-template-columns: repeat(auto-fit, minmax(268px, 1fr)); gap: 28px; }
+.marks-grid { grid-template-columns: repeat(auto-fit, minmax(330px, 1fr)); }
 
 .grid.states a {
   display: flex; align-items: center; justify-content: space-between; gap: 12px;
@@ -581,7 +591,7 @@ tr.row-warned td:nth-child(2) { color: var(--gold-600); font-weight: 800; }
 
 /* ------------------------------------------------- brand review page only */
 .logo-row {
-  display: flex; align-items: center; gap: 22px;
+  display: flex; align-items: center; flex-wrap: wrap; gap: 20px;
   padding: 18px 16px; border-radius: var(--radius-sm);
   background: var(--bg-alt); color: var(--navy-700); margin-bottom: 10px;
 }
