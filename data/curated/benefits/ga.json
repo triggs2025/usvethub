@@ -1,0 +1,231 @@
+[
+  {
+    "id": "ga-disabled-veteran-homestead-exemption",
+    "jurisdiction": "GA",
+    "category": "property-tax",
+    "title": "Disabled Veteran homestead tax exemption",
+    "summary": "Georgia gives qualifying disabled Veterans a large homestead exemption on the home they own and live in. The exemption amount is set by a federal index and changes from year to year, so confirm the current figure with your county tax commissioner.",
+    "amount": "Set by an index rate established by the U.S. Secretary of Veterans Affairs under 38 U.S.C. 2102. The Georgia Department of Veterans Service lists the maximum as $121,812 for 2025. Value above the exemption stays taxable. Confirm the current year figure with your county.",
+    "eligibility": [
+      "You are an honorably discharged Georgia Veteran",
+      "You own the home and use it as your primary residence",
+      "You are rated 100 percent service-connected disabled by the VA, or rated below 100 percent but entitled to compensation at the 100 percent rate because of unemployability",
+      "You may also qualify through a statutory award for loss or permanent loss of use of feet or hands, loss of sight, or permanent eye impairment",
+      "An unremarried surviving spouse or minor child of a qualified deceased Veteran may continue the exemption while occupying the home as a residence"
+    ],
+    "details": [
+      "You file an Application for Homestead Exemption with your county tax officials, not with the state. The Georgia Department of Veterans Service notes that administration of the exemption is as interpreted by the tax commissioners of Georgia's 159 counties, so ask your own county about filing dates and required proof.",
+      "The exemption amount is not a fixed dollar figure in practice. It is indexed, so the number published for one year does not carry over to the next. Ask your county tax commissioner for the amount in effect for the year you are filing."
+    ],
+    "agency": "Georgia Department of Veterans Service and county tax commissioners",
+    "statuteRef": "O.C.G.A. 48-5-48",
+    "officialUrl": "https://veterans.georgia.gov/disabled-veteran-homestead-tax-exemption",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "ga-military-retirement-income-exclusion",
+    "jurisdiction": "GA",
+    "category": "income-tax",
+    "title": "Georgia income tax exclusion for military retirement income",
+    "summary": "Georgia lets military retirees exclude part of their retirement income from state income tax. How much you can exclude depends on your age, and younger retirees can exclude an extra amount if they also have earned income.",
+    "amount": "Georgia Department of Veterans Service lists: under age 62, up to $17,500 of military retirement income, plus an additional $17,500 if you have at least $17,500 in earned income. Ages 62 to 64, up to $35,000 under Georgia's general retirement income exclusion. Age 65 and over, up to $65,000.",
+    "eligibility": [
+      "You retired from military service and receive military retirement income",
+      "You file a Georgia income tax return",
+      "The additional exclusion for retirees under age 62 depends on having earned income of at least the stated amount"
+    ],
+    "details": [
+      "The amounts for ages 62 and over come from Georgia's general retirement income exclusion, which is not limited to Veterans. Military retirement income counts toward it.",
+      "The exclusion is claimed on your Georgia return. Check current-year instructions and forms with the Georgia Department of Revenue, since the retirement income exclusion has been amended by the legislature more than once."
+    ],
+    "agency": "Georgia Department of Revenue",
+    "officialUrl": "https://veterans.georgia.gov/military-retirement-income-tax-exemption",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "ga-hero-scholarship",
+    "jurisdiction": "GA",
+    "category": "education",
+    "title": "Georgia HERO Scholarship for Guard and Reserve members and their families",
+    "summary": "The HERO Scholarship helps pay for college for Georgia National Guard and U.S. Military Reserve members who served in a combat zone, and for the children and spouses of those members. It is administered by the Georgia Student Finance Commission.",
+    "amount": "Up to $2,000 per academic school year, prorated below 12 credit hours, up to $8,000 total for the equivalent of four academic years. Funding is subject to legislative appropriation and awards are first come, first served.",
+    "eligibility": [
+      "Category 1: an active member of the Georgia National Guard or U.S. Military Reserves deployed to a combat zone on or after February 1, 2003, for at least 181 cumulative days, or evacuated because of severe injuries",
+      "Category 2: a child of a member who meets the Category 1 service, born before or within nine months of the start of the qualifying service, and age 25 or younger during that service",
+      "Category 3: a child of a member who was killed in the combat zone, or who died or became 100 percent disabled from injuries received there, with the same birth and age conditions",
+      "Category 4: the spouse of a former member who was killed in a designated combat zone, or who died or became 100 percent disabled from injuries received there, on or after February 1, 2003",
+      "You must meet U.S. citizenship or eligible non-citizen requirements",
+      "You must have lived in Georgia for 12 consecutive months before enrollment",
+      "You must attend an eligible University System of Georgia, Technical College System of Georgia, or eligible Georgia private non-profit college or university",
+      "You must comply with Georgia's drug-free postsecondary education law, and register with Selective Service if that applies to you"
+    ],
+    "details": [
+      "There is a filing deadline tied to the date the service member returned from the combat zone, and eligibility ends a set number of years after that date. The exact windows are on the program's application procedure and deadline page, so check them before you assume you still qualify.",
+      "Category 2 awards are counted per qualifying term of service, up to four qualifying terms, and still cannot exceed the overall total."
+    ],
+    "agency": "Georgia Student Finance Commission",
+    "officialUrl": "https://www.gafutures.org/hope-state-aid-programs/scholarships-grants/hero/award-amounts/",
+    "applyUrl": "https://www.gafutures.org/hope-state-aid-programs/scholarships-grants/hero/",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "ga-veteran-drivers-license",
+    "jurisdiction": "GA",
+    "category": "license-fee",
+    "title": "Free Georgia Veteran driver's license and ID card",
+    "summary": "Georgia issues a driver's license and ID card marked with a U.S. flag and the word VETERAN at no cost to qualifying Veterans. You apply in person at any Department of Driver Services office.",
+    "amount": "No cost for the Veteran driver's license. Georgia DDS states that qualifying Veterans and service members may obtain a Veteran license or ID at reduced or no cost.",
+    "eligibility": [
+      "You are a current Georgia resident",
+      "You were discharged from military service under honorable conditions, or received a medical discharge",
+      "Georgia National Guard members qualify through active duty service or 20 years of service",
+      "An honorary Veteran license or ID is available to the spouse of a deceased Veteran, or to the spouse of a disabled Veteran who does not drive"
+    ],
+    "details": [
+      "Bring the Member 4 copy of your DD Form 214, proof of residency, a birth certificate or passport, your Social Security card, two documents showing your residential address, and name change documentation if it applies.",
+      "A DDS representative gives a vision exam, verifies eligibility, and issues the license.",
+      "If you need a replacement DD Form 214, the National Archives can supply additional copies."
+    ],
+    "agency": "Georgia Department of Driver Services",
+    "statuteRef": "O.C.G.A. 40-5-36 and O.C.G.A. 40-5-103",
+    "officialUrl": "https://veterans.georgia.gov/veteran-drivers-licenses",
+    "applyUrl": "https://dds.georgia.gov/military-veterans-and-national-guard",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "ga-veteran-license-plates",
+    "jurisdiction": "GA",
+    "category": "vehicle",
+    "title": "Free Veteran and military license plates",
+    "summary": "Georgia offers several Veteran and military specialty license plates with no registration, manufacturing, or annual fee on the first plate. You apply through your county tax office using Form MV-9W.",
+    "amount": "No registration fee, manufacturing fee, or annual fee for one of these specialty plates. A second plate costs $25 manufacturing plus the annual renewal fees.",
+    "eligibility": [
+      "Most of these plates are available to Georgia Veterans discharged under honorable conditions",
+      "Active duty service members who are Georgia residents also qualify",
+      "An unremarried surviving spouse of a qualified deceased Veteran may qualify",
+      "Some plates have their own conditions, such as proof of a specific medal award or of service in a specific conflict"
+    ],
+    "details": [
+      "Plate categories include the Veteran's plate, the Woman Veteran's plate, the Retired Military plate, commemorative service plates for specific conflicts, military medal award plates, and reserve component plates. Georgia also issues disabled Veteran, Purple Heart, Medal of Honor, former prisoner of war, Pearl Harbor survivor, and Gold Star plates under separate code sections.",
+      "Submit a completed Form MV-9W with a copy of your DD Form 214 to your county tax office. The form comes from the Georgia Department of Revenue Motor Vehicle Division."
+    ],
+    "agency": "Georgia Department of Revenue, Motor Vehicle Division, through county tag offices",
+    "statuteRef": "O.C.G.A. 40-2-85.1 and related sections in O.C.G.A. Title 40, Chapter 2",
+    "officialUrl": "https://veterans.georgia.gov/license-plates",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "ga-veteran-hunting-fishing-licenses",
+    "jurisdiction": "GA",
+    "category": "recreation",
+    "title": "Free and discounted hunting and fishing licenses for Veterans",
+    "summary": "Georgia gives returning Veterans a one-time free hunting and fishing license, and offers discounted lifetime and disability licenses to other qualifying Veterans. The Wildlife Resources Division of the Department of Natural Resources runs the program.",
+    "eligibility": [
+      "Georgia residency is required for all of these license types",
+      "One-time free license: you served at least 90 days on active federal duty and were honorably discharged on or after July 1, 2005",
+      "Discounted lifetime licenses: you were discharged under honorable conditions",
+      "Disability licenses: you have a permanent and total disability rating from the VA or another government agency",
+      "A free lifetime honorary fishing license is available to totally blind residents"
+    ],
+    "details": [
+      "The one-time returning Veteran license is free and valid for one year. It is a one-time benefit, not an annual one.",
+      "Lifetime sportsman's licenses are sold at reduced rates, and the reduction changes with the age band you fall into. Multi-year disability licenses are offered as an alternative to annual renewals. Ask the Wildlife Resources Division for the current price for your situation rather than assuming a figure.",
+      "Contact the Wildlife Resources Division at 800-366-2661 or through georgiawildlife.com to buy a license or confirm eligibility."
+    ],
+    "agency": "Georgia Department of Natural Resources, Wildlife Resources Division",
+    "statuteRef": "O.C.G.A. 27-2-4",
+    "officialUrl": "https://veterans.georgia.gov/hunting-and-fishing-licenses",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "ga-state-employment-veterans-preference",
+    "jurisdiction": "GA",
+    "category": "employment",
+    "title": "Veterans preference points for State of Georgia employment",
+    "summary": "Georgia adds preference credits to the applications of qualifying Veterans applying for state jobs. Wartime and conflict-period service earns a 5-point credit, and service-connected disability or certain survivor status earns a 10-point credit.",
+    "amount": "A 5-point credit for qualifying conflict-period service. A 10-point credit for the disability and survivor categories.",
+    "eligibility": [
+      "5-point credit: you served on active duty in the U.S. Armed Forces during a period of armed conflict, or served as a National Guard or Reserve member on active duty during a qualifying operation",
+      "10-point credit: you have a VA service-connected disability rating of 10 percent or more",
+      "10-point credit: you are over 55 and receive a disability pension or compensation",
+      "10-point credit: you are the spouse of a disabled Veteran who is disqualified from employment",
+      "10-point credit: you are the unmarried widow or widower of a deceased Veteran"
+    ],
+    "details": [
+      "You claim the credit on the State of Georgia employment application and support it with documentation such as a DD Form 214 or verification of your service-connected disability status.",
+      "This is a Georgia state hiring preference. Federal hiring preference is a separate program under 5 U.S.C. 2108, and local governments set their own rules."
+    ],
+    "agency": "State of Georgia hiring agencies, with guidance from the Georgia Department of Veterans Service",
+    "officialUrl": "https://veterans.georgia.gov/other-special-state-provisions",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "ga-war-veterans-homes",
+    "jurisdiction": "GA",
+    "category": "health",
+    "title": "Georgia War Veterans Homes skilled nursing care",
+    "summary": "Georgia runs two state Veterans homes providing skilled nursing care, one in Augusta and one in Milledgeville. A nominal daily fee applies, and the VA pays the daily fee in full for Veterans who meet certain service-connected criteria.",
+    "amount": "A nominal daily fee is charged. The Georgia Department of Veterans Service states that Veterans meeting certain service-connected criteria have their daily fees paid in full by VA. Ask the admissions office for the current daily rate.",
+    "eligibility": [
+      "You are an aged or infirm Georgia war Veteran needing skilled nursing care",
+      "Veterans with a service-connected disability rating of 70 percent or higher receive special consideration",
+      "Admission criteria are set by the homes, so review the eligibility requirements and speak with an admissions office before applying"
+    ],
+    "details": [
+      "The Georgia War Veterans Home at Milledgeville is a 248-bed facility on about 17 acres, licensed and certified by the U.S. Department of Veterans Affairs. It provides skilled nursing care, specialty care for residents with Alzheimer's, a sub-acute rehabilitation unit, and a transitional support unit that opened in September 2025 offering mental and behavioral health services alongside skilled nursing.",
+      "The Georgia War Veterans Nursing Home at Augusta sits next to the Augusta University campus, across from the Charlie Norwood VA Medical Center.",
+      "Applications start at georgiawarveteranshome.com. The Augusta location asks that you schedule a visit with the Admissions Office in advance. Milledgeville admissions hours are 8 a.m. to 3 p.m., Monday through Friday, and its admissions number is 478-445-4295.",
+      "Eligible Veterans may be able to use federal VA Aid and Attendance benefits to help cover the cost."
+    ],
+    "agency": "Georgia Department of Veterans Service",
+    "officialUrl": "https://veterans.georgia.gov/services/war-veterans-homes",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "ga-veterans-memorial-cemeteries",
+    "jurisdiction": "GA",
+    "category": "burial",
+    "title": "Burial in a Georgia Veterans Memorial Cemetery",
+    "summary": "Georgia operates two state Veterans memorial cemeteries, at Glennville and at Milledgeville. There is no cost for the gravesite, vault, marker, use of the committal chapel, or the burial itself.",
+    "amount": "No burial fees. There is no cost for the gravesite, vault, marker, use of the committal chapel, and burial.",
+    "eligibility": [
+      "Veterans who meet VA standards for burial",
+      "Retired Reserve and National Guard members, and those with a service-connected rating",
+      "Active duty service members who die in service",
+      "Spouses of Veterans",
+      "Minor children of Veterans",
+      "Adult unmarried disabled children of Veterans"
+    ],
+    "details": [
+      "Contact the cemetery directly to schedule a burial and to submit documentation. Depending on the relationship, that can include the DD Form 214 or other discharge papers, a marriage certificate, a birth certificate, or medical records.",
+      "Each cemetery has a welcome center, a committal chapel, in-ground interment areas, and columbaria for cremated remains.",
+      "Cemetery offices are open 8 a.m. to 4:30 p.m., Monday through Friday, except state holidays. Grounds are open for visitation from 8 a.m. to dusk daily."
+    ],
+    "agency": "Georgia Department of Veterans Service",
+    "officialUrl": "https://veterans.georgia.gov/services/memorial-cemeteries",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "ga-veterans-business-certificate-exemption",
+    "jurisdiction": "GA",
+    "category": "business",
+    "title": "Veterans Business Certificate of Exemption from local business fees",
+    "summary": "A qualifying disabled Veteran can get a certificate that exempts them for ten years from local occupation taxes and business and regulatory fees for peddling, running a business, or practicing a profession. You apply through your county probate court.",
+    "amount": "Exempts you from any occupation tax, administrative fee, or regulatory fee imposed by local governments for a period of ten years.",
+    "eligibility": [
+      "You were discharged under honorable conditions",
+      "You have a service-connected disability rating of 10 percent or more"
+    ],
+    "details": [
+      "Complete VS Form 40-025, the Application for a Veterans Business Certificate of Exemption. Take it with an ID card, your DD Form 214, and your VA Summary of Benefits letter to your county probate court.",
+      "The clerk of the probate court provides a notarized letter or affidavit from the judge, which you then use to register your business with your county tax commissioner.",
+      "Some counties also ask for Form 40-026, the Veteran's Certificate of State License and Tax Exemption. A Georgia Department of Veterans Service field office can help if your county's requirements differ.",
+      "This exemption covers local government fees. It does not exempt you from state or federal taxes."
+    ],
+    "agency": "Georgia Department of Veterans Service, with county probate courts and county tax commissioners",
+    "statuteRef": "O.C.G.A. 43-12-1 through 43-12-3",
+    "officialUrl": "https://veterans.georgia.gov/business-certificate-exemption",
+    "applyUrl": "https://veterans.georgia.gov/document/document/vso-form-40-025/download",
+    "confidence": "needs-review"
+  }
+]

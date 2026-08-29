@@ -1,0 +1,211 @@
+[
+  {
+    "id": "nc-disabled-veteran-property-tax-homestead-exclusion",
+    "jurisdiction": "NC",
+    "category": "property-tax",
+    "title": "Disabled Veteran property tax homestead exclusion",
+    "summary": "North Carolina excludes the first $45,000 of appraised value of your permanent residence from property tax if you are a Veteran with a VA certified permanent and total service-connected disability. An unremarried surviving spouse can qualify too.",
+    "amount": "The first $45,000 of appraised value of the residence is excluded from taxation",
+    "eligibility": [
+      "You served honorably and the VA has certified a service-connected, permanent, and total disability",
+      "Or you received benefits under 38 U.S.C. 2101 as of January 1 preceding the tax year",
+      "Or the Veteran is deceased and the VA certified that death resulted from a service-connected condition",
+      "An unremarried surviving spouse of a disabled Veteran can qualify as an owner if the spouse is a North Carolina resident",
+      "There is no income limit written into this particular exclusion"
+    ],
+    "details": [
+      "The statute directs you to file during the regular listing period, but applications must be accepted at any time up to and through June 1 preceding the tax year for which the exclusion is claimed. Do not wait past June 1.",
+      "You apply through your county tax office, not the state. Counties administer the listing period and process the paperwork.",
+      "You have to submit either a copy of the Veteran's disability certification or evidence of the benefits received under federal law.",
+      "A qualifying owner receiving this exclusion cannot also receive the other property tax relief programs in the same statute, so compare before you choose."
+    ],
+    "agency": "North Carolina Department of Revenue, administered by county tax offices",
+    "statuteRef": "N.C.G.S. 105-277.1C",
+    "officialUrl": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-277.1C.html",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "nc-military-retirement-income-deduction",
+    "jurisdiction": "NC",
+    "category": "income-tax",
+    "title": "Deduction for military retirement pay and Survivor Benefit Plan payments",
+    "summary": "North Carolina lets you deduct military retirement pay from your state taxable income if you served at least 20 years or were medically retired. Survivor Benefit Plan payments to a beneficiary of an eligible retiree are deductible too.",
+    "eligibility": [
+      "You receive retirement pay for service in the uniformed services of the United States",
+      "And you served at least 20 years in the uniformed services, or you were medically retired under 10 U.S.C. Chapter 61",
+      "Severance pay under 10 U.S.C. Chapter 61 does not qualify",
+      "A beneficiary receiving payments from a plan defined in 10 U.S.C. 1447, the Survivor Benefit Plan, can deduct those payments if the retired member met the conditions above",
+      "Only the amount actually included in your adjusted gross income can be deducted"
+    ],
+    "details": [
+      "This deduction applies to taxable years beginning on or after January 1, 2022.",
+      "This is separate from the older Bailey settlement deduction for certain federal, state, and local retirement benefits. The statute says you cannot deduct the same amount under both provisions, so if you are a Bailey-protected retiree, work out which one applies before filing.",
+      "The deduction is claimed on your North Carolina return. It is not automatic."
+    ],
+    "agency": "North Carolina Department of Revenue",
+    "statuteRef": "N.C.G.S. 105-153.5(b)(5a)",
+    "officialUrl": "https://www.ncdor.gov/taxes-forms/individual-income-tax/military-retirement",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "nc-scholarship-children-of-wartime-veterans",
+    "jurisdiction": "NC",
+    "category": "education",
+    "title": "North Carolina Scholarship for Children of Wartime Veterans",
+    "summary": "North Carolina awards scholarships to the children of Veterans who were killed, disabled, held as prisoners of war, or listed missing in action. The award is worth eight academic semesters, and you have eight years to use them.",
+    "amount": "Eight academic semesters, usable within eight years",
+    "eligibility": [
+      "You are under 25 years of age at the time you apply",
+      "You are a resident of and domiciled in North Carolina",
+      "Your Veteran parent was a legal resident of North Carolina when entering the qualifying period of military service, or you were born in North Carolina and have lived here continuously since birth",
+      "You meet the definition of child in 37 U.S.C. 401",
+      "Your Veteran parent falls into one of the statutory classes: killed in action or died of service-connected injuries, rated 100 percent for a wartime service-connected disability, rated 20 percent or more but less than 100 percent or awarded a Purple Heart for combat wounds, deceased or drawing a nonservice-connected permanent and total disability pension after combat zone or campaign service, or listed as missing in action, captured in the line of duty, or forcibly detained or interned"
+    ],
+    "details": [
+      "The statute sorts awards into Class I-A, I-B, II, III, and IV. Class II and Class III are each capped at 100 children per year. The other classes are not capped in the statute.",
+      "At a North Carolina public institution the program pays the allocable costs for room, board, tuition, and other charges. At a private institution it instead pays a fixed monetary allowance per academic term, set by the Director of the Budget, with a lower uniform rate for Class I-B than for the other classes. Confirm the current allowance figures with the agency before you rely on them.",
+      "The state portal lists a February 14 deadline for the classes covering Veterans rated less than 100 percent disabled or who served in a combat zone. Other classes have separate deadlines. Confirm the exact date for your class on the portal each year, because the portal closes once a term's deadline passes.",
+      "Applications are filed on the DMVA scholarship portal, not with the college."
+    ],
+    "agency": "North Carolina Department of Military and Veterans Affairs",
+    "statuteRef": "N.C.G.S. 143B-1223 through 143B-1227",
+    "officialUrl": "https://www.milvets.nc.gov/benefits-services/scholarships",
+    "applyUrl": "https://scholarships.milvets.nc.gov/",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "nc-in-state-tuition-veterans",
+    "jurisdiction": "NC",
+    "category": "education",
+    "title": "In-state tuition rate for Veterans and their dependents",
+    "summary": "A Veteran using federal education benefits can pay the North Carolina in-state tuition rate at a public college without waiting out the usual 12 month residency period, as long as North Carolina is their home and they file a letter of intent to establish residence.",
+    "eligibility": [
+      "You completed active duty of not less than 90 days in the Armed Forces, the US Public Health Service, or NOAA, and were discharged or released from that service",
+      "You qualify as a covered individual under 38 U.S.C. 3679(c), which also reaches certain dependents using transferred benefits",
+      "Your abode is in North Carolina",
+      "You give the institution a letter of intent to establish residence in North Carolina"
+    ],
+    "details": [
+      "This route skips the standard 12 month durational residency requirement that other students must meet.",
+      "The statute puts the burden of proof on the person applying, so bring your DD-214 and your VA certificate of eligibility to the residency determination.",
+      "A separate statute, N.C.G.S. 116-143.3, gives the in-state rate to active duty members stationed in North Carolina and their spouses and dependent children, and lets them keep it if they stay continuously enrolled after a reassignment, a retirement, or an honorable discharge followed by establishing residency within 30 days."
+    ],
+    "agency": "University of North Carolina System and the North Carolina Community College System",
+    "statuteRef": "N.C.G.S. 116-143.3A",
+    "officialUrl": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_116/GS_116-143.3A.html",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "nc-military-veteran-license-plates",
+    "jurisdiction": "NC",
+    "category": "vehicle",
+    "title": "Military and Veteran license plates with no additional plate fee",
+    "summary": "North Carolina issues a long list of military and Veteran special registration plates, and the fee table sets the additional special plate charge for them at none. You still pay the ordinary registration fee.",
+    "amount": "No additional special plate fee beyond the regular registration fee",
+    "eligibility": [
+      "100% Disabled Veteran plate: issuable to a Veteran of the Armed Forces who suffered a 100 percent service-connected disability",
+      "Partially Disabled Veteran plate: issuable to a Veteran who suffered a service-connected disability of less than 100 percent",
+      "Military Veteran plate: issuable to an individual who served honorably in the Armed Forces, and it shows the branch insignia",
+      "Purple Heart Recipient plate: issuable to a recipient of the Purple Heart award",
+      "Prisoner of War plate: issuable to a member or Veteran member of the Armed Forces who was captured and held prisoner by forces hostile to the United States while serving"
+    ],
+    "details": [
+      "The statutory fee table lists an additional fee of none for Active Member of the National Guard, Bronze Star Recipient, Bronze Star Combat Recipient, 100% Disabled Veteran, Ex-Prisoner of War, Gold Star Lapel Button, Legion of Merit, Legion of Valor, Military Veteran, Military Wartime Veteran, Partially Disabled Veteran, Pearl Harbor Survivor, Purple Heart Recipient, and Silver Star Recipient.",
+      "The disabled Veteran and Purple Heart plates are available for motorcycles as well as motor vehicles.",
+      "The plate statutes do not by themselves grant a disabled parking placard or waive the regular registration fee. Ask NC DMV about those separately."
+    ],
+    "agency": "North Carolina Division of Motor Vehicles",
+    "statuteRef": "N.C.G.S. 20-79.4 and 20-79.7",
+    "officialUrl": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_20/GS_20-79.7.html",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "nc-disabled-veteran-lifetime-sportsman-license",
+    "jurisdiction": "NC",
+    "category": "recreation",
+    "title": "Resident Disabled Veteran Lifetime Sportsman License",
+    "summary": "A North Carolina resident Veteran rated 50 percent or more disabled by the VA can buy a lifetime hunting and fishing sportsman license for a one-time fee of $100. It is good for the rest of your life.",
+    "amount": "$100.00 one time, for a lifetime license",
+    "eligibility": [
+      "You are a resident of North Carolina",
+      "You are a 50 percent or more disabled Veteran as determined by the United States Department of Veterans Affairs"
+    ],
+    "details": [
+      "The license covers taking wild animals and birds by lawful methods other than trapping during open seasons, plus hook-and-line fishing in inland waters and public mountain trout waters.",
+      "The statute also creates a Resident Totally Disabled Lifetime Sportsman License at the same $100 fee for a resident who is totally and permanently disabled as determined by the Social Security Administration.",
+      "These are inland privileges. Coastal recreational fishing is licensed separately."
+    ],
+    "agency": "North Carolina Wildlife Resources Commission",
+    "statuteRef": "N.C.G.S. 113-270.1D",
+    "officialUrl": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_113/GS_113-270.1D.html",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "nc-veterans-preference-state-employment",
+    "jurisdiction": "NC",
+    "category": "employment",
+    "title": "Veterans preference in North Carolina state government employment",
+    "summary": "North Carolina gives eligible Veterans a hiring preference for state jobs covered by the State Human Resources Act. Military training and additional service count toward the qualifications for the job.",
+    "eligibility": [
+      "A Veteran who served during a period of war",
+      "A Veteran with a service-connected disability incurred during peacetime",
+      "The spouse of a disabled Veteran",
+      "A surviving spouse or dependent of a Veteran who died on active duty during a period of war as a result of that service",
+      "Surviving family members of a Veteran who died for service-related reasons during peacetime"
+    ],
+    "details": [
+      "The preference applies to positions subject to the State Human Resources Act with every state department, agency, and institution. It reaches initial employment as well as promotions, reassignments, and horizontal transfers.",
+      "The State Human Resources Commission must give an eligible Veteran credit for all military service training or schooling that relates to the requirements of the job, plus experience credit for additional military service once the minimum qualifications are met.",
+      "Some categories of positions are excluded. Check N.C.G.S. 126-83 for the exclusions before you count on the preference for a specific posting."
+    ],
+    "agency": "North Carolina Office of State Human Resources",
+    "statuteRef": "N.C.G.S. 126-80 through 126-83",
+    "officialUrl": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/ByArticle/Chapter_126/Article_13.html",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "nc-state-veterans-cemeteries",
+    "jurisdiction": "NC",
+    "category": "burial",
+    "title": "Burial in a North Carolina State Veterans Cemetery",
+    "summary": "North Carolina provides a free burial plot and interment services in a state Veterans cemetery for a qualified Veteran. A spouse and certain dependents can be buried there too, but a burial fee applies to them.",
+    "amount": "No charge for the gravesite or necessary interment services for a qualified Veteran. A burial fee applies for an eligible spouse or family member.",
+    "eligibility": [
+      "Any former member of the US Armed Forces who served on active duty and was discharged under honorable conditions",
+      "A Veteran entitled to retired pay for non-regular service in the Reserve Components or the Army or Air National Guard, or who would be entitled but for being under 60 years of age",
+      "The spouse, widow, or widower of a qualified Veteran",
+      "Unmarried minor children under 21, or under 23 if enrolled in an approved course of education",
+      "An unmarried adult child who became permanently disabled before age 18"
+    ],
+    "details": [
+      "The state covers the burial plot, opening and closing the grave, the marker and its installation, and perpetual care for a qualified Veteran.",
+      "All funeral expenses stay the responsibility of the Veteran, the family, or the estate.",
+      "The DD Form 214 is the primary document used to verify honorable service. Reserve and National Guard members claiming eligibility through non-regular service present a 20 year letter or proof of retired pay eligibility.",
+      "If you cannot find your DD-214, a county or state Veterans service officer can help you get a replacement copy."
+    ],
+    "agency": "North Carolina Department of Military and Veterans Affairs",
+    "officialUrl": "https://www.milvets.nc.gov/divisions/north-carolina-state-veterans-cemeteries/state-veterans-cemetery-eligibility-requirements",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "nc-state-veterans-homes",
+    "jurisdiction": "NC",
+    "category": "health",
+    "title": "North Carolina State Veterans Homes skilled nursing care",
+    "summary": "North Carolina runs State Veterans Homes that provide skilled nursing care, therapy, and on-site help from Veterans Service Officers. The homes are state licensed and approved for Medicare, Medicaid, and third party insurance.",
+    "eligibility": [
+      "The state page does not publish the admission requirements. Call the department or a Veterans Service Officer to find out whether you qualify and what the cost would be."
+    ],
+    "details": [
+      "The department lists State Veterans Homes at Black Mountain, Fayetteville, Kernersville, Kinston, and Salisbury.",
+      "Care is provided by registered nurses, licensed practical nurses, and certified nursing assistants under the direction of licensed physicians, with a registered dietician and social work support.",
+      "Physical, occupational, and speech therapy are provided in the facility, along with therapeutic recreation programs and community outings.",
+      "Veterans Service Officers work on site and help residents apply for VA benefits.",
+      "Hospital care is arranged through VA medical centers or local hospitals.",
+      "The department lists a toll free number, 844-624-8387, to reach a Veterans Service Officer."
+    ],
+    "agency": "North Carolina Department of Military and Veterans Affairs",
+    "officialUrl": "https://www.milvets.nc.gov/divisions/north-carolina-state-veterans-homes",
+    "confidence": "needs-review"
+  }
+]

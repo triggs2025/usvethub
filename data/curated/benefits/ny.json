@@ -1,0 +1,242 @@
+[
+  {
+    "id": "ny-alternative-veterans-property-tax-exemption",
+    "jurisdiction": "NY",
+    "category": "property-tax",
+    "title": "Alternative veterans property tax exemption",
+    "summary": "New York's main property tax break for wartime Veterans. It takes a percentage off the assessed value of your primary residence, with extra credit if you served in a combat zone or have a service-connected disability rating.",
+    "amount": "15 percent of assessed value for wartime service, plus 10 percent more for combat zone service, plus an amount equal to half your VA disability rating times the assessed value. Each part is capped, and the caps vary by locality.",
+    "eligibility": [
+      "You served in the active military, naval, space, or air service during a period of war, or you received an expeditionary medal",
+      "You were honorably discharged, or you qualify under the statute's alternative discharge provisions, which include protections for LGBT Veterans discharged over sexual orientation or gender identity",
+      "The statute's \"qualified owner\" includes a Veteran, the spouse of a Veteran, and the unremarried surviving spouse of a Veteran",
+      "The property must be \"qualifying residential real property\" used exclusively for residential purposes and must be the primary residence of the Veteran or unremarried surviving spouse",
+      "Your county, city, town, village, or school district must have opted in. Each level of government decides separately"
+    ],
+    "details": [
+      "The statute sets three layers. The basic layer is 15 percent of assessed value. Combat zone service documented by a campaign ribbon or expeditionary medal adds another 10 percent. A service-connected disability adds an amount equal to the assessed value multiplied by 50 percent of the disability rating. A Veteran who died in service is treated as 100 percent rated.",
+      "Each layer has a ceiling. The statute's base ceilings are $12,000 for the basic layer, $8,000 for the combat layer, and $40,000 for the disability layer, and each is multiplied by the latest state equalization rate. Localities may adopt different maximums from a table in the statute, so the ceiling that applies to your parcel depends on where you live. Ask your assessor for the figures in force in your municipality.",
+      "The Tax Department states that this exemption does not apply to special district charges.",
+      "Getting the exemption is not automatic. You file an application with your local assessor by your municipality's taxable status date. Tax.ny.gov gives March 1 as the typical date but tells applicants to confirm it with their own assessor.",
+      "A separate Cold War veterans exemption exists under Real Property Tax Law section 458-b for service during the Cold War period. It is also a local option."
+    ],
+    "agency": "Your local assessor, with guidance from the New York State Department of Taxation and Finance",
+    "statuteRef": "N.Y. Real Property Tax Law 458-a",
+    "officialUrl": "https://www.tax.ny.gov/pit/property/exemption/vetexempt.htm",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "ny-eligible-funds-veterans-property-tax-exemption",
+    "jurisdiction": "NY",
+    "category": "property-tax",
+    "title": "Eligible funds veterans property tax exemption",
+    "summary": "An older New York property tax exemption for property bought with military pension, bonus, insurance, or prisoner of war compensation money. The exemption is tied to how much of that money went into the property.",
+    "amount": "No more than $7,500 of exemption per individual's military or naval service, per the statute.",
+    "eligibility": [
+      "The property was purchased with the proceeds of eligible funds",
+      "The statute defines eligible funds as \"pension, bonus or insurance, or dividends or refunds on such insurance, or payments received as prisoner of war compensation from the United States government\" granted for military or naval services",
+      "Eligible claimants include the Veteran who rendered the service, and also a spouse, unremarried surviving spouse, dependent parent, or child under age 21",
+      "You must file a verified application with your assessor by the applicable taxable status date"
+    ],
+    "details": [
+      "The exemption tracks the amount of eligible funds actually used to buy the property, rounded to the nearest multiple of fifty dollars. The statute caps it: \"no such exemption on account of eligible funds paid on account of military or naval services rendered by an individual shall be allowed in excess of seven thousand five hundred dollars.\"",
+      "The Tax Department states that this exemption does not apply to special district charges.",
+      "This is generally an either/or with the alternative veterans exemption rather than a stacking benefit. Ask your assessor which one leaves you better off before you switch."
+    ],
+    "agency": "Your local assessor, with guidance from the New York State Department of Taxation and Finance",
+    "statuteRef": "N.Y. Real Property Tax Law 458",
+    "officialUrl": "https://www.nysenate.gov/legislation/laws/RPT/458",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "ny-veterans-tuition-award",
+    "jurisdiction": "NY",
+    "category": "education",
+    "title": "New York State Veterans Tuition Award",
+    "summary": "A state tuition award for New York resident Veterans attending an approved degree or vocational program. It is pegged to SUNY resident undergraduate tuition rather than a fixed dollar figure.",
+    "amount": "The annual undergraduate resident tuition rate at a SUNY state-operated campus, or your actual tuition, whichever is less. Part-time awards are prorated by credit hour.",
+    "eligibility": [
+      "You are a U.S. citizen or eligible noncitizen",
+      "You are a legal resident of New York State and have resided in New York State for 12 continuous months",
+      "You were discharged under honorable conditions",
+      "You have at least four years of active duty service, or you served in combat in Vietnam, the Persian Gulf, or Afghanistan",
+      "National Guard members qualify with four or more years of active duty deployment, or with certain expeditionary medals",
+      "HESC lists qualifying service as Vietnam service from November 1, 1955 to May 7, 1975, Persian Gulf service on or after August 2, 1990, and Afghanistan service during hostilities on or after September 11, 2001, or receipt of an Armed Forces Expeditionary Medal or equivalent"
+    ],
+    "details": [
+      "The award cannot exceed undergraduate tuition at a state-operated SUNY campus, so a private school award will not cover the full bill.",
+      "For a degree program, file the FAFSA and the New York State TAP application first, then submit the Veterans Tuition Award application. For vocational training, submit the Veterans Tuition Award application and HESC will email a separate payment application if you are eligible.",
+      "HESC lists the deadline as open year round. Award duration is limited and depends on whether you are in a vocational program or a degree program.",
+      "HESC's phone number is 1-888-NYSHESC, which is 1-888-697-4372."
+    ],
+    "agency": "New York State Higher Education Services Corporation",
+    "officialUrl": "https://hesc.ny.gov/veterans-tuition-awards",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "ny-merit-scholarship",
+    "jurisdiction": "NY",
+    "category": "family",
+    "title": "MERIT Scholarship for families of service members killed or severely disabled",
+    "summary": "The Military Enhanced Recognition Incentive and Tribute scholarship pays the cost of attendance for children, spouses, and financial dependents of New York service members who died, went missing, or became severely and permanently disabled in the line of duty.",
+    "amount": "Cost of attendance, not to exceed the average cost of attendance charged to New York resident students at a state-operated SUNY college.",
+    "eligibility": [
+      "The service member died as a result of injury or illness suffered or incurred while performing military duties, is classified as missing in action, or became severely and permanently disabled from injury or illness incurred in service",
+      "The service member was a New York State resident at the time of death or disability",
+      "You are the child, spouse, or financial dependent of that service member. A severely and permanently disabled service member may also apply on their own behalf",
+      "You are a U.S. citizen or eligible noncitizen",
+      "You have a high school diploma or GED",
+      "You are enrolled full time, defined as at least 12 credits per term"
+    ],
+    "details": [
+      "Coverage runs 2 years for an associate degree, 4 years for a bachelor's degree, and 5 years for an approved five-year program.",
+      "Apply by completing the FAFSA and the New York State TAP application first, then submitting the MERIT Scholarship application through the web supplement along with the required documentation, including a disability verification form where applicable.",
+      "HESC lists the application as open year round.",
+      "This covers members of the United States Armed Forces and the New York State organized militia."
+    ],
+    "agency": "New York State Higher Education Services Corporation",
+    "officialUrl": "https://hesc.ny.gov/merit",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "ny-military-pay-and-pension-income-tax",
+    "jurisdiction": "NY",
+    "category": "income-tax",
+    "title": "New York income tax treatment of military pay and military pensions",
+    "summary": "New York does not tax military pension payments at all. Active duty pay is taxed based on your residency, and combat zone pay is excluded.",
+    "amount": "Military pensions are fully exempt from New York State, New York City, and Yonkers income taxes.",
+    "eligibility": [
+      "Military pension: the Tax Department states that \"Military pension payments you receive as a retired military personnel or as their beneficiary are totally exempt from New York State, New York City, and Yonkers income taxes\"",
+      "Residents: active duty pay is subject to New York income tax, except that combat zone pay is excluded",
+      "Nonresidents: the Tax Department states that \"your military pay is not subject to New York State income tax\"",
+      "Part-year residents: only military pay earned while you were a New York resident is taxable",
+      "Nonresident military spouses: income earned in New York is excluded from New York source income and exempt from personal income tax if you are a nonresident who is in New York solely to be with your service member spouse"
+    ],
+    "details": [
+      "The pension exemption reaches the beneficiary of a retired service member, not only the retiree.",
+      "Members of the New York State organized militia can claim a subtraction for pay received for performing active service within New York State, subject to conditions on the page.",
+      "This entry covers state tax treatment only. Federal tax treatment is separate."
+    ],
+    "agency": "New York State Department of Taxation and Finance",
+    "officialUrl": "https://www.tax.ny.gov/pit/file/military_page.htm",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "ny-veteran-vehicle-registration-fee-exemption",
+    "jurisdiction": "NY",
+    "category": "vehicle",
+    "title": "Vehicle registration and plate fee exemption for certain Veterans",
+    "summary": "New York waives registration and plate fees for Veterans who received a vehicle through the federal Title 38 automobile grant, and for Veterans who qualify for Medal of Honor or Former Prisoner of War plates.",
+    "eligibility": [
+      "You are a Veteran with disabilities who received a motor vehicle under Federal Title 38, the federal automobiles and adaptive equipment program for certain disabled Veterans and members of the Armed Forces",
+      "Or you qualify for and apply for Congressional Medal of Honor custom plates",
+      "Or you qualify for and apply for Former Prisoner of War custom plates"
+    ],
+    "details": [
+      "Eligible Veterans are exempt from both registration fees and vehicle plate fees.",
+      "For the Title 38 exemption, DMV asks for form MV-1E, the Statement to Register a Vehicle Under Title 38, along with a copy of VA Form 21-4502, the VA approved application for an automobile. DMV states the exemption covers one vehicle, which must be a passenger car, suburban, or light truck under 20,000 pounds.",
+      "Military and Veteran custom plates are ordered on form CP-30. Former POW and Congressional Medal of Honor plates use form MV-1H.",
+      "Separately, DMV extends driver license validity for active duty members for up to 6 months after discharge or separation, and allows renewal of an expired license within two years after discharge if no more than 30 months have passed since discharge.",
+      "The New York State Department of Veterans' Services Benefits Advisor line is 1-888-838-7697."
+    ],
+    "agency": "New York State Department of Motor Vehicles",
+    "officialUrl": "https://veterans.ny.gov/new-york-state-motor-vehicle-registration-fee-exemption",
+    "applyUrl": "https://dmv.ny.gov/more-info/information-for-military-and-veterans",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "ny-disabled-veteran-sporting-licenses",
+    "jurisdiction": "NY",
+    "category": "recreation",
+    "title": "Reduced fee hunting, fishing, and trapping licenses for disabled Veterans",
+    "summary": "New York resident Veterans with a service-connected disability rating of 40 percent or more pay a reduced fee for a hunting, fishing, or trapping license, get free bowhunting and muzzleloading privileges, and get preference for Deer Management Permits.",
+    "amount": "$5 for your first hunting, fishing, or trapping license of the year, per the DEC page. Additional licenses that same year are free, and bowhunting and muzzleloading privileges are free with a base hunting license.",
+    "eligibility": [
+      "You are a New York State resident",
+      "You have a service-related disability of 40 percent or more",
+      "You provide a letter from the U.S. Department of Veterans Affairs with your case number stating that your service-related disability is 40 percent or more",
+      "For hunting or trapping, you also need a hunter education certificate or a previous license",
+      "You need proof of New York State residency"
+    ],
+    "details": [
+      "DEC states that once you provide the VA letter and your eligibility is recorded in your license file, you will not need to provide that letter again. After that first verification at a license issuing agent, you can buy licenses online, by phone at 1-866-933-2257, or at an agent location.",
+      "Note that the Department of Veterans' Services page describes annual proof from the VA, while the DEC page describes a one time letter. Confirm what your license issuing agent needs before you go.",
+      "Disabled Veterans also get preference in the Deer Management Permit selection.",
+      "A separate Patriot Plan benefit gives free hunting, fishing, and trapping licenses to qualifying active service members, including New York National Guard and U.S. Reserve members, and lets nonresident military members stationed in New York for more than 30 days buy at resident prices."
+    ],
+    "agency": "New York State Department of Environmental Conservation",
+    "officialUrl": "https://dec.ny.gov/regulatory/permits-licenses/sporting-and-use/sporting/free-reduced-fee",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "ny-civil-service-veterans-credits",
+    "jurisdiction": "NY",
+    "category": "employment",
+    "title": "Veterans credits on New York civil service examinations",
+    "summary": "New York adds points to your civil service exam score if you are a Veteran, and more points if you are a disabled Veteran. You can use the credit only once in your civil service career.",
+    "amount": "Disabled Veterans: 10 points on an original appointment exam and 5 points on a promotion exam. Other Veterans: 5 points on an original appointment exam and 2.5 points on a promotion exam.",
+    "eligibility": [
+      "For the non-disabled Veteran credit: you are an armed forces member with an honorable discharge or discharge under honorable circumstances, including Veterans discharged over sexual orientation or gender identity who qualify under the statute",
+      "You are a U.S. citizen or permanent resident and a New York resident at the time of application",
+      "For the disabled Veteran credit: the U.S. Department of Veterans Affairs or a military department certifies that you are entitled to disability payments for a service-connected disability rated at 10 percent or more",
+      "The credit is one time. Once you receive a permanent original appointment or a permanent promotion using the credit, you cannot claim it again"
+    ],
+    "details": [
+      "The statute reads that a disabled Veteran gets \"ten points additional in a competitive examination for original appointment\" and \"five points additional credit in a competitive examination for promotion.\" A non-disabled Veteran gets \"five points additional credit in a competitive examination for original appointment\" and \"two and one-half points additional credit in a competitive examination for promotion.\"",
+      "If an appointment is terminated during the probationary period, you keep your eligibility for credits on future exams.",
+      "The credit is added only after you pass the exam. You have to claim it, so watch for the veterans credit question on the exam application."
+    ],
+    "agency": "New York State Department of Civil Service, and local civil service commissions",
+    "statuteRef": "N.Y. Civil Service Law 85",
+    "officialUrl": "https://www.nysenate.gov/legislation/laws/CVS/85",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "ny-state-veterans-homes",
+    "jurisdiction": "NY",
+    "category": "health",
+    "title": "New York State Veterans Homes skilled nursing care",
+    "summary": "New York runs five skilled nursing homes for Veterans. Eligible Veterans get skilled nursing and rehabilitative care, and the state says there is no means test or income limitation for the benefit.",
+    "eligibility": [
+      "You need skilled nursing care",
+      "You \"entered active duty from the State of New York or be a New York State resident for one year prior to application\"",
+      "You had an honorable discharge from the U.S. Armed Forces",
+      "You had at least 30 days of active service",
+      "Spouses of qualified Veterans may also be admitted if they were married at least one year and require skilled nursing care",
+      "Admission is subject to bed availability"
+    ],
+    "details": [
+      "The five homes are at St. Albans in Jamaica, Batavia, Oxford, Montrose, and Long Island in Stony Brook.",
+      "The Department of Veterans' Services page states that \"There are no out-of-pocket costs charged to the Veteran residing in a State Veterans Home for routine skilled nursing care\" and that \"This benefit has no means test or income limitation.\" It also states that the Veteran keeps all Social Security, pension, and other income that would normally be applied against long term care costs.",
+      "On the federal share, the page states that \"For a Veteran with a service connected disability rating at 70% or greater, the Department of Veterans Affairs will pay State Veterans Homes the full cost to provide skilled nursing to that Veteran (38 U.S.C. 1745).\"",
+      "Confirm current cost and payment arrangements with the admissions office at the specific home before you rely on them. Phone numbers listed by the state are St. Albans 718-990-0353, Batavia 585-345-2049, Oxford 607-843-3121, Montrose 914-788-6000, and Long Island 631-444-8387."
+    ],
+    "agency": "New York State Department of Veterans' Services, with the homes operated through the State University of New York and the Department of Health",
+    "officialUrl": "https://veterans.ny.gov/new-york-state-veterans-nursing-homes",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "ny-service-disabled-veteran-owned-business-certification",
+    "jurisdiction": "NY",
+    "category": "business",
+    "title": "Service-Disabled Veteran-Owned Business certification",
+    "summary": "New York certifies businesses majority owned and controlled by service-disabled Veterans, which opens access to state contracting opportunities and a public directory that state agencies use to find vendors.",
+    "eligibility": [
+      "One or more service-disabled Veterans with \"a service-connected disability rating of 10% or more\" from the U.S. Department of Veterans Affairs own at least 51 percent of the business",
+      "Service-disabled Veteran ownership must be \"real, substantial, and continuing\"",
+      "The Veteran owner or owners must have and exercise authority to independently control day-to-day business decisions",
+      "The business must qualify as a small business, which OGS states means no more than 300 employees",
+      "The business must be \"located in New York State or have a significant business presence in New York State\""
+    ],
+    "details": [
+      "The program is authorized under Article 3 of the Veterans' Services Law, per the Office of General Services.",
+      "Apply online in four steps: create a NY.GOV Business Account through the Service-Disabled Veterans' Enterprise System, log in, complete the Business, Applicant, and Financial Information sections, then review, attest, sign electronically, and submit.",
+      "Certified businesses are listed in the state's public SDVOB directory. Certification must be renewed through a recertification process.",
+      "The Division of Service-Disabled Veterans' Business Development can be reached at 518-474-2015."
+    ],
+    "agency": "New York State Office of General Services, Division of Service-Disabled Veterans' Business Development",
+    "statuteRef": "N.Y. Veterans' Services Law art. 3",
+    "officialUrl": "https://ogs.ny.gov/veterans/service-disabled-veteran-owned-business-certification",
+    "confidence": "needs-review"
+  }
+]

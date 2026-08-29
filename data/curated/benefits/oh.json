@@ -1,0 +1,257 @@
+[
+  {
+    "id": "oh-enhanced-homestead-exemption-disabled-veterans",
+    "jurisdiction": "OH",
+    "category": "property-tax",
+    "title": "Enhanced Homestead Exemption for Disabled Veterans and Surviving Spouses",
+    "summary": "Ohio gives a disabled Veteran a larger homestead exemption than the standard senior exemption. It shields a set amount of the true value of the Veteran's owner-occupied home from property taxation, and a qualifying surviving spouse can keep it after the Veteran dies.",
+    "amount": "Ohio Revised Code 323.152 sets the disabled Veteran reduction at fifty thousand dollars of the true value of the property in money, as adjusted. The statute provides for adjustment, so the figure in force for a given tax year is the adjusted amount published by the Ohio Department of Taxation.",
+    "eligibility": [
+      "Veteran of the armed forces of the United States, including reserve components, or of the national guard, discharged or released from active duty under honorable conditions.",
+      "Has received a total disability rating, or a total disability rating for compensation based on individual unemployability, for a service-connected disability or combination of service-connected disabilities as prescribed in Title 38, Part 4 of the Code of Federal Regulations.",
+      "Owns and occupies the homestead. The reduction applies to only one homestead owned and occupied by a disabled Veteran.",
+      "A surviving spouse who occupied the homestead when the disabled Veteran died and who acquires ownership of the homestead may continue the reduction. It continues through the tax year in which the surviving spouse dies or remarries."
+    ],
+    "details": [
+      "Ohio Revised Code 323.151 carries the definitions of disabled veteran and surviving spouse of a disabled veteran that control this exemption.",
+      "A surviving spouse can also qualify where the Veteran died before receiving the disability rating, if that person otherwise met the disabled Veteran definition and owned and occupied the homestead.",
+      "The same statute provides a separate reduction for the surviving spouse of a public service officer killed in the line of duty.",
+      "The exemption works as a reduction in taxable value, not a check. The savings depend on the assessment percentage and the effective tax rate where the home sits, so the dollar benefit differs by county and district."
+    ],
+    "agency": "County auditor of the county where the homestead is located, under rules of the Ohio Department of Taxation",
+    "statuteRef": "Ohio Rev. Code 323.151, 323.152",
+    "officialUrl": "https://codes.ohio.gov/ohio-revised-code/section-323.152",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "oh-homestead-exemption-application-deadline",
+    "jurisdiction": "OH",
+    "category": "property-tax",
+    "title": "How and When to Apply for the Ohio Homestead Exemption",
+    "summary": "The homestead exemption is not automatic. The owner files an application with the county auditor on a form supplied by the tax commissioner. Ohio Revised Code 323.153 sets the filing deadline and also allows a late application for the prior tax year.",
+    "eligibility": [
+      "The owner of the homestead files the application, for the tax year in which the reduction is sought."
+    ],
+    "details": [
+      "File with the county auditor of the county in which the homestead is located.",
+      "The application uses a form devised and supplied by the tax commissioner, which asks only for information needed to establish eligibility and the amount of the reduction.",
+      "The statute states the application shall be filed on or before the thirty-first day of December of the year for which the reduction is sought.",
+      "Late filing is contemplated. A person may file a late application for the preceding tax year along with the current year application. If it is approved, the auditor determines the reduction the applicant would have received had the application been timely, and that amount is refunded as an overpayment of taxes.",
+      "Confirm the current year deadline with your county auditor before relying on it. Deadlines have been amended over time and the county auditor is the office that accepts the filing."
+    ],
+    "agency": "County auditor, Ohio Department of Taxation",
+    "statuteRef": "Ohio Rev. Code 323.153",
+    "officialUrl": "https://codes.ohio.gov/ohio-revised-code/section-323.153",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "oh-war-orphans-severely-disabled-veterans-children-scholarship",
+    "jurisdiction": "OH",
+    "category": "education",
+    "title": "Ohio War Orphans and Severely Disabled Veterans' Children Scholarship",
+    "summary": "Ohio helps pay college costs for the children of Veterans who died or who carry a severe service-connected disability. At Ohio state-supported colleges and universities the award takes the form of an exemption from general and instructional fees, with a grant option at private and career schools.",
+    "amount": "Two forms of award under Chapter 5910: exemption from general and instructional fees at state-supported colleges, or a grant equal to the average scholarship value for students at private institutions or career colleges. Capped at five academic years at the undergraduate level.",
+    "eligibility": [
+      "Child of a Veteran who died, or of a Veteran with a sixty per cent or greater service-connected disability, or of a Veteran receiving benefits for permanent and total nonservice-connected disability, as determined by the United States Department of Veterans Affairs.",
+      "The parent served in the armed forces of the United States during a conflict period specified in the chapter. Certain U.S. Merchant Marine service also counts.",
+      "Age at application: Ohio Revised Code 5910.03 requires the applicant to have attained the sixteenth, but not the twenty-fifth, birthday. For children of prisoners of war or those missing in action the window is narrower: has attained the sixteenth, but not the twenty-first, birthday.",
+      "Residency: if the Veteran entered service as an Ohio resident, the applicant must have lived in Ohio for the preceding year. If the Veteran was not an Ohio resident at entry, the applicant must have resided in Ohio for the year before application plus any four of the last ten years.",
+      "The scholarship board determines financial necessity."
+    ],
+    "details": [
+      "Administered by the Ohio War Orphans and Severely Disabled Veterans' Children Scholarship Board: the chancellor of higher education, the director of veterans services, one state representative, one state senator, and four appointees from the American Legion, VFW, Disabled American Veterans, and AMVETS.",
+      "The award covers general and instructional fees. It is not a full cost of attendance award, so room, board, books, and other fees are generally the family's responsibility.",
+      "Application deadlines are set administratively by the Ohio Department of Higher Education and are not in the statute. Check the current deadline with the department or with your county Veterans service office before the term you want covered."
+    ],
+    "agency": "Ohio War Orphans and Severely Disabled Veterans' Children Scholarship Board, Ohio Department of Higher Education",
+    "statuteRef": "Ohio Rev. Code Chapter 5910, especially 5910.03",
+    "officialUrl": "https://codes.ohio.gov/ohio-revised-code/chapter-5910",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "oh-military-retirement-income-deduction",
+    "jurisdiction": "OH",
+    "category": "income-tax",
+    "title": "Ohio Income Tax Deduction for Military Retirement Pay and Active Duty Pay",
+    "summary": "Ohio lets a taxpayer subtract military retired pay from Ohio adjusted gross income, so uniformed services retirement is effectively not taxed by the state. A separate deduction covers active duty pay for servicemembers stationed outside Ohio.",
+    "amount": "The retirement deduction is not capped by a dollar figure in the statute. It removes the qualifying retired personnel pay from Ohio adjusted gross income to the extent it was included in federal adjusted gross income and not already deducted or excluded.",
+    "eligibility": [
+      "Retired pay deduction: amounts received as retired personnel pay for service in the uniformed services or reserve components thereof, or the national guard.",
+      "The retired pay deduction also reaches amounts received by the surviving spouse or former spouse of such a taxpayer under the Survivor Benefit Plan on account of that taxpayer's death.",
+      "Active duty pay deduction: military pay and allowances received for active duty service in the armed forces, reserve components, or the national guard. The deduction may not be claimed for military pay and allowances received while the taxpayer is stationed in this state."
+    ],
+    "details": [
+      "The retired pay deduction is Ohio Revised Code 5747.01 division (A)(23).",
+      "The active duty pay deduction is division (A)(21) and turns on where the servicemember is stationed, not on residency alone.",
+      "Both are deductions taken in computing Ohio adjusted gross income, so they are claimed on the Ohio income tax return rather than through a separate application.",
+      "The statute applies to retired personnel pay for service in the uniformed services. It does not by its terms cover civilian federal retirement or VA disability compensation, which is already excluded from federal adjusted gross income."
+    ],
+    "agency": "Ohio Department of Taxation",
+    "statuteRef": "Ohio Rev. Code 5747.01(A)(21), 5747.01(A)(23)",
+    "officialUrl": "https://codes.ohio.gov/ohio-revised-code/section-5747.01",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "oh-disabled-veteran-license-plates-fee-exemption",
+    "jurisdiction": "OH",
+    "category": "vehicle",
+    "title": "Ohio Disabled Veteran License Plates and Registration Fee Exemption",
+    "summary": "A qualifying disabled Veteran can register one vehicle in Ohio without paying the registration fee or service fee, and is exempt from local motor vehicle taxes and the transfer fee on that vehicle. The plate itself is red, white, and blue and carries the word veteran.",
+    "amount": "For the first vehicle registered, Ohio Revised Code 4503.41 states a disabled veteran is not required to pay any registration fee and service fee, and exempts that registration from local motor vehicle taxes and transfer fees. Additional vehicles beyond the first are charged normally.",
+    "eligibility": [
+      "Awarded funds under the Disabled Veterans' and Servicemen's Automobile Assistance Act of 1970 because of a service-connected disability, or",
+      "Has a service-connected disability rated or compensated at one hundred per cent by the veterans' administration."
+    ],
+    "details": [
+      "The plate is red, white, and blue, bears the word veteran, and is imprinted with the international wheelchair symbol.",
+      "The fee exemption is limited to the first vehicle. Registering a second or third vehicle with the plate does not carry the exemption.",
+      "Ohio issues several other military and Veteran plate types under Chapter 4503, including Purple Heart and other award plates. Those have their own qualifying documents and their own fee treatment, so check each one separately with the BMV rather than assuming the 4503.41 exemption carries over.",
+      "Holding a special Veteran license plate issued by the registrar of motor vehicles also opens the door to free hunting and fishing licenses under Ohio Revised Code 1533.12."
+    ],
+    "agency": "Ohio Bureau of Motor Vehicles, registrar of motor vehicles and deputy registrars",
+    "statuteRef": "Ohio Rev. Code 4503.41",
+    "officialUrl": "https://codes.ohio.gov/ohio-revised-code/section-4503.41",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "oh-free-hunting-fishing-licenses-veterans",
+    "jurisdiction": "OH",
+    "category": "recreation",
+    "title": "Free Ohio Hunting and Fishing Licenses for Disabled Veterans and Military",
+    "summary": "Ohio issues hunting and fishing licenses, permits, and stamps free of charge to permanently and totally disabled Veterans, former prisoners of war, and Veterans holding special military license plates. Active duty members on leave can hunt and fish without a license, with limits.",
+    "amount": "Free of charge. Ohio Revised Code 1533.12 lets the chief of the division of wildlife issue these free licenses, permits, and stamps on an annual, multi-year, or lifetime basis as the chief determines appropriate.",
+    "eligibility": [
+      "Veterans with a service-connected disability rated permanently and totally disabling by the Veterans Administration, who receive compensation and were discharged under honorable conditions.",
+      "Honorably discharged former prisoners of war.",
+      "Veterans issued a special license plate by the registrar of motor vehicles qualify for the same free licenses and permits as disabled Veterans.",
+      "Every resident of a state or county institution, charitable institution, or military home in this state is issued an annual fishing license free of charge.",
+      "Active duty members on leave or furlough may fish, hunt wild birds and wild quadrupeds, and trap fur-bearing animals without a license or fur taker permit, if they carry military identification and follow Ohio's game laws."
+    ],
+    "details": [
+      "The active duty leave exception is not unlimited. Deer and wild turkey hunting still require the applicable permits.",
+      "All of these require proper application through the state procedures the division of wildlife sets, so the license is free but not automatic.",
+      "The statute does not set a fee schedule for these Veterans. It removes the fee, so the question at the counter is proof of eligibility, not price."
+    ],
+    "agency": "Ohio Department of Natural Resources, Division of Wildlife",
+    "statuteRef": "Ohio Rev. Code 1533.12",
+    "officialUrl": "https://codes.ohio.gov/ohio-revised-code/section-1533.12",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "oh-civil-service-exam-veterans-credit",
+    "jurisdiction": "OH",
+    "category": "employment",
+    "title": "Veterans Credit on Ohio Competitive Civil Service Examinations",
+    "summary": "Ohio adds a percentage credit to a Veteran's score on competitive civil service examinations for state and local government jobs. Reserve and national guard members who finished initial entry level training get a smaller credit.",
+    "amount": "Ohio Revised Code 124.23 provides additional credit of twenty per cent of the person's total grade given in the examination for a qualifying honorably discharged Veteran, and fifteen per cent for a qualifying reserve component or Ohio national guard member. The two cannot be combined.",
+    "eligibility": [
+      "Twenty per cent credit: completed service in the uniformed services and received an honorable discharge, or was transferred to the reserves with evidence of satisfactory service. Must be a resident of the state.",
+      "Fifteen per cent credit: member of a reserve component, including the Ohio national guard, who has completed initial entry level training.",
+      "Must be a United States citizen or have legally declared the intent to become one.",
+      "Must receive a passing grade on the examination before any additional credit is applied."
+    ],
+    "details": [
+      "The credit is applied on top of a passing score. It does not turn a failing exam into a passing one.",
+      "The twenty per cent and fifteen per cent credits cannot be stacked.",
+      "The text of 124.23 examined here does not extend this exam credit to disabled Veterans as a separate larger credit, or to surviving spouses. If you have seen a claim that it does, verify it against the current statute before relying on it.",
+      "Ohio Revised Code 5903.11 separately requires state agencies running federally funded employment and training programs to operate a Veteran priority system, referring special disabled Veterans first, then Vietnam era Veterans, then disabled Veterans, then all other Veterans."
+    ],
+    "agency": "Ohio Department of Administrative Services and local civil service commissions",
+    "statuteRef": "Ohio Rev. Code 124.23, 5903.11",
+    "officialUrl": "https://codes.ohio.gov/ohio-revised-code/section-124.23",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "oh-military-training-occupational-licensing-credit",
+    "jurisdiction": "OH",
+    "category": "license-fee",
+    "title": "Ohio Credit for Military Training Toward Occupational Licenses",
+    "summary": "Ohio licensing agencies must count military training and service experience toward the education and experience requirements for a professional license when that training is substantially equivalent to the civilian standard. Related sections protect licenses during active duty.",
+    "eligibility": [
+      "Applicants for an Ohio occupational or professional license whose military training or service experience is substantially equivalent to or exceeds the licensing standard.",
+      "Licensees called to active duty who need a renewal accommodation or a continuing education extension."
+    ],
+    "details": [
+      "Ohio Revised Code 5903.03 requires licensing agencies to accept military training and service experience as satisfying education and experience requirements where it is substantially equivalent to or exceeds the standard for the license.",
+      "Section 5903.10 addresses renewal of a license or certificate for servicemembers.",
+      "Section 5903.12 lets a licensee called to active duty extend the continuing education reporting period by the number of months served on active duty, and 5903.121 covers factors used in determining fulfillment of required continuing education.",
+      "Chapter 5903 also carries reinstatement and reemployment rights in section 5903.02, giving the same rights as federal law with exclusive jurisdiction in the courts of common pleas, and preferential hiring policy authority in section 5903.15.",
+      "Each licensing board applies this in its own rules. What counts as substantially equivalent is a board by board determination, so submit your DD-214, training records, and any credentialing transcripts to the specific board."
+    ],
+    "agency": "The individual Ohio occupational licensing board or agency",
+    "statuteRef": "Ohio Rev. Code 5903.02, 5903.03, 5903.10, 5903.12, 5903.121, 5903.15",
+    "officialUrl": "https://codes.ohio.gov/ohio-revised-code/chapter-5903",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "oh-county-veterans-service-commissions",
+    "jurisdiction": "OH",
+    "category": "financial",
+    "title": "Ohio County Veterans Service Commissions: Local Emergency Aid and Claims Help",
+    "summary": "Every Ohio county has a Veterans service commission funded by county property tax dollars. It employs accredited service officers who file VA claims at no charge and it can award direct emergency financial assistance for rent, utilities, food, and other needs. This is one of the strongest county level Veteran systems in the country.",
+    "amount": "Funding comes from a county levy that Ohio Revised Code 5901.11 caps at not to exceed five-tenths of a mill per dollar on the assessed value of the property of the county. Individual assistance awards are set by each commission, so there is no statewide dollar figure.",
+    "eligibility": [
+      "Ohio Revised Code 5901.08 opens assistance to a veteran, an active-duty member of the armed forces of the United States, or the spouse, surviving spouse, dependent parent, minor child, or ward of such a person.",
+      "The applicant must have been a resident of the county for at least three months.",
+      "Section 5901.09 requires a statement of household income and property, so awards are needs based."
+    ],
+    "details": [
+      "Each commission has five members appointed by the judges of the court of common pleas. Members must be honorably discharged or honorably separated Veterans, and the seats represent the major Veterans organizations.",
+      "Section 5901.06 lets the commission employ an executive director, investigators, and clerks. Section 5901.07 covers county Veterans service officers and assistants. These service officers help you file and appeal VA claims and they do not charge for it.",
+      "Section 5901.15 provides for immediate assistance and establishes a Veterans service commission unclaimed assistance fund, which is the path for urgent needs that cannot wait for the regular meeting cycle.",
+      "Commissions also fund transportation to VA medical appointments, burial of indigent Veterans, headstones, and cemetery plot maintenance under the later sections of Chapter 5901.",
+      "Because funding and allowance schedules are set county by county, what is available in Cuyahoga County is not the same as what is available in Vinton County. Go to the commission in the county where you live."
+    ],
+    "agency": "County veterans service commission in your county of residence",
+    "statuteRef": "Ohio Rev. Code Chapter 5901, especially 5901.02, 5901.06, 5901.07, 5901.08, 5901.09, 5901.11, 5901.15",
+    "officialUrl": "https://codes.ohio.gov/ohio-revised-code/chapter-5901",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "oh-ohio-veterans-homes",
+    "jurisdiction": "OH",
+    "category": "health",
+    "title": "Ohio Veterans Homes: State Long Term and Nursing Care",
+    "summary": "Ohio operates state Veterans homes providing long term and nursing care to eligible Ohio Veterans. Residents are charged based on ability to pay rather than a fixed market rate, and the statute caps what can be assessed.",
+    "amount": "There is no flat charge in the statute. Residents may be assessed based on ability to pay, and the assessment shall not exceed the difference between the total per diem amount collected by the state and the average annual per diem cost for the resident's maintenance.",
+    "eligibility": [
+      "Served honorably during a conflict period as determined by the United States Department of Veterans Affairs, or received specified military medals.",
+      "Meets the citizenship requirement and has one year of Ohio residency.",
+      "Is disabled by disease, wounds, or otherwise, and is incapable of earning a living.",
+      "Excluded: a person whose mental condition causes the person to be dangerous to the community."
+    ],
+    "details": [
+      "The homes are governed by the Director of Veterans Services within the Ohio Department of Veterans Services, with a superintendent appointed by the director running each facility day to day.",
+      "Chapter 5907 names a facility in Sandusky, which houses The Robert T. Secrest Nursing Home.",
+      "Of the resident fees collected, the statute directs eighty per cent to operations and twenty per cent to capital improvements.",
+      "County Veterans service commissions may provide transportation assistance to and from the homes.",
+      "Bed availability, current per diem figures, and the memory care and domiciliary options are not in the statute. Contact the Ohio Department of Veterans Services or your county Veterans service office for the current admission packet."
+    ],
+    "agency": "Ohio Department of Veterans Services, Director of Veterans Services",
+    "statuteRef": "Ohio Rev. Code Chapter 5907",
+    "officialUrl": "https://codes.ohio.gov/ohio-revised-code/chapter-5907",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "oh-indigent-veteran-burial",
+    "jurisdiction": "OH",
+    "category": "burial",
+    "title": "Ohio Burial at Public Expense for Indigent Veterans and Family",
+    "summary": "When an Ohio Veteran dies without the means to pay for a funeral, the county pays for burial or cremation through the Veterans service commission. The same protection extends to a Veteran's spouse, surviving spouse, and parent.",
+    "amount": "Ohio Revised Code 5901.25 directs that the arrangement be made at a fair and reasonable price. The section reviewed here does not state a maximum dollar allowance, and county commissions set their own schedules, so ask your county Veterans service commission for its current allowance.",
+    "eligibility": [
+      "A Veteran who dies without the means to defray the necessary funeral or cremation expenses.",
+      "The parent of a Veteran, the spouse of a Veteran, or the surviving spouse of a Veteran, who dies without those means."
+    ],
+    "details": [
+      "The board of county commissioners requires the Veterans service commission to contract for the service and to cause the person to be interred or cremated at public expense.",
+      "Chapter 5901 also covers grave markers, headstones, and maintenance of Veterans' cemetery plots in its later sections.",
+      "This is separate from federal burial benefits. A Veteran may also be eligible for burial in a national cemetery, a government headstone or marker, and a VA burial allowance. Ask the county Veterans service officer to check both tracks.",
+      "Contact the county Veterans service commission before making funeral arrangements. Approval processes generally run through the commission, not the funeral home alone."
+    ],
+    "agency": "County veterans service commission and the board of county commissioners",
+    "statuteRef": "Ohio Rev. Code 5901.25",
+    "officialUrl": "https://codes.ohio.gov/ohio-revised-code/section-5901.25",
+    "confidence": "needs-review"
+  }
+]
