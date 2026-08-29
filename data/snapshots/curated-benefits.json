@@ -2,7 +2,7 @@
   "sourceId": "curated-benefits",
   "recordType": "benefit",
   "jurisdiction": null,
-  "generatedAt": "2026-08-29T22:02:11.421Z",
+  "generatedAt": "2026-08-29T22:03:10.479Z",
   "records": [
     {
       "id": "az-disabled-veteran-hunting-fishing-license",
@@ -976,6 +976,295 @@
       "verifiedAt": "2026-08-29"
     },
     {
+      "id": "ga-disabled-veteran-homestead-exemption",
+      "jurisdiction": "GA",
+      "category": "property-tax",
+      "title": "Disabled Veteran homestead tax exemption",
+      "summary": "Georgia gives qualifying disabled Veterans a large homestead exemption on the home they own and live in. The exemption amount is set by a federal index and changes from year to year, so confirm the current figure with your county tax commissioner.",
+      "amount": "Set by an index rate established by the U.S. Secretary of Veterans Affairs under 38 U.S.C. 2102. The Georgia Department of Veterans Service lists the maximum as $121,812 for 2025. Value above the exemption stays taxable. Confirm the current year figure with your county.",
+      "eligibility": [
+        "You are an honorably discharged Georgia Veteran",
+        "You own the home and use it as your primary residence",
+        "You are rated 100 percent service-connected disabled by the VA, or rated below 100 percent but entitled to compensation at the 100 percent rate because of unemployability",
+        "You may also qualify through a statutory award for loss or permanent loss of use of feet or hands, loss of sight, or permanent eye impairment",
+        "An unremarried surviving spouse or minor child of a qualified deceased Veteran may continue the exemption while occupying the home as a residence"
+      ],
+      "details": [
+        "You file an Application for Homestead Exemption with your county tax officials, not with the state. The Georgia Department of Veterans Service notes that administration of the exemption is as interpreted by the tax commissioners of Georgia's 159 counties, so ask your own county about filing dates and required proof.",
+        "The exemption amount is not a fixed dollar figure in practice. It is indexed, so the number published for one year does not carry over to the next. Ask your county tax commissioner for the amount in effect for the year you are filing."
+      ],
+      "agency": "Georgia Department of Veterans Service and county tax commissioners",
+      "statuteRef": "O.C.G.A. 48-5-48",
+      "officialUrl": "https://veterans.georgia.gov/disabled-veteran-homestead-tax-exemption",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "ga-hero-scholarship",
+      "jurisdiction": "GA",
+      "category": "education",
+      "title": "Georgia HERO Scholarship for Guard and Reserve members and their families",
+      "summary": "The HERO Scholarship helps pay for college for Georgia National Guard and U.S. Military Reserve members who served in a combat zone, and for the children and spouses of those members. It is administered by the Georgia Student Finance Commission.",
+      "amount": "Up to $2,000 per academic school year, prorated below 12 credit hours, up to $8,000 total for the equivalent of four academic years. Funding is subject to legislative appropriation and awards are first come, first served.",
+      "eligibility": [
+        "Category 1: an active member of the Georgia National Guard or U.S. Military Reserves deployed to a combat zone on or after February 1, 2003, for at least 181 cumulative days, or evacuated because of severe injuries",
+        "Category 2: a child of a member who meets the Category 1 service, born before or within nine months of the start of the qualifying service, and age 25 or younger during that service",
+        "Category 3: a child of a member who was killed in the combat zone, or who died or became 100 percent disabled from injuries received there, with the same birth and age conditions",
+        "Category 4: the spouse of a former member who was killed in a designated combat zone, or who died or became 100 percent disabled from injuries received there, on or after February 1, 2003",
+        "You must meet U.S. citizenship or eligible non-citizen requirements",
+        "You must have lived in Georgia for 12 consecutive months before enrollment",
+        "You must attend an eligible University System of Georgia, Technical College System of Georgia, or eligible Georgia private non-profit college or university",
+        "You must comply with Georgia's drug-free postsecondary education law, and register with Selective Service if that applies to you"
+      ],
+      "details": [
+        "There is a filing deadline tied to the date the service member returned from the combat zone, and eligibility ends a set number of years after that date. The exact windows are on the program's application procedure and deadline page, so check them before you assume you still qualify.",
+        "Category 2 awards are counted per qualifying term of service, up to four qualifying terms, and still cannot exceed the overall total."
+      ],
+      "agency": "Georgia Student Finance Commission",
+      "officialUrl": "https://www.gafutures.org/hope-state-aid-programs/scholarships-grants/hero/award-amounts/",
+      "applyUrl": "https://www.gafutures.org/hope-state-aid-programs/scholarships-grants/hero/",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "ga-military-retirement-income-exclusion",
+      "jurisdiction": "GA",
+      "category": "income-tax",
+      "title": "Georgia income tax exclusion for military retirement income",
+      "summary": "Georgia lets military retirees exclude part of their retirement income from state income tax. How much you can exclude depends on your age, and younger retirees can exclude an extra amount if they also have earned income.",
+      "amount": "Georgia Department of Veterans Service lists: under age 62, up to $17,500 of military retirement income, plus an additional $17,500 if you have at least $17,500 in earned income. Ages 62 to 64, up to $35,000 under Georgia's general retirement income exclusion. Age 65 and over, up to $65,000.",
+      "eligibility": [
+        "You retired from military service and receive military retirement income",
+        "You file a Georgia income tax return",
+        "The additional exclusion for retirees under age 62 depends on having earned income of at least the stated amount"
+      ],
+      "details": [
+        "The amounts for ages 62 and over come from Georgia's general retirement income exclusion, which is not limited to Veterans. Military retirement income counts toward it.",
+        "The exclusion is claimed on your Georgia return. Check current-year instructions and forms with the Georgia Department of Revenue, since the retirement income exclusion has been amended by the legislature more than once."
+      ],
+      "agency": "Georgia Department of Revenue",
+      "officialUrl": "https://veterans.georgia.gov/military-retirement-income-tax-exemption",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "ga-state-employment-veterans-preference",
+      "jurisdiction": "GA",
+      "category": "employment",
+      "title": "Veterans preference points for State of Georgia employment",
+      "summary": "Georgia adds preference credits to the applications of qualifying Veterans applying for state jobs. Wartime and conflict-period service earns a 5-point credit, and service-connected disability or certain survivor status earns a 10-point credit.",
+      "amount": "A 5-point credit for qualifying conflict-period service. A 10-point credit for the disability and survivor categories.",
+      "eligibility": [
+        "5-point credit: you served on active duty in the U.S. Armed Forces during a period of armed conflict, or served as a National Guard or Reserve member on active duty during a qualifying operation",
+        "10-point credit: you have a VA service-connected disability rating of 10 percent or more",
+        "10-point credit: you are over 55 and receive a disability pension or compensation",
+        "10-point credit: you are the spouse of a disabled Veteran who is disqualified from employment",
+        "10-point credit: you are the unmarried widow or widower of a deceased Veteran"
+      ],
+      "details": [
+        "You claim the credit on the State of Georgia employment application and support it with documentation such as a DD Form 214 or verification of your service-connected disability status.",
+        "This is a Georgia state hiring preference. Federal hiring preference is a separate program under 5 U.S.C. 2108, and local governments set their own rules."
+      ],
+      "agency": "State of Georgia hiring agencies, with guidance from the Georgia Department of Veterans Service",
+      "officialUrl": "https://veterans.georgia.gov/other-special-state-provisions",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "ga-veteran-drivers-license",
+      "jurisdiction": "GA",
+      "category": "license-fee",
+      "title": "Free Georgia Veteran driver's license and ID card",
+      "summary": "Georgia issues a driver's license and ID card marked with a U.S. flag and the word VETERAN at no cost to qualifying Veterans. You apply in person at any Department of Driver Services office.",
+      "amount": "No cost for the Veteran driver's license. Georgia DDS states that qualifying Veterans and service members may obtain a Veteran license or ID at reduced or no cost.",
+      "eligibility": [
+        "You are a current Georgia resident",
+        "You were discharged from military service under honorable conditions, or received a medical discharge",
+        "Georgia National Guard members qualify through active duty service or 20 years of service",
+        "An honorary Veteran license or ID is available to the spouse of a deceased Veteran, or to the spouse of a disabled Veteran who does not drive"
+      ],
+      "details": [
+        "Bring the Member 4 copy of your DD Form 214, proof of residency, a birth certificate or passport, your Social Security card, two documents showing your residential address, and name change documentation if it applies.",
+        "A DDS representative gives a vision exam, verifies eligibility, and issues the license.",
+        "If you need a replacement DD Form 214, the National Archives can supply additional copies."
+      ],
+      "agency": "Georgia Department of Driver Services",
+      "statuteRef": "O.C.G.A. 40-5-36 and O.C.G.A. 40-5-103",
+      "officialUrl": "https://veterans.georgia.gov/veteran-drivers-licenses",
+      "applyUrl": "https://dds.georgia.gov/military-veterans-and-national-guard",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "ga-veteran-hunting-fishing-licenses",
+      "jurisdiction": "GA",
+      "category": "recreation",
+      "title": "Free and discounted hunting and fishing licenses for Veterans",
+      "summary": "Georgia gives returning Veterans a one-time free hunting and fishing license, and offers discounted lifetime and disability licenses to other qualifying Veterans. The Wildlife Resources Division of the Department of Natural Resources runs the program.",
+      "eligibility": [
+        "Georgia residency is required for all of these license types",
+        "One-time free license: you served at least 90 days on active federal duty and were honorably discharged on or after July 1, 2005",
+        "Discounted lifetime licenses: you were discharged under honorable conditions",
+        "Disability licenses: you have a permanent and total disability rating from the VA or another government agency",
+        "A free lifetime honorary fishing license is available to totally blind residents"
+      ],
+      "details": [
+        "The one-time returning Veteran license is free and valid for one year. It is a one-time benefit, not an annual one.",
+        "Lifetime sportsman's licenses are sold at reduced rates, and the reduction changes with the age band you fall into. Multi-year disability licenses are offered as an alternative to annual renewals. Ask the Wildlife Resources Division for the current price for your situation rather than assuming a figure.",
+        "Contact the Wildlife Resources Division at 800-366-2661 or through georgiawildlife.com to buy a license or confirm eligibility."
+      ],
+      "agency": "Georgia Department of Natural Resources, Wildlife Resources Division",
+      "statuteRef": "O.C.G.A. 27-2-4",
+      "officialUrl": "https://veterans.georgia.gov/hunting-and-fishing-licenses",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "ga-veteran-license-plates",
+      "jurisdiction": "GA",
+      "category": "vehicle",
+      "title": "Free Veteran and military license plates",
+      "summary": "Georgia offers several Veteran and military specialty license plates with no registration, manufacturing, or annual fee on the first plate. You apply through your county tax office using Form MV-9W.",
+      "amount": "No registration fee, manufacturing fee, or annual fee for one of these specialty plates. A second plate costs $25 manufacturing plus the annual renewal fees.",
+      "eligibility": [
+        "Most of these plates are available to Georgia Veterans discharged under honorable conditions",
+        "Active duty service members who are Georgia residents also qualify",
+        "An unremarried surviving spouse of a qualified deceased Veteran may qualify",
+        "Some plates have their own conditions, such as proof of a specific medal award or of service in a specific conflict"
+      ],
+      "details": [
+        "Plate categories include the Veteran's plate, the Woman Veteran's plate, the Retired Military plate, commemorative service plates for specific conflicts, military medal award plates, and reserve component plates. Georgia also issues disabled Veteran, Purple Heart, Medal of Honor, former prisoner of war, Pearl Harbor survivor, and Gold Star plates under separate code sections.",
+        "Submit a completed Form MV-9W with a copy of your DD Form 214 to your county tax office. The form comes from the Georgia Department of Revenue Motor Vehicle Division."
+      ],
+      "agency": "Georgia Department of Revenue, Motor Vehicle Division, through county tag offices",
+      "statuteRef": "O.C.G.A. 40-2-85.1 and related sections in O.C.G.A. Title 40, Chapter 2",
+      "officialUrl": "https://veterans.georgia.gov/license-plates",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "ga-veterans-business-certificate-exemption",
+      "jurisdiction": "GA",
+      "category": "business",
+      "title": "Veterans Business Certificate of Exemption from local business fees",
+      "summary": "A qualifying disabled Veteran can get a certificate that exempts them for ten years from local occupation taxes and business and regulatory fees for peddling, running a business, or practicing a profession. You apply through your county probate court.",
+      "amount": "Exempts you from any occupation tax, administrative fee, or regulatory fee imposed by local governments for a period of ten years.",
+      "eligibility": [
+        "You were discharged under honorable conditions",
+        "You have a service-connected disability rating of 10 percent or more"
+      ],
+      "details": [
+        "Complete VS Form 40-025, the Application for a Veterans Business Certificate of Exemption. Take it with an ID card, your DD Form 214, and your VA Summary of Benefits letter to your county probate court.",
+        "The clerk of the probate court provides a notarized letter or affidavit from the judge, which you then use to register your business with your county tax commissioner.",
+        "Some counties also ask for Form 40-026, the Veteran's Certificate of State License and Tax Exemption. A Georgia Department of Veterans Service field office can help if your county's requirements differ.",
+        "This exemption covers local government fees. It does not exempt you from state or federal taxes."
+      ],
+      "agency": "Georgia Department of Veterans Service, with county probate courts and county tax commissioners",
+      "statuteRef": "O.C.G.A. 43-12-1 through 43-12-3",
+      "officialUrl": "https://veterans.georgia.gov/business-certificate-exemption",
+      "applyUrl": "https://veterans.georgia.gov/document/document/vso-form-40-025/download",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "ga-veterans-memorial-cemeteries",
+      "jurisdiction": "GA",
+      "category": "burial",
+      "title": "Burial in a Georgia Veterans Memorial Cemetery",
+      "summary": "Georgia operates two state Veterans memorial cemeteries, at Glennville and at Milledgeville. There is no cost for the gravesite, vault, marker, use of the committal chapel, or the burial itself.",
+      "amount": "No burial fees. There is no cost for the gravesite, vault, marker, use of the committal chapel, and burial.",
+      "eligibility": [
+        "Veterans who meet VA standards for burial",
+        "Retired Reserve and National Guard members, and those with a service-connected rating",
+        "Active duty service members who die in service",
+        "Spouses of Veterans",
+        "Minor children of Veterans",
+        "Adult unmarried disabled children of Veterans"
+      ],
+      "details": [
+        "Contact the cemetery directly to schedule a burial and to submit documentation. Depending on the relationship, that can include the DD Form 214 or other discharge papers, a marriage certificate, a birth certificate, or medical records.",
+        "Each cemetery has a welcome center, a committal chapel, in-ground interment areas, and columbaria for cremated remains.",
+        "Cemetery offices are open 8 a.m. to 4:30 p.m., Monday through Friday, except state holidays. Grounds are open for visitation from 8 a.m. to dusk daily."
+      ],
+      "agency": "Georgia Department of Veterans Service",
+      "officialUrl": "https://veterans.georgia.gov/services/memorial-cemeteries",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "ga-war-veterans-homes",
+      "jurisdiction": "GA",
+      "category": "health",
+      "title": "Georgia War Veterans Homes skilled nursing care",
+      "summary": "Georgia runs two state Veterans homes providing skilled nursing care, one in Augusta and one in Milledgeville. A nominal daily fee applies, and the VA pays the daily fee in full for Veterans who meet certain service-connected criteria.",
+      "amount": "A nominal daily fee is charged. The Georgia Department of Veterans Service states that Veterans meeting certain service-connected criteria have their daily fees paid in full by VA. Ask the admissions office for the current daily rate.",
+      "eligibility": [
+        "You are an aged or infirm Georgia war Veteran needing skilled nursing care",
+        "Veterans with a service-connected disability rating of 70 percent or higher receive special consideration",
+        "Admission criteria are set by the homes, so review the eligibility requirements and speak with an admissions office before applying"
+      ],
+      "details": [
+        "The Georgia War Veterans Home at Milledgeville is a 248-bed facility on about 17 acres, licensed and certified by the U.S. Department of Veterans Affairs. It provides skilled nursing care, specialty care for residents with Alzheimer's, a sub-acute rehabilitation unit, and a transitional support unit that opened in September 2025 offering mental and behavioral health services alongside skilled nursing.",
+        "The Georgia War Veterans Nursing Home at Augusta sits next to the Augusta University campus, across from the Charlie Norwood VA Medical Center.",
+        "Applications start at georgiawarveteranshome.com. The Augusta location asks that you schedule a visit with the Admissions Office in advance. Milledgeville admissions hours are 8 a.m. to 3 p.m., Monday through Friday, and its admissions number is 478-445-4295.",
+        "Eligible Veterans may be able to use federal VA Aid and Attendance benefits to help cover the cost."
+      ],
+      "agency": "Georgia Department of Veterans Service",
+      "officialUrl": "https://veterans.georgia.gov/services/war-veterans-homes",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
       "id": "nc-disabled-veteran-lifetime-sportsman-license",
       "jurisdiction": "NC",
       "category": "recreation",
@@ -1230,6 +1519,627 @@
       "agency": "North Carolina Office of State Human Resources",
       "statuteRef": "N.C.G.S. 126-80 through 126-83",
       "officialUrl": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/ByArticle/Chapter_126/Article_13.html",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "ny-alternative-veterans-property-tax-exemption",
+      "jurisdiction": "NY",
+      "category": "property-tax",
+      "title": "Alternative veterans property tax exemption",
+      "summary": "New York's main property tax break for wartime Veterans. It takes a percentage off the assessed value of your primary residence, with extra credit if you served in a combat zone or have a service-connected disability rating.",
+      "amount": "15 percent of assessed value for wartime service, plus 10 percent more for combat zone service, plus an amount equal to half your VA disability rating times the assessed value. Each part is capped, and the caps vary by locality.",
+      "eligibility": [
+        "You served in the active military, naval, space, or air service during a period of war, or you received an expeditionary medal",
+        "You were honorably discharged, or you qualify under the statute's alternative discharge provisions, which include protections for LGBT Veterans discharged over sexual orientation or gender identity",
+        "The statute's \"qualified owner\" includes a Veteran, the spouse of a Veteran, and the unremarried surviving spouse of a Veteran",
+        "The property must be \"qualifying residential real property\" used exclusively for residential purposes and must be the primary residence of the Veteran or unremarried surviving spouse",
+        "Your county, city, town, village, or school district must have opted in. Each level of government decides separately"
+      ],
+      "details": [
+        "The statute sets three layers. The basic layer is 15 percent of assessed value. Combat zone service documented by a campaign ribbon or expeditionary medal adds another 10 percent. A service-connected disability adds an amount equal to the assessed value multiplied by 50 percent of the disability rating. A Veteran who died in service is treated as 100 percent rated.",
+        "Each layer has a ceiling. The statute's base ceilings are $12,000 for the basic layer, $8,000 for the combat layer, and $40,000 for the disability layer, and each is multiplied by the latest state equalization rate. Localities may adopt different maximums from a table in the statute, so the ceiling that applies to your parcel depends on where you live. Ask your assessor for the figures in force in your municipality.",
+        "The Tax Department states that this exemption does not apply to special district charges.",
+        "Getting the exemption is not automatic. You file an application with your local assessor by your municipality's taxable status date. Tax.ny.gov gives March 1 as the typical date but tells applicants to confirm it with their own assessor.",
+        "A separate Cold War veterans exemption exists under Real Property Tax Law section 458-b for service during the Cold War period. It is also a local option."
+      ],
+      "agency": "Your local assessor, with guidance from the New York State Department of Taxation and Finance",
+      "statuteRef": "N.Y. Real Property Tax Law 458-a",
+      "officialUrl": "https://www.tax.ny.gov/pit/property/exemption/vetexempt.htm",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "ny-civil-service-veterans-credits",
+      "jurisdiction": "NY",
+      "category": "employment",
+      "title": "Veterans credits on New York civil service examinations",
+      "summary": "New York adds points to your civil service exam score if you are a Veteran, and more points if you are a disabled Veteran. You can use the credit only once in your civil service career.",
+      "amount": "Disabled Veterans: 10 points on an original appointment exam and 5 points on a promotion exam. Other Veterans: 5 points on an original appointment exam and 2.5 points on a promotion exam.",
+      "eligibility": [
+        "For the non-disabled Veteran credit: you are an armed forces member with an honorable discharge or discharge under honorable circumstances, including Veterans discharged over sexual orientation or gender identity who qualify under the statute",
+        "You are a U.S. citizen or permanent resident and a New York resident at the time of application",
+        "For the disabled Veteran credit: the U.S. Department of Veterans Affairs or a military department certifies that you are entitled to disability payments for a service-connected disability rated at 10 percent or more",
+        "The credit is one time. Once you receive a permanent original appointment or a permanent promotion using the credit, you cannot claim it again"
+      ],
+      "details": [
+        "The statute reads that a disabled Veteran gets \"ten points additional in a competitive examination for original appointment\" and \"five points additional credit in a competitive examination for promotion.\" A non-disabled Veteran gets \"five points additional credit in a competitive examination for original appointment\" and \"two and one-half points additional credit in a competitive examination for promotion.\"",
+        "If an appointment is terminated during the probationary period, you keep your eligibility for credits on future exams.",
+        "The credit is added only after you pass the exam. You have to claim it, so watch for the veterans credit question on the exam application."
+      ],
+      "agency": "New York State Department of Civil Service, and local civil service commissions",
+      "statuteRef": "N.Y. Civil Service Law 85",
+      "officialUrl": "https://www.nysenate.gov/legislation/laws/CVS/85",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "ny-disabled-veteran-sporting-licenses",
+      "jurisdiction": "NY",
+      "category": "recreation",
+      "title": "Reduced fee hunting, fishing, and trapping licenses for disabled Veterans",
+      "summary": "New York resident Veterans with a service-connected disability rating of 40 percent or more pay a reduced fee for a hunting, fishing, or trapping license, get free bowhunting and muzzleloading privileges, and get preference for Deer Management Permits.",
+      "amount": "$5 for your first hunting, fishing, or trapping license of the year, per the DEC page. Additional licenses that same year are free, and bowhunting and muzzleloading privileges are free with a base hunting license.",
+      "eligibility": [
+        "You are a New York State resident",
+        "You have a service-related disability of 40 percent or more",
+        "You provide a letter from the U.S. Department of Veterans Affairs with your case number stating that your service-related disability is 40 percent or more",
+        "For hunting or trapping, you also need a hunter education certificate or a previous license",
+        "You need proof of New York State residency"
+      ],
+      "details": [
+        "DEC states that once you provide the VA letter and your eligibility is recorded in your license file, you will not need to provide that letter again. After that first verification at a license issuing agent, you can buy licenses online, by phone at 1-866-933-2257, or at an agent location.",
+        "Note that the Department of Veterans' Services page describes annual proof from the VA, while the DEC page describes a one time letter. Confirm what your license issuing agent needs before you go.",
+        "Disabled Veterans also get preference in the Deer Management Permit selection.",
+        "A separate Patriot Plan benefit gives free hunting, fishing, and trapping licenses to qualifying active service members, including New York National Guard and U.S. Reserve members, and lets nonresident military members stationed in New York for more than 30 days buy at resident prices."
+      ],
+      "agency": "New York State Department of Environmental Conservation",
+      "officialUrl": "https://dec.ny.gov/regulatory/permits-licenses/sporting-and-use/sporting/free-reduced-fee",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "ny-eligible-funds-veterans-property-tax-exemption",
+      "jurisdiction": "NY",
+      "category": "property-tax",
+      "title": "Eligible funds veterans property tax exemption",
+      "summary": "An older New York property tax exemption for property bought with military pension, bonus, insurance, or prisoner of war compensation money. The exemption is tied to how much of that money went into the property.",
+      "amount": "No more than $7,500 of exemption per individual's military or naval service, per the statute.",
+      "eligibility": [
+        "The property was purchased with the proceeds of eligible funds",
+        "The statute defines eligible funds as \"pension, bonus or insurance, or dividends or refunds on such insurance, or payments received as prisoner of war compensation from the United States government\" granted for military or naval services",
+        "Eligible claimants include the Veteran who rendered the service, and also a spouse, unremarried surviving spouse, dependent parent, or child under age 21",
+        "You must file a verified application with your assessor by the applicable taxable status date"
+      ],
+      "details": [
+        "The exemption tracks the amount of eligible funds actually used to buy the property, rounded to the nearest multiple of fifty dollars. The statute caps it: \"no such exemption on account of eligible funds paid on account of military or naval services rendered by an individual shall be allowed in excess of seven thousand five hundred dollars.\"",
+        "The Tax Department states that this exemption does not apply to special district charges.",
+        "This is generally an either/or with the alternative veterans exemption rather than a stacking benefit. Ask your assessor which one leaves you better off before you switch."
+      ],
+      "agency": "Your local assessor, with guidance from the New York State Department of Taxation and Finance",
+      "statuteRef": "N.Y. Real Property Tax Law 458",
+      "officialUrl": "https://www.nysenate.gov/legislation/laws/RPT/458",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "ny-merit-scholarship",
+      "jurisdiction": "NY",
+      "category": "family",
+      "title": "MERIT Scholarship for families of service members killed or severely disabled",
+      "summary": "The Military Enhanced Recognition Incentive and Tribute scholarship pays the cost of attendance for children, spouses, and financial dependents of New York service members who died, went missing, or became severely and permanently disabled in the line of duty.",
+      "amount": "Cost of attendance, not to exceed the average cost of attendance charged to New York resident students at a state-operated SUNY college.",
+      "eligibility": [
+        "The service member died as a result of injury or illness suffered or incurred while performing military duties, is classified as missing in action, or became severely and permanently disabled from injury or illness incurred in service",
+        "The service member was a New York State resident at the time of death or disability",
+        "You are the child, spouse, or financial dependent of that service member. A severely and permanently disabled service member may also apply on their own behalf",
+        "You are a U.S. citizen or eligible noncitizen",
+        "You have a high school diploma or GED",
+        "You are enrolled full time, defined as at least 12 credits per term"
+      ],
+      "details": [
+        "Coverage runs 2 years for an associate degree, 4 years for a bachelor's degree, and 5 years for an approved five-year program.",
+        "Apply by completing the FAFSA and the New York State TAP application first, then submitting the MERIT Scholarship application through the web supplement along with the required documentation, including a disability verification form where applicable.",
+        "HESC lists the application as open year round.",
+        "This covers members of the United States Armed Forces and the New York State organized militia."
+      ],
+      "agency": "New York State Higher Education Services Corporation",
+      "officialUrl": "https://hesc.ny.gov/merit",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "ny-military-pay-and-pension-income-tax",
+      "jurisdiction": "NY",
+      "category": "income-tax",
+      "title": "New York income tax treatment of military pay and military pensions",
+      "summary": "New York does not tax military pension payments at all. Active duty pay is taxed based on your residency, and combat zone pay is excluded.",
+      "amount": "Military pensions are fully exempt from New York State, New York City, and Yonkers income taxes.",
+      "eligibility": [
+        "Military pension: the Tax Department states that \"Military pension payments you receive as a retired military personnel or as their beneficiary are totally exempt from New York State, New York City, and Yonkers income taxes\"",
+        "Residents: active duty pay is subject to New York income tax, except that combat zone pay is excluded",
+        "Nonresidents: the Tax Department states that \"your military pay is not subject to New York State income tax\"",
+        "Part-year residents: only military pay earned while you were a New York resident is taxable",
+        "Nonresident military spouses: income earned in New York is excluded from New York source income and exempt from personal income tax if you are a nonresident who is in New York solely to be with your service member spouse"
+      ],
+      "details": [
+        "The pension exemption reaches the beneficiary of a retired service member, not only the retiree.",
+        "Members of the New York State organized militia can claim a subtraction for pay received for performing active service within New York State, subject to conditions on the page.",
+        "This entry covers state tax treatment only. Federal tax treatment is separate."
+      ],
+      "agency": "New York State Department of Taxation and Finance",
+      "officialUrl": "https://www.tax.ny.gov/pit/file/military_page.htm",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "ny-service-disabled-veteran-owned-business-certification",
+      "jurisdiction": "NY",
+      "category": "business",
+      "title": "Service-Disabled Veteran-Owned Business certification",
+      "summary": "New York certifies businesses majority owned and controlled by service-disabled Veterans, which opens access to state contracting opportunities and a public directory that state agencies use to find vendors.",
+      "eligibility": [
+        "One or more service-disabled Veterans with \"a service-connected disability rating of 10% or more\" from the U.S. Department of Veterans Affairs own at least 51 percent of the business",
+        "Service-disabled Veteran ownership must be \"real, substantial, and continuing\"",
+        "The Veteran owner or owners must have and exercise authority to independently control day-to-day business decisions",
+        "The business must qualify as a small business, which OGS states means no more than 300 employees",
+        "The business must be \"located in New York State or have a significant business presence in New York State\""
+      ],
+      "details": [
+        "The program is authorized under Article 3 of the Veterans' Services Law, per the Office of General Services.",
+        "Apply online in four steps: create a NY.GOV Business Account through the Service-Disabled Veterans' Enterprise System, log in, complete the Business, Applicant, and Financial Information sections, then review, attest, sign electronically, and submit.",
+        "Certified businesses are listed in the state's public SDVOB directory. Certification must be renewed through a recertification process.",
+        "The Division of Service-Disabled Veterans' Business Development can be reached at 518-474-2015."
+      ],
+      "agency": "New York State Office of General Services, Division of Service-Disabled Veterans' Business Development",
+      "statuteRef": "N.Y. Veterans' Services Law art. 3",
+      "officialUrl": "https://ogs.ny.gov/veterans/service-disabled-veteran-owned-business-certification",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "ny-state-veterans-homes",
+      "jurisdiction": "NY",
+      "category": "health",
+      "title": "New York State Veterans Homes skilled nursing care",
+      "summary": "New York runs five skilled nursing homes for Veterans. Eligible Veterans get skilled nursing and rehabilitative care, and the state says there is no means test or income limitation for the benefit.",
+      "eligibility": [
+        "You need skilled nursing care",
+        "You \"entered active duty from the State of New York or be a New York State resident for one year prior to application\"",
+        "You had an honorable discharge from the U.S. Armed Forces",
+        "You had at least 30 days of active service",
+        "Spouses of qualified Veterans may also be admitted if they were married at least one year and require skilled nursing care",
+        "Admission is subject to bed availability"
+      ],
+      "details": [
+        "The five homes are at St. Albans in Jamaica, Batavia, Oxford, Montrose, and Long Island in Stony Brook.",
+        "The Department of Veterans' Services page states that \"There are no out-of-pocket costs charged to the Veteran residing in a State Veterans Home for routine skilled nursing care\" and that \"This benefit has no means test or income limitation.\" It also states that the Veteran keeps all Social Security, pension, and other income that would normally be applied against long term care costs.",
+        "On the federal share, the page states that \"For a Veteran with a service connected disability rating at 70% or greater, the Department of Veterans Affairs will pay State Veterans Homes the full cost to provide skilled nursing to that Veteran (38 U.S.C. 1745).\"",
+        "Confirm current cost and payment arrangements with the admissions office at the specific home before you rely on them. Phone numbers listed by the state are St. Albans 718-990-0353, Batavia 585-345-2049, Oxford 607-843-3121, Montrose 914-788-6000, and Long Island 631-444-8387."
+      ],
+      "agency": "New York State Department of Veterans' Services, with the homes operated through the State University of New York and the Department of Health",
+      "officialUrl": "https://veterans.ny.gov/new-york-state-veterans-nursing-homes",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "ny-veteran-vehicle-registration-fee-exemption",
+      "jurisdiction": "NY",
+      "category": "vehicle",
+      "title": "Vehicle registration and plate fee exemption for certain Veterans",
+      "summary": "New York waives registration and plate fees for Veterans who received a vehicle through the federal Title 38 automobile grant, and for Veterans who qualify for Medal of Honor or Former Prisoner of War plates.",
+      "eligibility": [
+        "You are a Veteran with disabilities who received a motor vehicle under Federal Title 38, the federal automobiles and adaptive equipment program for certain disabled Veterans and members of the Armed Forces",
+        "Or you qualify for and apply for Congressional Medal of Honor custom plates",
+        "Or you qualify for and apply for Former Prisoner of War custom plates"
+      ],
+      "details": [
+        "Eligible Veterans are exempt from both registration fees and vehicle plate fees.",
+        "For the Title 38 exemption, DMV asks for form MV-1E, the Statement to Register a Vehicle Under Title 38, along with a copy of VA Form 21-4502, the VA approved application for an automobile. DMV states the exemption covers one vehicle, which must be a passenger car, suburban, or light truck under 20,000 pounds.",
+        "Military and Veteran custom plates are ordered on form CP-30. Former POW and Congressional Medal of Honor plates use form MV-1H.",
+        "Separately, DMV extends driver license validity for active duty members for up to 6 months after discharge or separation, and allows renewal of an expired license within two years after discharge if no more than 30 months have passed since discharge.",
+        "The New York State Department of Veterans' Services Benefits Advisor line is 1-888-838-7697."
+      ],
+      "agency": "New York State Department of Motor Vehicles",
+      "officialUrl": "https://veterans.ny.gov/new-york-state-motor-vehicle-registration-fee-exemption",
+      "applyUrl": "https://dmv.ny.gov/more-info/information-for-military-and-veterans",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "ny-veterans-tuition-award",
+      "jurisdiction": "NY",
+      "category": "education",
+      "title": "New York State Veterans Tuition Award",
+      "summary": "A state tuition award for New York resident Veterans attending an approved degree or vocational program. It is pegged to SUNY resident undergraduate tuition rather than a fixed dollar figure.",
+      "amount": "The annual undergraduate resident tuition rate at a SUNY state-operated campus, or your actual tuition, whichever is less. Part-time awards are prorated by credit hour.",
+      "eligibility": [
+        "You are a U.S. citizen or eligible noncitizen",
+        "You are a legal resident of New York State and have resided in New York State for 12 continuous months",
+        "You were discharged under honorable conditions",
+        "You have at least four years of active duty service, or you served in combat in Vietnam, the Persian Gulf, or Afghanistan",
+        "National Guard members qualify with four or more years of active duty deployment, or with certain expeditionary medals",
+        "HESC lists qualifying service as Vietnam service from November 1, 1955 to May 7, 1975, Persian Gulf service on or after August 2, 1990, and Afghanistan service during hostilities on or after September 11, 2001, or receipt of an Armed Forces Expeditionary Medal or equivalent"
+      ],
+      "details": [
+        "The award cannot exceed undergraduate tuition at a state-operated SUNY campus, so a private school award will not cover the full bill.",
+        "For a degree program, file the FAFSA and the New York State TAP application first, then submit the Veterans Tuition Award application. For vocational training, submit the Veterans Tuition Award application and HESC will email a separate payment application if you are eligible.",
+        "HESC lists the deadline as open year round. Award duration is limited and depends on whether you are in a vocational program or a degree program.",
+        "HESC's phone number is 1-888-NYSHESC, which is 1-888-697-4372."
+      ],
+      "agency": "New York State Higher Education Services Corporation",
+      "officialUrl": "https://hesc.ny.gov/veterans-tuition-awards",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "oh-civil-service-exam-veterans-credit",
+      "jurisdiction": "OH",
+      "category": "employment",
+      "title": "Veterans Credit on Ohio Competitive Civil Service Examinations",
+      "summary": "Ohio adds a percentage credit to a Veteran's score on competitive civil service examinations for state and local government jobs. Reserve and national guard members who finished initial entry level training get a smaller credit.",
+      "amount": "Ohio Revised Code 124.23 provides additional credit of twenty per cent of the person's total grade given in the examination for a qualifying honorably discharged Veteran, and fifteen per cent for a qualifying reserve component or Ohio national guard member. The two cannot be combined.",
+      "eligibility": [
+        "Twenty per cent credit: completed service in the uniformed services and received an honorable discharge, or was transferred to the reserves with evidence of satisfactory service. Must be a resident of the state.",
+        "Fifteen per cent credit: member of a reserve component, including the Ohio national guard, who has completed initial entry level training.",
+        "Must be a United States citizen or have legally declared the intent to become one.",
+        "Must receive a passing grade on the examination before any additional credit is applied."
+      ],
+      "details": [
+        "The credit is applied on top of a passing score. It does not turn a failing exam into a passing one.",
+        "The twenty per cent and fifteen per cent credits cannot be stacked.",
+        "The text of 124.23 examined here does not extend this exam credit to disabled Veterans as a separate larger credit, or to surviving spouses. If you have seen a claim that it does, verify it against the current statute before relying on it.",
+        "Ohio Revised Code 5903.11 separately requires state agencies running federally funded employment and training programs to operate a Veteran priority system, referring special disabled Veterans first, then Vietnam era Veterans, then disabled Veterans, then all other Veterans."
+      ],
+      "agency": "Ohio Department of Administrative Services and local civil service commissions",
+      "statuteRef": "Ohio Rev. Code 124.23, 5903.11",
+      "officialUrl": "https://codes.ohio.gov/ohio-revised-code/section-124.23",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "oh-county-veterans-service-commissions",
+      "jurisdiction": "OH",
+      "category": "financial",
+      "title": "Ohio County Veterans Service Commissions: Local Emergency Aid and Claims Help",
+      "summary": "Every Ohio county has a Veterans service commission funded by county property tax dollars. It employs accredited service officers who file VA claims at no charge and it can award direct emergency financial assistance for rent, utilities, food, and other needs. This is one of the strongest county level Veteran systems in the country.",
+      "amount": "Funding comes from a county levy that Ohio Revised Code 5901.11 caps at not to exceed five-tenths of a mill per dollar on the assessed value of the property of the county. Individual assistance awards are set by each commission, so there is no statewide dollar figure.",
+      "eligibility": [
+        "Ohio Revised Code 5901.08 opens assistance to a veteran, an active-duty member of the armed forces of the United States, or the spouse, surviving spouse, dependent parent, minor child, or ward of such a person.",
+        "The applicant must have been a resident of the county for at least three months.",
+        "Section 5901.09 requires a statement of household income and property, so awards are needs based."
+      ],
+      "details": [
+        "Each commission has five members appointed by the judges of the court of common pleas. Members must be honorably discharged or honorably separated Veterans, and the seats represent the major Veterans organizations.",
+        "Section 5901.06 lets the commission employ an executive director, investigators, and clerks. Section 5901.07 covers county Veterans service officers and assistants. These service officers help you file and appeal VA claims and they do not charge for it.",
+        "Section 5901.15 provides for immediate assistance and establishes a Veterans service commission unclaimed assistance fund, which is the path for urgent needs that cannot wait for the regular meeting cycle.",
+        "Commissions also fund transportation to VA medical appointments, burial of indigent Veterans, headstones, and cemetery plot maintenance under the later sections of Chapter 5901.",
+        "Because funding and allowance schedules are set county by county, what is available in Cuyahoga County is not the same as what is available in Vinton County. Go to the commission in the county where you live."
+      ],
+      "agency": "County veterans service commission in your county of residence",
+      "statuteRef": "Ohio Rev. Code Chapter 5901, especially 5901.02, 5901.06, 5901.07, 5901.08, 5901.09, 5901.11, 5901.15",
+      "officialUrl": "https://codes.ohio.gov/ohio-revised-code/chapter-5901",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "oh-disabled-veteran-license-plates-fee-exemption",
+      "jurisdiction": "OH",
+      "category": "vehicle",
+      "title": "Ohio Disabled Veteran License Plates and Registration Fee Exemption",
+      "summary": "A qualifying disabled Veteran can register one vehicle in Ohio without paying the registration fee or service fee, and is exempt from local motor vehicle taxes and the transfer fee on that vehicle. The plate itself is red, white, and blue and carries the word veteran.",
+      "amount": "For the first vehicle registered, Ohio Revised Code 4503.41 states a disabled veteran is not required to pay any registration fee and service fee, and exempts that registration from local motor vehicle taxes and transfer fees. Additional vehicles beyond the first are charged normally.",
+      "eligibility": [
+        "Awarded funds under the Disabled Veterans' and Servicemen's Automobile Assistance Act of 1970 because of a service-connected disability, or",
+        "Has a service-connected disability rated or compensated at one hundred per cent by the veterans' administration."
+      ],
+      "details": [
+        "The plate is red, white, and blue, bears the word veteran, and is imprinted with the international wheelchair symbol.",
+        "The fee exemption is limited to the first vehicle. Registering a second or third vehicle with the plate does not carry the exemption.",
+        "Ohio issues several other military and Veteran plate types under Chapter 4503, including Purple Heart and other award plates. Those have their own qualifying documents and their own fee treatment, so check each one separately with the BMV rather than assuming the 4503.41 exemption carries over.",
+        "Holding a special Veteran license plate issued by the registrar of motor vehicles also opens the door to free hunting and fishing licenses under Ohio Revised Code 1533.12."
+      ],
+      "agency": "Ohio Bureau of Motor Vehicles, registrar of motor vehicles and deputy registrars",
+      "statuteRef": "Ohio Rev. Code 4503.41",
+      "officialUrl": "https://codes.ohio.gov/ohio-revised-code/section-4503.41",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "oh-enhanced-homestead-exemption-disabled-veterans",
+      "jurisdiction": "OH",
+      "category": "property-tax",
+      "title": "Enhanced Homestead Exemption for Disabled Veterans and Surviving Spouses",
+      "summary": "Ohio gives a disabled Veteran a larger homestead exemption than the standard senior exemption. It shields a set amount of the true value of the Veteran's owner-occupied home from property taxation, and a qualifying surviving spouse can keep it after the Veteran dies.",
+      "amount": "Ohio Revised Code 323.152 sets the disabled Veteran reduction at fifty thousand dollars of the true value of the property in money, as adjusted. The statute provides for adjustment, so the figure in force for a given tax year is the adjusted amount published by the Ohio Department of Taxation.",
+      "eligibility": [
+        "Veteran of the armed forces of the United States, including reserve components, or of the national guard, discharged or released from active duty under honorable conditions.",
+        "Has received a total disability rating, or a total disability rating for compensation based on individual unemployability, for a service-connected disability or combination of service-connected disabilities as prescribed in Title 38, Part 4 of the Code of Federal Regulations.",
+        "Owns and occupies the homestead. The reduction applies to only one homestead owned and occupied by a disabled Veteran.",
+        "A surviving spouse who occupied the homestead when the disabled Veteran died and who acquires ownership of the homestead may continue the reduction. It continues through the tax year in which the surviving spouse dies or remarries."
+      ],
+      "details": [
+        "Ohio Revised Code 323.151 carries the definitions of disabled veteran and surviving spouse of a disabled veteran that control this exemption.",
+        "A surviving spouse can also qualify where the Veteran died before receiving the disability rating, if that person otherwise met the disabled Veteran definition and owned and occupied the homestead.",
+        "The same statute provides a separate reduction for the surviving spouse of a public service officer killed in the line of duty.",
+        "The exemption works as a reduction in taxable value, not a check. The savings depend on the assessment percentage and the effective tax rate where the home sits, so the dollar benefit differs by county and district."
+      ],
+      "agency": "County auditor of the county where the homestead is located, under rules of the Ohio Department of Taxation",
+      "statuteRef": "Ohio Rev. Code 323.151, 323.152",
+      "officialUrl": "https://codes.ohio.gov/ohio-revised-code/section-323.152",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "oh-free-hunting-fishing-licenses-veterans",
+      "jurisdiction": "OH",
+      "category": "recreation",
+      "title": "Free Ohio Hunting and Fishing Licenses for Disabled Veterans and Military",
+      "summary": "Ohio issues hunting and fishing licenses, permits, and stamps free of charge to permanently and totally disabled Veterans, former prisoners of war, and Veterans holding special military license plates. Active duty members on leave can hunt and fish without a license, with limits.",
+      "amount": "Free of charge. Ohio Revised Code 1533.12 lets the chief of the division of wildlife issue these free licenses, permits, and stamps on an annual, multi-year, or lifetime basis as the chief determines appropriate.",
+      "eligibility": [
+        "Veterans with a service-connected disability rated permanently and totally disabling by the Veterans Administration, who receive compensation and were discharged under honorable conditions.",
+        "Honorably discharged former prisoners of war.",
+        "Veterans issued a special license plate by the registrar of motor vehicles qualify for the same free licenses and permits as disabled Veterans.",
+        "Every resident of a state or county institution, charitable institution, or military home in this state is issued an annual fishing license free of charge.",
+        "Active duty members on leave or furlough may fish, hunt wild birds and wild quadrupeds, and trap fur-bearing animals without a license or fur taker permit, if they carry military identification and follow Ohio's game laws."
+      ],
+      "details": [
+        "The active duty leave exception is not unlimited. Deer and wild turkey hunting still require the applicable permits.",
+        "All of these require proper application through the state procedures the division of wildlife sets, so the license is free but not automatic.",
+        "The statute does not set a fee schedule for these Veterans. It removes the fee, so the question at the counter is proof of eligibility, not price."
+      ],
+      "agency": "Ohio Department of Natural Resources, Division of Wildlife",
+      "statuteRef": "Ohio Rev. Code 1533.12",
+      "officialUrl": "https://codes.ohio.gov/ohio-revised-code/section-1533.12",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "oh-homestead-exemption-application-deadline",
+      "jurisdiction": "OH",
+      "category": "property-tax",
+      "title": "How and When to Apply for the Ohio Homestead Exemption",
+      "summary": "The homestead exemption is not automatic. The owner files an application with the county auditor on a form supplied by the tax commissioner. Ohio Revised Code 323.153 sets the filing deadline and also allows a late application for the prior tax year.",
+      "eligibility": [
+        "The owner of the homestead files the application, for the tax year in which the reduction is sought."
+      ],
+      "details": [
+        "File with the county auditor of the county in which the homestead is located.",
+        "The application uses a form devised and supplied by the tax commissioner, which asks only for information needed to establish eligibility and the amount of the reduction.",
+        "The statute states the application shall be filed on or before the thirty-first day of December of the year for which the reduction is sought.",
+        "Late filing is contemplated. A person may file a late application for the preceding tax year along with the current year application. If it is approved, the auditor determines the reduction the applicant would have received had the application been timely, and that amount is refunded as an overpayment of taxes.",
+        "Confirm the current year deadline with your county auditor before relying on it. Deadlines have been amended over time and the county auditor is the office that accepts the filing."
+      ],
+      "agency": "County auditor, Ohio Department of Taxation",
+      "statuteRef": "Ohio Rev. Code 323.153",
+      "officialUrl": "https://codes.ohio.gov/ohio-revised-code/section-323.153",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "oh-indigent-veteran-burial",
+      "jurisdiction": "OH",
+      "category": "burial",
+      "title": "Ohio Burial at Public Expense for Indigent Veterans and Family",
+      "summary": "When an Ohio Veteran dies without the means to pay for a funeral, the county pays for burial or cremation through the Veterans service commission. The same protection extends to a Veteran's spouse, surviving spouse, and parent.",
+      "amount": "Ohio Revised Code 5901.25 directs that the arrangement be made at a fair and reasonable price. The section reviewed here does not state a maximum dollar allowance, and county commissions set their own schedules, so ask your county Veterans service commission for its current allowance.",
+      "eligibility": [
+        "A Veteran who dies without the means to defray the necessary funeral or cremation expenses.",
+        "The parent of a Veteran, the spouse of a Veteran, or the surviving spouse of a Veteran, who dies without those means."
+      ],
+      "details": [
+        "The board of county commissioners requires the Veterans service commission to contract for the service and to cause the person to be interred or cremated at public expense.",
+        "Chapter 5901 also covers grave markers, headstones, and maintenance of Veterans' cemetery plots in its later sections.",
+        "This is separate from federal burial benefits. A Veteran may also be eligible for burial in a national cemetery, a government headstone or marker, and a VA burial allowance. Ask the county Veterans service officer to check both tracks.",
+        "Contact the county Veterans service commission before making funeral arrangements. Approval processes generally run through the commission, not the funeral home alone."
+      ],
+      "agency": "County veterans service commission and the board of county commissioners",
+      "statuteRef": "Ohio Rev. Code 5901.25",
+      "officialUrl": "https://codes.ohio.gov/ohio-revised-code/section-5901.25",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "oh-military-retirement-income-deduction",
+      "jurisdiction": "OH",
+      "category": "income-tax",
+      "title": "Ohio Income Tax Deduction for Military Retirement Pay and Active Duty Pay",
+      "summary": "Ohio lets a taxpayer subtract military retired pay from Ohio adjusted gross income, so uniformed services retirement is effectively not taxed by the state. A separate deduction covers active duty pay for servicemembers stationed outside Ohio.",
+      "amount": "The retirement deduction is not capped by a dollar figure in the statute. It removes the qualifying retired personnel pay from Ohio adjusted gross income to the extent it was included in federal adjusted gross income and not already deducted or excluded.",
+      "eligibility": [
+        "Retired pay deduction: amounts received as retired personnel pay for service in the uniformed services or reserve components thereof, or the national guard.",
+        "The retired pay deduction also reaches amounts received by the surviving spouse or former spouse of such a taxpayer under the Survivor Benefit Plan on account of that taxpayer's death.",
+        "Active duty pay deduction: military pay and allowances received for active duty service in the armed forces, reserve components, or the national guard. The deduction may not be claimed for military pay and allowances received while the taxpayer is stationed in this state."
+      ],
+      "details": [
+        "The retired pay deduction is Ohio Revised Code 5747.01 division (A)(23).",
+        "The active duty pay deduction is division (A)(21) and turns on where the servicemember is stationed, not on residency alone.",
+        "Both are deductions taken in computing Ohio adjusted gross income, so they are claimed on the Ohio income tax return rather than through a separate application.",
+        "The statute applies to retired personnel pay for service in the uniformed services. It does not by its terms cover civilian federal retirement or VA disability compensation, which is already excluded from federal adjusted gross income."
+      ],
+      "agency": "Ohio Department of Taxation",
+      "statuteRef": "Ohio Rev. Code 5747.01(A)(21), 5747.01(A)(23)",
+      "officialUrl": "https://codes.ohio.gov/ohio-revised-code/section-5747.01",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "oh-military-training-occupational-licensing-credit",
+      "jurisdiction": "OH",
+      "category": "license-fee",
+      "title": "Ohio Credit for Military Training Toward Occupational Licenses",
+      "summary": "Ohio licensing agencies must count military training and service experience toward the education and experience requirements for a professional license when that training is substantially equivalent to the civilian standard. Related sections protect licenses during active duty.",
+      "eligibility": [
+        "Applicants for an Ohio occupational or professional license whose military training or service experience is substantially equivalent to or exceeds the licensing standard.",
+        "Licensees called to active duty who need a renewal accommodation or a continuing education extension."
+      ],
+      "details": [
+        "Ohio Revised Code 5903.03 requires licensing agencies to accept military training and service experience as satisfying education and experience requirements where it is substantially equivalent to or exceeds the standard for the license.",
+        "Section 5903.10 addresses renewal of a license or certificate for servicemembers.",
+        "Section 5903.12 lets a licensee called to active duty extend the continuing education reporting period by the number of months served on active duty, and 5903.121 covers factors used in determining fulfillment of required continuing education.",
+        "Chapter 5903 also carries reinstatement and reemployment rights in section 5903.02, giving the same rights as federal law with exclusive jurisdiction in the courts of common pleas, and preferential hiring policy authority in section 5903.15.",
+        "Each licensing board applies this in its own rules. What counts as substantially equivalent is a board by board determination, so submit your DD-214, training records, and any credentialing transcripts to the specific board."
+      ],
+      "agency": "The individual Ohio occupational licensing board or agency",
+      "statuteRef": "Ohio Rev. Code 5903.02, 5903.03, 5903.10, 5903.12, 5903.121, 5903.15",
+      "officialUrl": "https://codes.ohio.gov/ohio-revised-code/chapter-5903",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "oh-ohio-veterans-homes",
+      "jurisdiction": "OH",
+      "category": "health",
+      "title": "Ohio Veterans Homes: State Long Term and Nursing Care",
+      "summary": "Ohio operates state Veterans homes providing long term and nursing care to eligible Ohio Veterans. Residents are charged based on ability to pay rather than a fixed market rate, and the statute caps what can be assessed.",
+      "amount": "There is no flat charge in the statute. Residents may be assessed based on ability to pay, and the assessment shall not exceed the difference between the total per diem amount collected by the state and the average annual per diem cost for the resident's maintenance.",
+      "eligibility": [
+        "Served honorably during a conflict period as determined by the United States Department of Veterans Affairs, or received specified military medals.",
+        "Meets the citizenship requirement and has one year of Ohio residency.",
+        "Is disabled by disease, wounds, or otherwise, and is incapable of earning a living.",
+        "Excluded: a person whose mental condition causes the person to be dangerous to the community."
+      ],
+      "details": [
+        "The homes are governed by the Director of Veterans Services within the Ohio Department of Veterans Services, with a superintendent appointed by the director running each facility day to day.",
+        "Chapter 5907 names a facility in Sandusky, which houses The Robert T. Secrest Nursing Home.",
+        "Of the resident fees collected, the statute directs eighty per cent to operations and twenty per cent to capital improvements.",
+        "County Veterans service commissions may provide transportation assistance to and from the homes.",
+        "Bed availability, current per diem figures, and the memory care and domiciliary options are not in the statute. Contact the Ohio Department of Veterans Services or your county Veterans service office for the current admission packet."
+      ],
+      "agency": "Ohio Department of Veterans Services, Director of Veterans Services",
+      "statuteRef": "Ohio Rev. Code Chapter 5907",
+      "officialUrl": "https://codes.ohio.gov/ohio-revised-code/chapter-5907",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "oh-war-orphans-severely-disabled-veterans-children-scholarship",
+      "jurisdiction": "OH",
+      "category": "education",
+      "title": "Ohio War Orphans and Severely Disabled Veterans' Children Scholarship",
+      "summary": "Ohio helps pay college costs for the children of Veterans who died or who carry a severe service-connected disability. At Ohio state-supported colleges and universities the award takes the form of an exemption from general and instructional fees, with a grant option at private and career schools.",
+      "amount": "Two forms of award under Chapter 5910: exemption from general and instructional fees at state-supported colleges, or a grant equal to the average scholarship value for students at private institutions or career colleges. Capped at five academic years at the undergraduate level.",
+      "eligibility": [
+        "Child of a Veteran who died, or of a Veteran with a sixty per cent or greater service-connected disability, or of a Veteran receiving benefits for permanent and total nonservice-connected disability, as determined by the United States Department of Veterans Affairs.",
+        "The parent served in the armed forces of the United States during a conflict period specified in the chapter. Certain U.S. Merchant Marine service also counts.",
+        "Age at application: Ohio Revised Code 5910.03 requires the applicant to have attained the sixteenth, but not the twenty-fifth, birthday. For children of prisoners of war or those missing in action the window is narrower: has attained the sixteenth, but not the twenty-first, birthday.",
+        "Residency: if the Veteran entered service as an Ohio resident, the applicant must have lived in Ohio for the preceding year. If the Veteran was not an Ohio resident at entry, the applicant must have resided in Ohio for the year before application plus any four of the last ten years.",
+        "The scholarship board determines financial necessity."
+      ],
+      "details": [
+        "Administered by the Ohio War Orphans and Severely Disabled Veterans' Children Scholarship Board: the chancellor of higher education, the director of veterans services, one state representative, one state senator, and four appointees from the American Legion, VFW, Disabled American Veterans, and AMVETS.",
+        "The award covers general and instructional fees. It is not a full cost of attendance award, so room, board, books, and other fees are generally the family's responsibility.",
+        "Application deadlines are set administratively by the Ohio Department of Higher Education and are not in the statute. Check the current deadline with the department or with your county Veterans service office before the term you want covered."
+      ],
+      "agency": "Ohio War Orphans and Severely Disabled Veterans' Children Scholarship Board, Ohio Department of Higher Education",
+      "statuteRef": "Ohio Rev. Code Chapter 5910, especially 5910.03",
+      "officialUrl": "https://codes.ohio.gov/ohio-revised-code/chapter-5910",
       "confidence": "needs-review",
       "source": {
         "id": "curated-benefits",

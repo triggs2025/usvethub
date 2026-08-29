@@ -3,11 +3,11 @@
   "reason": null,
   "published": true,
   "unchanged": false,
-  "recordCount": 98,
-  "previousCount": 67,
+  "recordCount": 109,
+  "previousCount": 98,
   "rejected": [],
-  "startedAt": "2026-08-29T22:03:10.479Z",
-  "finishedAt": "2026-08-29T22:03:10.511Z",
+  "startedAt": "2026-08-29T22:04:54.023Z",
+  "finishedAt": "2026-08-29T22:04:54.057Z",
   "requestsUsed": 0,
   "sourceId": "curated-benefits",
   "log": [
@@ -18,11 +18,12 @@
     "[curated-benefits] nc.json: 9 record(s)",
     "[curated-benefits] ny.json: 10 record(s)",
     "[curated-benefits] oh.json: 11 record(s)",
+    "[curated-benefits] pa.json: 11 record(s)",
     "[curated-benefits] tx.json: 4 record(s)",
     "[curated-benefits] us-federal-family-business.json: 4 record(s)",
     "[curated-benefits] us-federal.json: 6 record(s)",
     "[curated-benefits] va-state.json: 10 record(s)",
-    "[curated-benefits] 98 curated benefit(s) from 11 file(s)",
-    "[curated-benefits] published 98 record(s) to .\\data\\published\\benefits\\curated-benefits.json"
+    "[curated-benefits] 109 curated benefit(s) from 12 file(s)",
+    "[curated-benefits] published 109 record(s) to .\\data\\published\\benefits\\curated-benefits.json"
   ]
 }
