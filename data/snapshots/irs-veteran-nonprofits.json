@@ -2,7 +2,7 @@
   "sourceId": "irs-veteran-nonprofits",
   "recordType": "organization",
   "jurisdiction": null,
-  "generatedAt": "2026-08-29T18:31:08.833Z",
+  "generatedAt": "2026-08-29T18:31:40.588Z",
   "records": [
     {
       "id": "1-40th-cav-veteran-association-9014",
@@ -84451,6 +84451,25 @@
       "verifiedAt": "2026-08-29"
     },
     {
+      "id": "american-legion-post-12-of-north-kingstown-and-washington-county-american-9036",
+      "name": "American Legion Post 12 Of North Kingstown And Washington County American Legion Post 12",
+      "orgType": "nonprofit",
+      "jurisdiction": "RI",
+      "confidence": "scraped",
+      "ein": "300479036",
+      "irsSubsection": 19,
+      "website": "https://projects.propublica.org/nonprofits/organizations/300479036",
+      "city": "West Kingston",
+      "nteeCode": "W30",
+      "description": "Registered 501(c)(19) organization of past or present members of the armed forces. Financial filings linked below.",
+      "source": {
+        "id": "irs-veteran-nonprofits",
+        "title": "IRS exempt organizations, via ProPublica Nonprofit Explorer",
+        "homepage": "https://projects.propublica.org/nonprofits/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
       "id": "american-legion-post-1271-2462",
       "name": "American Legion Post 1271",
       "orgType": "nonprofit",
@@ -88046,6 +88065,25 @@
       "website": "https://projects.propublica.org/nonprofits/organizations/393597246",
       "city": "Woodhaven",
       "nteeCode": "W30",
+      "description": "Registered 501(c)(3) public charity. Donations are generally tax deductible. Financial filings linked below.",
+      "source": {
+        "id": "irs-veteran-nonprofits",
+        "title": "IRS exempt organizations, via ProPublica Nonprofit Explorer",
+        "homepage": "https://projects.propublica.org/nonprofits/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "anchorage-post-society-of-american-military-engineers-benjamin-b-benjamin-2011",
+      "name": "Anchorage Post Society Of American Military Engineers Benjamin B Benjamin B Talley Scholarship Fund",
+      "orgType": "nonprofit",
+      "jurisdiction": "AK",
+      "confidence": "scraped",
+      "ein": "920162011",
+      "irsSubsection": 3,
+      "website": "https://projects.propublica.org/nonprofits/organizations/920162011",
+      "city": "Anchorage",
+      "nteeCode": "B82",
       "description": "Registered 501(c)(3) public charity. Donations are generally tax deductible. Financial filings linked below.",
       "source": {
         "id": "irs-veteran-nonprofits",
@@ -94345,6 +94383,25 @@
       "verifiedAt": "2026-08-29"
     },
     {
+      "id": "civilian-conservation-corps-prisoner-of-war-recreational-hall-ccc-pow-rec-0367",
+      "name": "Civilian Conservation Corps Prisoner Of War Recreational Hall Ccc Pow Rec Hall Military Museum",
+      "orgType": "nonprofit",
+      "jurisdiction": "IA",
+      "confidence": "scraped",
+      "ein": "883890367",
+      "irsSubsection": 3,
+      "website": "https://projects.propublica.org/nonprofits/organizations/883890367",
+      "city": "Eldora",
+      "nteeCode": "A54",
+      "description": "Registered 501(c)(3) public charity. Donations are generally tax deductible. Financial filings linked below.",
+      "source": {
+        "id": "irs-veteran-nonprofits",
+        "title": "IRS exempt organizations, via ProPublica Nonprofit Explorer",
+        "homepage": "https://projects.propublica.org/nonprofits/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
       "id": "civilian-military-community-foundation-inc-4384",
       "name": "Civilian Military Community Foundation Inc",
       "orgType": "nonprofit",
@@ -97834,6 +97891,25 @@
       "verifiedAt": "2026-08-29"
     },
     {
+      "id": "daughters-of-union-veterans-of-the-civil-war-1861-1865-judith-grover-tent-3495",
+      "name": "Daughters Of Union Veterans Of The Civil War 1861-1865 Judith Grover Tent 17",
+      "orgType": "nonprofit",
+      "jurisdiction": "ME",
+      "confidence": "scraped",
+      "ein": "237023495",
+      "irsSubsection": 3,
+      "website": "https://projects.propublica.org/nonprofits/organizations/237023495",
+      "city": "Bryant Pond",
+      "nteeCode": "A80",
+      "description": "Registered 501(c)(3) public charity. Donations are generally tax deductible. Financial filings linked below.",
+      "source": {
+        "id": "irs-veteran-nonprofits",
+        "title": "IRS exempt organizations, via ProPublica Nonprofit Explorer",
+        "homepage": "https://projects.propublica.org/nonprofits/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
       "id": "daughters-of-union-veterans-of-the-civil-war-1861-1865-maine-department-9829",
       "name": "Daughters Of Union Veterans Of The Civil War 1861-1865 Maine Department",
       "orgType": "nonprofit",
@@ -98473,6 +98549,25 @@
       "verifiedAt": "2026-08-29"
     },
     {
+      "id": "department-of-utah-veterans-of-foreign-wars-auxillary-10900-cleveland-day-1418",
+      "name": "Department Of Utah Veterans Of Foreign Wars Auxillary 10900 Cleveland Day Post",
+      "orgType": "nonprofit",
+      "jurisdiction": "UT",
+      "confidence": "scraped",
+      "ein": "510671418",
+      "irsSubsection": 19,
+      "website": "https://projects.propublica.org/nonprofits/organizations/510671418",
+      "city": "Ogden",
+      "nteeCode": "W30",
+      "description": "Registered 501(c)(19) organization of past or present members of the armed forces. Financial filings linked below.",
+      "source": {
+        "id": "irs-veteran-nonprofits",
+        "title": "IRS exempt organizations, via ProPublica Nonprofit Explorer",
+        "homepage": "https://projects.propublica.org/nonprofits/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
       "id": "department-of-utah-veterans-of-foreign-wars-auxillary-1481-fred-j-grant-po-7329",
       "name": "Department Of Utah Veterans Of Foreign Wars Auxillary 1481 Fred J Grant Post",
       "orgType": "nonprofit",
@@ -98595,6 +98690,25 @@
       "ein": "260508071",
       "irsSubsection": 19,
       "website": "https://projects.propublica.org/nonprofits/organizations/260508071",
+      "city": "Ogden",
+      "nteeCode": "W30",
+      "description": "Registered 501(c)(19) organization of past or present members of the armed forces. Financial filings linked below.",
+      "source": {
+        "id": "irs-veteran-nonprofits",
+        "title": "IRS exempt organizations, via ProPublica Nonprofit Explorer",
+        "homepage": "https://projects.propublica.org/nonprofits/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "department-of-utah-veterans-of-foreign-wars-auxillary-8307-miller-frazier-2643",
+      "name": "Department Of Utah Veterans Of Foreign Wars Auxillary 8307 Miller Frazier Post",
+      "orgType": "nonprofit",
+      "jurisdiction": "UT",
+      "confidence": "scraped",
+      "ein": "364632643",
+      "irsSubsection": 19,
+      "website": "https://projects.propublica.org/nonprofits/organizations/364632643",
       "city": "Ogden",
       "nteeCode": "W30",
       "description": "Registered 501(c)(19) organization of past or present members of the armed forces. Financial filings linked below.",
@@ -98777,6 +98891,25 @@
       "verifiedAt": "2026-08-29"
     },
     {
+      "id": "department-of-vermont-ladies-auxiliary-to-the-veterans-of-7779-department-2749",
+      "name": "Department Of Vermont Ladies Auxiliary To The Veterans Of 7779 Department Of Vermont Vfw Auxi",
+      "orgType": "nonprofit",
+      "jurisdiction": "VT",
+      "confidence": "scraped",
+      "ein": "263682749",
+      "irsSubsection": 19,
+      "website": "https://projects.propublica.org/nonprofits/organizations/263682749",
+      "city": "Hyde Park",
+      "nteeCode": "W30",
+      "description": "Registered 501(c)(19) organization of past or present members of the armed forces. Financial filings linked below.",
+      "source": {
+        "id": "irs-veteran-nonprofits",
+        "title": "IRS exempt organizations, via ProPublica Nonprofit Explorer",
+        "homepage": "https://projects.propublica.org/nonprofits/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
       "id": "department-of-vermont-ladies-auxiliary-to-the-veterans-of-778-vfw-aux-to-c-2482",
       "name": "Department Of Vermont Ladies Auxiliary To The Veterans Of 778 Vfw Aux To Charles P Daprato Po",
       "orgType": "nonprofit",
@@ -98786,6 +98919,25 @@
       "irsSubsection": 19,
       "website": "https://projects.propublica.org/nonprofits/organizations/263652482",
       "city": "Swanton",
+      "nteeCode": "W30",
+      "description": "Registered 501(c)(19) organization of past or present members of the armed forces. Financial filings linked below.",
+      "source": {
+        "id": "irs-veteran-nonprofits",
+        "title": "IRS exempt organizations, via ProPublica Nonprofit Explorer",
+        "homepage": "https://projects.propublica.org/nonprofits/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "department-of-vermont-ladies-auxiliary-to-the-veterans-of-782-veterans-of-0358",
+      "name": "Department Of Vermont Ladies Auxiliary To The Veterans Of 782 Veterans Of Foreign Wars Aux Po",
+      "orgType": "nonprofit",
+      "jurisdiction": "VT",
+      "confidence": "scraped",
+      "ein": "611600358",
+      "irsSubsection": 19,
+      "website": "https://projects.propublica.org/nonprofits/organizations/611600358",
+      "city": "Burlington",
       "nteeCode": "W30",
       "description": "Registered 501(c)(19) organization of past or present members of the armed forces. Financial filings linked below.",
       "source": {
@@ -98883,6 +99035,25 @@
       "city": "Manchestr Ctr",
       "nteeCode": "W30",
       "description": "Registered 501(c)(19) organization of past or present members of the armed forces. Financial filings linked below.",
+      "source": {
+        "id": "irs-veteran-nonprofits",
+        "title": "IRS exempt organizations, via ProPublica Nonprofit Explorer",
+        "homepage": "https://projects.propublica.org/nonprofits/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "dept-of-nm-military-order-of-the-purple-heart-special-services-dept-of-nm-2088",
+      "name": "Dept Of Nm Military Order Of The Purple Heart - Special Services Dept Of Nm Moph",
+      "orgType": "nonprofit",
+      "jurisdiction": "NM",
+      "confidence": "scraped",
+      "ein": "871632088",
+      "irsSubsection": 3,
+      "website": "https://projects.propublica.org/nonprofits/organizations/871632088",
+      "city": "Albuquerque",
+      "nteeCode": "W30",
+      "description": "Registered 501(c)(3) public charity. Donations are generally tax deductible. Financial filings linked below.",
       "source": {
         "id": "irs-veteran-nonprofits",
         "title": "IRS exempt organizations, via ProPublica Nonprofit Explorer",
@@ -124539,6 +124710,25 @@
       "verifiedAt": "2026-08-29"
     },
     {
+      "id": "frozen-chosin-chapter-41-of-the-korean-war-veterans-association-in-frozen-0073",
+      "name": "Frozen Chosin Chapter 41 Of The Korean War Veterans Association In Frozen Chosin Chapter 41",
+      "orgType": "nonprofit",
+      "jurisdiction": "SD",
+      "confidence": "scraped",
+      "ein": "821480073",
+      "irsSubsection": 19,
+      "website": "https://projects.propublica.org/nonprofits/organizations/821480073",
+      "city": "Marion",
+      "nteeCode": "W30",
+      "description": "Registered 501(c)(19) organization of past or present members of the armed forces. Financial filings linked below.",
+      "source": {
+        "id": "irs-veteran-nonprofits",
+        "title": "IRS exempt organizations, via ProPublica Nonprofit Explorer",
+        "homepage": "https://projects.propublica.org/nonprofits/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
       "id": "fund-for-military-justice-inc-1494",
       "name": "Fund For Military Justice Inc",
       "orgType": "nonprofit",
@@ -125665,6 +125855,25 @@
       "city": "Augusta",
       "nteeCode": "M42",
       "description": "Registered 501(c)(3) public charity. Donations are generally tax deductible. Financial filings linked below.",
+      "source": {
+        "id": "irs-veteran-nonprofits",
+        "title": "IRS exempt organizations, via ProPublica Nonprofit Explorer",
+        "homepage": "https://projects.propublica.org/nonprofits/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "green-knights-military-motorcycle-club-chapter-141-thunder-mountain-green-9730",
+      "name": "Green Knights Military Motorcycle Club - Chapter 141 Thunder Mountain Green Knights",
+      "orgType": "nonprofit",
+      "jurisdiction": "AZ",
+      "confidence": "scraped",
+      "ein": "824769730",
+      "irsSubsection": 19,
+      "website": "https://projects.propublica.org/nonprofits/organizations/824769730",
+      "city": "Hereford",
+      "nteeCode": "W30",
+      "description": "Registered 501(c)(19) organization of past or present members of the armed forces. Financial filings linked below.",
       "source": {
         "id": "irs-veteran-nonprofits",
         "title": "IRS exempt organizations, via ProPublica Nonprofit Explorer",
@@ -129049,6 +129258,25 @@
       "irsSubsection": 19,
       "website": "https://projects.propublica.org/nonprofits/organizations/237388598",
       "city": "Huntsville",
+      "description": "Registered 501(c)(19) organization of past or present members of the armed forces. Financial filings linked below.",
+      "source": {
+        "id": "irs-veteran-nonprofits",
+        "title": "IRS exempt organizations, via ProPublica Nonprofit Explorer",
+        "homepage": "https://projects.propublica.org/nonprofits/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "hutchinson-county-post-3298-veterans-of-foreign-wars-of-the-3298-parkston-3482",
+      "name": "Hutchinson County Post 3298 Veterans Of Foreign Wars Of The 3298 Parkston Vfw-sd",
+      "orgType": "nonprofit",
+      "jurisdiction": "SD",
+      "confidence": "scraped",
+      "ein": "460253482",
+      "irsSubsection": 19,
+      "website": "https://projects.propublica.org/nonprofits/organizations/460253482",
+      "city": "Parkston",
+      "nteeCode": "W30",
       "description": "Registered 501(c)(19) organization of past or present members of the armed forces. Financial filings linked below.",
       "source": {
         "id": "irs-veteran-nonprofits",
@@ -142443,6 +142671,24 @@
       "verifiedAt": "2026-08-29"
     },
     {
+      "id": "military-order-of-the-cootie-of-the-united-states-24-pup-tent-crater-lake-2181",
+      "name": "Military Order Of The Cootie Of The United States 24 Pup Tent Crater Lake Louses",
+      "orgType": "nonprofit",
+      "jurisdiction": "OR",
+      "confidence": "scraped",
+      "ein": "611792181",
+      "irsSubsection": 4,
+      "website": "https://projects.propublica.org/nonprofits/organizations/611792181",
+      "city": "Rogue River",
+      "description": "Registered 501(c)(4) social welfare organization. Donations are generally NOT tax deductible. Financial filings linked below.",
+      "source": {
+        "id": "irs-veteran-nonprofits",
+        "title": "IRS exempt organizations, via ProPublica Nonprofit Explorer",
+        "homepage": "https://projects.propublica.org/nonprofits/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
       "id": "military-order-of-the-cootie-of-the-united-states-26-moca-auxiliary-6477",
       "name": "Military Order Of The Cootie Of The United States 26 Moca Auxiliary",
       "orgType": "nonprofit",
@@ -143273,6 +143519,24 @@
       "verifiedAt": "2026-08-29"
     },
     {
+      "id": "military-order-of-the-cootie-of-the-united-states-62-eighter-from-decatur-8319",
+      "name": "Military Order Of The Cootie Of The United States 62 Eighter From Decatur Moc",
+      "orgType": "nonprofit",
+      "jurisdiction": "IL",
+      "confidence": "scraped",
+      "ein": "521968319",
+      "irsSubsection": 4,
+      "website": "https://projects.propublica.org/nonprofits/organizations/521968319",
+      "city": "Decatur",
+      "description": "Registered 501(c)(4) social welfare organization. Donations are generally NOT tax deductible. Financial filings linked below.",
+      "source": {
+        "id": "irs-veteran-nonprofits",
+        "title": "IRS exempt organizations, via ProPublica Nonprofit Explorer",
+        "homepage": "https://projects.propublica.org/nonprofits/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
       "id": "military-order-of-the-cootie-of-the-united-states-6423-ralph-fulton-post-5844",
       "name": "Military Order Of The Cootie Of The United States 6423 Ralph Fulton Post",
       "orgType": "nonprofit",
@@ -143633,6 +143897,24 @@
       "verifiedAt": "2026-08-29"
     },
     {
+      "id": "military-order-of-the-cootie-of-the-united-states-9-three-rivers-pup-tent-5310",
+      "name": "Military Order Of The Cootie Of The United States 9 Three Rivers Pup Tent Aux",
+      "orgType": "nonprofit",
+      "jurisdiction": "MO",
+      "confidence": "scraped",
+      "ein": "814425310",
+      "irsSubsection": 4,
+      "website": "https://projects.propublica.org/nonprofits/organizations/814425310",
+      "city": "Fenton",
+      "description": "Registered 501(c)(4) social welfare organization. Donations are generally NOT tax deductible. Financial filings linked below.",
+      "source": {
+        "id": "irs-veteran-nonprofits",
+        "title": "IRS exempt organizations, via ProPublica Nonprofit Explorer",
+        "homepage": "https://projects.propublica.org/nonprofits/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
       "id": "military-order-of-the-cootie-of-the-united-states-9-vin-benedictine-9453",
       "name": "Military Order Of The Cootie Of The United States 9 Vin Benedictine",
       "orgType": "nonprofit",
@@ -143750,6 +144032,25 @@
       "irsSubsection": 4,
       "website": "https://projects.propublica.org/nonprofits/organizations/352707137",
       "city": "Long Beach",
+      "description": "Registered 501(c)(4) social welfare organization. Donations are generally NOT tax deductible. Financial filings linked below.",
+      "source": {
+        "id": "irs-veteran-nonprofits",
+        "title": "IRS exempt organizations, via ProPublica Nonprofit Explorer",
+        "homepage": "https://projects.propublica.org/nonprofits/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "military-order-of-the-cootie-of-the-united-states-chuckanut-pup-tent18-18-2069",
+      "name": "Military Order Of The Cootie Of The United States Chuckanut Pup Tent18 18 Chuckanut",
+      "orgType": "nonprofit",
+      "jurisdiction": "WA",
+      "confidence": "scraped",
+      "ein": "916062069",
+      "irsSubsection": 4,
+      "website": "https://projects.propublica.org/nonprofits/organizations/916062069",
+      "city": "Ferndale",
+      "nteeCode": "W30",
       "description": "Registered 501(c)(4) social welfare organization. Donations are generally NOT tax deductible. Financial filings linked below.",
       "source": {
         "id": "irs-veteran-nonprofits",
@@ -144552,6 +144853,24 @@
       "verifiedAt": "2026-08-29"
     },
     {
+      "id": "military-order-of-the-cootie-of-the-united-states-pup-tent-39-maple-shade-4281",
+      "name": "Military Order Of The Cootie Of The United States Pup Tent 39 Maple Shade Bombers Aux",
+      "orgType": "nonprofit",
+      "jurisdiction": "NJ",
+      "confidence": "scraped",
+      "ein": "463764281",
+      "irsSubsection": 4,
+      "website": "https://projects.propublica.org/nonprofits/organizations/463764281",
+      "city": "Pine Hill",
+      "description": "Registered 501(c)(4) social welfare organization. Donations are generally NOT tax deductible. Financial filings linked below.",
+      "source": {
+        "id": "irs-veteran-nonprofits",
+        "title": "IRS exempt organizations, via ProPublica Nonprofit Explorer",
+        "homepage": "https://projects.propublica.org/nonprofits/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
       "id": "military-order-of-the-cootie-of-the-united-states-pup-tent-4-chuck-hole-5947",
       "name": "Military Order Of The Cootie Of The United States Pup Tent 4 Chuck Hole",
       "orgType": "nonprofit",
@@ -144597,6 +144916,24 @@
       "irsSubsection": 4,
       "website": "https://projects.propublica.org/nonprofits/organizations/933271518",
       "city": "Herington",
+      "description": "Registered 501(c)(4) social welfare organization. Donations are generally NOT tax deductible. Financial filings linked below.",
+      "source": {
+        "id": "irs-veteran-nonprofits",
+        "title": "IRS exempt organizations, via ProPublica Nonprofit Explorer",
+        "homepage": "https://projects.propublica.org/nonprofits/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "military-order-of-the-cootie-of-the-united-states-pup-tent-5-capitol-city-8063",
+      "name": "Military Order Of The Cootie Of The United States Pup Tent 5 Capitol City Auxiliary",
+      "orgType": "nonprofit",
+      "jurisdiction": "MI",
+      "confidence": "scraped",
+      "ein": "472338063",
+      "irsSubsection": 4,
+      "website": "https://projects.propublica.org/nonprofits/organizations/472338063",
+      "city": "Grand Ledge",
       "description": "Registered 501(c)(4) social welfare organization. Donations are generally NOT tax deductible. Financial filings linked below.",
       "source": {
         "id": "irs-veteran-nonprofits",
@@ -144840,6 +145177,24 @@
       "verifiedAt": "2026-08-29"
     },
     {
+      "id": "military-order-of-the-cootie-of-the-united-states-supreme-pup-tent-27-sho-5150",
+      "name": "Military Order Of The Cootie Of The United States Supreme Pup Tent 27 Sho-grabbers",
+      "orgType": "nonprofit",
+      "jurisdiction": "MD",
+      "confidence": "scraped",
+      "ein": "311185150",
+      "irsSubsection": 4,
+      "website": "https://projects.propublica.org/nonprofits/organizations/311185150",
+      "city": "Salisbury",
+      "description": "Registered 501(c)(4) social welfare organization. Donations are generally NOT tax deductible. Financial filings linked below.",
+      "source": {
+        "id": "irs-veteran-nonprofits",
+        "title": "IRS exempt organizations, via ProPublica Nonprofit Explorer",
+        "homepage": "https://projects.propublica.org/nonprofits/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
       "id": "military-order-of-the-cootie-of-the-united-states-supreme-pup-tent-3-mud-b-9694",
       "name": "Military Order Of The Cootie Of The United States Supreme Pup Tent 3 Mud Bugs",
       "orgType": "nonprofit",
@@ -144903,6 +145258,24 @@
       "irsSubsection": 4,
       "website": "https://projects.propublica.org/nonprofits/organizations/611105147",
       "city": "Vine Grove",
+      "description": "Registered 501(c)(4) social welfare organization. Donations are generally NOT tax deductible. Financial filings linked below.",
+      "source": {
+        "id": "irs-veteran-nonprofits",
+        "title": "IRS exempt organizations, via ProPublica Nonprofit Explorer",
+        "homepage": "https://projects.propublica.org/nonprofits/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "military-order-of-the-cootie-of-the-united-states-supreme-pup-tent-83-vin-5490",
+      "name": "Military Order Of The Cootie Of The United States Supreme Pup Tent 83 Vin Twas Mjm Aux",
+      "orgType": "nonprofit",
+      "jurisdiction": "OH",
+      "confidence": "scraped",
+      "ein": "311185490",
+      "irsSubsection": 4,
+      "website": "https://projects.propublica.org/nonprofits/organizations/311185490",
+      "city": "Dayton",
       "description": "Registered 501(c)(4) social welfare organization. Donations are generally NOT tax deductible. Financial filings linked below.",
       "source": {
         "id": "irs-veteran-nonprofits",
@@ -145329,6 +145702,24 @@
       "verifiedAt": "2026-08-29"
     },
     {
+      "id": "military-order-of-the-cootie-vin-benedictine-m-o-c-pup-tent-no-9-vfw-post-3891",
+      "name": "Military Order Of The Cootie Vin Benedictine M O C Pup Tent No 9 Vfw Post 2800",
+      "orgType": "nonprofit",
+      "jurisdiction": "OH",
+      "confidence": "scraped",
+      "ein": "311253891",
+      "irsSubsection": 4,
+      "website": "https://projects.propublica.org/nonprofits/organizations/311253891",
+      "city": "Dayton",
+      "description": "Registered 501(c)(4) social welfare organization. Donations are generally NOT tax deductible. Financial filings linked below.",
+      "source": {
+        "id": "irs-veteran-nonprofits",
+        "title": "IRS exempt organizations, via ProPublica Nonprofit Explorer",
+        "homepage": "https://projects.propublica.org/nonprofits/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
       "id": "military-order-of-the-cootie-yur-a-bum-pup-tent-3-8947",
       "name": "Military Order Of The Cootie Yur-a-bum Pup Tent 3",
       "orgType": "nonprofit",
@@ -145434,6 +145825,24 @@
       "city": "Mounds View",
       "nteeCode": "P80",
       "description": "Registered 501(c)(3) public charity. Donations are generally tax deductible. Financial filings linked below.",
+      "source": {
+        "id": "irs-veteran-nonprofits",
+        "title": "IRS exempt organizations, via ProPublica Nonprofit Explorer",
+        "homepage": "https://projects.propublica.org/nonprofits/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "military-order-of-the-cooties-to-the-united-states-of-america-rose-hub-24-3598",
+      "name": "Military Order Of The Cooties To The United States Of America Rose Hub 24 Aux",
+      "orgType": "nonprofit",
+      "jurisdiction": "MI",
+      "confidence": "scraped",
+      "ein": "471623598",
+      "irsSubsection": 4,
+      "website": "https://projects.propublica.org/nonprofits/organizations/471623598",
+      "city": "Clinton Twp",
+      "description": "Registered 501(c)(4) social welfare organization. Donations are generally NOT tax deductible. Financial filings linked below.",
       "source": {
         "id": "irs-veteran-nonprofits",
         "title": "IRS exempt organizations, via ProPublica Nonprofit Explorer",
@@ -165047,6 +165456,24 @@
       "verifiedAt": "2026-08-29"
     },
     {
+      "id": "pack-rats-pup-tent-no-8-military-order-of-the-cootie-of-the-united-8-pack-4689",
+      "name": "Pack Rats Pup Tent No 8 Military Order Of The Cootie Of The United 8 Pack Rats Pup Tent",
+      "orgType": "nonprofit",
+      "jurisdiction": "ND",
+      "confidence": "scraped",
+      "ein": "510194689",
+      "irsSubsection": 4,
+      "website": "https://projects.propublica.org/nonprofits/organizations/510194689",
+      "city": "West Fargo",
+      "description": "Registered 501(c)(4) social welfare organization. Donations are generally NOT tax deductible. Financial filings linked below.",
+      "source": {
+        "id": "irs-veteran-nonprofits",
+        "title": "IRS exempt organizations, via ProPublica Nonprofit Explorer",
+        "homepage": "https://projects.propublica.org/nonprofits/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
       "id": "pact-for-veterans-7675",
       "name": "Pact For Veterans",
       "orgType": "nonprofit",
@@ -169433,6 +169860,25 @@
       "website": "https://projects.propublica.org/nonprofits/organizations/611356041",
       "city": "Morehead",
       "nteeCode": "A84",
+      "description": "Registered 501(c)(3) public charity. Donations are generally tax deductible. Financial filings linked below.",
+      "source": {
+        "id": "irs-veteran-nonprofits",
+        "title": "IRS exempt organizations, via ProPublica Nonprofit Explorer",
+        "homepage": "https://projects.propublica.org/nonprofits/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "royal-court-alpha-zeta-of-mu-beta-phi-military-fraternity-inc-royal-court-8865",
+      "name": "Royal Court Alpha Zeta Of Mu Beta Phi Military Fraternity Inc Royal Court Alpha Zeta Of Mu Beta P",
+      "orgType": "nonprofit",
+      "jurisdiction": "SC",
+      "confidence": "scraped",
+      "ein": "333608865",
+      "irsSubsection": 3,
+      "website": "https://projects.propublica.org/nonprofits/organizations/333608865",
+      "city": "Goose Creek",
+      "nteeCode": "T50",
       "description": "Registered 501(c)(3) public charity. Donations are generally tax deductible. Financial filings linked below.",
       "source": {
         "id": "irs-veteran-nonprofits",
@@ -199184,6 +199630,24 @@
       "verifiedAt": "2026-08-29"
     },
     {
+      "id": "veterans-of-foreign-wars-auxiliary-department-of-delaware-5447-hall-burke-7802",
+      "name": "Veterans Of Foreign Wars Auxiliary Department Of Delaware 5447 Hall-burke Vfw Post Auxiliary",
+      "orgType": "nonprofit",
+      "jurisdiction": "DE",
+      "confidence": "scraped",
+      "ein": "237267802",
+      "irsSubsection": 4,
+      "website": "https://projects.propublica.org/nonprofits/organizations/237267802",
+      "city": "Wilmington",
+      "description": "Registered 501(c)(4) social welfare organization. Donations are generally NOT tax deductible. Financial filings linked below.",
+      "source": {
+        "id": "irs-veteran-nonprofits",
+        "title": "IRS exempt organizations, via ProPublica Nonprofit Explorer",
+        "homepage": "https://projects.propublica.org/nonprofits/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
       "id": "veterans-of-foreign-wars-auxiliary-department-of-delaware-5892-bailey-bren-7990",
       "name": "Veterans Of Foreign Wars Auxiliary Department Of Delaware 5892 Bailey Brennan Chandler Vfw Au",
       "orgType": "nonprofit",
@@ -199247,6 +199711,24 @@
       "irsSubsection": 4,
       "website": "https://projects.propublica.org/nonprofits/organizations/237224412",
       "city": "Greenwood",
+      "description": "Registered 501(c)(4) social welfare organization. Donations are generally NOT tax deductible. Financial filings linked below.",
+      "source": {
+        "id": "irs-veteran-nonprofits",
+        "title": "IRS exempt organizations, via ProPublica Nonprofit Explorer",
+        "homepage": "https://projects.propublica.org/nonprofits/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "veterans-of-foreign-wars-auxiliary-department-of-delaware-8801-newman-lee-1213",
+      "name": "Veterans Of Foreign Wars Auxiliary Department Of Delaware 8801 Newman Lee & Urban Vfw Auxilia",
+      "orgType": "nonprofit",
+      "jurisdiction": "DE",
+      "confidence": "scraped",
+      "ein": "237261213",
+      "irsSubsection": 4,
+      "website": "https://projects.propublica.org/nonprofits/organizations/237261213",
+      "city": "Dover",
       "description": "Registered 501(c)(4) social welfare organization. Donations are generally NOT tax deductible. Financial filings linked below.",
       "source": {
         "id": "irs-veteran-nonprofits",
@@ -200512,6 +200994,24 @@
       "verifiedAt": "2026-08-29"
     },
     {
+      "id": "veterans-of-foreign-wars-department-of-south-dakota-4690-vfw-auxiliary-to-9372",
+      "name": "Veterans Of Foreign Wars Department Of South Dakota 4690 Vfw Auxiliary To Webster Post",
+      "orgType": "nonprofit",
+      "jurisdiction": "SD",
+      "confidence": "scraped",
+      "ein": "466019372",
+      "irsSubsection": 4,
+      "website": "https://projects.propublica.org/nonprofits/organizations/466019372",
+      "city": "Webster",
+      "description": "Registered 501(c)(4) social welfare organization. Donations are generally NOT tax deductible. Financial filings linked below.",
+      "source": {
+        "id": "irs-veteran-nonprofits",
+        "title": "IRS exempt organizations, via ProPublica Nonprofit Explorer",
+        "homepage": "https://projects.propublica.org/nonprofits/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
       "id": "veterans-of-foreign-wars-department-of-south-dakota-aux-7-sd-district-2374",
       "name": "Veterans Of Foreign Wars Department Of South Dakota Aux 7 Sd District",
       "orgType": "nonprofit",
@@ -200548,6 +201048,24 @@
       "verifiedAt": "2026-08-29"
     },
     {
+      "id": "veterans-of-foreign-wars-department-of-south-dakota-auxiliary-0628-john-m-3584",
+      "name": "Veterans Of Foreign Wars Department Of South Dakota Auxiliary 0628 John M Bliss Aux",
+      "orgType": "nonprofit",
+      "jurisdiction": "SD",
+      "confidence": "scraped",
+      "ein": "460373584",
+      "irsSubsection": 4,
+      "website": "https://projects.propublica.org/nonprofits/organizations/460373584",
+      "city": "Sioux Falls",
+      "description": "Registered 501(c)(4) social welfare organization. Donations are generally NOT tax deductible. Financial filings linked below.",
+      "source": {
+        "id": "irs-veteran-nonprofits",
+        "title": "IRS exempt organizations, via ProPublica Nonprofit Explorer",
+        "homepage": "https://projects.propublica.org/nonprofits/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
       "id": "veterans-of-foreign-wars-department-of-south-dakota-auxiliary-17-vfw-aux-1078",
       "name": "Veterans Of Foreign Wars Department Of South Dakota Auxiliary 17 Vfw-aux",
       "orgType": "nonprofit",
@@ -200566,6 +201084,24 @@
       "verifiedAt": "2026-08-29"
     },
     {
+      "id": "veterans-of-foreign-wars-department-of-south-dakota-auxiliary-1776-vfw-sd-9335",
+      "name": "Veterans Of Foreign Wars Department Of South Dakota Auxiliary 1776 Vfw Sd Ladies Auxiliary",
+      "orgType": "nonprofit",
+      "jurisdiction": "SD",
+      "confidence": "scraped",
+      "ein": "466019335",
+      "irsSubsection": 4,
+      "website": "https://projects.propublica.org/nonprofits/organizations/466019335",
+      "city": "Huron",
+      "description": "Registered 501(c)(4) social welfare organization. Donations are generally NOT tax deductible. Financial filings linked below.",
+      "source": {
+        "id": "irs-veteran-nonprofits",
+        "title": "IRS exempt organizations, via ProPublica Nonprofit Explorer",
+        "homepage": "https://projects.propublica.org/nonprofits/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
       "id": "veterans-of-foreign-wars-department-of-south-dakota-auxiliary-2038-charles-9336",
       "name": "Veterans Of Foreign Wars Department Of South Dakota Auxiliary 2038 Charles Thorne Vfw Aux",
       "orgType": "nonprofit",
@@ -200575,6 +201111,24 @@
       "irsSubsection": 4,
       "website": "https://projects.propublica.org/nonprofits/organizations/466019336",
       "city": "Fort Pierre",
+      "description": "Registered 501(c)(4) social welfare organization. Donations are generally NOT tax deductible. Financial filings linked below.",
+      "source": {
+        "id": "irs-veteran-nonprofits",
+        "title": "IRS exempt organizations, via ProPublica Nonprofit Explorer",
+        "homepage": "https://projects.propublica.org/nonprofits/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "veterans-of-foreign-wars-department-of-south-dakota-auxiliary-2755-vfw-sd-9344",
+      "name": "Veterans Of Foreign Wars Department Of South Dakota Auxiliary 2755 Vfw Sd Auxiliary Paul",
+      "orgType": "nonprofit",
+      "jurisdiction": "SD",
+      "confidence": "scraped",
+      "ein": "466019344",
+      "irsSubsection": 4,
+      "website": "https://projects.propublica.org/nonprofits/organizations/466019344",
+      "city": "Redfield",
       "description": "Registered 501(c)(4) social welfare organization. Donations are generally NOT tax deductible. Financial filings linked below.",
       "source": {
         "id": "irs-veteran-nonprofits",
@@ -201942,6 +202496,24 @@
       "verifiedAt": "2026-08-29"
     },
     {
+      "id": "veterans-of-foreign-wars-of-the-united-states-dept-of-maine-10643-windham-8222",
+      "name": "Veterans Of Foreign Wars Of The United States Dept Of Maine 10643 Windham Post",
+      "orgType": "nonprofit",
+      "jurisdiction": "ME",
+      "confidence": "scraped",
+      "ein": "010458222",
+      "irsSubsection": 19,
+      "website": "https://projects.propublica.org/nonprofits/organizations/010458222",
+      "city": "Windham",
+      "description": "Registered 501(c)(19) organization of past or present members of the armed forces. Financial filings linked below.",
+      "source": {
+        "id": "irs-veteran-nonprofits",
+        "title": "IRS exempt organizations, via ProPublica Nonprofit Explorer",
+        "homepage": "https://projects.propublica.org/nonprofits/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
       "id": "veterans-of-foreign-wars-of-the-united-states-dept-of-maine-1641-post-9224",
       "name": "Veterans Of Foreign Wars Of The United States Dept Of Maine 1641 Post",
       "orgType": "nonprofit",
@@ -202393,6 +202965,24 @@
       "verifiedAt": "2026-08-29"
     },
     {
+      "id": "veterans-of-foreign-wars-of-the-united-states-dept-of-north-dakota-8196-m-5579",
+      "name": "Veterans Of Foreign Wars Of The United States Dept Of North Dakota 8196 M Carnaha Vfw-n D",
+      "orgType": "nonprofit",
+      "jurisdiction": "ND",
+      "confidence": "scraped",
+      "ein": "237295579",
+      "irsSubsection": 19,
+      "website": "https://projects.propublica.org/nonprofits/organizations/237295579",
+      "city": "Grand Forks",
+      "description": "Registered 501(c)(19) organization of past or present members of the armed forces. Financial filings linked below.",
+      "source": {
+        "id": "irs-veteran-nonprofits",
+        "title": "IRS exempt organizations, via ProPublica Nonprofit Explorer",
+        "homepage": "https://projects.propublica.org/nonprofits/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
       "id": "veterans-of-foreign-wars-of-the-united-states-dept-of-north-dakota-8305-vf-6712",
       "name": "Veterans Of Foreign Wars Of The United States Dept Of North Dakota 8305 Vfw-n D",
       "orgType": "nonprofit",
@@ -202564,6 +203154,24 @@
       "irsSubsection": 19,
       "website": "https://projects.propublica.org/nonprofits/organizations/237336705",
       "city": "Mantador",
+      "description": "Registered 501(c)(19) organization of past or present members of the armed forces. Financial filings linked below.",
+      "source": {
+        "id": "irs-veteran-nonprofits",
+        "title": "IRS exempt organizations, via ProPublica Nonprofit Explorer",
+        "homepage": "https://projects.propublica.org/nonprofits/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "veterans-of-foreign-wars-of-the-united-states-dept-of-north-dakota-parent-5848",
+      "name": "Veterans Of Foreign Wars Of The United States Dept Of North Dakota Parent Organization",
+      "orgType": "nonprofit",
+      "jurisdiction": "ND",
+      "confidence": "scraped",
+      "ein": "450215848",
+      "irsSubsection": 19,
+      "website": "https://projects.propublica.org/nonprofits/organizations/450215848",
+      "city": "Fargo",
       "description": "Registered 501(c)(19) organization of past or present members of the armed forces. Financial filings linked below.",
       "source": {
         "id": "irs-veteran-nonprofits",
@@ -202916,6 +203524,24 @@
       "verifiedAt": "2026-08-29"
     },
     {
+      "id": "veterans-of-foreign-wars-of-the-united-states-dept-of-vermont-648-rutland-4715",
+      "name": "Veterans Of Foreign Wars Of The United States Dept Of Vermont 648 Rutland County",
+      "orgType": "nonprofit",
+      "jurisdiction": "VT",
+      "confidence": "scraped",
+      "ein": "030174715",
+      "irsSubsection": 19,
+      "website": "https://projects.propublica.org/nonprofits/organizations/030174715",
+      "city": "Rutland",
+      "description": "Registered 501(c)(19) organization of past or present members of the armed forces. Financial filings linked below.",
+      "source": {
+        "id": "irs-veteran-nonprofits",
+        "title": "IRS exempt organizations, via ProPublica Nonprofit Explorer",
+        "homepage": "https://projects.propublica.org/nonprofits/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
       "id": "veterans-of-foreign-wars-of-the-united-states-dept-of-vermont-6689-vfw-vt-7639",
       "name": "Veterans Of Foreign Wars Of The United States Dept Of Vermont 6689 Vfw-vt",
       "orgType": "nonprofit",
@@ -202988,6 +203614,24 @@
       "verifiedAt": "2026-08-29"
     },
     {
+      "id": "veterans-of-foreign-wars-of-the-united-states-dept-of-vermont-778-charles-5761",
+      "name": "Veterans Of Foreign Wars Of The United States Dept Of Vermont 778 Charles P Deprato Post",
+      "orgType": "nonprofit",
+      "jurisdiction": "VT",
+      "confidence": "scraped",
+      "ein": "030175761",
+      "irsSubsection": 19,
+      "website": "https://projects.propublica.org/nonprofits/organizations/030175761",
+      "city": "Swanton",
+      "description": "Registered 501(c)(19) organization of past or present members of the armed forces. Financial filings linked below.",
+      "source": {
+        "id": "irs-veteran-nonprofits",
+        "title": "IRS exempt organizations, via ProPublica Nonprofit Explorer",
+        "homepage": "https://projects.propublica.org/nonprofits/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
       "id": "veterans-of-foreign-wars-of-the-united-states-dept-of-vermont-7823-vfw-vt-0547",
       "name": "Veterans Of Foreign Wars Of The United States Dept Of Vermont 7823 Vfw-vt",
       "orgType": "nonprofit",
@@ -203015,6 +203659,24 @@
       "irsSubsection": 19,
       "website": "https://projects.propublica.org/nonprofits/organizations/030173494",
       "city": "Montpelier",
+      "description": "Registered 501(c)(19) organization of past or present members of the armed forces. Financial filings linked below.",
+      "source": {
+        "id": "irs-veteran-nonprofits",
+        "title": "IRS exempt organizations, via ProPublica Nonprofit Explorer",
+        "homepage": "https://projects.propublica.org/nonprofits/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "veterans-of-foreign-wars-of-the-united-states-dept-of-vermont-793-ralph-j-4079",
+      "name": "Veterans Of Foreign Wars Of The United States Dept Of Vermont 793 Ralph J Mollica Vfw-vt",
+      "orgType": "nonprofit",
+      "jurisdiction": "VT",
+      "confidence": "scraped",
+      "ein": "030224079",
+      "irsSubsection": 19,
+      "website": "https://projects.propublica.org/nonprofits/organizations/030224079",
+      "city": "St Johnsbury",
       "description": "Registered 501(c)(19) organization of past or present members of the armed forces. Financial filings linked below.",
       "source": {
         "id": "irs-veteran-nonprofits",
@@ -203276,6 +203938,24 @@
       "verifiedAt": "2026-08-29"
     },
     {
+      "id": "veterans-of-foreign-wars-of-the-united-states-dept-of-wyoming-4343-robert-6314",
+      "name": "Veterans Of Foreign Wars Of The United States Dept Of Wyoming 4343 Robert E Stoddard",
+      "orgType": "nonprofit",
+      "jurisdiction": "WY",
+      "confidence": "scraped",
+      "ein": "830186314",
+      "irsSubsection": 19,
+      "website": "https://projects.propublica.org/nonprofits/organizations/830186314",
+      "city": "Cheyenne",
+      "description": "Registered 501(c)(19) organization of past or present members of the armed forces. Financial filings linked below.",
+      "source": {
+        "id": "irs-veteran-nonprofits",
+        "title": "IRS exempt organizations, via ProPublica Nonprofit Explorer",
+        "homepage": "https://projects.propublica.org/nonprofits/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
       "id": "veterans-of-foreign-wars-of-the-united-states-dept-of-wyoming-4797-star-va-6893",
       "name": "Veterans Of Foreign Wars Of The United States Dept Of Wyoming 4797 Star Valley Post",
       "orgType": "nonprofit",
@@ -203285,6 +203965,24 @@
       "irsSubsection": 19,
       "website": "https://projects.propublica.org/nonprofits/organizations/836006893",
       "city": "Afton",
+      "description": "Registered 501(c)(19) organization of past or present members of the armed forces. Financial filings linked below.",
+      "source": {
+        "id": "irs-veteran-nonprofits",
+        "title": "IRS exempt organizations, via ProPublica Nonprofit Explorer",
+        "homepage": "https://projects.propublica.org/nonprofits/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "veterans-of-foreign-wars-of-the-united-states-dept-of-wyoming-9439-casper-8821",
+      "name": "Veterans Of Foreign Wars Of The United States Dept Of Wyoming 9439 Casper Memorial Post",
+      "orgType": "nonprofit",
+      "jurisdiction": "WY",
+      "confidence": "scraped",
+      "ein": "830208821",
+      "irsSubsection": 19,
+      "website": "https://projects.propublica.org/nonprofits/organizations/830208821",
+      "city": "Casper",
       "description": "Registered 501(c)(19) organization of past or present members of the armed forces. Financial filings linked below.",
       "source": {
         "id": "irs-veteran-nonprofits",
@@ -203459,6 +204157,60 @@
       "verifiedAt": "2026-08-29"
     },
     {
+      "id": "veterans-of-foreign-wars-of-united-states-department-of-south-dakota-2741-7107",
+      "name": "Veterans Of Foreign Wars Of United States Department Of South Dakota 2741 Mobridge Vfw Sd",
+      "orgType": "nonprofit",
+      "jurisdiction": "SD",
+      "confidence": "scraped",
+      "ein": "466007107",
+      "irsSubsection": 4,
+      "website": "https://projects.propublica.org/nonprofits/organizations/466007107",
+      "city": "Mobridge",
+      "description": "Registered 501(c)(4) social welfare organization. Donations are generally NOT tax deductible. Financial filings linked below.",
+      "source": {
+        "id": "irs-veteran-nonprofits",
+        "title": "IRS exempt organizations, via ProPublica Nonprofit Explorer",
+        "homepage": "https://projects.propublica.org/nonprofits/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "veterans-of-foreign-wars-of-united-states-dept-of-north-dakota-3444-jerry-2921",
+      "name": "Veterans Of Foreign Wars Of United States Dept Of North Dakota 3444 Jerry Lamphear Vfw-nd",
+      "orgType": "nonprofit",
+      "jurisdiction": "ND",
+      "confidence": "scraped",
+      "ein": "450452921",
+      "irsSubsection": 19,
+      "website": "https://projects.propublica.org/nonprofits/organizations/450452921",
+      "city": "Dickinson",
+      "description": "Registered 501(c)(19) organization of past or present members of the armed forces. Financial filings linked below.",
+      "source": {
+        "id": "irs-veteran-nonprofits",
+        "title": "IRS exempt organizations, via ProPublica Nonprofit Explorer",
+        "homepage": "https://projects.propublica.org/nonprofits/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "veterans-of-foreign-wars-of-united-states-dept-of-north-dakota-4-district-0723",
+      "name": "Veterans Of Foreign Wars Of United States Dept Of North Dakota 4 District Vfw",
+      "orgType": "nonprofit",
+      "jurisdiction": "ND",
+      "confidence": "scraped",
+      "ein": "450430723",
+      "irsSubsection": 19,
+      "website": "https://projects.propublica.org/nonprofits/organizations/450430723",
+      "city": "Bismarck",
+      "description": "Registered 501(c)(19) organization of past or present members of the armed forces. Financial filings linked below.",
+      "source": {
+        "id": "irs-veteran-nonprofits",
+        "title": "IRS exempt organizations, via ProPublica Nonprofit Explorer",
+        "homepage": "https://projects.propublica.org/nonprofits/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
       "id": "veterans-of-foreign-wars-of-united-states-dept-of-north-dakota-6833-lawren-8832",
       "name": "Veterans Of Foreign Wars Of United States Dept Of North Dakota 6833 Lawrence Thelling Vfw Nd",
       "orgType": "nonprofit",
@@ -203541,6 +204293,24 @@
       "website": "https://projects.propublica.org/nonprofits/organizations/450403779",
       "city": "Grand Forks",
       "description": "Registered 501(c)(19) organization of past or present members of the armed forces. Financial filings linked below.",
+      "source": {
+        "id": "irs-veteran-nonprofits",
+        "title": "IRS exempt organizations, via ProPublica Nonprofit Explorer",
+        "homepage": "https://projects.propublica.org/nonprofits/"
+      },
+      "verifiedAt": "2026-08-29"
+    },
+    {
+      "id": "veterans-of-foreign-wars-of-us-dept-of-south-dakota-south-dakota-district-3722",
+      "name": "Veterans Of Foreign Wars Of Us Dept Of South Dakota South Dakota District 7",
+      "orgType": "nonprofit",
+      "jurisdiction": "SD",
+      "confidence": "scraped",
+      "ein": "237143722",
+      "irsSubsection": 4,
+      "website": "https://projects.propublica.org/nonprofits/organizations/237143722",
+      "city": "Lake Andes",
+      "description": "Registered 501(c)(4) social welfare organization. Donations are generally NOT tax deductible. Financial filings linked below.",
       "source": {
         "id": "irs-veteran-nonprofits",
         "title": "IRS exempt organizations, via ProPublica Nonprofit Explorer",

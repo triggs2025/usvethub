@@ -2,12 +2,12 @@
   "status": "ok",
   "reason": null,
   "published": true,
-  "unchanged": false,
+  "unchanged": true,
   "recordCount": 121,
   "previousCount": 121,
   "rejected": [],
-  "startedAt": "2026-08-30T05:27:22.065Z",
-  "finishedAt": "2026-08-30T05:27:22.102Z",
+  "startedAt": "2026-08-30T09:07:57.410Z",
+  "finishedAt": "2026-08-30T09:07:57.475Z",
   "requestsUsed": 0,
   "sourceId": "curated-benefits",
   "log": [
@@ -25,6 +25,6 @@
     "[curated-benefits] va-state.json: 10 record(s)",
     "[curated-benefits] wa.json: 11 record(s)",
     "[curated-benefits] 121 curated benefit(s) from 13 file(s)",
-    "[curated-benefits] published 121 record(s) to .\\data\\published\\benefits\\curated-benefits.json"
+    "[curated-benefits] published 121 record(s) to ./data/published/benefits/curated-benefits.json"
   ]
 }

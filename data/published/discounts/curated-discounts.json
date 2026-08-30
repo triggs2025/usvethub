@@ -2,7 +2,7 @@
   "sourceId": "curated-discounts",
   "recordType": "discount",
   "jurisdiction": null,
-  "generatedAt": "2026-08-29T06:17:00.673Z",
+  "generatedAt": "2026-08-30T09:07:57.404Z",
   "records": [
     {
       "id": "amtrak-veteran-discount",
@@ -24,7 +24,7 @@
         "title": "USVetHub verified discounts",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "apple-veteran-discount",
@@ -47,7 +47,7 @@
         "title": "USVetHub verified discounts",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "bass-pro-shops-veteran-discount",
@@ -68,7 +68,7 @@
         "title": "USVetHub verified discounts",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "chevrolet-veteran-discount",
@@ -90,7 +90,7 @@
         "title": "USVetHub verified discounts",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "home-depot-veteran-discount",
@@ -113,7 +113,7 @@
         "title": "USVetHub verified discounts",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "linkedin-veteran-premium-subscription",
@@ -136,7 +136,7 @@
         "title": "USVetHub verified discounts",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "lowes-veteran-discount",
@@ -158,7 +158,7 @@
         "title": "USVetHub verified discounts",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "michaels-veteran-discount",
@@ -179,7 +179,7 @@
         "title": "USVetHub verified discounts",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "national-park-service-military-pass",
@@ -201,7 +201,7 @@
         "title": "USVetHub verified discounts",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "outback-steakhouse-veteran-discount",
@@ -223,7 +223,7 @@
         "title": "USVetHub verified discounts",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "samsung-veteran-discount",
@@ -246,7 +246,7 @@
         "title": "USVetHub verified discounts",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "t-mobile-veteran-discount",
@@ -270,7 +270,7 @@
         "title": "USVetHub verified discounts",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "under-armour-veteran-discount",
@@ -293,7 +293,7 @@
         "title": "USVetHub verified discounts",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "united-parks-waves-of-honor-veteran-discount",
@@ -314,7 +314,7 @@
         "title": "USVetHub verified discounts",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "verizon-veteran-discount",
@@ -338,7 +338,7 @@
         "title": "USVetHub verified discounts",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "wyndham-hotels-veteran-discount",
@@ -359,7 +359,7 @@
         "title": "USVetHub verified discounts",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     }
   ]
 }

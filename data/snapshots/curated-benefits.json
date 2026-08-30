@@ -2,7 +2,7 @@
   "sourceId": "curated-benefits",
   "recordType": "benefit",
   "jurisdiction": null,
-  "generatedAt": "2026-08-30T05:24:56.024Z",
+  "generatedAt": "2026-08-30T05:27:22.065Z",
   "records": [
     {
       "id": "az-disabled-veteran-hunting-fishing-license",
@@ -1052,23 +1052,26 @@
       "summary": "The HERO Scholarship helps pay for college for Georgia National Guard and U.S. Military Reserve members who served in a combat zone, and for the children and spouses of those members. It is administered by the Georgia Student Finance Commission.",
       "amount": "Up to $2,000 per academic school year, prorated below 12 credit hours, up to $8,000 total for the equivalent of four academic years. Funding is subject to legislative appropriation and awards are first come, first served.",
       "eligibility": [
-        "Category 1: an active member of the Georgia National Guard or U.S. Military Reserves deployed to a combat zone on or after February 1, 2003, for at least 181 cumulative days, or evacuated because of severe injuries",
-        "Category 2: a child of a member who meets the Category 1 service, born before or within nine months of the start of the qualifying service, and age 25 or younger during that service",
-        "Category 3: a child of a member who was killed in the combat zone, or who died or became 100 percent disabled from injuries received there, with the same birth and age conditions",
-        "Category 4: the spouse of a former member who was killed in a designated combat zone, or who died or became 100 percent disabled from injuries received there, on or after February 1, 2003",
+        "Category 1: an active member of the Georgia National Guard or U.S. Military Reserves who was a Georgia resident and was deployed outside the United States to a designated combat zone for at least 181 cumulative days beginning on or after 1 February 2003, or for less than 181 days if evacuated because of severe injuries",
+        "Category 2: the child of a parent who met the Category 1 service while a Georgia resident. The child must have been born before the qualifying term of service or within nine months of its start, and been 25 or younger during it",
+        "Category 3: the child of a parent who was deployed to a combat zone on or after 1 February 2003 and was killed there, or died or became 100 percent disabled from injuries received there. The 181 day requirement does not apply to this category. Same birth and age conditions as Category 2",
+        "Category 4: the spouse of a former Georgia National Guard or Reserve member who was killed in a designated combat zone, or died or became 100 percent disabled from injuries received there, on or after 1 February 2003",
         "You must meet U.S. citizenship or eligible non-citizen requirements",
-        "You must have lived in Georgia for 12 consecutive months before enrollment",
-        "You must attend an eligible University System of Georgia, Technical College System of Georgia, or eligible Georgia private non-profit college or university",
-        "You must comply with Georgia's drug-free postsecondary education law, and register with Selective Service if that applies to you"
+        "You must meet the Georgia residency requirement for 12 consecutive months immediately before the term starts",
+        "You must be enrolled at an eligible University System of Georgia, Technical College System of Georgia, or eligible Georgia private non-profit college or university",
+        "You must comply with the Georgia Drug-Free Postsecondary Education Act of 1990, and meet Selective Service registration requirements if they apply to you"
       ],
       "details": [
-        "There is a filing deadline tied to the date the service member returned from the combat zone, and eligibility ends a set number of years after that date. The exact windows are on the program's application procedure and deadline page, so check them before you assume you still qualify.",
-        "Category 2 awards are counted per qualifying term of service, up to four qualifying terms, and still cannot exceed the overall total."
+        "There is a hard filing deadline and it is easy to miss: the initial HERO application must be filed no later than two years after you gain eligibility. After that the door closes.",
+        "It is not automatic once you are in. A renewal application has to be completed each academic year.",
+        "Awards are made first come, first served and only as appropriated funds are available, so filing early matters even inside the two year window.",
+        "Category 3 is more forgiving than Category 1 and 2 on service length. If the parent was killed or became 100 percent disabled from combat zone injuries, the 181 cumulative days requirement does not apply.",
+        "Category 2 awards accrue per qualifying term of service, up to four qualifying terms, and still cannot exceed the $8,000 overall total."
       ],
       "agency": "Georgia Student Finance Commission",
       "officialUrl": "https://www.gafutures.org/hope-state-aid-programs/scholarships-grants/hero/award-amounts/",
       "applyUrl": "https://www.gafutures.org/hope-state-aid-programs/scholarships-grants/hero/",
-      "confidence": "needs-review",
+      "confidence": "verified",
       "source": {
         "id": "curated-benefits",
         "title": "USVetHub verified benefit records",
@@ -1115,19 +1118,20 @@
       "summary": "Georgia adds preference credits to the applications of qualifying Veterans applying for state jobs. Wartime and conflict-period service earns a 5-point credit, and service-connected disability or certain survivor status earns a 10-point credit.",
       "amount": "A 5-point credit for qualifying conflict-period service. A 10-point credit for the disability and survivor categories.",
       "eligibility": [
-        "5-point credit: you served on active duty in the U.S. Armed Forces during a period of armed conflict, or served as a National Guard or Reserve member on active duty during a qualifying operation",
+        "5-point credit: you served on active duty in the U.S. Armed Forces during a period of armed conflict, or, for National Guard and Reserve members, on active duty during specific operations. The Department names Iraqi Freedom, Enduring Freedom, and Desert Shield and Desert Storm as examples",
         "10-point credit: you have a VA service-connected disability rating of 10 percent or more",
         "10-point credit: you are over 55 and receive a disability pension or compensation",
-        "10-point credit: you are the spouse of a disabled Veteran who is disqualified from employment",
-        "10-point credit: you are the unmarried widow or widower of a deceased Veteran"
+        "10-point credit: you are the spouse of a disabled Veteran who is disqualified from employment because of the disability",
+        "10-point credit: you are the unmarried widow or widower of a deceased Veteran of any period of armed conflict"
       ],
       "details": [
         "You claim the credit on the State of Georgia employment application and support it with documentation such as a DD Form 214 or verification of your service-connected disability status.",
+        "The two credits are described as alternatives rather than as amounts that stack. If you fit a 10-point category, claim that one.",
         "This is a Georgia state hiring preference. Federal hiring preference is a separate program under 5 U.S.C. 2108, and local governments set their own rules."
       ],
       "agency": "State of Georgia hiring agencies, with guidance from the Georgia Department of Veterans Service",
       "officialUrl": "https://veterans.georgia.gov/other-special-state-provisions",
-      "confidence": "needs-review",
+      "confidence": "verified",
       "source": {
         "id": "curated-benefits",
         "title": "USVetHub verified benefit records",
@@ -2464,24 +2468,26 @@
       "summary": "Pennsylvania pays a per-semester gratuity directly to an approved Pennsylvania school for the child of a wartime Veteran who is rated 100 percent permanently and totally disabled or who died in service or from a service-connected disability.",
       "amount": "Up to $500 per term or semester per qualified child, paid directly to the approved educational institution. Payments run no longer than four scholastic years, which DMVA describes as eight payments.",
       "eligibility": [
-        "The child is between 16 and 23 years of age. The statute allows payments to continue past 23 if the child is still completing the course of study",
+        "The child is between 16 and 23 years of age. Under 51 Pa.C.S. 8702, if the child turns 23 while completing an educational or training course, payments may continue until that course is completed",
         "The child has lived in Pennsylvania for the five years immediately before applying",
         "The child attends an approved educational institution located in Pennsylvania",
         "The child demonstrates financial need",
-        "The Veteran parent had an Honorable or Under Honorable Conditions discharge and served during a period of war or armed conflict, and is rated 100 percent permanent and total service-connected disabled by the VA",
-        "Alternatively, the Veteran parent died in service during a period of war or armed conflict, or died as a result of a service-connected disability"
+        "The Veteran parent had an Honorable or Under Honorable Conditions discharge and served during established wartime service dates as determined by the VA, and is rated 100 percent permanent and total service-connected disabled",
+        "Alternatively, the Veteran parent died in service during a period of war or armed conflict",
+        "Wartime service can also be established by an Armed Forces Expeditionary Medal, a Navy Expeditionary Medal, or a Marine Corps Expeditionary Medal"
       ],
       "details": [
-        "The money goes to the school, not to the student or the family.",
-        "DMVA lists the documents to bring: the Veteran's DD214 or military death certificate, the applicant's birth certificate, photo identification, and proof of five years of Pennsylvania residency.",
+        "The expeditionary medal route is worth checking before you rule yourself out. DMVA accepts an Armed Forces, Navy, or Marine Corps Expeditionary Medal as establishing wartime service, which reaches service that does not fall inside a formally declared wartime period.",
+        "The money goes to the school, not to the student or the family, and only after the approved institution submits proof that the applicant is matriculated.",
+        "DMVA lists the documents to bring: the Veteran's DD214 or military death certificate, the applicant's birth certificate, photo identification such as a driver's licence or voter registration, and proof of five years of Pennsylvania residency.",
         "You apply through the County Director of Veterans Affairs in the county where you live.",
-        "The statute lets the department adjust the per-term amount to stay within the appropriation, so the payment can be less than the maximum.",
-        "DMVA points applicants to the VA WEAMS tool to check whether a Pennsylvania school is approved. General questions go to Ra-eg@pa.gov, and personal information should not be emailed."
+        "The statute lets the department adjust the per-term amount to stay within the appropriation, so the payment can be less than the $500 maximum.",
+        "DMVA points applicants to the VA WEAMS institution search tool to check whether a Pennsylvania school is approved. General questions go to Ra-eg@pa.gov, and personal information should not be emailed."
       ],
       "agency": "Pennsylvania Department of Military and Veterans Affairs",
       "statuteRef": "51 Pa.C.S. Ch. 87 (sections 8701 to 8703)",
       "officialUrl": "https://www.pa.gov/agencies/dmva/pennsylvania-veterans/pa-vetconnect/state-veterans-programs/financial-assistance/educational-gratuity-program",
-      "confidence": "needs-review",
+      "confidence": "verified",
       "source": {
         "id": "curated-benefits",
         "title": "USVetHub verified benefit records",
@@ -2585,25 +2591,26 @@
       "summary": "Pennsylvania adds 10 points to a Veteran's passing civil service examination score and requires appointing authorities to give preference to a qualified Veteran on the eligible list. The same preference extends to certain spouses and surviving spouses.",
       "amount": "10 additional points added to a passing civil service examination score, which then sets the Veteran's standing on the eligible list",
       "eligibility": [
-        "Served in the armed forces of the United States, including a reserve component or the National Guard",
-        "Completed the initial contractual military service obligation",
-        "Last discharge or release was under conditions other than dishonorable",
-        "A member still on active duty may qualify within 90 days of an approved discharge after three or more years of service",
-        "Service is documented by a DD214, DD215, or NGB-22, or by a statement of service",
-        "A surviving spouse of a deceased service member, and the spouse of a Veteran the VA has classified as having a permanent total disability, receive the same preference"
+        "You served in the armed forces, including a reserve component or the National Guard, completed your initial contractual military service obligation, and your last discharge or release was under conditions other than dishonorable",
+        "Or you served during a period of war or armed conflict as determined by the Department of Defense, completed a tour of active duty for purposes other than training, were released from it under conditions other than dishonorable, and continue to serve. This route does not require completing the initial contractual obligation",
+        "Or you completed an initial contractual military service obligation and continue to serve",
+        "Or you are on active duty completing a tour of three years or more and are within 90 days of an approved discharge or release, evidenced by documentation of the projected discharge under conditions other than dishonorable",
+        "Service is documented by discharge papers, separation documents such as a DD214, DD215, or NGB-22, or a statement of service",
+        "Under 51 Pa.C.S. 7108 the same preference extends to an unmarried surviving spouse of a deceased service member, and to the spouse of a Veteran the VA has classified as having a permanent total disability"
       ],
       "details": [
-        "Two separate things happen. Section 7103 adds the 10 examination points for civil service appointments. Section 7104 requires an appointing authority filling a non-civil-service public position to give preference to a qualified Veteran.",
-        "The State Civil Service Commission states that appointing authorities must grant preference to a Veteran on the eligible list notwithstanding the Veteran's standing on that list, provided proper procedures are followed.",
-        "Section 7105 directs that military training and experience be counted as the equivalent of formal education when qualifications are assessed.",
-        "Chapter 71 also provides that age and a non-incapacitating physical impairment cannot disqualify an otherwise qualified Veteran, and that years of military service count toward seniority.",
-        "Chapter 71 is the exclusive Veterans' preference law for the Commonwealth, so it applies to Commonwealth and municipal public positions alike.",
-        "The Governor's Office of Administration handles preference questions at 717-783-6655 and ra-cs-vetpreference@pa.gov."
+        "Two separate things happen. Section 7103 adds 10 points to a passing civil service appointment examination score, and that new score sets your standing on the eligible list. Section 7104 then requires the appointing authority to give preference to a Veteran whose name appears on that list, notwithstanding the Veteran's standing on it, so long as the appointment is otherwise made under 71 Pa.C.S. 2402.",
+        "Section 7105(a) requires appointing authorities to count relevant training or education received during military service in lieu of formal training and education when judging whether you have the requisite qualifications.",
+        "Section 7105(b) provides that age, loss of limb, or another physical impairment that does not incapacitate you cannot be used to disqualify you, so long as you can satisfactorily perform in the position.",
+        "Section 7107 protects you in a layoff. When a reduction in force is necessary, your years of service are calculated by adding your civil service or public works years to your total years in the armed forces, including a reserve component or National Guard, during any period of war or armed conflict.",
+        "Section 7109 makes this chapter the exclusive Veterans' preference law applying to the Commonwealth and to its political subdivisions and municipal agencies, for appointment and for retention. A county or city cannot substitute its own weaker rule.",
+        "It is audited. The State Civil Service Commission conducts audits of appointments and changes in employment in the classified service to check strict compliance with the Military Affairs Code.",
+        "For the documentation required and where to submit it, see employment.pa.gov, or contact the Governor's Office of Administration at 717-783-6655 or ra-cs-vetpreference@pa.gov."
       ],
       "agency": "Pennsylvania State Civil Service Commission and the Governor's Office of Administration",
       "statuteRef": "51 Pa.C.S. Ch. 71 (sections 7101 to 7111), especially sections 7103, 7104, 7105, and 7108",
       "officialUrl": "https://www.pa.gov/agencies/scsc/veterans",
-      "confidence": "needs-review",
+      "confidence": "verified",
       "source": {
         "id": "curated-benefits",
         "title": "USVetHub verified benefit records",

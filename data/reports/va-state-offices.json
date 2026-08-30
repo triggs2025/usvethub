@@ -6,8 +6,8 @@
   "recordCount": 54,
   "previousCount": 54,
   "rejected": [],
-  "startedAt": "2026-08-29T06:02:09.764Z",
-  "finishedAt": "2026-08-29T06:02:10.516Z",
+  "startedAt": "2026-08-30T09:07:57.464Z",
+  "finishedAt": "2026-08-30T09:07:57.992Z",
   "requestsUsed": 1,
   "sourceId": "va-state-offices",
   "log": [
@@ -16,6 +16,6 @@
     "[va-state-offices] skipped \"Idaho Division of Veterans Services\": unrecognized location \"\"",
     "[va-state-offices] 54 state office(s) across 53 of 56 jurisdictions",
     "[va-state-offices] no state office found for: AS, ID, MP",
-    "[va-state-offices] published 54 record(s) to .\\data\\published\\organizations\\va-state-offices.json"
+    "[va-state-offices] published 54 record(s) to ./data/published/organizations/va-state-offices.json"
   ]
 }

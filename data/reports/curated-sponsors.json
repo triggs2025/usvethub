@@ -2,16 +2,16 @@
   "status": "ok",
   "reason": null,
   "published": true,
-  "unchanged": false,
+  "unchanged": true,
   "recordCount": 0,
   "previousCount": 0,
   "rejected": [],
-  "startedAt": "2026-08-29T06:02:09.708Z",
-  "finishedAt": "2026-08-29T06:02:09.716Z",
+  "startedAt": "2026-08-30T09:07:57.413Z",
+  "finishedAt": "2026-08-30T09:07:57.418Z",
   "requestsUsed": 0,
   "sourceId": "curated-sponsors",
   "log": [
-    "[curated-sponsors] 0 curated sponsor(s) from 0 file(s)",
-    "[curated-sponsors] published 0 record(s) to .\\data\\published\\sponsors\\curated-sponsors.json"
+    "[curated-sponsors] no curated directory at /home/runner/work/usvethub/usvethub/data/curated/sponsors, publishing nothing",
+    "[curated-sponsors] published 0 record(s) to ./data/published/sponsors/curated-sponsors.json"
   ]
 }
