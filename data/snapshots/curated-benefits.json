@@ -2,7 +2,7 @@
   "sourceId": "curated-benefits",
   "recordType": "benefit",
   "jurisdiction": null,
-  "generatedAt": "2026-08-30T04:43:14.336Z",
+  "generatedAt": "2026-08-30T05:24:56.024Z",
   "records": [
     {
       "id": "az-disabled-veteran-hunting-fishing-license",
@@ -290,21 +290,28 @@
       "jurisdiction": "CA",
       "category": "education",
       "title": "College Fee Waiver for the children and spouses of disabled or deceased Veterans",
-      "summary": "California waives system-wide tuition and fees at UC, CSU, and community colleges for certain dependents of Veterans with a service-connected disability or who died in service. Most categories carry an income test.",
+      "summary": "California waives mandatory system-wide tuition and fees at California State University and the community colleges for certain dependents of Veterans with a service-connected disability or who died in service. Most categories carry an income test, and the University of California is not automatically covered.",
       "eligibility": [
-        "A child of a Veteran who has a service-connected disability, was killed in service, or died of a service-connected disability, if the child's annual income including parental support is below the state poverty level figure named in the statute",
-        "A dependent, or an unmarried surviving spouse, of a California National Guard member killed or permanently disabled in the line of duty while in the active service of the state",
-        "An undergraduate who is a Medal of Honor recipient, or a child age 27 or younger of a Medal of Honor recipient, subject to the same income test and a California residency requirement for the recipient"
+        "A dependent eligible for assistance under Article 2 of the Military and Veterans Code beginning at Section 890, which is the main CalVet College Fee Waiver programme",
+        "A child of a Veteran who has a service-connected disability, was killed in service, or died of a service-connected disability, if the child's annual income including the value of parental support does not exceed the state poverty level named in the statute",
+        "A dependent, or an unmarried surviving spouse, of a California National Guard member who was killed, died of a disability from an event in the active service of the state, or is permanently disabled from such an event. Active service of the state means activation under Section 146 of the Military and Veterans Code",
+        "An undergraduate who is a Medal of Honor recipient, or an undergraduate child aged 27 or younger of a recipient, subject to the same income test and to the recipient having been a California resident",
+        "In every category, the student must be determined to be a California resident under Education Code 68000 and following"
       ],
       "details": [
-        "The waiver covers system-wide fees at a University of California campus, a California State University campus, or a California Community College. The statute conditions University of California participation on action by the Regents.",
-        "The income test is written as annual household income below the amount calculated for a single person with no dependents under Revenue and Taxation Code 18501. That figure changes, so ask the county veterans service office to run your numbers rather than guessing.",
-        "Applications are handled through your County Veterans Service Office, not the college financial aid office. There are several plans under this program with different rules, so bring your DD-214 and the Veteran's VA rating letter to the appointment."
+        "It waives mandatory system-wide tuition and fees, which the statute spells out as enrollment fees, registration fees, differential fees, and incidental fees. It is not a full cost of attendance award.",
+        "The University of California is the catch. Subdivision (g) says this section does not apply to UC unless the Regents adopt a resolution making it apply. California State University and the community colleges are covered outright.",
+        "You cannot claim it backwards. The statute allows a waiver for each academic year in which you apply for it, and expressly not for a prior academic year. Apply before the year you need covered.",
+        "The income test is annual household income below the amount calculated for a single person with no dependents under Revenue and Taxation Code 18501. That figure changes, so ask the county veterans service office to run your numbers rather than guessing.",
+        "There is a carve-out in subdivision (f) for one class of dependent defined in Military and Veterans Code 890(a)(4). If a county office tells you that you do not qualify despite fitting a category above, that provision is the likely reason to ask about.",
+        "The California Department of Veterans Affairs determines eligibility for the child and Medal of Honor categories.",
+        "Applications are handled through your County Veterans Service Office, not the college financial aid office. There are several plans under this program with different rules, so bring your DD-214 and the Veteran's VA rating letter to the appointment.",
+        "The section was last amended by AB 1745, Stats. 2023 ch. 695, effective 1 January 2024."
       ],
       "agency": "California Department of Veterans Affairs, through County Veterans Service Offices",
       "statuteRef": "Cal. Educ. Code 66025.3",
       "officialUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=EDC&sectionNum=66025.3",
-      "confidence": "needs-review",
+      "confidence": "verified",
       "source": {
         "id": "curated-benefits",
         "title": "USVetHub verified benefit records",
@@ -503,19 +510,23 @@
       "summary": "If you pass an entrance examination for a California state job, veterans' preference places you in the top rank of the resulting eligibility list. Certain spouses and surviving spouses get the same placement.",
       "eligibility": [
         "You are a Veteran who passes the entrance examination for the position",
+        "For this article, Veteran is defined narrowly in Government Code 18540.4: someone who served full time in the armed forces in time of national emergency or state military emergency, or during any expedition of the armed forces, and was discharged or released under conditions other than dishonorable",
         "Or you are the widow or widower of a Veteran",
-        "Or you are the spouse of a Veteran rated 100 percent disabled",
+        "Or you are the spouse of a Veteran currently declared 100 percent disabled by the VA as a result of service",
         "Anyone dishonorably discharged or released is excluded"
       ],
       "details": [
-        "The preference works by ranking, not by adding points to your score. Qualifying applicants who pass the entrance exam are placed in the top rank of the eligibility list, which is what puts your name in front of a hiring manager.",
+        "The whole operative sentence is short: a qualifying applicant who achieves a passing score on an entrance examination \"shall be ranked in the top rank of the resulting eligibility list.\"",
+        "The preference works by ranking, not by adding points to your score. That is what puts your name in front of a hiring manager rather than nudging you up a list.",
+        "Check the definition before assuming you qualify. It is not every Veteran. The service has to have been in a national or state military emergency or during an expedition of the armed forces, so purely peacetime service outside those conditions may not count. Ask CalHR rather than guessing.",
+        "The widow or widower category has no remarriage condition written into the section, and does not require that the Veteran died in service.",
         "The statute is written around entrance examinations and the resulting eligibility list. It does not by its terms extend to promotional examinations for people already in state service.",
         "You have to claim and document the preference through CalHR. Verify your status before you apply for a job rather than after."
       ],
       "agency": "California Department of Human Resources (CalHR)",
       "statuteRef": "Cal. Gov. Code 18973.1",
       "officialUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=18973.1",
-      "confidence": "needs-review",
+      "confidence": "verified",
       "source": {
         "id": "curated-benefits",
         "title": "USVetHub verified benefit records",
@@ -593,15 +604,17 @@
         "Applies at state universities, Florida College System institutions, school district career centers under Fla. Stat. 1001.44, and charter technical career centers"
       ],
       "details": [
-        "This is a waiver of the out-of-state surcharge, not free tuition. You still owe the in-state amount, which is where your GI Bill or other aid comes in.",
-        "The waiver is established in subsection (13) of Fla. Stat. 1009.26.",
-        "Institutions are required to report annually on the waivers they grant.",
+        "This is a waiver of the out-of-state surcharge, not free tuition. You still owe the in-state amount, which is where your GI Bill or other aid comes in. The statute says tuition and fees charged to you may not exceed what a resident student is charged.",
+        "The waiver is subsection (13) of Fla. Stat. 1009.26, and its formal name is the Congressman C.W. Bill Young Veteran Tuition Waiver Act.",
+        "The second route matters as much as the first. You qualify simply by being entitled to and using VA educational assistance for a term beginning after 1 July 2015 while physically residing in Florida, whether or not you are the Veteran.",
+        "A separate subsection (14) waives out-of-state fees for an active duty member of the Armed Forces residing or stationed outside Florida, so being posted away does not by itself cost you the resident rate.",
+        "Institutions must report the number and value of these waivers annually to the Board of Governors or the State Board of Education, which also adopt the rules administering it.",
         "Ask the school's Veteran services or registrar office to apply the waiver. It is not always applied automatically."
       ],
       "agency": "Florida public postsecondary institutions",
       "statuteRef": "Fla. Stat. 1009.26(13)",
-      "officialUrl": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=1000-1099/1009/Sections/1009.26.html",
-      "confidence": "needs-review",
+      "officialUrl": "https://www.flsenate.gov/Laws/Statutes/2024/1009.26",
+      "confidence": "verified",
       "source": {
         "id": "curated-benefits",
         "title": "USVetHub verified benefit records",
@@ -848,18 +861,20 @@
       "amount": "Tuition for 110 percent of the required credit hours of the program you are enrolled in",
       "eligibility": [
         "You received a Purple Heart or another combat decoration superior in precedence",
-        "You are enrolled in an undergraduate college credit program or a career certificate program",
-        "You must meet the statute's criteria on enrollment status, Florida residency, and submitting documentation"
+        "You are enrolled full-time, part-time, or in summer school in a program leading to an associate or baccalaureate degree, a college credit certificate, or a career certificate",
+        "You are currently a Florida resident, or you were a Florida resident at the time of the military action that resulted in the award",
+        "You submit the DD-214 issued at separation as documentation of the award. If the DD-214 is not available, other documentation recognised by the Department of Defense or the VA as documenting the award may be accepted"
       ],
       "details": [
         "This waiver is subsection (8) of Fla. Stat. 1009.26. It applies at state universities, Florida College System institutions, school district career centers under Fla. Stat. 1001.44, and charter technical career centers.",
-        "It is a tuition waiver, which is broader than the out-of-state fee waiver under the Bill Young program. If you qualify for both, ask the school which applies to your program.",
-        "Confirm with the institution exactly which documentation of the award they require and the residency conditions that apply to you."
+        "The residency test has two doors. You qualify if you are a Florida resident now, or if you were one at the time of the action that earned the decoration. A Veteran who has since moved away and moved back is not shut out.",
+        "It waives tuition itself, which is broader than the out-of-state fee waiver under the Bill Young program. If you qualify for both, ask the school which applies to your program.",
+        "The waiver runs to 110 percent of the credit hours your degree or certificate program requires, so there is some room for a repeated or changed course."
       ],
       "agency": "Florida public postsecondary institutions",
       "statuteRef": "Fla. Stat. 1009.26(8)",
-      "officialUrl": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=1000-1099/1009/Sections/1009.26.html",
-      "confidence": "needs-review",
+      "officialUrl": "https://www.flsenate.gov/Laws/Statutes/2024/1009.26",
+      "confidence": "verified",
       "source": {
         "id": "curated-benefits",
         "title": "USVetHub verified benefit records",
@@ -968,16 +983,21 @@
       "title": "Veterans preference in state and local government hiring and retention",
       "summary": "Florida and its counties, cities, and districts must give preference in appointment and retention to Veterans and certain family members. Reserve and Guard members and honorably discharged Veterans are also included.",
       "eligibility": [
-        "Disabled Veterans who served on active duty, received an honorable discharge, and have established a present service-connected disability, or who receive VA compensation",
-        "The spouse of a person with a total service-connected disability, or the spouse of a person missing in action",
-        "A parent or the widow or widower of a servicemember who died in combat-related circumstances",
-        "A Veteran who served at least 1 day during a wartime period as defined in Fla. Stat. 1.01(14), not counting active duty for training",
-        "Any Veteran as defined in the statute, not counting active duty for training",
+        "Disabled Veterans who served on active duty, received an honorable discharge, and have established the present existence of a service-connected disability compensable under laws administered by the VA, or who receive VA or Department of Defense compensation, disability retirement benefits, or pension",
+        "The spouse of a person with a total and permanent service-connected disability who, because of that disability, cannot qualify for employment",
+        "The spouse of a person missing in action, captured in the line of duty by a hostile force, or forcibly detained or interned in the line of duty by a foreign government or power",
+        "The unremarried widow or widower of a Veteran who died of a service-connected disability",
+        "The mother, father, legal guardian, or unremarried widow or widower of a service member who died in the line of duty under combat-related conditions, as verified by the Department of Defense",
+        "A wartime Veteran as defined in Fla. Stat. 1.01(14) who served at least 1 day during a wartime period, not counting active duty for training",
+        "Any Veteran as defined in Fla. Stat. 1.01(14), not counting active duty for training",
         "A current member of any reserve component of the U.S. Armed Forces or the Florida National Guard"
       ],
       "details": [
-        "Employers may waive a postsecondary education requirement for reserve and Guard members and for honorably discharged Veterans who are otherwise qualified.",
-        "How the preference is applied depends on the hiring process. Fla. Stat. 295.08 covers positions using a numerically based selection process and 295.085 covers positions that do not.",
+        "The spouse categories are narrower than people expect. It is not simply the spouse of a disabled Veteran. The disability has to be total and permanent, and it has to be the reason the person cannot qualify for employment.",
+        "The state and its political subdivisions may waive a postsecondary education requirement for a reserve or Guard member, or an honorably discharged Veteran, who is otherwise qualified for the position.",
+        "How the preference is applied depends on the hiring process. Fla. Stat. 295.08 covers positions using a numerically based selection process and 295.085 covers positions that do not. Where point values are not relevant, the Department of Veterans' Affairs rules must ensure special consideration at each step of the selection process.",
+        "A collective bargaining agreement does not permanently override this. Where the employer is party to one, it must be brought into compliance within 90 days of ratifying a successor agreement or extending an existing one.",
+        "Some positions are exempt, and the list is specific. Positions exempt from the state Career Service System under Fla. Stat. 110.205(2) are out, but University Support Personnel System positions, Career Service positions in the Florida College System, and positions at the School for the Deaf and the Blind are expressly still covered. In political subdivisions, elected offices and appointments to fill them, board and commission members, temporary positions without benefits, and positions requiring Florida Bar membership are exempt.",
         "Fla. Stat. 295.09 covers reinstatement, reemployment, and promotion preference. Fla. Stat. 295.11 gives you an investigation and administrative hearing route if a preferred applicant is not hired.",
         "State agencies and political subdivisions must develop written Veteran recruitment plans with annual hiring goals and must track preference usage statistically.",
         "A separate section, Fla. Stat. 295.188, addresses preference in hiring Veterans by private employers."
@@ -985,7 +1005,7 @@
       "agency": "Florida Department of Veterans' Affairs and Florida Department of Management Services",
       "statuteRef": "Fla. Stat. 295.07",
       "officialUrl": "https://www.flsenate.gov/Laws/Statutes/2024/295.07",
-      "confidence": "needs-review",
+      "confidence": "verified",
       "source": {
         "id": "curated-benefits",
         "title": "USVetHub verified benefit records",
@@ -1066,15 +1086,20 @@
       "eligibility": [
         "You retired from military service and receive military retirement income",
         "You file a Georgia income tax return",
-        "The additional exclusion for retirees under age 62 depends on having earned income of at least the stated amount"
+        "The additional exclusion for retirees under age 62 depends on earned income. The two state agencies word the test slightly differently, so see the details",
+        "The general retirement income exclusion is open to anyone 62 or older, and also to anyone permanently and totally disabled regardless of age"
       ],
       "details": [
+        "Two state agencies describe the under-62 rule in slightly different words, and the difference could matter to you. The Department of Veterans Service says an additional exemption of up to $17,500 is available for Veterans under 62 who have \"at least $17,500 of earned income\". The Department of Revenue says the additional $17,500 is for \"taxpayers with more than $17,500 of earned income in Georgia\". Revenue is the tax authority, and its version adds a Georgia-source requirement and reads as a strict threshold. If your earned income is close to $17,500, ask Revenue before you file.",
+        "The military-specific exclusion for retirees under 62 began 1 January 2022.",
         "The amounts for ages 62 and over come from Georgia's general retirement income exclusion, which is not limited to Veterans. Military retirement income counts toward it.",
-        "The exclusion is claimed on your Georgia return. Check current-year instructions and forms with the Georgia Department of Revenue, since the retirement income exclusion has been amended by the legislature more than once."
+        "If you are permanently and totally disabled you can take the general retirement income exclusion at any age, without waiting until 62. Revenue states this plainly, and a disabled Veteran under 62 is exactly the person likely to miss it.",
+        "The Department of Revenue does not publish the age-based dollar figures on its retirement income exclusion page. It points to the Individual Income Tax Instruction Booklet, Form IT-511, for the filing year. That booklet is the figure to trust, since the exclusion has been amended by the legislature more than once.",
+        "The exclusion is claimed on your Georgia return. There is no separate application."
       ],
       "agency": "Georgia Department of Revenue",
       "officialUrl": "https://veterans.georgia.gov/military-retirement-income-tax-exemption",
-      "confidence": "needs-review",
+      "confidence": "verified",
       "source": {
         "id": "curated-benefits",
         "title": "USVetHub verified benefit records",
@@ -1352,22 +1377,25 @@
       "jurisdiction": "NC",
       "category": "education",
       "title": "In-state tuition rate for Veterans and their dependents",
-      "summary": "A Veteran using federal education benefits can pay the North Carolina in-state tuition rate at a public college without waiting out the usual 12 month residency period, as long as North Carolina is their home and they file a letter of intent to establish residence.",
+      "summary": "A Veteran using federal education benefits can pay the North Carolina in-state tuition rate and mandatory fees at a public college without waiting out the usual 12 month residency period, as long as North Carolina is their home and they file a letter of intent to establish residence.",
       "eligibility": [
-        "You completed active duty of not less than 90 days in the Armed Forces, the US Public Health Service, or NOAA, and were discharged or released from that service",
+        "You completed active duty of not less than 90 days in the Armed Forces, the Commissioned Corps of the US Public Health Service, or NOAA, and were discharged or released from that service",
         "You qualify as a covered individual under 38 U.S.C. 3679(c), which also reaches certain dependents using transferred benefits",
         "Your abode is in North Carolina",
-        "You give the institution a letter of intent to establish residence in North Carolina"
+        "You give the institution a letter of intent to establish residence in North Carolina",
+        "The waiver runs to the extent required by 38 U.S.C. 3679, so the federal rule sets its outer edge"
       ],
       "details": [
-        "This route skips the standard 12 month durational residency requirement that other students must meet.",
+        "This route skips the standard 12 month durational residency requirement that other students must meet, and it covers applicable mandatory fees, not tuition alone.",
         "The statute puts the burden of proof on the person applying, so bring your DD-214 and your VA certificate of eligibility to the residency determination.",
-        "A separate statute, N.C.G.S. 116-143.3, gives the in-state rate to active duty members stationed in North Carolina and their spouses and dependent children, and lets them keep it if they stay continuously enrolled after a reassignment, a retirement, or an honorable discharge followed by establishing residency within 30 days."
+        "A separate statute, N.C.G.S. 116-143.3, gives the in-state rate and mandatory fees to a qualifying federal services member whose permanent duty station is in North Carolina, and to that member's dependents.",
+        "That one keeps paying after the assignment ends. If the member is reassigned out of state or retires, the member and the dependents stay eligible so long as they remain continuously enrolled in the same program. If the member is on active duty and receives an honorable discharge, they stay eligible by establishing North Carolina residency within 30 days of discharge and staying continuously enrolled.",
+        "A dependent child who lives with an Armed Forces member reassigned outside North Carolina also keeps eligibility under the same statute."
       ],
       "agency": "University of North Carolina System and the North Carolina Community College System",
       "statuteRef": "N.C.G.S. 116-143.3A",
       "officialUrl": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_116/GS_116-143.3A.html",
-      "confidence": "needs-review",
+      "confidence": "verified",
       "source": {
         "id": "curated-benefits",
         "title": "USVetHub verified benefit records",
@@ -1447,22 +1475,28 @@
       "amount": "Eight academic semesters, usable within eight years",
       "eligibility": [
         "You are under 25 years of age at the time you apply",
-        "You are a resident of and domiciled in North Carolina",
-        "Your Veteran parent was a legal resident of North Carolina when entering the qualifying period of military service, or you were born in North Carolina and have lived here continuously since birth",
+        "You are a resident of and domiciled in North Carolina when you apply",
+        "You have completed high school or its equivalent before receiving the scholarship, and have complied with Selective Service requirements if they apply to you",
+        "Your Veteran parent was a legal resident of North Carolina when entering the period of service that establishes eligibility, or you were born in North Carolina and have lived here continuously since birth",
         "You meet the definition of child in 37 U.S.C. 401",
-        "Your Veteran parent falls into one of the statutory classes: killed in action or died of service-connected injuries, rated 100 percent for a wartime service-connected disability, rated 20 percent or more but less than 100 percent or awarded a Purple Heart for combat wounds, deceased or drawing a nonservice-connected permanent and total disability pension after combat zone or campaign service, or listed as missing in action, captured in the line of duty, or forcibly detained or interned"
+        "Your Veteran parent falls into one of the statutory classes: killed in action or died of service-connected causes, rated 100 percent for a wartime service-connected disability, rated 20 percent or more but less than 100 percent or awarded a Purple Heart, deceased or drawing a nonservice-connected permanent and total disability pension or having served in a combat zone or a campaign with an authorized badge or medal, or listed as missing in action, captured, or forcibly detained"
       ],
       "details": [
-        "The statute sorts awards into Class I-A, I-B, II, III, and IV. Class II and Class III are each capped at 100 children per year. The other classes are not capped in the statute.",
-        "At a North Carolina public institution the program pays the allocable costs for room, board, tuition, and other charges. At a private institution it instead pays a fixed monetary allowance per academic term, set by the Director of the Budget, with a lower uniform rate for Class I-B than for the other classes. Confirm the current allowance figures with the agency before you rely on them.",
-        "The state portal lists a February 14 deadline for the classes covering Veterans rated less than 100 percent disabled or who served in a combat zone. Other classes have separate deadlines. Confirm the exact date for your class on the portal each year, because the portal closes once a term's deadline passes.",
-        "Applications are filed on the DMVA scholarship portal, not with the college."
+        "There is an escape hatch on the birth requirement that families do not know about. If you were not born in North Carolina, the Department may still waive that requirement where your mother was a native-born North Carolina resident, was a resident when she married the Veteran, was temporarily outside the state when you were born, and you were brought back to North Carolina within a reasonable time and have lived here since.",
+        "The statute sorts awards into Class I-A, I-B, II, III, and IV. Class II and Class III are each capped at 100 children per year. The other classes are not capped.",
+        "Class III is the broadest and the one most post-9/11 families fit: it covers a Veteran parent who served in a combat zone or adjacent waters, or in any campaign, expedition, or engagement for which the Department of Defense authorizes a campaign badge or medal. It is one of the two classes limited to 100 awards a year, so apply early.",
+        "Class I-B is a limited award, but it upgrades itself. If the Veteran parent later dies of the wartime service-connected condition before the recipient has used all their eligibility time, the Department amends the award from Class I-B to the fuller Class I-A for the remainder.",
+        "You may be considered under more than one class, but you can only be awarded one scholarship.",
+        "The Persian Gulf War period in the statute begins 2 August 1990 and has no end date yet, because it ends only on a Presidential proclamation or a concurrent resolution of Congress.",
+        "At a North Carolina public institution the program pays allocable costs including room, board, and tuition. At an approved private institution it instead pays a fixed monetary allowance per academic term, with a lower rate for Class I-B. Confirm the current allowance figures with the Department before you rely on them.",
+        "The deadline is 14 February for the classes covering a Veteran rated less than 100 percent service connected or who served in a combat zone. Other classes have separate deadlines. As of August 2026 the Department has closed the portal for the Fall 2026 semester, so the next opening is the one to watch.",
+        "Applications are filed on the Department's scholarship portal, not with the college. Paper applications are obsolete and are returned to sender."
       ],
       "agency": "North Carolina Department of Military and Veterans Affairs",
       "statuteRef": "N.C.G.S. 143B-1223 through 143B-1227",
       "officialUrl": "https://www.milvets.nc.gov/benefits-services/scholarships",
       "applyUrl": "https://scholarships.milvets.nc.gov/",
-      "confidence": "needs-review",
+      "confidence": "verified",
       "source": {
         "id": "curated-benefits",
         "title": "USVetHub verified benefit records",
@@ -1535,20 +1569,26 @@
       "summary": "North Carolina gives eligible Veterans a hiring preference for state jobs covered by the State Human Resources Act. Military training and additional service count toward the qualifications for the job.",
       "eligibility": [
         "A Veteran who served during a period of war",
-        "A Veteran with a service-connected disability incurred during peacetime",
-        "The spouse of a disabled Veteran",
-        "A surviving spouse or dependent of a Veteran who died on active duty during a period of war as a result of that service",
-        "Surviving family members of a Veteran who died for service-related reasons during peacetime"
+        "A Veteran who suffered a service-connected disability during peacetime",
+        "The spouse of a disabled Veteran, and the spouse of a Veteran disabled during peacetime",
+        "The surviving spouse or dependent of a Veteran who dies on active duty during a period of war, directly or indirectly as a result of that service",
+        "The surviving spouse or dependent of someone who served on active duty for reasons other than training and died for service-related reasons during peacetime",
+        "Veteran means a person who served on active duty for reasons other than training and was discharged under other than dishonorable conditions"
       ],
       "details": [
-        "The preference applies to positions subject to the State Human Resources Act with every state department, agency, and institution. It reaches initial employment as well as promotions, reassignments, and horizontal transfers.",
-        "The State Human Resources Commission must give an eligible Veteran credit for all military service training or schooling that relates to the requirements of the job, plus experience credit for additional military service once the minimum qualifications are met.",
+        "Read the period of war definition before you assume you are outside it. The statute lists World War I, World War II, the Korean Conflict, and the stretch from 31 January 1955 to the end of hostilities in Vietnam on 7 May 1975, and then adds \"any other campaign, expedition, or engagement for which a campaign badge or medal is authorized by the United States Department of Defense.\" That last clause is what carries most post-Vietnam service.",
+        "There is a separate National Guard preference under N.C.G.S. 126-80.5 that this record does not otherwise cover. It reaches a current North Carolina Army or Air National Guard member in good standing, a former member discharged under honorable conditions with at least six years of creditable service, and the surviving spouse or dependent of a member who died on state active duty or for service-related reasons during peacetime.",
+        "The preference applies to positions subject to the State Human Resources Act with every state department, agency, and institution. It reaches initial employment as well as subsequent hirings, promotions, reassignments, and horizontal transfers.",
+        "The State Human Resources Commission must give credit for all military service training or schooling and experience that bears a reasonable and functional relationship to the job's requirements. Once you clear the minimum requirements, you also get experience credit for additional military service, related or unrelated.",
+        "In a reduction in force where seniority or years of service is one of the retention factors, the Commission may allow an eligible Veteran credit for military service.",
+        "If you believe you were denied the preference, you can appeal. N.C.G.S. 126-82(d) points to the contested case procedures in 126-34.01 and 126-34.02.",
+        "The statute has teeth. Willful failure by a covered state employee to comply with this Article is personal misconduct, and the chapter's rules for suspension, demotion, or dismissal apply.",
         "Some categories of positions are excluded. Check N.C.G.S. 126-83 for the exclusions before you count on the preference for a specific posting."
       ],
       "agency": "North Carolina Office of State Human Resources",
       "statuteRef": "N.C.G.S. 126-80 through 126-83",
       "officialUrl": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/ByArticle/Chapter_126/Article_13.html",
-      "confidence": "needs-review",
+      "confidence": "verified",
       "source": {
         "id": "curated-benefits",
         "title": "USVetHub verified benefit records",
@@ -1598,7 +1638,7 @@
       "jurisdiction": "NY",
       "category": "employment",
       "title": "Veterans credits on New York civil service examinations",
-      "summary": "New York adds points to your civil service exam score if you are a Veteran, and more points if you are a disabled Veteran. You can use the credit only once in your civil service career.",
+      "summary": "New York adds points to your civil service exam score if you are a Veteran, and more points if you are a disabled Veteran. The same statute also gives Veterans extra seniority for layoff purposes. The exam credit can be used only once in your civil service career.",
       "amount": "Disabled Veterans: 10 points on an original appointment exam and 5 points on a promotion exam. Other Veterans: 5 points on an original appointment exam and 2.5 points on a promotion exam.",
       "eligibility": [
         "For the non-disabled Veteran credit: you are an armed forces member with an honorable discharge or discharge under honorable circumstances, including Veterans discharged over sexual orientation or gender identity who qualify under the statute",
@@ -1608,13 +1648,16 @@
       ],
       "details": [
         "The statute reads that a disabled Veteran gets \"ten points additional in a competitive examination for original appointment\" and \"five points additional credit in a competitive examination for promotion.\" A non-disabled Veteran gets \"five points additional credit in a competitive examination for original appointment\" and \"two and one-half points additional credit in a competitive examination for promotion.\"",
-        "If an appointment is terminated during the probationary period, you keep your eligibility for credits on future exams.",
-        "The credit is added only after you pass the exam. You have to claim it, so watch for the veterans credit question on the exam application."
+        "The same section carries a second benefit that gets far less attention: preference in retention when positions are abolished. Layoffs run in inverse order of the date of original appointment, and for this purpose a disabled Veteran's appointment date is treated as sixty months earlier than it actually was, and a non-disabled Veteran's as thirty months earlier. That is five years or two and a half years of extra seniority in a layoff. Blind employees are granted absolute preference in retention.",
+        "The credit is added only after you pass the exam, and only at the moment the eligible list is established. It cannot be added afterwards.",
+        "You have to claim it, and the statute gives you a window. You may apply for the additional credit at any time between the date of your examination application and the date the eligible list is established, and you must be allowed at least two months from filing to produce documentary proof.",
+        "For the disabled Veteran credit, the VA certificate ordinarily has to show an examination by a VA medical officer within one year of your application or of the list being established, finding a disability rated at ten per centum or more. The one year examination requirement drops away if the certificate states affirmatively that a permanent stabilized condition of ten per centum or more exists.",
+        "The one time rule is narrower than it sounds, and three situations do not burn your credit. If the added points did not change your position on the list, if you were appointed at the same relative standing you would have had without them, or if the appointment or promotion ended at or before the end of the probationary term by termination or resignation, you are not treated as having used the credit."
       ],
       "agency": "New York State Department of Civil Service, and local civil service commissions",
       "statuteRef": "N.Y. Civil Service Law 85",
       "officialUrl": "https://www.nysenate.gov/legislation/laws/CVS/85",
-      "confidence": "needs-review",
+      "confidence": "verified",
       "source": {
         "id": "curated-benefits",
         "title": "USVetHub verified benefit records",
@@ -1879,24 +1922,30 @@
       "category": "education",
       "title": "New York State Veterans Tuition Award",
       "summary": "A state tuition award for New York resident Veterans attending an approved degree or vocational program. It is pegged to SUNY resident undergraduate tuition rather than a fixed dollar figure.",
-      "amount": "The annual undergraduate resident tuition rate at a SUNY state-operated campus, or your actual tuition, whichever is less. Part-time awards are prorated by credit hour.",
+      "amount": "The annual undergraduate resident tuition rate at a SUNY state-operated campus, or your actual tuition, whichever is less. Part-time awards are prorated by credit hour. Maximum of 4 years, 8 full-time semesters, across undergraduate and graduate study combined.",
       "eligibility": [
-        "You are a U.S. citizen or eligible noncitizen",
-        "You are a legal resident of New York State and have resided in New York State for 12 continuous months",
-        "You were discharged under honorable conditions",
-        "You have at least four years of active duty service, or you served in combat in Vietnam, the Persian Gulf, or Afghanistan",
-        "National Guard members qualify with four or more years of active duty deployment, or with certain expeditionary medals",
-        "HESC lists qualifying service as Vietnam service from November 1, 1955 to May 7, 1975, Persian Gulf service on or after August 2, 1990, and Afghanistan service during hostilities on or after September 11, 2001, or receipt of an Armed Forces Expeditionary Medal or equivalent"
+        "You are a U.S. citizen or eligible noncitizen. Non-residents, including undocumented students, apply for eligibility under the NYS DREAM Act first",
+        "You are a legal resident of New York State and have resided in New York State for 12 continuous months before the term begins",
+        "You have at least four years of active duty service, or you served in combat or the combat theaters of Vietnam, the Persian Gulf, or Afghanistan",
+        "You must not have been dishonorably discharged",
+        "National Guard members qualify if total active duty deployment is four years or more, or if they served in combat as shown by an Armed Forces, Navy, or Marine Corps Expeditionary Medal",
+        "You graduated high school in the United States, earned a GED, or passed a federally approved Ability to Benefit test",
+        "You are matriculated and in good academic standing, and are charged at least $200 tuition per year"
       ],
       "details": [
-        "The award cannot exceed undergraduate tuition at a state-operated SUNY campus, so a private school award will not cover the full bill.",
-        "For a degree program, file the FAFSA and the New York State TAP application first, then submit the Veterans Tuition Award application. For vocational training, submit the Veterans Tuition Award application and HESC will email a separate payment application if you are eligible.",
-        "HESC lists the deadline as open year round. Award duration is limited and depends on whether you are in a vocational program or a degree program.",
-        "HESC's phone number is 1-888-NYSHESC, which is 1-888-697-4372."
+        "The interaction with the GI Bill is the thing to understand first. If a Chapter 33 Post-9/11 benefit or a Yellow Ribbon component already covers your tuition, you are not eligible for this award. If you are using the Montgomery GI Bill, you are eligible. Total aid from all sources still cannot exceed your cost of attendance.",
+        "The award cannot exceed undergraduate tuition at a state-operated SUNY campus, so at a private college it will not cover the full bill. It is available at SUNY, CUNY, private colleges, and participating vocational schools.",
+        "Duration is capped at four years, meaning eight full-time semesters, across undergraduate and graduate study combined. Within that: undergraduate full-time is four years, or five for an approved five-year program; graduate study is three years; an approved vocational program is up to two years. Part-time study is prorated by credits.",
+        "Full-time means 12 or more credits a semester, or 24 or more hours a week in vocational training. Part-time means at least three but fewer than 12 credits, or six to 23 hours a week.",
+        "An approved program means an undergraduate or graduate degree, diploma, or certificate program at a degree-granting institution, or a non-credit vocational training program of at least 320 clock hours specifically approved by the State Education Department. Ask your financial aid office whether yours qualifies.",
+        "For a degree program, file the FAFSA and the New York State TAP application first, then submit the Veterans Tuition Award application. For vocational training, submit the Veterans Tuition Award application and HESC will email a separate student payment application if you are eligible.",
+        "HESC lists the deadline as open year round, and the award is annual.",
+        "Award payments may have tax implications. HESC points you to a tax professional, the IRS, or the state Department of Taxation and Finance.",
+        "HESC's phone number is 1-888-NYSHESC, which is 1-888-697-4372, staffed 8:30 am to 4:30 pm Monday through Friday."
       ],
       "agency": "New York State Higher Education Services Corporation",
       "officialUrl": "https://hesc.ny.gov/veterans-tuition-awards",
-      "confidence": "needs-review",
+      "confidence": "verified",
       "source": {
         "id": "curated-benefits",
         "title": "USVetHub verified benefit records",
@@ -1912,21 +1961,27 @@
       "summary": "Ohio adds a percentage credit to a Veteran's score on competitive civil service examinations for state and local government jobs. Reserve and national guard members who finished initial entry level training get a smaller credit.",
       "amount": "Ohio Revised Code 124.23 provides additional credit of twenty per cent of the person's total grade given in the examination for a qualifying honorably discharged Veteran, and fifteen per cent for a qualifying reserve component or Ohio national guard member. The two cannot be combined.",
       "eligibility": [
-        "Twenty per cent credit: completed service in the uniformed services and received an honorable discharge, or was transferred to the reserves with evidence of satisfactory service. Must be a resident of the state.",
-        "Fifteen per cent credit: member of a reserve component, including the Ohio national guard, who has completed initial entry level training.",
+        "Twenty per cent credit: you completed service in the uniformed services and were honorably discharged, or transferred to the reserve with evidence of satisfactory service, and you are a resident of Ohio.",
+        "Twenty per cent credit, second route: you are a member of a reserve component of the armed forces, including the Ohio national guard, who has completed more than 180 days of active duty service under a presidential executive order or an act of Congress. You do not have to be discharged.",
+        "Fifteen per cent credit: member in good standing of a reserve component, including the Ohio national guard, who has successfully completed initial entry-level training.",
         "Must be a United States citizen or have legally declared the intent to become one.",
-        "Must receive a passing grade on the examination before any additional credit is applied."
+        "Must receive a passing grade on the examination before any additional credit is applied.",
+        "You must file a certificate of service or an honorable discharge with the director. The credit attaches on that filing, not automatically."
       ],
       "details": [
         "The credit is applied on top of a passing score. It does not turn a failing exam into a passing one.",
         "The twenty per cent and fifteen per cent credits cannot be stacked.",
-        "The text of 124.23 examined here does not extend this exam credit to disabled Veterans as a separate larger credit, or to surviving spouses. If you have seen a claim that it does, verify it against the current statute before relying on it.",
+        "The 180 day reserve and national guard route to the full twenty per cent is the part people miss. A Guard member mobilised under Title 10 for six months qualifies for the same credit as a discharged Veteran.",
+        "The statute defines service in the uniformed services broadly: active duty, active duty for training, initial active duty for training, inactive duty training, full-time national guard duty, and time away from a job to take a fitness examination for such duty.",
+        "Uniformed services here means the armed forces as defined in Ohio Rev. Code 5907.01, the Army and Air National Guard when on active duty for training, inactive duty training, or full-time national guard duty, the commissioned corps of the public health service, and any other category the president designates in war or emergency.",
+        "The text of 124.23 does not give disabled Veterans a separate larger credit, and does not extend the credit to surviving spouses. If you have seen a claim that it does, verify it against the current statute before relying on it.",
+        "This section was last amended effective 20 March 2025 by Senate Bill 154 of the 135th General Assembly.",
         "Ohio Revised Code 5903.11 separately requires state agencies running federally funded employment and training programs to operate a Veteran priority system, referring special disabled Veterans first, then Vietnam era Veterans, then disabled Veterans, then all other Veterans."
       ],
       "agency": "Ohio Department of Administrative Services and local civil service commissions",
       "statuteRef": "Ohio Rev. Code 124.23, 5903.11",
       "officialUrl": "https://codes.ohio.gov/ohio-revised-code/section-124.23",
-      "confidence": "needs-review",
+      "confidence": "verified",
       "source": {
         "id": "curated-benefits",
         "title": "USVetHub verified benefit records",
@@ -2211,23 +2266,29 @@
       "category": "education",
       "title": "Ohio War Orphans and Severely Disabled Veterans' Children Scholarship",
       "summary": "Ohio helps pay college costs for the children of Veterans who died or who carry a severe service-connected disability. At Ohio state-supported colleges and universities the award takes the form of an exemption from general and instructional fees, with a grant option at private and career schools.",
-      "amount": "Two forms of award under Chapter 5910: exemption from general and instructional fees at state-supported colleges, or a grant equal to the average scholarship value for students at private institutions or career colleges. Capped at five academic years at the undergraduate level.",
+      "amount": "At an Ohio state-supported college, exemption from 100 percent of general and instructional fees. At an approved private or career school, a grant equal to the average value of those exemptions in the prior year, capped at the school's own charges. Five academic years, undergraduate only.",
       "eligibility": [
         "Child of a Veteran who died, or of a Veteran with a sixty per cent or greater service-connected disability, or of a Veteran receiving benefits for permanent and total nonservice-connected disability, as determined by the United States Department of Veterans Affairs.",
-        "The parent served in the armed forces of the United States during a conflict period specified in the chapter. Certain U.S. Merchant Marine service also counts.",
-        "Age at application: Ohio Revised Code 5910.03 requires the applicant to have attained the sixteenth, but not the twenty-fifth, birthday. For children of prisoners of war or those missing in action the window is narrower: has attained the sixteenth, but not the twenty-first, birthday.",
+        "The Veteran parent served 90 days or more, or was discharged for a disability incurred with less than 90 days of service, or died in service, during one of the chapter's conflict periods. Those run from 7 December 1941, and include 7 October 2001 to the end of Operation Enduring Freedom and 20 March 2003 to the end of Operation Iraqi Freedom, plus any other period VA establishes for pension purposes.",
+        "Participation in an operation for which the Armed Forces Expeditionary Medal was awarded also qualifies the parent, with no period requirement. Certain U.S. Merchant Marine service counts as well.",
+        "Age at application: Ohio Revised Code 5910.03 requires the applicant to have attained the sixteenth, but not the twenty-fifth, birthday.",
         "Residency: if the Veteran entered service as an Ohio resident, the applicant must have lived in Ohio for the preceding year. If the Veteran was not an Ohio resident at entry, the applicant must have resided in Ohio for the year before application plus any four of the last ten years.",
         "The scholarship board determines financial necessity."
       ],
       "details": [
+        "There is a separate and better award for the child of a prisoner of war or someone missing in action, under Ohio Revised Code 5910.032. It adds reasonable and necessary expenses for room, board, books, and laboratory fees on top of the fee exemption or grant, it sits outside the number of scholarships the board allocates, and the board may not reduce its percentage below 100 percent.",
+        "The age window for that POW and MIA award is narrower: sixteenth but not twenty-first birthday at application. It covers armed conflict on or after 1 January 1960, and the parent's POW or MIA status ending does not cost the child eligibility.",
+        "The base award covers general and instructional fees only. Room, board, books, and other fees are the family's responsibility unless you qualify under 5910.032.",
+        "The 100 per cent figure is not guaranteed. In a year when the general assembly does not appropriate enough to fund every eligible student, the board may reduce the percentage. It cannot reduce awards under 5910.032.",
+        "If funds are available, every eligible applicant is granted a scholarship. The board sets minimum scholastic requirements and withdraws the aid from anyone who does not maintain them.",
+        "Stepchildren who were never legally adopted can qualify, but the test is demanding: the Veteran parent must be married to the child's parent at the time of application, or have been at the time of death, and the child must have both lived with and been financially supported by the Veteran parent for at least ten consecutive years immediately before the application or the death.",
         "Administered by the Ohio War Orphans and Severely Disabled Veterans' Children Scholarship Board: the chancellor of higher education, the director of veterans services, one state representative, one state senator, and four appointees from the American Legion, VFW, Disabled American Veterans, and AMVETS.",
-        "The award covers general and instructional fees. It is not a full cost of attendance award, so room, board, books, and other fees are generally the family's responsibility.",
         "Application deadlines are set administratively by the Ohio Department of Higher Education and are not in the statute. Check the current deadline with the department or with your county Veterans service office before the term you want covered."
       ],
       "agency": "Ohio War Orphans and Severely Disabled Veterans' Children Scholarship Board, Ohio Department of Higher Education",
       "statuteRef": "Ohio Rev. Code Chapter 5910, especially 5910.03",
       "officialUrl": "https://codes.ohio.gov/ohio-revised-code/chapter-5910",
-      "confidence": "needs-review",
+      "confidence": "verified",
       "source": {
         "id": "curated-benefits",
         "title": "USVetHub verified benefit records",
@@ -3177,15 +3238,18 @@
       ],
       "details": [
         "The Commissioner of Veterans Services certifies eligibility. The waiver is applied by the school once you are admitted.",
-        "The domicile test looks at the service member, not the student. The service member must have established Virginia domicile at the time of entering active service or being called to active duty, or for a set period before, among other options in subsection C.",
+        "The domicile test looks at the service member, not the student, and the number is five years. The member must have established Virginia domicile at the time of entering active service or being called to active duty, or have had domicile or physical presence in Virginia for at least five years immediately before the admission application was submitted, or on the date of death and for at least five years before it.",
+        "There is a second route that runs through the surviving parent or spouse. Where the service member has died, a surviving parent or spouse who established Virginia domicile or physical presence for five years at some point before marrying the deceased can satisfy the test instead.",
+        "If the service member or the surviving spouse dies after establishing physical presence in Virginia but before the five years are up, the Commissioner has authority to consider the requirement met anyway. Ask rather than assume you are short.",
         "A stepchild counts as a child if the service member claimed the stepchild on a tax return or in DEERS while on active duty.",
-        "The stipend from the Virginia Military Survivors and Dependents Education Fund is separate from the waiver and is limited: combined with any other scholarship, grant, or waiver, it cannot exceed your actual allowed educational expenses. Each institution decides how the available fund money is distributed each year.",
-        "Funding rules for this program have been changed by the General Assembly more than once in recent years. Confirm the current stipend amount and any enrollment conditions with the Department of Veterans Services before you count on a figure."
+        "The stipend comes from a separate pot, the Virginia Military Survivors and Dependents Education Fund under Va. Code 23.1-608.1, and it is capped two ways. It is up to $2,000 or whatever the general appropriation act sets, and combined with any other scholarship, grant, or waiver it cannot exceed your actual allowed educational expenses. Each institution and the Council decide each year how the available money is spread.",
+        "Every Virginia public college has to describe this benefit in its catalog, so the financial aid office cannot claim not to know about it.",
+        "Funding rules have been changed by the General Assembly repeatedly, most recently in 2023 and again in 2025. Confirm the current stipend amount and any enrollment conditions with the Department of Veterans Services before you count on a figure."
       ],
       "agency": "Virginia Department of Veterans Services",
       "statuteRef": "Va. Code 23.1-608 and 23.1-608.1",
       "officialUrl": "https://law.lis.virginia.gov/vacode/title23.1/chapter6/section23.1-608/",
-      "confidence": "needs-review",
+      "confidence": "verified",
       "source": {
         "id": "curated-benefits",
         "title": "USVetHub verified benefit records",
@@ -3290,21 +3354,24 @@
       "summary": "Virginia gives Veterans a hiring preference for state employment. On a written exam your score goes up by five percent, or by 10 percent if the VA has fixed a service-connected disability rating for you.",
       "amount": "Five percent added to a passing written exam score, or 10 percent with a service-connected disability rating",
       "eligibility": [
-        "You are a Veteran with an honorable discharge and the military service the statute specifies",
-        "The increase applies only if you pass the examination",
+        "You have an honorable discharge, and either more than 180 consecutive days of full-time active duty service in the armed forces or their reserve components including the National Guard, or a service-connected disability rating fixed by the VA",
+        "The 180 day route and the disability route are alternatives. A short enlistment with a rating still qualifies",
+        "The exam score increase applies only if you pass the examination",
         "A surviving spouse of a Veteran killed in the line of duty also gets the preference",
         "A surviving child under age 27 of a Veteran killed in the line of duty also gets the preference",
-        "Members of the Virginia National Guard get a separate preference of five percentage points added to a passing assessment score"
+        "A current member of the Virginia National Guard who has satisfactorily completed required initial active-duty service gets a separate preference"
       ],
       "details": [
-        "For state positions that are not based on passing an exam, a Veteran, surviving spouse, or child who meets all the knowledge, skill, and ability requirements is given preference during the selection process. Veterans with a disability rating get additional consideration.",
-        "The National Guard preference does not apply to a position limited to current state employees, and it does not apply if another applicant is a Veteran or a former prisoner of war.",
+        "For state positions that are not based on passing an exam, a Veteran, surviving spouse, or child who meets all the knowledge, skill, and ability requirements is given preference during the selection process. Veterans with a service-connected disability rating get additional consideration. The Department of Human Resource Management has to publish guidelines for agencies as an addendum to the Hiring Policy for Executive Branch agencies.",
+        "The National Guard preference is calculated differently. Where the assessment uses numerical ratings, points equal to five percent of the total points available are added to a passing score, rather than five percentage points.",
+        "The National Guard preference does not apply to a position limited to current state employees, and it does not apply if any other applicant is a Veteran or a former prisoner of war.",
+        "If you are denied the job, the statute entitles you to request and inspect information about the reasons for the denial, to the extent the law permits. Most applicants never ask.",
         "This is preference, not a guarantee of hire. You still have to meet the posted requirements for the job."
       ],
       "agency": "Commonwealth of Virginia state agencies",
       "statuteRef": "Va. Code 2.2-2903",
       "officialUrl": "https://law.lis.virginia.gov/vacode/title2.2/chapter29/section2.2-2903/",
-      "confidence": "needs-review",
+      "confidence": "verified",
       "source": {
         "id": "curated-benefits",
         "title": "USVetHub verified benefit records",
@@ -3566,18 +3633,21 @@
         "Permissive waiver: the governing boards may waive all or a portion of tuition and fees for an eligible Veteran or National Guard member, and separately for a Washington domiciliary Veteran who did not serve on foreign soil or in international waters"
       ],
       "details": [
-        "'Eligible veteran or national guard member' is defined in the statute as a Washington domiciliary who served in active federal service under Title 10 or Title 32 in a war or conflict fought on foreign soil or in international waters, or in support of those serving there, and who has a qualifying discharge as defined in RCW 73.04.005.",
-        "'Totally disabled' means a person determined to be 100 percent disabled by the federal Department of Veterans Affairs.",
-        "Waivers under subsection (3) for Veterans who did not serve on foreign soil carry no state general fund support, so whether a school offers them depends on that school's budget. Ask the campus directly.",
+        "\"Eligible veteran or national guard member\" is defined in the statute as a Washington domiciliary who served in active federal service under Title 10 or Title 32 in a war or conflict fought on foreign soil or in international waters, or in support of those serving there, and who has a qualifying discharge as defined in RCW 73.04.005.",
+        "\"Child\" means a biological child, an adopted child, or a stepchild. Stepchildren are covered, which is the question families ask most often.",
+        "\"Totally disabled\" means a person determined to be 100 percent disabled by the federal Department of Veterans Affairs.",
+        "The $500 textbook and course materials stipend is divided equally among academic terms and prorated if you enrol part time. It is subject to amounts appropriated, so confirm it is funded for your year.",
+        "Waivers under subsection (3), for Veterans who did not serve on foreign soil, carry no state general fund support, so whether a school offers them depends on that school's budget. Ask the campus directly. Those permissive waivers are unaffected by the required ones.",
         "Graduate tuition waivers are not required for those who qualify, but the statute encourages them.",
         "Recipients may attend full time or part time, and continued participation is subject to the school's satisfactory progress policy.",
+        "The waivers are subject to the statewide waiver limits in RCW 28B.15.910, which is a cap on each institution rather than on you.",
         "Private vocational schools and private higher education institutions are encouraged, not required, to offer comparable waivers.",
         "Apply through the financial aid or Veteran services office at the Washington public college or university you plan to attend."
       ],
       "agency": "Governing boards of the state universities, regional universities, The Evergreen State College, and the community and technical colleges",
       "statuteRef": "RCW 28B.15.621",
       "officialUrl": "https://app.leg.wa.gov/RCW/default.aspx?cite=28B.15.621",
-      "confidence": "needs-review",
+      "confidence": "verified",
       "source": {
         "id": "curated-benefits",
         "title": "USVetHub verified benefit records",
@@ -3593,10 +3663,11 @@
       "summary": "Washington adds a percentage to a Veteran's passing score on competitive examinations for state, county, and municipal jobs. Veterans also receive preference in appointment to public departments and on state and county public works.",
       "amount": "10 percent added to a passing score for service during a period of war or armed conflict. 5 percent otherwise. 5 percent on promotional examinations for those called to active service from public employment.",
       "eligibility": [
-        "You are a Veteran as defined in RCW 41.04.007, or a member of the uniformed services as defined in RCW 41.04.010",
+        "You are a Veteran as defined in RCW 41.04.007, or a member of the uniformed services, which the statute limits to the Public Health Service commissioned corps and the NOAA commissioned officer corps",
         "You have a qualifying discharge as defined in RCW 73.04.005, shown by a DD Form 214, NGB Form 22, or equivalent successor discharge paperwork",
         "A predischarge certification may be used if issued no more than 120 days before submission, with official discharge documentation supplied within 30 days after discharge",
-        "Under RCW 73.16.010 the preference also reaches spouses of active duty service members and spouses of Veterans with a disability"
+        "For the separate appointment preference in RCW 73.16.010, a widow or widower also qualifies, as does the spouse of an active duty service member, and the spouse of a Veteran with a qualifying discharge who has a service-connected permanent and total disability",
+        "For that section, Veteran also includes a current National Guard or armed forces reserve member who has been deployed to serve in an armed conflict"
       ],
       "details": [
         "The 10 percent applies to a Veteran or uniformed service member who served during a period of war or in an armed conflict as defined in RCW 41.04.005 and who does not receive military retirement.",
@@ -3604,13 +3675,16 @@
         "The 10 percent and the general 5 percent are added until your first appointment and may not be used in promotional examinations.",
         "The separate 5 percent for someone called to active military service from employment with the state or a political subdivision or municipal corporation applies to promotional examinations, and only until the first promotion.",
         "The percentage is added to a passing mark, grade, or rating only, based on a possible rating of 100 points as perfect. It does not turn a failing score into a passing one.",
-        "RCW 73.16.010 separately provides that a physical impairment that does not prevent you from performing the job's duties is not a disqualifying factor.",
+        "It binds more than the state. The statute reaches all political subdivisions, all municipal corporations, and private companies the state contracts with to give the examinations.",
+        "If you claim on a predischarge certification, watch the clock. Fail to file official discharge paperwork within 30 days and the agency must notify you and give you at least 15 more days. Miss that too and it may rescind an appointment or benefit granted on the certification alone. The certification also cannot support preference beyond your discharge date, including in layoff or retention decisions, until the real paperwork is in.",
+        "RCW 73.16.010 separately provides that age, loss of limb, or another physical impairment that does not in fact incapacitate you is not a disqualifying factor, so long as you can do the duties of the job.",
+        "This part of the law was amended twice in 2026, by chapters 146 and 207. If you were told something different a year ago, check again.",
         "You must claim the preference. Ask the hiring agency how, and be ready to attach your discharge document."
       ],
       "agency": "Washington state agencies, counties, cities, and municipal corporations, plus contractors administering their examinations",
       "statuteRef": "RCW 41.04.010 and RCW 73.16.010",
       "officialUrl": "https://app.leg.wa.gov/RCW/default.aspx?cite=41.04.010",
-      "confidence": "needs-review",
+      "confidence": "verified",
       "source": {
         "id": "curated-benefits",
         "title": "USVetHub verified benefit records",

@@ -57,23 +57,29 @@
     "category": "education",
     "title": "Ohio War Orphans and Severely Disabled Veterans' Children Scholarship",
     "summary": "Ohio helps pay college costs for the children of Veterans who died or who carry a severe service-connected disability. At Ohio state-supported colleges and universities the award takes the form of an exemption from general and instructional fees, with a grant option at private and career schools.",
-    "amount": "Two forms of award under Chapter 5910: exemption from general and instructional fees at state-supported colleges, or a grant equal to the average scholarship value for students at private institutions or career colleges. Capped at five academic years at the undergraduate level.",
+    "amount": "At an Ohio state-supported college, exemption from 100 percent of general and instructional fees. At an approved private or career school, a grant equal to the average value of those exemptions in the prior year, capped at the school's own charges. Five academic years, undergraduate only.",
     "eligibility": [
       "Child of a Veteran who died, or of a Veteran with a sixty per cent or greater service-connected disability, or of a Veteran receiving benefits for permanent and total nonservice-connected disability, as determined by the United States Department of Veterans Affairs.",
-      "The parent served in the armed forces of the United States during a conflict period specified in the chapter. Certain U.S. Merchant Marine service also counts.",
-      "Age at application: Ohio Revised Code 5910.03 requires the applicant to have attained the sixteenth, but not the twenty-fifth, birthday. For children of prisoners of war or those missing in action the window is narrower: has attained the sixteenth, but not the twenty-first, birthday.",
+      "The Veteran parent served 90 days or more, or was discharged for a disability incurred with less than 90 days of service, or died in service, during one of the chapter's conflict periods. Those run from 7 December 1941, and include 7 October 2001 to the end of Operation Enduring Freedom and 20 March 2003 to the end of Operation Iraqi Freedom, plus any other period VA establishes for pension purposes.",
+      "Participation in an operation for which the Armed Forces Expeditionary Medal was awarded also qualifies the parent, with no period requirement. Certain U.S. Merchant Marine service counts as well.",
+      "Age at application: Ohio Revised Code 5910.03 requires the applicant to have attained the sixteenth, but not the twenty-fifth, birthday.",
       "Residency: if the Veteran entered service as an Ohio resident, the applicant must have lived in Ohio for the preceding year. If the Veteran was not an Ohio resident at entry, the applicant must have resided in Ohio for the year before application plus any four of the last ten years.",
       "The scholarship board determines financial necessity."
     ],
     "details": [
+      "There is a separate and better award for the child of a prisoner of war or someone missing in action, under Ohio Revised Code 5910.032. It adds reasonable and necessary expenses for room, board, books, and laboratory fees on top of the fee exemption or grant, it sits outside the number of scholarships the board allocates, and the board may not reduce its percentage below 100 percent.",
+      "The age window for that POW and MIA award is narrower: sixteenth but not twenty-first birthday at application. It covers armed conflict on or after 1 January 1960, and the parent's POW or MIA status ending does not cost the child eligibility.",
+      "The base award covers general and instructional fees only. Room, board, books, and other fees are the family's responsibility unless you qualify under 5910.032.",
+      "The 100 per cent figure is not guaranteed. In a year when the general assembly does not appropriate enough to fund every eligible student, the board may reduce the percentage. It cannot reduce awards under 5910.032.",
+      "If funds are available, every eligible applicant is granted a scholarship. The board sets minimum scholastic requirements and withdraws the aid from anyone who does not maintain them.",
+      "Stepchildren who were never legally adopted can qualify, but the test is demanding: the Veteran parent must be married to the child's parent at the time of application, or have been at the time of death, and the child must have both lived with and been financially supported by the Veteran parent for at least ten consecutive years immediately before the application or the death.",
       "Administered by the Ohio War Orphans and Severely Disabled Veterans' Children Scholarship Board: the chancellor of higher education, the director of veterans services, one state representative, one state senator, and four appointees from the American Legion, VFW, Disabled American Veterans, and AMVETS.",
-      "The award covers general and instructional fees. It is not a full cost of attendance award, so room, board, books, and other fees are generally the family's responsibility.",
       "Application deadlines are set administratively by the Ohio Department of Higher Education and are not in the statute. Check the current deadline with the department or with your county Veterans service office before the term you want covered."
     ],
     "agency": "Ohio War Orphans and Severely Disabled Veterans' Children Scholarship Board, Ohio Department of Higher Education",
     "statuteRef": "Ohio Rev. Code Chapter 5910, especially 5910.03",
     "officialUrl": "https://codes.ohio.gov/ohio-revised-code/chapter-5910",
-    "confidence": "needs-review"
+    "confidence": "verified"
   },
   {
     "id": "oh-military-retirement-income-deduction",
@@ -155,21 +161,27 @@
     "summary": "Ohio adds a percentage credit to a Veteran's score on competitive civil service examinations for state and local government jobs. Reserve and national guard members who finished initial entry level training get a smaller credit.",
     "amount": "Ohio Revised Code 124.23 provides additional credit of twenty per cent of the person's total grade given in the examination for a qualifying honorably discharged Veteran, and fifteen per cent for a qualifying reserve component or Ohio national guard member. The two cannot be combined.",
     "eligibility": [
-      "Twenty per cent credit: completed service in the uniformed services and received an honorable discharge, or was transferred to the reserves with evidence of satisfactory service. Must be a resident of the state.",
-      "Fifteen per cent credit: member of a reserve component, including the Ohio national guard, who has completed initial entry level training.",
+      "Twenty per cent credit: you completed service in the uniformed services and were honorably discharged, or transferred to the reserve with evidence of satisfactory service, and you are a resident of Ohio.",
+      "Twenty per cent credit, second route: you are a member of a reserve component of the armed forces, including the Ohio national guard, who has completed more than 180 days of active duty service under a presidential executive order or an act of Congress. You do not have to be discharged.",
+      "Fifteen per cent credit: member in good standing of a reserve component, including the Ohio national guard, who has successfully completed initial entry-level training.",
       "Must be a United States citizen or have legally declared the intent to become one.",
-      "Must receive a passing grade on the examination before any additional credit is applied."
+      "Must receive a passing grade on the examination before any additional credit is applied.",
+      "You must file a certificate of service or an honorable discharge with the director. The credit attaches on that filing, not automatically."
     ],
     "details": [
       "The credit is applied on top of a passing score. It does not turn a failing exam into a passing one.",
       "The twenty per cent and fifteen per cent credits cannot be stacked.",
-      "The text of 124.23 examined here does not extend this exam credit to disabled Veterans as a separate larger credit, or to surviving spouses. If you have seen a claim that it does, verify it against the current statute before relying on it.",
+      "The 180 day reserve and national guard route to the full twenty per cent is the part people miss. A Guard member mobilised under Title 10 for six months qualifies for the same credit as a discharged Veteran.",
+      "The statute defines service in the uniformed services broadly: active duty, active duty for training, initial active duty for training, inactive duty training, full-time national guard duty, and time away from a job to take a fitness examination for such duty.",
+      "Uniformed services here means the armed forces as defined in Ohio Rev. Code 5907.01, the Army and Air National Guard when on active duty for training, inactive duty training, or full-time national guard duty, the commissioned corps of the public health service, and any other category the president designates in war or emergency.",
+      "The text of 124.23 does not give disabled Veterans a separate larger credit, and does not extend the credit to surviving spouses. If you have seen a claim that it does, verify it against the current statute before relying on it.",
+      "This section was last amended effective 20 March 2025 by Senate Bill 154 of the 135th General Assembly.",
       "Ohio Revised Code 5903.11 separately requires state agencies running federally funded employment and training programs to operate a Veteran priority system, referring special disabled Veterans first, then Vietnam era Veterans, then disabled Veterans, then all other Veterans."
     ],
     "agency": "Ohio Department of Administrative Services and local civil service commissions",
     "statuteRef": "Ohio Rev. Code 124.23, 5903.11",
     "officialUrl": "https://codes.ohio.gov/ohio-revised-code/section-124.23",
-    "confidence": "needs-review"
+    "confidence": "verified"
   },
   {
     "id": "oh-military-training-occupational-licensing-credit",

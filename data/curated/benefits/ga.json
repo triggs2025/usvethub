@@ -57,23 +57,26 @@
     "summary": "The HERO Scholarship helps pay for college for Georgia National Guard and U.S. Military Reserve members who served in a combat zone, and for the children and spouses of those members. It is administered by the Georgia Student Finance Commission.",
     "amount": "Up to $2,000 per academic school year, prorated below 12 credit hours, up to $8,000 total for the equivalent of four academic years. Funding is subject to legislative appropriation and awards are first come, first served.",
     "eligibility": [
-      "Category 1: an active member of the Georgia National Guard or U.S. Military Reserves deployed to a combat zone on or after February 1, 2003, for at least 181 cumulative days, or evacuated because of severe injuries",
-      "Category 2: a child of a member who meets the Category 1 service, born before or within nine months of the start of the qualifying service, and age 25 or younger during that service",
-      "Category 3: a child of a member who was killed in the combat zone, or who died or became 100 percent disabled from injuries received there, with the same birth and age conditions",
-      "Category 4: the spouse of a former member who was killed in a designated combat zone, or who died or became 100 percent disabled from injuries received there, on or after February 1, 2003",
+      "Category 1: an active member of the Georgia National Guard or U.S. Military Reserves who was a Georgia resident and was deployed outside the United States to a designated combat zone for at least 181 cumulative days beginning on or after 1 February 2003, or for less than 181 days if evacuated because of severe injuries",
+      "Category 2: the child of a parent who met the Category 1 service while a Georgia resident. The child must have been born before the qualifying term of service or within nine months of its start, and been 25 or younger during it",
+      "Category 3: the child of a parent who was deployed to a combat zone on or after 1 February 2003 and was killed there, or died or became 100 percent disabled from injuries received there. The 181 day requirement does not apply to this category. Same birth and age conditions as Category 2",
+      "Category 4: the spouse of a former Georgia National Guard or Reserve member who was killed in a designated combat zone, or died or became 100 percent disabled from injuries received there, on or after 1 February 2003",
       "You must meet U.S. citizenship or eligible non-citizen requirements",
-      "You must have lived in Georgia for 12 consecutive months before enrollment",
-      "You must attend an eligible University System of Georgia, Technical College System of Georgia, or eligible Georgia private non-profit college or university",
-      "You must comply with Georgia's drug-free postsecondary education law, and register with Selective Service if that applies to you"
+      "You must meet the Georgia residency requirement for 12 consecutive months immediately before the term starts",
+      "You must be enrolled at an eligible University System of Georgia, Technical College System of Georgia, or eligible Georgia private non-profit college or university",
+      "You must comply with the Georgia Drug-Free Postsecondary Education Act of 1990, and meet Selective Service registration requirements if they apply to you"
     ],
     "details": [
-      "There is a filing deadline tied to the date the service member returned from the combat zone, and eligibility ends a set number of years after that date. The exact windows are on the program's application procedure and deadline page, so check them before you assume you still qualify.",
-      "Category 2 awards are counted per qualifying term of service, up to four qualifying terms, and still cannot exceed the overall total."
+      "There is a hard filing deadline and it is easy to miss: the initial HERO application must be filed no later than two years after you gain eligibility. After that the door closes.",
+      "It is not automatic once you are in. A renewal application has to be completed each academic year.",
+      "Awards are made first come, first served and only as appropriated funds are available, so filing early matters even inside the two year window.",
+      "Category 3 is more forgiving than Category 1 and 2 on service length. If the parent was killed or became 100 percent disabled from combat zone injuries, the 181 cumulative days requirement does not apply.",
+      "Category 2 awards accrue per qualifying term of service, up to four qualifying terms, and still cannot exceed the $8,000 overall total."
     ],
     "agency": "Georgia Student Finance Commission",
     "officialUrl": "https://www.gafutures.org/hope-state-aid-programs/scholarships-grants/hero/award-amounts/",
     "applyUrl": "https://www.gafutures.org/hope-state-aid-programs/scholarships-grants/hero/",
-    "confidence": "needs-review"
+    "confidence": "verified"
   },
   {
     "id": "ga-veteran-drivers-license",
@@ -152,19 +155,20 @@
     "summary": "Georgia adds preference credits to the applications of qualifying Veterans applying for state jobs. Wartime and conflict-period service earns a 5-point credit, and service-connected disability or certain survivor status earns a 10-point credit.",
     "amount": "A 5-point credit for qualifying conflict-period service. A 10-point credit for the disability and survivor categories.",
     "eligibility": [
-      "5-point credit: you served on active duty in the U.S. Armed Forces during a period of armed conflict, or served as a National Guard or Reserve member on active duty during a qualifying operation",
+      "5-point credit: you served on active duty in the U.S. Armed Forces during a period of armed conflict, or, for National Guard and Reserve members, on active duty during specific operations. The Department names Iraqi Freedom, Enduring Freedom, and Desert Shield and Desert Storm as examples",
       "10-point credit: you have a VA service-connected disability rating of 10 percent or more",
       "10-point credit: you are over 55 and receive a disability pension or compensation",
-      "10-point credit: you are the spouse of a disabled Veteran who is disqualified from employment",
-      "10-point credit: you are the unmarried widow or widower of a deceased Veteran"
+      "10-point credit: you are the spouse of a disabled Veteran who is disqualified from employment because of the disability",
+      "10-point credit: you are the unmarried widow or widower of a deceased Veteran of any period of armed conflict"
     ],
     "details": [
       "You claim the credit on the State of Georgia employment application and support it with documentation such as a DD Form 214 or verification of your service-connected disability status.",
+      "The two credits are described as alternatives rather than as amounts that stack. If you fit a 10-point category, claim that one.",
       "This is a Georgia state hiring preference. Federal hiring preference is a separate program under 5 U.S.C. 2108, and local governments set their own rules."
     ],
     "agency": "State of Georgia hiring agencies, with guidance from the Georgia Department of Veterans Service",
     "officialUrl": "https://veterans.georgia.gov/other-special-state-provisions",
-    "confidence": "needs-review"
+    "confidence": "verified"
   },
   {
     "id": "ga-war-veterans-homes",

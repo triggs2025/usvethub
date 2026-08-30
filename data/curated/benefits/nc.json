@@ -65,44 +65,53 @@
     "amount": "Eight academic semesters, usable within eight years",
     "eligibility": [
       "You are under 25 years of age at the time you apply",
-      "You are a resident of and domiciled in North Carolina",
-      "Your Veteran parent was a legal resident of North Carolina when entering the qualifying period of military service, or you were born in North Carolina and have lived here continuously since birth",
+      "You are a resident of and domiciled in North Carolina when you apply",
+      "You have completed high school or its equivalent before receiving the scholarship, and have complied with Selective Service requirements if they apply to you",
+      "Your Veteran parent was a legal resident of North Carolina when entering the period of service that establishes eligibility, or you were born in North Carolina and have lived here continuously since birth",
       "You meet the definition of child in 37 U.S.C. 401",
-      "Your Veteran parent falls into one of the statutory classes: killed in action or died of service-connected injuries, rated 100 percent for a wartime service-connected disability, rated 20 percent or more but less than 100 percent or awarded a Purple Heart for combat wounds, deceased or drawing a nonservice-connected permanent and total disability pension after combat zone or campaign service, or listed as missing in action, captured in the line of duty, or forcibly detained or interned"
+      "Your Veteran parent falls into one of the statutory classes: killed in action or died of service-connected causes, rated 100 percent for a wartime service-connected disability, rated 20 percent or more but less than 100 percent or awarded a Purple Heart, deceased or drawing a nonservice-connected permanent and total disability pension or having served in a combat zone or a campaign with an authorized badge or medal, or listed as missing in action, captured, or forcibly detained"
     ],
     "details": [
-      "The statute sorts awards into Class I-A, I-B, II, III, and IV. Class II and Class III are each capped at 100 children per year. The other classes are not capped in the statute.",
-      "At a North Carolina public institution the program pays the allocable costs for room, board, tuition, and other charges. At a private institution it instead pays a fixed monetary allowance per academic term, set by the Director of the Budget, with a lower uniform rate for Class I-B than for the other classes. Confirm the current allowance figures with the agency before you rely on them.",
-      "The state portal lists a February 14 deadline for the classes covering Veterans rated less than 100 percent disabled or who served in a combat zone. Other classes have separate deadlines. Confirm the exact date for your class on the portal each year, because the portal closes once a term's deadline passes.",
-      "Applications are filed on the DMVA scholarship portal, not with the college."
+      "There is an escape hatch on the birth requirement that families do not know about. If you were not born in North Carolina, the Department may still waive that requirement where your mother was a native-born North Carolina resident, was a resident when she married the Veteran, was temporarily outside the state when you were born, and you were brought back to North Carolina within a reasonable time and have lived here since.",
+      "The statute sorts awards into Class I-A, I-B, II, III, and IV. Class II and Class III are each capped at 100 children per year. The other classes are not capped.",
+      "Class III is the broadest and the one most post-9/11 families fit: it covers a Veteran parent who served in a combat zone or adjacent waters, or in any campaign, expedition, or engagement for which the Department of Defense authorizes a campaign badge or medal. It is one of the two classes limited to 100 awards a year, so apply early.",
+      "Class I-B is a limited award, but it upgrades itself. If the Veteran parent later dies of the wartime service-connected condition before the recipient has used all their eligibility time, the Department amends the award from Class I-B to the fuller Class I-A for the remainder.",
+      "You may be considered under more than one class, but you can only be awarded one scholarship.",
+      "The Persian Gulf War period in the statute begins 2 August 1990 and has no end date yet, because it ends only on a Presidential proclamation or a concurrent resolution of Congress.",
+      "At a North Carolina public institution the program pays allocable costs including room, board, and tuition. At an approved private institution it instead pays a fixed monetary allowance per academic term, with a lower rate for Class I-B. Confirm the current allowance figures with the Department before you rely on them.",
+      "The deadline is 14 February for the classes covering a Veteran rated less than 100 percent service connected or who served in a combat zone. Other classes have separate deadlines. As of August 2026 the Department has closed the portal for the Fall 2026 semester, so the next opening is the one to watch.",
+      "Applications are filed on the Department's scholarship portal, not with the college. Paper applications are obsolete and are returned to sender."
     ],
     "agency": "North Carolina Department of Military and Veterans Affairs",
     "statuteRef": "N.C.G.S. 143B-1223 through 143B-1227",
     "officialUrl": "https://www.milvets.nc.gov/benefits-services/scholarships",
     "applyUrl": "https://scholarships.milvets.nc.gov/",
-    "confidence": "needs-review"
+    "confidence": "verified"
   },
   {
     "id": "nc-in-state-tuition-veterans",
     "jurisdiction": "NC",
     "category": "education",
     "title": "In-state tuition rate for Veterans and their dependents",
-    "summary": "A Veteran using federal education benefits can pay the North Carolina in-state tuition rate at a public college without waiting out the usual 12 month residency period, as long as North Carolina is their home and they file a letter of intent to establish residence.",
+    "summary": "A Veteran using federal education benefits can pay the North Carolina in-state tuition rate and mandatory fees at a public college without waiting out the usual 12 month residency period, as long as North Carolina is their home and they file a letter of intent to establish residence.",
     "eligibility": [
-      "You completed active duty of not less than 90 days in the Armed Forces, the US Public Health Service, or NOAA, and were discharged or released from that service",
+      "You completed active duty of not less than 90 days in the Armed Forces, the Commissioned Corps of the US Public Health Service, or NOAA, and were discharged or released from that service",
       "You qualify as a covered individual under 38 U.S.C. 3679(c), which also reaches certain dependents using transferred benefits",
       "Your abode is in North Carolina",
-      "You give the institution a letter of intent to establish residence in North Carolina"
+      "You give the institution a letter of intent to establish residence in North Carolina",
+      "The waiver runs to the extent required by 38 U.S.C. 3679, so the federal rule sets its outer edge"
     ],
     "details": [
-      "This route skips the standard 12 month durational residency requirement that other students must meet.",
+      "This route skips the standard 12 month durational residency requirement that other students must meet, and it covers applicable mandatory fees, not tuition alone.",
       "The statute puts the burden of proof on the person applying, so bring your DD-214 and your VA certificate of eligibility to the residency determination.",
-      "A separate statute, N.C.G.S. 116-143.3, gives the in-state rate to active duty members stationed in North Carolina and their spouses and dependent children, and lets them keep it if they stay continuously enrolled after a reassignment, a retirement, or an honorable discharge followed by establishing residency within 30 days."
+      "A separate statute, N.C.G.S. 116-143.3, gives the in-state rate and mandatory fees to a qualifying federal services member whose permanent duty station is in North Carolina, and to that member's dependents.",
+      "That one keeps paying after the assignment ends. If the member is reassigned out of state or retires, the member and the dependents stay eligible so long as they remain continuously enrolled in the same program. If the member is on active duty and receives an honorable discharge, they stay eligible by establishing North Carolina residency within 30 days of discharge and staying continuously enrolled.",
+      "A dependent child who lives with an Armed Forces member reassigned outside North Carolina also keeps eligibility under the same statute."
     ],
     "agency": "University of North Carolina System and the North Carolina Community College System",
     "statuteRef": "N.C.G.S. 116-143.3A",
     "officialUrl": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_116/GS_116-143.3A.html",
-    "confidence": "needs-review"
+    "confidence": "verified"
   },
   {
     "id": "nc-military-veteran-license-plates",
@@ -157,20 +166,26 @@
     "summary": "North Carolina gives eligible Veterans a hiring preference for state jobs covered by the State Human Resources Act. Military training and additional service count toward the qualifications for the job.",
     "eligibility": [
       "A Veteran who served during a period of war",
-      "A Veteran with a service-connected disability incurred during peacetime",
-      "The spouse of a disabled Veteran",
-      "A surviving spouse or dependent of a Veteran who died on active duty during a period of war as a result of that service",
-      "Surviving family members of a Veteran who died for service-related reasons during peacetime"
+      "A Veteran who suffered a service-connected disability during peacetime",
+      "The spouse of a disabled Veteran, and the spouse of a Veteran disabled during peacetime",
+      "The surviving spouse or dependent of a Veteran who dies on active duty during a period of war, directly or indirectly as a result of that service",
+      "The surviving spouse or dependent of someone who served on active duty for reasons other than training and died for service-related reasons during peacetime",
+      "Veteran means a person who served on active duty for reasons other than training and was discharged under other than dishonorable conditions"
     ],
     "details": [
-      "The preference applies to positions subject to the State Human Resources Act with every state department, agency, and institution. It reaches initial employment as well as promotions, reassignments, and horizontal transfers.",
-      "The State Human Resources Commission must give an eligible Veteran credit for all military service training or schooling that relates to the requirements of the job, plus experience credit for additional military service once the minimum qualifications are met.",
+      "Read the period of war definition before you assume you are outside it. The statute lists World War I, World War II, the Korean Conflict, and the stretch from 31 January 1955 to the end of hostilities in Vietnam on 7 May 1975, and then adds \"any other campaign, expedition, or engagement for which a campaign badge or medal is authorized by the United States Department of Defense.\" That last clause is what carries most post-Vietnam service.",
+      "There is a separate National Guard preference under N.C.G.S. 126-80.5 that this record does not otherwise cover. It reaches a current North Carolina Army or Air National Guard member in good standing, a former member discharged under honorable conditions with at least six years of creditable service, and the surviving spouse or dependent of a member who died on state active duty or for service-related reasons during peacetime.",
+      "The preference applies to positions subject to the State Human Resources Act with every state department, agency, and institution. It reaches initial employment as well as subsequent hirings, promotions, reassignments, and horizontal transfers.",
+      "The State Human Resources Commission must give credit for all military service training or schooling and experience that bears a reasonable and functional relationship to the job's requirements. Once you clear the minimum requirements, you also get experience credit for additional military service, related or unrelated.",
+      "In a reduction in force where seniority or years of service is one of the retention factors, the Commission may allow an eligible Veteran credit for military service.",
+      "If you believe you were denied the preference, you can appeal. N.C.G.S. 126-82(d) points to the contested case procedures in 126-34.01 and 126-34.02.",
+      "The statute has teeth. Willful failure by a covered state employee to comply with this Article is personal misconduct, and the chapter's rules for suspension, demotion, or dismissal apply.",
       "Some categories of positions are excluded. Check N.C.G.S. 126-83 for the exclusions before you count on the preference for a specific posting."
     ],
     "agency": "North Carolina Office of State Human Resources",
     "statuteRef": "N.C.G.S. 126-80 through 126-83",
     "officialUrl": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/ByArticle/Chapter_126/Article_13.html",
-    "confidence": "needs-review"
+    "confidence": "verified"
   },
   {
     "id": "nc-state-veterans-cemeteries",

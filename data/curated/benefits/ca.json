@@ -38,21 +38,28 @@
     "jurisdiction": "CA",
     "category": "education",
     "title": "College Fee Waiver for the children and spouses of disabled or deceased Veterans",
-    "summary": "California waives system-wide tuition and fees at UC, CSU, and community colleges for certain dependents of Veterans with a service-connected disability or who died in service. Most categories carry an income test.",
+    "summary": "California waives mandatory system-wide tuition and fees at California State University and the community colleges for certain dependents of Veterans with a service-connected disability or who died in service. Most categories carry an income test, and the University of California is not automatically covered.",
     "eligibility": [
-      "A child of a Veteran who has a service-connected disability, was killed in service, or died of a service-connected disability, if the child's annual income including parental support is below the state poverty level figure named in the statute",
-      "A dependent, or an unmarried surviving spouse, of a California National Guard member killed or permanently disabled in the line of duty while in the active service of the state",
-      "An undergraduate who is a Medal of Honor recipient, or a child age 27 or younger of a Medal of Honor recipient, subject to the same income test and a California residency requirement for the recipient"
+      "A dependent eligible for assistance under Article 2 of the Military and Veterans Code beginning at Section 890, which is the main CalVet College Fee Waiver programme",
+      "A child of a Veteran who has a service-connected disability, was killed in service, or died of a service-connected disability, if the child's annual income including the value of parental support does not exceed the state poverty level named in the statute",
+      "A dependent, or an unmarried surviving spouse, of a California National Guard member who was killed, died of a disability from an event in the active service of the state, or is permanently disabled from such an event. Active service of the state means activation under Section 146 of the Military and Veterans Code",
+      "An undergraduate who is a Medal of Honor recipient, or an undergraduate child aged 27 or younger of a recipient, subject to the same income test and to the recipient having been a California resident",
+      "In every category, the student must be determined to be a California resident under Education Code 68000 and following"
     ],
     "details": [
-      "The waiver covers system-wide fees at a University of California campus, a California State University campus, or a California Community College. The statute conditions University of California participation on action by the Regents.",
-      "The income test is written as annual household income below the amount calculated for a single person with no dependents under Revenue and Taxation Code 18501. That figure changes, so ask the county veterans service office to run your numbers rather than guessing.",
-      "Applications are handled through your County Veterans Service Office, not the college financial aid office. There are several plans under this program with different rules, so bring your DD-214 and the Veteran's VA rating letter to the appointment."
+      "It waives mandatory system-wide tuition and fees, which the statute spells out as enrollment fees, registration fees, differential fees, and incidental fees. It is not a full cost of attendance award.",
+      "The University of California is the catch. Subdivision (g) says this section does not apply to UC unless the Regents adopt a resolution making it apply. California State University and the community colleges are covered outright.",
+      "You cannot claim it backwards. The statute allows a waiver for each academic year in which you apply for it, and expressly not for a prior academic year. Apply before the year you need covered.",
+      "The income test is annual household income below the amount calculated for a single person with no dependents under Revenue and Taxation Code 18501. That figure changes, so ask the county veterans service office to run your numbers rather than guessing.",
+      "There is a carve-out in subdivision (f) for one class of dependent defined in Military and Veterans Code 890(a)(4). If a county office tells you that you do not qualify despite fitting a category above, that provision is the likely reason to ask about.",
+      "The California Department of Veterans Affairs determines eligibility for the child and Medal of Honor categories.",
+      "Applications are handled through your County Veterans Service Office, not the college financial aid office. There are several plans under this program with different rules, so bring your DD-214 and the Veteran's VA rating letter to the appointment.",
+      "The section was last amended by AB 1745, Stats. 2023 ch. 695, effective 1 January 2024."
     ],
     "agency": "California Department of Veterans Affairs, through County Veterans Service Offices",
     "statuteRef": "Cal. Educ. Code 66025.3",
     "officialUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=EDC&sectionNum=66025.3",
-    "confidence": "needs-review"
+    "confidence": "verified"
   },
   {
     "id": "ca-military-retirement-pay-income-tax-exclusion",
@@ -152,19 +159,23 @@
     "summary": "If you pass an entrance examination for a California state job, veterans' preference places you in the top rank of the resulting eligibility list. Certain spouses and surviving spouses get the same placement.",
     "eligibility": [
       "You are a Veteran who passes the entrance examination for the position",
+      "For this article, Veteran is defined narrowly in Government Code 18540.4: someone who served full time in the armed forces in time of national emergency or state military emergency, or during any expedition of the armed forces, and was discharged or released under conditions other than dishonorable",
       "Or you are the widow or widower of a Veteran",
-      "Or you are the spouse of a Veteran rated 100 percent disabled",
+      "Or you are the spouse of a Veteran currently declared 100 percent disabled by the VA as a result of service",
       "Anyone dishonorably discharged or released is excluded"
     ],
     "details": [
-      "The preference works by ranking, not by adding points to your score. Qualifying applicants who pass the entrance exam are placed in the top rank of the eligibility list, which is what puts your name in front of a hiring manager.",
+      "The whole operative sentence is short: a qualifying applicant who achieves a passing score on an entrance examination \"shall be ranked in the top rank of the resulting eligibility list.\"",
+      "The preference works by ranking, not by adding points to your score. That is what puts your name in front of a hiring manager rather than nudging you up a list.",
+      "Check the definition before assuming you qualify. It is not every Veteran. The service has to have been in a national or state military emergency or during an expedition of the armed forces, so purely peacetime service outside those conditions may not count. Ask CalHR rather than guessing.",
+      "The widow or widower category has no remarriage condition written into the section, and does not require that the Veteran died in service.",
       "The statute is written around entrance examinations and the resulting eligibility list. It does not by its terms extend to promotional examinations for people already in state service.",
       "You have to claim and document the preference through CalHR. Verify your status before you apply for a job rather than after."
     ],
     "agency": "California Department of Human Resources (CalHR)",
     "statuteRef": "Cal. Gov. Code 18973.1",
     "officialUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=18973.1",
-    "confidence": "needs-review"
+    "confidence": "verified"
   },
   {
     "id": "ca-disabled-veteran-business-enterprise-contracting",

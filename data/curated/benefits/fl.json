@@ -90,15 +90,17 @@
       "Applies at state universities, Florida College System institutions, school district career centers under Fla. Stat. 1001.44, and charter technical career centers"
     ],
     "details": [
-      "This is a waiver of the out-of-state surcharge, not free tuition. You still owe the in-state amount, which is where your GI Bill or other aid comes in.",
-      "The waiver is established in subsection (13) of Fla. Stat. 1009.26.",
-      "Institutions are required to report annually on the waivers they grant.",
+      "This is a waiver of the out-of-state surcharge, not free tuition. You still owe the in-state amount, which is where your GI Bill or other aid comes in. The statute says tuition and fees charged to you may not exceed what a resident student is charged.",
+      "The waiver is subsection (13) of Fla. Stat. 1009.26, and its formal name is the Congressman C.W. Bill Young Veteran Tuition Waiver Act.",
+      "The second route matters as much as the first. You qualify simply by being entitled to and using VA educational assistance for a term beginning after 1 July 2015 while physically residing in Florida, whether or not you are the Veteran.",
+      "A separate subsection (14) waives out-of-state fees for an active duty member of the Armed Forces residing or stationed outside Florida, so being posted away does not by itself cost you the resident rate.",
+      "Institutions must report the number and value of these waivers annually to the Board of Governors or the State Board of Education, which also adopt the rules administering it.",
       "Ask the school's Veteran services or registrar office to apply the waiver. It is not always applied automatically."
     ],
     "agency": "Florida public postsecondary institutions",
     "statuteRef": "Fla. Stat. 1009.26(13)",
-    "officialUrl": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=1000-1099/1009/Sections/1009.26.html",
-    "confidence": "needs-review"
+    "officialUrl": "https://www.flsenate.gov/Laws/Statutes/2024/1009.26",
+    "confidence": "verified"
   },
   {
     "id": "fl-purple-heart-tuition-waiver",
@@ -109,18 +111,20 @@
     "amount": "Tuition for 110 percent of the required credit hours of the program you are enrolled in",
     "eligibility": [
       "You received a Purple Heart or another combat decoration superior in precedence",
-      "You are enrolled in an undergraduate college credit program or a career certificate program",
-      "You must meet the statute's criteria on enrollment status, Florida residency, and submitting documentation"
+      "You are enrolled full-time, part-time, or in summer school in a program leading to an associate or baccalaureate degree, a college credit certificate, or a career certificate",
+      "You are currently a Florida resident, or you were a Florida resident at the time of the military action that resulted in the award",
+      "You submit the DD-214 issued at separation as documentation of the award. If the DD-214 is not available, other documentation recognised by the Department of Defense or the VA as documenting the award may be accepted"
     ],
     "details": [
       "This waiver is subsection (8) of Fla. Stat. 1009.26. It applies at state universities, Florida College System institutions, school district career centers under Fla. Stat. 1001.44, and charter technical career centers.",
-      "It is a tuition waiver, which is broader than the out-of-state fee waiver under the Bill Young program. If you qualify for both, ask the school which applies to your program.",
-      "Confirm with the institution exactly which documentation of the award they require and the residency conditions that apply to you."
+      "The residency test has two doors. You qualify if you are a Florida resident now, or if you were one at the time of the action that earned the decoration. A Veteran who has since moved away and moved back is not shut out.",
+      "It waives tuition itself, which is broader than the out-of-state fee waiver under the Bill Young program. If you qualify for both, ask the school which applies to your program.",
+      "The waiver runs to 110 percent of the credit hours your degree or certificate program requires, so there is some room for a repeated or changed course."
     ],
     "agency": "Florida public postsecondary institutions",
     "statuteRef": "Fla. Stat. 1009.26(8)",
-    "officialUrl": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=1000-1099/1009/Sections/1009.26.html",
-    "confidence": "needs-review"
+    "officialUrl": "https://www.flsenate.gov/Laws/Statutes/2024/1009.26",
+    "confidence": "verified"
   },
   {
     "id": "fl-education-benefits-dependents-deceased-disabled-servicemembers",
@@ -169,16 +173,21 @@
     "title": "Veterans preference in state and local government hiring and retention",
     "summary": "Florida and its counties, cities, and districts must give preference in appointment and retention to Veterans and certain family members. Reserve and Guard members and honorably discharged Veterans are also included.",
     "eligibility": [
-      "Disabled Veterans who served on active duty, received an honorable discharge, and have established a present service-connected disability, or who receive VA compensation",
-      "The spouse of a person with a total service-connected disability, or the spouse of a person missing in action",
-      "A parent or the widow or widower of a servicemember who died in combat-related circumstances",
-      "A Veteran who served at least 1 day during a wartime period as defined in Fla. Stat. 1.01(14), not counting active duty for training",
-      "Any Veteran as defined in the statute, not counting active duty for training",
+      "Disabled Veterans who served on active duty, received an honorable discharge, and have established the present existence of a service-connected disability compensable under laws administered by the VA, or who receive VA or Department of Defense compensation, disability retirement benefits, or pension",
+      "The spouse of a person with a total and permanent service-connected disability who, because of that disability, cannot qualify for employment",
+      "The spouse of a person missing in action, captured in the line of duty by a hostile force, or forcibly detained or interned in the line of duty by a foreign government or power",
+      "The unremarried widow or widower of a Veteran who died of a service-connected disability",
+      "The mother, father, legal guardian, or unremarried widow or widower of a service member who died in the line of duty under combat-related conditions, as verified by the Department of Defense",
+      "A wartime Veteran as defined in Fla. Stat. 1.01(14) who served at least 1 day during a wartime period, not counting active duty for training",
+      "Any Veteran as defined in Fla. Stat. 1.01(14), not counting active duty for training",
       "A current member of any reserve component of the U.S. Armed Forces or the Florida National Guard"
     ],
     "details": [
-      "Employers may waive a postsecondary education requirement for reserve and Guard members and for honorably discharged Veterans who are otherwise qualified.",
-      "How the preference is applied depends on the hiring process. Fla. Stat. 295.08 covers positions using a numerically based selection process and 295.085 covers positions that do not.",
+      "The spouse categories are narrower than people expect. It is not simply the spouse of a disabled Veteran. The disability has to be total and permanent, and it has to be the reason the person cannot qualify for employment.",
+      "The state and its political subdivisions may waive a postsecondary education requirement for a reserve or Guard member, or an honorably discharged Veteran, who is otherwise qualified for the position.",
+      "How the preference is applied depends on the hiring process. Fla. Stat. 295.08 covers positions using a numerically based selection process and 295.085 covers positions that do not. Where point values are not relevant, the Department of Veterans' Affairs rules must ensure special consideration at each step of the selection process.",
+      "A collective bargaining agreement does not permanently override this. Where the employer is party to one, it must be brought into compliance within 90 days of ratifying a successor agreement or extending an existing one.",
+      "Some positions are exempt, and the list is specific. Positions exempt from the state Career Service System under Fla. Stat. 110.205(2) are out, but University Support Personnel System positions, Career Service positions in the Florida College System, and positions at the School for the Deaf and the Blind are expressly still covered. In political subdivisions, elected offices and appointments to fill them, board and commission members, temporary positions without benefits, and positions requiring Florida Bar membership are exempt.",
       "Fla. Stat. 295.09 covers reinstatement, reemployment, and promotion preference. Fla. Stat. 295.11 gives you an investigation and administrative hearing route if a preferred applicant is not hired.",
       "State agencies and political subdivisions must develop written Veteran recruitment plans with annual hiring goals and must track preference usage statistically.",
       "A separate section, Fla. Stat. 295.188, addresses preference in hiring Veterans by private employers."
@@ -186,7 +195,7 @@
     "agency": "Florida Department of Veterans' Affairs and Florida Department of Management Services",
     "statuteRef": "Fla. Stat. 295.07",
     "officialUrl": "https://www.flsenate.gov/Laws/Statutes/2024/295.07",
-    "confidence": "needs-review"
+    "confidence": "verified"
   },
   {
     "id": "fl-free-dv-license-plate",

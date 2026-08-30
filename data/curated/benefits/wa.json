@@ -104,18 +104,21 @@
       "Permissive waiver: the governing boards may waive all or a portion of tuition and fees for an eligible Veteran or National Guard member, and separately for a Washington domiciliary Veteran who did not serve on foreign soil or in international waters"
     ],
     "details": [
-      "'Eligible veteran or national guard member' is defined in the statute as a Washington domiciliary who served in active federal service under Title 10 or Title 32 in a war or conflict fought on foreign soil or in international waters, or in support of those serving there, and who has a qualifying discharge as defined in RCW 73.04.005.",
-      "'Totally disabled' means a person determined to be 100 percent disabled by the federal Department of Veterans Affairs.",
-      "Waivers under subsection (3) for Veterans who did not serve on foreign soil carry no state general fund support, so whether a school offers them depends on that school's budget. Ask the campus directly.",
+      "\"Eligible veteran or national guard member\" is defined in the statute as a Washington domiciliary who served in active federal service under Title 10 or Title 32 in a war or conflict fought on foreign soil or in international waters, or in support of those serving there, and who has a qualifying discharge as defined in RCW 73.04.005.",
+      "\"Child\" means a biological child, an adopted child, or a stepchild. Stepchildren are covered, which is the question families ask most often.",
+      "\"Totally disabled\" means a person determined to be 100 percent disabled by the federal Department of Veterans Affairs.",
+      "The $500 textbook and course materials stipend is divided equally among academic terms and prorated if you enrol part time. It is subject to amounts appropriated, so confirm it is funded for your year.",
+      "Waivers under subsection (3), for Veterans who did not serve on foreign soil, carry no state general fund support, so whether a school offers them depends on that school's budget. Ask the campus directly. Those permissive waivers are unaffected by the required ones.",
       "Graduate tuition waivers are not required for those who qualify, but the statute encourages them.",
       "Recipients may attend full time or part time, and continued participation is subject to the school's satisfactory progress policy.",
+      "The waivers are subject to the statewide waiver limits in RCW 28B.15.910, which is a cap on each institution rather than on you.",
       "Private vocational schools and private higher education institutions are encouraged, not required, to offer comparable waivers.",
       "Apply through the financial aid or Veteran services office at the Washington public college or university you plan to attend."
     ],
     "agency": "Governing boards of the state universities, regional universities, The Evergreen State College, and the community and technical colleges",
     "statuteRef": "RCW 28B.15.621",
     "officialUrl": "https://app.leg.wa.gov/RCW/default.aspx?cite=28B.15.621",
-    "confidence": "needs-review"
+    "confidence": "verified"
   },
   {
     "id": "wa-veterans-employment-preference",
@@ -125,10 +128,11 @@
     "summary": "Washington adds a percentage to a Veteran's passing score on competitive examinations for state, county, and municipal jobs. Veterans also receive preference in appointment to public departments and on state and county public works.",
     "amount": "10 percent added to a passing score for service during a period of war or armed conflict. 5 percent otherwise. 5 percent on promotional examinations for those called to active service from public employment.",
     "eligibility": [
-      "You are a Veteran as defined in RCW 41.04.007, or a member of the uniformed services as defined in RCW 41.04.010",
+      "You are a Veteran as defined in RCW 41.04.007, or a member of the uniformed services, which the statute limits to the Public Health Service commissioned corps and the NOAA commissioned officer corps",
       "You have a qualifying discharge as defined in RCW 73.04.005, shown by a DD Form 214, NGB Form 22, or equivalent successor discharge paperwork",
       "A predischarge certification may be used if issued no more than 120 days before submission, with official discharge documentation supplied within 30 days after discharge",
-      "Under RCW 73.16.010 the preference also reaches spouses of active duty service members and spouses of Veterans with a disability"
+      "For the separate appointment preference in RCW 73.16.010, a widow or widower also qualifies, as does the spouse of an active duty service member, and the spouse of a Veteran with a qualifying discharge who has a service-connected permanent and total disability",
+      "For that section, Veteran also includes a current National Guard or armed forces reserve member who has been deployed to serve in an armed conflict"
     ],
     "details": [
       "The 10 percent applies to a Veteran or uniformed service member who served during a period of war or in an armed conflict as defined in RCW 41.04.005 and who does not receive military retirement.",
@@ -136,13 +140,16 @@
       "The 10 percent and the general 5 percent are added until your first appointment and may not be used in promotional examinations.",
       "The separate 5 percent for someone called to active military service from employment with the state or a political subdivision or municipal corporation applies to promotional examinations, and only until the first promotion.",
       "The percentage is added to a passing mark, grade, or rating only, based on a possible rating of 100 points as perfect. It does not turn a failing score into a passing one.",
-      "RCW 73.16.010 separately provides that a physical impairment that does not prevent you from performing the job's duties is not a disqualifying factor.",
+      "It binds more than the state. The statute reaches all political subdivisions, all municipal corporations, and private companies the state contracts with to give the examinations.",
+      "If you claim on a predischarge certification, watch the clock. Fail to file official discharge paperwork within 30 days and the agency must notify you and give you at least 15 more days. Miss that too and it may rescind an appointment or benefit granted on the certification alone. The certification also cannot support preference beyond your discharge date, including in layoff or retention decisions, until the real paperwork is in.",
+      "RCW 73.16.010 separately provides that age, loss of limb, or another physical impairment that does not in fact incapacitate you is not a disqualifying factor, so long as you can do the duties of the job.",
+      "This part of the law was amended twice in 2026, by chapters 146 and 207. If you were told something different a year ago, check again.",
       "You must claim the preference. Ask the hiring agency how, and be ready to attach your discharge document."
     ],
     "agency": "Washington state agencies, counties, cities, and municipal corporations, plus contractors administering their examinations",
     "statuteRef": "RCW 41.04.010 and RCW 73.16.010",
     "officialUrl": "https://app.leg.wa.gov/RCW/default.aspx?cite=41.04.010",
-    "confidence": "needs-review"
+    "confidence": "verified"
   },
   {
     "id": "wa-veterans-innovations-program",

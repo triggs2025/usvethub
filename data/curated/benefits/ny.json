@@ -63,24 +63,30 @@
     "category": "education",
     "title": "New York State Veterans Tuition Award",
     "summary": "A state tuition award for New York resident Veterans attending an approved degree or vocational program. It is pegged to SUNY resident undergraduate tuition rather than a fixed dollar figure.",
-    "amount": "The annual undergraduate resident tuition rate at a SUNY state-operated campus, or your actual tuition, whichever is less. Part-time awards are prorated by credit hour.",
+    "amount": "The annual undergraduate resident tuition rate at a SUNY state-operated campus, or your actual tuition, whichever is less. Part-time awards are prorated by credit hour. Maximum of 4 years, 8 full-time semesters, across undergraduate and graduate study combined.",
     "eligibility": [
-      "You are a U.S. citizen or eligible noncitizen",
-      "You are a legal resident of New York State and have resided in New York State for 12 continuous months",
-      "You were discharged under honorable conditions",
-      "You have at least four years of active duty service, or you served in combat in Vietnam, the Persian Gulf, or Afghanistan",
-      "National Guard members qualify with four or more years of active duty deployment, or with certain expeditionary medals",
-      "HESC lists qualifying service as Vietnam service from November 1, 1955 to May 7, 1975, Persian Gulf service on or after August 2, 1990, and Afghanistan service during hostilities on or after September 11, 2001, or receipt of an Armed Forces Expeditionary Medal or equivalent"
+      "You are a U.S. citizen or eligible noncitizen. Non-residents, including undocumented students, apply for eligibility under the NYS DREAM Act first",
+      "You are a legal resident of New York State and have resided in New York State for 12 continuous months before the term begins",
+      "You have at least four years of active duty service, or you served in combat or the combat theaters of Vietnam, the Persian Gulf, or Afghanistan",
+      "You must not have been dishonorably discharged",
+      "National Guard members qualify if total active duty deployment is four years or more, or if they served in combat as shown by an Armed Forces, Navy, or Marine Corps Expeditionary Medal",
+      "You graduated high school in the United States, earned a GED, or passed a federally approved Ability to Benefit test",
+      "You are matriculated and in good academic standing, and are charged at least $200 tuition per year"
     ],
     "details": [
-      "The award cannot exceed undergraduate tuition at a state-operated SUNY campus, so a private school award will not cover the full bill.",
-      "For a degree program, file the FAFSA and the New York State TAP application first, then submit the Veterans Tuition Award application. For vocational training, submit the Veterans Tuition Award application and HESC will email a separate payment application if you are eligible.",
-      "HESC lists the deadline as open year round. Award duration is limited and depends on whether you are in a vocational program or a degree program.",
-      "HESC's phone number is 1-888-NYSHESC, which is 1-888-697-4372."
+      "The interaction with the GI Bill is the thing to understand first. If a Chapter 33 Post-9/11 benefit or a Yellow Ribbon component already covers your tuition, you are not eligible for this award. If you are using the Montgomery GI Bill, you are eligible. Total aid from all sources still cannot exceed your cost of attendance.",
+      "The award cannot exceed undergraduate tuition at a state-operated SUNY campus, so at a private college it will not cover the full bill. It is available at SUNY, CUNY, private colleges, and participating vocational schools.",
+      "Duration is capped at four years, meaning eight full-time semesters, across undergraduate and graduate study combined. Within that: undergraduate full-time is four years, or five for an approved five-year program; graduate study is three years; an approved vocational program is up to two years. Part-time study is prorated by credits.",
+      "Full-time means 12 or more credits a semester, or 24 or more hours a week in vocational training. Part-time means at least three but fewer than 12 credits, or six to 23 hours a week.",
+      "An approved program means an undergraduate or graduate degree, diploma, or certificate program at a degree-granting institution, or a non-credit vocational training program of at least 320 clock hours specifically approved by the State Education Department. Ask your financial aid office whether yours qualifies.",
+      "For a degree program, file the FAFSA and the New York State TAP application first, then submit the Veterans Tuition Award application. For vocational training, submit the Veterans Tuition Award application and HESC will email a separate student payment application if you are eligible.",
+      "HESC lists the deadline as open year round, and the award is annual.",
+      "Award payments may have tax implications. HESC points you to a tax professional, the IRS, or the state Department of Taxation and Finance.",
+      "HESC's phone number is 1-888-NYSHESC, which is 1-888-697-4372, staffed 8:30 am to 4:30 pm Monday through Friday."
     ],
     "agency": "New York State Higher Education Services Corporation",
     "officialUrl": "https://hesc.ny.gov/veterans-tuition-awards",
-    "confidence": "needs-review"
+    "confidence": "verified"
   },
   {
     "id": "ny-merit-scholarship",
@@ -186,7 +192,7 @@
     "jurisdiction": "NY",
     "category": "employment",
     "title": "Veterans credits on New York civil service examinations",
-    "summary": "New York adds points to your civil service exam score if you are a Veteran, and more points if you are a disabled Veteran. You can use the credit only once in your civil service career.",
+    "summary": "New York adds points to your civil service exam score if you are a Veteran, and more points if you are a disabled Veteran. The same statute also gives Veterans extra seniority for layoff purposes. The exam credit can be used only once in your civil service career.",
     "amount": "Disabled Veterans: 10 points on an original appointment exam and 5 points on a promotion exam. Other Veterans: 5 points on an original appointment exam and 2.5 points on a promotion exam.",
     "eligibility": [
       "For the non-disabled Veteran credit: you are an armed forces member with an honorable discharge or discharge under honorable circumstances, including Veterans discharged over sexual orientation or gender identity who qualify under the statute",
@@ -196,13 +202,16 @@
     ],
     "details": [
       "The statute reads that a disabled Veteran gets \"ten points additional in a competitive examination for original appointment\" and \"five points additional credit in a competitive examination for promotion.\" A non-disabled Veteran gets \"five points additional credit in a competitive examination for original appointment\" and \"two and one-half points additional credit in a competitive examination for promotion.\"",
-      "If an appointment is terminated during the probationary period, you keep your eligibility for credits on future exams.",
-      "The credit is added only after you pass the exam. You have to claim it, so watch for the veterans credit question on the exam application."
+      "The same section carries a second benefit that gets far less attention: preference in retention when positions are abolished. Layoffs run in inverse order of the date of original appointment, and for this purpose a disabled Veteran's appointment date is treated as sixty months earlier than it actually was, and a non-disabled Veteran's as thirty months earlier. That is five years or two and a half years of extra seniority in a layoff. Blind employees are granted absolute preference in retention.",
+      "The credit is added only after you pass the exam, and only at the moment the eligible list is established. It cannot be added afterwards.",
+      "You have to claim it, and the statute gives you a window. You may apply for the additional credit at any time between the date of your examination application and the date the eligible list is established, and you must be allowed at least two months from filing to produce documentary proof.",
+      "For the disabled Veteran credit, the VA certificate ordinarily has to show an examination by a VA medical officer within one year of your application or of the list being established, finding a disability rated at ten per centum or more. The one year examination requirement drops away if the certificate states affirmatively that a permanent stabilized condition of ten per centum or more exists.",
+      "The one time rule is narrower than it sounds, and three situations do not burn your credit. If the added points did not change your position on the list, if you were appointed at the same relative standing you would have had without them, or if the appointment or promotion ended at or before the end of the probationary term by termination or resignation, you are not treated as having used the credit."
     ],
     "agency": "New York State Department of Civil Service, and local civil service commissions",
     "statuteRef": "N.Y. Civil Service Law 85",
     "officialUrl": "https://www.nysenate.gov/legislation/laws/CVS/85",
-    "confidence": "needs-review"
+    "confidence": "verified"
   },
   {
     "id": "ny-state-veterans-homes",

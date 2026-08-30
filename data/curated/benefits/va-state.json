@@ -43,15 +43,18 @@
     ],
     "details": [
       "The Commissioner of Veterans Services certifies eligibility. The waiver is applied by the school once you are admitted.",
-      "The domicile test looks at the service member, not the student. The service member must have established Virginia domicile at the time of entering active service or being called to active duty, or for a set period before, among other options in subsection C.",
+      "The domicile test looks at the service member, not the student, and the number is five years. The member must have established Virginia domicile at the time of entering active service or being called to active duty, or have had domicile or physical presence in Virginia for at least five years immediately before the admission application was submitted, or on the date of death and for at least five years before it.",
+      "There is a second route that runs through the surviving parent or spouse. Where the service member has died, a surviving parent or spouse who established Virginia domicile or physical presence for five years at some point before marrying the deceased can satisfy the test instead.",
+      "If the service member or the surviving spouse dies after establishing physical presence in Virginia but before the five years are up, the Commissioner has authority to consider the requirement met anyway. Ask rather than assume you are short.",
       "A stepchild counts as a child if the service member claimed the stepchild on a tax return or in DEERS while on active duty.",
-      "The stipend from the Virginia Military Survivors and Dependents Education Fund is separate from the waiver and is limited: combined with any other scholarship, grant, or waiver, it cannot exceed your actual allowed educational expenses. Each institution decides how the available fund money is distributed each year.",
-      "Funding rules for this program have been changed by the General Assembly more than once in recent years. Confirm the current stipend amount and any enrollment conditions with the Department of Veterans Services before you count on a figure."
+      "The stipend comes from a separate pot, the Virginia Military Survivors and Dependents Education Fund under Va. Code 23.1-608.1, and it is capped two ways. It is up to $2,000 or whatever the general appropriation act sets, and combined with any other scholarship, grant, or waiver it cannot exceed your actual allowed educational expenses. Each institution and the Council decide each year how the available money is spread.",
+      "Every Virginia public college has to describe this benefit in its catalog, so the financial aid office cannot claim not to know about it.",
+      "Funding rules have been changed by the General Assembly repeatedly, most recently in 2023 and again in 2025. Confirm the current stipend amount and any enrollment conditions with the Department of Veterans Services before you count on a figure."
     ],
     "agency": "Virginia Department of Veterans Services",
     "statuteRef": "Va. Code 23.1-608 and 23.1-608.1",
     "officialUrl": "https://law.lis.virginia.gov/vacode/title23.1/chapter6/section23.1-608/",
-    "confidence": "needs-review"
+    "confidence": "verified"
   },
   {
     "id": "va-military-benefits-income-tax-subtraction",
@@ -137,21 +140,24 @@
     "summary": "Virginia gives Veterans a hiring preference for state employment. On a written exam your score goes up by five percent, or by 10 percent if the VA has fixed a service-connected disability rating for you.",
     "amount": "Five percent added to a passing written exam score, or 10 percent with a service-connected disability rating",
     "eligibility": [
-      "You are a Veteran with an honorable discharge and the military service the statute specifies",
-      "The increase applies only if you pass the examination",
+      "You have an honorable discharge, and either more than 180 consecutive days of full-time active duty service in the armed forces or their reserve components including the National Guard, or a service-connected disability rating fixed by the VA",
+      "The 180 day route and the disability route are alternatives. A short enlistment with a rating still qualifies",
+      "The exam score increase applies only if you pass the examination",
       "A surviving spouse of a Veteran killed in the line of duty also gets the preference",
       "A surviving child under age 27 of a Veteran killed in the line of duty also gets the preference",
-      "Members of the Virginia National Guard get a separate preference of five percentage points added to a passing assessment score"
+      "A current member of the Virginia National Guard who has satisfactorily completed required initial active-duty service gets a separate preference"
     ],
     "details": [
-      "For state positions that are not based on passing an exam, a Veteran, surviving spouse, or child who meets all the knowledge, skill, and ability requirements is given preference during the selection process. Veterans with a disability rating get additional consideration.",
-      "The National Guard preference does not apply to a position limited to current state employees, and it does not apply if another applicant is a Veteran or a former prisoner of war.",
+      "For state positions that are not based on passing an exam, a Veteran, surviving spouse, or child who meets all the knowledge, skill, and ability requirements is given preference during the selection process. Veterans with a service-connected disability rating get additional consideration. The Department of Human Resource Management has to publish guidelines for agencies as an addendum to the Hiring Policy for Executive Branch agencies.",
+      "The National Guard preference is calculated differently. Where the assessment uses numerical ratings, points equal to five percent of the total points available are added to a passing score, rather than five percentage points.",
+      "The National Guard preference does not apply to a position limited to current state employees, and it does not apply if any other applicant is a Veteran or a former prisoner of war.",
+      "If you are denied the job, the statute entitles you to request and inspect information about the reasons for the denial, to the extent the law permits. Most applicants never ask.",
       "This is preference, not a guarantee of hire. You still have to meet the posted requirements for the job."
     ],
     "agency": "Commonwealth of Virginia state agencies",
     "statuteRef": "Va. Code 2.2-2903",
     "officialUrl": "https://law.lis.virginia.gov/vacode/title2.2/chapter29/section2.2-2903/",
-    "confidence": "needs-review"
+    "confidence": "verified"
   },
   {
     "id": "va-veteran-and-family-support-behavioral-health",
