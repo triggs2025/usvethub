@@ -16,14 +16,16 @@
     "details": [
       "The exemption starts on the date of your rating if you already own a qualifying home, or on the date you acquire the property if you buy after January 1, 2011.",
       "You claim it by filing an affidavit or written statement with your county, city, or town under Va. Code 58.1-3219.6. File it. A locality is not liable for interest on a refund for taxes you paid before you filed.",
-      "Manufactured homes qualify even if you do not own the land underneath.",
-      "The exemption also reaches property held in a revocable trust, an irrevocable trust with a life estate, or a joint tenancy. Leasehold interests are excluded, and a jointly owned property with non-qualifying owners is prorated by ownership percentage.",
+      "Manufactured homes qualify even if you do not own the land underneath. The home is exempt, but land you do not own is not.",
+      "The exemption also reaches property held as a life estate by you alone or with your spouse, property in a revocable inter vivos trust you or you and your spouse can revoke, and property in an irrevocable trust under which you hold a life estate or a continuing right of use or support. A leasehold or term of years is excluded, and a jointly owned property with non-qualifying owners is prorated by ownership percentage.",
+      "One acre is the floor, not always the ceiling. If your county, city, or town exempts or defers tax on more than one acre under its elderly and disabled program in Va. Code 58.1-3210, it must exempt the same number of acres for you.",
+      "Outbuildings on the exempt land are also exempt, so long as their main use is housing motor vehicles or household goods and it is not a business use. A detached garage counts.",
       "This is administered by your local commissioner of the revenue or assessor, not by the state."
     ],
     "agency": "Virginia counties, cities, and towns",
     "statuteRef": "Va. Code 58.1-3219.5",
     "officialUrl": "https://law.lis.virginia.gov/vacode/title58.1/chapter32/section58.1-3219.5/",
-    "confidence": "needs-review"
+    "confidence": "verified"
   },
   {
     "id": "va-military-survivors-and-dependents-education-program",
@@ -68,13 +70,15 @@
       "The statute defines military benefits as military retirement income for service in the Armed Forces, qualified military benefits under Internal Revenue Code Section 134, Survivor Benefit Plan payments to the surviving spouse of a Veteran, and military benefits paid to the surviving spouse of a Veteran.",
       "Survivor Benefit Plan income counts. Surviving spouses often miss this.",
       "Virginia also has a separate subtraction of up to $15,000 of military basic pay for members on extended active duty for more than 90 days. That one phases out dollar for dollar above $15,000 and disappears at $30,000 of basic pay. See the Virginia Department of Taxation military tax tips page.",
+      "A Congressional Medal of Honor recipient subtracts all military retirement income with no cap at all, under a separate provision of the same subdivision.",
+      "Military pay earned in a combat zone or a qualified hazardous duty area is subtracted in full under a different item of the same statute, so far as it is in your federal adjusted gross income and not already subtracted.",
       "The cap amounts are set in statute by tax year. Check the current year figure on the Department of Taxation site before you file."
     ],
     "agency": "Virginia Department of Taxation",
     "statuteRef": "Va. Code 58.1-322.02(18)",
     "officialUrl": "https://law.lis.virginia.gov/vacode/title58.1/chapter3/section58.1-322.02/",
     "applyUrl": "https://www.tax.virginia.gov/military-tax-tips",
-    "confidence": "needs-review"
+    "confidence": "verified"
   },
   {
     "id": "va-disabled-veteran-license-plates-and-fee-waiver",

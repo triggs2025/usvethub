@@ -34,15 +34,20 @@
     "eligibility": [
       "You retired from military service and receive military retirement income",
       "You file a Georgia income tax return",
-      "The additional exclusion for retirees under age 62 depends on having earned income of at least the stated amount"
+      "The additional exclusion for retirees under age 62 depends on earned income. The two state agencies word the test slightly differently, so see the details",
+      "The general retirement income exclusion is open to anyone 62 or older, and also to anyone permanently and totally disabled regardless of age"
     ],
     "details": [
+      "Two state agencies describe the under-62 rule in slightly different words, and the difference could matter to you. The Department of Veterans Service says an additional exemption of up to $17,500 is available for Veterans under 62 who have \"at least $17,500 of earned income\". The Department of Revenue says the additional $17,500 is for \"taxpayers with more than $17,500 of earned income in Georgia\". Revenue is the tax authority, and its version adds a Georgia-source requirement and reads as a strict threshold. If your earned income is close to $17,500, ask Revenue before you file.",
+      "The military-specific exclusion for retirees under 62 began 1 January 2022.",
       "The amounts for ages 62 and over come from Georgia's general retirement income exclusion, which is not limited to Veterans. Military retirement income counts toward it.",
-      "The exclusion is claimed on your Georgia return. Check current-year instructions and forms with the Georgia Department of Revenue, since the retirement income exclusion has been amended by the legislature more than once."
+      "If you are permanently and totally disabled you can take the general retirement income exclusion at any age, without waiting until 62. Revenue states this plainly, and a disabled Veteran under 62 is exactly the person likely to miss it.",
+      "The Department of Revenue does not publish the age-based dollar figures on its retirement income exclusion page. It points to the Individual Income Tax Instruction Booklet, Form IT-511, for the filing year. That booklet is the figure to trust, since the exclusion has been amended by the legislature more than once.",
+      "The exclusion is claimed on your Georgia return. There is no separate application."
     ],
     "agency": "Georgia Department of Revenue",
     "officialUrl": "https://veterans.georgia.gov/military-retirement-income-tax-exemption",
-    "confidence": "needs-review"
+    "confidence": "verified"
   },
   {
     "id": "ga-hero-scholarship",

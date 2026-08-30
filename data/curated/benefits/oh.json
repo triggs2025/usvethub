@@ -5,7 +5,7 @@
     "category": "property-tax",
     "title": "Enhanced Homestead Exemption for Disabled Veterans and Surviving Spouses",
     "summary": "Ohio gives a disabled Veteran a larger homestead exemption than the standard senior exemption. It shields a set amount of the true value of the Veteran's owner-occupied home from property taxation, and a qualifying surviving spouse can keep it after the Veteran dies.",
-    "amount": "Ohio Revised Code 323.152 sets the disabled Veteran reduction at fifty thousand dollars of the true value of the property in money, as adjusted. The statute provides for adjustment, so the figure in force for a given tax year is the adjusted amount published by the Ohio Department of Taxation.",
+    "amount": "Ohio Revised Code 323.152 sets the disabled Veteran reduction at fifty thousand dollars of the true value of the property in money, as adjusted each year. That is double the twenty-five thousand dollar figure used for the standard senior and disability homestead reduction.",
     "eligibility": [
       "Veteran of the armed forces of the United States, including reserve components, or of the national guard, discharged or released from active duty under honorable conditions.",
       "Has received a total disability rating, or a total disability rating for compensation based on individual unemployability, for a service-connected disability or combination of service-connected disabilities as prescribed in Title 38, Part 4 of the Code of Federal Regulations.",
@@ -14,14 +14,18 @@
     ],
     "details": [
       "Ohio Revised Code 323.151 carries the definitions of disabled veteran and surviving spouse of a disabled veteran that control this exemption.",
+      "The fifty thousand dollar figure is indexed, and the statute says exactly how. Each September the tax commissioner takes the percentage increase in the gross domestic product deflator published by the federal Bureau of Economic Analysis over the preceding calendar year, applies it, and rounds to the nearest one hundred dollars. The commissioner then certifies the new amount to every county auditor no later than 1 December, and it applies to the following tax year. Ask your county auditor for the figure in force.",
+      "The commissioner does not make the adjustment in a year when it would produce a figure lower than the current one, so the amount does not fall.",
+      "A surviving spouse who occupied the homestead when the disabled Veteran died and who acquires ownership may continue the reduction. It runs from the year the Veteran dies, or where the rating came after death, from the first year on 1 January of which the total disability rating had been received for the deceased spouse. It continues through the tax year in which the surviving spouse dies or remarries.",
       "A surviving spouse can also qualify where the Veteran died before receiving the disability rating, if that person otherwise met the disabled Veteran definition and owned and occupied the homestead.",
-      "The same statute provides a separate reduction for the surviving spouse of a public service officer killed in the line of duty.",
-      "The exemption works as a reduction in taxable value, not a check. The savings depend on the assessment percentage and the effective tax rate where the home sits, so the dollar benefit differs by county and district."
+      "The reduction is in lieu of the other homestead reductions, not on top of them, and it applies to only one homestead.",
+      "The same statute provides a separate reduction, also fifty thousand dollars of true value, for the surviving spouse of a public service officer killed in the line of duty.",
+      "The exemption works as a reduction in taxable value, not a check. The statute multiplies the fifty thousand dollars by the assessment percentage, which cannot exceed 35 percent, and by the effective tax rate for your property, so the dollar benefit differs by county and district."
     ],
     "agency": "County auditor of the county where the homestead is located, under rules of the Ohio Department of Taxation",
     "statuteRef": "Ohio Rev. Code 323.151, 323.152",
     "officialUrl": "https://codes.ohio.gov/ohio-revised-code/section-323.152",
-    "confidence": "needs-review"
+    "confidence": "verified"
   },
   {
     "id": "oh-homestead-exemption-application-deadline",
@@ -36,13 +40,16 @@
       "File with the county auditor of the county in which the homestead is located.",
       "The application uses a form devised and supplied by the tax commissioner, which asks only for information needed to establish eligibility and the amount of the reduction.",
       "The statute states the application shall be filed on or before the thirty-first day of December of the year for which the reduction is sought.",
-      "Late filing is contemplated. A person may file a late application for the preceding tax year along with the current year application. If it is approved, the auditor determines the reduction the applicant would have received had the application been timely, and that amount is refunded as an overpayment of taxes.",
-      "Confirm the current year deadline with your county auditor before relying on it. Deadlines have been amended over time and the county auditor is the office that accepts the filing."
+      "A manufactured or mobile home is the exception. Those applications must be filed in the year before the year you want the reduction for.",
+      "Once an application is approved it is a continuing application. You do not refile every year, and the auditor treats the absence of a new application as evidence you are still entitled.",
+      "Late filing is contemplated. You may file a late application for the preceding tax year alongside the current year application. If the auditor finds it correct, they work out what you would have received had you filed on time, and that amount is refunded to you as an overpayment of taxes under Ohio Revised Code 5715.22.",
+      "If you stop qualifying in a later year, you have to tell the county auditor. The statute says that conviction for willfully falsifying information to get the reduction, or failing to give that notice, revokes your right to the reduction for three years.",
+      "The application also requires you to affirm that you did not acquire the home from a relative, other than your spouse, in order to qualify for the reduction."
     ],
     "agency": "County auditor, Ohio Department of Taxation",
     "statuteRef": "Ohio Rev. Code 323.153",
     "officialUrl": "https://codes.ohio.gov/ohio-revised-code/section-323.153",
-    "confidence": "needs-review"
+    "confidence": "verified"
   },
   {
     "id": "oh-war-orphans-severely-disabled-veterans-children-scholarship",
@@ -78,18 +85,21 @@
     "eligibility": [
       "Retired pay deduction: amounts received as retired personnel pay for service in the uniformed services or reserve components thereof, or the national guard.",
       "The retired pay deduction also reaches amounts received by the surviving spouse or former spouse of such a taxpayer under the Survivor Benefit Plan on account of that taxpayer's death.",
+      "It also reaches federal civil service retirement. If you draw a CSRS or FERS pension that is based in whole or in part on credit for your uniformed service, you may deduct the portion attributable to that service.",
       "Active duty pay deduction: military pay and allowances received for active duty service in the armed forces, reserve components, or the national guard. The deduction may not be claimed for military pay and allowances received while the taxpayer is stationed in this state."
     ],
     "details": [
-      "The retired pay deduction is Ohio Revised Code 5747.01 division (A)(23).",
-      "The active duty pay deduction is division (A)(21) and turns on where the servicemember is stationed, not on residency alone.",
-      "Both are deductions taken in computing Ohio adjusted gross income, so they are claimed on the Ohio income tax return rather than through a separate application.",
-      "The statute applies to retired personnel pay for service in the uniformed services. It does not by its terms cover civilian federal retirement or VA disability compensation, which is already excluded from federal adjusted gross income."
+      "The retired pay deduction is Ohio Revised Code 5747.01 division (A)(23). The active duty pay deduction is division (A)(21) and turns on where you are stationed, not on residency alone.",
+      "The federal civil service part is the one people miss. A Veteran who bought back military time toward a CSRS or FERS pension can deduct the share of that pension attributable to uniformed service, so long as it is in federal adjusted gross income and not already deducted.",
+      "You cannot take this deduction on an amount you also claimed the Ohio retirement income credit on under Ohio Revised Code 5747.055, and an amount deducted here does not count toward adjusted gross income for that credit.",
+      "Two more deductions sit right beside these in the same statute. Division (A)(24) covers payments from the Ohio military injury relief fund, and division (A)(25) covers the Ohio veterans bonus.",
+      "All of these are deductions taken in computing Ohio adjusted gross income, so they are claimed on the Ohio return rather than through a separate application.",
+      "VA disability compensation is not part of this. It is already excluded from federal adjusted gross income, so there is nothing to deduct."
     ],
     "agency": "Ohio Department of Taxation",
     "statuteRef": "Ohio Rev. Code 5747.01(A)(21), 5747.01(A)(23)",
     "officialUrl": "https://codes.ohio.gov/ohio-revised-code/section-5747.01",
-    "confidence": "needs-review"
+    "confidence": "verified"
   },
   {
     "id": "oh-disabled-veteran-license-plates-fee-exemption",

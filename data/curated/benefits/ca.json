@@ -4,24 +4,34 @@
     "jurisdiction": "CA",
     "category": "property-tax",
     "title": "Disabled Veterans' property tax exemption on your home",
-    "summary": "California exempts part of the assessed value of your principal residence if you are blind in both eyes, lost the use of two or more limbs, or are totally disabled from a service-connected injury or disease. A larger exemption applies if your household income is under the annual limit.",
-    "amount": "Statute sets a base exemption of $100,000 of assessed value and $150,000 for low-income claimants. Both figures and the income limit are compounded annually for inflation, so the current amounts are higher.",
+    "summary": "California exempts a large slice of the assessed value of your principal residence if the VA rates you 100 percent disabled, pays you at the 100 percent rate for unemployability, or you are blind in both eyes or have lost the use of two or more limbs. A bigger exemption applies if your household income is under the annual limit.",
+    "amount": "For the 2026 lien date, $180,671 of assessed value, or $271,009 if household income is $81,131 or less.",
     "eligibility": [
-      "You are a Veteran who is blind in both eyes, has lost the use of two or more limbs, or is totally disabled as a result of injury or disease incurred in military service",
-      "The exemption applies to your principal place of residence",
-      "The larger low-income exemption applies only if household income is at or below the annual limit set in statute and adjusted for inflation",
-      "Unmarried surviving spouses of qualifying Veterans may also claim the exemption. Confirm your situation with your county assessor"
+      "The VA or your branch of service rates you 100 percent disabled, or compensates you at the 100 percent rate because a service-connected disability leaves you unable to hold substantially gainful employment",
+      "Or you are blind in both eyes, meaning visual acuity of 5/200 or less, or a visual field contracted to 5 degrees or less",
+      "Or you have lost the use of two or more limbs, by amputation or through ankylosis, progressive muscular dystrophy, or paralysis",
+      "Your character of discharge was under other than dishonorable conditions",
+      "You served during one of the time periods listed in Revenue and Taxation Code 205.5(b)(1)(A)",
+      "The property is your principal place of residence",
+      "The larger low-income exemption applies only if annual household income is at or below the limit, which is $81,131 for the 2026 lien date",
+      "An unmarried surviving spouse may claim it if the Veteran qualified during their lifetime, would have qualified had they been alive on January 1, 1977, or died from a service-connected injury or disease"
     ],
     "details": [
-      "The dollar figures written into the statute are not the amounts in force today. Revenue and Taxation Code 205.5 sets a base of $100,000 and a low-income amount of $150,000, with a $40,000 household income limit, and then compounds all three annually by a California Consumer Price Index inflation factor measured February to February.",
-      "To show how far the figures have moved: the Board of Equalization page lists the 2018 basic exemption at $134,706, the 2018 low-income exemption at $202,060, and the 2018 household income limit at $60,490. Do not use those numbers for a current filing. Ask your county assessor for this year's figures.",
-      "You claim it on form BOE-261-G, Claim for Disabled Veterans' Property Tax Exemption, which you get from your county assessor. You will need proof of your disability rating and your character of discharge.",
-      "Deadlines per the Board of Equalization: for the basic exemption, file between the date of the eligibility event and the following January 1, or 90 days after the eligibility event, whichever is later. The low-income exemption must be claimed every year, and filing between January 1 and February 15 gets 100 percent of the exemption, February 16 through December 10 gets 90 percent, and after December 10 gets 85 percent."
+      "The dollar figures move every year. Revenue and Taxation Code 205.5 sets a base of $100,000, a low-income amount of $150,000 and a $40,000 household income limit, then compounds all three annually by a California Consumer Price Index factor measured February to February.",
+      "The 2026 figures above are from Board of Equalization Letter to Assessors 2025/014, issued 21 May 2025. It applied a factor of 1.03065, a 3.065 percent rise, to the 2025 amounts of $175,298 basic, $262,950 low-income, and a $78,718 income limit.",
+      "That letter is the thing to watch, not the county. The Board issues one each spring setting the amounts for the next lien date, so a single document a year covers this benefit. They are listed under Letters to Assessors on boe.ca.gov.",
+      "This exemption is worth more than the Veterans' Exemption and the Homeowners' Exemption. If you qualify for more than one, claim this one.",
+      "A 100 percent VA rating is enough on its own. The Board instructs assessors to treat the rating letter as sufficient and not to ask for medical files.",
+      "Claim it on form BOE-261-G from your county assessor, with proof of the disability rating and proof that your character of service was other than dishonorable, such as a DD-214.",
+      "First year deadline: file between the eligibility event and the following January 1, or 90 days after the event, whichever is later, to get the whole exemption. File later and you get 85 percent for that first year.",
+      "The basic exemption never has to be refiled. The low-income exemption does, every year between January 1 and February 15 for the full amount. February 16 through December 10 gets 90 percent, and after December 10 gets 85 percent.",
+      "If you are confined to a hospital or a care facility, the home still counts as your principal residence, as long as it is not rented or leased to anyone.",
+      "If two qualified claimants own the home together, each gets the exemption to the extent of their own interest in it."
     ],
     "agency": "California State Board of Equalization, administered by county assessors",
     "statuteRef": "Cal. Rev. & Tax. Code 205.5",
     "officialUrl": "https://www.boe.ca.gov/proptaxes/dv_exemption.htm",
-    "confidence": "needs-review"
+    "confidence": "verified"
   },
   {
     "id": "ca-college-fee-waiver-veteran-dependents",
@@ -49,23 +59,26 @@
     "jurisdiction": "CA",
     "category": "income-tax",
     "title": "Partial state income tax exclusion for military retirement pay",
-    "summary": "California now lets qualified taxpayers leave a capped amount of federal uniformed services retirement pay out of state gross income. There is a federal adjusted gross income ceiling and the provision is temporary.",
-    "amount": "The statute text posted on leginfo caps the exclusion at $20,000 of retirement pay per year. Confirm the current year cap with the Franchise Tax Board before you file.",
+    "summary": "California now lets qualified taxpayers leave up to $20,000 of federal uniformed services retirement pay out of state gross income. There is a federal adjusted gross income ceiling, and the provision expires after tax year 2029.",
+    "amount": "Up to $20,000 of retirement pay per year, for tax years 2025 through 2029.",
     "eligibility": [
-      "You receive retirement pay from the federal government for service in the uniformed services, which the statute defines to include the Armed Forces, the National Guard when on active duty, the Public Health Service Commissioned Corps, and the NOAA Commissioned Officer Corps",
-      "Federal adjusted gross income of $250,000 or less for a surviving spouse or spouses filing a joint return",
-      "Federal adjusted gross income of $125,000 or less for any other individual"
+      "You receive retirement pay from the federal government for service in the uniformed services",
+      "The statute defines uniformed services as the Armed Forces, the Army National Guard and Air National Guard when engaged in active duty for training, inactive duty training, or full-time National Guard duty, the commissioned corps of the Public Health Service, and the NOAA Commissioned Officer Corps",
+      "Federal adjusted gross income of $250,000 or less for a surviving spouse, or for spouses filing a joint return",
+      "Federal adjusted gross income of $125,000 or less for anyone else",
+      "The income test uses the adjusted gross income shown on your federal return for the same tax year"
     ],
     "details": [
-      "The exclusion applies to taxable years beginning on or after January 1, 2025 and before January 1, 2030, and the section is repealed as of December 1, 2030.",
-      "A companion section, Revenue and Taxation Code 17132.10, gives a parallel exclusion for Survivor Benefit Plan annuity payments received by a surviving spouse or other named beneficiary, with the same dollar cap, the same income ceilings, and the same 2025 through 2029 window.",
-      "This is an exclusion you claim on your California return. It is not automatic and it does not change anything on your federal return.",
-      "The Legislature has repeatedly revisited the cap on this exclusion. Check the Franchise Tax Board instructions for the tax year you are filing before relying on a specific dollar figure."
+      "This is new. It was added by SB 132, Stats. 2025, Ch. 17, effective 27 June 2025, so tax year 2025 returns are the first ones that can claim it.",
+      "It applies to taxable years beginning on or after 1 January 2025 and before 1 January 2030, and the section repeals itself on 1 December 2030. Unless the Legislature extends it, tax year 2029 is the last one.",
+      "A companion section, Revenue and Taxation Code 17132.10, gives a separate $20,000 exclusion for Survivor Benefit Plan annuity payments received by a surviving spouse or other named beneficiary. Same income ceilings, same 2025 through 2029 window, same repeal date. The plan is the Department of Defense one under 10 U.S.C. 1447 to 1455.",
+      "This is an exclusion you claim on your California return. It is not automatic, and it changes nothing on your federal return.",
+      "The cap is a flat $20,000 in the statute with no inflation adjustment, so it does not rise year to year. Check the Franchise Tax Board instructions for the year you are filing in case the Legislature amends it."
     ],
     "agency": "California Franchise Tax Board",
     "statuteRef": "Cal. Rev. & Tax. Code 17132.9",
     "officialUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=17132.9.",
-    "confidence": "needs-review"
+    "confidence": "verified"
   },
   {
     "id": "ca-disabled-veteran-license-plates",

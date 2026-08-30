@@ -2,7 +2,7 @@
   "sourceId": "curated-benefits",
   "recordType": "benefit",
   "jurisdiction": null,
-  "generatedAt": "2026-08-29T22:07:33.656Z",
+  "generatedAt": "2026-08-30T04:43:14.336Z",
   "records": [
     {
       "id": "az-disabled-veteran-hunting-fishing-license",
@@ -31,7 +31,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "az-disabled-veteran-property-tax-exemption",
@@ -61,7 +61,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "az-military-family-relief-fund",
@@ -89,7 +89,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "az-military-retirement-pay-tax-exemption",
@@ -117,7 +117,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "az-purple-heart-tuition-waiver",
@@ -146,7 +146,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "az-state-veteran-homes",
@@ -171,7 +171,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "az-vehicle-license-tax-exemption",
@@ -199,7 +199,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "az-veterans-memorial-cemeteries",
@@ -225,7 +225,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "az-veterans-preference-state-employment",
@@ -254,7 +254,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "ca-calvet-home-loan",
@@ -283,7 +283,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "ca-college-fee-waiver-veteran-dependents",
@@ -310,7 +310,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "ca-disabled-veteran-business-enterprise-contracting",
@@ -338,7 +338,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "ca-disabled-veteran-license-plates",
@@ -366,66 +366,79 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "ca-disabled-veterans-property-tax-exemption",
       "jurisdiction": "CA",
       "category": "property-tax",
       "title": "Disabled Veterans' property tax exemption on your home",
-      "summary": "California exempts part of the assessed value of your principal residence if you are blind in both eyes, lost the use of two or more limbs, or are totally disabled from a service-connected injury or disease. A larger exemption applies if your household income is under the annual limit.",
-      "amount": "Statute sets a base exemption of $100,000 of assessed value and $150,000 for low-income claimants. Both figures and the income limit are compounded annually for inflation, so the current amounts are higher.",
+      "summary": "California exempts a large slice of the assessed value of your principal residence if the VA rates you 100 percent disabled, pays you at the 100 percent rate for unemployability, or you are blind in both eyes or have lost the use of two or more limbs. A bigger exemption applies if your household income is under the annual limit.",
+      "amount": "For the 2026 lien date, $180,671 of assessed value, or $271,009 if household income is $81,131 or less.",
       "eligibility": [
-        "You are a Veteran who is blind in both eyes, has lost the use of two or more limbs, or is totally disabled as a result of injury or disease incurred in military service",
-        "The exemption applies to your principal place of residence",
-        "The larger low-income exemption applies only if household income is at or below the annual limit set in statute and adjusted for inflation",
-        "Unmarried surviving spouses of qualifying Veterans may also claim the exemption. Confirm your situation with your county assessor"
+        "The VA or your branch of service rates you 100 percent disabled, or compensates you at the 100 percent rate because a service-connected disability leaves you unable to hold substantially gainful employment",
+        "Or you are blind in both eyes, meaning visual acuity of 5/200 or less, or a visual field contracted to 5 degrees or less",
+        "Or you have lost the use of two or more limbs, by amputation or through ankylosis, progressive muscular dystrophy, or paralysis",
+        "Your character of discharge was under other than dishonorable conditions",
+        "You served during one of the time periods listed in Revenue and Taxation Code 205.5(b)(1)(A)",
+        "The property is your principal place of residence",
+        "The larger low-income exemption applies only if annual household income is at or below the limit, which is $81,131 for the 2026 lien date",
+        "An unmarried surviving spouse may claim it if the Veteran qualified during their lifetime, would have qualified had they been alive on January 1, 1977, or died from a service-connected injury or disease"
       ],
       "details": [
-        "The dollar figures written into the statute are not the amounts in force today. Revenue and Taxation Code 205.5 sets a base of $100,000 and a low-income amount of $150,000, with a $40,000 household income limit, and then compounds all three annually by a California Consumer Price Index inflation factor measured February to February.",
-        "To show how far the figures have moved: the Board of Equalization page lists the 2018 basic exemption at $134,706, the 2018 low-income exemption at $202,060, and the 2018 household income limit at $60,490. Do not use those numbers for a current filing. Ask your county assessor for this year's figures.",
-        "You claim it on form BOE-261-G, Claim for Disabled Veterans' Property Tax Exemption, which you get from your county assessor. You will need proof of your disability rating and your character of discharge.",
-        "Deadlines per the Board of Equalization: for the basic exemption, file between the date of the eligibility event and the following January 1, or 90 days after the eligibility event, whichever is later. The low-income exemption must be claimed every year, and filing between January 1 and February 15 gets 100 percent of the exemption, February 16 through December 10 gets 90 percent, and after December 10 gets 85 percent."
+        "The dollar figures move every year. Revenue and Taxation Code 205.5 sets a base of $100,000, a low-income amount of $150,000 and a $40,000 household income limit, then compounds all three annually by a California Consumer Price Index factor measured February to February.",
+        "The 2026 figures above are from Board of Equalization Letter to Assessors 2025/014, issued 21 May 2025. It applied a factor of 1.03065, a 3.065 percent rise, to the 2025 amounts of $175,298 basic, $262,950 low-income, and a $78,718 income limit.",
+        "That letter is the thing to watch, not the county. The Board issues one each spring setting the amounts for the next lien date, so a single document a year covers this benefit. They are listed under Letters to Assessors on boe.ca.gov.",
+        "This exemption is worth more than the Veterans' Exemption and the Homeowners' Exemption. If you qualify for more than one, claim this one.",
+        "A 100 percent VA rating is enough on its own. The Board instructs assessors to treat the rating letter as sufficient and not to ask for medical files.",
+        "Claim it on form BOE-261-G from your county assessor, with proof of the disability rating and proof that your character of service was other than dishonorable, such as a DD-214.",
+        "First year deadline: file between the eligibility event and the following January 1, or 90 days after the event, whichever is later, to get the whole exemption. File later and you get 85 percent for that first year.",
+        "The basic exemption never has to be refiled. The low-income exemption does, every year between January 1 and February 15 for the full amount. February 16 through December 10 gets 90 percent, and after December 10 gets 85 percent.",
+        "If you are confined to a hospital or a care facility, the home still counts as your principal residence, as long as it is not rented or leased to anyone.",
+        "If two qualified claimants own the home together, each gets the exemption to the extent of their own interest in it."
       ],
       "agency": "California State Board of Equalization, administered by county assessors",
       "statuteRef": "Cal. Rev. & Tax. Code 205.5",
       "officialUrl": "https://www.boe.ca.gov/proptaxes/dv_exemption.htm",
-      "confidence": "needs-review",
+      "confidence": "verified",
       "source": {
         "id": "curated-benefits",
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "ca-military-retirement-pay-income-tax-exclusion",
       "jurisdiction": "CA",
       "category": "income-tax",
       "title": "Partial state income tax exclusion for military retirement pay",
-      "summary": "California now lets qualified taxpayers leave a capped amount of federal uniformed services retirement pay out of state gross income. There is a federal adjusted gross income ceiling and the provision is temporary.",
-      "amount": "The statute text posted on leginfo caps the exclusion at $20,000 of retirement pay per year. Confirm the current year cap with the Franchise Tax Board before you file.",
+      "summary": "California now lets qualified taxpayers leave up to $20,000 of federal uniformed services retirement pay out of state gross income. There is a federal adjusted gross income ceiling, and the provision expires after tax year 2029.",
+      "amount": "Up to $20,000 of retirement pay per year, for tax years 2025 through 2029.",
       "eligibility": [
-        "You receive retirement pay from the federal government for service in the uniformed services, which the statute defines to include the Armed Forces, the National Guard when on active duty, the Public Health Service Commissioned Corps, and the NOAA Commissioned Officer Corps",
-        "Federal adjusted gross income of $250,000 or less for a surviving spouse or spouses filing a joint return",
-        "Federal adjusted gross income of $125,000 or less for any other individual"
+        "You receive retirement pay from the federal government for service in the uniformed services",
+        "The statute defines uniformed services as the Armed Forces, the Army National Guard and Air National Guard when engaged in active duty for training, inactive duty training, or full-time National Guard duty, the commissioned corps of the Public Health Service, and the NOAA Commissioned Officer Corps",
+        "Federal adjusted gross income of $250,000 or less for a surviving spouse, or for spouses filing a joint return",
+        "Federal adjusted gross income of $125,000 or less for anyone else",
+        "The income test uses the adjusted gross income shown on your federal return for the same tax year"
       ],
       "details": [
-        "The exclusion applies to taxable years beginning on or after January 1, 2025 and before January 1, 2030, and the section is repealed as of December 1, 2030.",
-        "A companion section, Revenue and Taxation Code 17132.10, gives a parallel exclusion for Survivor Benefit Plan annuity payments received by a surviving spouse or other named beneficiary, with the same dollar cap, the same income ceilings, and the same 2025 through 2029 window.",
-        "This is an exclusion you claim on your California return. It is not automatic and it does not change anything on your federal return.",
-        "The Legislature has repeatedly revisited the cap on this exclusion. Check the Franchise Tax Board instructions for the tax year you are filing before relying on a specific dollar figure."
+        "This is new. It was added by SB 132, Stats. 2025, Ch. 17, effective 27 June 2025, so tax year 2025 returns are the first ones that can claim it.",
+        "It applies to taxable years beginning on or after 1 January 2025 and before 1 January 2030, and the section repeals itself on 1 December 2030. Unless the Legislature extends it, tax year 2029 is the last one.",
+        "A companion section, Revenue and Taxation Code 17132.10, gives a separate $20,000 exclusion for Survivor Benefit Plan annuity payments received by a surviving spouse or other named beneficiary. Same income ceilings, same 2025 through 2029 window, same repeal date. The plan is the Department of Defense one under 10 U.S.C. 1447 to 1455.",
+        "This is an exclusion you claim on your California return. It is not automatic, and it changes nothing on your federal return.",
+        "The cap is a flat $20,000 in the statute with no inflation adjustment, so it does not rise year to year. Check the Franchise Tax Board instructions for the year you are filing in case the Legislature amends it."
       ],
       "agency": "California Franchise Tax Board",
       "statuteRef": "Cal. Rev. & Tax. Code 17132.9",
       "officialUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=17132.9.",
-      "confidence": "needs-review",
+      "confidence": "verified",
       "source": {
         "id": "curated-benefits",
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "ca-professional-license-renewal-waiver-active-duty",
@@ -454,7 +467,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "ca-reduced-fee-sport-fishing-license-disabled-veterans",
@@ -480,7 +493,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "ca-state-employment-veterans-preference",
@@ -508,7 +521,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "ca-state-park-pass-disabled-veterans",
@@ -536,7 +549,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "ca-veterans-homes-of-california",
@@ -565,7 +578,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "fl-bill-young-veteran-tuition-waiver",
@@ -594,7 +607,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "fl-combat-disabled-veteran-age-65-tax-discount",
@@ -613,18 +626,23 @@
         "The statute reads: \"The discount shall be in a percentage equal to the percentage of the veteran's permanent, service-connected disability as determined by the United States Department of Veterans Affairs.\"",
         "This is a percentage discount off the tax owed, not a fixed dollar exemption, so it can be worth far more than the $5,000 exemption under Fla. Stat. 196.24.",
         "The combat-related requirement is the part people miss. A high rating that is not combat-related does not qualify for this particular discount.",
-        "Apply through your county property appraiser. Check with them on the current filing deadline and on what evidence they want that the disability is combat-related."
+        "Apply to your county property appraiser by March 1. The statute names exactly three things you must submit: an official VA letter stating your service-connected disability percentage and evidence that reasonably identifies the disability as combat-related, a copy of your honorable discharge, and proof of age as of January 1 of the year the discount applies to.",
+        "Missing March 1 is not fatal. You may still apply and file a petition with the county value adjustment board under Fla. Stat. 194.011(3).",
+        "You can apply before the VA paperwork arrives. Once it does, the discount is granted back to the date of your original application and excess taxes are refunded, limited to the 4 year period in section 197.182(1)(e).",
+        "If the property appraiser denies you, they must tell you in writing with reasons by July 1, and the notice must explain your right to appeal to the value adjustment board.",
+        "The discount is applied after every other exemption. The appraiser deducts all other exemptions from assessed value first, then subtracts your disability percentage from what is left.",
+        "If the Veteran dies first, the discount carries over to a surviving spouse who holds title and lives there, until they remarry or sell. A spouse who sells can transfer a discount not exceeding the dollar amount on the most recent tax roll to a new primary residence."
       ],
       "agency": "Florida county property appraisers",
       "statuteRef": "Fla. Stat. 196.082",
-      "officialUrl": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199/0196/Sections/0196.082.html",
-      "confidence": "needs-review",
+      "officialUrl": "https://www.flsenate.gov/Laws/Statutes/2024/196.082",
+      "confidence": "verified",
       "source": {
         "id": "curated-benefits",
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "fl-disabled-ex-servicemember-5000-exemption",
@@ -647,13 +665,13 @@
       "agency": "Florida county property appraisers",
       "statuteRef": "Fla. Stat. 196.24",
       "officialUrl": "https://www.flsenate.gov/Laws/Statutes/2024/196.24",
-      "confidence": "needs-review",
+      "confidence": "verified",
       "source": {
         "id": "curated-benefits",
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "fl-disabled-veteran-hunting-fishing-license",
@@ -681,7 +699,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "fl-driver-license-fee-exemption",
@@ -709,7 +727,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "fl-education-benefits-dependents-deceased-disabled-servicemembers",
@@ -738,7 +756,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "fl-free-dv-license-plate",
@@ -767,7 +785,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "fl-home-modification-permit-fee-exemption",
@@ -796,7 +814,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "fl-no-state-personal-income-tax",
@@ -807,19 +825,19 @@
       "details": [
         "Fla. Stat. 220.02(1) refers to \"the mandate in s. 5, Art. VII of the State Constitution that no income tax be levied upon natural persons who are residents and citizens of this state.\"",
         "Because there is no personal income tax at all, Florida has no separate military retirement pay exclusion or Veteran income tax credit. There is nothing to apply for and no form to file.",
-        "The Florida Department of Revenue's list of taxes and fees it administers does not include a personal income tax. It does administer corporate income tax, sales and use tax, and others.",
+        "The Florida Department of Revenue lists every tax and fee it administers at floridarevenue.com/taxes/taxesfees. Corporate income, sales and use, fuel, and documentary stamp are on that list. Personal income tax is not on it at all.",
         "Federal tax rules still apply. VA disability compensation remains non-taxable federally, and military retired pay is still federally taxable."
       ],
       "agency": "Florida Department of Revenue",
       "statuteRef": "Fla. Const. art. VII, s. 5, as referenced in Fla. Stat. 220.02(1)",
       "officialUrl": "https://www.flsenate.gov/Laws/Statutes/2024/220.02",
-      "confidence": "needs-review",
+      "confidence": "verified",
       "source": {
         "id": "curated-benefits",
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "fl-purple-heart-tuition-waiver",
@@ -847,7 +865,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "fl-state-veterans-nursing-homes",
@@ -878,7 +896,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "fl-total-permanent-disability-homestead-exemption",
@@ -891,7 +909,7 @@
         "Honorably discharged with a service-connected total and permanent disability",
         "A letter from the United States Government or the U.S. Department of Veterans Affairs certifying that you are totally and permanently disabled",
         "You own the real estate and use it as your homestead",
-        "You were a permanent resident of Florida on January 1 of the tax year you are claiming"
+        "You were a permanent resident of Florida on January 1 of the tax year you are claiming, or the Veteran was a permanent resident on January 1 of the year they died"
       ],
       "details": [
         "The statute says producing the total and permanent disability letter to your county property appraiser is prima facie evidence that you are entitled to the exemption.",
@@ -904,13 +922,13 @@
       "agency": "Florida county property appraisers",
       "statuteRef": "Fla. Stat. 196.081",
       "officialUrl": "https://www.flsenate.gov/Laws/Statutes/2024/196.081",
-      "confidence": "needs-review",
+      "confidence": "verified",
       "source": {
         "id": "curated-benefits",
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "fl-veteran-business-enterprise-certification",
@@ -941,7 +959,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "fl-veterans-preference-public-employment",
@@ -973,7 +991,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "ga-disabled-veteran-homestead-exemption",
@@ -981,7 +999,7 @@
       "category": "property-tax",
       "title": "Disabled Veteran homestead tax exemption",
       "summary": "Georgia gives qualifying disabled Veterans a large homestead exemption on the home they own and live in. The exemption amount is set by a federal index and changes from year to year, so confirm the current figure with your county tax commissioner.",
-      "amount": "Set by an index rate established by the U.S. Secretary of Veterans Affairs under 38 U.S.C. 2102. The Georgia Department of Veterans Service lists the maximum as $121,812 for 2025. Value above the exemption stays taxable. Confirm the current year figure with your county.",
+      "amount": "Up to $126,526 of assessed value for FY2026",
       "eligibility": [
         "You are an honorably discharged Georgia Veteran",
         "You own the home and use it as your primary residence",
@@ -990,19 +1008,21 @@
         "An unremarried surviving spouse or minor child of a qualified deceased Veteran may continue the exemption while occupying the home as a residence"
       ],
       "details": [
-        "You file an Application for Homestead Exemption with your county tax officials, not with the state. The Georgia Department of Veterans Service notes that administration of the exemption is as interpreted by the tax commissioners of Georgia's 159 counties, so ask your own county about filing dates and required proof.",
-        "The exemption amount is not a fixed dollar figure in practice. It is indexed, so the number published for one year does not carry over to the next. Ask your county tax commissioner for the amount in effect for the year you are filing."
+        "The maximum is not a Georgia number. O.C.G.A. 48-5-48 ties it to the federal Specially Adapted Housing grant amount under 38 U.S.C. 2102, which the Secretary of Veterans Affairs raises each year by a cost-of-construction index.",
+        "For fiscal year 2026 that amount is $126,526, effective 1 October 2025, a 3.87 percent increase on the previous year. Confirmed against the Federal Register notice, not a secondary summary.",
+        "IMPORTANT: the Georgia Department of Veterans Service page still publishes the 2025 figure of $121,812. That is the previous year. If a county quotes you the lower number, the federal index is the authority and it is worth asking.",
+        "Claimed through your county tax commissioner, not the state. Counties set their own filing deadlines."
       ],
       "agency": "Georgia Department of Veterans Service and county tax commissioners",
       "statuteRef": "O.C.G.A. 48-5-48",
       "officialUrl": "https://veterans.georgia.gov/disabled-veteran-homestead-tax-exemption",
-      "confidence": "needs-review",
+      "confidence": "verified",
       "source": {
         "id": "curated-benefits",
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "ga-hero-scholarship",
@@ -1034,7 +1054,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "ga-military-retirement-income-exclusion",
@@ -1060,7 +1080,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "ga-state-employment-veterans-preference",
@@ -1088,7 +1108,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "ga-veteran-drivers-license",
@@ -1118,7 +1138,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "ga-veteran-hunting-fishing-licenses",
@@ -1147,7 +1167,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "ga-veteran-license-plates",
@@ -1175,7 +1195,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "ga-veterans-business-certificate-exemption",
@@ -1204,7 +1224,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "ga-veterans-memorial-cemeteries",
@@ -1234,7 +1254,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "ga-war-veterans-homes",
@@ -1262,7 +1282,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "nc-disabled-veteran-lifetime-sportsman-license",
@@ -1289,7 +1309,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "nc-disabled-veteran-property-tax-homestead-exclusion",
@@ -1299,28 +1319,33 @@
       "summary": "North Carolina excludes the first $45,000 of appraised value of your permanent residence from property tax if you are a Veteran with a VA certified permanent and total service-connected disability. An unremarried surviving spouse can qualify too.",
       "amount": "The first $45,000 of appraised value of the residence is excluded from taxation",
       "eligibility": [
-        "You served honorably and the VA has certified a service-connected, permanent, and total disability",
-        "Or you received benefits under 38 U.S.C. 2101 as of January 1 preceding the tax year",
-        "Or the Veteran is deceased and the VA certified that death resulted from a service-connected condition",
-        "An unremarried surviving spouse of a disabled Veteran can qualify as an owner if the spouse is a North Carolina resident",
+        "Your character of service at separation was honorable or under honorable conditions",
+        "And the VA or another federal agency has certified that, as of January 1 before the tax year, you have a service-connected, permanent, and total disability",
+        "Or you had received benefits under 38 U.S.C. 2101 as of that January 1",
+        "Or the Veteran is deceased and the VA certified that the death resulted from a service-connected condition",
+        "You are a North Carolina resident and an owner of the permanent residence",
+        "An unremarried surviving spouse of a disabled Veteran also counts as a qualifying owner",
         "There is no income limit written into this particular exclusion"
       ],
       "details": [
         "The statute directs you to file during the regular listing period, but applications must be accepted at any time up to and through June 1 preceding the tax year for which the exclusion is claimed. Do not wait past June 1.",
         "You apply through your county tax office, not the state. Counties administer the listing period and process the paperwork.",
-        "You have to submit either a copy of the Veteran's disability certification or evidence of the benefits received under federal law.",
-        "A qualifying owner receiving this exclusion cannot also receive the other property tax relief programs in the same statute, so compare before you choose."
+        "You have to submit either a copy of the Veteran's disability certification or evidence of the benefits received under 38 U.S.C. 2101.",
+        "A married couple who own and occupy the home together get the full exclusion even if only one of them qualifies.",
+        "You do not lose the exclusion by being away temporarily for health reasons, or by an extended stay in a rest home or nursing home, so long as the residence is empty or lived in by your spouse or another dependent.",
+        "Co-owners who are not married to each other each have to apply separately. Each qualifying co-owner gets the full exclusion, capped at their proportionate share of the property's value.",
+        "A qualifying owner receiving this exclusion cannot also receive the other property tax relief programs in Chapter 105, so compare before you choose."
       ],
       "agency": "North Carolina Department of Revenue, administered by county tax offices",
       "statuteRef": "N.C.G.S. 105-277.1C",
       "officialUrl": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-277.1C.html",
-      "confidence": "needs-review",
+      "confidence": "verified",
       "source": {
         "id": "curated-benefits",
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "nc-in-state-tuition-veterans",
@@ -1348,7 +1373,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "nc-military-retirement-income-deduction",
@@ -1357,27 +1382,31 @@
       "title": "Deduction for military retirement pay and Survivor Benefit Plan payments",
       "summary": "North Carolina lets you deduct military retirement pay from your state taxable income if you served at least 20 years or were medically retired. Survivor Benefit Plan payments to a beneficiary of an eligible retiree are deductible too.",
       "eligibility": [
-        "You receive retirement pay for service in the uniformed services of the United States",
+        "You receive retirement pay from the United States government for service in the uniformed services",
+        "The statute uses the definition of uniformed services in 10 U.S.C. 101(a)(5), which reaches beyond the Armed Forces to the commissioned corps of the Public Health Service and of NOAA",
         "And you served at least 20 years in the uniformed services, or you were medically retired under 10 U.S.C. Chapter 61",
-        "Severance pay under 10 U.S.C. Chapter 61 does not qualify",
-        "A beneficiary receiving payments from a plan defined in 10 U.S.C. 1447, the Survivor Benefit Plan, can deduct those payments if the retired member met the conditions above",
-        "Only the amount actually included in your adjusted gross income can be deducted"
+        "Severance pay for separation under 10 U.S.C. Chapter 61 does not qualify",
+        "A beneficiary receiving payments from a plan defined in 10 U.S.C. 1447, the Survivor Benefit Plan, can deduct them if the retired member met the conditions above",
+        "The deduction is only allowed to the extent the payments are included in your adjusted gross income"
       ],
       "details": [
-        "This deduction applies to taxable years beginning on or after January 1, 2022.",
-        "This is separate from the older Bailey settlement deduction for certain federal, state, and local retirement benefits. The statute says you cannot deduct the same amount under both provisions, so if you are a Bailey-protected retiree, work out which one applies before filing.",
+        "This deduction applies to taxable years beginning on or after 1 January 2022.",
+        "There is no cap. North Carolina deducts the whole qualifying amount, which is a meaningfully better deal than the capped subtractions in states like Virginia and California.",
+        "The 20 year threshold is the catch. A retiree with 19 years and a non-medical separation does not qualify at all, and there is no partial deduction.",
+        "This is separate from the older Bailey settlement deduction under G.S. 105-153.5(b)(5) for certain federal, state, and local retirement benefits. The statute says the same amount cannot be deducted under both, so if you are a Bailey-protected retiree, work out which one applies before filing.",
         "The deduction is claimed on your North Carolina return. It is not automatic."
       ],
       "agency": "North Carolina Department of Revenue",
       "statuteRef": "N.C.G.S. 105-153.5(b)(5a)",
       "officialUrl": "https://www.ncdor.gov/taxes-forms/individual-income-tax/military-retirement",
-      "confidence": "needs-review",
+      "confidence": "verified",
+      "amount": "The full amount of qualifying retirement pay. The statute sets no dollar cap.",
       "source": {
         "id": "curated-benefits",
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "nc-military-veteran-license-plates",
@@ -1407,7 +1436,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "nc-scholarship-children-of-wartime-veterans",
@@ -1439,7 +1468,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "nc-state-veterans-cemeteries",
@@ -1469,7 +1498,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "nc-state-veterans-homes",
@@ -1496,7 +1525,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "nc-veterans-preference-state-employment",
@@ -1525,7 +1554,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "ny-alternative-veterans-property-tax-exemption",
@@ -1535,29 +1564,34 @@
       "summary": "New York's main property tax break for wartime Veterans. It takes a percentage off the assessed value of your primary residence, with extra credit if you served in a combat zone or have a service-connected disability rating.",
       "amount": "15 percent of assessed value for wartime service, plus 10 percent more for combat zone service, plus an amount equal to half your VA disability rating times the assessed value. Each part is capped, and the caps vary by locality.",
       "eligibility": [
-        "You served in the active military, naval, space, or air service during a period of war, or you received an expeditionary medal",
-        "You were honorably discharged, or you qualify under the statute's alternative discharge provisions, which include protections for LGBT Veterans discharged over sexual orientation or gender identity",
-        "The statute's \"qualified owner\" includes a Veteran, the spouse of a Veteran, and the unremarried surviving spouse of a Veteran",
-        "The property must be \"qualifying residential real property\" used exclusively for residential purposes and must be the primary residence of the Veteran or unremarried surviving spouse",
+        "You served in the active military, naval, space, or air service during a period of war, or you received an armed forces, navy, marine corps, or global war on terrorism expeditionary medal",
+        "You were discharged or released under honorable conditions, or you have a qualifying condition or are a discharged LGBT Veteran as defined in section one of the veterans' services law, which covers Veterans discharged over sexual orientation or gender identity",
+        "The statute's qualified owner is a Veteran, the spouse of a Veteran, or the unremarried surviving spouse of a Veteran",
+        "The property must be used exclusively for residential purposes and be the primary residence of the Veteran or unremarried surviving spouse",
         "Your county, city, town, village, or school district must have opted in. Each level of government decides separately"
       ],
       "details": [
-        "The statute sets three layers. The basic layer is 15 percent of assessed value. Combat zone service documented by a campaign ribbon or expeditionary medal adds another 10 percent. A service-connected disability adds an amount equal to the assessed value multiplied by 50 percent of the disability rating. A Veteran who died in service is treated as 100 percent rated.",
-        "Each layer has a ceiling. The statute's base ceilings are $12,000 for the basic layer, $8,000 for the combat layer, and $40,000 for the disability layer, and each is multiplied by the latest state equalization rate. Localities may adopt different maximums from a table in the statute, so the ceiling that applies to your parcel depends on where you live. Ask your assessor for the figures in force in your municipality.",
-        "The Tax Department states that this exemption does not apply to special district charges.",
-        "Getting the exemption is not automatic. You file an application with your local assessor by your municipality's taxable status date. Tax.ny.gov gives March 1 as the typical date but tells applicants to confirm it with their own assessor.",
-        "A separate Cold War veterans exemption exists under Real Property Tax Law section 458-b for service during the Cold War period. It is also a local option."
+        "The statute sets three layers. The basic layer is 15 percent of assessed value. Combat theatre or combat zone service, documented by a United States campaign ribbon, service medal, or expeditionary medal, adds another 10 percent. A compensation rating from VA or the Department of Defense for a service-connected disability adds the assessed value multiplied by 50 percent of the disability rating.",
+        "Each layer is capped at the LESSER of a dollar figure or that figure multiplied by the latest state equalization rate for your assessing unit. The figures are $12,000 for the basic layer, $8,000 for the combat layer, and $40,000 for the disability layer. A locality may also adopt a local law reducing the maximum, so ask your assessor what applies to your parcel.",
+        "Someone who served during a period of war and died in service of a service-connected disability is deemed to have a 100 percent compensation rating for the disability layer.",
+        "The war periods listed in the statute are the Spanish-American war, the Mexican border period, World War I, World War II, Korea, Vietnam, and the Persian Gulf conflict from 2 August 1990. The Persian Gulf period has no end date in the statute, so later service still counts.",
+        "Being away from the home for medical reasons or because you are institutionalized does not cost you the exemption. If part of the property is used for something other than residence, only that part is taxed.",
+        "Where more than one qualified owner owns the property, their exemptions may be combined. A Veteran who is also the unremarried surviving spouse of a Veteran may claim what the deceased spouse was entitled to as well.",
+        "This exemption does not apply to special district charges.",
+        "It is not automatic. File an application with your local assessor by your municipality's taxable status date. Tax.ny.gov gives 1 March as the usual date and tells you to confirm it with your own assessor.",
+        "You can only receive one of New York's three long-standing Veteran exemptions: this one, the Cold War exemption under Real Property Tax Law 458-b, or the eligible funds exemption under section 458.",
+        "Separately, a new full exemption for permanently and totally disabled Veterans starts with taxable status dates on or after 1 October 2026. See that record. It is a local option and the statute says it is in addition to other exemptions."
       ],
       "agency": "Your local assessor, with guidance from the New York State Department of Taxation and Finance",
       "statuteRef": "N.Y. Real Property Tax Law 458-a",
       "officialUrl": "https://www.tax.ny.gov/pit/property/exemption/vetexempt.htm",
-      "confidence": "needs-review",
+      "confidence": "verified",
       "source": {
         "id": "curated-benefits",
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "ny-civil-service-veterans-credits",
@@ -1586,7 +1620,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "ny-disabled-veteran-sporting-licenses",
@@ -1616,7 +1650,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "ny-eligible-funds-veterans-property-tax-exemption",
@@ -1627,25 +1661,29 @@
       "amount": "No more than $7,500 of exemption per individual's military or naval service, per the statute.",
       "eligibility": [
         "The property was purchased with the proceeds of eligible funds",
-        "The statute defines eligible funds as \"pension, bonus or insurance, or dividends or refunds on such insurance, or payments received as prisoner of war compensation from the United States government\" granted for military or naval services",
-        "Eligible claimants include the Veteran who rendered the service, and also a spouse, unremarried surviving spouse, dependent parent, or child under age 21",
-        "You must file a verified application with your assessor by the applicable taxable status date"
+        "The statute defines eligible funds as \"pension, bonus or insurance, or dividends or refunds on such insurance, or payments received as prisoner of war compensation from the United States government\", granted by the United States or by New York for military or naval services",
+        "Eligible claimants include the person who rendered the service, and also a spouse, unremarried surviving spouse, dependent father or mother, or children under age 21",
+        "You must file a verified application with your assessor on or before the taxable status date, showing the amount of eligible funds used toward the purchase"
       ],
       "details": [
         "The exemption tracks the amount of eligible funds actually used to buy the property, rounded to the nearest multiple of fifty dollars. The statute caps it: \"no such exemption on account of eligible funds paid on account of military or naval services rendered by an individual shall be allowed in excess of seven thousand five hundred dollars.\"",
-        "The Tax Department states that this exemption does not apply to special district charges.",
-        "This is generally an either/or with the alternative veterans exemption rather than a stacking benefit. Ask your assessor which one leaves you better off before you switch."
+        "Mixing eligible funds with other money, or the government holding some of it back for insurance premiums, does not disqualify you. The statute says so directly.",
+        "Unlike the alternative exemption, this one applies to state, county, and general municipal taxation without the locality opting in. A school district has to adopt a local law before it applies to school taxes.",
+        "The $7,500 ceiling has one exception. Under subdivision 5, a locality may adopt a local law that adjusts the exemption up or down by the change in level of assessment factor after a revaluation, so the amount can move.",
+        "That same local law may let owners who previously had this exemption, but switched to the alternative exemption under section 458-a, switch back. If you gave this up years ago, it is worth asking your assessor whether your municipality adopted it.",
+        "This exemption does not apply to special district charges.",
+        "You can only receive one of New York's three long-standing Veteran exemptions: this one, the alternative exemption under 458-a, or the Cold War exemption under 458-b. Ask your assessor which leaves you better off before you switch."
       ],
       "agency": "Your local assessor, with guidance from the New York State Department of Taxation and Finance",
       "statuteRef": "N.Y. Real Property Tax Law 458",
       "officialUrl": "https://www.nysenate.gov/legislation/laws/RPT/458",
-      "confidence": "needs-review",
+      "confidence": "verified",
       "source": {
         "id": "curated-benefits",
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "ny-merit-scholarship",
@@ -1676,7 +1714,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "ny-military-pay-and-pension-income-tax",
@@ -1687,25 +1725,64 @@
       "amount": "Military pensions are fully exempt from New York State, New York City, and Yonkers income taxes.",
       "eligibility": [
         "Military pension: the Tax Department states that \"Military pension payments you receive as a retired military personnel or as their beneficiary are totally exempt from New York State, New York City, and Yonkers income taxes\"",
-        "Residents: active duty pay is subject to New York income tax, except that combat zone pay is excluded",
+        "Residents: active duty pay is taxed to the same extent as federally, except that combat zone pay is not taxed, and neither is compensation or bonus pay for active service while a prisoner of war or missing in action during the Vietnam conflict",
         "Nonresidents: the Tax Department states that \"your military pay is not subject to New York State income tax\"",
         "Part-year residents: only military pay earned while you were a New York resident is taxable",
-        "Nonresident military spouses: income earned in New York is excluded from New York source income and exempt from personal income tax if you are a nonresident who is in New York solely to be with your service member spouse"
+        "Nonresident military spouses: income earned in New York is excluded from New York source income under the Servicemembers Civil Relief Act and exempt from personal income tax, if you are a nonresident in New York solely to be with a service member spouse who is here on orders"
       ],
       "details": [
         "The pension exemption reaches the beneficiary of a retired service member, not only the retiree.",
-        "Members of the New York State organized militia can claim a subtraction for pay received for performing active service within New York State, subject to conditions on the page.",
+        "Veterans' benefits such as tuition payments and subsistence allowances are treated the same as federally. If they are excluded from your federal gross income, New York does not tax them either.",
+        "A nonresident claims the exclusion through subtraction modification S-119 on Form IT-225. Your military pay may also be exempt from New York withholding.",
+        "The nonresident spouse exemption covers wages and salary for work done in New York and business income from a sole proprietorship or partnership carried on here. It keeps applying if your service member spouse is later assigned to another state or overseas and you stay.",
+        "Members of the New York State organized militia, which is the New York Army National Guard, Air National Guard, Naval Militia, and New York Guard, can subtract pay for active service performed within New York State under state active-duty orders issued under Military Law section 6.1, or under federal Title 10 active-duty orders for service other than training. Pay for regular duties, such as the annual two week training, does not qualify.",
+        "A reservist called to active duty, or a regular member, may be able to defer payment of back income taxes by showing that military service materially impaired the ability to pay. You must already have a notice of tax due or an installment agreement.",
         "This entry covers state tax treatment only. Federal tax treatment is separate."
       ],
       "agency": "New York State Department of Taxation and Finance",
       "officialUrl": "https://www.tax.ny.gov/pit/file/military_page.htm",
-      "confidence": "needs-review",
+      "confidence": "verified",
       "source": {
         "id": "curated-benefits",
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
+    },
+    {
+      "id": "ny-seriously-disabled-veteran-full-property-tax-exemption",
+      "jurisdiction": "NY",
+      "category": "property-tax",
+      "title": "Full property tax exemption for a permanently and totally disabled Veteran, starting October 2026",
+      "summary": "New York has created a new exemption that takes your primary residence off the property tax roll entirely, including special district charges, if VA considers you permanently and totally disabled from military service. It is a local option and it starts with taxable status dates on or after 1 October 2026.",
+      "amount": "A full exemption of the primary residence from taxation and from special district charges, assessments, and special ad valorem levies.",
+      "eligibility": [
+        "The VA considers you permanently and totally disabled as a result of military service, shown by a letter, official form, or other VA document that says so specifically",
+        "And you were discharged or released under honorable conditions from active military, naval, space, or air service, including Army and Air National Guard service performed under federal Title 10 orders",
+        "Or you have a qualifying condition as defined in section one of the veterans' services law, and your discharge was something other than bad conduct or dishonorable",
+        "Or you are a discharged LGBT Veteran as defined in section one of the veterans' services law, and your discharge was something other than bad conduct or dishonorable",
+        "You meet all the other requirements of Real Property Tax Law 458-a, including that the property is your primary residence",
+        "Your county, city, town, village, or school district has adopted a local law or resolution offering it"
+      ],
+      "details": [
+        "This is new law. It was enacted as Real Property Tax Law 458-a(11) by L.2025 ch.672 and amended by L.2026 ch.59 Part EE and ch.77. The Tax Department says it applies to assessment rolls based on taxable status dates occurring on or after 1 October 2026.",
+        "As of this writing the Tax Department has not yet posted the application form or instructions. It says they are in process and will appear on the veterans exemptions page at tax.ny.gov.",
+        "It is a local option, so it only exists where your county, city, town, village, or school district has adopted it. Each of those decides separately.",
+        "There is a way to check rather than guess. Every locality that adopts it must notify the New York State Department of Veterans' Services within thirty days, and that department has to keep a publicly available record of which ones have. Ask them, or your assessor.",
+        "The statute says this exemption is in addition to other Veteran exemptions under this chapter, and specifically that it does not require giving up an exemption under section 458(3). That is different from the older three exemptions, where you may only hold one.",
+        "It cannot reduce your taxable assessed value below zero.",
+        "Unlike the alternative and eligible funds exemptions, this one does reach special district charges, assessments, and special ad valorem levies."
+      ],
+      "agency": "Your local assessor, with guidance from the New York State Department of Taxation and Finance",
+      "statuteRef": "N.Y. Real Property Tax Law 458-a(11)",
+      "officialUrl": "https://www.tax.ny.gov/pit/property/exemption/vetexempt.htm",
+      "confidence": "verified",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "ny-service-disabled-veteran-owned-business-certification",
@@ -1735,7 +1812,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "ny-state-veterans-homes",
@@ -1765,7 +1842,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "ny-veteran-vehicle-registration-fee-exemption",
@@ -1794,7 +1871,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "ny-veterans-tuition-award",
@@ -1825,7 +1902,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "oh-civil-service-exam-veterans-credit",
@@ -1855,7 +1932,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "oh-county-veterans-service-commissions",
@@ -1885,7 +1962,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "oh-disabled-veteran-license-plates-fee-exemption",
@@ -1913,7 +1990,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "oh-enhanced-homestead-exemption-disabled-veterans",
@@ -1921,7 +1998,7 @@
       "category": "property-tax",
       "title": "Enhanced Homestead Exemption for Disabled Veterans and Surviving Spouses",
       "summary": "Ohio gives a disabled Veteran a larger homestead exemption than the standard senior exemption. It shields a set amount of the true value of the Veteran's owner-occupied home from property taxation, and a qualifying surviving spouse can keep it after the Veteran dies.",
-      "amount": "Ohio Revised Code 323.152 sets the disabled Veteran reduction at fifty thousand dollars of the true value of the property in money, as adjusted. The statute provides for adjustment, so the figure in force for a given tax year is the adjusted amount published by the Ohio Department of Taxation.",
+      "amount": "Ohio Revised Code 323.152 sets the disabled Veteran reduction at fifty thousand dollars of the true value of the property in money, as adjusted each year. That is double the twenty-five thousand dollar figure used for the standard senior and disability homestead reduction.",
       "eligibility": [
         "Veteran of the armed forces of the United States, including reserve components, or of the national guard, discharged or released from active duty under honorable conditions.",
         "Has received a total disability rating, or a total disability rating for compensation based on individual unemployability, for a service-connected disability or combination of service-connected disabilities as prescribed in Title 38, Part 4 of the Code of Federal Regulations.",
@@ -1930,20 +2007,24 @@
       ],
       "details": [
         "Ohio Revised Code 323.151 carries the definitions of disabled veteran and surviving spouse of a disabled veteran that control this exemption.",
+        "The fifty thousand dollar figure is indexed, and the statute says exactly how. Each September the tax commissioner takes the percentage increase in the gross domestic product deflator published by the federal Bureau of Economic Analysis over the preceding calendar year, applies it, and rounds to the nearest one hundred dollars. The commissioner then certifies the new amount to every county auditor no later than 1 December, and it applies to the following tax year. Ask your county auditor for the figure in force.",
+        "The commissioner does not make the adjustment in a year when it would produce a figure lower than the current one, so the amount does not fall.",
+        "A surviving spouse who occupied the homestead when the disabled Veteran died and who acquires ownership may continue the reduction. It runs from the year the Veteran dies, or where the rating came after death, from the first year on 1 January of which the total disability rating had been received for the deceased spouse. It continues through the tax year in which the surviving spouse dies or remarries.",
         "A surviving spouse can also qualify where the Veteran died before receiving the disability rating, if that person otherwise met the disabled Veteran definition and owned and occupied the homestead.",
-        "The same statute provides a separate reduction for the surviving spouse of a public service officer killed in the line of duty.",
-        "The exemption works as a reduction in taxable value, not a check. The savings depend on the assessment percentage and the effective tax rate where the home sits, so the dollar benefit differs by county and district."
+        "The reduction is in lieu of the other homestead reductions, not on top of them, and it applies to only one homestead.",
+        "The same statute provides a separate reduction, also fifty thousand dollars of true value, for the surviving spouse of a public service officer killed in the line of duty.",
+        "The exemption works as a reduction in taxable value, not a check. The statute multiplies the fifty thousand dollars by the assessment percentage, which cannot exceed 35 percent, and by the effective tax rate for your property, so the dollar benefit differs by county and district."
       ],
       "agency": "County auditor of the county where the homestead is located, under rules of the Ohio Department of Taxation",
       "statuteRef": "Ohio Rev. Code 323.151, 323.152",
       "officialUrl": "https://codes.ohio.gov/ohio-revised-code/section-323.152",
-      "confidence": "needs-review",
+      "confidence": "verified",
       "source": {
         "id": "curated-benefits",
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "oh-free-hunting-fishing-licenses-veterans",
@@ -1973,7 +2054,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "oh-homestead-exemption-application-deadline",
@@ -1988,19 +2069,22 @@
         "File with the county auditor of the county in which the homestead is located.",
         "The application uses a form devised and supplied by the tax commissioner, which asks only for information needed to establish eligibility and the amount of the reduction.",
         "The statute states the application shall be filed on or before the thirty-first day of December of the year for which the reduction is sought.",
-        "Late filing is contemplated. A person may file a late application for the preceding tax year along with the current year application. If it is approved, the auditor determines the reduction the applicant would have received had the application been timely, and that amount is refunded as an overpayment of taxes.",
-        "Confirm the current year deadline with your county auditor before relying on it. Deadlines have been amended over time and the county auditor is the office that accepts the filing."
+        "A manufactured or mobile home is the exception. Those applications must be filed in the year before the year you want the reduction for.",
+        "Once an application is approved it is a continuing application. You do not refile every year, and the auditor treats the absence of a new application as evidence you are still entitled.",
+        "Late filing is contemplated. You may file a late application for the preceding tax year alongside the current year application. If the auditor finds it correct, they work out what you would have received had you filed on time, and that amount is refunded to you as an overpayment of taxes under Ohio Revised Code 5715.22.",
+        "If you stop qualifying in a later year, you have to tell the county auditor. The statute says that conviction for willfully falsifying information to get the reduction, or failing to give that notice, revokes your right to the reduction for three years.",
+        "The application also requires you to affirm that you did not acquire the home from a relative, other than your spouse, in order to qualify for the reduction."
       ],
       "agency": "County auditor, Ohio Department of Taxation",
       "statuteRef": "Ohio Rev. Code 323.153",
       "officialUrl": "https://codes.ohio.gov/ohio-revised-code/section-323.153",
-      "confidence": "needs-review",
+      "confidence": "verified",
       "source": {
         "id": "curated-benefits",
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "oh-indigent-veteran-burial",
@@ -2028,7 +2112,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "oh-military-retirement-income-deduction",
@@ -2040,24 +2124,27 @@
       "eligibility": [
         "Retired pay deduction: amounts received as retired personnel pay for service in the uniformed services or reserve components thereof, or the national guard.",
         "The retired pay deduction also reaches amounts received by the surviving spouse or former spouse of such a taxpayer under the Survivor Benefit Plan on account of that taxpayer's death.",
+        "It also reaches federal civil service retirement. If you draw a CSRS or FERS pension that is based in whole or in part on credit for your uniformed service, you may deduct the portion attributable to that service.",
         "Active duty pay deduction: military pay and allowances received for active duty service in the armed forces, reserve components, or the national guard. The deduction may not be claimed for military pay and allowances received while the taxpayer is stationed in this state."
       ],
       "details": [
-        "The retired pay deduction is Ohio Revised Code 5747.01 division (A)(23).",
-        "The active duty pay deduction is division (A)(21) and turns on where the servicemember is stationed, not on residency alone.",
-        "Both are deductions taken in computing Ohio adjusted gross income, so they are claimed on the Ohio income tax return rather than through a separate application.",
-        "The statute applies to retired personnel pay for service in the uniformed services. It does not by its terms cover civilian federal retirement or VA disability compensation, which is already excluded from federal adjusted gross income."
+        "The retired pay deduction is Ohio Revised Code 5747.01 division (A)(23). The active duty pay deduction is division (A)(21) and turns on where you are stationed, not on residency alone.",
+        "The federal civil service part is the one people miss. A Veteran who bought back military time toward a CSRS or FERS pension can deduct the share of that pension attributable to uniformed service, so long as it is in federal adjusted gross income and not already deducted.",
+        "You cannot take this deduction on an amount you also claimed the Ohio retirement income credit on under Ohio Revised Code 5747.055, and an amount deducted here does not count toward adjusted gross income for that credit.",
+        "Two more deductions sit right beside these in the same statute. Division (A)(24) covers payments from the Ohio military injury relief fund, and division (A)(25) covers the Ohio veterans bonus.",
+        "All of these are deductions taken in computing Ohio adjusted gross income, so they are claimed on the Ohio return rather than through a separate application.",
+        "VA disability compensation is not part of this. It is already excluded from federal adjusted gross income, so there is nothing to deduct."
       ],
       "agency": "Ohio Department of Taxation",
       "statuteRef": "Ohio Rev. Code 5747.01(A)(21), 5747.01(A)(23)",
       "officialUrl": "https://codes.ohio.gov/ohio-revised-code/section-5747.01",
-      "confidence": "needs-review",
+      "confidence": "verified",
       "source": {
         "id": "curated-benefits",
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "oh-military-training-occupational-licensing-credit",
@@ -2085,7 +2172,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "oh-ohio-veterans-homes",
@@ -2116,7 +2203,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "oh-war-orphans-severely-disabled-veterans-children-scholarship",
@@ -2146,7 +2233,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "pa-amputee-paralyzed-veterans-pension",
@@ -2177,7 +2264,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "pa-blind-veterans-pension",
@@ -2207,7 +2294,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "pa-disabled-veteran-fishing-license",
@@ -2238,7 +2325,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "pa-disabled-veteran-hunting-furtaker-license",
@@ -2270,7 +2357,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "pa-disabled-veterans-real-estate-tax-exemption",
@@ -2288,8 +2375,11 @@
         "An unmarried surviving spouse may continue to receive the exemption if the Commission determines need"
       ],
       "details": [
-        "The need test works off a published income level. The statute sets a presumption of need at $75,000 or less and directs that the figure be adjusted for changes in the Consumer Price Index and published in the Pennsylvania Bulletin. DMVA states the adjusted presumptive need level is $114,637 as of January 1, 2025. Confirm the current figure with your County Director of Veterans Affairs before relying on it.",
-        "If your household income is above the presumptive level you are not automatically disqualified. You must instead document that your monthly allowable expenses exceed your monthly household income.",
+        "The need test works off a published income level, and there is one right answer rather than two. The statute at 51 Pa.C.S. 8904 set the original rebuttable presumption at $75,000 and requires the State Veterans' Commission to adjust it every two years by the change in the Consumer Price Index. The adjusted figure is published in the Pennsylvania Bulletin.",
+        "The current figure is $114,637, effective 1 January 2025. The Commission set it in a notice at 55 Pa.B. 149, published 4 January 2025, applying a 6.1 percent rise in the Northeast all items CPI-U over the two years from 1 November 2022 to 31 October 2024. The previous level was $108,046. Adjustments have been made in 2009, 2011, 2013, 2015, 2017, 2019, 2021, 2023 and 2025, so the next one is due 1 January 2027.",
+        "That Pennsylvania Bulletin notice is the thing to check, not a county page. One notice every two years covers this figure.",
+        "If your household income is above the presumptive level you are not disqualified. You can request a full determination of need under 43 Pa. Code 5.24(d), and you qualify if your allowable monthly expenses exceed your monthly household income. Expenses must be documented, and the calculation includes a cost of living allowance and counts the potential real estate tax itself as an expense.",
+        "If you were denied for need before 1 January 2025, DMVA specifically encourages reapplying under the higher level. The effective date runs from the date of the new application.",
         "You apply through the County Director of Veterans Affairs in the county where you live, not directly to the state.",
         "Under the statute the county assessment board grants the exemption once the State Veterans' Commission certifies eligibility, and the Commission reviews exemptions periodically. Denials may be appealed to the Adjutant General.",
         "DMVA asks that general questions go to Ra-retx@pa.gov, and that completed applications and personal information not be sent by email."
@@ -2297,13 +2387,13 @@
       "agency": "Pennsylvania Department of Military and Veterans Affairs, with the State Veterans' Commission and county assessment offices",
       "statuteRef": "51 Pa.C.S. Ch. 89 (sections 8901 to 8906)",
       "officialUrl": "https://www.pa.gov/agencies/dmva/pennsylvania-veterans/pa-vetconnect/state-veterans-programs/financial-assistance/retx",
-      "confidence": "needs-review",
+      "confidence": "verified",
       "source": {
         "id": "curated-benefits",
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "pa-educational-gratuity-program",
@@ -2336,7 +2426,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "pa-military-pay-income-tax-treatment",
@@ -2350,22 +2440,23 @@
         "For the out-of-state exclusion, the pay must be for federal active duty or federal active duty for training performed outside Pennsylvania"
       ],
       "details": [
-        "The Department of Revenue states that military pay received while on federal active duty or federal active duty for training outside Pennsylvania is not taxable. Revenue asks that copies of military orders be submitted with the return to document the out-of-state duty.",
-        "Income received by a Pennsylvania resident for military service performed inside Pennsylvania is taxable even if the member is on federal active duty or active duty for training, unless it is active military duty within Pennsylvania for an emergency under 35 Pa.C.S. Ch. 76.",
-        "Reservists and National Guard members on federal active duty for training under Title 10 or Title 32 follow the same rule. Compensation for weekend drills performed inside Pennsylvania remains taxable.",
-        "The PA Personal Income Tax Guide states that retired or retainer pay of a member or former member of a uniformed service calculated under Chapter 71 of Title 10, U.S. Code, is exempt from PA personal income tax.",
-        "The same guide excludes from taxable compensation a disability pension, disability annuity, or similar allowance for physical injuries or sickness resulting from active service in the armed forces of the United States.",
-        "Revenue states that hazardous duty pay or pay earned in a combat zone is not included in eligibility income for Tax Forgiveness, and that a Pennsylvania resident serving in a combat zone gets an automatic filing extension matching the federal one, up to 180 days from the last day of service."
+        "The Department of Revenue states that military pay received while on federal active duty or federal active duty for training outside Pennsylvania is not taxable. Leave it off Line 1a of the PA-40 and attach copies of your W-2 and your military orders with an explanation of the amount excluded. Revenue says it will not process the return without proof the pay was earned outside Pennsylvania.",
+        "Income received by a Pennsylvania resident for military service performed inside Pennsylvania is taxable even on federal active duty or active duty for training, unless it is active military duty within Pennsylvania for an emergency under 35 Pa.C.S. Ch. 76.",
+        "Reservists and National Guard members ordered to active duty for training under Title 10 or Title 32 are on federal active duty, so the same inside and outside rule applies. Compensation for weekend drills performed inside Pennsylvania remains taxable.",
+        "The PA Personal Income Tax Guide states that \"Retired or retainer pay of a member or former member of a uniform service calculated under Chapter 71 of Title 10, U.S. Code as amended\" is exempt from PA personal income tax.",
+        "The same guide excludes from taxable compensation \"amounts received as a disability pension, disability annuity, or similar allowance for physical injuries or sickness resulting from active service in the armed forces of the United States.\"",
+        "Watch the Tax Forgiveness trap. Revenue says military pay that you correctly left off the PA-40 should still be included in eligibility income for Tax Forgiveness. Only hazardous duty pay and pay earned in a combat zone are left out of eligibility income.",
+        "A Pennsylvania resident serving in a combat zone or qualified hazardous duty area gets the same extension as federally, automatically extended to 180 days from the last day of service or the last day of continuous hospitalization for an injury incurred there. Print COMBAT ZONE at the top of the return and include a copy of your orders."
       ],
       "agency": "Pennsylvania Department of Revenue",
       "officialUrl": "https://www.pa.gov/en/agencies/revenue/resources/tax-types-and-information/personal-income-tax/military-pay.html",
-      "confidence": "needs-review",
+      "confidence": "verified",
       "source": {
         "id": "curated-benefits",
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "pa-state-veterans-homes",
@@ -2393,7 +2484,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "pa-veteran-free-vehicle-registration",
@@ -2423,7 +2514,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "pa-veterans-preference-public-employment",
@@ -2457,7 +2548,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "pa-veterans-temporary-assistance",
@@ -2490,7 +2581,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "tx-100-percent-disabled-veteran-homestead-exemption",
@@ -2519,7 +2610,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "tx-disabled-veteran-partial-property-tax-exemption",
@@ -2550,7 +2641,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "tx-hazlewood-act-tuition-exemption",
@@ -2580,7 +2671,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "tx-military-employment-preference",
@@ -2610,7 +2701,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "us-dependency-indemnity-compensation",
@@ -2641,7 +2732,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "us-dependents-educational-assistance",
@@ -2670,7 +2761,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "us-disability-housing-grants",
@@ -2678,7 +2769,7 @@
       "category": "housing",
       "title": "Specially Adapted Housing and Special Home Adaptation grants",
       "summary": "Grant money to buy, build, or modify a home so you can live in it with a service-connected disability. You can draw on the grant up to six separate times over your lifetime.",
-      "amount": "Usable up to 6 times over your lifetime",
+      "amount": "Up to $126,526 (SAH) or $25,349 (SHA) in FY2026, usable across 6 lifetime uses",
       "eligibility": [
         "You own or will own the home",
         "SAH: qualifying service-connected disabilities include the loss, or loss of use, of more than one limb, and blindness in both eyes within set limits",
@@ -2686,8 +2777,10 @@
       ],
       "details": [
         "Both grants cover buying, building, or adapting a permanent home to suit the disability.",
-        "You do not have to spend it all at once. You can use part in one year and the remainder in later years, up to six uses in total.",
-        "Grant maximums are set annually, so confirm the current figure with VA rather than relying on a number you were quoted previously."
+        "FY2026 maximums, effective 1 October 2025: $126,526 for a Specially Adapted Housing grant under 38 U.S.C. 2101(a), and $25,349 for a Special Home Adaptation grant under 2101(b). Both rose 3.87 percent on the year.",
+        "Temporary Residence Adaptation, for adapting a home you are living in temporarily, is capped separately at $50,961 under 2101(a) or $9,099 under 2101(b) for FY2026.",
+        "You do not have to spend it all at once. You can use part in one year and the remainder later, up to six uses in total.",
+        "These figures change every 1 October with the cost-of-construction index, so check the current year before you plan around them."
       ],
       "agency": "US Department of Veterans Affairs",
       "officialUrl": "https://www.va.gov/housing-assistance/disability-housing-grants/",
@@ -2699,7 +2792,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "us-national-cemetery-burial",
@@ -2729,7 +2822,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "us-post-911-gi-bill",
@@ -2761,7 +2854,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "us-sdvosb-vetcert",
@@ -2793,7 +2886,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "us-va-disability-compensation",
@@ -2824,7 +2917,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "us-va-health-care",
@@ -2853,7 +2946,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "us-va-home-loan",
@@ -2883,7 +2976,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "us-veteran-readiness-employment",
@@ -2910,7 +3003,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "va-benefits-claims-assistance",
@@ -2938,7 +3031,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "va-disabled-veteran-license-plates-and-fee-waiver",
@@ -2968,7 +3061,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "va-disabled-veteran-lifetime-hunting-fishing-license",
@@ -2999,7 +3092,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "va-disabled-veteran-real-property-tax-exemption",
@@ -3018,20 +3111,22 @@
       "details": [
         "The exemption starts on the date of your rating if you already own a qualifying home, or on the date you acquire the property if you buy after January 1, 2011.",
         "You claim it by filing an affidavit or written statement with your county, city, or town under Va. Code 58.1-3219.6. File it. A locality is not liable for interest on a refund for taxes you paid before you filed.",
-        "Manufactured homes qualify even if you do not own the land underneath.",
-        "The exemption also reaches property held in a revocable trust, an irrevocable trust with a life estate, or a joint tenancy. Leasehold interests are excluded, and a jointly owned property with non-qualifying owners is prorated by ownership percentage.",
+        "Manufactured homes qualify even if you do not own the land underneath. The home is exempt, but land you do not own is not.",
+        "The exemption also reaches property held as a life estate by you alone or with your spouse, property in a revocable inter vivos trust you or you and your spouse can revoke, and property in an irrevocable trust under which you hold a life estate or a continuing right of use or support. A leasehold or term of years is excluded, and a jointly owned property with non-qualifying owners is prorated by ownership percentage.",
+        "One acre is the floor, not always the ceiling. If your county, city, or town exempts or defers tax on more than one acre under its elderly and disabled program in Va. Code 58.1-3210, it must exempt the same number of acres for you.",
+        "Outbuildings on the exempt land are also exempt, so long as their main use is housing motor vehicles or household goods and it is not a business use. A detached garage counts.",
         "This is administered by your local commissioner of the revenue or assessor, not by the state."
       ],
       "agency": "Virginia counties, cities, and towns",
       "statuteRef": "Va. Code 58.1-3219.5",
       "officialUrl": "https://law.lis.virginia.gov/vacode/title58.1/chapter32/section58.1-3219.5/",
-      "confidence": "needs-review",
+      "confidence": "verified",
       "source": {
         "id": "curated-benefits",
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "va-military-benefits-income-tax-subtraction",
@@ -3050,19 +3145,21 @@
         "The statute defines military benefits as military retirement income for service in the Armed Forces, qualified military benefits under Internal Revenue Code Section 134, Survivor Benefit Plan payments to the surviving spouse of a Veteran, and military benefits paid to the surviving spouse of a Veteran.",
         "Survivor Benefit Plan income counts. Surviving spouses often miss this.",
         "Virginia also has a separate subtraction of up to $15,000 of military basic pay for members on extended active duty for more than 90 days. That one phases out dollar for dollar above $15,000 and disappears at $30,000 of basic pay. See the Virginia Department of Taxation military tax tips page.",
+        "A Congressional Medal of Honor recipient subtracts all military retirement income with no cap at all, under a separate provision of the same subdivision.",
+        "Military pay earned in a combat zone or a qualified hazardous duty area is subtracted in full under a different item of the same statute, so far as it is in your federal adjusted gross income and not already subtracted.",
         "The cap amounts are set in statute by tax year. Check the current year figure on the Department of Taxation site before you file."
       ],
       "agency": "Virginia Department of Taxation",
       "statuteRef": "Va. Code 58.1-322.02(18)",
       "officialUrl": "https://law.lis.virginia.gov/vacode/title58.1/chapter3/section58.1-322.02/",
       "applyUrl": "https://www.tax.virginia.gov/military-tax-tips",
-      "confidence": "needs-review",
+      "confidence": "verified",
       "source": {
         "id": "curated-benefits",
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "va-military-survivors-and-dependents-education-program",
@@ -3094,7 +3191,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "va-service-disabled-veteran-owned-business-certification",
@@ -3123,7 +3220,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "va-state-veterans-cemeteries-burial",
@@ -3152,7 +3249,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "va-veteran-and-family-support-behavioral-health",
@@ -3183,7 +3280,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "va-veterans-preference-state-employment",
@@ -3213,7 +3310,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "wa-disabled-veteran-hunting-fishing-license",
@@ -3244,7 +3341,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "wa-disabled-veteran-license-plates",
@@ -3279,42 +3376,49 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "wa-disabled-veteran-property-tax-exemption",
       "jurisdiction": "WA",
       "category": "property-tax",
       "title": "Property tax exemption for Veterans with a service-connected disability",
-      "summary": "Washington exempts part of the property tax on a Veteran's primary residence based on VA disability rating and household income. A 2025 law is phasing the rating requirement down from 80 percent to 20 percent over several years.",
-      "amount": "Varies by income tier. The lowest tier exempts regular property taxes on the greater of $60,000 or 60 percent of the residence valuation. The middle tier exempts the greater of $50,000 or 35 percent, capped at $70,000 of valuation.",
+      "summary": "Washington exempts part of the property tax on a Veteran's primary residence, based on VA disability rating and household income. The rating requirement has been lowered, and the state's own benefit page has not caught up, so read the statute rather than the agency page.",
+      "amount": "Depends on your income tier. Through tax year 2026 the lowest tier exempts regular property taxes on the greater of $60,000 or 60 percent of the valuation, and the middle tier the greater of $50,000 or 35 percent capped at $70,000. Both rise for 2027. See the details.",
       "eligibility": [
-        "You own and occupy the residence as your primary home in Washington",
+        "You own and occupy the residence as your principal place of residence in Washington at the time of filing",
         "You are a Veteran of the armed forces entitled to and receiving compensation from the US Department of Veterans Affairs",
         "You qualify with a total disability rating for a service-connected disability, without regard to evaluation percent",
-        "Or you qualify by combined service-connected evaluation rating, which the statute phases down: 60 percent or higher from January 1, 2026 through December 31, 2026, 40 percent or higher from January 1, 2027 through December 31, 2027, and 20 percent or higher beginning January 1, 2028",
+        "Or you qualify by combined service-connected evaluation rating. RCW 84.36.381 as it currently stands sets that at 40 percent or higher. The Department of Revenue's benefit page still states 80 percent. See the details below before you assume you do not qualify",
         "Your combined disposable income must be at or below one of three county-specific income thresholds",
-        "There is no minimum age for the Veteran pathway. A surviving spouse or surviving domestic partner of a person receiving the exemption at the time of death qualifies at 57 or older if they otherwise meet the requirements"
+        "There is no minimum age on the Veteran pathway. A surviving spouse or surviving domestic partner of a person who was receiving the exemption when they died qualifies at 57 or older if they otherwise meet the requirements",
+        "You may own in fee, as a life estate, or by contract purchase, or hold a share in a cooperative housing association representing your unit. A lease for life counts as a life estate, and a residence owned by a marital community, a registered domestic partnership, or cotenants is treated as owned by each of them"
       ],
       "details": [
-        "The phase down comes from House Bill 1106, enacted as chapter 200, Laws of 2025, effective July 27, 2025. Its title is 'Recognizing the tremendous sacrifices made by our military veterans by phasing down the disability rating requirements to ensure more disabled veterans are eligible for property tax relief.'",
-        "The Department of Revenue benefit page still described an 80 percent requirement when this record was written, while the statute already carries the lower phased figures. Ask your county assessor which rating applies to the assessment year you are filing for.",
-        "Income thresholds are not fixed dollar figures statewide. RCW 84.36.383 sets them as the greater of the prior year threshold or a percentage of county median household income, so the dollar cutoff differs by county and changes over time. Get the current number for your county from the assessor or from the Department of Revenue.",
-        "At the top income tier the exemption applies to excess property taxes, the additional state property tax under RCW 84.52.065(2), and certain voter-approved levy portions. At the two lower tiers you also get an exemption from regular property taxes as described in the amount field.",
-        "Qualifying also freezes the assessed valuation used for the exemption at the value on the later of January 1, 1995 or January 1 of the assessment year you first qualified. Later improvements are added at their true and fair value.",
+        "This one is genuinely in motion and the sources disagree, so here is what each says. RCW 84.36.381(3)(a)(ii), as published today by the Legislature, requires a combined service-connected evaluation rating of 40 percent or higher, or a total disability rating without regard to evaluation percent. The Department of Revenue's exemption page still says 80 percent, or compensation at the 100 percent rate.",
+        "The likely explanation is timing. Both amending acts, chapter 200 of the Laws of 2025 and chapter 163 of the Laws of 2026, carry the same applicability note: they apply to taxes levied for collection in 2027 and thereafter. So 80 percent governed taxes collected in 2026, and the lower figure governs from the 2027 collection year, which is what you are applying for now.",
+        "The 2025 act was titled as a phase down of the rating requirement. The 2026 act amended the same section again, and the text the Legislature publishes today shows a single 40 percent figure rather than a year by year schedule.",
+        "Do not take this from us. If your rating is between 40 and 79 percent, ask your county assessor directly which rating applies to the year you are filing for, and say that you are asking about RCW 84.36.381 as amended by chapter 163 of the Laws of 2026. A Veteran who reads the Department of Revenue page alone would conclude they do not qualify.",
+        "Income thresholds are not fixed dollar figures statewide. RCW 84.36.383 sets them as the greater of the prior year threshold or a percentage of county median household income, so the cutoff differs by county. The Department of Revenue calculates and publishes county-specific thresholds every three years. The 2027 tax year figures are published now, and the next adjustment is for tax year 2030.",
+        "The percentages themselves went up. For tax years 2024 through 2026 the thresholds were 50, 60 and 70 percent of county median household income. For 2027 and after they are 60, 70 and 80 percent, so more Veterans clear them.",
+        "Combat-related special compensation is excluded from combined disposable income under the 2026 act. If CRSC was counted against you before, that changes your arithmetic.",
+        "At the top income tier the exemption covers excess property taxes, the state property tax under RCW 84.52.065, and certain voter-approved levy portions. The two lower tiers also get the regular property tax exemption in the amount field above.",
+        "Qualifying freezes the valuation used for the exemption at the assessed value on the later of 1 January 1995 or 1 January of the assessment year you first qualified. Later improvements are added at their true and fair value.",
+        "Being away from home does not necessarily cost you the exemption. Confinement to a hospital, nursing home, assisted living facility, adult family home, or a relative's home for long-term care is fine if the residence is temporarily unoccupied, is lived in by your spouse or domestic partner or someone financially dependent on you, or is rented out to pay for that care.",
+        "If you sell, transfer, or are displaced from the home, you may move your exemption status to a replacement residence. No claimant may hold the exemption on more than one residence in a year.",
         "You apply through your county assessor, not the state. Renewal is required periodically as determined by the local assessor."
       ],
       "agency": "Washington State Department of Revenue, administered by county assessors",
       "statuteRef": "RCW 84.36.379 through 84.36.389, amended by 2025 c 200 s 1",
       "officialUrl": "https://app.leg.wa.gov/RCW/default.aspx?cite=84.36.381",
       "applyUrl": "https://dor.wa.gov/taxes-rates/property-tax/property-tax-exemption-seniors-people-retired-due-disability-and-veterans-disabilities",
-      "confidence": "needs-review",
+      "confidence": "verified",
       "source": {
         "id": "curated-benefits",
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "wa-no-state-personal-income-tax",
@@ -3328,20 +3432,22 @@
         "You do not file a Washington personal income tax return"
       ],
       "details": [
-        "The Department of Revenue's income tax page states: 'Washington does not currently have an individual income tax.'",
-        "That same page describes a change coming later. Beginning January 1, 2028, a 9.9 percent tax applies to individuals and married couples filing jointly with more than $1 million in annual adjusted gross income, with the first returns due in April 2029. Confirm the details and any exclusions with the Department of Revenue before relying on this, since implementing rules were not final when this record was written.",
-        "You still owe federal income tax. Military retired pay is federally taxable. VA disability compensation is not federally taxable.",
-        "Washington raises revenue through sales tax, business and occupation tax, and property tax instead, so a low state income tax bill does not mean a low overall tax burden."
+        "The Department of Revenue's income tax page states: \"Washington does not currently have an individual income tax.\"",
+        "That is changing at the top end. The 2026 Legislature passed Senate Bill 6346, creating a 9.9 percent income tax on individuals and married couples filing jointly with annual adjusted gross income above $1 million. It takes effect 1 January 2028 and the first returns are due in April 2029.",
+        "For almost every Veteran this changes nothing. A million dollars of adjusted gross income is far above military retired pay, and VA disability compensation is not in adjusted gross income at all.",
+        "Revenue says it will keep updating that page as filing requirements, forms, and administration are worked out, so check it rather than relying on this if the threshold could reach you.",
+        "You still owe federal income tax. Military retired pay is federally taxable. VA disability compensation is not.",
+        "Washington raises revenue through sales tax, business and occupation tax, and property tax instead, so no income tax does not mean a low overall tax burden."
       ],
       "agency": "Washington State Department of Revenue",
       "officialUrl": "https://dor.wa.gov/taxes-rates/income-tax",
-      "confidence": "needs-review",
+      "confidence": "verified",
       "source": {
         "id": "curated-benefits",
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "wa-property-tax-deferral",
@@ -3351,28 +3457,33 @@
       "summary": "Washington lets qualifying homeowners postpone paying property taxes and special assessments on their residence. The state pays the county on your behalf and records a lien that is repaid later, typically when the home is sold or transferred.",
       "amount": "Deferral is allowed on up to 80 percent of the claimant's equity value in the residence.",
       "eligibility": [
-        "You must be 60 years of age or older on December 31 of the year the deferral claim is filed, or you must have been retired from regular gainful employment by reason of disability at the time of filing",
-        "You must meet the other requirements of the RCW 84.36.381 exemption apart from its age and income limits",
+        "You must be 60 years of age or older on December 31 of the year the deferral claim is filed, or you must have been, at the time of filing, retired from regular gainful employment by reason of disability as defined in RCW 84.36.383",
+        "You must meet all the requirements of the RCW 84.36.381 exemption apart from its age and income limits",
         "Your combined disposable income must be at or below the deferral income threshold, which is set as a percentage of county median household income",
-        "You must own the residence where the taxes are imposed",
-        "You must keep fire and casualty insurance in place covering the state's interest in your equity value"
+        "You must own the residence where the taxes are imposed. A share in cooperative housing, a life estate, a lease for life, or a revocable trust does not satisfy the ownership test for the deferral, even though some of those do satisfy it for the exemption",
+        "You must keep fire and casualty insurance in force covering the state's interest in your equity value",
+        "A surviving spouse, surviving domestic partner, heir, or devisee of a person who was receiving a deferral at death qualifies at 57 or older if they otherwise meet the requirements"
       ],
       "details": [
-        "This is a general low income program, not a Veteran specific one. Chapter 84.38 RCW does not create a separate Veteran category. A Veteran under 60 who is not retired from gainful employment by reason of disability will not qualify for the deferral even if that Veteran qualifies for the RCW 84.36.381 exemption.",
+        "This is a general low income program, not a Veteran specific one. Chapter 84.38 RCW does not create a separate Veteran category. A Veteran under 60 who is not retired from gainful employment by reason of disability will not qualify for the deferral even if that Veteran qualifies for the RCW 84.36.381 exemption. The two programs are easy to conflate and the age gate is the difference.",
         "Deferral is not forgiveness. The deferred amount becomes a lien in favor of the state with priority over most other liens, and interest accrues on the balance. Confirm the current interest rate with your county assessor or the Department of Revenue before you rely on any figure.",
+        "The ownership rules are stricter than the exemption's. If you hold your home through a revocable trust or a life estate, you can take the exemption but not the deferral.",
+        "If you let the fire and casualty insurance lapse, the amount you may defer is cut to no more than 100 percent of your equity value in the land or lot only.",
+        "The deferral income threshold is the greater of the previous year's threshold or 75 percent of county median household income for tax years 2020 through 2026, rising to 90 percent for tax year 2027 and after.",
+        "For a special assessment deferral, you must have opted to pay that assessment on the installment method where that method was available.",
         "You file a written declaration with your county assessor.",
         "The deferral can be combined with the exemption. Many claimants take the exemption first, then defer what is still owed."
       ],
       "agency": "Washington State Department of Revenue, filed with county assessors",
       "statuteRef": "Chapter 84.38 RCW, RCW 84.38.030",
       "officialUrl": "https://app.leg.wa.gov/RCW/default.aspx?cite=84.38.030",
-      "confidence": "needs-review",
+      "confidence": "verified",
       "source": {
         "id": "curated-benefits",
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "wa-state-veterans-cemetery",
@@ -3404,7 +3515,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "wa-state-veterans-homes",
@@ -3437,7 +3548,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "wa-veteran-dependent-tuition-waiver",
@@ -3472,7 +3583,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "wa-veterans-employment-preference",
@@ -3505,7 +3616,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "wa-veterans-estate-management-program",
@@ -3535,7 +3646,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     },
     {
       "id": "wa-veterans-innovations-program",
@@ -3568,7 +3679,7 @@
         "title": "USVetHub verified benefit records",
         "homepage": "https://usvethub.com/about/"
       },
-      "verifiedAt": "2026-08-29"
+      "verifiedAt": "2026-08-30"
     }
   ]
 }

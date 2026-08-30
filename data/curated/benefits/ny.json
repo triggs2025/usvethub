@@ -7,23 +7,28 @@
     "summary": "New York's main property tax break for wartime Veterans. It takes a percentage off the assessed value of your primary residence, with extra credit if you served in a combat zone or have a service-connected disability rating.",
     "amount": "15 percent of assessed value for wartime service, plus 10 percent more for combat zone service, plus an amount equal to half your VA disability rating times the assessed value. Each part is capped, and the caps vary by locality.",
     "eligibility": [
-      "You served in the active military, naval, space, or air service during a period of war, or you received an expeditionary medal",
-      "You were honorably discharged, or you qualify under the statute's alternative discharge provisions, which include protections for LGBT Veterans discharged over sexual orientation or gender identity",
-      "The statute's \"qualified owner\" includes a Veteran, the spouse of a Veteran, and the unremarried surviving spouse of a Veteran",
-      "The property must be \"qualifying residential real property\" used exclusively for residential purposes and must be the primary residence of the Veteran or unremarried surviving spouse",
+      "You served in the active military, naval, space, or air service during a period of war, or you received an armed forces, navy, marine corps, or global war on terrorism expeditionary medal",
+      "You were discharged or released under honorable conditions, or you have a qualifying condition or are a discharged LGBT Veteran as defined in section one of the veterans' services law, which covers Veterans discharged over sexual orientation or gender identity",
+      "The statute's qualified owner is a Veteran, the spouse of a Veteran, or the unremarried surviving spouse of a Veteran",
+      "The property must be used exclusively for residential purposes and be the primary residence of the Veteran or unremarried surviving spouse",
       "Your county, city, town, village, or school district must have opted in. Each level of government decides separately"
     ],
     "details": [
-      "The statute sets three layers. The basic layer is 15 percent of assessed value. Combat zone service documented by a campaign ribbon or expeditionary medal adds another 10 percent. A service-connected disability adds an amount equal to the assessed value multiplied by 50 percent of the disability rating. A Veteran who died in service is treated as 100 percent rated.",
-      "Each layer has a ceiling. The statute's base ceilings are $12,000 for the basic layer, $8,000 for the combat layer, and $40,000 for the disability layer, and each is multiplied by the latest state equalization rate. Localities may adopt different maximums from a table in the statute, so the ceiling that applies to your parcel depends on where you live. Ask your assessor for the figures in force in your municipality.",
-      "The Tax Department states that this exemption does not apply to special district charges.",
-      "Getting the exemption is not automatic. You file an application with your local assessor by your municipality's taxable status date. Tax.ny.gov gives March 1 as the typical date but tells applicants to confirm it with their own assessor.",
-      "A separate Cold War veterans exemption exists under Real Property Tax Law section 458-b for service during the Cold War period. It is also a local option."
+      "The statute sets three layers. The basic layer is 15 percent of assessed value. Combat theatre or combat zone service, documented by a United States campaign ribbon, service medal, or expeditionary medal, adds another 10 percent. A compensation rating from VA or the Department of Defense for a service-connected disability adds the assessed value multiplied by 50 percent of the disability rating.",
+      "Each layer is capped at the LESSER of a dollar figure or that figure multiplied by the latest state equalization rate for your assessing unit. The figures are $12,000 for the basic layer, $8,000 for the combat layer, and $40,000 for the disability layer. A locality may also adopt a local law reducing the maximum, so ask your assessor what applies to your parcel.",
+      "Someone who served during a period of war and died in service of a service-connected disability is deemed to have a 100 percent compensation rating for the disability layer.",
+      "The war periods listed in the statute are the Spanish-American war, the Mexican border period, World War I, World War II, Korea, Vietnam, and the Persian Gulf conflict from 2 August 1990. The Persian Gulf period has no end date in the statute, so later service still counts.",
+      "Being away from the home for medical reasons or because you are institutionalized does not cost you the exemption. If part of the property is used for something other than residence, only that part is taxed.",
+      "Where more than one qualified owner owns the property, their exemptions may be combined. A Veteran who is also the unremarried surviving spouse of a Veteran may claim what the deceased spouse was entitled to as well.",
+      "This exemption does not apply to special district charges.",
+      "It is not automatic. File an application with your local assessor by your municipality's taxable status date. Tax.ny.gov gives 1 March as the usual date and tells you to confirm it with your own assessor.",
+      "You can only receive one of New York's three long-standing Veteran exemptions: this one, the Cold War exemption under Real Property Tax Law 458-b, or the eligible funds exemption under section 458.",
+      "Separately, a new full exemption for permanently and totally disabled Veterans starts with taxable status dates on or after 1 October 2026. See that record. It is a local option and the statute says it is in addition to other exemptions."
     ],
     "agency": "Your local assessor, with guidance from the New York State Department of Taxation and Finance",
     "statuteRef": "N.Y. Real Property Tax Law 458-a",
     "officialUrl": "https://www.tax.ny.gov/pit/property/exemption/vetexempt.htm",
-    "confidence": "needs-review"
+    "confidence": "verified"
   },
   {
     "id": "ny-eligible-funds-veterans-property-tax-exemption",
@@ -34,19 +39,23 @@
     "amount": "No more than $7,500 of exemption per individual's military or naval service, per the statute.",
     "eligibility": [
       "The property was purchased with the proceeds of eligible funds",
-      "The statute defines eligible funds as \"pension, bonus or insurance, or dividends or refunds on such insurance, or payments received as prisoner of war compensation from the United States government\" granted for military or naval services",
-      "Eligible claimants include the Veteran who rendered the service, and also a spouse, unremarried surviving spouse, dependent parent, or child under age 21",
-      "You must file a verified application with your assessor by the applicable taxable status date"
+      "The statute defines eligible funds as \"pension, bonus or insurance, or dividends or refunds on such insurance, or payments received as prisoner of war compensation from the United States government\", granted by the United States or by New York for military or naval services",
+      "Eligible claimants include the person who rendered the service, and also a spouse, unremarried surviving spouse, dependent father or mother, or children under age 21",
+      "You must file a verified application with your assessor on or before the taxable status date, showing the amount of eligible funds used toward the purchase"
     ],
     "details": [
       "The exemption tracks the amount of eligible funds actually used to buy the property, rounded to the nearest multiple of fifty dollars. The statute caps it: \"no such exemption on account of eligible funds paid on account of military or naval services rendered by an individual shall be allowed in excess of seven thousand five hundred dollars.\"",
-      "The Tax Department states that this exemption does not apply to special district charges.",
-      "This is generally an either/or with the alternative veterans exemption rather than a stacking benefit. Ask your assessor which one leaves you better off before you switch."
+      "Mixing eligible funds with other money, or the government holding some of it back for insurance premiums, does not disqualify you. The statute says so directly.",
+      "Unlike the alternative exemption, this one applies to state, county, and general municipal taxation without the locality opting in. A school district has to adopt a local law before it applies to school taxes.",
+      "The $7,500 ceiling has one exception. Under subdivision 5, a locality may adopt a local law that adjusts the exemption up or down by the change in level of assessment factor after a revaluation, so the amount can move.",
+      "That same local law may let owners who previously had this exemption, but switched to the alternative exemption under section 458-a, switch back. If you gave this up years ago, it is worth asking your assessor whether your municipality adopted it.",
+      "This exemption does not apply to special district charges.",
+      "You can only receive one of New York's three long-standing Veteran exemptions: this one, the alternative exemption under 458-a, or the Cold War exemption under 458-b. Ask your assessor which leaves you better off before you switch."
     ],
     "agency": "Your local assessor, with guidance from the New York State Department of Taxation and Finance",
     "statuteRef": "N.Y. Real Property Tax Law 458",
     "officialUrl": "https://www.nysenate.gov/legislation/laws/RPT/458",
-    "confidence": "needs-review"
+    "confidence": "verified"
   },
   {
     "id": "ny-veterans-tuition-award",
@@ -107,19 +116,23 @@
     "amount": "Military pensions are fully exempt from New York State, New York City, and Yonkers income taxes.",
     "eligibility": [
       "Military pension: the Tax Department states that \"Military pension payments you receive as a retired military personnel or as their beneficiary are totally exempt from New York State, New York City, and Yonkers income taxes\"",
-      "Residents: active duty pay is subject to New York income tax, except that combat zone pay is excluded",
+      "Residents: active duty pay is taxed to the same extent as federally, except that combat zone pay is not taxed, and neither is compensation or bonus pay for active service while a prisoner of war or missing in action during the Vietnam conflict",
       "Nonresidents: the Tax Department states that \"your military pay is not subject to New York State income tax\"",
       "Part-year residents: only military pay earned while you were a New York resident is taxable",
-      "Nonresident military spouses: income earned in New York is excluded from New York source income and exempt from personal income tax if you are a nonresident who is in New York solely to be with your service member spouse"
+      "Nonresident military spouses: income earned in New York is excluded from New York source income under the Servicemembers Civil Relief Act and exempt from personal income tax, if you are a nonresident in New York solely to be with a service member spouse who is here on orders"
     ],
     "details": [
       "The pension exemption reaches the beneficiary of a retired service member, not only the retiree.",
-      "Members of the New York State organized militia can claim a subtraction for pay received for performing active service within New York State, subject to conditions on the page.",
+      "Veterans' benefits such as tuition payments and subsistence allowances are treated the same as federally. If they are excluded from your federal gross income, New York does not tax them either.",
+      "A nonresident claims the exclusion through subtraction modification S-119 on Form IT-225. Your military pay may also be exempt from New York withholding.",
+      "The nonresident spouse exemption covers wages and salary for work done in New York and business income from a sole proprietorship or partnership carried on here. It keeps applying if your service member spouse is later assigned to another state or overseas and you stay.",
+      "Members of the New York State organized militia, which is the New York Army National Guard, Air National Guard, Naval Militia, and New York Guard, can subtract pay for active service performed within New York State under state active-duty orders issued under Military Law section 6.1, or under federal Title 10 active-duty orders for service other than training. Pay for regular duties, such as the annual two week training, does not qualify.",
+      "A reservist called to active duty, or a regular member, may be able to defer payment of back income taxes by showing that military service materially impaired the ability to pay. You must already have a notice of tax due or an installment agreement.",
       "This entry covers state tax treatment only. Federal tax treatment is separate."
     ],
     "agency": "New York State Department of Taxation and Finance",
     "officialUrl": "https://www.tax.ny.gov/pit/file/military_page.htm",
-    "confidence": "needs-review"
+    "confidence": "verified"
   },
   {
     "id": "ny-veteran-vehicle-registration-fee-exemption",
@@ -238,5 +251,34 @@
     "statuteRef": "N.Y. Veterans' Services Law art. 3",
     "officialUrl": "https://ogs.ny.gov/veterans/service-disabled-veteran-owned-business-certification",
     "confidence": "needs-review"
+  },
+  {
+    "id": "ny-seriously-disabled-veteran-full-property-tax-exemption",
+    "jurisdiction": "NY",
+    "category": "property-tax",
+    "title": "Full property tax exemption for a permanently and totally disabled Veteran, starting October 2026",
+    "summary": "New York has created a new exemption that takes your primary residence off the property tax roll entirely, including special district charges, if VA considers you permanently and totally disabled from military service. It is a local option and it starts with taxable status dates on or after 1 October 2026.",
+    "amount": "A full exemption of the primary residence from taxation and from special district charges, assessments, and special ad valorem levies.",
+    "eligibility": [
+      "The VA considers you permanently and totally disabled as a result of military service, shown by a letter, official form, or other VA document that says so specifically",
+      "And you were discharged or released under honorable conditions from active military, naval, space, or air service, including Army and Air National Guard service performed under federal Title 10 orders",
+      "Or you have a qualifying condition as defined in section one of the veterans' services law, and your discharge was something other than bad conduct or dishonorable",
+      "Or you are a discharged LGBT Veteran as defined in section one of the veterans' services law, and your discharge was something other than bad conduct or dishonorable",
+      "You meet all the other requirements of Real Property Tax Law 458-a, including that the property is your primary residence",
+      "Your county, city, town, village, or school district has adopted a local law or resolution offering it"
+    ],
+    "details": [
+      "This is new law. It was enacted as Real Property Tax Law 458-a(11) by L.2025 ch.672 and amended by L.2026 ch.59 Part EE and ch.77. The Tax Department says it applies to assessment rolls based on taxable status dates occurring on or after 1 October 2026.",
+      "As of this writing the Tax Department has not yet posted the application form or instructions. It says they are in process and will appear on the veterans exemptions page at tax.ny.gov.",
+      "It is a local option, so it only exists where your county, city, town, village, or school district has adopted it. Each of those decides separately.",
+      "There is a way to check rather than guess. Every locality that adopts it must notify the New York State Department of Veterans' Services within thirty days, and that department has to keep a publicly available record of which ones have. Ask them, or your assessor.",
+      "The statute says this exemption is in addition to other Veteran exemptions under this chapter, and specifically that it does not require giving up an exemption under section 458(3). That is different from the older three exemptions, where you may only hold one.",
+      "It cannot reduce your taxable assessed value below zero.",
+      "Unlike the alternative and eligible funds exemptions, this one does reach special district charges, assessments, and special ad valorem levies."
+    ],
+    "agency": "Your local assessor, with guidance from the New York State Department of Taxation and Finance",
+    "statuteRef": "N.Y. Real Property Tax Law 458-a(11)",
+    "officialUrl": "https://www.tax.ny.gov/pit/property/exemption/vetexempt.htm",
+    "confidence": "verified"
   }
 ]

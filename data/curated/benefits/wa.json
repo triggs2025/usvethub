@@ -4,29 +4,36 @@
     "jurisdiction": "WA",
     "category": "property-tax",
     "title": "Property tax exemption for Veterans with a service-connected disability",
-    "summary": "Washington exempts part of the property tax on a Veteran's primary residence based on VA disability rating and household income. A 2025 law is phasing the rating requirement down from 80 percent to 20 percent over several years.",
-    "amount": "Varies by income tier. The lowest tier exempts regular property taxes on the greater of $60,000 or 60 percent of the residence valuation. The middle tier exempts the greater of $50,000 or 35 percent, capped at $70,000 of valuation.",
+    "summary": "Washington exempts part of the property tax on a Veteran's primary residence, based on VA disability rating and household income. The rating requirement has been lowered, and the state's own benefit page has not caught up, so read the statute rather than the agency page.",
+    "amount": "Depends on your income tier. Through tax year 2026 the lowest tier exempts regular property taxes on the greater of $60,000 or 60 percent of the valuation, and the middle tier the greater of $50,000 or 35 percent capped at $70,000. Both rise for 2027. See the details.",
     "eligibility": [
-      "You own and occupy the residence as your primary home in Washington",
+      "You own and occupy the residence as your principal place of residence in Washington at the time of filing",
       "You are a Veteran of the armed forces entitled to and receiving compensation from the US Department of Veterans Affairs",
       "You qualify with a total disability rating for a service-connected disability, without regard to evaluation percent",
-      "Or you qualify by combined service-connected evaluation rating, which the statute phases down: 60 percent or higher from January 1, 2026 through December 31, 2026, 40 percent or higher from January 1, 2027 through December 31, 2027, and 20 percent or higher beginning January 1, 2028",
+      "Or you qualify by combined service-connected evaluation rating. RCW 84.36.381 as it currently stands sets that at 40 percent or higher. The Department of Revenue's benefit page still states 80 percent. See the details below before you assume you do not qualify",
       "Your combined disposable income must be at or below one of three county-specific income thresholds",
-      "There is no minimum age for the Veteran pathway. A surviving spouse or surviving domestic partner of a person receiving the exemption at the time of death qualifies at 57 or older if they otherwise meet the requirements"
+      "There is no minimum age on the Veteran pathway. A surviving spouse or surviving domestic partner of a person who was receiving the exemption when they died qualifies at 57 or older if they otherwise meet the requirements",
+      "You may own in fee, as a life estate, or by contract purchase, or hold a share in a cooperative housing association representing your unit. A lease for life counts as a life estate, and a residence owned by a marital community, a registered domestic partnership, or cotenants is treated as owned by each of them"
     ],
     "details": [
-      "The phase down comes from House Bill 1106, enacted as chapter 200, Laws of 2025, effective July 27, 2025. Its title is 'Recognizing the tremendous sacrifices made by our military veterans by phasing down the disability rating requirements to ensure more disabled veterans are eligible for property tax relief.'",
-      "The Department of Revenue benefit page still described an 80 percent requirement when this record was written, while the statute already carries the lower phased figures. Ask your county assessor which rating applies to the assessment year you are filing for.",
-      "Income thresholds are not fixed dollar figures statewide. RCW 84.36.383 sets them as the greater of the prior year threshold or a percentage of county median household income, so the dollar cutoff differs by county and changes over time. Get the current number for your county from the assessor or from the Department of Revenue.",
-      "At the top income tier the exemption applies to excess property taxes, the additional state property tax under RCW 84.52.065(2), and certain voter-approved levy portions. At the two lower tiers you also get an exemption from regular property taxes as described in the amount field.",
-      "Qualifying also freezes the assessed valuation used for the exemption at the value on the later of January 1, 1995 or January 1 of the assessment year you first qualified. Later improvements are added at their true and fair value.",
+      "This one is genuinely in motion and the sources disagree, so here is what each says. RCW 84.36.381(3)(a)(ii), as published today by the Legislature, requires a combined service-connected evaluation rating of 40 percent or higher, or a total disability rating without regard to evaluation percent. The Department of Revenue's exemption page still says 80 percent, or compensation at the 100 percent rate.",
+      "The likely explanation is timing. Both amending acts, chapter 200 of the Laws of 2025 and chapter 163 of the Laws of 2026, carry the same applicability note: they apply to taxes levied for collection in 2027 and thereafter. So 80 percent governed taxes collected in 2026, and the lower figure governs from the 2027 collection year, which is what you are applying for now.",
+      "The 2025 act was titled as a phase down of the rating requirement. The 2026 act amended the same section again, and the text the Legislature publishes today shows a single 40 percent figure rather than a year by year schedule.",
+      "Do not take this from us. If your rating is between 40 and 79 percent, ask your county assessor directly which rating applies to the year you are filing for, and say that you are asking about RCW 84.36.381 as amended by chapter 163 of the Laws of 2026. A Veteran who reads the Department of Revenue page alone would conclude they do not qualify.",
+      "Income thresholds are not fixed dollar figures statewide. RCW 84.36.383 sets them as the greater of the prior year threshold or a percentage of county median household income, so the cutoff differs by county. The Department of Revenue calculates and publishes county-specific thresholds every three years. The 2027 tax year figures are published now, and the next adjustment is for tax year 2030.",
+      "The percentages themselves went up. For tax years 2024 through 2026 the thresholds were 50, 60 and 70 percent of county median household income. For 2027 and after they are 60, 70 and 80 percent, so more Veterans clear them.",
+      "Combat-related special compensation is excluded from combined disposable income under the 2026 act. If CRSC was counted against you before, that changes your arithmetic.",
+      "At the top income tier the exemption covers excess property taxes, the state property tax under RCW 84.52.065, and certain voter-approved levy portions. The two lower tiers also get the regular property tax exemption in the amount field above.",
+      "Qualifying freezes the valuation used for the exemption at the assessed value on the later of 1 January 1995 or 1 January of the assessment year you first qualified. Later improvements are added at their true and fair value.",
+      "Being away from home does not necessarily cost you the exemption. Confinement to a hospital, nursing home, assisted living facility, adult family home, or a relative's home for long-term care is fine if the residence is temporarily unoccupied, is lived in by your spouse or domestic partner or someone financially dependent on you, or is rented out to pay for that care.",
+      "If you sell, transfer, or are displaced from the home, you may move your exemption status to a replacement residence. No claimant may hold the exemption on more than one residence in a year.",
       "You apply through your county assessor, not the state. Renewal is required periodically as determined by the local assessor."
     ],
     "agency": "Washington State Department of Revenue, administered by county assessors",
     "statuteRef": "RCW 84.36.379 through 84.36.389, amended by 2025 c 200 s 1",
     "officialUrl": "https://app.leg.wa.gov/RCW/default.aspx?cite=84.36.381",
     "applyUrl": "https://dor.wa.gov/taxes-rates/property-tax/property-tax-exemption-seniors-people-retired-due-disability-and-veterans-disabilities",
-    "confidence": "needs-review"
+    "confidence": "verified"
   },
   {
     "id": "wa-property-tax-deferral",
@@ -36,22 +43,27 @@
     "summary": "Washington lets qualifying homeowners postpone paying property taxes and special assessments on their residence. The state pays the county on your behalf and records a lien that is repaid later, typically when the home is sold or transferred.",
     "amount": "Deferral is allowed on up to 80 percent of the claimant's equity value in the residence.",
     "eligibility": [
-      "You must be 60 years of age or older on December 31 of the year the deferral claim is filed, or you must have been retired from regular gainful employment by reason of disability at the time of filing",
-      "You must meet the other requirements of the RCW 84.36.381 exemption apart from its age and income limits",
+      "You must be 60 years of age or older on December 31 of the year the deferral claim is filed, or you must have been, at the time of filing, retired from regular gainful employment by reason of disability as defined in RCW 84.36.383",
+      "You must meet all the requirements of the RCW 84.36.381 exemption apart from its age and income limits",
       "Your combined disposable income must be at or below the deferral income threshold, which is set as a percentage of county median household income",
-      "You must own the residence where the taxes are imposed",
-      "You must keep fire and casualty insurance in place covering the state's interest in your equity value"
+      "You must own the residence where the taxes are imposed. A share in cooperative housing, a life estate, a lease for life, or a revocable trust does not satisfy the ownership test for the deferral, even though some of those do satisfy it for the exemption",
+      "You must keep fire and casualty insurance in force covering the state's interest in your equity value",
+      "A surviving spouse, surviving domestic partner, heir, or devisee of a person who was receiving a deferral at death qualifies at 57 or older if they otherwise meet the requirements"
     ],
     "details": [
-      "This is a general low income program, not a Veteran specific one. Chapter 84.38 RCW does not create a separate Veteran category. A Veteran under 60 who is not retired from gainful employment by reason of disability will not qualify for the deferral even if that Veteran qualifies for the RCW 84.36.381 exemption.",
+      "This is a general low income program, not a Veteran specific one. Chapter 84.38 RCW does not create a separate Veteran category. A Veteran under 60 who is not retired from gainful employment by reason of disability will not qualify for the deferral even if that Veteran qualifies for the RCW 84.36.381 exemption. The two programs are easy to conflate and the age gate is the difference.",
       "Deferral is not forgiveness. The deferred amount becomes a lien in favor of the state with priority over most other liens, and interest accrues on the balance. Confirm the current interest rate with your county assessor or the Department of Revenue before you rely on any figure.",
+      "The ownership rules are stricter than the exemption's. If you hold your home through a revocable trust or a life estate, you can take the exemption but not the deferral.",
+      "If you let the fire and casualty insurance lapse, the amount you may defer is cut to no more than 100 percent of your equity value in the land or lot only.",
+      "The deferral income threshold is the greater of the previous year's threshold or 75 percent of county median household income for tax years 2020 through 2026, rising to 90 percent for tax year 2027 and after.",
+      "For a special assessment deferral, you must have opted to pay that assessment on the installment method where that method was available.",
       "You file a written declaration with your county assessor.",
       "The deferral can be combined with the exemption. Many claimants take the exemption first, then defer what is still owed."
     ],
     "agency": "Washington State Department of Revenue, filed with county assessors",
     "statuteRef": "Chapter 84.38 RCW, RCW 84.38.030",
     "officialUrl": "https://app.leg.wa.gov/RCW/default.aspx?cite=84.38.030",
-    "confidence": "needs-review"
+    "confidence": "verified"
   },
   {
     "id": "wa-no-state-personal-income-tax",
@@ -65,14 +77,16 @@
       "You do not file a Washington personal income tax return"
     ],
     "details": [
-      "The Department of Revenue's income tax page states: 'Washington does not currently have an individual income tax.'",
-      "That same page describes a change coming later. Beginning January 1, 2028, a 9.9 percent tax applies to individuals and married couples filing jointly with more than $1 million in annual adjusted gross income, with the first returns due in April 2029. Confirm the details and any exclusions with the Department of Revenue before relying on this, since implementing rules were not final when this record was written.",
-      "You still owe federal income tax. Military retired pay is federally taxable. VA disability compensation is not federally taxable.",
-      "Washington raises revenue through sales tax, business and occupation tax, and property tax instead, so a low state income tax bill does not mean a low overall tax burden."
+      "The Department of Revenue's income tax page states: \"Washington does not currently have an individual income tax.\"",
+      "That is changing at the top end. The 2026 Legislature passed Senate Bill 6346, creating a 9.9 percent income tax on individuals and married couples filing jointly with annual adjusted gross income above $1 million. It takes effect 1 January 2028 and the first returns are due in April 2029.",
+      "For almost every Veteran this changes nothing. A million dollars of adjusted gross income is far above military retired pay, and VA disability compensation is not in adjusted gross income at all.",
+      "Revenue says it will keep updating that page as filing requirements, forms, and administration are worked out, so check it rather than relying on this if the threshold could reach you.",
+      "You still owe federal income tax. Military retired pay is federally taxable. VA disability compensation is not.",
+      "Washington raises revenue through sales tax, business and occupation tax, and property tax instead, so no income tax does not mean a low overall tax burden."
     ],
     "agency": "Washington State Department of Revenue",
     "officialUrl": "https://dor.wa.gov/taxes-rates/income-tax",
-    "confidence": "needs-review"
+    "confidence": "verified"
   },
   {
     "id": "wa-veteran-dependent-tuition-waiver",

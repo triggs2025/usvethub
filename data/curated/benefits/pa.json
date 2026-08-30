@@ -15,8 +15,11 @@
       "An unmarried surviving spouse may continue to receive the exemption if the Commission determines need"
     ],
     "details": [
-      "The need test works off a published income level. The statute sets a presumption of need at $75,000 or less and directs that the figure be adjusted for changes in the Consumer Price Index and published in the Pennsylvania Bulletin. DMVA states the adjusted presumptive need level is $114,637 as of January 1, 2025. Confirm the current figure with your County Director of Veterans Affairs before relying on it.",
-      "If your household income is above the presumptive level you are not automatically disqualified. You must instead document that your monthly allowable expenses exceed your monthly household income.",
+      "The need test works off a published income level, and there is one right answer rather than two. The statute at 51 Pa.C.S. 8904 set the original rebuttable presumption at $75,000 and requires the State Veterans' Commission to adjust it every two years by the change in the Consumer Price Index. The adjusted figure is published in the Pennsylvania Bulletin.",
+      "The current figure is $114,637, effective 1 January 2025. The Commission set it in a notice at 55 Pa.B. 149, published 4 January 2025, applying a 6.1 percent rise in the Northeast all items CPI-U over the two years from 1 November 2022 to 31 October 2024. The previous level was $108,046. Adjustments have been made in 2009, 2011, 2013, 2015, 2017, 2019, 2021, 2023 and 2025, so the next one is due 1 January 2027.",
+      "That Pennsylvania Bulletin notice is the thing to check, not a county page. One notice every two years covers this figure.",
+      "If your household income is above the presumptive level you are not disqualified. You can request a full determination of need under 43 Pa. Code 5.24(d), and you qualify if your allowable monthly expenses exceed your monthly household income. Expenses must be documented, and the calculation includes a cost of living allowance and counts the potential real estate tax itself as an expense.",
+      "If you were denied for need before 1 January 2025, DMVA specifically encourages reapplying under the higher level. The effective date runs from the date of the new application.",
       "You apply through the County Director of Veterans Affairs in the county where you live, not directly to the state.",
       "Under the statute the county assessment board grants the exemption once the State Veterans' Commission certifies eligibility, and the Commission reviews exemptions periodically. Denials may be appealed to the Adjutant General.",
       "DMVA asks that general questions go to Ra-retx@pa.gov, and that completed applications and personal information not be sent by email."
@@ -24,7 +27,7 @@
     "agency": "Pennsylvania Department of Military and Veterans Affairs, with the State Veterans' Commission and county assessment offices",
     "statuteRef": "51 Pa.C.S. Ch. 89 (sections 8901 to 8906)",
     "officialUrl": "https://www.pa.gov/agencies/dmva/pennsylvania-veterans/pa-vetconnect/state-veterans-programs/financial-assistance/retx",
-    "confidence": "needs-review"
+    "confidence": "verified"
   },
   {
     "id": "pa-educational-gratuity-program",
@@ -141,16 +144,17 @@
       "For the out-of-state exclusion, the pay must be for federal active duty or federal active duty for training performed outside Pennsylvania"
     ],
     "details": [
-      "The Department of Revenue states that military pay received while on federal active duty or federal active duty for training outside Pennsylvania is not taxable. Revenue asks that copies of military orders be submitted with the return to document the out-of-state duty.",
-      "Income received by a Pennsylvania resident for military service performed inside Pennsylvania is taxable even if the member is on federal active duty or active duty for training, unless it is active military duty within Pennsylvania for an emergency under 35 Pa.C.S. Ch. 76.",
-      "Reservists and National Guard members on federal active duty for training under Title 10 or Title 32 follow the same rule. Compensation for weekend drills performed inside Pennsylvania remains taxable.",
-      "The PA Personal Income Tax Guide states that retired or retainer pay of a member or former member of a uniformed service calculated under Chapter 71 of Title 10, U.S. Code, is exempt from PA personal income tax.",
-      "The same guide excludes from taxable compensation a disability pension, disability annuity, or similar allowance for physical injuries or sickness resulting from active service in the armed forces of the United States.",
-      "Revenue states that hazardous duty pay or pay earned in a combat zone is not included in eligibility income for Tax Forgiveness, and that a Pennsylvania resident serving in a combat zone gets an automatic filing extension matching the federal one, up to 180 days from the last day of service."
+      "The Department of Revenue states that military pay received while on federal active duty or federal active duty for training outside Pennsylvania is not taxable. Leave it off Line 1a of the PA-40 and attach copies of your W-2 and your military orders with an explanation of the amount excluded. Revenue says it will not process the return without proof the pay was earned outside Pennsylvania.",
+      "Income received by a Pennsylvania resident for military service performed inside Pennsylvania is taxable even on federal active duty or active duty for training, unless it is active military duty within Pennsylvania for an emergency under 35 Pa.C.S. Ch. 76.",
+      "Reservists and National Guard members ordered to active duty for training under Title 10 or Title 32 are on federal active duty, so the same inside and outside rule applies. Compensation for weekend drills performed inside Pennsylvania remains taxable.",
+      "The PA Personal Income Tax Guide states that \"Retired or retainer pay of a member or former member of a uniform service calculated under Chapter 71 of Title 10, U.S. Code as amended\" is exempt from PA personal income tax.",
+      "The same guide excludes from taxable compensation \"amounts received as a disability pension, disability annuity, or similar allowance for physical injuries or sickness resulting from active service in the armed forces of the United States.\"",
+      "Watch the Tax Forgiveness trap. Revenue says military pay that you correctly left off the PA-40 should still be included in eligibility income for Tax Forgiveness. Only hazardous duty pay and pay earned in a combat zone are left out of eligibility income.",
+      "A Pennsylvania resident serving in a combat zone or qualified hazardous duty area gets the same extension as federally, automatically extended to 180 days from the last day of service or the last day of continuous hospitalization for an injury incurred there. Print COMBAT ZONE at the top of the return and include a copy of your orders."
     ],
     "agency": "Pennsylvania Department of Revenue",
     "officialUrl": "https://www.pa.gov/en/agencies/revenue/resources/tax-types-and-information/personal-income-tax/military-pay.html",
-    "confidence": "needs-review"
+    "confidence": "verified"
   },
   {
     "id": "pa-veterans-preference-public-employment",

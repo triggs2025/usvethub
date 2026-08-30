@@ -7,22 +7,27 @@
     "summary": "North Carolina excludes the first $45,000 of appraised value of your permanent residence from property tax if you are a Veteran with a VA certified permanent and total service-connected disability. An unremarried surviving spouse can qualify too.",
     "amount": "The first $45,000 of appraised value of the residence is excluded from taxation",
     "eligibility": [
-      "You served honorably and the VA has certified a service-connected, permanent, and total disability",
-      "Or you received benefits under 38 U.S.C. 2101 as of January 1 preceding the tax year",
-      "Or the Veteran is deceased and the VA certified that death resulted from a service-connected condition",
-      "An unremarried surviving spouse of a disabled Veteran can qualify as an owner if the spouse is a North Carolina resident",
+      "Your character of service at separation was honorable or under honorable conditions",
+      "And the VA or another federal agency has certified that, as of January 1 before the tax year, you have a service-connected, permanent, and total disability",
+      "Or you had received benefits under 38 U.S.C. 2101 as of that January 1",
+      "Or the Veteran is deceased and the VA certified that the death resulted from a service-connected condition",
+      "You are a North Carolina resident and an owner of the permanent residence",
+      "An unremarried surviving spouse of a disabled Veteran also counts as a qualifying owner",
       "There is no income limit written into this particular exclusion"
     ],
     "details": [
       "The statute directs you to file during the regular listing period, but applications must be accepted at any time up to and through June 1 preceding the tax year for which the exclusion is claimed. Do not wait past June 1.",
       "You apply through your county tax office, not the state. Counties administer the listing period and process the paperwork.",
-      "You have to submit either a copy of the Veteran's disability certification or evidence of the benefits received under federal law.",
-      "A qualifying owner receiving this exclusion cannot also receive the other property tax relief programs in the same statute, so compare before you choose."
+      "You have to submit either a copy of the Veteran's disability certification or evidence of the benefits received under 38 U.S.C. 2101.",
+      "A married couple who own and occupy the home together get the full exclusion even if only one of them qualifies.",
+      "You do not lose the exclusion by being away temporarily for health reasons, or by an extended stay in a rest home or nursing home, so long as the residence is empty or lived in by your spouse or another dependent.",
+      "Co-owners who are not married to each other each have to apply separately. Each qualifying co-owner gets the full exclusion, capped at their proportionate share of the property's value.",
+      "A qualifying owner receiving this exclusion cannot also receive the other property tax relief programs in Chapter 105, so compare before you choose."
     ],
     "agency": "North Carolina Department of Revenue, administered by county tax offices",
     "statuteRef": "N.C.G.S. 105-277.1C",
     "officialUrl": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-277.1C.html",
-    "confidence": "needs-review"
+    "confidence": "verified"
   },
   {
     "id": "nc-military-retirement-income-deduction",
@@ -31,21 +36,25 @@
     "title": "Deduction for military retirement pay and Survivor Benefit Plan payments",
     "summary": "North Carolina lets you deduct military retirement pay from your state taxable income if you served at least 20 years or were medically retired. Survivor Benefit Plan payments to a beneficiary of an eligible retiree are deductible too.",
     "eligibility": [
-      "You receive retirement pay for service in the uniformed services of the United States",
+      "You receive retirement pay from the United States government for service in the uniformed services",
+      "The statute uses the definition of uniformed services in 10 U.S.C. 101(a)(5), which reaches beyond the Armed Forces to the commissioned corps of the Public Health Service and of NOAA",
       "And you served at least 20 years in the uniformed services, or you were medically retired under 10 U.S.C. Chapter 61",
-      "Severance pay under 10 U.S.C. Chapter 61 does not qualify",
-      "A beneficiary receiving payments from a plan defined in 10 U.S.C. 1447, the Survivor Benefit Plan, can deduct those payments if the retired member met the conditions above",
-      "Only the amount actually included in your adjusted gross income can be deducted"
+      "Severance pay for separation under 10 U.S.C. Chapter 61 does not qualify",
+      "A beneficiary receiving payments from a plan defined in 10 U.S.C. 1447, the Survivor Benefit Plan, can deduct them if the retired member met the conditions above",
+      "The deduction is only allowed to the extent the payments are included in your adjusted gross income"
     ],
     "details": [
-      "This deduction applies to taxable years beginning on or after January 1, 2022.",
-      "This is separate from the older Bailey settlement deduction for certain federal, state, and local retirement benefits. The statute says you cannot deduct the same amount under both provisions, so if you are a Bailey-protected retiree, work out which one applies before filing.",
+      "This deduction applies to taxable years beginning on or after 1 January 2022.",
+      "There is no cap. North Carolina deducts the whole qualifying amount, which is a meaningfully better deal than the capped subtractions in states like Virginia and California.",
+      "The 20 year threshold is the catch. A retiree with 19 years and a non-medical separation does not qualify at all, and there is no partial deduction.",
+      "This is separate from the older Bailey settlement deduction under G.S. 105-153.5(b)(5) for certain federal, state, and local retirement benefits. The statute says the same amount cannot be deducted under both, so if you are a Bailey-protected retiree, work out which one applies before filing.",
       "The deduction is claimed on your North Carolina return. It is not automatic."
     ],
     "agency": "North Carolina Department of Revenue",
     "statuteRef": "N.C.G.S. 105-153.5(b)(5a)",
     "officialUrl": "https://www.ncdor.gov/taxes-forms/individual-income-tax/military-retirement",
-    "confidence": "needs-review"
+    "confidence": "verified",
+    "amount": "The full amount of qualifying retirement pay. The statute sets no dollar cap."
   },
   {
     "id": "nc-scholarship-children-of-wartime-veterans",

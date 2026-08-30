@@ -10,7 +10,7 @@
       "Honorably discharged with a service-connected total and permanent disability",
       "A letter from the United States Government or the U.S. Department of Veterans Affairs certifying that you are totally and permanently disabled",
       "You own the real estate and use it as your homestead",
-      "You were a permanent resident of Florida on January 1 of the tax year you are claiming"
+      "You were a permanent resident of Florida on January 1 of the tax year you are claiming, or the Veteran was a permanent resident on January 1 of the year they died"
     ],
     "details": [
       "The statute says producing the total and permanent disability letter to your county property appraiser is prima facie evidence that you are entitled to the exemption.",
@@ -23,7 +23,7 @@
     "agency": "Florida county property appraisers",
     "statuteRef": "Fla. Stat. 196.081",
     "officialUrl": "https://www.flsenate.gov/Laws/Statutes/2024/196.081",
-    "confidence": "needs-review"
+    "confidence": "verified"
   },
   {
     "id": "fl-disabled-ex-servicemember-5000-exemption",
@@ -46,7 +46,7 @@
     "agency": "Florida county property appraisers",
     "statuteRef": "Fla. Stat. 196.24",
     "officialUrl": "https://www.flsenate.gov/Laws/Statutes/2024/196.24",
-    "confidence": "needs-review"
+    "confidence": "verified"
   },
   {
     "id": "fl-combat-disabled-veteran-age-65-tax-discount",
@@ -65,12 +65,17 @@
       "The statute reads: \"The discount shall be in a percentage equal to the percentage of the veteran's permanent, service-connected disability as determined by the United States Department of Veterans Affairs.\"",
       "This is a percentage discount off the tax owed, not a fixed dollar exemption, so it can be worth far more than the $5,000 exemption under Fla. Stat. 196.24.",
       "The combat-related requirement is the part people miss. A high rating that is not combat-related does not qualify for this particular discount.",
-      "Apply through your county property appraiser. Check with them on the current filing deadline and on what evidence they want that the disability is combat-related."
+      "Apply to your county property appraiser by March 1. The statute names exactly three things you must submit: an official VA letter stating your service-connected disability percentage and evidence that reasonably identifies the disability as combat-related, a copy of your honorable discharge, and proof of age as of January 1 of the year the discount applies to.",
+      "Missing March 1 is not fatal. You may still apply and file a petition with the county value adjustment board under Fla. Stat. 194.011(3).",
+      "You can apply before the VA paperwork arrives. Once it does, the discount is granted back to the date of your original application and excess taxes are refunded, limited to the 4 year period in section 197.182(1)(e).",
+      "If the property appraiser denies you, they must tell you in writing with reasons by July 1, and the notice must explain your right to appeal to the value adjustment board.",
+      "The discount is applied after every other exemption. The appraiser deducts all other exemptions from assessed value first, then subtracts your disability percentage from what is left.",
+      "If the Veteran dies first, the discount carries over to a surviving spouse who holds title and lives there, until they remarry or sell. A spouse who sells can transfer a discount not exceeding the dollar amount on the most recent tax roll to a new primary residence."
     ],
     "agency": "Florida county property appraisers",
     "statuteRef": "Fla. Stat. 196.082",
-    "officialUrl": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0100-0199/0196/Sections/0196.082.html",
-    "confidence": "needs-review"
+    "officialUrl": "https://www.flsenate.gov/Laws/Statutes/2024/196.082",
+    "confidence": "verified"
   },
   {
     "id": "fl-bill-young-veteran-tuition-waiver",
@@ -149,13 +154,13 @@
     "details": [
       "Fla. Stat. 220.02(1) refers to \"the mandate in s. 5, Art. VII of the State Constitution that no income tax be levied upon natural persons who are residents and citizens of this state.\"",
       "Because there is no personal income tax at all, Florida has no separate military retirement pay exclusion or Veteran income tax credit. There is nothing to apply for and no form to file.",
-      "The Florida Department of Revenue's list of taxes and fees it administers does not include a personal income tax. It does administer corporate income tax, sales and use tax, and others.",
+      "The Florida Department of Revenue lists every tax and fee it administers at floridarevenue.com/taxes/taxesfees. Corporate income, sales and use, fuel, and documentary stamp are on that list. Personal income tax is not on it at all.",
       "Federal tax rules still apply. VA disability compensation remains non-taxable federally, and military retired pay is still federally taxable."
     ],
     "agency": "Florida Department of Revenue",
     "statuteRef": "Fla. Const. art. VII, s. 5, as referenced in Fla. Stat. 220.02(1)",
     "officialUrl": "https://www.flsenate.gov/Laws/Statutes/2024/220.02",
-    "confidence": "needs-review"
+    "confidence": "verified"
   },
   {
     "id": "fl-veterans-preference-public-employment",
