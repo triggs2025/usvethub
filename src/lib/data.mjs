@@ -113,6 +113,11 @@ export function loadAll() {
     jurisdictions, byCode, benefits, federal,
     organizations: directory, nonprofits,
     discounts: liveDiscounts, sponsors: liveSponsors,
+    // Every sponsor including flights that have not started and flights that
+    // have ended. The site must never see these, which is why they are handed
+    // over under a different name. `npm run status` needs them to tell you what
+    // is booked for next month and what lapsed last week.
+    allSponsors: sponsors,
     health, loadIssues,
   };
 }

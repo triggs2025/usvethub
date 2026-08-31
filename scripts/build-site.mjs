@@ -13,6 +13,7 @@ import { createHash } from 'node:crypto';
 import { readJson } from '../pipeline/core/registry.mjs';
 import { layout, esc, escUrl, html, SITE, SITE_URL, ASSETS } from '../src/lib/html.mjs';
 import { LOGOS, ACTIVE_LOGO } from '../src/lib/logos.mjs';
+import { placedSponsors } from '../src/lib/sponsors.mjs';
 import { payingForHelpBody, payingForHelpMeta } from '../src/pages/paying-for-help.mjs';
 import {
   loadAll, isStale, daysSince, STALE_AFTER_DAYS, ORG_TYPE_LABELS, CATEGORY_LABELS, CATEGORIES,
@@ -42,7 +43,7 @@ ASSETS.css = `/${CSS_NAME}`;
 ASSETS.js = `/${JS_NAME}`;
 
 const site = loadAll();
-const { jurisdictions, benefits, federal, organizations, nonprofits, discounts, sponsors, health } = site;
+const { jurisdictions, byCode, benefits, federal, organizations, nonprofits, discounts, sponsors, health } = site;
 
 // ---------------------------------------------------------------- components
 
@@ -171,17 +172,7 @@ const filterBar = ({ target, label, placeholder, chips = [] }) => html`
  * here, not code: no third-party script, and the creative is served from our
  * own origin because a hotlinked image can be swapped after we approved it.
  */
-function sponsorSlot(slot, jurisdictionCode = null) {
-  // A sponsor with no jurisdictions listed is a national buy and runs
-  // everywhere. One record covers fifty states rather than fifty records.
-  const live = sponsors.find((s) => {
-    if (s.slot !== slot) return false;
-    if (slot !== 'jurisdiction') return true;
-    if (!s.jurisdictions || s.jurisdictions.length === 0) return true;
-    return s.jurisdictions.includes(jurisdictionCode);
-  });
-  if (!live) return '';
-
+function sponsorCard(live) {
   return html`
     <aside class="sponsor" aria-label="Sponsored">
       <p class="sponsor-flag">Sponsored</p>
@@ -195,6 +186,10 @@ function sponsorSlot(slot, jurisdictionCode = null) {
       </a>
       <p class="sponsor-by">Paid placement by ${esc(live.advertiser)}. Paying never affects what we list or how we rank it.</p>
     </aside>`;
+}
+
+function sponsorSlot(slot, jurisdictionCode = null) {
+  return placedSponsors(sponsors, slot, jurisdictionCode).map(sponsorCard).join('');
 }
 
 function discountCard(discount) {
@@ -517,6 +512,9 @@ page('/organizations/', layout({
   body: html`
     <h1>Organization directory</h1>
     <p class="lede">${esc(organizations.length)} organizations serving Veterans, grouped by what they do.</p>
+
+    ${sponsorSlot('organizations')}
+
     ${filterBar({
       target: '#org-list',
       label: 'Filter organizations',
@@ -533,6 +531,44 @@ page('/organizations/', layout({
           data-search="${esc(`${org.name} ${org.jurisdiction} ${org.city ?? ''} ${(org.services ?? []).join(' ')}`)}"
         >${orgCard(org)}</div>`)}</div>
       </section>`)}
+    </div>
+  `,
+}));
+
+// ------------------------------------------------------------------ search
+
+page('/search/', layout({
+  title: 'Search',
+  path: '/search/',
+  description: 'Search every benefit, organization, discount, and jurisdiction on USVetHub.',
+  breadcrumbs: [{ label: 'Home', href: '/' }, { label: 'Search' }],
+  body: html`
+    <h1>Search</h1>
+    <p class="lede">Everything on this site except the nonprofit registry, which is large enough
+    to browse state by state instead.</p>
+
+    <div class="search-page" data-search-page hidden>
+      <label class="visually-hidden" for="q">Search benefits, organizations, and discounts</label>
+      <input type="search" id="q" data-search-input autocomplete="off" spellcheck="false"
+        placeholder="Property tax, Texas, tuition waiver, hiring preference">
+      <p class="search-note" data-search-status role="status" aria-live="polite"></p>
+      <ol class="search-results" data-search-results></ol>
+    </div>
+
+    <noscript>
+      <p><strong>Search needs JavaScript, and this page does not have it.</strong>
+      Nothing is hidden from you: everything search would find is browsable below.</p>
+    </noscript>
+
+    <div class="search-fallback" data-search-fallback>
+      <h2>Browse instead</h2>
+      <ul class="plain">
+        <li><a href="${escUrl('/benefits/')}">Benefits by state and territory</a>, all ${esc(jurisdictions.length)} of them</li>
+        <li><a href="${escUrl('/organizations/')}">Organization directory</a>, filterable by what each one does</li>
+        <li><a href="${escUrl('/discounts/')}">Discounts</a>, filterable by business and category</li>
+        <li><a href="${escUrl('/nonprofits/')}">Veteran nonprofits</a>, listed state by state</li>
+        <li><a href="${escUrl('/free-help/')}">Free help</a>, including who may lawfully charge for a claim</li>
+      </ul>
     </div>
   `,
 }));
@@ -965,6 +1001,44 @@ if (!isProductionDomain && existsSync(join(OUT, 'CNAME'))) {
   rmSync(join(OUT, 'CNAME'));
   console.log('  CNAME withheld: this build targets ' + SITE_URL);
 }
+
+/**
+ * The search index.
+ *
+ * A prebuilt static file rather than a search service: no third-party script,
+ * no query leaving the browser, and nothing to keep running. What someone types
+ * into a benefits site says a great deal about their health and their money,
+ * and the safest way to hold that is never to receive it.
+ *
+ * The 11,800 IRS nonprofits are deliberately left out. They would multiply this
+ * file by fifty to serve a directory that is already browsable state by state,
+ * and a search box that takes a second to load is a search box nobody uses.
+ */
+const searchIndex = [
+  ...jurisdictions.map((j) => ({
+    t: j.name, k: 'Jurisdiction', c: `${j.code} · ${j.benefits.length} benefits`,
+    u: `/${j.slug}/`, s: `${j.name} ${j.code} state territory benefits`,
+  })),
+  ...benefits.map((b) => ({
+    t: b.title,
+    k: CATEGORY_LABELS[b.category] ?? b.category,
+    c: b.jurisdiction === 'US' ? 'Federal' : (byCode.get(b.jurisdiction)?.name ?? b.jurisdiction),
+    u: b.jurisdiction === 'US' ? '/benefits/' : `/${byCode.get(b.jurisdiction)?.slug ?? ''}/`,
+    s: `${b.title} ${b.summary} ${b.agency ?? ''} ${b.statuteRef ?? ''} ${b.jurisdiction}`,
+  })),
+  ...organizations.map((o) => ({
+    t: o.name, k: ORG_TYPE_LABELS[o.orgType] ?? o.orgType,
+    c: [o.city, o.jurisdiction].filter(Boolean).join(', '),
+    u: '/organizations/',
+    s: `${o.name} ${o.jurisdiction} ${o.city ?? ''} ${(o.services ?? []).join(' ')}`,
+  })),
+  ...discounts.map((d) => ({
+    t: d.business, k: 'Discount', c: d.offer ?? '',
+    u: '/discounts/', s: `${d.business} ${d.offer ?? ''} ${d.category ?? ''} discount`,
+  })),
+].map((entry) => ({ ...entry, s: entry.s.toLowerCase().replace(/\s+/g, ' ').trim() }));
+
+writeFileSync(join(OUT, 'search-index.json'), JSON.stringify(searchIndex));
 
 const urls = pages.filter((p) => p !== '/404.html' && p !== '/design/');
 writeFileSync(join(OUT, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>

@@ -137,9 +137,34 @@ creative, not only in a corner badge.
 sponsor and a non-sponsor with the same relevance sort identically. Ad slots are
 visually separated from directory content.
 
-## Implementation sketch
+## Implementation: built 2026-08-30
 
-When there is a first advertiser, not before:
+This was a sketch until the slots were built ahead of the first sale, on the
+principle that a slot which only works once you have an advertiser is a slot you
+find out is broken on the day you take money. All of it now exists and is
+covered by `npm test`.
+
+To create an ad: copy `data/curated/sponsors/_template.json`, fill it in, run
+`npm run scrape:one curated-sponsors` to validate it, and `npm run status` to
+see where it will run and what is still unsold.
+
+**How placement works.** Omit `jurisdictions` for a national buy and one record
+runs on all 56 pages. List state codes for a targeted buy. On a given state
+page a targeted buy is placed ahead of a national one, so an advertiser who paid
+to reach Arizona is not pushed off the Arizona page by whoever was created
+first. Two ads per slot maximum. Ordering is deterministic, so two builds of the
+same book produce identical pages.
+
+**What the tests refuse to let through:** a creative that is not self-hosted, an
+unexpired flight with no named `policyReviewedBy`, a claims-representation
+advertiser without both a VA accreditation number and a recorded verification
+date, an ad that is not labeled Sponsored, a destination link missing
+`rel="sponsored noopener"`, a slot in the schema that no page renders, and an
+expired or unstarted flight reaching a page. `npm run status` reports the same
+set as blocking problems, and `npm run status -- --strict` exits non-zero on any
+of them.
+
+The original sketch, kept because it is the reasoning:
 
 1. `data/curated/sponsors/*.json` with a `sponsor` schema in `data/schema/`:
    advertiser, creative image, destination URL, flight dates, slot, and the

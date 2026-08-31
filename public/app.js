@@ -150,9 +150,131 @@
     });
   }
 
+  /**
+   * Site search, over a static index fetched once.
+   *
+   * No search service and no third-party script, so nothing anyone types here
+   * leaves the browser. On a benefits site the query itself is sensitive: a
+   * person searching "100 percent disabled property tax" has told you a great
+   * deal about themselves, and the safest place for that is nowhere.
+   *
+   * The index loads on first interaction rather than on page load, so arriving
+   * at the page costs nothing extra. Until it loads, and if it fails to, the
+   * browse links below stay visible, which is the whole content of the page
+   * reachable without search at all.
+   */
+  function setupSearch() {
+    var root = document.querySelector('[data-search-page]');
+    if (!root) return;
+
+    var input = root.querySelector('[data-search-input]');
+    var status = root.querySelector('[data-search-status]');
+    var list = root.querySelector('[data-search-results]');
+    var fallback = document.querySelector('[data-search-fallback]');
+    var index = null;
+    var loading = false;
+    var MAX = 40;
+
+    root.hidden = false;
+
+    function load() {
+      if (index || loading) return Promise.resolve();
+      loading = true;
+      status.textContent = 'Loading the index...';
+      return fetch(base() + '/search-index.json', { credentials: 'omit' })
+        .then(function (r) {
+          if (!r.ok) throw new Error(String(r.status));
+          return r.json();
+        })
+        .then(function (data) {
+          index = data;
+          loading = false;
+          status.textContent = '';
+        })
+        .catch(function () {
+          loading = false;
+          status.textContent = 'Search could not load. The browse links below still work.';
+        });
+    }
+
+    /**
+     * The deploy base, recovered from the stylesheet href.
+     *
+     * The site builds both to a domain root and to a github.io subpath, and a
+     * root-relative fetch silently 404s on the subpath build. Reading it off an
+     * asset the page already loaded avoids inventing a second source of truth.
+     */
+    function base() {
+      var link = document.querySelector('link[rel="stylesheet"]');
+      var href = link ? link.getAttribute('href') || '' : '';
+      return href.replace(/\/styles\.[0-9a-f]{8}\.css$/, '');
+    }
+
+    function render(query) {
+      var terms = norm(query).split(' ').filter(Boolean);
+      list.innerHTML = '';
+
+      if (terms.length === 0) {
+        status.textContent = '';
+        if (fallback) fallback.hidden = false;
+        return;
+      }
+      if (!index) return;
+
+      var hits = [];
+      for (var i = 0; i < index.length && hits.length < MAX * 4; i++) {
+        var entry = index[i];
+        var matched = true;
+        for (var t = 0; t < terms.length; t++) {
+          if (entry.s.indexOf(terms[t]) === -1) { matched = false; break; }
+        }
+        // A term appearing in the title is a better hit than one buried in a
+        // summary, so rank on that rather than on index order.
+        if (matched) hits.push({ e: entry, score: norm(entry.t).indexOf(terms[0]) === 0 ? 0 : 1 });
+      }
+      hits.sort(function (a, b) { return a.score - b.score; });
+
+      var frag = document.createDocumentFragment();
+      hits.slice(0, MAX).forEach(function (hit) {
+        var li = document.createElement('li');
+        var a = document.createElement('a');
+        a.href = base() + hit.e.u;
+        var strong = document.createElement('strong');
+        strong.textContent = hit.e.t;
+        var meta = document.createElement('small');
+        meta.textContent = hit.e.k + (hit.e.c ? ' · ' + hit.e.c : '');
+        a.appendChild(strong);
+        a.appendChild(meta);
+        li.appendChild(a);
+        frag.appendChild(li);
+      });
+      list.appendChild(frag);
+
+      if (hits.length === 0) {
+        status.textContent = 'Nothing matches that yet. Try a broader word, or browse below.';
+        if (fallback) fallback.hidden = false;
+      } else {
+        status.textContent = hits.length > MAX
+          ? 'Showing the first ' + MAX + ' of ' + hits.length + ' matches'
+          : hits.length + (hits.length === 1 ? ' match' : ' matches');
+        if (fallback) fallback.hidden = true;
+      }
+    }
+
+    var run = debounce(function () { render(input.value); }, 90);
+
+    input.addEventListener('focus', load, { once: true });
+    input.addEventListener('input', function () {
+      load().then(function () { render(input.value); });
+      run();
+    });
+    input.addEventListener('search', function () { render(input.value); });
+  }
+
   function init() {
     Array.prototype.forEach.call(document.querySelectorAll('[data-filter]'), setupFilter);
     setupScrollSpy();
+    setupSearch();
   }
 
   if (document.readyState === 'loading') {

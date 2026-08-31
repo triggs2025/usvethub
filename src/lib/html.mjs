@@ -95,6 +95,12 @@ const CSP = [
   // browser. Everything in public/app.js is progressive enhancement, so a
   // visitor who blocks it loses convenience and no content.
   "script-src 'self'",
+  // Widened 2026-08-30 for site search, which fetches /search-index.json. Still
+  // 'self': the page can read a file we generated and serve, and nothing else.
+  // A script that tried to send what a Veteran typed to another host is refused
+  // by the browser, which matters more here than on most sites, because search
+  // queries on a benefits site reveal disability and hardship.
+  "connect-src 'self'",
   "base-uri 'none'",
   "form-action 'none'",
 ].join('; ');
@@ -191,6 +197,13 @@ ${CRISIS_BAR}
       <a href="${escUrl('/free-help/')}">Free help</a>
       <a href="${escUrl('/about/')}">About</a>
     </nav>
+    <a class="nav-search" href="${escUrl('/search/')}" aria-label="Search USVetHub">
+      <svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" focusable="false"
+        fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round">
+        <circle cx="10.5" cy="10.5" r="6.5"></circle><path d="M15.5 15.5 21 21"></path>
+      </svg>
+      <span>Search</span>
+    </a>
   </div>
 </header>
 <main id="main" class="wrap">

@@ -1,0 +1,72 @@
+[
+  {
+    "_comment": "TEMPLATE. Files starting with an underscore are ignored by the pipeline. Copy this to a real name like acme-legal-2026-q4.json, delete every _comment line, and fill it in. Then run `npm run scrape:one curated-sponsors` to check your work, and `npm run status` to see where it will run. Read docs/ADVERTISING.md before you sell anything.",
+
+    "id": "acme-legal-2026-q4",
+    "_id": "Permanent and unique. Lowercase letters, numbers, hyphens. Put the advertiser and the flight in it so a year from now you can tell two buys apart.",
+
+    "advertiser": "Acme Legal, PLLC",
+    "_advertiser": "The company paying, as they would want it printed. This name is shown to the reader under the ad.",
+
+    "slot": "jurisdiction",
+    "_slot": "Where it renders. One of: jurisdiction (a state or territory page), discounts, organizations, free-help. Run `npm run status` to see which slots are currently empty.",
+
+    "jurisdictions": ["AZ", "NV"],
+    "_jurisdictions": "ONLY for slot 'jurisdiction'. OMIT THIS KEY ENTIRELY for a national buy that runs on all 56 pages. List two-letter codes for a regional or single-state buy. One record covers fifty states, so never create fifty records. A state-targeted ad beats a national one on that state's page.",
+
+    "headline": "Denied a VA claim in Arizona? Talk to an accredited attorney.",
+    "_headline": "Up to 90 characters. Never imply that paying gets a Veteran a faster or better result from VA.",
+
+    "body": "We only take appeals after VA has issued a decision. Initial claims are free, and we will tell you so.",
+    "_body": "Optional, up to 300 characters.",
+
+    "ctaLabel": "See how appeals work",
+    "_ctaLabel": "Optional. Defaults to 'Learn more'.",
+
+    "destinationUrl": "https://example.com/veterans-appeals",
+    "_destinationUrl": "REQUIRED. Where the ad goes. Gets rel=\"sponsored noopener\" automatically.",
+
+    "image": "/sponsors/acme-legal.png",
+    "_image": "Optional. MUST be a file you downloaded into public/sponsors/. Never link to the advertiser's server: a hotlinked image can be swapped for something else after you approved it. The schema refuses any other path.",
+
+    "imageAlt": "Acme Legal logo",
+    "_imageAlt": "Required if you use an image. Describe it for a screen reader.",
+
+    "startsAt": "2026-10-01",
+    "endsAt": "2026-12-31",
+    "_flight": "The ad renders only between these dates, inclusive. An expired flight disappears on the next build with no edit needed. Nothing else has to be remembered.",
+
+    "policyReviewedBy": "Tony Triggs, 2026-09-15",
+    "_policyReviewedBy": "REQUIRED. The named human who read docs/ADVERTISING.md against this advertiser, and when. No ad runs without this. If you cannot name a person, the ad does not run.",
+
+    "advertiserCategory": "claims-representation",
+    "_advertiserCategory": "What they sell. One of: claims-representation, legal-other, education, employment, housing, financial, health, retail, nonprofit, government, other. Choosing claims-representation turns on the mandatory checks below.",
+
+    "vaAccreditationNumber": "12345",
+    "_vaAccreditationNumber": "REQUIRED when advertiserCategory is claims-representation. Only VA-accredited attorneys and claims agents may lawfully charge a Veteran a fee, and only for work after VA has issued a decision. Verify it yourself at the VA Office of General Counsel accreditation search. An advertiser who cannot produce one is selling something they are not permitted to sell. Do not take their word for the number.",
+
+    "dueDiligence": {
+      "_comment": "Required for claims-representation and legal-other. Kept so that a decision to run an ad aimed at Veterans can be reconstructed a year later.",
+      "contactName": "Jane Doe",
+      "linkedin": "https://www.linkedin.com/in/example",
+      "facebook": "https://www.facebook.com/example",
+      "businessWebsite": "https://example.com",
+      "interviewedBy": "Tony Triggs",
+      "interviewedOn": "2026-09-12",
+      "accreditationVerifiedOn": "2026-09-15",
+      "notes": "Confirmed in the interview that they do not charge for initial claims and that fee agreements are filed with VA. Checked accreditation number against the OGC search on the date above."
+    },
+
+    "notes": "Internal only, never shown to a reader. Put the rate, the contact, and anything you want to remember at renewal.",
+
+    "source": {
+      "id": "direct",
+      "title": "Direct sale",
+      "homepage": "https://example.com"
+    },
+    "_source": "REQUIRED. For a direct-sold ad this is just the advertiser. It exists because every record on this site carries where it came from.",
+
+    "verifiedAt": "2026-09-15",
+    "_verifiedAt": "The date you last confirmed this record is correct."
+  }
+]

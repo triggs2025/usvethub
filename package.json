@@ -15,6 +15,8 @@
     "scrape:list": "node pipeline/core/run.mjs --list",
     "scrape:one": "node pipeline/core/run.mjs --only",
     "jurisdictions": "node scripts/build-jurisdictions.mjs",
+    "status": "node scripts/status.mjs",
+    "dashboard": "node scripts/status.mjs --html --full",
     "test": "node scripts/test-isolation.mjs && node scripts/test-build.mjs",
     "test:isolation": "node scripts/test-isolation.mjs",
     "test:build": "node scripts/test-build.mjs"

@@ -59,7 +59,16 @@ npm run scrape:list                  # what is registered
 npm run build                        # data -> dist/
 npm run dev                          # build, then serve at localhost:4321
 npm test                             # isolation + build tests
+npm run status                       # coverage and ad inventory, in the terminal
+npm run dashboard                    # the same as a clickable admin/dashboard.html
 ```
+
+`npm run status` is the management view: what is covered across all 56
+jurisdictions, what is verified, which ad slots are sold, which flights expire
+within 30 days, and anything that should block a sale. It reads the same
+published data the site is built from, writes nothing into `dist/`, and the
+dashboard it can generate is gitignored, because unsold inventory is not the
+public's business.
 
 ## Layout
 

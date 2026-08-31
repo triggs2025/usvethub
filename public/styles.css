@@ -675,3 +675,40 @@ tr.row-warned td:nth-child(2) { color: var(--gold-600); font-weight: 800; }
   .np { flex-direction: column; align-items: flex-start; gap: 9px; }
   .np > a { width: 100%; text-align: center; }
 }
+
+/* ----------------------------------------------------------------- search */
+
+.nav-search {
+  display: inline-flex; align-items: center; gap: 7px;
+  color: var(--text-2); font-weight: 600; text-decoration: none; font-size: 15px;
+  padding: 8px 15px; border-radius: var(--radius-pill);
+  border: 1px solid var(--border);
+  transition: background 0.18s var(--ease), color 0.18s var(--ease), border-color 0.18s var(--ease);
+}
+.nav-search:hover { background: var(--bg-alt); color: var(--navy-600); border-color: var(--navy-600); }
+.nav-search svg { flex: none; }
+
+/* Hidden until app.js reveals it, so a visitor without JavaScript is never
+   handed a search box that silently does nothing. */
+.search-page[hidden] { display: none; }
+.search-page input[type="search"] {
+  width: 100%; font-size: 17px; padding: 14px 16px;
+  border: 1px solid var(--border-strong); border-radius: var(--radius-sm);
+  background: var(--surface); color: var(--text);
+}
+.search-page input[type="search"]:focus {
+  outline: none; border-color: var(--navy-600);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--navy-600) 22%, transparent);
+}
+.search-note { font-size: 14px; color: var(--text-2); font-weight: 600; min-height: 20px; margin: 10px 0 0; }
+.search-results { list-style: none; margin: 14px 0 0; padding: 0; display: grid; gap: 8px; }
+.search-results a {
+  display: flex; flex-direction: column; gap: 3px;
+  padding: 12px 14px; text-decoration: none;
+  border: 1px solid var(--border); border-radius: var(--radius-sm);
+  background: var(--surface); color: var(--text);
+  transition: border-color 0.18s var(--ease), transform 0.18s var(--ease);
+}
+.search-results a:hover { border-color: var(--navy-600); transform: translateY(-1px); }
+.search-results small { color: var(--text-2); font-size: 13px; }
+.search-fallback { margin-top: 34px; }

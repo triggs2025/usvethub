@@ -9,6 +9,7 @@ import { execFileSync } from 'node:child_process';
 import { readFileSync, existsSync, readdirSync, statSync } from 'node:fs';
 import { join } from 'node:path';
 import { readJson } from '../pipeline/core/registry.mjs';
+import { eligibleSponsors, placedSponsors, SLOTS, MAX_ADS_PER_SLOT } from '../src/lib/sponsors.mjs';
 
 let failures = 0;
 const check = (label, ok, detail = '') => {
@@ -161,6 +162,145 @@ check(
 // 6. Fixture data must never reach the public site.
 const fixtureLeak = pageFiles.filter((f) => readFileSync(f, 'utf8').includes('zz-test-'));
 check('no test fixture data reached the site', fixtureLeak.length === 0, fixtureLeak.join(', '));
+
+// 7. Search. The index is generated, so the failure mode is silent: it keeps
+//    building and quietly stops containing anything.
+const searchPage = read(join('search', 'index.html'));
+check('search page exists and ships its input hidden', searchPage.includes('data-search-page') && /data-search-page hidden/.test(searchPage));
+check(
+  'search page lists browse links, so it is useful without JavaScript',
+  searchPage.includes('data-search-fallback') && searchPage.includes('/organizations/'),
+);
+check('CSP allows the index fetch and nothing else', homeHtml.includes("connect-src 'self'"));
+
+const indexPath = join('dist', 'search-index.json');
+check('search index is generated', existsSync(indexPath));
+if (existsSync(indexPath)) {
+  const idx = JSON.parse(readFileSync(indexPath, 'utf8'));
+  const benefitCount = readdirSync(join('data', 'published', 'benefits'))
+    .filter((f) => f.endsWith('.json'))
+    .reduce((n, f) => n + (readJson(join('data', 'published', 'benefits', f)).records ?? []).length, 0);
+  check(
+    'search index covers every jurisdiction and every benefit',
+    idx.length >= jurisdictions.length + benefitCount,
+    `${idx.length} entries for ${jurisdictions.length} jurisdictions + ${benefitCount} benefits`,
+  );
+  check('every search entry has a title and a destination', idx.every((e) => e.t && e.u));
+  check(
+    'search index carries no unpublished or draft-only field',
+    !idx.some((e) => 'confidence' in e || 'notes' in e),
+  );
+  // The 11,800 nonprofits would turn an 80 KB file into something megabytes
+  // wide, which is a search box nobody waits for.
+  const kb = statSync(indexPath).size / 1024;
+  check(`search index is under 400 KB`, kb < 400, `currently ${kb.toFixed(0)} KB`);
+}
+
+// 8. Advertising. These are the rules from docs/ADVERTISING.md, enforced rather
+//    than trusted, because the money is the thing most likely to bend them.
+
+// Placement logic, tested on constructed records so it holds whether or not
+// anything is currently sold. A slot that only works once you have an
+// advertiser is a slot you find out is broken on the day you take money.
+const NATIONAL = { id: 'zz-national', slot: 'jurisdiction', advertiser: 'N' };
+const TARGETED = { id: 'zz-targeted', slot: 'jurisdiction', advertiser: 'T', jurisdictions: ['AZ'] };
+const OTHER = { id: 'zz-other', slot: 'jurisdiction', advertiser: 'O', jurisdictions: ['TX'] };
+const fixture = [NATIONAL, TARGETED, OTHER];
+
+check(
+  'a national buy runs on a jurisdiction that no one targeted',
+  eligibleSponsors(fixture, 'jurisdiction', 'AL').map((s) => s.id).join() === 'zz-national',
+);
+check(
+  'a jurisdiction-targeted buy outranks a national one on that page',
+  eligibleSponsors(fixture, 'jurisdiction', 'AZ').map((s) => s.id).join() === 'zz-targeted,zz-national',
+  'someone who paid to reach Arizona must not be pushed off the Arizona page',
+);
+check(
+  "a buy targeted elsewhere does not leak onto another state's page",
+  !eligibleSponsors(fixture, 'jurisdiction', 'AZ').some((s) => s.id === 'zz-other'),
+);
+check(
+  'placement is capped, so a slot cannot fill a page with ads',
+  placedSponsors([NATIONAL, TARGETED, OTHER, { id: 'zz-4', slot: 'jurisdiction', advertiser: '4' }],
+    'jurisdiction', 'AZ').length <= MAX_ADS_PER_SLOT,
+);
+check(
+  'placement is deterministic, so two builds of the same data match',
+  JSON.stringify(eligibleSponsors(fixture, 'jurisdiction', 'AZ'))
+    === JSON.stringify(eligibleSponsors([...fixture].reverse(), 'jurisdiction', 'AZ')),
+);
+
+// Every slot named in the schema is actually rendered somewhere. A slot you can
+// sell but never renders is a slot you can accidentally take money for.
+const slotPages = {
+  jurisdiction: join('dist', 'arizona', 'index.html'),
+  discounts: join('dist', 'discounts', 'index.html'),
+  organizations: join('dist', 'organizations', 'index.html'),
+  'free-help': join('dist', 'free-help', 'index.html'),
+};
+const sponsorSchema = readJson('data/schema/sponsor.schema.json');
+const schemaSlots = sponsorSchema.properties.slot.enum;
+check(
+  'every sellable slot in the schema has a page that renders it',
+  schemaSlots.every((s) => SLOTS.includes(s)) && SLOTS.every((s) => schemaSlots.includes(s)),
+  `schema: ${schemaSlots.join(', ')} · rendered: ${SLOTS.join(', ')}`,
+);
+check(
+  'every slot page exists to render into',
+  Object.values(slotPages).every((p) => existsSync(p)),
+);
+
+// Now the live book, whatever is in it today.
+const liveToday = new Date().toISOString().slice(0, 10);
+const allSponsorRecords = existsSync(join('data', 'published', 'sponsors'))
+  ? readdirSync(join('data', 'published', 'sponsors'))
+    .filter((f) => f.endsWith('.json'))
+    .flatMap((f) => readJson(join('data', 'published', 'sponsors', f)).records ?? [])
+  : [];
+const unexpired = allSponsorRecords.filter((s) => s.endsAt >= liveToday);
+
+check(
+  'no sponsor creative is hotlinked from the advertiser',
+  unexpired.every((s) => !s.image || s.image.startsWith('/sponsors/')),
+  'a hotlinked image can be swapped for something else after you approved it',
+);
+check(
+  'every unexpired flight carries a named policy sign-off',
+  unexpired.every((s) => typeof s.policyReviewedBy === 'string' && s.policyReviewedBy.length >= 3),
+);
+check(
+  'every claims-representation advertiser has a verified VA accreditation number',
+  unexpired
+    .filter((s) => s.advertiserCategory === 'claims-representation')
+    .every((s) => s.vaAccreditationNumber && s.dueDiligence?.accreditationVerifiedOn),
+  'only accredited attorneys and agents may lawfully charge a Veteran, and only after a decision',
+);
+
+// And what actually reached the page.
+const sponsorPages = pageFiles.filter((f) => readFileSync(f, 'utf8').includes('class="sponsor"'));
+check(
+  'every rendered ad is labeled Sponsored in text next to the creative',
+  sponsorPages.every((f) => {
+    const h = readFileSync(f, 'utf8');
+    return (h.match(/class="sponsor"/g) || []).length === (h.match(/class="sponsor-flag"/g) || []).length;
+  }),
+  `${sponsorPages.length} page(s) currently carry an ad`,
+);
+check(
+  'every ad destination is rel="sponsored noopener", so it passes no ranking signal',
+  sponsorPages.every((f) => {
+    const h = readFileSync(f, 'utf8');
+    return (h.match(/class="sponsor"/g) || []).length
+      <= (h.match(/rel="sponsored noopener"/g) || []).length;
+  }),
+);
+check(
+  'an expired or unstarted flight never reaches a page',
+  !allSponsorRecords
+    .filter((s) => s.endsAt < liveToday || s.startsAt > liveToday)
+    .some((s) => pageFiles.some((f) => readFileSync(f, 'utf8').includes(s.headline))),
+);
 
 console.log(`\n${failures === 0 ? 'All build tests passed.' : `${failures} test(s) FAILED.`}`);
 process.exit(failures === 0 ? 0 : 1);
