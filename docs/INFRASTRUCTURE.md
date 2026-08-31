@@ -334,3 +334,45 @@ request, which is the correct state rather than a broken one.
 and hand a signed-in human a JSON file. It holds no GitHub token and no deploy
 key, so it cannot change usvethub.com. Publishing takes a person committing the
 exported file, after which it passes the same schema gate as everything else.
+
+### DNS moved to Cloudflare, 2026-08-31
+
+Zone `usvethub.com` added on the Free plan. Assigned nameservers:
+
+```
+ligia.ns.cloudflare.com
+nero.ns.cloudflare.com
+```
+
+Replacing `ns39.domaincontrol.com` and `ns40.domaincontrol.com` at GoDaddy. The
+domain registration itself stays at GoDaddy; only DNS hosting moves.
+
+**This reverses suggestion 104**, which paused the move on 2026-08-29. The
+reason it changed: `admin.usvethub.com` needs Cloudflare Access, Access can only
+protect a hostname inside a zone on the account, and Cloudflare's free plan
+refuses a subdomain as a zone. There was no version of the admin system on that
+hostname without this.
+
+Verified before recommending it: no MX records, so no email to break; DNSSEC
+off, so no DS mismatch, which is the usual way this goes wrong; and the apex
+pointed only at a GoDaddy parking page.
+
+Crawler policy was set to **Allow** on all three of Cloudflare's AI settings,
+with the robots.txt override turned off, so Cloudflare's defaults do not
+silently override the `Allow: /` stance the site already publishes in its own
+robots.txt and its `/about/bot/` page.
+
+### Free tier headroom, measured 2026-08-31
+
+| Limit | Free plan | Current | At full national coverage |
+|---|---|---|---|
+| GitHub Pages site size | 1 GB | 9.3 MB | roughly 60 to 100 MB |
+| Cloudflare proxied bandwidth | no cap for web content | n/a | n/a |
+| Workers requests | 100,000 per day | 0 | a two-person admin tool |
+| D1 storage | 5 GB | under 1 MB | a few MB |
+| R2 storage | 10 GB, no egress fees | unused | where video should go if it grows |
+
+Per-record measurements behind that: benefits 2,662 bytes, organizations 781
+bytes, discounts 1,266 bytes. The one place a bill could appear later is video,
+which is why `npm test` enforces a 12 MB hero budget. The answer there is R2,
+not a plan upgrade, because R2 charges nothing for egress.

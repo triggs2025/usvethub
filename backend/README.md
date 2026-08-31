@@ -47,22 +47,40 @@ same idea applied to the whole platform.
 
 ## What is left, and it needs you
 
-### 1. Decide where the admin lives
+### 1. Point the nameservers at Cloudflare  (DECIDED: admin.usvethub.com)
 
-Cloudflare Access can only protect a hostname inside a zone on the Cloudflare
-account. `usvethub.com` is not one, because its DNS is at GoDaddy and we decided
-to leave it there. So there are three options and the choice is yours.
+**Decided 2026-08-31.** Cloudflare will not take `admin.usvethub.com` as a zone
+on its own: subdomain zones are an Enterprise feature, and the free plan refuses
+anything but a root domain. So the whole domain moves.
 
-| Option | What it costs you | Result |
-|---|---|---|
-| **`admin.usvethub.com`** | One DNS change at GoDaddy: add NS records for the `admin` subdomain only, pointing at Cloudflare. The main site is untouched and stays on GoDaddy. | The clean answer. Right brand, and `usvethub.com` itself never moves. |
-| **A subdomain of `tokencurb.com`** | Nothing. That zone is already on Cloudflare. | Works today, no DNS change anywhere. The URL is off-brand, which matters not at all for a tool only you log into. |
-| **Move `usvethub.com` DNS to Cloudflare** | Nameserver change at GoDaddy for the whole domain. | Also unlocks edge analytics and real security headers, but it is the change you paused on 2026-08-29. |
+The zone `usvethub.com` is already created on the account, on the Free plan, and
+Cloudflare has assigned these nameservers:
 
-Until one of these exists, the Worker can be deployed but not used, because
-**it refuses every request that does not carry a verified Access assertion.**
-That is deliberate. An admin system that runs without an identity check is worse
-than one that does not run at all.
+```
+ligia.ns.cloudflare.com
+nero.ns.cloudflare.com
+```
+
+**At GoDaddy**, replace `ns39.domaincontrol.com` and `ns40.domaincontrol.com`
+with those two. Nobody but you can do this; it is your registrar account.
+
+Why this is safer than it sounds, checked rather than assumed:
+
+| Checked | Result |
+|---|---|
+| MX records | **None.** No email is received at this domain, so there is no mail to break. |
+| DNSSEC | **Off.** No DS record at the parent. This is the usual cause of a broken nameserver move, and it does not apply. |
+| Apex `A` records | GoDaddy parking IPs. The only thing that changes hands is a parking page. |
+| `_dmarc` TXT, `www`, `_domainconnect` | Found by Cloudflare's scan and already imported, so they carry over. |
+
+Propagation is usually under an hour and Cloudflare emails you when the zone
+goes active.
+
+What the move also unlocks, beyond the admin system: the public site can finally
+be cut over from `triggs2025.github.io` to `usvethub.com` (suggestion 34),
+edge analytics with no third-party script (70), and the real security headers
+GitHub Pages cannot send, including the `frame-ancestors` gap recorded in
+`docs/SECURITY.md`.
 
 ### 2. Deploy it
 
