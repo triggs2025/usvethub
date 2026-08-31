@@ -16,7 +16,7 @@
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import {
-  loadAll, daysSince, isStale, STALE_AFTER_DAYS, CATEGORIES, CATEGORY_LABELS,
+  loadAll, daysSince, isStale, today, STALE_AFTER_DAYS, CATEGORIES, CATEGORY_LABELS,
 } from '../src/lib/data.mjs';
 import { SLOTS, SLOT_LABELS, MAX_ADS_PER_SLOT, eligibleSponsors } from '../src/lib/sponsors.mjs';
 import { esc } from '../src/lib/html.mjs';
@@ -28,7 +28,7 @@ const WRITE_HTML = args.includes('--html');
 /** Renewal warning window. A month is enough notice to have the conversation. */
 const RENEWAL_WARNING_DAYS = 30;
 
-const TODAY = new Date().toISOString().slice(0, 10);
+const TODAY = today();
 const site = loadAll();
 const { jurisdictions, benefits, allSponsors, discounts, organizations } = site;
 

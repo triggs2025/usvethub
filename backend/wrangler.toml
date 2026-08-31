@@ -1,0 +1,32 @@
+# USVetHub admin Worker.
+#
+# Nothing secret lives in this file. The database id is an identifier, not a
+# credential, and the Access values below are public identifiers too. Anything
+# that IS a secret goes in `wrangler secret put`, never here, because this file
+# is committed to a public repository.
+#
+# Deploy:
+#   npx wrangler deploy --config backend/wrangler.toml
+#
+# Apply the schema (once, and after any schema change):
+#   npx wrangler d1 execute usvethub-admin --remote --file=backend/schema.sql
+
+name = "usvethub-admin"
+main = "src/index.mjs"
+compatibility_date = "2026-08-30"
+workers_dev = true
+
+# Its own database, shared with nothing else on the account. A compromise of
+# another project on this Cloudflare account does not reach this data.
+[[d1_databases]]
+binding = "DB"
+database_name = "usvethub-admin"
+database_id = "2d276019-e27a-42b6-bb18-125097073256"
+
+[vars]
+# Filled in from Zero Trust > Access > Applications after the app is created.
+# The Worker REFUSES EVERY REQUEST until both are set, which is deliberate:
+# an admin system that runs without an identity check is worse than one that
+# does not run at all. See backend/README.md.
+ACCESS_TEAM_DOMAIN = ""
+ACCESS_AUD = ""

@@ -44,6 +44,29 @@ export function daysSince(isoDate) {
 
 export const isStale = (record) => daysSince(record.verifiedAt) > STALE_AFTER_DAYS;
 
+/**
+ * Today's date in Arizona, as YYYY-MM-DD.
+ *
+ * Every date this site acts on is a business date, not an instant: when an ad
+ * flight starts and ends, and when a discount expires. Those are promises made
+ * to an advertiser in an office in Arizona, so they turn over at midnight
+ * there rather than at midnight UTC. Using UTC meant a flight sold as ending on
+ * the 31st actually went dark at 5pm on the 30th, Arizona time, which is the
+ * kind of detail you only discover from an annoyed advertiser.
+ *
+ * Arizona does not observe daylight saving, so this is UTC-7 all year and there
+ * is no spring-forward edge case to reason about. Intl carries the rule, so
+ * nothing here hardcodes the offset.
+ */
+export function today() {
+  return new Intl.DateTimeFormat('en-CA', {
+    timeZone: 'America/Phoenix',
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+  }).format(new Date());
+}
+
 export function loadAll() {
   const { jurisdictions } = readJson(join(DATA_DIR, 'jurisdictions.json'));
   const benefits = loadRecordType('benefit');
@@ -99,15 +122,16 @@ export function loadAll() {
   }
 
   // Discounts rot fast, so an offer past its stated end date is dropped at
-  // build rather than shown with an apology.
-  const today = new Date().toISOString().slice(0, 10);
+  // build rather than shown with an apology. Arizona time, same as ad flights:
+  // one clock for every business date on the site.
+  const now = today();
   const liveDiscounts = discounts
-    .filter((d) => !d.expiresAt || d.expiresAt >= today)
+    .filter((d) => !d.expiresAt || d.expiresAt >= now)
     .sort((a, b) => a.business.localeCompare(b.business));
 
   // A flight that has not started, or has ended, does not render. The daily
   // rebuild is what makes that happen on time rather than at the next push.
-  const liveSponsors = sponsors.filter((s) => s.startsAt <= today && s.endsAt >= today);
+  const liveSponsors = sponsors.filter((s) => s.startsAt <= now && s.endsAt >= now);
 
   return {
     jurisdictions, byCode, benefits, federal,

@@ -17,7 +17,10 @@
     "jurisdictions": "node scripts/build-jurisdictions.mjs",
     "status": "node scripts/status.mjs",
     "dashboard": "node scripts/status.mjs --html --full",
-    "test": "node scripts/test-isolation.mjs && node scripts/test-build.mjs",
+    "test": "node scripts/test-isolation.mjs && node scripts/test-build.mjs && node backend/test-export.mjs",
+    "test:backend": "node backend/test-export.mjs",
+    "backend:deploy": "wrangler deploy --config backend/wrangler.toml",
+    "backend:schema": "wrangler d1 execute usvethub-admin --remote --file=backend/schema.sql --config backend/wrangler.toml",
     "test:isolation": "node scripts/test-isolation.mjs",
     "test:build": "node scripts/test-build.mjs"
   }

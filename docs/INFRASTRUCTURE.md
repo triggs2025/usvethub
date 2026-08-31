@@ -306,3 +306,31 @@ record without a second round of questions:
 free-help), `jurisdiction` (state code, if buying a state page), `headline`
 (90 characters), `body` (300 characters), `cta_label`, `destination_url`,
 `creative_file`, `flight_start`, `flight_end`, `policy_reviewed_by`.
+
+## Cloudflare admin back end, built 2026-08-30
+
+| | |
+|---|---|
+| Account | Tony.riggs2@gmail.com's Account, `fa8bebf6d18abcf02846f0e9f654b01c` |
+| D1 database | `usvethub-admin`, `2d276019-e27a-42b6-bb18-125097073256` |
+| Worker | `usvethub-admin`, source in `backend/` |
+| Plan | Free. 4 of 10 D1 databases used, no billable usage |
+| Data location | WNAM, served from LAX |
+
+Its own D1 database, shared with nothing else on the account, so a compromise of
+the token-curb or skilled-vets projects does not reach advertiser data.
+
+The account already had Zero Trust enabled, and `wrangler` is already authorized
+on Tony's machine from the other Workers projects, so no API token had to be
+created or handled.
+
+**Not yet deployed, and it needs one decision first.** Cloudflare Access can
+only protect a hostname inside a zone on the account, and `usvethub.com` is not
+one because its DNS stays at GoDaddy. The three options, and the full runbook,
+are in `backend/README.md`. Until Access is configured the Worker refuses every
+request, which is the correct state rather than a broken one.
+
+**The boundary that matters:** the Worker can read and write its own database
+and hand a signed-in human a JSON file. It holds no GitHub token and no deploy
+key, so it cannot change usvethub.com. Publishing takes a person committing the
+exported file, after which it passes the same schema gate as everything else.
