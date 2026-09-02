@@ -61,8 +61,13 @@ ligia.ns.cloudflare.com
 nero.ns.cloudflare.com
 ```
 
-**At GoDaddy**, replace `ns39.domaincontrol.com` and `ns40.domaincontrol.com`
-with those two. Nobody but you can do this; it is your registrar account.
+**DONE 2026-08-31.** The nameservers were changed at GoDaddy and confirmed live
+at the registry within a minute. `ns39` and `ns40.domaincontrol.com` are gone.
+
+Cloudflare's own activation check runs on its own schedule, usually one to two
+hours, and the zone shows "Waiting for your registrar" until it completes. That
+is a Cloudflare-side job, not something still owed at the registrar. The next
+step waits on it.
 
 Why this is safer than it sounds, checked rather than assumed:
 

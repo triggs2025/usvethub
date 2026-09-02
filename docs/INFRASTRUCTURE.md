@@ -344,8 +344,17 @@ ligia.ns.cloudflare.com
 nero.ns.cloudflare.com
 ```
 
-Replacing `ns39.domaincontrol.com` and `ns40.domaincontrol.com` at GoDaddy. The
-domain registration itself stays at GoDaddy; only DNS hosting moves.
+**Changed at GoDaddy on 2026-08-31 and confirmed live at the registry within a
+minute.** `ns39` and `ns40.domaincontrol.com` are gone. The domain registration
+itself stays at GoDaddy; only DNS hosting moved.
+
+Cloudflare Zone ID: `0da3cd8093029b9a5126ba69014b3618`
+
+Verified after the change, by querying Cloudflare's own nameservers rather than
+trusting the dashboard: the apex `A` records, the `www` CNAME, and the `_dmarc`
+TXT record all still resolve. Cloudflare's activation check runs on its own
+schedule and can take a few hours; the zone is not "Active" until it does, which
+is why the admin hostname cannot be set up the same minute.
 
 **This reverses suggestion 104**, which paused the move on 2026-08-29. The
 reason it changed: `admin.usvethub.com` needs Cloudflare Access, Access can only
