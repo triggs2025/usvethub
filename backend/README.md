@@ -98,36 +98,57 @@ prints the URL it deployed to. Visit it and you should get
 `403 forbidden` with a reason. **That is the correct result** before Access is
 configured, and worth checking, because it proves the lock is on the door.
 
-### 3. Create the Access application
+### 3. Access application  (DONE 2026-08-31)
 
-In Zero Trust, Access, Applications, add a **Self-hosted** application:
+Created and live. Nothing to do here.
 
-- **Application domain:** whichever hostname you chose above.
-- **Policy:** Allow, with the rule `Emails` and your own address. Add anyone
-  else who needs it later. Do not use a rule that matches a whole email domain.
-- **Session duration:** 24 hours is plenty.
+| | |
+|---|---|
+| Application | `admin`, self-hosted |
+| Destination | `admin.usvethub.com` |
+| Policy | `USVetHub admin, named people only`, Allow |
+| Rule | **Emails** is `tony.riggs2@gmail.com`, a named address rather than a whole email domain |
+| Team domain | `tokencurb.cloudflareaccess.com` |
 
-Then open the application's settings and copy the **Application Audience (AUD)
-tag**, and note your team domain, which looks like
-`something.cloudflareaccess.com`.
+**On that team domain.** It is account-wide: Cloudflare gives you one per
+account, and this one was named when Zero Trust was first set up for
+token-curb. It cannot be renamed without breaking the token-curb applications,
+which use it too, so it stays. Being off-brand is cosmetic. What matters is that
+every Access application on this account is signed by **the same keys**, which
+is exactly why the Worker checks the audience claim on every request. Without
+that check, a valid login to token-curb would be a valid login to this.
 
-### 4. Tell the Worker who to trust
+To add someone later: Zero Trust, Access controls, Policies, open the policy and
+add their address to the same **Emails** rule. Never switch it to *Emails ending
+in*, which would admit an entire domain.
 
-Put both values in `backend/wrangler.toml` under `[vars]` and deploy again:
+### 4. Worker configuration  (DONE 2026-08-31)
+
+Both values are already in `backend/wrangler.toml`:
 
 ```toml
-[vars]
-ACCESS_TEAM_DOMAIN = "yourteam.cloudflareaccess.com"
-ACCESS_AUD = "the long hex string from the Access application"
+ACCESS_TEAM_DOMAIN = "tokencurb.cloudflareaccess.com"
+ACCESS_AUD = "cfff81537894f5caf5da60ad496bfe4169130cfec2e8179eef0255b1113dfe01"
 ```
 
-Neither is a secret. The AUD tag is an identifier, not a key: it says *which
-application* an assertion was minted for, and the Worker refuses assertions
-minted for anything else. That check is what stops a login to some other
-Access-protected app on the account from being a login to this one.
+Neither is a credential, which is why they sit in a public repository rather
+than in `wrangler secret put`. The AUD tag names *which* application a token was
+minted for. It grants nothing on its own, because forging a token would take
+Cloudflare's private signing key. Its job is the opposite of a password: the
+Worker refuses any assertion whose `aud` is not this exact value.
 
 **Anything that IS a secret goes in `npx wrangler secret put NAME`, never in a
 file.** This repository is public.
+
+### 5. Point the hostname at the Worker  (LAST STEP)
+
+After `npx wrangler deploy --config backend/wrangler.toml`, add
+`admin.usvethub.com` as a custom domain on the Worker: Workers & Pages,
+`usvethub-admin`, Settings, Domains & Routes, Add custom domain. Cloudflare
+creates the DNS record itself.
+
+Then open https://admin.usvethub.com. Access should ask who you are, and
+nothing else should be able to get in.
 
 ---
 

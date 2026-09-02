@@ -24,9 +24,18 @@ database_name = "usvethub-admin"
 database_id = "2d276019-e27a-42b6-bb18-125097073256"
 
 [vars]
-# Filled in from Zero Trust > Access > Applications after the app is created.
-# The Worker REFUSES EVERY REQUEST until both are set, which is deliberate:
-# an admin system that runs without an identity check is worse than one that
-# does not run at all. See backend/README.md.
-ACCESS_TEAM_DOMAIN = ""
-ACCESS_AUD = ""
+# From Zero Trust > Access > Applications, set 2026-08-31.
+#
+# Neither is a credential, which is why they are here rather than in
+# `wrangler secret put`. The AUD tag names WHICH application a token was minted
+# for; it grants nothing on its own, because forging a token would take
+# Cloudflare's private signing key. Its job is the opposite: the Worker refuses
+# any assertion whose aud is not this exact value, so a valid login to another
+# Access application on this account is not a login to this one. That check is
+# load-bearing here, because the team domain below is shared with the
+# token-curb applications and every app on it is signed by the same keys.
+#
+# The Worker refuses every request unless both are set. An admin system that
+# runs without an identity check is worse than one that does not run at all.
+ACCESS_TEAM_DOMAIN = "tokencurb.cloudflareaccess.com"
+ACCESS_AUD = "cfff81537894f5caf5da60ad496bfe4169130cfec2e8179eef0255b1113dfe01"

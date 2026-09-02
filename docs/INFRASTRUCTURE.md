@@ -385,3 +385,25 @@ Per-record measurements behind that: benefits 2,662 bytes, organizations 781
 bytes, discounts 1,266 bytes. The one place a bill could appear later is video,
 which is why `npm test` enforces a 12 MB hero budget. The answer there is R2,
 not a plan upgrade, because R2 charges nothing for egress.
+
+### Cloudflare Access, 2026-08-31
+
+| | |
+|---|---|
+| Application | `admin`, self-hosted, id `9a781cb4-bda5-4405-b056-ec8086f3e4f7` |
+| Destination | `admin.usvethub.com` |
+| Policy | `USVetHub admin, named people only`, id `d5b2da43-e95b-4f7f-9a96-fe831c92bc92` |
+| Rule | Emails is `tony.riggs2@gmail.com` |
+| Team domain | `tokencurb.cloudflareaccess.com` |
+| AUD tag | `cfff81537894f5caf5da60ad496bfe4169130cfec2e8179eef0255b1113dfe01` |
+
+The team domain is account-wide and was named for token-curb when Zero Trust was
+first enabled. It cannot be renamed without breaking the two token-curb Access
+applications that also use it, so it stays. Off-brand, and cosmetic.
+
+**The consequence is not cosmetic.** Every Access application on this account is
+signed by the same keys, so a token minted for token-curb is cryptographically
+valid here too. The only thing separating them is the audience claim, which the
+Worker checks on every request in `backend/src/access.mjs`. That check is the
+compartment wall between the two projects, and it is why the AUD is verified
+rather than merely read.
