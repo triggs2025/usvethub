@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T09:18:31.563Z",
+  "generatedAt": "2026-10-04T11:03:39.952Z",
   "total": 5,
   "ok": 5,
   "warned": 0,
@@ -10,35 +10,35 @@
       "status": "ok",
       "reason": null,
       "recordCount": 121,
-      "finishedAt": "2026-09-27T09:08:53.753Z"
+      "finishedAt": "2026-10-04T10:54:01.953Z"
     },
     {
       "sourceId": "curated-discounts",
       "status": "ok",
       "reason": null,
       "recordCount": 16,
-      "finishedAt": "2026-09-27T09:08:53.749Z"
+      "finishedAt": "2026-10-04T10:54:01.919Z"
     },
     {
       "sourceId": "curated-sponsors",
       "status": "ok",
       "reason": null,
       "recordCount": 0,
-      "finishedAt": "2026-09-27T09:08:53.362Z"
+      "finishedAt": "2026-10-04T10:54:01.900Z"
     },
     {
       "sourceId": "irs-veteran-nonprofits",
       "status": "ok",
       "reason": null,
       "recordCount": 11814,
-      "finishedAt": "2026-09-27T09:18:31.550Z"
+      "finishedAt": "2026-10-04T11:03:39.941Z"
     },
     {
       "sourceId": "va-state-offices",
       "status": "ok",
       "reason": null,
       "recordCount": 54,
-      "finishedAt": "2026-09-27T09:08:54.802Z"
+      "finishedAt": "2026-10-04T10:54:02.745Z"
     }
   ]
 }
