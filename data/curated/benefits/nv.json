@@ -1,0 +1,66 @@
+[
+  {
+    "id": "nv-disabled-veteran-property-tax-exemption",
+    "jurisdiction": "NV",
+    "category": "property-tax",
+    "title": "Property tax exemption for a permanent service-connected disability",
+    "summary": "Nevada exempts assessed value on a sliding scale tied to your permanent service-connected disability percentage. Every figure in the statute is a base from 2003 that has risen with inflation every year since, so ask your county assessor for this year's amount.",
+    "amount": "Base figures of $20,000 of assessed valuation for total permanent disability, $15,000 at 80 to 99 percent, and $10,000 at 60 to 79 percent. All are adjusted annually and the current amounts are higher.",
+    "eligibility": [
+      "You are a bona fide resident of Nevada",
+      "You have incurred a permanent service-connected disability",
+      "You were honorably discharged from the Armed Forces of the United States",
+      "A disability of 80 to 99 percent gives the $15,000 base exemption",
+      "A disability of 60 to 79 percent gives the $10,000 base exemption",
+      "Total permanent disability gives the maximum, a $20,000 base exemption",
+      "The statute sets no amount below 60 percent",
+      "A surviving spouse can qualify, subject to the conditions below"
+    ],
+    "details": [
+      "Do not treat the dollar figures above as current. The statute says the amounts in subsection 2 are adjusted for each fiscal year by the percentage increase in the Consumer Price Index for All Urban Consumers, West Region, from July 2003 to the July preceding that fiscal year. That has been compounding since the 2005 to 2006 fiscal year, so the real figures are materially higher than the statutory bases.",
+      "The current amounts are published by the Nevada Department of Taxation in a written notice to every county assessor on or before 30 September each year. Your county assessor is the place to get the number.",
+      "A bona fide resident means you have established residence in Nevada and either actually resided here at least six months, or hold a valid Nevada driver's licence or identification card, not counting a seasonal resident card.",
+      "If you have multiple disabilities, the exemption is based on the total of the combined percentages, capped at 100 percent.",
+      "A surviving spouse files an affidavit declaring that they were married to and living with the Veteran for the five years preceding the death, that the Veteran was eligible at death or would have been if they had been a Nevada resident, that the spouse has not remarried, and that the spouse is a bona fide Nevada resident.",
+      "A Veteran who takes this exemption cannot also take the general Veterans exemption. A surviving spouse who takes it solely as a surviving spouse keeps their own eligibility for the general exemption, which is a meaningful difference.",
+      "Claims on real property are filed with your claim under NRS 361.155, and that section sets a deadline of 15 June. Personal property claimants may file at any time.",
+      "The assessor requires an original or certified copy of proof showing the disability percentage: an honorable discharge or other honorable separation document showing the total percentage, a certificate of satisfactory service showing it, or a VA or military document showing the disability and percentage together with a discharge or satisfactory service certificate.",
+      "Filing a false affidavit or false proof to obtain an exemption you are not entitled to is a gross misdemeanour.",
+      "Instead of claiming, you may pay the county tax receiver all or part of the amount the tax would have been reduced by, which is how the statute lets you waive the benefit."
+    ],
+    "agency": "County assessors, with annual amounts set by the Nevada Department of Taxation",
+    "statuteRef": "NRS 361.091",
+    "officialUrl": "https://www.leg.state.nv.us/NRS/NRS-361.html",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "nv-veterans-property-tax-exemption",
+    "jurisdiction": "NV",
+    "category": "property-tax",
+    "title": "Veterans property tax exemption",
+    "summary": "Nevada gives resident Veterans who served in a qualifying period an exemption on assessed value. The statute says $2,000, but that is a 2003 base that has been adjusted upward every year since.",
+    "amount": "A base of $2,000 of assessed valuation, adjusted annually for inflation. The current figure is higher.",
+    "eligibility": [
+      "You are an actual bona fide resident of the State of Nevada",
+      "You served a minimum of 90 continuous days on active duty during one of the qualifying periods listed in the statute",
+      "Or you served under Public Law 102-1",
+      "Or you served in a campaign or expedition for which a medal was authorized, regardless of the number of days served on active duty",
+      "You hold an honorable discharge or a certificate of satisfactory service, or you are still serving"
+    ],
+    "details": [
+      "The $2,000 is a base figure, not the current amount. The statute adjusts it each fiscal year by the percentage increase in the Consumer Price Index, All Items, from July 2003 to the July preceding that fiscal year, beginning with the 2005 to 2006 fiscal year. Ask your county assessor for the current figure.",
+      "The qualifying service periods run from the Spanish American War through to the mid 1990s, including 21 April 1898 to 15 June 1903, 6 April 1917 to 11 November 1918, 7 December 1941 to 31 December 1946, 25 June 1950 to 7 May 1975, 26 September 1982 to 1 December 1987, 23 October to 21 November 1983, 20 December 1989 to 31 January 1990, 2 August 1990 to 11 April 1991, 5 December 1992 to 31 March 1994, and 20 November 1995 to 20 December 1996.",
+      "The campaign or expedition route has no minimum days requirement, which matters for short deployments that would otherwise fail the 90 day test.",
+      "Where you hold a part interest in property, the first $2,000 of assessed valuation of property in which you have any interest is treated as yours.",
+      "File an affidavit with your real property exemption claim under NRS 361.155, which sets a 15 June deadline. Personal property claimants may file at any time.",
+      "The affidavit is made before the county assessor or a notary and states that you are a bona fide resident and that you are not claiming the exemption in any other Nevada county.",
+      "The assessor requires proof of Veteran status, including an honorable discharge or certificate of satisfactory service, or a certified copy.",
+      "If you also qualify for the disability exemption under NRS 361.091, you take that one instead. You cannot hold both as a Veteran.",
+      "The annual renewal form lets you designate an amount to the Gift Account for the Veterans Home in Southern Nevada or the Gift Account for the Veterans Home in Northern Nevada, if you would rather give the benefit than take it."
+    ],
+    "agency": "County assessors, with annual amounts set by the Nevada Department of Taxation",
+    "statuteRef": "NRS 361.090",
+    "officialUrl": "https://www.leg.state.nv.us/NRS/NRS-361.html",
+    "confidence": "needs-review"
+  }
+]

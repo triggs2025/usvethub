@@ -1,0 +1,53 @@
+[
+  {
+    "id": "ks-homestead-refund-disabled-veteran",
+    "jurisdiction": "KS",
+    "category": "property-tax",
+    "title": "Homestead property tax refund for disabled Veterans",
+    "summary": "Kansas has no Veteran property tax exemption. What it has is a refund you claim back after paying, and a Veteran rated 50 percent or more qualifies for it at any age. Your VA disability compensation does not count as income for the test.",
+    "amount": "A refund of part of the property tax you paid, calculated from household income. There is no fixed dollar exemption.",
+    "eligibility": [
+      "You are a Kansas resident who served in the active military, naval, air or space service",
+      "You were discharged or released under an honorable discharge, or a general discharge under honorable conditions",
+      "You received a disability that was incurred or aggravated in the line of duty",
+      "You have a service-connected evaluation percentage equal to or greater than 50 percent",
+      "You were domiciled in Kansas for the entire preceding calendar year",
+      "The surviving spouse of a deceased member of the armed forces who died in the line of duty during active service is also a qualifying claimant"
+    ],
+    "details": [
+      "Set expectations correctly: this is not an exemption and your tax bill does not shrink. You pay the tax and then claim a refund, so you need to be able to carry the cost first.",
+      "The 50 percent threshold is fixed in the statute and is not adjusted over time.",
+      "A real advantage sits in the income definition. Income for this claim does not include Veterans disability compensation, so a Veteran with substantial VA compensation can still fall under the income limits.",
+      "There are two separate routes and you cannot use both on the same property in the same year. The standard claim under K.S.A. 79-4508 is calculated from a bracket table against your household income, with the income cap increased each year by the federal cost of living adjustment.",
+      "The alternative claim under K.S.A. 79-4508a is open to a disabled Veteran or anyone 65 or older, and works completely differently. It refunds the increase in your property tax over your base year amount, which effectively freezes your bill at the base year level. To use it your household income must be at or under $50,000 and your home's appraised value in the base year at or under $350,000. The income figure is a base that is indexed annually.",
+      "For many Veterans in a rising market the base year route is worth more than the bracket table, so compare both before filing.",
+      "A surviving spouse of a disabled Veteran who was receiving these benefits at the time of death can continue to receive them until the surviving spouse remarries. The same rule applies on the alternative claim.",
+      "We are not publishing the bracket percentages from the refund table. The source table did not render unambiguously and a wrong percentage here would misstate someone's refund. Get the current table from the Kansas Department of Revenue.",
+      "There is no individual Veteran property tax exemption in the Kansas exemption list. The only Veteran item there covers property of chartered Veterans organizations used as a clubhouse, meeting place or memorial, which is organization property rather than yours."
+    ],
+    "agency": "Kansas Department of Revenue",
+    "statuteRef": "K.S.A. 79-4501 and following, with the alternative claim at 79-4508a",
+    "officialUrl": "https://www.ksrevisor.gov/statutes/chapters/ch79/079_045_0002.html",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "ks-military-retirement-income-subtraction",
+    "jurisdiction": "KS",
+    "category": "income-tax",
+    "title": "Military retirement pay is not taxed",
+    "summary": "Kansas subtracts military retirement pay from your state income in full. There is no dollar cap, no age test and no residency condition written into the provision.",
+    "amount": "Full subtraction, with no dollar cap",
+    "eligibility": [
+      "The amount was received as a retirement benefit earned for service in the armed forces of the United States",
+      "It is subtracted to the extent it was included in your federal adjusted gross income"
+    ],
+    "details": [
+      "The subtraction sits in the same clause that covers federal civil service annuities and other federal employment retirement benefits, and it is worded broadly as retirement benefits in whatever form earned for service in the armed forces.",
+      "The clause does not limit the subtraction to a particular type of military retirement, and it carries no age condition, unlike several states that gate retirement subtractions on age."
+    ],
+    "agency": "Kansas Department of Revenue",
+    "statuteRef": "K.S.A. 79-32,117(c)(vii)",
+    "officialUrl": "https://www.ksrevisor.gov/statutes/chapters/ch79/079_032_0117.html",
+    "confidence": "needs-review"
+  }
+]

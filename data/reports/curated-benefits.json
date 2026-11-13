@@ -3,11 +3,11 @@
   "reason": null,
   "published": true,
   "unchanged": false,
-  "recordCount": 141,
-  "previousCount": 134,
+  "recordCount": 145,
+  "previousCount": 141,
   "rejected": [],
-  "startedAt": "2026-11-13T05:28:30.654Z",
-  "finishedAt": "2026-11-13T05:28:30.723Z",
+  "startedAt": "2026-11-13T05:49:25.056Z",
+  "finishedAt": "2026-11-13T05:49:25.123Z",
   "requestsUsed": 0,
   "sourceId": "curated-benefits",
   "log": [
@@ -18,11 +18,13 @@
     "[curated-benefits] ga.json: 10 record(s)",
     "[curated-benefits] ia.json: 3 record(s)",
     "[curated-benefits] il.json: 3 record(s)",
+    "[curated-benefits] ks.json: 2 record(s)",
     "[curated-benefits] md.json: 2 record(s)",
     "[curated-benefits] mi.json: 2 record(s)",
     "[curated-benefits] mn.json: 2 record(s)",
     "[curated-benefits] mo.json: 1 record(s)",
     "[curated-benefits] nc.json: 9 record(s)",
+    "[curated-benefits] nv.json: 2 record(s)",
     "[curated-benefits] ny.json: 11 record(s)",
     "[curated-benefits] oh.json: 11 record(s)",
     "[curated-benefits] or.json: 2 record(s)",
@@ -33,7 +35,7 @@
     "[curated-benefits] va-state.json: 10 record(s)",
     "[curated-benefits] wa.json: 11 record(s)",
     "[curated-benefits] wi.json: 2 record(s)",
-    "[curated-benefits] 141 curated benefit(s) from 22 file(s)",
-    "[curated-benefits] published 141 record(s) to .\\data\\published\\benefits\\curated-benefits.json"
+    "[curated-benefits] 145 curated benefit(s) from 24 file(s)",
+    "[curated-benefits] published 145 record(s) to .\\data\\published\\benefits\\curated-benefits.json"
   ]
 }
