@@ -1,0 +1,33 @@
+[
+  {
+    "id": "ak-disabled-veteran-property-tax-exemption",
+    "jurisdiction": "AK",
+    "category": "property-tax",
+    "title": "Property tax exemption for a disabled Veteran",
+    "summary": "Alaska exempts the first $150,000 of assessed value on your primary residence if you are a disabled Veteran rated 50 percent or more. Service in the Alaska Territorial Guard counts too.",
+    "amount": "The first $150,000 of the assessed value of the real property",
+    "eligibility": [
+      "You own and occupy the property as your primary residence and permanent place of abode, and you are an Alaska resident",
+      "You were separated from the military service of the United States under a condition that is not dishonorable",
+      "Your disability was incurred or aggravated in the line of duty in military service",
+      "And your disability has been rated as 50 percent or more by the branch of service in which you served, or by the US Department of Veterans Affairs",
+      "Alternatively, you served in the Alaska Territorial Guard, are an Alaska resident, and your disability was incurred or aggravated in the line of duty there and rated 50 percent or more",
+      "A person at least 60 years of age who is the widow or widower of someone who qualified also receives the exemption"
+    ],
+    "details": [
+      "The 50 percent threshold is lower than many states, which require 70 or 100 percent, so it is worth checking even with a moderate rating.",
+      "Real property here expressly includes mobile homes, whether they are classified as real or personal property for municipal tax purposes.",
+      "A municipality may by voter-approved ordinance extend the exemption to a widow or widower under 60, and to the widow or widower of someone who died from a service-connected cause while serving in the armed forces or the National Guard.",
+      "In cases of hardship a municipality may provide an exemption beyond the first $150,000, under department regulations.",
+      "You must apply in writing. Each municipality sets its own procedures and deadlines by ordinance, so ask locally rather than assuming a statewide date.",
+      "A municipality may also require, by ordinance, that you were eligible for a permanent fund dividend for the same year or the immediately preceding year, or would have been had you applied. That is an unusual condition and worth checking if you have not claimed a PFD.",
+      "Only one exemption may be granted for the same property. Where two or more people are eligible on the same property, they decide among themselves who takes it.",
+      "An assessor may refuse the exemption if they determine, after notice and hearing, that the property was conveyed to the applicant primarily to obtain it. That determination can be appealed.",
+      "Alaska has no state personal income tax, so there is no military retirement question here."
+    ],
+    "agency": "Municipal assessors",
+    "statuteRef": "AS 29.45.030(e), with the definition at 29.45.030(i)",
+    "officialUrl": "https://www.akleg.gov/basis/statutes.asp#29.45.030",
+    "confidence": "needs-review"
+  }
+]

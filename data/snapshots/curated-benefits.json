@@ -2,7 +2,7 @@
   "sourceId": "curated-benefits",
   "recordType": "benefit",
   "jurisdiction": null,
-  "generatedAt": "2026-11-13T06:42:07.572Z",
+  "generatedAt": "2026-11-13T06:43:43.731Z",
   "records": [
     {
       "id": "al-disabled-person-homestead-exemption",
@@ -2820,6 +2820,99 @@
       "agency": "Nebraska Department of Revenue",
       "statuteRef": "Neb. Rev. Stat. 77-2716(15)(b)",
       "officialUrl": "https://nebraskalegislature.gov/laws/statutes.php?statute=77-2716",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "nj-disabled-veteran-full-property-tax-exemption",
+      "jurisdiction": "NJ",
+      "category": "property-tax",
+      "title": "Full property tax exemption for a totally disabled Veteran",
+      "summary": "New Jersey exempts your dwelling house and the lot it sits on from property tax entirely if the VA has declared you totally and permanently disabled from service. A surviving spouse keeps it, and can carry it to a different home.",
+      "amount": "The dwelling house and the lot or curtilage are fully exempt from taxation. There is no dollar cap.",
+      "eligibility": [
+        "You are a citizen and resident of New Jersey, honorably discharged or released under honorable circumstances from active service in any branch of the Armed Forces",
+        "The VA has declared a service-connected disability from paraplegia, sarcoidosis, or osteochondritis resulting in permanent loss of the use of both legs, or permanent paralysis of both legs and lower parts of the body",
+        "Or hemiplegia with permanent paralysis of one leg and one arm or either side of the body, resulting from injury to the spinal cord, skeletal structure or brain, or from disease of the spinal cord",
+        "Or total blindness",
+        "Or amputation of both arms or both legs, both hands or both feet, or a combination of a hand and a foot",
+        "Or any other service-connected disability declared by the VA to be a total or 100 percent permanent disability",
+        "A disability is not disqualified merely because it is not evaluated as total solely because of hospitalisation, surgery and recuperation"
+      ],
+      "details": [
+        "The catch-all matters most. Beyond the specific conditions listed, any service-connected disability the VA declares a total or 100 percent permanent disability qualifies. You do not need one of the named conditions.",
+        "A surviving spouse keeps the exemption during widowhood or widowerhood, while remaining a New Jersey resident, for as long as they are the legal owner and actually occupy the dwelling. Importantly, that includes any other dwelling house acquired later, so selling and moving does not end it.",
+        "A surviving spouse also qualifies where the Veteran was honorably discharged and the service-connected disability was only declared after death.",
+        "The surviving spouse of someone who died in active service is entitled to the same full exemption on the dwelling house and lot, on the same widowhood, residency and occupancy terms.",
+        "There is a further provision for a surviving spouse whose partner died before 10 January 1972 and who would have qualified had the 1971 law been in force during their lifetime.",
+        "Apply to your municipal tax assessor. This is separate from, and far larger than, the $250 Veterans deduction, which almost every Veteran can claim."
+      ],
+      "agency": "Municipal tax assessors",
+      "statuteRef": "N.J.S.A. 54:4-3.30",
+      "officialUrl": "https://lis.njleg.state.nj.us/nxt/gateway.dll?f=templates&fn=default.htm&vid=Publish:10.1048/Enu",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "nj-military-pension-income-exclusion",
+      "jurisdiction": "NJ",
+      "category": "income-tax",
+      "title": "Military pensions are excluded from income",
+      "summary": "New Jersey does not count military pension payments or military survivor's benefit payments as gross income. The provision is short, flat and has no conditions attached.",
+      "amount": "Full exclusion, with no dollar cap and no age condition",
+      "eligibility": [
+        "The payments are military pension payments or military survivor's benefit payments",
+        "They are paid to individuals by the United States with respect to service in the Armed Forces of the United States"
+      ],
+      "details": [
+        "The whole operative text is one sentence, with no age test, no dollar cap and no income threshold. That is unusually clean compared with the phased and capped provisions in neighbouring states.",
+        "Survivor's benefit payments are named explicitly alongside pensions, so a surviving spouse is covered by the same provision.",
+        "This has been law since 1997 and was amended in 2001."
+      ],
+      "agency": "New Jersey Division of Taxation",
+      "statuteRef": "N.J.S.A. 54A:6-26",
+      "officialUrl": "https://lis.njleg.state.nj.us/nxt/gateway.dll?f=templates&fn=default.htm&vid=Publish:10.1048/Enu",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "nj-veterans-property-tax-deduction",
+      "jurisdiction": "NJ",
+      "category": "property-tax",
+      "title": "Veterans property tax deduction of $250",
+      "summary": "New Jersey takes $250 straight off your property tax bill every year if you were honorably discharged. No disability is required, and no wartime service condition appears in the text.",
+      "amount": "$250 deducted from the tax bill each year, or cancellation of the bill if it is less than $250",
+      "eligibility": [
+        "You are a citizen and resident of New Jersey",
+        "You were honorably discharged, or released under honorable circumstances, from active service in any branch of the Armed Forces of the United States",
+        "A surviving spouse qualifies during widowhood or widowerhood while a New Jersey resident",
+        "You make a proper claim annually"
+      ],
+      "details": [
+        "This is a deduction from the tax itself rather than from assessed value, so the whole $250 comes off your bill. If your tax is less than $250, the bill is cancelled.",
+        "No disability requirement appears here, which is what makes it the most widely claimable Veteran benefit in New Jersey. The text also carries no wartime service condition.",
+        "The figure reached $250 by steps: $100 in tax year 2000, $150 in 2001, $200 in 2002, and $250 in each subsequent tax year. It has been $250 for over two decades and is not indexed, so it has lost value in real terms.",
+        "A Veteran living in a continuing care retirement community receives the deduction to the extent of the share of taxes attributable to the unit they occupy, which is a useful provision that is easily missed.",
+        "If you qualify for the full disabled Veteran exemption, that is worth far more. This deduction is the baseline for everyone else."
+      ],
+      "agency": "Municipal tax collectors and assessors",
+      "statuteRef": "N.J.S.A. 54:4-8.11",
+      "officialUrl": "https://lis.njleg.state.nj.us/nxt/gateway.dll?f=templates&fn=default.htm&vid=Publish:10.1048/Enu",
       "confidence": "needs-review",
       "source": {
         "id": "curated-benefits",

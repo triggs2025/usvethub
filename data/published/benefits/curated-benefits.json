@@ -2,8 +2,45 @@
   "sourceId": "curated-benefits",
   "recordType": "benefit",
   "jurisdiction": null,
-  "generatedAt": "2026-11-13T06:43:43.731Z",
+  "generatedAt": "2026-11-13T06:50:29.444Z",
   "records": [
+    {
+      "id": "ak-disabled-veteran-property-tax-exemption",
+      "jurisdiction": "AK",
+      "category": "property-tax",
+      "title": "Property tax exemption for a disabled Veteran",
+      "summary": "Alaska exempts the first $150,000 of assessed value on your primary residence if you are a disabled Veteran rated 50 percent or more. Service in the Alaska Territorial Guard counts too.",
+      "amount": "The first $150,000 of the assessed value of the real property",
+      "eligibility": [
+        "You own and occupy the property as your primary residence and permanent place of abode, and you are an Alaska resident",
+        "You were separated from the military service of the United States under a condition that is not dishonorable",
+        "Your disability was incurred or aggravated in the line of duty in military service",
+        "And your disability has been rated as 50 percent or more by the branch of service in which you served, or by the US Department of Veterans Affairs",
+        "Alternatively, you served in the Alaska Territorial Guard, are an Alaska resident, and your disability was incurred or aggravated in the line of duty there and rated 50 percent or more",
+        "A person at least 60 years of age who is the widow or widower of someone who qualified also receives the exemption"
+      ],
+      "details": [
+        "The 50 percent threshold is lower than many states, which require 70 or 100 percent, so it is worth checking even with a moderate rating.",
+        "Real property here expressly includes mobile homes, whether they are classified as real or personal property for municipal tax purposes.",
+        "A municipality may by voter-approved ordinance extend the exemption to a widow or widower under 60, and to the widow or widower of someone who died from a service-connected cause while serving in the armed forces or the National Guard.",
+        "In cases of hardship a municipality may provide an exemption beyond the first $150,000, under department regulations.",
+        "You must apply in writing. Each municipality sets its own procedures and deadlines by ordinance, so ask locally rather than assuming a statewide date.",
+        "A municipality may also require, by ordinance, that you were eligible for a permanent fund dividend for the same year or the immediately preceding year, or would have been had you applied. That is an unusual condition and worth checking if you have not claimed a PFD.",
+        "Only one exemption may be granted for the same property. Where two or more people are eligible on the same property, they decide among themselves who takes it.",
+        "An assessor may refuse the exemption if they determine, after notice and hearing, that the property was conveyed to the applicant primarily to obtain it. That determination can be appealed.",
+        "Alaska has no state personal income tax, so there is no military retirement question here."
+      ],
+      "agency": "Municipal assessors",
+      "statuteRef": "AS 29.45.030(e), with the definition at 29.45.030(i)",
+      "officialUrl": "https://www.akleg.gov/basis/statutes.asp#29.45.030",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
     {
       "id": "al-disabled-person-homestead-exemption",
       "jurisdiction": "AL",
@@ -2820,6 +2857,103 @@
       "agency": "Nebraska Department of Revenue",
       "statuteRef": "Neb. Rev. Stat. 77-2716(15)(b)",
       "officialUrl": "https://nebraskalegislature.gov/laws/statutes.php?statute=77-2716",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "nh-adapted-housing-full-exemption",
+      "jurisdiction": "NH",
+      "category": "housing",
+      "title": "Full exemption for a specially adapted home",
+      "summary": "If the VA adapted your home through an SAH or SHA grant, New Hampshire exempts that homestead from all taxation. Individual unemployability counts, and so does a home bought with the proceeds of selling an adapted one.",
+      "amount": "Exempt from all taxation on the homestead",
+      "eligibility": [
+        "You are a Veteran as defined by RSA 21:50",
+        "And you own a home specially adapted by the Veterans Administration through an approved Special Adapted Housing or Special Home Adaptation grant",
+        "Or you own a home that has been specially adapted and was acquired using proceeds from the sale of such an SAH or SHA home",
+        "And you are 100 percent permanently and totally disabled as prescribed in 38 C.F.R. 3.340, which covers total and permanent total ratings and unemployability",
+        "Or you are a double amputee of the upper or lower extremities, or any combination, or paraplegic, as a result of service connection",
+        "Or you have blindness of both eyes with visual acuity of 5/200 or less as a result of service connection",
+        "A surviving spouse as defined in RSA 72:29, V also qualifies"
+      ],
+      "details": [
+        "Unemployability is covered. The statute points to 38 C.F.R. 3.340, which expressly includes unemployability, so a Veteran paid at the 100 percent rate through TDIU falls inside this.",
+        "The provision for a home bought with the proceeds of selling an adapted home is easy to miss and means you do not lose the exemption by moving, provided the new home is also specially adapted.",
+        "You have to furnish satisfactory proof of the service connection disability to the assessors.",
+        "Check the interaction with RSA 72:35 before relying on this. Where a town has adopted the optional service-connected total disability credit, the statute says that credit replaces this exemption entirely. Ask your assessor which applies in your town.",
+        "This section was amended again with effect from 31 August 2026, so make sure any guidance you read post-dates that."
+      ],
+      "agency": "Town and city assessors",
+      "statuteRef": "RSA 72:36-a",
+      "officialUrl": "https://gc.nh.gov/rsa/html/V/72/72-36-a.htm",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "nh-service-connected-total-disability-credit",
+      "jurisdiction": "NH",
+      "category": "property-tax",
+      "title": "Tax credit for service-connected total disability",
+      "summary": "A Veteran with total and permanent service-connected disability gets a standard $700 credit, and a town may raise it to as much as $5,000. Read the interaction carefully, because the optional version replaces several other benefits.",
+      "amount": "A standard yearly credit of $700, or an optional credit a town may adopt of $701 up to $5,000",
+      "eligibility": [
+        "You were discharged of a character outlined in RSA 21:50, or are an officer honorably separated from military service",
+        "And you have total and permanent service-connected disability",
+        "Or you are a double amputee or paraplegic because of a service-connected injury",
+        "A surviving spouse of such a person also qualifies"
+      ],
+      "details": [
+        "The credit is subtracted from the property tax on your residential property each year.",
+        "Here is the interaction to understand before your town adopts anything. The statute says the optional credit for service-connected permanent and total disability replaces the credits under RSA 72:28, 72:28-b, 72:28-c and RSA 72:36-a in their entirety, and is not in addition to them.",
+        "That last one is significant, because RSA 72:36-a is the full exemption from all taxation for a specially adapted home. On the face of the text, a Veteran in a town with the optional disability credit would receive that credit instead of the full exemption. If you hold an SAH or SHA adapted home, raise this with your assessor directly rather than assuming, because the difference could be large in either direction.",
+        "The gap between the standard $700 and the $5,000 ceiling is the widest local variation in the state, so which town you live in matters more here than anywhere else."
+      ],
+      "agency": "Town and city assessors",
+      "statuteRef": "RSA 72:35",
+      "officialUrl": "https://gc.nh.gov/rsa/html/V/72/72-35.htm",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "nh-veterans-tax-credit",
+      "jurisdiction": "NH",
+      "category": "property-tax",
+      "title": "Veterans tax credit, set by your town",
+      "summary": "New Hampshire guarantees only $50 off your property tax, but a town may adopt an optional credit of up to $750, rising to $1,000 from April 2027. What you actually get depends entirely on where you live.",
+      "amount": "A standard credit of $50, or an optional credit a town may adopt of $51 up to $750. From 1 April 2027 the optional range rises to $51 up to $1,000.",
+      "eligibility": [
+        "You are a resident of New Hampshire and a Veteran as defined in RSA 21:50",
+        "Under the all Veterans credit, you served not less than 90 days on active service in the armed forces and continue to serve, or were discharged of a character outlined in RSA 21:50, or are an officer who continues to serve or was honorably separated",
+        "A spouse or surviving spouse of such a resident may also qualify",
+        "Towns adopt the all Veterans credit separately, under RSA 72:28-b"
+      ],
+      "details": [
+        "The credit is subtracted from the property tax itself, not from assessed value, so the full amount comes off your bill.",
+        "The optional credit replaces the standard credit entirely rather than adding to it. So in a town that has adopted $750, you receive $750, not $800.",
+        "There is a scheduled increase worth knowing about. The optional ceiling is $750 until 1 April 2027, and $1,000 from that date. If your town is considering an increase, that is the number to ask about.",
+        "The all Veterans credit at RSA 72:28-b matters because it removed the wartime service requirement. Where a town adopts it, the amount is the same as whatever standard or optional credit that town already has under RSA 72:28. A town that had an existing credit before 18 August 2016 may phase the all Veterans credit in over three years to match.",
+        "Because every meaningful amount depends on local adoption, two Veterans in neighbouring towns can receive $50 and $750 for identical service. Ask your town assessor which credits your town has adopted.",
+        "A surviving spouse of a resident who suffered a service-connected death may apply the credit against any real property in the same municipality where they live, not only the former home.",
+        "New Hampshire has no general income tax on wages, so there is no military retirement question here."
+      ],
+      "agency": "Town and city assessors, under credits adopted locally per RSA 72:27-a",
+      "statuteRef": "RSA 72:28, with the all Veterans credit at RSA 72:28-b",
+      "officialUrl": "https://gc.nh.gov/rsa/html/V/72/72-28.htm",
       "confidence": "needs-review",
       "source": {
         "id": "curated-benefits",
