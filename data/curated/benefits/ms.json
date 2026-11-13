@@ -1,0 +1,61 @@
+[
+  {
+    "id": "ms-veteran-homestead-total-exemption",
+    "jurisdiction": "MS",
+    "category": "property-tax",
+    "title": "Total homestead exemption, with a limit the state website leaves out",
+    "summary": "Mississippi lifts the dollar cap off the homestead exemption for a Veteran with a service-connected total disability, and for three other groups most people have never heard of. But the exemption still stops at the first $7,500 of assessed value, which the Department of Revenue's regulations say plainly and its public page does not.",
+    "amount": "All ad valorem taxes on the first $7,500 of assessed value and the first 160 acres, with no cap on the actual exempted tax dollars",
+    "eligibility": [
+      "You are an honorably discharged Veteran with a service-connected total disability, or the unremarried surviving spouse of such a Veteran",
+      "Or you are an honorably discharged Veteran who reached ninety years of age on or before 1 January of the year you claim, no disability required",
+      "Or you are the unremarried surviving spouse of a member of the armed forces who was killed or died on active duty, or of a reserve component or National Guard member killed or died on active duty for training",
+      "Or you are totally disabled under the Social Security Act, the Railroad Retirement Act or a qualified plan under the Internal Revenue Code, which is the route that does not require service connection",
+      "You own and occupy the home as your primary residence on 1 January of the year you claim",
+      "You meet the head of family and ownership definitions in the chapter, and the home meets the statutory definition of a homestead"
+    ],
+    "details": [
+      "Start with the limit, because it is the single most misleading thing about this benefit. The Department of Revenue's homestead exemption page describes the top tier as exempt from all property taxes on the qualifying homestead. The Department's own regulations are narrower: the $7,500 assessed value limit and the 160 acre limit still apply, and what changes is that the exemption is increased to cover all ad valorem taxes on that portion rather than the capped figure from the statutory table. Tax on assessed value above $7,500 must still be paid.",
+      "Then convert the figure, or it will mislead you the other way. Homestead property in Mississippi is usually Class 1, assessed at 10 percent of true value, so $7,500 of assessed value is roughly $75,000 of market value. If your home is worth appreciably more than that, expect a reduced bill rather than no bill.",
+      "If any income producing activity is on the property it may be reclassified as Class 2 at 15 percent, which changes the arithmetic.",
+      "What the total exemption actually buys you is the removal of a cap. The regular exemption every eligible homeowner gets is also limited to the first $7,500 of assessed value, but it is capped at $300 of actual exempted tax, with a floor of $6. The additional exemption removes that $300 ceiling.",
+      "Two of the four routes in are easy to miss. A Veteran of ninety or over qualifies on age and honorable discharge alone, with no disability requirement, on a birth certificate or state ID plus a DD Form 214. And the unremarried surviving spouse of a servicemember who died on active duty qualifies on a death certificate plus the DD Form 214. The Department's public page mentions neither.",
+      "There is a recent change in your favour. From 1 January 2026 the unremarried surviving spouse of someone who qualified through total disability, and the unremarried surviving spouse of a Veteran aged ninety or over, both qualify in their own right.",
+      "Proof of a service-connected total disability goes in on the Veteran's Consent of Release, Form 72-042.",
+      "Mind the two compliance traps, because they cost people the whole exemption and have nothing to do with your property. You and your spouse must be in compliance with Mississippi income tax law, and you cannot claim residency in another jurisdiction when assessed for Mississippi income tax. You must also be in compliance with road and bridge privilege tax law: if you own or possess a vehicle with an out-of-state or out-of-county tag and are not in compliance, you are not eligible for the homestead exemption at all. A vehicle owned by a business located outside the state is treated as compliant.",
+      "Applications are taken only at the county Tax Assessor's office, in person, between 1 January and 1 April. There is no other window.",
+      "Once you have a valid application on file you are credited each year without refiling, but a change in your eligibility status for Veterans Affairs benefits is specifically listed as an event that triggers the need to reapply. So are marriage, divorce, remarriage, death and deed changes.",
+      "Disallowance is retroactive and expensive. If the exemption is taken away you can be made to repay the taxing jurisdictions for exemptions you received in error, which can hit mortgage escrow and trigger collection action.",
+      "On the source: Mississippi does not publish its Code in a form the public can read without accepting a commercial vendor's terms. This record is built on Title 35, Part VI of the Mississippi Administrative Code, the Department of Revenue's own property tax regulations as published by the Secretary of State, cross-checked against the Department's homestead exemption page. Where the two disagree we have told you so rather than picking one."
+    ],
+    "agency": "County Tax Assessors, with the Mississippi Department of Revenue Homestead Exemption Division",
+    "statuteRef": "Miss. Code Ann. 27-33-1 through 27-33-79, with the additional exemption at 27-33-67(2) and the exemption table at 27-33-75",
+    "officialUrl": "https://www.sos.ms.gov/adminsearch/ACCode/00000161c.pdf",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "ms-retirement-income-exemption",
+    "jurisdiction": "MS",
+    "category": "income-tax",
+    "title": "Retirement pay is not taxed, military included",
+    "summary": "Mississippi exempts retirement income from any federal, state or private retirement system or plan. Military retired pay sits inside that, with no dollar cap and no age test, and the exemption carries over to your spouse or beneficiary.",
+    "amount": "Full exemption, with no dollar cap",
+    "eligibility": [
+      "The income is a retirement allowance, pension, annuity or optional retirement allowance from any federal, state or private retirement system or plan",
+      "There is no age condition, dollar cap or length of service requirement",
+      "The exemption extends to the spouse or other beneficiary on the death of the primary retiree"
+    ],
+    "details": [
+      "The wording is general rather than Veteran-specific, which is why searching Mississippi law for a military retirement exemption turns up very little. Military retired pay is paid from a federal retirement system, so it falls inside the exemption the same way other federal retirement income does.",
+      "The exemption reaches further than most people assume. Optional retirement allowances include Keogh plans, individual retirement accounts and similar tax deferred plans, and deferred compensation plans where the plan is tax deferred federally and you are already qualified to receive other retirement income on age or years of service. Roth IRA distributions follow the federal treatment.",
+      "Early distributions do not qualify and are taxable at state level. The consolation is that Mississippi applies no early withdrawal penalty of its own.",
+      "The exemption does not cover income from investments in stocks, bonds, intangible securities or real or tangible property. It is retirement income only.",
+      "There is a separate chapter in the regulations headed as an exclusion for military pensions and disability payments, but its substantive paragraphs are marked reserved and it does no more than adopt federal rules and revenue procedures. The general retirement exemption is the provision that does the work.",
+      "On the source: this record rests on Title 35, Part III of the Mississippi Administrative Code, the Department of Revenue's income tax regulations as published by the Secretary of State, because Mississippi does not publish its Code openly. We have cited the regulation rather than attaching a statutory subsection we have not read."
+    ],
+    "agency": "Mississippi Department of Revenue",
+    "statuteRef": "Title 35, Part III, Chapter 07 of the Mississippi Administrative Code, under Miss. Code Ann. 27-7-15",
+    "officialUrl": "https://www.sos.ms.gov/adminsearch/ACCode/00000158c.pdf",
+    "confidence": "needs-review"
+  }
+]

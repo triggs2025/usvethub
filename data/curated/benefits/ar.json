@@ -1,0 +1,98 @@
+[
+  {
+    "id": "ar-disabled-veteran-property-tax-exemption",
+    "jurisdiction": "AR",
+    "category": "property-tax",
+    "title": "Total property tax exemption for a disabled Veteran",
+    "summary": "Arkansas exempts the homestead and personal property of a Veteran who receives special monthly compensation for loss or loss of use of a limb, total blindness, or a 100 percent total and permanent service-connected rating. It is a full exemption, not a slice of value.",
+    "amount": "Full exemption from payment of all state taxes on the homestead and personal property, with no dollar cap and no value ceiling",
+    "eligibility": [
+      "You have been awarded special monthly compensation by the Department of Veterans Affairs for the loss of, or the loss of use of, one or more limbs",
+      "Or you have been awarded special monthly compensation for total blindness in one or both eyes",
+      "Or you have been awarded compensation for service-connected one hundred percent total and permanent disability",
+      "The exemption covers the homestead and personal property owed by the disabled Veteran",
+      "On the death of a qualifying Veteran who received the exemption, it extends to the surviving spouse and minor dependent children, provided the spouse remains unmarried",
+      "The surviving spouse and minor children are also exempt if the member was killed while within the scope of their military duties, or is declared missing in action"
+    ],
+    "details": [
+      "This is one of the strongest property tax provisions in the country, because there is no cap. Most states exempt a band of value. Arkansas exempts the property.",
+      "Note the three separate routes in. Two of them are special monthly compensation awards rather than a percentage rating, so a Veteran who is not rated 100 percent may still qualify through loss or loss of use of a limb or through total blindness. Check the compensation award, not just the rating letter.",
+      "One wording point we are flagging rather than resolving. The statute exempts the property from payment of all STATE taxes. Property taxes in Arkansas are levied locally, by counties, school districts and cities. The Arkansas Department of Veterans Affairs describes the provision as a full property tax exemption and directs Veterans to the county collector, so that is plainly how the state applies it. Confirm the exact scope with your collector before you rely on it for a particular bill.",
+      "Apply at your local county collector's office. The assessment freeze below is a different office, the county assessor, which catches people out.",
+      "Recertification is annual. The Department of Veterans Affairs notes the exemption is recertified each year, so treat it as a yearly task rather than a one-time filing.",
+      "A currency caution worth reading. Arkansas does not publish its own Code in a form the public can read without accepting a commercial vendor's terms. The statutory language above is quoted from the Arkansas Department of Veterans Affairs tax guide, which is a state government publication, but the edition we read is dated 2024. Confirm with your county collector or the Department before relying on the detail."
+    ],
+    "agency": "County collectors, with guidance from the Arkansas Department of Veterans Affairs on 501-683-2382",
+    "statuteRef": "Ark. Code Ann. 26-3-306",
+    "officialUrl": "https://www.veterans.arkansas.gov/s/2024VeteransGuide-Taxes.pdf",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "ar-property-tax-assessment-freeze",
+    "jurisdiction": "AR",
+    "category": "property-tax",
+    "title": "Assessment freeze if you are disabled or 65 or older",
+    "summary": "If you do not meet the threshold for the full exemption, Arkansas will still freeze the assessed value of your homestead. It is not Veteran-specific, which is why Veterans miss it.",
+    "amount": "Your assessed value is frozen at the lower of several reference dates, so later reassessments do not raise your bill",
+    "eligibility": [
+      "You are disabled, or you are sixty-five years of age or older",
+      "You request the exemption from the county assessor and it is granted",
+      "The property is your homestead"
+    ],
+    "details": [
+      "The freeze sets your assessed value at the lowest of four figures: the assessed value on your sixty-fifth birthday, the assessed value on the date you became disabled, the assessed value on 1 January 2001, or a later assessed value.",
+      "Read the disability test carefully, because it is broader than the full exemption. The provision says a person who is disabled, without requiring a service connection or a particular rating. A Veteran with a disability that falls short of the special monthly compensation and 100 percent routes may still qualify here.",
+      "The freeze lifts if substantial improvements are made to the homestead, or if ownership changes. Plan a renovation with that in mind.",
+      "This is a separate application to a separate office. The full exemption is filed with the county collector, the freeze with the county assessor. If you qualify for both, you deal with both offices.",
+      "There is also a general homestead property tax credit available to every homestead owner in Arkansas, under Ark. Code Ann. 26-26-1118, which you register for with the county assessor. The 2024 state guide we read puts it at $425. Ask the assessor for the current figure rather than relying on that number, because it has been changed by the legislature more than once.",
+      "Same currency caution as the exemption record. The statutory detail here comes from a 2024 Arkansas Department of Veterans Affairs publication, because the state does not publish its Code openly."
+    ],
+    "agency": "County assessors",
+    "statuteRef": "Ark. Code Ann. 26-26-1124, with the general homestead credit at 26-26-1118",
+    "officialUrl": "https://www.veterans.arkansas.gov/s/2024VeteransGuide-Taxes.pdf",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "ar-military-pay-and-retirement-exemption",
+    "jurisdiction": "AR",
+    "category": "income-tax",
+    "title": "Military pay and military retirement are not taxed",
+    "summary": "Arkansas does not tax military retired pay, active or reserve component pay, VA disability compensation, military disability retirement, or survivor annuities. There is no cap and no age test.",
+    "amount": "Full exemption, with no dollar cap",
+    "eligibility": [
+      "Military retired pay is fully exempt from Arkansas income tax",
+      "Pay for service in an active or reserve component is exempt",
+      "VA disability compensation and military disability retirement pay are not included in Arkansas taxable income",
+      "Survivor Benefit Plan, Reserve Component Survivor Benefit Plan and Retired Serviceman's Family Protection Plan annuities are not taxed",
+      "Social Security is also not taxed"
+    ],
+    "details": [
+      "All of it is claimed on your Arkansas income tax return rather than through a separate application.",
+      "There are related provisions worth asking about if they fit your situation: the federal Military Spouses Residency Relief Act, exclusions for certain home sale profits and for Guard and Reserve travel, and tax payment deferral under the Arkansas Service Members Civil Relief Act.",
+      "We are being explicit about the source here. The Arkansas Code is not published by the state in a form we can read, so this record rests on the Arkansas Department of Veterans Affairs own published summary of state benefits rather than on statutory text we have checked section by section. That is a state agency describing the benefits it administers, which we think is worth publishing, but it is a weaker source than the statute and we have not attached a section number we cannot verify.",
+      "Questions go to the Department of Finance and Administration individual income tax team at individual.income@dfa.arkansas.gov."
+    ],
+    "agency": "Arkansas Department of Finance and Administration, Individual Income Tax",
+    "officialUrl": "https://www.veterans.arkansas.gov/state-benefits",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "ar-adapted-vehicle-sales-tax-exemption",
+    "jurisdiction": "AR",
+    "category": "vehicle",
+    "title": "No sales tax on a VA adapted vehicle",
+    "summary": "Arkansas charges no state gross receipts tax on a specially adapted vehicle or on adaptive equipment bought with VA assistance for a service-connected disability.",
+    "amount": "Exemption from state gross receipts tax on the adapted vehicle or equipment",
+    "eligibility": [
+      "The vehicle or equipment is specially adapted",
+      "It was purchased with VA assistance for a service-connected disability"
+    ],
+    "details": [
+      "Claim it at your local Arkansas revenue office. Take your VA Benefit Summary Letter with you.",
+      "Same source caution as the income tax record. This comes from the Arkansas Department of Veterans Affairs summary of state benefits, not from statutory text we have read, so no section number is attached."
+    ],
+    "agency": "Arkansas Department of Finance and Administration revenue offices",
+    "officialUrl": "https://www.veterans.arkansas.gov/state-benefits",
+    "confidence": "needs-review"
+  }
+]
