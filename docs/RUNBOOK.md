@@ -202,7 +202,8 @@ cost a Veteran a filing deadline.
 |---|---|---|
 | Source code and data | github.com/triggs2025/usvethub | Public repo, branch `main` |
 | Live site | triggs2025.github.io/usvethub | GitHub Pages, built by Actions |
-| Domain | usvethub.com at GoDaddy | Not yet pointed at GitHub |
+| Domain | usvethub.com, DNS on Cloudflare | Nameservers `nero` and `ligia.ns.cloudflare.com`, checked 2026-11-13. Not yet pointed at GitHub |
+| Second domain | usvetshub.com, DNS at GoDaddy | Nameservers `ns67`/`ns68.domaincontrol.com`. Parked. Should 301 to usvethub.com, not host a copy |
 | Local working copy | `C:\Users\triggs\usvethub` | |
 
 **There are no secrets, API keys, or passwords anywhere in this project.** That
@@ -211,20 +212,66 @@ an API key it goes in GitHub Actions secrets, never in a file.
 
 ### To point usvethub.com at the site
 
-At GoDaddy, replace the A records for the apex with these four:
+**DNS for this domain is on Cloudflare, not GoDaddy.** An earlier version of
+this runbook said GoDaddy, which matched the decision recorded in
+INFRASTRUCTURE.md section 1. The nameservers now say Cloudflare, so that
+deferred decision has in effect already been taken. Make these changes in the
+Cloudflare dashboard, in the `usvethub.com` zone, under DNS - Records.
 
-```
-185.199.108.153
-185.199.109.153
-185.199.110.153
-185.199.111.153
-```
+The domain currently serves a parking lander (a 114 byte page that redirects to
+`/lander`), so there are existing records to remove first.
 
-Add a CNAME record: `www` pointing to `triggs2025.github.io`.
+1. **Delete** the existing apex `A` record (it points at `104.21.83.226`) and
+   the existing `www` record (it points at `172.67.182.100`). If any `AAAA`
+   records exist on the apex, delete those too.
 
-Then in this repo, delete the two `SITE_BASE_URL` lines in
-`.github/workflows/deploy.yml`. The build default is already the production
-domain and will start shipping the `CNAME` file automatically.
+2. **Add four `A` records** on the apex, name `@`:
+
+   ```
+   185.199.108.153
+   185.199.109.153
+   185.199.110.153
+   185.199.111.153
+   ```
+
+3. **Add a `CNAME` record**, name `www`, target `triggs2025.github.io`.
+
+4. **Set every one of those five records to "DNS only", the grey cloud.** This
+   is the step that breaks deploys when it is missed. With Cloudflare proxying
+   (the orange cloud) GitHub cannot complete the certificate challenge for the
+   domain, so HTTPS enforcement never turns on. If you later want Cloudflare in
+   front for analytics or headers, as INFRASTRUCTURE.md section 1 describes,
+   turn the proxy on only after GitHub has issued the certificate, and set SSL
+   mode to Full. Flexible causes a redirect loop.
+
+Then, **and only after DNS resolves to the GitHub addresses**, do the repo side:
+
+- Delete the two `SITE_BASE_URL` lines in `.github/workflows/deploy.yml`. The
+  build default is already the production domain and will start shipping the
+  `CNAME` file automatically.
+- Register the custom domain with Pages, which is a separate setting from the
+  `CNAME` file and is currently empty:
+  `gh api -X PUT repos/triggs2025/usvethub/pages -f cname=usvethub.com`
+
+**Order matters and the penalty is downtime.** `scripts/build-site.mjs`
+deliberately withholds the `CNAME` file from any build that is not targeting the
+production domain, because shipping it from a github.io subpath build points
+Pages at a hostname whose DNS is not pointed back yet and takes the site offline
+at both URLs. Do not flip the repo side first to "get ready".
+
+### To make usvetshub.com reach the site
+
+A GitHub Pages site accepts **one** custom domain, plus its `www` variant. A
+second domain cannot be added to this repo, so serving usvetshub.com would mean
+a second repo and a second deploy of identical content. Do not do that: two
+copies of the same site compete with each other in search results and double
+the maintenance.
+
+Forward it instead. DNS for usvetshub.com is at GoDaddy, which does 301
+forwarding for free: in the GoDaddy domain settings use Forwarding, forward the
+domain to `https://usvethub.com`, and choose **permanent (301)** with forward
+path on, so a deep link keeps its path. If the zone is ever moved to Cloudflare,
+a Redirect Rule does the same job.
 
 ---
 
