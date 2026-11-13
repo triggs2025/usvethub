@@ -2,7 +2,7 @@
   "sourceId": "curated-benefits",
   "recordType": "benefit",
   "jurisdiction": null,
-  "generatedAt": "2026-11-13T04:33:19.175Z",
+  "generatedAt": "2026-11-13T04:37:26.096Z",
   "records": [
     {
       "id": "az-disabled-veteran-hunting-fishing-license",
@@ -1404,6 +1404,137 @@
       "agency": "Illinois Department of Veterans' Affairs certifies to the Illinois Department of Revenue, administered by local assessing officials",
       "statuteRef": "35 ILCS 200/15-165",
       "officialUrl": "https://www.ilga.gov/legislation/ILCS/details?MajorTopic=GOVERNMENT&Chapter=REVENUE&ActName=Property%20Tax%20Code.&ActID=596&ChapterID=8&ChapAct=35+ILCS+200%2F&SeqStart=38400000&SeqEnd=43899999",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "mi-disabled-veteran-homestead-property-tax-exemption",
+      "jurisdiction": "MI",
+      "category": "property-tax",
+      "title": "Disabled Veteran homestead property tax exemption",
+      "summary": "Michigan exempts your home from property tax entirely, not just at a reduced rate, if you are a Michigan resident Veteran who is 100 percent disabled, rated individually unemployable, or has received VA assistance for specially adapted housing.",
+      "amount": "A full exemption from property tax on the homestead, with no dollar cap in the statute",
+      "eligibility": [
+        "You are a Michigan resident who served in the United States Armed Forces, including reserve components, and were discharged or released under honorable conditions",
+        "You use and own the property as your homestead",
+        "And you meet any one of the three following criteria, each of which qualifies on its own",
+        "Permanently and totally disabled as a result of military service and entitled to Veterans benefits at the 100 percent rate",
+        "Or you hold a VA certificate that you are receiving or have received pecuniary assistance due to disability for specially adapted housing",
+        "Or the VA has rated you individually unemployable",
+        "Legal title is held solely by you, or jointly by you and your spouse"
+      ],
+      "details": [
+        "This is a full exemption from the collection of taxes under the General Property Tax Act, not a reduction in assessed value. The statute contains no dollar figure at all.",
+        "A surviving spouse of a Veteran who was eligible for the exemption immediately before death keeps it, and keeps it for as long as they do not remarry. It applies to any homestead the surviving spouse owns, including a home bought after the Veteran's death, provided the spouse holds legal title solely.",
+        "You file an application with the assessing officer for your local assessing unit, after 1 January and before 31 December of the year you are claiming. A legal designee may file for you. The form is prescribed by the State Tax Commission.",
+        "For taxes levied on or after 1 January 2025, an exemption once granted stays in effect without reapplying each year, until you rescind it or the assessor denies it under Section 7c.",
+        "The exemption is prorated if you do not own the home for the whole tax year, and taxes are canceled for a year in which a qualifying person acquires title to exempt property.",
+        "Note the discharge standard here is narrower than Michigan's income tax rule: this exemption requires honorable conditions, while the income tax additional exemption also accepts a general discharge."
+      ],
+      "agency": "Local assessing officers, on a form prescribed by the Michigan State Tax Commission",
+      "statuteRef": "MCL 211.7b",
+      "officialUrl": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-211-7b",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "mi-military-pay-income-tax-subtraction",
+      "jurisdiction": "MI",
+      "category": "income-tax",
+      "title": "Military pay and military retirement are not taxed",
+      "summary": "Michigan subtracts military compensation from your taxable income, and that includes retirement and pension benefits for Armed Forces service. There is no dollar cap on this subtraction.",
+      "amount": "Full subtraction of Armed Forces compensation, including retirement or pension benefits, with no dollar limit",
+      "eligibility": [
+        "The pay was received for services in the Armed Forces of the United States",
+        "It is subtracted only to the extent it was included in your adjusted gross income",
+        "Retirement or pension benefits received for service in the Michigan National Guard are subtracted under a separate subparagraph"
+      ],
+      "details": [
+        "The subtraction sits at MCL 206.30(1)(e)(i) and covers compensation for Armed Forces service, including retirement or pension benefits. Active duty pay and military retirement pay both fall inside it.",
+        "The dollar caps that Michigan applies to other pension income, currently $42,240 on a single return and $84,480 on a joint return and adjusted each year by CPI, apply to the separate non-military pension provision at subsection (1)(f), not to the military subtraction.",
+        "Separately, a qualified disabled Veteran gets an additional personal exemption of $250. A qualified disabled Veteran here means a Veteran with a service-connected disability, and this provision accepts an honorable or a general discharge.",
+        "That $250 is a base figure. It is adjusted every year by a CPI fraction and rounded to the nearest $100, so check the current year's number before relying on it."
+      ],
+      "agency": "Michigan Department of Treasury",
+      "statuteRef": "MCL 206.30(1)(e)",
+      "officialUrl": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-206-30",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "mn-military-pay-income-tax-subtraction",
+      "jurisdiction": "MN",
+      "category": "income-tax",
+      "title": "Military pay and military pensions are subtracted from income",
+      "summary": "Minnesota subtracts active duty pay, National Guard and reserve pay, and military retirement pay from your taxable income. The retirement subtraction comes with one catch: you cannot also claim the separate military service credit.",
+      "eligibility": [
+        "Active duty pay under Title 10 or United Nations authority is subtracted for Minnesota residents",
+        "Pay to members of the Minnesota National Guard or other reserve components for active service, including Active Guard Reserve service, is subtracted",
+        "Nonresidents subtract compensation paid for military service as defined in 50 U.S.C. 3911(2)",
+        "Military pension and retirement pay from the federal government is subtracted to the extent it was included in federal adjusted gross income",
+        "The retirement subtraction is limited to individuals who do not claim the credit under section 290.0677"
+      ],
+      "details": [
+        "These sit in different subdivisions of the same section. Active duty compensation for residents is subdivision 12, nonresident military service compensation is subdivision 15, National Guard and reserve pay is subdivision 11, and military pensions and retirement pay is subdivision 21.",
+        "For the Guard and reserve subtraction, active service is limited to state active service, or federally funded state active service, as those are defined in section 190.05.",
+        "The choice between the retirement subtraction and the section 290.0677 credit matters. Work out which is worth more in your situation before filing, because you cannot take both."
+      ],
+      "agency": "Minnesota Department of Revenue",
+      "statuteRef": "Minn. Stat. 290.0132, subds. 11, 12, 15 and 21",
+      "officialUrl": "https://www.revisor.mn.gov/statutes/cite/290.0132",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "mn-veteran-homestead-market-value-exclusion",
+      "jurisdiction": "MN",
+      "category": "property-tax",
+      "title": "Homestead market value exclusion for Veterans with a disability",
+      "summary": "Minnesota takes a fixed slice of your home's market value out of the property tax calculation: $150,000 at a 70 percent or higher rating, and $300,000 if you are totally and permanently disabled. A surviving spouse can keep it, and so can a primary family caregiver.",
+      "amount": "$150,000 of market value excluded at a 70 percent or higher rating, or $300,000 for a total, 100 percent and permanent disability",
+      "eligibility": [
+        "The VA has certified a service-connected disability of 70 percent or more",
+        "You were honorably discharged, shown by a DD214 or other official discharge papers",
+        "You own the property, meaning your name appears as an owner on the deed, and it is your homestead",
+        "At a 70 percent or higher rating the exclusion is $150,000 of market value",
+        "For a total, 100 percent and permanent disability the exclusion is $300,000 of market value",
+        "If you meet the disability criteria but do not own a Minnesota homestead, your primary family caregiver's homestead can take the exclusion instead"
+      ],
+      "details": [
+        "Apply to your county assessor by 31 December of the first assessment year you are claiming. There is no annual reapplication written into the statute, but you must notify the assessor if ownership changes or the property stops being your homestead.",
+        "The two tiers are genuinely different. Only the higher one requires the disability to be permanent, and the 70 percent tier carries no permanence requirement.",
+        "If a Veteran with a total and permanent disability dies before their spouse, the exclusion carries over to the spouse while they hold title and permanently reside there. It lasts until the spouse remarries, sells, transfers, or otherwise disposes of the property. There is no fixed number of years.",
+        "A spouse of a service member who died from a service-connected cause while in active service can also qualify, with a DD1300 or DD2064. A first-time application in that case has to be made within two years of the death.",
+        "A spouse can still qualify where the Veteran never applied, or where the exclusion did not exist when the Veteran died, provided the VA certifies a 100 percent permanent disability or an award of dependency and indemnity compensation.",
+        "A surviving spouse can sometimes carry the exclusion to a different property, if they apply, hold title, live there, the new property is worth no more than the original, and they have not used that continuation before.",
+        "On an agricultural homestead the exclusion covers only the house, the garage, and the one acre immediately surrounding them.",
+        "A property taking this exclusion cannot also take the market value exclusion under subdivision 35.",
+        "By 1 July each year the county Veterans service officer certifies the disability rating and permanent address of each Veteran receiving the benefit to the assessor.",
+        "The dollar amounts are fixed in the statute. There is no indexing provision, so they do not rise with inflation."
+      ],
+      "agency": "County assessors, with certification from county Veterans service officers",
+      "statuteRef": "Minn. Stat. 273.13, subd. 34",
+      "officialUrl": "https://www.revisor.mn.gov/statutes/cite/273.13",
       "confidence": "needs-review",
       "source": {
         "id": "curated-benefits",

@@ -2,7 +2,7 @@
   "sourceId": "curated-benefits",
   "recordType": "benefit",
   "jurisdiction": null,
-  "generatedAt": "2026-11-13T04:37:26.096Z",
+  "generatedAt": "2026-11-13T05:21:56.252Z",
   "records": [
     {
       "id": "az-disabled-veteran-hunting-fishing-license",
@@ -1314,6 +1314,102 @@
       "verifiedAt": "2026-11-13"
     },
     {
+      "id": "ia-disabled-veteran-homestead-tax-credit",
+      "jurisdiction": "IA",
+      "category": "property-tax",
+      "title": "Disabled Veteran homestead tax credit",
+      "summary": "Iowa pays the entire property tax levied on your homestead if you hold a permanent 100 percent service-connected rating, or individual unemployability compensated at the 100 percent rate. Not a reduction, the whole bill.",
+      "amount": "The entire amount of the tax levied on the homestead",
+      "eligibility": [
+        "You are a Veteran as defined in Iowa Code 35.1 with a permanent service-connected disability rating of 100 percent, as certified by the US Department of Veterans Affairs",
+        "Or you hold a permanent and total disability rating based on individual unemployability that is compensated at the 100 percent disability rate",
+        "Former National Guard members meeting the Iowa Code 35.1 service requirements qualify on the same rating terms",
+        "A surviving spouse or child receiving dependency and indemnity compensation under 38 U.S.C. 1301 and following also qualifies",
+        "Veterans who acquired the homestead under specified federal housing grant provisions before 6 August 1991, or under 38 U.S.C. 2101 or 2102, qualify as well",
+        "You cannot take this credit and the separate military service property tax exemption at the same time"
+      ],
+      "details": [
+        "The statute is explicit that the credit is the entire amount of the tax levied on the homestead, so for most qualifying Veterans the homestead property tax bill goes to zero.",
+        "On individual unemployability, the detail matters. Iowa defines it by reference to a VA rating of permanent and total, requiring either a permanent service-connected rating of 60 percent, or two or more permanent conditions with one rated at least 40 percent and a combined rating of at least 70 percent, together with a VA individual unemployability adjustment.",
+        "The credit continues to the estate of a deceased owner, and to a surviving spouse and any child who are beneficiaries, for as long as the surviving spouse remains unmarried. Where eligibility came through dependency and indemnity compensation, it ends when that compensation ends.",
+        "Electing this credit rules out any other real property tax exemption provided by law for Veterans of military service. Compare it against the military service exemption before choosing, although for a qualifying Veteran this credit is almost always worth far more.",
+        "Once allowed, the claim carries forward for successive years without filing again, so long as you still own and occupy the homestead on 1 July each year, declare Iowa residency for income tax, and occupy the property at least six months each calendar year. A buyer or transferee has to file afresh.",
+        "There is an unresolved conflict about the filing window, and we are publishing it rather than picking a side. Iowa Code 425.2 says claims go to the assessor not later than 1 July of the year claimed, with a later claim counting for the following year. Iowa Code 425.20 describes a claim filed with the county treasurer between 1 January and 1 June immediately preceding the fiscal year the taxes are due. Ask your county assessor or treasurer which applies to this credit before you rely on a date."
+      ],
+      "agency": "County assessors, with the credit paid from the homestead credit fund",
+      "statuteRef": "Iowa Code 425.15",
+      "officialUrl": "https://www.legis.iowa.gov/docs/code/2025/425.15.rtf",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "ia-military-retirement-income-exclusion",
+      "jurisdiction": "IA",
+      "category": "income-tax",
+      "title": "Military retirement pay is not taxed",
+      "summary": "Iowa subtracts federal military retirement pay from your income in full, with no dollar cap and no age requirement. It stacks on top of the general retirement income exclusion.",
+      "amount": "Full exclusion, with no dollar cap",
+      "eligibility": [
+        "The pay is retirement pay received from the federal government",
+        "It is for military service performed in the armed forces, the armed forces military reserve, or the national guard",
+        "It is subtracted to the extent it was included in your net income"
+      ],
+      "details": [
+        "There is no age condition on this exclusion. That is worth knowing, because Iowa's general retirement income exclusion in subsection 19 does carry one: it requires you to be disabled, or 55 or older. The military exclusion does not.",
+        "The statute says plainly that the military retirement exclusion is in addition to any exclusion under subsection 19, so the two stack rather than one replacing the other.",
+        "Survivor benefits under 10 U.S.C. 1447 and following sit in a separate subsection, so treat those as their own question rather than assuming they fall here."
+      ],
+      "agency": "Iowa Department of Revenue",
+      "statuteRef": "Iowa Code 422.7(20)(a)",
+      "officialUrl": "https://www.legis.iowa.gov/docs/code/2025/422.7.rtf",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "ia-military-service-property-tax-exemption",
+      "jurisdiction": "IA",
+      "category": "property-tax",
+      "title": "Military service property tax exemption",
+      "summary": "Iowa takes $4,000 of taxable value off your property if you served at least 18 months and were discharged under honorable conditions. This is the broad exemption most Veterans qualify for, separate from the much larger disabled Veteran credit.",
+      "amount": "Up to $4,000 in taxable value, for assessment years beginning on or after 1 January 2023",
+      "eligibility": [
+        "You are an Iowa resident and a Veteran as defined in the section, which includes Air Force, merchant marine and Coast Guard service",
+        "You served for a minimum aggregate of 18 months and were discharged under honorable conditions",
+        "If you served fewer than 18 months but were honorably discharged because of a service-related injury, you still qualify",
+        "You can claim in one county only",
+        "You cannot take this exemption and the disabled Veteran homestead tax credit at the same time"
+      ],
+      "details": [
+        "The amount was raised from $1,852 to $4,000 for assessment years beginning on or after 1 January 2023, and the 2023 amendment applies retroactively to those years.",
+        "A separate and older provision sets $2,778 in taxable value for World War I Veterans, for assessment years beginning before 1 January 2023. The statute gives no post-2023 figure for that group.",
+        "This reduces taxable value, so what it saves you depends on your local levy rate. It is not a $4,000 cut to your tax bill.",
+        "File with your county assessor on the assessor's form, not later than 1 July of the year you are claiming.",
+        "You also have to record evidence of your discharge or separation with the county recorder where the property sits, and your claim has to state the volume and page of that recording.",
+        "Once allowed, the claim continues for successive years without filing again. Refile when the property is sold or transferred, or when you designate a different property. A seller or estate has to notify the assessor.",
+        "The assessor, then the county auditor, then the board of supervisors allow or disallow the claim. You can appeal to district court within 20 days of the board's mailed notice."
+      ],
+      "agency": "County assessors, county auditors and county boards of supervisors",
+      "statuteRef": "Iowa Code 426A.11, with filing under 426A.13",
+      "officialUrl": "https://www.legis.iowa.gov/docs/code/2025/426A.11.rtf",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
       "id": "il-disabled-veterans-standard-homestead-exemption",
       "jurisdiction": "IL",
       "category": "property-tax",
@@ -1535,6 +1631,40 @@
       "agency": "County assessors, with certification from county Veterans service officers",
       "statuteRef": "Minn. Stat. 273.13, subd. 34",
       "officialUrl": "https://www.revisor.mn.gov/statutes/cite/273.13",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "mo-property-tax-credit-disabled-veteran",
+      "jurisdiction": "MO",
+      "category": "property-tax",
+      "title": "Property tax credit for Veterans who are 100 percent disabled",
+      "summary": "Missouri has no standalone Veteran property tax exemption. What it has instead is the property tax credit, often called the circuit breaker, and a Veteran who became 100 percent disabled through service qualifies for it at any age.",
+      "amount": "For 2026, up to $1,550 of actual property tax paid, or up to $1,055 of rent treated as property tax. The credit itself is read from a Department of Revenue table.",
+      "eligibility": [
+        "You are a Veteran of any branch of the Armed Forces of the United States or of this state who became 100 percent disabled as a result of that service",
+        "That route has no age requirement, unlike the other ways into this credit",
+        "You own or rent a Missouri homestead of up to five acres",
+        "Your income falls under the maximum upper limit for your filing status",
+        "Renters qualify as well as owners, with 20 percent of gross rent paid treated as property taxes"
+      ],
+      "details": [
+        "Missouri has no conventional disabled Veteran homestead exemption. We looked through chapters 135 and 137 and found only this credit, which sits inside the senior citizens property tax relief program. If you have been told Missouri exempts a disabled Veteran's home from property tax, that is not what the statute does.",
+        "There is a real advantage buried in the income definition. A 100 percent service-connected disabled Veteran is not required to list Veterans payments and benefits as income for this credit. Most other claimants have to add their Veterans benefits back in, so the same household income goes further here.",
+        "The income ceilings for 2026 and later are $38,200 filing single, $42,200 single where you owned and occupied the homestead for the whole year, $41,000 married filing combined, and $48,000 married filing combined where you owned and occupied the homestead for the whole year.",
+        "These figures rose substantially for 2026. Before that the ceilings were $27,500, or $30,000 with an owned homestead, and the caps were $1,100 and $750.",
+        "From 1 January 2027 the amounts are adjusted annually for inflation. The credit totals are indexed to the Consumer Price Index for All Urban Consumers for the Midwest Region, and the upper limits to CPI-U. So treat the 2026 numbers above as current only for 2026.",
+        "The credit is not a single stated dollar amount in the statute. It comes off a table the director of revenue maintains, scaled by your income between a minimum base and the upper limit.",
+        "The Department of Revenue is directed to notify taxpayers who did not apply but appear to be eligible, so it is worth filing even if you are unsure."
+      ],
+      "agency": "Missouri Department of Revenue",
+      "statuteRef": "RSMo 135.010 to 135.030",
+      "officialUrl": "https://revisor.mo.gov/main/OneSection.aspx?section=135.030",
       "confidence": "needs-review",
       "source": {
         "id": "curated-benefits",
@@ -2523,6 +2653,75 @@
       "statuteRef": "Ohio Rev. Code Chapter 5910, especially 5910.03",
       "officialUrl": "https://codes.ohio.gov/ohio-revised-code/chapter-5910",
       "confidence": "verified",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "or-military-pay-income-subtraction",
+      "jurisdiction": "OR",
+      "category": "income-tax",
+      "title": "Military pay subtraction, which does not cover retirement pay",
+      "summary": "Oregon subtracts certain military pay from your income, but read this one carefully: the statute defines military pay to exclude retirement pay and pensions. Military retirement does not qualify.",
+      "amount": "Varies by category of service. Service not falling into a named category is capped at $6,000 a year.",
+      "eligibility": [
+        "Pay for service performed outside Oregon in the year of your initial draft or enlistment, or in the year of your discharge",
+        "Pay for service performed outside Oregon in any month beginning on or after 1 August 1990 and before the date the President designated as the end of combatant activities in the Persian Gulf Desert Shield area",
+        "Reserve component pay, where you were away from home overnight, were required to be away, and the duty lasted at least 21 consecutive days, which need not fall in the same tax year",
+        "Pay for an Oregon National Guard member in active state service or state active duty under ORS 396.005",
+        "Any other military pay not covered by those categories, up to $6,000 a year"
+      ],
+      "details": [
+        "The important catch sits in the definition. The statute defines military pay as pay for active duty, inactive duty, training and reserve component duty including state active duty, and any other compensation other than retirement pay or pension. Military retirement pay and pensions are therefore outside this subtraction entirely.",
+        "The total subtraction cannot exceed your total military pay included in federal taxable income for the year.",
+        "The $6,000 figure for the catch-all category is flat in the text. No inflation adjustment is written into it.",
+        "This subtraction lives in ORS 316.792, not in the main modification section at ORS 316.680, which has no military provision. If you are looking it up yourself, go straight to 316.792.",
+        "Amendments made in 2023 apply to tax years beginning on or after 1 January 2021."
+      ],
+      "agency": "Oregon Department of Revenue",
+      "statuteRef": "ORS 316.792",
+      "officialUrl": "https://www.oregonlegislature.gov/bills_laws/ors/ors316.html",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "or-veteran-property-tax-exemption",
+      "jurisdiction": "OR",
+      "category": "property-tax",
+      "title": "Property tax exemption for Veterans with disabilities",
+      "summary": "Oregon exempts part of the assessed value of your home if you are rated 40 percent or more disabled. There are two tiers, and the exempt amount rises by 3 percent every year, so ask your county assessor for this year's figure.",
+      "amount": "Two tiers of assessed value, each increasing by 3 percent a year. Get the current year's dollar figure from your county assessor.",
+      "eligibility": [
+        "You are a Veteran as defined in ORS 408.225, and you own and live in the homestead",
+        "Higher tier: the VA or a branch of service has certified service-connected disabilities of 40 percent or more",
+        "Lower tier: the VA or a branch has certified disabilities of 40 percent or more, without the service-connected requirement",
+        "Lower tier alternative: one licensed physician or naturopathic physician certifies you are rated 40 percent or more disabled, but only if your total gross income last calendar year was not more than 185 percent of the federal poverty guidelines",
+        "An unremarried surviving spouse of a Veteran qualifies for the lower tier, for the period before any first remarriage",
+        "An unremarried surviving spouse qualifies for the higher tier if the Veteran died from a service-connected injury or illness, or the Veteran received at least one year of the maximum higher-tier exemption after 1981"
+      ],
+      "details": [
+        "We are deliberately not publishing a current dollar figure here. The statute sets base amounts of $15,000 of assessed value for the lower tier and $18,000 for the service-connected tier, but it then provides that the exemption each year equals 103 percent of the prior tax year's exemption. The statute gives no starting year and no current figure, so any number we printed would be wrong within a year. The index is the thing to know: 3 percent, compounding, every year.",
+        "Your county assessor holds the current year's amount. Ask for it directly rather than working from a figure you read anywhere, including here.",
+        "File a written claim with the county assessor, on the assessor's form, on or before 1 April of the assessment year. If you acquired the property after 1 March and before 1 July, file within 30 days of acquiring it.",
+        "If you miss 1 April the assessor notifies you by 10 April, and you can still apply up to 1 May with a $10 late filing fee.",
+        "Most claimants do not refile each year. If the exemption was allowed last year, you still qualify under the same paragraph, and ownership and use have not changed, no new claim is needed. The exception is the physician-certified low-income route, which does have to be filed annually.",
+        "A VA or branch certificate has to be dated within three years. A physician certificate has to be dated within one year and comes with a sworn statement of total gross income. Every claim needs an affidavit.",
+        "The certificate requirement does not apply if you filed one after turning 65, or if you filed a certificate of a permanent rating on or after 27 September 1987.",
+        "A surviving spouse can elect to continue the exemption without a new claim where the Veteran died in the previous tax year, or where the homestead was acquired after 1 March and before 1 July and the Veteran died within 30 days of acquiring it. Notify the assessor. Taxes already paid are refunded and unpaid taxes abated.",
+        "If your federal certification of 40 percent or more disability arrives late, ORS 307.262 lets you claim for each tax year after the certified date, provided you file within six months of the federal notice and go back no more than three tax years."
+      ],
+      "agency": "County assessors",
+      "statuteRef": "ORS 307.250, claimed under ORS 307.260",
+      "officialUrl": "https://www.oregonlegislature.gov/bills_laws/ors/ors307.html",
+      "confidence": "needs-review",
       "source": {
         "id": "curated-benefits",
         "title": "USVetHub verified benefit records",

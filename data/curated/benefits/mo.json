@@ -1,0 +1,30 @@
+[
+  {
+    "id": "mo-property-tax-credit-disabled-veteran",
+    "jurisdiction": "MO",
+    "category": "property-tax",
+    "title": "Property tax credit for Veterans who are 100 percent disabled",
+    "summary": "Missouri has no standalone Veteran property tax exemption. What it has instead is the property tax credit, often called the circuit breaker, and a Veteran who became 100 percent disabled through service qualifies for it at any age.",
+    "amount": "For 2026, up to $1,550 of actual property tax paid, or up to $1,055 of rent treated as property tax. The credit itself is read from a Department of Revenue table.",
+    "eligibility": [
+      "You are a Veteran of any branch of the Armed Forces of the United States or of this state who became 100 percent disabled as a result of that service",
+      "That route has no age requirement, unlike the other ways into this credit",
+      "You own or rent a Missouri homestead of up to five acres",
+      "Your income falls under the maximum upper limit for your filing status",
+      "Renters qualify as well as owners, with 20 percent of gross rent paid treated as property taxes"
+    ],
+    "details": [
+      "Missouri has no conventional disabled Veteran homestead exemption. We looked through chapters 135 and 137 and found only this credit, which sits inside the senior citizens property tax relief program. If you have been told Missouri exempts a disabled Veteran's home from property tax, that is not what the statute does.",
+      "There is a real advantage buried in the income definition. A 100 percent service-connected disabled Veteran is not required to list Veterans payments and benefits as income for this credit. Most other claimants have to add their Veterans benefits back in, so the same household income goes further here.",
+      "The income ceilings for 2026 and later are $38,200 filing single, $42,200 single where you owned and occupied the homestead for the whole year, $41,000 married filing combined, and $48,000 married filing combined where you owned and occupied the homestead for the whole year.",
+      "These figures rose substantially for 2026. Before that the ceilings were $27,500, or $30,000 with an owned homestead, and the caps were $1,100 and $750.",
+      "From 1 January 2027 the amounts are adjusted annually for inflation. The credit totals are indexed to the Consumer Price Index for All Urban Consumers for the Midwest Region, and the upper limits to CPI-U. So treat the 2026 numbers above as current only for 2026.",
+      "The credit is not a single stated dollar amount in the statute. It comes off a table the director of revenue maintains, scaled by your income between a minimum base and the upper limit.",
+      "The Department of Revenue is directed to notify taxpayers who did not apply but appear to be eligible, so it is worth filing even if you are unsure."
+    ],
+    "agency": "Missouri Department of Revenue",
+    "statuteRef": "RSMo 135.010 to 135.030",
+    "officialUrl": "https://revisor.mo.gov/main/OneSection.aspx?section=135.030",
+    "confidence": "needs-review"
+  }
+]

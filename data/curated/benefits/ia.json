@@ -1,0 +1,80 @@
+[
+  {
+    "id": "ia-disabled-veteran-homestead-tax-credit",
+    "jurisdiction": "IA",
+    "category": "property-tax",
+    "title": "Disabled Veteran homestead tax credit",
+    "summary": "Iowa pays the entire property tax levied on your homestead if you hold a permanent 100 percent service-connected rating, or individual unemployability compensated at the 100 percent rate. Not a reduction, the whole bill.",
+    "amount": "The entire amount of the tax levied on the homestead",
+    "eligibility": [
+      "You are a Veteran as defined in Iowa Code 35.1 with a permanent service-connected disability rating of 100 percent, as certified by the US Department of Veterans Affairs",
+      "Or you hold a permanent and total disability rating based on individual unemployability that is compensated at the 100 percent disability rate",
+      "Former National Guard members meeting the Iowa Code 35.1 service requirements qualify on the same rating terms",
+      "A surviving spouse or child receiving dependency and indemnity compensation under 38 U.S.C. 1301 and following also qualifies",
+      "Veterans who acquired the homestead under specified federal housing grant provisions before 6 August 1991, or under 38 U.S.C. 2101 or 2102, qualify as well",
+      "You cannot take this credit and the separate military service property tax exemption at the same time"
+    ],
+    "details": [
+      "The statute is explicit that the credit is the entire amount of the tax levied on the homestead, so for most qualifying Veterans the homestead property tax bill goes to zero.",
+      "On individual unemployability, the detail matters. Iowa defines it by reference to a VA rating of permanent and total, requiring either a permanent service-connected rating of 60 percent, or two or more permanent conditions with one rated at least 40 percent and a combined rating of at least 70 percent, together with a VA individual unemployability adjustment.",
+      "The credit continues to the estate of a deceased owner, and to a surviving spouse and any child who are beneficiaries, for as long as the surviving spouse remains unmarried. Where eligibility came through dependency and indemnity compensation, it ends when that compensation ends.",
+      "Electing this credit rules out any other real property tax exemption provided by law for Veterans of military service. Compare it against the military service exemption before choosing, although for a qualifying Veteran this credit is almost always worth far more.",
+      "Once allowed, the claim carries forward for successive years without filing again, so long as you still own and occupy the homestead on 1 July each year, declare Iowa residency for income tax, and occupy the property at least six months each calendar year. A buyer or transferee has to file afresh.",
+      "There is an unresolved conflict about the filing window, and we are publishing it rather than picking a side. Iowa Code 425.2 says claims go to the assessor not later than 1 July of the year claimed, with a later claim counting for the following year. Iowa Code 425.20 describes a claim filed with the county treasurer between 1 January and 1 June immediately preceding the fiscal year the taxes are due. Ask your county assessor or treasurer which applies to this credit before you rely on a date."
+    ],
+    "agency": "County assessors, with the credit paid from the homestead credit fund",
+    "statuteRef": "Iowa Code 425.15",
+    "officialUrl": "https://www.legis.iowa.gov/docs/code/2025/425.15.rtf",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "ia-military-service-property-tax-exemption",
+    "jurisdiction": "IA",
+    "category": "property-tax",
+    "title": "Military service property tax exemption",
+    "summary": "Iowa takes $4,000 of taxable value off your property if you served at least 18 months and were discharged under honorable conditions. This is the broad exemption most Veterans qualify for, separate from the much larger disabled Veteran credit.",
+    "amount": "Up to $4,000 in taxable value, for assessment years beginning on or after 1 January 2023",
+    "eligibility": [
+      "You are an Iowa resident and a Veteran as defined in the section, which includes Air Force, merchant marine and Coast Guard service",
+      "You served for a minimum aggregate of 18 months and were discharged under honorable conditions",
+      "If you served fewer than 18 months but were honorably discharged because of a service-related injury, you still qualify",
+      "You can claim in one county only",
+      "You cannot take this exemption and the disabled Veteran homestead tax credit at the same time"
+    ],
+    "details": [
+      "The amount was raised from $1,852 to $4,000 for assessment years beginning on or after 1 January 2023, and the 2023 amendment applies retroactively to those years.",
+      "A separate and older provision sets $2,778 in taxable value for World War I Veterans, for assessment years beginning before 1 January 2023. The statute gives no post-2023 figure for that group.",
+      "This reduces taxable value, so what it saves you depends on your local levy rate. It is not a $4,000 cut to your tax bill.",
+      "File with your county assessor on the assessor's form, not later than 1 July of the year you are claiming.",
+      "You also have to record evidence of your discharge or separation with the county recorder where the property sits, and your claim has to state the volume and page of that recording.",
+      "Once allowed, the claim continues for successive years without filing again. Refile when the property is sold or transferred, or when you designate a different property. A seller or estate has to notify the assessor.",
+      "The assessor, then the county auditor, then the board of supervisors allow or disallow the claim. You can appeal to district court within 20 days of the board's mailed notice."
+    ],
+    "agency": "County assessors, county auditors and county boards of supervisors",
+    "statuteRef": "Iowa Code 426A.11, with filing under 426A.13",
+    "officialUrl": "https://www.legis.iowa.gov/docs/code/2025/426A.11.rtf",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "ia-military-retirement-income-exclusion",
+    "jurisdiction": "IA",
+    "category": "income-tax",
+    "title": "Military retirement pay is not taxed",
+    "summary": "Iowa subtracts federal military retirement pay from your income in full, with no dollar cap and no age requirement. It stacks on top of the general retirement income exclusion.",
+    "amount": "Full exclusion, with no dollar cap",
+    "eligibility": [
+      "The pay is retirement pay received from the federal government",
+      "It is for military service performed in the armed forces, the armed forces military reserve, or the national guard",
+      "It is subtracted to the extent it was included in your net income"
+    ],
+    "details": [
+      "There is no age condition on this exclusion. That is worth knowing, because Iowa's general retirement income exclusion in subsection 19 does carry one: it requires you to be disabled, or 55 or older. The military exclusion does not.",
+      "The statute says plainly that the military retirement exclusion is in addition to any exclusion under subsection 19, so the two stack rather than one replacing the other.",
+      "Survivor benefits under 10 U.S.C. 1447 and following sit in a separate subsection, so treat those as their own question rather than assuming they fall here."
+    ],
+    "agency": "Iowa Department of Revenue",
+    "statuteRef": "Iowa Code 422.7(20)(a)",
+    "officialUrl": "https://www.legis.iowa.gov/docs/code/2025/422.7.rtf",
+    "confidence": "needs-review"
+  }
+]
