@@ -1,0 +1,54 @@
+[
+  {
+    "id": "wv-military-retirement-subtraction",
+    "jurisdiction": "WV",
+    "category": "income-tax",
+    "title": "Military retirement is fully subtracted",
+    "summary": "West Virginia subtracts all military retirement income from your taxable income, with no dollar cap. It covers the regular Armed Forces, Reserves and National Guard, and survivorship annuities too.",
+    "amount": "Full subtraction, with no dollar cap",
+    "eligibility": [
+      "You receive military retirement income, including retirement income from the regular Armed Forces, Reserves and National Guard",
+      "It is subtracted to the extent included in your federal adjusted gross income",
+      "This applies for taxable years beginning after 31 December 2017",
+      "For taxable years beginning after 31 December 2018 the subtraction extends to retirement income from the uniformed services, covering the Army, Navy, Marines, Air Force, Space Force, Coast Guard, Public Health Service and NOAA"
+    ],
+    "details": [
+      "Survivorship annuities are covered as well as the retiree's own pay.",
+      "There is no dollar limit and no annual adjustment, so nothing to track year to year.",
+      "Older limits still appear in earlier subparagraphs of the same subdivision, including a 2 percent per year of service cap on the first $30,000 and a first $20,000 limit. Those applied to earlier tax years and are superseded for years beginning after 2017.",
+      "The subdivision carries an unusual severability clause: if a court held it unconstitutional, or held that it extends to people other than those specified, the subdivision would become null and void by operation of law."
+    ],
+    "agency": "West Virginia State Tax Department",
+    "statuteRef": "W. Va. Code 11-21-12(c)(7)(C)",
+    "officialUrl": "https://code.wvlegislature.gov/11-21-12/",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "wv-homestead-exemption-disabled",
+    "jurisdiction": "WV",
+    "category": "property-tax",
+    "title": "Homestead exemption for a permanently and totally disabled owner",
+    "summary": "West Virginia has no Veteran-specific property tax exemption. It has a general $20,000 homestead exemption, and a Veteran certified by the VA as totally and permanently disabled can qualify through the disability route.",
+    "amount": "The first $20,000 of assessed value of the homestead",
+    "eligibility": [
+      "You own and occupy the homestead exclusively for residential purposes",
+      "And you are 65 or older, or certified as being permanently and totally disabled",
+      "You have been, or will be, a West Virginia resident for the two consecutive calendar years preceding the tax year",
+      "A written certification signed by the Veterans Administration certifying that a person is totally and permanently disabled is accepted as proof of disability",
+      "You must swear you are not receiving a similar exemption in another state"
+    ],
+    "details": [
+      "Set expectations: there is no separate Veteran exemption in this section. A Veteran qualifies by meeting the general disability test, not by holding a particular VA rating.",
+      "That distinction matters. The statute defines permanently and totally disabled by functional capacity, being unable to engage in any substantial gainful activity because of a medically determinable condition expected to result in death or lasting at least twelve continuous months. It does not refer to VA ratings at all.",
+      "So a VA rating alone is not stated to be enough. What the statute accepts is a VA document certifying total and permanent disability. Ask the VA for that specific certification rather than sending a rating decision.",
+      "There is a Veteran-relevant residency rule worth knowing. An active duty member who keeps West Virginia as their state of residence, then returns and buys a homestead on retirement or on separation for permanent and total disability, is covered by an exception to the two year rule.",
+      "File with your county assessor on or before 1 December, following the 1 July assessment day. Missing that date waives the exemption for the next tax year.",
+      "A disabled claimant who files once and signs a statement agreeing to notify the assessor of any change does not need to refile unless they move.",
+      "The $20,000 is a fixed statewide amount with no indexing and no local option."
+    ],
+    "agency": "County assessors",
+    "statuteRef": "W. Va. Code 11-6B-3, with claims under 11-6B-4",
+    "officialUrl": "https://code.wvlegislature.gov/11-6B-3/",
+    "confidence": "needs-review"
+  }
+]

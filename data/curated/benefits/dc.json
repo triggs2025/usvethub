@@ -1,0 +1,29 @@
+[
+  {
+    "id": "dc-disabled-veteran-homestead-deduction",
+    "jurisdiction": "DC",
+    "category": "property-tax",
+    "title": "Disabled Veteran homestead deduction of $445,000",
+    "summary": "The District deducts $445,000 from the assessed value of your home if the VA classifies you as totally and permanently disabled from service, or pays you at the 100 percent rate for unemployability. That is more than six times the standard homestead deduction.",
+    "amount": "$445,000 deducted from the assessed value of the property",
+    "eligibility": [
+      "The property qualifies for the homestead deduction and is owned by a Veteran or eligible spouse",
+      "The VA has classified you as having a total and permanent disability as a result of a service-incurred or service-aggravated condition",
+      "Or the VA pays you at the 100 percent disability rating level as a result of unemployability",
+      "Your household must be an eligible household under the referenced provision, with certain income test subparagraphs excluded",
+      "An eligible spouse means the surviving spouse or domestic partner of a deceased Veteran whose property was receiving the deduction at death, or would have been eligible had the Veteran applied"
+    ],
+    "details": [
+      "Individual unemployability is covered here explicitly, which is not true in several other jurisdictions. If the VA pays you at the 100 percent rate for unemployability, you are named in the statute.",
+      "This appears to replace the standard homestead deduction rather than stack on top of it. The standard deduction provision begins with an exception for this one, and a property receiving this deduction cannot also receive the related credit or deduction elsewhere in the chapter. The statute does not use the word replace, so confirm the interaction with the Office of Tax and Revenue if the difference matters to you.",
+      "For comparison, the standard homestead deduction is $67,500 and is increased annually by a cost of living adjustment. The $445,000 Veteran figure carries no such annual increase in the text, so it is fixed until the Council changes it.",
+      "You apply to the District of Columbia Office of Veterans Affairs, not to the tax office. That office then certifies the disability to the Office of Tax and Revenue.",
+      "The deduction is apportioned equally between installments, and cannot be carried forward or back.",
+      "One caution on currency. The page carries an applicability note saying an earlier amendment was not implemented because its fiscal effect had not been included in an approved budget, and there are temporary emergency amendments tied to recent budget acts. The $445,000 figure is the current codified text, but confirm it is operative for your tax year before relying on it."
+    ],
+    "agency": "District of Columbia Office of Veterans Affairs, certifying to the Office of Tax and Revenue",
+    "statuteRef": "D.C. Code 47-850(a-2)",
+    "officialUrl": "https://code.dccouncil.gov/us/dc/council/code/sections/47-850",
+    "confidence": "needs-review"
+  }
+]

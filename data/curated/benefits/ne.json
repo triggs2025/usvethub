@@ -1,0 +1,52 @@
+[
+  {
+    "id": "ne-disabled-veteran-homestead-exemption",
+    "jurisdiction": "NE",
+    "category": "property-tax",
+    "title": "Full homestead exemption for a 100 percent disabled Veteran",
+    "summary": "Nebraska exempts 100 percent of the taxable value of your homestead if you draw compensation for a 100 percent service-connected permanent disability. There is no income test and no cap on the value of the home.",
+    "amount": "100 percent of the taxable value of the homestead, with no maximum value cap",
+    "eligibility": [
+      "You have an honorable discharge, or a general discharge under honorable conditions",
+      "And you draw compensation from the US Department of Veterans Affairs because of a 100 percent service-connected permanent disability, or an assignment of total disability rating under 38 C.F.R. 4.16",
+      "A separate category covers a 100 percent service-connected temporary disability",
+      "An unremarried surviving spouse of a service member whose death while on active duty was service-connected qualifies",
+      "So does an unremarried surviving spouse of a service member who died while on active duty during the periods described in section 80-401.01",
+      "You must occupy the homestead as owner of record from 1 January through 15 August of the year"
+    ],
+    "details": [
+      "This is one of the strongest Veteran property tax benefits in the country, for two reasons that are easy to miss. It exempts the full taxable value rather than a dollar slice, and it carries no income test at all.",
+      "Nebraska does have income-tested homestead exemptions, and they are the ones most guidance describes. Those sit in different sections and have CPI-adjusted income tables. They do not govern this Veteran category, and the statute says so expressly.",
+      "There is also no maximum value limit on this category. The value reduction that applies to the income-tested exemptions does not reach it.",
+      "You do not reapply every year on the permanent disability category or the surviving spouse categories. The one exception is the temporary disability category, where an application is required annually.",
+      "A surviving spouse who remarries after reaching 57 keeps the exemption. Remarrying before 57 ends it, and you have to notify the county assessor within 30 days.",
+      "We could not confirm the general filing deadline from the sections we read, because the section that used to carry it has been repealed. Confirm the date with your county assessor before relying on it.",
+      "Note one more nuance: a Veteran who is totally disabled by a non service-connected accident or illness falls under a different, income-tested category rather than this one."
+    ],
+    "agency": "County assessors, with the exemption reimbursed by the state",
+    "statuteRef": "Neb. Rev. Stat. 77-3506",
+    "officialUrl": "https://nebraskalegislature.gov/laws/statutes.php?statute=77-3506",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "ne-military-retirement-exclusion",
+    "jurisdiction": "NE",
+    "category": "income-tax",
+    "title": "Military retirement is fully excluded",
+    "summary": "From tax year 2022 Nebraska lets you exclude 100 percent of your military retirement benefit income. The older rules that allowed only 40 percent or 15 percent no longer apply.",
+    "amount": "100 percent exclusion, with no dollar cap",
+    "eligibility": [
+      "You receive military retirement benefit income included in your federal adjusted gross income",
+      "Military retirement benefit means periodic payments attributable to service in the uniformed services, reported on a Form 1099-R from the Department of Defense or the Office of Personnel Management",
+      "The full exclusion applies to taxable years beginning on or after 1 January 2022"
+    ],
+    "details": [
+      "Be careful with older guidance. For tax years 2015 through 2021 Nebraska ran an election between excluding 40 percent for seven years or 15 percent from age 67. That regime is finished, and anything still describing it is out of date.",
+      "There is no dollar amount involved in the current rule, so nothing to index or track year to year."
+    ],
+    "agency": "Nebraska Department of Revenue",
+    "statuteRef": "Neb. Rev. Stat. 77-2716(15)(b)",
+    "officialUrl": "https://nebraskalegislature.gov/laws/statutes.php?statute=77-2716",
+    "confidence": "needs-review"
+  }
+]

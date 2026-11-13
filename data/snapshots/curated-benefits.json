@@ -2,7 +2,7 @@
   "sourceId": "curated-benefits",
   "recordType": "benefit",
   "jurisdiction": null,
-  "generatedAt": "2026-11-13T06:01:04.712Z",
+  "generatedAt": "2026-11-13T06:08:02.881Z",
   "records": [
     {
       "id": "az-disabled-veteran-hunting-fishing-license",
@@ -686,6 +686,38 @@
       "agency": "Town assessors",
       "statuteRef": "C.G.S. 12-81(19)",
       "officialUrl": "https://www.cga.ct.gov/current/pub/chap_203.htm",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "de-military-pension-exclusion",
+      "jurisdiction": "DE",
+      "category": "income-tax",
+      "title": "Military pension exclusion, rising each year to 2029",
+      "summary": "Delaware excludes part of your military pension from state income tax, and the cap is on a legislated upward schedule: $12,500 now, $15,000 in 2027, $20,000 in 2028, and $25,000 from 2029.",
+      "amount": "Up to $12,500 of military pension through tax year 2026, then $15,000 for 2027, $20,000 for 2028, and $25,000 for 2029 and later",
+      "eligibility": [
+        "You receive a United States military pension, meaning a pension from service in the Army, Navy, Air Force, Marine Corps, Space Force, Coast Guard, the NOAA commissioned corps, the Public Health Service commissioned corps, or the National Guard",
+        "For tax years from 2022 through 2026, if you are under 60, the exclusion is the greater of up to $2,000 of employer or government pension, or up to $12,500 as a military pension",
+        "For those years, if you are 60 or older, the military pension falls under the general cap of $12,500",
+        "From the 2027 tax year the military cap rises to $15,000, from 2028 to $20,000, and from 2029 to $25,000",
+        "If you are 60 or older you must have been legally domiciled in Delaware for at least three years where you became domiciled before 1 January 2027, or at least five years where you became domiciled on or after that date"
+      ],
+      "details": [
+        "The schedule is the thing to plan around. These are fixed statutory amounts rising on set dates, with no inflation indexing, so a Veteran deciding when to move or retire can work out the effect exactly.",
+        "Watch the domicile rule if you are considering moving to Delaware at 60 or older. The qualifying period lengthens from three years to five for anyone becoming domiciled on or after 1 January 2027.",
+        "On a joint return the dollar limits apply to each spouse separately, but the total subtraction cannot exceed twice the relevant limit.",
+        "There is a separate $2,000 disability and age exclusion elsewhere in the same section. It is a different provision and is not part of the pension figures above.",
+        "We have not published a Delaware Veteran property tax record. Delaware property taxes are administered at county and school district level, and we did not locate a statewide Veteran credit in the county government title. That is an absence of evidence rather than evidence of absence, so ask your county office before concluding there is nothing."
+      ],
+      "agency": "Delaware Division of Revenue",
+      "statuteRef": "30 Del. C. 1106(b)(3)",
+      "officialUrl": "https://delcode.delaware.gov/title30/c011/sc02/index.html",
       "confidence": "needs-review",
       "source": {
         "id": "curated-benefits",
@@ -1675,6 +1707,104 @@
       "verifiedAt": "2026-11-13"
     },
     {
+      "id": "ma-military-retirement-income-exclusion",
+      "jurisdiction": "MA",
+      "category": "income-tax",
+      "title": "Military retirement pay is not taxed",
+      "summary": "Massachusetts excludes US government retirement pay for retired members of the uniformed services from state gross income, with no cap and no age test. Survivor benefits are covered too.",
+      "amount": "Full exclusion, with no dollar cap",
+      "eligibility": [
+        "The income is received from the United States government as retirement pay for a retired member of the uniformed services, as defined in 10 U.S.C. 1072",
+        "Survivorship benefits under 10 U.S.C. 1431 to 1460 are also excluded",
+        "The exclusion applies regardless of whether the retiree contributed to the retirement system"
+      ],
+      "details": [
+        "No condition on age, amount, residency or length of service appears in this provision.",
+        "This covers retirement pay. Active duty pay is not covered by this subparagraph, so treat that as a separate question. There is a related rule at Section 5A(c) treating active duty pay at Massachusetts posts as out of state income for nonresidents.",
+        "The same subparagraph also covers contributory state and federal pensions, so it is a broad provision rather than a Veteran-specific one."
+      ],
+      "agency": "Massachusetts Department of Revenue",
+      "statuteRef": "M.G.L. c. 62, s. 2(a)(2)(E)",
+      "officialUrl": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleIX/Chapter62/Section2",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "ma-surviving-family-full-property-tax-exemption",
+      "jurisdiction": "MA",
+      "category": "family",
+      "title": "Full property tax exemption for surviving spouses and parents",
+      "summary": "Massachusetts exempts the entire taxable valuation of the home for a surviving spouse of a service member who died from service, and for surviving parents or guardians where the town has accepted that clause.",
+      "amount": "The full taxable valuation, with no dollar cap",
+      "eligibility": [
+        "Clause 22D, surviving spouse: the service member died from a service-connected injury or illness documented by the VA or a branch of the armed forces, or is missing in action with a presumptive finding of death",
+        "For clause 22D the surviving spouse must have been domiciled in Massachusetts for the two consecutive years before filing, or the service member domiciled here at least six months before service",
+        "Clause 22H, surviving parent or guardian: the same death or missing in action condition applies",
+        "For clause 22H the parent or guardian must have been domiciled in Massachusetts for the five consecutive years immediately before filing",
+        "Clause 22H applies only where the city or town has accepted it"
+      ],
+      "details": [
+        "These are full exemptions of the taxable valuation, not the capped amounts that apply to the disability clauses, so they are worth far more.",
+        "Clause 22D took effect for tax years beginning on or after 1 January 2017 and is funded by the Commonwealth rather than the municipality.",
+        "Clause 22H took effect for tax years beginning on or after 1 January 2019 and remains available until the parent or guardian dies. Because it needs local acceptance, check with your assessor whether your town has adopted it.",
+        "Note the residency difference. A surviving spouse needs two consecutive years of Massachusetts domicile before filing, while a surviving parent or guardian needs five.",
+        "The annual cost of living increase in clause 22I and the local additional exemption in clause 22J are listed for the disability clauses rather than for 22D, 22G or 22H."
+      ],
+      "agency": "Local boards of assessors, with clause 22D funded by the Commonwealth",
+      "statuteRef": "M.G.L. c. 59, s. 5, clauses Twenty-second D and Twenty-second H",
+      "officialUrl": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleIX/Chapter59/Section5",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "ma-veteran-property-tax-exemption-clauses",
+      "jurisdiction": "MA",
+      "category": "property-tax",
+      "title": "Veteran property tax exemptions, by disability and circumstance",
+      "summary": "Massachusetts has a ladder of Veteran exemptions rather than one. Each gives you the greater of a cut in assessed valuation or a flat cut in the tax itself, starting at $400 off your bill with a 10 percent rating and rising with disability.",
+      "amount": "From $2,000 of valuation or $400 of tax at a 10 percent rating, up to $10,000 of valuation or $1,500 of tax, with full exemption in some cases",
+      "eligibility": [
+        "You are a legal resident of Massachusetts",
+        "And you were domiciled in Massachusetts for at least six months before entering service, or have been a resident for two consecutive years before filing",
+        "A city or town may lower that residency requirement to one year before filing",
+        "Clause 22, the base: a service-connected disability rating of 10 percent or more gives $2,000 of valuation or $400 of tax",
+        "Clause 22A: loss of use of one foot at or above the ankle or one hand at or above the wrist, a statutory award for loss of one eye, the Medal of Honor, Distinguished Service Cross, Navy Cross or Air Force Cross, or prisoner of war status, gives $4,000 or $750",
+        "Clause 22B: loss of both feet, both hands, one foot and one hand, or sight of both eyes, gives $8,000 or $1,250",
+        "Clause 22C: permanent and total disability in line of duty with assistance acquiring specially adapted housing gives $10,000 or $1,500",
+        "Clause 22E: a 100 percent VA disability rating from service-connected disabilities gives $6,000 or $1,000",
+        "Clause 22F: paraplegia, or a 100 percent rating for service-connected blindness, covers the domicile with no dollar figure stated"
+      ],
+      "details": [
+        "Read the amounts carefully. Each clause says whichever would result in an abatement of the greater amount of actual taxes due, so you get the better of a reduction in assessed valuation or a flat reduction in the tax. The first figure is valuation, the second is tax. For most homes the flat tax figure is the one that bites.",
+        "Qualifying factors such as age and ownership are determined as of 1 July each year.",
+        "You cannot stack these. A person receiving an exemption under clauses 22 through 22G cannot also take another Section 5 exemption on the same property, with narrow exceptions for clauses Eighteenth and Forty-fifth.",
+        "Two clauses are worth asking your town about, because they can increase everything above. Clause 22I, where accepted by the city or town and certified by the commissioner of revenue, increases the abatement annually by the rise in the cost of living under CPI. Clause 22J, also on local acceptance, allows an additional exemption of up to 100 percent of what you already qualify for, set by the local legislative body and applied uniformly.",
+        "Because 22I and 22J depend on local acceptance, two Veterans with identical ratings in neighbouring towns can receive very different amounts. Ask your assessor which clauses your town has accepted.",
+        "Clause 22G extends clauses 22 through 22F to property held by a trustee, conservator or other fiduciary for your benefit, but only where the city or town has accepted it.",
+        "The base clause also covers Spanish American War service, Purple Heart recipients with no proof of disability needed, spouses and surviving spouses, and parents of those who died in service."
+      ],
+      "agency": "Local boards of assessors, with cost shared between the municipality and the Commonwealth",
+      "statuteRef": "M.G.L. c. 59, s. 5, clauses Twenty-second through Twenty-second J",
+      "officialUrl": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleIX/Chapter59/Section5",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
       "id": "md-disabled-veteran-dwelling-house-exemption",
       "jurisdiction": "MD",
       "category": "property-tax",
@@ -1734,6 +1864,73 @@
       "agency": "Comptroller of Maryland",
       "statuteRef": "Md. Code, Tax-General 10-207(q)",
       "officialUrl": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtg&section=10-207&enactments=false",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "me-military-retirement-income-subtraction",
+      "jurisdiction": "ME",
+      "category": "income-tax",
+      "title": "Military retirement pay is fully subtracted",
+      "summary": "Maine subtracts the full amount of military retirement benefits from your income, with no dollar cap. Unlike the general pension deduction, it is not reduced by the high income phase-out.",
+      "amount": "Full subtraction of military retirement benefits included in federal adjusted gross income, with no cap",
+      "eligibility": [
+        "You receive retirement benefits under a military retirement plan included in your federal adjusted gross income",
+        "A military retirement plan means service in the active or reserve components of the Army, Navy, Air Force, Marines, Coast Guard or Space Force",
+        "For tax years beginning on or after 1 January 2026 the definition becomes uniformed services as defined in 37 U.S.C. 101(3)"
+      ],
+      "details": [
+        "Maine's modification has two clauses and the distinction matters. Clause (a) is the general pension deduction, which is capped and reduced for higher incomes. Clause (b) is the military one, and it has no dollar cap in the text.",
+        "The high income phase-out that starts at $125,000 of federal adjusted gross income for a single filer, $187,500 for head of household and $250,000 for joint filers applies to the general clause only. It does not reduce the military subtraction.",
+        "The general pension deduction amount, for context, was $10,000 before 2022, $25,000 for 2022, $30,000 for 2023, and from 2024 is tied to the maximum annual Social Security benefit as of 28 June 2023.",
+        "This provision applies to tax years beginning on or after 1 January 2016."
+      ],
+      "agency": "Maine Revenue Services",
+      "statuteRef": "36 M.R.S. 5122(2)(M-2)",
+      "officialUrl": "https://legislature.maine.gov/statutes/36/title36sec5122.html",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "me-veteran-property-tax-exemption",
+      "jurisdiction": "ME",
+      "category": "property-tax",
+      "title": "Veteran property tax exemption, scheduled to end in 2027",
+      "summary": "Maine exempts $6,000 of just value for qualifying Veterans at 62 or on a total disability pension, and $50,000 for a home bought with a federal specially adapted housing grant. Act on this now: the statute says these exemptions are discontinued for property tax years beginning on or after 1 April 2027.",
+      "amount": "$6,000 of just value in the standard case, $7,000 for World War I era service, and $50,000 for specially adapted housing",
+      "eligibility": [
+        "You are a resident of Maine and a Veteran who served on active duty and was discharged under other than dishonorable conditions",
+        "You served in a listed war period, including the Korean Conflict, the Vietnam War, the Persian Gulf War, 24 August 1982 to 31 July 1984, 20 December 1989 to 31 January 1990, Operations Enduring Freedom, Iraqi Freedom and New Dawn, or 1 February 1955 to 27 February 1961, or you received an expeditionary medal",
+        "And you have reached 62, or you receive any form of pension or compensation from the United States Government for total disability, whether service-connected or not",
+        "Alternatively, with no age test: you are disabled by injury or disease incurred or aggravated during active service in the line of duty and receive pension or compensation for total, service-connected disability",
+        "An unremarried surviving spouse, minor child, or a parent aged 62 or over receiving a federal pension for the Veteran's service-connected death, qualifies for $6,000",
+        "A Veteran described in 38 U.S.C. 2101 who received a federal grant for specially adapted housing qualifies for $50,000, as does their unremarried surviving spouse"
+      ],
+      "details": [
+        "The sunset is the most important thing on this page. Subsection 3 was added by PL 2025 chapter 650 and says these exemptions are discontinued beginning with property tax years beginning on or after 1 April 2027. Unless the Legislature changes that, Maine Veterans have a limited window. If you qualify and have not applied, apply now.",
+        "The age 62 route is broader than it is usually described. It accepts any form of pension or compensation from the federal government for total disability, service-connected or nonservice-connected. A Veteran with a nonservice-connected total disability pension still qualifies.",
+        "The disability route has no age test at all, but it does require total, service-connected disability.",
+        "World War I era service carries higher figures: $7,000 rather than $6,000, including for surviving spouses, minor children and qualifying parents.",
+        "The specially adapted housing figure of $50,000 is more than eight times the standard exemption, so it is worth checking whether a federal housing grant was involved.",
+        "Apply on or before 1 April in the year you first request it, filing with the assessors of the place where you live. Once granted it continues while you remain a resident, until the assessors are notified otherwise.",
+        "Only one paragraph of the exemption can apply, so you take the best one rather than adding them together.",
+        "The exemption extends to property held in joint tenancy with a spouse, in a revocable living trust for the Veteran, and to cooperative housing shareholders.",
+        "The local assessed value of the exemption is the amount multiplied by the local ratio of current just value to assessed value, so the figure on your bill may not match the headline number.",
+        "All the dollar amounts are fixed in the statute. There is no inflation adjustment."
+      ],
+      "agency": "Local assessors",
+      "statuteRef": "36 M.R.S. 653",
+      "officialUrl": "https://legislature.maine.gov/statutes/36/title36sec653.html",
       "confidence": "needs-review",
       "source": {
         "id": "curated-benefits",
@@ -4241,6 +4438,70 @@
       "statuteRef": "Va. Code 2.2-2903",
       "officialUrl": "https://law.lis.virginia.gov/vacode/title2.2/chapter29/section2.2-2903/",
       "confidence": "verified",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "vt-military-retirement-income-exclusion",
+      "jurisdiction": "VT",
+      "category": "income-tax",
+      "title": "Military retirement and survivor benefits, excluded below an income limit",
+      "summary": "Vermont excludes all federally taxable military retirement and survivor benefit income if your federal adjusted gross income is $125,000 or less. Between $125,000 and $175,000 the exclusion tapers away, and above $175,000 there is none.",
+      "amount": "Full exclusion at federal AGI of $125,000 or less, tapering to nothing at $175,000",
+      "eligibility": [
+        "You receive US military retirement income, or US military survivor benefit income as an eligible beneficiary",
+        "If your federal adjusted gross income is $125,000 or less, all federally taxable military retirement and survivor benefit income is excluded",
+        "If it is above $125,000 but below $175,000, a proportional share is excluded",
+        "If it is $175,000 or more, nothing is excluded"
+      ],
+      "details": [
+        "The taper is linear rather than a cliff. The excluded share is 175,000 minus your federal adjusted gross income, divided by 50,000, applied to your federally taxable military retirement and survivor income.",
+        "This is not a fixed dollar cap. Below the threshold the whole amount comes out, however large it is, which is more generous than the capped exclusions several neighbouring states use.",
+        "A taxpayer eligible for the military exclusion may elect it even while also electing one of Vermont's other retirement income exclusions.",
+        "The thresholds are stated as fixed dollar figures with no indexing, so they do not move with inflation.",
+        "The current form of this provision took effect on 1 January 2025."
+      ],
+      "agency": "Vermont Department of Taxes",
+      "statuteRef": "32 V.S.A. 5830e(d)",
+      "officialUrl": "https://legislature.vermont.gov/statutes/section/32/151/05830e",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "vt-veteran-property-tax-exemption",
+      "jurisdiction": "VT",
+      "category": "property-tax",
+      "title": "Veteran property tax exemption",
+      "summary": "Vermont exempts $10,000 of appraisal value on the home of a Veteran receiving disability compensation at 50 percent or more. Your town can vote to raise that to as much as $40,000, so the amount depends on where you live.",
+      "amount": "$10,000 of appraisal value, which a town may vote to increase to up to $40,000",
+      "eligibility": [
+        "The property is your established residence, owned in fee simple by you, your spouse, widow, widower or child, or jointly",
+        "One or more of you receives disability compensation for at least 50 percent disability, death compensation, dependence and indemnity compensation, or a pension for disability paid through any military department or the Veterans Administration",
+        "Any part of the property used for business or rental is excluded",
+        "An unremarried widow or widower of a previously qualified Veteran is entitled to the exemption whether or not they themselves receive government compensation or pension",
+        "Only one exemption is allowed per property"
+      ],
+      "details": [
+        "The town option is the part worth acting on. By majority vote at an annual or special meeting warned for the purpose, a town may increase the exemption to up to $40,000 of appraisal value. Once voted it stays until amended or repealed by a similar vote. If your town has not voted one, that is a thing to raise locally.",
+        "Note the 50 percent threshold. Vermont sets the bar lower than many states, which require 70 or 100 percent.",
+        "Apply to the Office of Veterans Affairs before 1 May each year, with a written statement from the Military Department or the VA. This is unusual: you file with the state Veterans office rather than your town assessor.",
+        "If your disability is permanent you only need to apply once, before 1 May of the first year.",
+        "The surviving spouse provision is notably generous. An unremarried widow or widower keeps the exemption even if they receive no compensation or pension of their own.",
+        "Both the $10,000 and the $40,000 ceiling are fixed in the statute with no inflation adjustment, so changing them requires legislation, or a town vote within the existing ceiling."
+      ],
+      "agency": "Vermont Office of Veterans Affairs, with the exemption applied by the town",
+      "statuteRef": "32 V.S.A. 3802(11)",
+      "officialUrl": "https://legislature.vermont.gov/statutes/section/32/125/03802",
+      "confidence": "needs-review",
       "source": {
         "id": "curated-benefits",
         "title": "USVetHub verified benefit records",

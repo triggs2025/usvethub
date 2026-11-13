@@ -1,0 +1,56 @@
+[
+  {
+    "id": "ri-veterans-property-tax-exemptions",
+    "jurisdiction": "RI",
+    "category": "property-tax",
+    "title": "Veterans property tax exemptions, set town by town",
+    "summary": "Rhode Island sets small base exemptions in statute and then lets each city and town set its own, so the amount you actually get depends almost entirely on where you live. The statutory base is $1,000 plus a further $1,000, but municipal figures run far higher.",
+    "amount": "A $1,000 base plus a further $1,000 in statute, with municipal amounts varying widely above that. Ask your local assessor for the figure that applies to you.",
+    "eligibility": [
+      "You served in a qualifying conflict, which the statute lists from the Civil War through the Bosnian conflict, including World War II service between 7 December 1941 and 31 December 1946 and Cold War service from 1947 through 1991",
+      "The statute also covers any conflict or undeclared war",
+      "You were honorably discharged, or discharged under conditions other than dishonorable, or served honorably if not discharged",
+      "You are a legal resident of Rhode Island, and the exemption applies in the municipality where you live",
+      "An unmarried widow or widower of a qualifying person also qualifies",
+      "Higher amounts apply for total service-connected disability, specially adapted housing, and prisoner of war status, where the municipality has adopted them"
+    ],
+    "details": [
+      "Treat the statutory figures as a floor and nothing more. The statute names roughly 22 municipalities with different amounts, some fixed in the statute itself and some set by local ordinance up to a maximum. Newport is set at $4,000, Cumberland may provide up to $23,772 by ordinance, Cranston is capped at $3,000. Your town is the only reliable source.",
+      "A Veteran determined by the VA to be totally disabled through a service-connected disability, who received assistance acquiring specially adapted housing, gets a $10,000 exemption on real property that is their domicile, with municipal variations.",
+      "Separately, a Veteran discharged under conditions other than dishonorable, or honorably separated as an officer, who is totally and permanently disabled through a service-connected disability and owns a specially adapted homestead, is exempt from all taxation on that homestead. Westerly sets this at $46,500. That is the most valuable route in the section, so check it first if specially adapted housing is involved.",
+      "A municipality may by ordinance give a $10,000 exemption for total disability on real or personal property, and an additional $15,000 for a Veteran classified or determined to be a prisoner of war by the Veterans Administration.",
+      "Some towns have options we could not fully resolve. Burrillville may exempt $6,000 for a totally disabled Veteran, Middletown $5,000, Jamestown has a credit for 100 percent totally disabled Veterans, and Warren and Bristol have partial disability provisions. Scituate may give a council-set credit in place of a full exemption.",
+      "Evidence has to be presented to the assessors by the statutory deadline for sworn statements. South Kingstown has its own deadline, five days before the tax roll is certified.",
+      "A municipal exemption extends to a life estate held by the qualified Veteran.",
+      "None of these figures are indexed, so they do not rise with inflation. They change only when the legislature or a town council acts.",
+      "We did not find any Gold Star parent provision in this section."
+    ],
+    "agency": "Local assessors, under ordinances adopted by each city and town",
+    "statuteRef": "R.I. Gen. Laws 44-3-4",
+    "officialUrl": "https://webserver.rilegislature.gov/Statutes/TITLE44/44-3/44-3-4.HTM",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "ri-military-service-pension-modification",
+    "jurisdiction": "RI",
+    "category": "income-tax",
+    "title": "Military service pension subtraction",
+    "summary": "Rhode Island lets you subtract military service pension benefits from your federal adjusted gross income. Confirm with the Division of Taxation that it applies to your tax year, because the text we read names 2023 without an explicit continuation.",
+    "eligibility": [
+      "You receive military service pension benefits included in your federal adjusted gross income",
+      "Military service takes the meaning set out in 20 C.F.R. 212.2",
+      "The subtraction cannot exceed the military service pension you actually received in the tax year"
+    ],
+    "details": [
+      "We are flagging a genuine uncertainty rather than papering over it. The provision we read states that it applies for the tax years beginning on 1 January 2023, and the text as published does not carry an express and thereafter clause. Later session laws are listed in the history without saying which subsections they changed.",
+      "That means we cannot tell you from the statute alone whether this subtraction applies to the current tax year. Ask the Rhode Island Division of Taxation before you file. We would rather say that than guess.",
+      "Note the scope too. This subtracts military service pension benefits specifically. It is not a general exclusion of all military retirement pay, and the wording matters if your payments come from a different source.",
+      "There is a combined cap. This subtraction, together with Rhode Island's separate pension and annuity modification, cannot exceed the military service pension received in the tax year. That separate modification allows up to $50,000 of taxable pension or annuity income for tax years beginning on or after 1 January 2025, subject to income and age conditions.",
+      "The separate pension modification carries CPI adjustment language. This military one does not."
+    ],
+    "agency": "Rhode Island Division of Taxation",
+    "statuteRef": "R.I. Gen. Laws 44-30-12(c)(11)",
+    "officialUrl": "https://webserver.rilegislature.gov/Statutes/TITLE44/44-30/44-II/44-30-12.htm",
+    "confidence": "needs-review"
+  }
+]

@@ -1,0 +1,55 @@
+[
+  {
+    "id": "id-disabled-veteran-property-tax-reduction",
+    "jurisdiction": "ID",
+    "category": "property-tax",
+    "title": "Property tax reduction for a 100 percent disabled Veteran",
+    "summary": "Idaho takes up to $1,500 off your property tax bill if you are rated 100 percent service-connected, or hold individual unemployability compensated at the 100 percent rate. There is no income test on this one.",
+    "amount": "$1,500, or the amount of your actual property taxes if that is less",
+    "eligibility": [
+      "You are a Veteran with a service-connected disability of 100 percent, as certified by the US Department of Veterans Affairs",
+      "Or you have a disability rating based on individual unemployability that is compensated at the 100 percent disability rate",
+      "You own and occupy the homestead, meaning your primary dwelling and not more than one acre of surrounding land",
+      "This applies for tax year 2021 and thereafter"
+    ],
+    "details": [
+      "The no income test point is the important one. Idaho's general property tax reduction, the circuit breaker, is income tested and requires income documentation. This Veteran reduction expressly excludes any income documentation requirement.",
+      "The $1,500 is fixed in the statute. There is no annual inflation adjustment, so it does not keep pace with rising bills.",
+      "You cannot get back more than you pay. Combined with the general reduction, the total cannot exceed the actual property taxes on your homestead.",
+      "Once you have received it, you do not apply again in later years unless you change homesteads, which is unusual and worth knowing.",
+      "Claims are filed with your county assessor between 1 January and 15 April each year. If 15 April falls on a weekend or a holiday recognised by the IRS, the next business day counts as timely.",
+      "If you move after 15 April there is a process for transferring the benefit to a new homestead, with notice to the Tax Commission before 1 October.",
+      "A surviving spouse is entitled to continue receiving the reduction in that year and later years, until they remarry, die, or no longer have property tax levied on the homestead.",
+      "Separately, Idaho's general property tax reduction has a much lower bar, covering a Veteran with a service-connected disability of 10 percent or more or a pension for non service-connected disabilities, but it is income tested. If you do not meet the 100 percent threshold, ask about that one instead."
+    ],
+    "agency": "County assessors, administered with the Idaho State Tax Commission",
+    "statuteRef": "Idaho Code 63-705A, filed under 63-706",
+    "officialUrl": "https://legislature.idaho.gov/statutesrules/idstat/Title63/T63CH7/SECT63-705A",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "id-military-retirement-benefit-deduction",
+    "jurisdiction": "ID",
+    "category": "income-tax",
+    "title": "Military retirement deduction, capped at the Social Security maximum",
+    "summary": "Idaho lets a retired service member deduct military retirement pay if you are 62 or older, or classified as disabled. The cap is not a fixed figure: it tracks the maximum Social Security benefit and the Tax Commission publishes it each year.",
+    "amount": "Capped at the maximum retirement benefit under the Social Security Act, adjusted annually. The Tax Commission publishes the figure each year.",
+    "eligibility": [
+      "You are a retired member of the military services of the United States, or the unremarried widow or widower of such a member",
+      "And you have attained the age of 62 by the end of the tax year",
+      "Or you are classified as disabled under the definition in the statute",
+      "Or you were employed during the tax year and received enough income from that employment to be required to file a federal return"
+    ],
+    "details": [
+      "Watch the age threshold. Military retirement sits in a different paragraph from civil service, firefighter and police retirement, and that other paragraph uses age 65. For military retirement the age is 62.",
+      "We are deliberately not printing a dollar figure. The deduction is capped at the maximum retirement benefit under the Social Security Act including CPI adjustments, and the State Tax Commission publishes the appropriate deduction amount annually. Any number we printed would be stale within a year, so get the current one from the Tax Commission.",
+      "The deduction cannot exceed the retirement benefits actually included in your gross income.",
+      "It must be reduced by any federal railroad retirement or Social Security benefits received by you or your spouse, which in practice removes much of the benefit for many retirees. Work the numbers before assuming it helps.",
+      "Being classified as disabled here follows Idaho's own definitions rather than a VA rating, so check how your rating maps to them."
+    ],
+    "agency": "Idaho State Tax Commission",
+    "statuteRef": "Idaho Code 63-3022A(1)(b)",
+    "officialUrl": "https://legislature.idaho.gov/statutesrules/idstat/Title63/T63CH30/SECT63-3022A",
+    "confidence": "needs-review"
+  }
+]
