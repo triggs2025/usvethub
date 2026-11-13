@@ -1,0 +1,58 @@
+[
+  {
+    "id": "md-disabled-veteran-dwelling-house-exemption",
+    "jurisdiction": "MD",
+    "category": "property-tax",
+    "title": "Disabled Veteran dwelling house exemption",
+    "summary": "Maryland exempts your whole dwelling house from property tax if the VA has declared you permanently 100 percent service-connected disabled. There is no dollar cap and no partial exemption at lower ratings.",
+    "amount": "The entire dwelling house is exempt from property tax, with no dollar cap",
+    "eligibility": [
+      "The VA has declared you to have a permanent 100 percent service-connected disability, resulting from blindness or another disabling cause",
+      "The disability is reasonably certain to continue for the life of the Veteran",
+      "The disability was not caused or incurred by misconduct of the Veteran",
+      "A disabled active duty service member with a service-connected disability reasonably certain to continue for life also qualifies",
+      "A surviving spouse who has not remarried qualifies, in the situations set out below",
+      "Posthumous qualification is provided for"
+    ],
+    "details": [
+      "Dwelling house means the real property that is your legal residence and is occupied by not more than two families. It includes the lot or curtilage and the structures necessary to use the property as a residence. There is no separate acreage cap in the section.",
+      "There is no partial exemption. The section has nothing for ratings below 100 percent, so this is all or nothing.",
+      "One thing to check rather than assume: the statute requires a permanent 100 percent rating and does not mention individual unemployability at all. If your 100 percent compensation comes through individual unemployability, ask the Department of Assessments and Taxation directly how they treat it, because the text does not answer it either way.",
+      "You apply to the supervisor with a copy of your discharge certificate, plus either the Department form with VA certification of the disability, or a VA rating decision that includes the effective date of the rating.",
+      "You can apply before buying a specific dwelling. The Department has to send a preliminary approval or denial within 15 business days.",
+      "The exemption is prorated for the part of the tax year remaining after you apply. If you apply within 30 days after settlement, tax is abated from the settlement date.",
+      "There is a refund for years in which the exemption was authorized but not granted, and this is the part people miss. A disabled Veteran must claim it within the three-year period beginning with the calendar year they first became eligible, and a surviving spouse has a parallel three-year window. Interest is owed if the refund is not paid within 60 days of application.",
+      "A surviving spouse keeps the exemption on the former home that had it, if they own and reside there. They can also claim on a home the Veteran occupied that was not exempt, if the Veteran was domiciled in Maryland at death and the spouse owns and resides there. A later-acquired home can carry an exemption equal to the prior one.",
+      "You may take this exemption or the one in Section 7-207, but not both. It does stack with other exemptions authorized by law.",
+      "Counties are required to print notice of this exemption on the tax bill."
+    ],
+    "agency": "Maryland State Department of Assessments and Taxation",
+    "statuteRef": "Md. Code, Tax-Property 7-208",
+    "officialUrl": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtp&section=7-208&enactments=false",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "md-military-retirement-income-subtraction",
+    "jurisdiction": "MD",
+    "category": "income-tax",
+    "title": "Military retirement income subtraction",
+    "summary": "Maryland subtracts part of your military retirement income, and how much depends on your age on the last day of the tax year: $12,500 under 55, and $20,000 at 55 or older.",
+    "amount": "The first $12,500 of military retirement income if under 55, or the first $20,000 if 55 or older, on the last day of the taxable year",
+    "eligibility": [
+      "You are a Maryland resident and the income is included in your federal adjusted gross income",
+      "Military retirement income means retirement income, including death benefits, received as a result of military service",
+      "If you are under 55 on the last day of the taxable year, the first $12,500 is subtracted",
+      "If you are at least 55 on the last day of the taxable year, the first $20,000 is subtracted"
+    ],
+    "details": [
+      "The age test is taken on the last day of the taxable year, not your age when you retired or your age for part of the year.",
+      "Both figures are fixed dollar amounts written into the statute. There is no indexing or annual adjustment language in this subsection, so they do not rise with inflation on their own.",
+      "This subtraction is capped, unlike the full exemptions several neighbouring states give. Military retirement above the threshold for your age remains taxable in Maryland.",
+      "Note that some other Maryland subtractions do have scheduled step-ups written into them, for example the public safety pension subtraction. Those schedules do not apply to military retirement."
+    ],
+    "agency": "Comptroller of Maryland",
+    "statuteRef": "Md. Code, Tax-General 10-207(q)",
+    "officialUrl": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtg&section=10-207&enactments=false",
+    "confidence": "needs-review"
+  }
+]

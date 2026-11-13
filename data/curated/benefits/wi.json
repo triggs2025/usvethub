@@ -1,0 +1,56 @@
+[
+  {
+    "id": "wi-veterans-surviving-spouses-property-tax-credit",
+    "jurisdiction": "WI",
+    "category": "property-tax",
+    "title": "Veterans and surviving spouses property tax credit",
+    "summary": "Wisconsin refunds the full property tax on your principal dwelling if you hold a 100 percent service-connected rating or individual unemployability at the 100 percent rate. It is paid as a refundable income tax credit, so you get the money even if you owe no income tax.",
+    "amount": "The full amount of the property taxes on your principal dwelling, with no cap written into the statute",
+    "eligibility": [
+      "You served on active duty under honorable conditions",
+      "You were a resident of Wisconsin at the time of entry into that active service, or you were a resident for any consecutive five-year period after entry",
+      "You are currently a Wisconsin resident for the purpose of receiving Veterans benefits under chapter 45",
+      "The VA rates you 100 percent service-connected under 38 U.S.C. 1114 or 1134, or 100 percent based on individual unemployability",
+      "An eligible unremarried surviving spouse can claim in place of the Veteran, in four defined situations"
+    ],
+    "details": [
+      "Understand the mechanism, because it does not look like other states. This is not a reduction in assessed value. It is a credit against your Wisconsin income tax equal to the property taxes you paid, and any part of it that exceeds the income tax you owe is certified to the Department of Administration and paid out to you. A Veteran with no income tax liability still receives the full amount.",
+      "On individual unemployability, Wisconsin spells out what it means: a 60 percent rating, or combined ratings built on a 40 percent and 70 percent structure, together with an administrative adjustment to 100 percent.",
+      "The residency rule has two independent routes. Being a Wisconsin resident when you entered service qualifies you, and so does any consecutive five-year period of residency after you entered. You do need to be a Wisconsin resident now.",
+      "A surviving spouse qualifies if the Veteran died while on active duty as a Wisconsin resident, or served under honorable conditions and was a resident at death with a 100 percent rating or individual unemployability, or was a National Guard or reserve member who died in the line of duty on active or inactive training duty while a resident, or where the spouse receives dependency and indemnity compensation under 38 U.S.C. 101(14). The Department of Veterans Affairs verifies which applies.",
+      "Property taxes here exclude special assessments, delinquent interest and service charges. They also exclude any portion deductible as a trade or business expense, and joint owners are limited to their ownership share.",
+      "Where spouses file separate returns, each can claim based on their ownership interest.",
+      "You cannot claim this and the homestead credit under subsection (9), or credits under subchapters VIII or IX, for the same year.",
+      "There is no dollar cap and no inflation adjustment in this subsection. The credit tracks your actual property tax bill.",
+      "The statute is framed around property taxes paid on a principal dwelling, and does not address renters. If you rent, ask the Department of Revenue rather than assuming either way."
+    ],
+    "agency": "Wisconsin Department of Revenue, with eligibility verified by the Wisconsin Department of Veterans Affairs",
+    "statuteRef": "Wis. Stat. 71.07(6e)",
+    "officialUrl": "https://docs.legis.wisconsin.gov/statutes/statutes/71/i/07/6e",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "wi-military-retirement-and-active-duty-pay-exemption",
+    "jurisdiction": "WI",
+    "category": "income-tax",
+    "title": "Military retirement and active duty pay are not taxed",
+    "summary": "Wisconsin exempts all retirement payments from the US military retirement system, with no dollar cap and no residency condition in the statute. Active duty basic, special and incentive pay is also subtracted.",
+    "amount": "Full exemption of military retirement payments, with no dollar cap",
+    "eligibility": [
+      "Retirement payments received from the US military employee retirement system are exempt",
+      "Uniformed services retirement from the Coast Guard, the NOAA commissioned corps and the Public Health Service commissioned corps is covered by a parallel paragraph",
+      "Active duty basic, special and incentive pay under 37 U.S.C. chapters 3 and 5 is subtracted, for taxable years beginning after 31 December 2020",
+      "Reserve component pay is subtracted where the member was called up under 10 U.S.C. 12302(a), 12304 or 12304b, or served under 32 U.S.C. 502(f)"
+    ],
+    "details": [
+      "The military retirement provision sits in the exemptions at 71.05(1)(am), not among the subtractions in 71.05(6)(b). If you are looking it up yourself, that distinction will save you time.",
+      "No residency condition is stated for the retirement exemption, and no dollar amount appears in it.",
+      "From taxable years beginning after 31 December 2025, a further provision covers basic pay under 37 U.S.C. 204(a)(2) for National Guard and reserve members, along with inactive duty training compensation, to the extent it is not already subtracted.",
+      "There are separate provisions covering the pay of a service member who dies in a combat zone, for taxable years after 2012."
+    ],
+    "agency": "Wisconsin Department of Revenue",
+    "statuteRef": "Wis. Stat. 71.05(1)(am), with active duty pay at 71.05(6)(b)56",
+    "officialUrl": "https://docs.legis.wisconsin.gov/document/statutes/71.05",
+    "confidence": "needs-review"
+  }
+]

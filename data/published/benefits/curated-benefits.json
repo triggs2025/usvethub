@@ -2,7 +2,7 @@
   "sourceId": "curated-benefits",
   "recordType": "benefit",
   "jurisdiction": null,
-  "generatedAt": "2026-11-13T05:21:56.252Z",
+  "generatedAt": "2026-11-13T05:28:30.654Z",
   "records": [
     {
       "id": "az-disabled-veteran-hunting-fishing-license",
@@ -583,6 +583,109 @@
       "agency": "California Department of Veterans Affairs (CalVet)",
       "statuteRef": "Cal. Mil. & Vet. Code 1012, homes defined at Cal. Mil. & Vet. Code 1010",
       "officialUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=MVC&sectionNum=1012.",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "ct-disability-rating-property-tax-exemption",
+      "jurisdiction": "CT",
+      "category": "property-tax",
+      "title": "Property tax exemption by disability rating",
+      "summary": "Connecticut exempts between $2,000 and $3,500 of assessed value depending on your VA disability rating, and reaches the top amount automatically once you turn 65. A separate provision gives $10,000 for specific severe disabilities.",
+      "amount": "$2,000 at 10 to 25 percent, $2,500 above 25 and up to 50 percent, $3,000 above 50 and up to 75 percent, and $3,500 above 75 percent or at age 65",
+      "eligibility": [
+        "You are a Connecticut resident who has served, or is serving, in the Army, Navy, Marine Corps, Coast Guard, Air Force or Space Force of the United States",
+        "The VA has determined a disability rating amounting to 10 percent or more of total disability, other than a service-connected permanent and total rating",
+        "A rating between 10 and 25 percent gives $2,000",
+        "More than 25 percent but not more than 50 percent gives $2,500",
+        "More than 50 percent but not more than 75 percent gives $3,000",
+        "More than 75 percent gives $3,500, and so does reaching 65 years of age at any qualifying rating",
+        "Alternatively, receiving a pension, annuity or compensation from the United States for the loss in service of a leg or arm, or its recognised equivalent, qualifies you"
+      ],
+      "details": [
+        "Note the carve-out in the qualifying language: this subdivision covers ratings other than a service-connected permanent and total rating. If you hold a permanent and total rating, you want subdivision (83) instead, which exempts the whole dwelling.",
+        "The age 65 rule is easy to miss and worth acting on. Once you reach 65 with a qualifying rating, you move to the top $3,500 amount regardless of where your rating sits in the tiers.",
+        "A separate and larger exemption of $10,000 of assessed valuation applies to the dwelling house and its lot for specific severe service-connected disabilities, including paraplegia or osteochondritis resulting in permanent loss of use of both legs, and hemiplegia with permanent paralysis of one leg and one arm or of either side of the body. That sits in subdivision (21).",
+        "If you lack enough property in your own name, property belonging to or held in trust for a spouse domiciled with you makes up the amount.",
+        "When a qualifying Veteran dies, the same aggregate exemption passes to a surviving spouse while that spouse remains a widow or widower, or to minor children during their minority, while they are Connecticut residents.",
+        "You cannot combine this with subdivisions (19), (22), (23), (25) or (26). One exemption only.",
+        "Submit proof of your disability rating to your town assessor. You only have to do it once, unless the VA changes your rating, which is treated as a waiver until you submit the new proof.",
+        "If you could not submit evidence of your rating in time, you can apply to the tax collector within one year of obtaining the proof for an abatement or a refund. It can be backdated to the assessment day after you became entitled to the rating, but no abatement or refund goes back more than three years."
+      ],
+      "agency": "Town assessors and tax collectors",
+      "statuteRef": "C.G.S. 12-81(20), with severe disabilities at 12-81(21)",
+      "officialUrl": "https://www.cga.ct.gov/current/pub/chap_203.htm",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "ct-permanent-total-disability-dwelling-exemption",
+      "jurisdiction": "CT",
+      "category": "property-tax",
+      "title": "Full exemption for a permanent and total disability rating",
+      "summary": "Connecticut exempts your whole home from local property tax if the VA has given you a service-connected permanent and total disability rating. If you do not own a home, the exemption moves to one motor vehicle instead.",
+      "amount": "The dwelling is exempt, with no dollar cap stated. If you own no dwelling, one motor vehicle garaged in Connecticut is exempt instead.",
+      "eligibility": [
+        "You are a Connecticut resident who served in the Army, Navy, Marine Corps, Coast Guard, Air Force or Space Force of the United States",
+        "The VA has determined you have a service-connected permanent and total disability rating",
+        "You own the dwelling and occupy it as your primary residence",
+        "A condominium, and a unit in a common interest community, both count as a dwelling here",
+        "If you lack a dwelling, the exemption applies instead to one motor vehicle you own and garage in Connecticut"
+      ],
+      "details": [
+        "This is the most valuable of Connecticut's Veteran property tax exemptions by a wide margin. The others are fixed dollar amounts off your assessment. This one exempts the dwelling itself.",
+        "If the property is not in your name, the dwelling or vehicle belonging to or held in trust for your spouse, where your spouse is domiciled with you, is exempt instead.",
+        "When a qualifying Veteran dies, the exemption carries to the surviving spouse while that spouse remains a widow or widower, and to minor children during their minority while they are Connecticut residents, in the same amount the Veteran was or would have been entitled to.",
+        "You cannot take this and the exemptions in subdivisions (19), (22), (23), (25) or (26) at once. One exemption only.",
+        "You have to comply with Section 12-95 and submit proof of your disability rating to the assessor of the town where you are claiming. Once granted, you do not have to submit that proof again in later years unless your rating changes.",
+        "This matters: if the VA modifies your rating to something other than service-connected permanent and total, that is treated as a waiver of this exemption. You would then look to the tiered exemption in subdivision (20) instead.",
+        "Connecticut exemptions are administered town by town, so you deal with your town assessor rather than a state office."
+      ],
+      "agency": "Town assessors",
+      "statuteRef": "C.G.S. 12-81(83)",
+      "officialUrl": "https://www.cga.ct.gov/current/pub/chap_203.htm",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "ct-wartime-veteran-property-tax-exemption",
+      "jurisdiction": "CT",
+      "category": "property-tax",
+      "title": "Wartime Veteran property tax exemption",
+      "summary": "Connecticut exempts $1,000 of property for a resident Veteran who served in time of war. It is small, but it is the baseline exemption that does not require any disability rating.",
+      "amount": "$1,000 of property",
+      "eligibility": [
+        "You are a Connecticut resident and a Veteran as defined in Section 27-103 who was a member of the armed forces in service in time of war",
+        "Or you are still serving, having been in service in time of war and not yet discharged because of continuous service",
+        "Or you are serving in the armed services in time of war",
+        "Or you retired from the armed forces after 30 years of service on reaching the age limit prescribed by law, or because of mental or physical disability",
+        "Several Second World War categories also qualify, including allied service by a US citizen, service with a United Nations Declaration signatory, and American Merchant Marine ocean-going service between 7 December 1941 and 15 August 1945"
+      ],
+      "details": [
+        "If you do not hold that much property in your own name, so much of your spouse's property as is needed to make up the amount is exempt, provided your spouse is domiciled with you.",
+        "Veteran, armed forces and service in time of war all take their meanings from Section 27-103, so the qualifying conflict periods are defined there rather than in this subdivision.",
+        "This exemption is subject to Sections 12-89, 12-90 and 12-95, which carry the filing requirements.",
+        "You cannot stack this with the disability rating exemption or the permanent and total exemption. If you qualify for either of those, they are worth considerably more.",
+        "Connecticut also has an additional exemption for Veterans under Section 12-81g, with state reimbursement to towns for the resulting tax loss, and it is gated by income requirements set in Section 12-81l. We have not read those sections yet, so ask your town assessor whether you qualify for the additional amount on top of this one."
+      ],
+      "agency": "Town assessors",
+      "statuteRef": "C.G.S. 12-81(19)",
+      "officialUrl": "https://www.cga.ct.gov/current/pub/chap_203.htm",
       "confidence": "needs-review",
       "source": {
         "id": "curated-benefits",
@@ -1500,6 +1603,74 @@
       "agency": "Illinois Department of Veterans' Affairs certifies to the Illinois Department of Revenue, administered by local assessing officials",
       "statuteRef": "35 ILCS 200/15-165",
       "officialUrl": "https://www.ilga.gov/legislation/ILCS/details?MajorTopic=GOVERNMENT&Chapter=REVENUE&ActName=Property%20Tax%20Code.&ActID=596&ChapterID=8&ChapAct=35+ILCS+200%2F&SeqStart=38400000&SeqEnd=43899999",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "md-disabled-veteran-dwelling-house-exemption",
+      "jurisdiction": "MD",
+      "category": "property-tax",
+      "title": "Disabled Veteran dwelling house exemption",
+      "summary": "Maryland exempts your whole dwelling house from property tax if the VA has declared you permanently 100 percent service-connected disabled. There is no dollar cap and no partial exemption at lower ratings.",
+      "amount": "The entire dwelling house is exempt from property tax, with no dollar cap",
+      "eligibility": [
+        "The VA has declared you to have a permanent 100 percent service-connected disability, resulting from blindness or another disabling cause",
+        "The disability is reasonably certain to continue for the life of the Veteran",
+        "The disability was not caused or incurred by misconduct of the Veteran",
+        "A disabled active duty service member with a service-connected disability reasonably certain to continue for life also qualifies",
+        "A surviving spouse who has not remarried qualifies, in the situations set out below",
+        "Posthumous qualification is provided for"
+      ],
+      "details": [
+        "Dwelling house means the real property that is your legal residence and is occupied by not more than two families. It includes the lot or curtilage and the structures necessary to use the property as a residence. There is no separate acreage cap in the section.",
+        "There is no partial exemption. The section has nothing for ratings below 100 percent, so this is all or nothing.",
+        "One thing to check rather than assume: the statute requires a permanent 100 percent rating and does not mention individual unemployability at all. If your 100 percent compensation comes through individual unemployability, ask the Department of Assessments and Taxation directly how they treat it, because the text does not answer it either way.",
+        "You apply to the supervisor with a copy of your discharge certificate, plus either the Department form with VA certification of the disability, or a VA rating decision that includes the effective date of the rating.",
+        "You can apply before buying a specific dwelling. The Department has to send a preliminary approval or denial within 15 business days.",
+        "The exemption is prorated for the part of the tax year remaining after you apply. If you apply within 30 days after settlement, tax is abated from the settlement date.",
+        "There is a refund for years in which the exemption was authorized but not granted, and this is the part people miss. A disabled Veteran must claim it within the three-year period beginning with the calendar year they first became eligible, and a surviving spouse has a parallel three-year window. Interest is owed if the refund is not paid within 60 days of application.",
+        "A surviving spouse keeps the exemption on the former home that had it, if they own and reside there. They can also claim on a home the Veteran occupied that was not exempt, if the Veteran was domiciled in Maryland at death and the spouse owns and resides there. A later-acquired home can carry an exemption equal to the prior one.",
+        "You may take this exemption or the one in Section 7-207, but not both. It does stack with other exemptions authorized by law.",
+        "Counties are required to print notice of this exemption on the tax bill."
+      ],
+      "agency": "Maryland State Department of Assessments and Taxation",
+      "statuteRef": "Md. Code, Tax-Property 7-208",
+      "officialUrl": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtp&section=7-208&enactments=false",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "md-military-retirement-income-subtraction",
+      "jurisdiction": "MD",
+      "category": "income-tax",
+      "title": "Military retirement income subtraction",
+      "summary": "Maryland subtracts part of your military retirement income, and how much depends on your age on the last day of the tax year: $12,500 under 55, and $20,000 at 55 or older.",
+      "amount": "The first $12,500 of military retirement income if under 55, or the first $20,000 if 55 or older, on the last day of the taxable year",
+      "eligibility": [
+        "You are a Maryland resident and the income is included in your federal adjusted gross income",
+        "Military retirement income means retirement income, including death benefits, received as a result of military service",
+        "If you are under 55 on the last day of the taxable year, the first $12,500 is subtracted",
+        "If you are at least 55 on the last day of the taxable year, the first $20,000 is subtracted"
+      ],
+      "details": [
+        "The age test is taken on the last day of the taxable year, not your age when you retired or your age for part of the year.",
+        "Both figures are fixed dollar amounts written into the statute. There is no indexing or annual adjustment language in this subsection, so they do not rise with inflation on their own.",
+        "This subtraction is capped, unlike the full exemptions several neighbouring states give. Military retirement above the threshold for your age remains taxable in Maryland.",
+        "Note that some other Maryland subtractions do have scheduled step-ups written into them, for example the public safety pension subtraction. Those schedules do not apply to military retirement."
+      ],
+      "agency": "Comptroller of Maryland",
+      "statuteRef": "Md. Code, Tax-General 10-207(q)",
+      "officialUrl": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtg&section=10-207&enactments=false",
       "confidence": "needs-review",
       "source": {
         "id": "curated-benefits",
@@ -4183,6 +4354,72 @@
       "agency": "Washington State Department of Veterans Affairs",
       "statuteRef": "RCW 43.60A.160 and RCW 43.60A.185",
       "officialUrl": "https://dva.wa.gov/benefits/veterans-innovations-program",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "wi-military-retirement-and-active-duty-pay-exemption",
+      "jurisdiction": "WI",
+      "category": "income-tax",
+      "title": "Military retirement and active duty pay are not taxed",
+      "summary": "Wisconsin exempts all retirement payments from the US military retirement system, with no dollar cap and no residency condition in the statute. Active duty basic, special and incentive pay is also subtracted.",
+      "amount": "Full exemption of military retirement payments, with no dollar cap",
+      "eligibility": [
+        "Retirement payments received from the US military employee retirement system are exempt",
+        "Uniformed services retirement from the Coast Guard, the NOAA commissioned corps and the Public Health Service commissioned corps is covered by a parallel paragraph",
+        "Active duty basic, special and incentive pay under 37 U.S.C. chapters 3 and 5 is subtracted, for taxable years beginning after 31 December 2020",
+        "Reserve component pay is subtracted where the member was called up under 10 U.S.C. 12302(a), 12304 or 12304b, or served under 32 U.S.C. 502(f)"
+      ],
+      "details": [
+        "The military retirement provision sits in the exemptions at 71.05(1)(am), not among the subtractions in 71.05(6)(b). If you are looking it up yourself, that distinction will save you time.",
+        "No residency condition is stated for the retirement exemption, and no dollar amount appears in it.",
+        "From taxable years beginning after 31 December 2025, a further provision covers basic pay under 37 U.S.C. 204(a)(2) for National Guard and reserve members, along with inactive duty training compensation, to the extent it is not already subtracted.",
+        "There are separate provisions covering the pay of a service member who dies in a combat zone, for taxable years after 2012."
+      ],
+      "agency": "Wisconsin Department of Revenue",
+      "statuteRef": "Wis. Stat. 71.05(1)(am), with active duty pay at 71.05(6)(b)56",
+      "officialUrl": "https://docs.legis.wisconsin.gov/document/statutes/71.05",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "wi-veterans-surviving-spouses-property-tax-credit",
+      "jurisdiction": "WI",
+      "category": "property-tax",
+      "title": "Veterans and surviving spouses property tax credit",
+      "summary": "Wisconsin refunds the full property tax on your principal dwelling if you hold a 100 percent service-connected rating or individual unemployability at the 100 percent rate. It is paid as a refundable income tax credit, so you get the money even if you owe no income tax.",
+      "amount": "The full amount of the property taxes on your principal dwelling, with no cap written into the statute",
+      "eligibility": [
+        "You served on active duty under honorable conditions",
+        "You were a resident of Wisconsin at the time of entry into that active service, or you were a resident for any consecutive five-year period after entry",
+        "You are currently a Wisconsin resident for the purpose of receiving Veterans benefits under chapter 45",
+        "The VA rates you 100 percent service-connected under 38 U.S.C. 1114 or 1134, or 100 percent based on individual unemployability",
+        "An eligible unremarried surviving spouse can claim in place of the Veteran, in four defined situations"
+      ],
+      "details": [
+        "Understand the mechanism, because it does not look like other states. This is not a reduction in assessed value. It is a credit against your Wisconsin income tax equal to the property taxes you paid, and any part of it that exceeds the income tax you owe is certified to the Department of Administration and paid out to you. A Veteran with no income tax liability still receives the full amount.",
+        "On individual unemployability, Wisconsin spells out what it means: a 60 percent rating, or combined ratings built on a 40 percent and 70 percent structure, together with an administrative adjustment to 100 percent.",
+        "The residency rule has two independent routes. Being a Wisconsin resident when you entered service qualifies you, and so does any consecutive five-year period of residency after you entered. You do need to be a Wisconsin resident now.",
+        "A surviving spouse qualifies if the Veteran died while on active duty as a Wisconsin resident, or served under honorable conditions and was a resident at death with a 100 percent rating or individual unemployability, or was a National Guard or reserve member who died in the line of duty on active or inactive training duty while a resident, or where the spouse receives dependency and indemnity compensation under 38 U.S.C. 101(14). The Department of Veterans Affairs verifies which applies.",
+        "Property taxes here exclude special assessments, delinquent interest and service charges. They also exclude any portion deductible as a trade or business expense, and joint owners are limited to their ownership share.",
+        "Where spouses file separate returns, each can claim based on their ownership interest.",
+        "You cannot claim this and the homestead credit under subsection (9), or credits under subchapters VIII or IX, for the same year.",
+        "There is no dollar cap and no inflation adjustment in this subsection. The credit tracks your actual property tax bill.",
+        "The statute is framed around property taxes paid on a principal dwelling, and does not address renters. If you rent, ask the Department of Revenue rather than assuming either way."
+      ],
+      "agency": "Wisconsin Department of Revenue, with eligibility verified by the Wisconsin Department of Veterans Affairs",
+      "statuteRef": "Wis. Stat. 71.07(6e)",
+      "officialUrl": "https://docs.legis.wisconsin.gov/statutes/statutes/71/i/07/6e",
       "confidence": "needs-review",
       "source": {
         "id": "curated-benefits",

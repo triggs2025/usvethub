@@ -1,0 +1,87 @@
+[
+  {
+    "id": "ct-permanent-total-disability-dwelling-exemption",
+    "jurisdiction": "CT",
+    "category": "property-tax",
+    "title": "Full exemption for a permanent and total disability rating",
+    "summary": "Connecticut exempts your whole home from local property tax if the VA has given you a service-connected permanent and total disability rating. If you do not own a home, the exemption moves to one motor vehicle instead.",
+    "amount": "The dwelling is exempt, with no dollar cap stated. If you own no dwelling, one motor vehicle garaged in Connecticut is exempt instead.",
+    "eligibility": [
+      "You are a Connecticut resident who served in the Army, Navy, Marine Corps, Coast Guard, Air Force or Space Force of the United States",
+      "The VA has determined you have a service-connected permanent and total disability rating",
+      "You own the dwelling and occupy it as your primary residence",
+      "A condominium, and a unit in a common interest community, both count as a dwelling here",
+      "If you lack a dwelling, the exemption applies instead to one motor vehicle you own and garage in Connecticut"
+    ],
+    "details": [
+      "This is the most valuable of Connecticut's Veteran property tax exemptions by a wide margin. The others are fixed dollar amounts off your assessment. This one exempts the dwelling itself.",
+      "If the property is not in your name, the dwelling or vehicle belonging to or held in trust for your spouse, where your spouse is domiciled with you, is exempt instead.",
+      "When a qualifying Veteran dies, the exemption carries to the surviving spouse while that spouse remains a widow or widower, and to minor children during their minority while they are Connecticut residents, in the same amount the Veteran was or would have been entitled to.",
+      "You cannot take this and the exemptions in subdivisions (19), (22), (23), (25) or (26) at once. One exemption only.",
+      "You have to comply with Section 12-95 and submit proof of your disability rating to the assessor of the town where you are claiming. Once granted, you do not have to submit that proof again in later years unless your rating changes.",
+      "This matters: if the VA modifies your rating to something other than service-connected permanent and total, that is treated as a waiver of this exemption. You would then look to the tiered exemption in subdivision (20) instead.",
+      "Connecticut exemptions are administered town by town, so you deal with your town assessor rather than a state office."
+    ],
+    "agency": "Town assessors",
+    "statuteRef": "C.G.S. 12-81(83)",
+    "officialUrl": "https://www.cga.ct.gov/current/pub/chap_203.htm",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "ct-disability-rating-property-tax-exemption",
+    "jurisdiction": "CT",
+    "category": "property-tax",
+    "title": "Property tax exemption by disability rating",
+    "summary": "Connecticut exempts between $2,000 and $3,500 of assessed value depending on your VA disability rating, and reaches the top amount automatically once you turn 65. A separate provision gives $10,000 for specific severe disabilities.",
+    "amount": "$2,000 at 10 to 25 percent, $2,500 above 25 and up to 50 percent, $3,000 above 50 and up to 75 percent, and $3,500 above 75 percent or at age 65",
+    "eligibility": [
+      "You are a Connecticut resident who has served, or is serving, in the Army, Navy, Marine Corps, Coast Guard, Air Force or Space Force of the United States",
+      "The VA has determined a disability rating amounting to 10 percent or more of total disability, other than a service-connected permanent and total rating",
+      "A rating between 10 and 25 percent gives $2,000",
+      "More than 25 percent but not more than 50 percent gives $2,500",
+      "More than 50 percent but not more than 75 percent gives $3,000",
+      "More than 75 percent gives $3,500, and so does reaching 65 years of age at any qualifying rating",
+      "Alternatively, receiving a pension, annuity or compensation from the United States for the loss in service of a leg or arm, or its recognised equivalent, qualifies you"
+    ],
+    "details": [
+      "Note the carve-out in the qualifying language: this subdivision covers ratings other than a service-connected permanent and total rating. If you hold a permanent and total rating, you want subdivision (83) instead, which exempts the whole dwelling.",
+      "The age 65 rule is easy to miss and worth acting on. Once you reach 65 with a qualifying rating, you move to the top $3,500 amount regardless of where your rating sits in the tiers.",
+      "A separate and larger exemption of $10,000 of assessed valuation applies to the dwelling house and its lot for specific severe service-connected disabilities, including paraplegia or osteochondritis resulting in permanent loss of use of both legs, and hemiplegia with permanent paralysis of one leg and one arm or of either side of the body. That sits in subdivision (21).",
+      "If you lack enough property in your own name, property belonging to or held in trust for a spouse domiciled with you makes up the amount.",
+      "When a qualifying Veteran dies, the same aggregate exemption passes to a surviving spouse while that spouse remains a widow or widower, or to minor children during their minority, while they are Connecticut residents.",
+      "You cannot combine this with subdivisions (19), (22), (23), (25) or (26). One exemption only.",
+      "Submit proof of your disability rating to your town assessor. You only have to do it once, unless the VA changes your rating, which is treated as a waiver until you submit the new proof.",
+      "If you could not submit evidence of your rating in time, you can apply to the tax collector within one year of obtaining the proof for an abatement or a refund. It can be backdated to the assessment day after you became entitled to the rating, but no abatement or refund goes back more than three years."
+    ],
+    "agency": "Town assessors and tax collectors",
+    "statuteRef": "C.G.S. 12-81(20), with severe disabilities at 12-81(21)",
+    "officialUrl": "https://www.cga.ct.gov/current/pub/chap_203.htm",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "ct-wartime-veteran-property-tax-exemption",
+    "jurisdiction": "CT",
+    "category": "property-tax",
+    "title": "Wartime Veteran property tax exemption",
+    "summary": "Connecticut exempts $1,000 of property for a resident Veteran who served in time of war. It is small, but it is the baseline exemption that does not require any disability rating.",
+    "amount": "$1,000 of property",
+    "eligibility": [
+      "You are a Connecticut resident and a Veteran as defined in Section 27-103 who was a member of the armed forces in service in time of war",
+      "Or you are still serving, having been in service in time of war and not yet discharged because of continuous service",
+      "Or you are serving in the armed services in time of war",
+      "Or you retired from the armed forces after 30 years of service on reaching the age limit prescribed by law, or because of mental or physical disability",
+      "Several Second World War categories also qualify, including allied service by a US citizen, service with a United Nations Declaration signatory, and American Merchant Marine ocean-going service between 7 December 1941 and 15 August 1945"
+    ],
+    "details": [
+      "If you do not hold that much property in your own name, so much of your spouse's property as is needed to make up the amount is exempt, provided your spouse is domiciled with you.",
+      "Veteran, armed forces and service in time of war all take their meanings from Section 27-103, so the qualifying conflict periods are defined there rather than in this subdivision.",
+      "This exemption is subject to Sections 12-89, 12-90 and 12-95, which carry the filing requirements.",
+      "You cannot stack this with the disability rating exemption or the permanent and total exemption. If you qualify for either of those, they are worth considerably more.",
+      "Connecticut also has an additional exemption for Veterans under Section 12-81g, with state reimbursement to towns for the resulting tax loss, and it is gated by income requirements set in Section 12-81l. We have not read those sections yet, so ask your town assessor whether you qualify for the additional amount on top of this one."
+    ],
+    "agency": "Town assessors",
+    "statuteRef": "C.G.S. 12-81(19)",
+    "officialUrl": "https://www.cga.ct.gov/current/pub/chap_203.htm",
+    "confidence": "needs-review"
+  }
+]
