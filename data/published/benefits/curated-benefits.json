@@ -2,7 +2,7 @@
   "sourceId": "curated-benefits",
   "recordType": "benefit",
   "jurisdiction": null,
-  "generatedAt": "2026-11-13T05:49:25.056Z",
+  "generatedAt": "2026-11-13T06:01:04.712Z",
   "records": [
     {
       "id": "az-disabled-veteran-hunting-fishing-license",
@@ -2971,6 +2971,65 @@
       "verifiedAt": "2026-11-13"
     },
     {
+      "id": "ok-disabled-veteran-sales-tax-exemption",
+      "jurisdiction": "OK",
+      "category": "financial",
+      "title": "Sales tax exemption worth up to $25,000 a year",
+      "summary": "Oklahoma exempts a 100 percent disabled Veteran from sales tax on up to $25,000 of purchases a year. This is unusual, it is worth real money, and many Veterans who qualify never register for it.",
+      "amount": "Up to $25,000 of purchases per year per individual while the disabled Veteran is living. Up to $1,000 a year for an unremarried surviving spouse.",
+      "eligibility": [
+        "You are an Oklahoma resident who has been honorably discharged",
+        "The VA certifies you to be in receipt of disability compensation at the 100 percent rate",
+        "The disability is permanent, and was sustained through military action or accident, or resulted from disease contracted while in active service",
+        "You are registered with the Oklahoma veterans registry, unless you already received the exemption",
+        "An unremarried surviving spouse qualifies at the lower annual limit",
+        "The spouse of a service member who died in the line of duty is also covered"
+      ],
+      "details": [
+        "The qualifying test is receipt of compensation at the 100 percent rate, which is worth noting because it is about what the VA pays you rather than solely the schedular rating.",
+        "Both dollar limits are fixed in the statute. There is no inflation adjustment, so the $25,000 does not rise over time.",
+        "The registry requirement is the practical obstacle. If you have never registered with the Oklahoma veterans registry, that is the step that unlocks this.",
+        "This provision has been amended repeatedly and more changes are scheduled, including a renumbering that takes effect in 2027. Check the current version before relying on the detail, although the core exemption has been stable."
+      ],
+      "agency": "Oklahoma Tax Commission, with registration through the Oklahoma veterans registry",
+      "statuteRef": "68 O.S. 1357, paragraph 34",
+      "officialUrl": "https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=92350",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "ok-military-retirement-exemption",
+      "jurisdiction": "OK",
+      "category": "income-tax",
+      "title": "Military retirement is fully exempt from income tax",
+      "summary": "From tax year 2022 onward Oklahoma exempts all Armed Forces retirement benefits from taxable income, with no cap. Older guidance showing a 75 percent or $10,000 limit is out of date.",
+      "amount": "Full exemption, with no dollar cap, for tax year 2022 and later",
+      "eligibility": [
+        "You receive retirement benefits from any component of the Armed Forces of the United States",
+        "For tax year 2022 and subsequent tax years those benefits are exempt from taxable income"
+      ],
+      "details": [
+        "Be careful with older sources on this one. For tax years 2006 through 2021 the exemption was capped at the greater of 75 percent of the benefits or $10,000. That cap was removed from tax year 2022, and plenty of secondary guidance still quotes the old rule.",
+        "Active duty pay is handled by a separate provision, which deducts 100 percent of income received from the United States as salary or compensation in any form as a member of the Armed Forces. Retirement benefits are deliberately carved out of that paragraph and sit in the exemption above, so the two work together rather than overlapping.",
+        "There is no annual inflation adjustment here because there is no longer a dollar figure to adjust."
+      ],
+      "agency": "Oklahoma Tax Commission",
+      "statuteRef": "68 O.S. 2358(E)(17), with active duty pay at 2358(E)(5)(b)",
+      "officialUrl": "https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=92616",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
       "id": "or-military-pay-income-subtraction",
       "jurisdiction": "OR",
       "category": "income-tax",
@@ -3382,6 +3441,70 @@
       "agency": "Pennsylvania Department of Military and Veterans Affairs",
       "statuteRef": "51 Pa.C.S. Ch. 85 (sections 8501 to 8505)",
       "officialUrl": "https://www.pa.gov/agencies/dmva/pennsylvania-veterans/pa-vetconnect/state-veterans-programs/financial-assistance/benefits--veterans-temporary-assistance",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "sc-disabled-veteran-house-property-tax-exemption",
+      "jurisdiction": "SC",
+      "category": "property-tax",
+      "title": "Property tax exemption for a totally disabled Veteran",
+      "summary": "South Carolina exempts your house and the lot it sits on from property tax if you are permanently and totally disabled from a service-connected cause. There is no dollar cap and no acreage limit in this provision.",
+      "amount": "The house is exempt, meaning the dwelling and the lot it is situated on. No dollar amount applies.",
+      "eligibility": [
+        "You are a Veteran of the Armed Forces of the United States who is permanently and totally disabled as a result of a service-connected disability",
+        "You own the house in fee, or jointly with a spouse",
+        "You file a certificate signed by your county service officer certifying the disability with the Department of Revenue",
+        "A qualified surviving spouse qualifies while remaining unmarried, residing in the house, and owning it in fee or for life",
+        "The surviving spouse of a member killed in action also qualifies"
+      ],
+      "details": [
+        "Note how South Carolina defines the disability test, because it is not a VA percentage. Permanently and totally disabled means the inability to perform substantial gainful employment by reason of a medically determinable impairment, physical or mental, that has lasted or is expected to last a continuous period of twelve months or more, or result in death.",
+        "Because the test is written that way rather than by rating, the statute does not say whether individual unemployability satisfies it. The proof that matters is the certificate from your county service officer, so start there rather than trying to resolve it from the text.",
+        "Do not confuse this with the one acre cap you may have read about. That cap applies to the separate exemption for paraplegic and hemiplegic persons, not to the Veteran exemption, which exempts the dwelling and its lot without an acreage limit stated.",
+        "The timing rule is generous and often missed. A Veteran who is permanently and totally disabled for any part of the year is entitled to the exemption for the entire year, and may claim it immediately for the year in which the disability occurs.",
+        "A surviving spouse may also claim immediately for the entire year, in the same manner as the Veteran, and this applies whether or not the Veteran ever applied for or claimed the exemption.",
+        "The exemption can move with a surviving spouse to a house acquired later. The qualified surviving spouse has to tell the Department of Revenue the address of the subsequent house.",
+        "You file with the Department of Revenue, not the county auditor. The text we read sets no filing deadline for this particular exemption, which is unusual, so confirm timing with the Department before assuming you have until a general homestead deadline.",
+        "Heirs property owners are addressed separately in the same subsection, so if the title situation is complicated it is still worth asking."
+      ],
+      "agency": "South Carolina Department of Revenue, with certification by the county service officer",
+      "statuteRef": "S.C. Code 12-37-220(B)(1), with timing at 12-37-610(B)",
+      "officialUrl": "https://www.scstatehouse.gov/code/t12c037.php",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "sc-military-retirement-income-deduction",
+      "jurisdiction": "SC",
+      "category": "income-tax",
+      "title": "Military retirement income is fully deductible",
+      "summary": "South Carolina lets you deduct all military retirement income included in your state taxable income. No dollar cap, no age test. A surviving spouse gets the same treatment.",
+      "amount": "Full deduction of all military retirement income, with no cap",
+      "eligibility": [
+        "You are an individual taxpayer with military retirement income included in South Carolina taxable income",
+        "Retirement income means the total of all otherwise taxable income not subject to a penalty for premature distribution, received from a qualified military retirement plan",
+        "For a surviving spouse it also covers a retirement benefit plan and dependency and indemnity compensation related to the deceased spouse's military service"
+      ],
+      "details": [
+        "This has no age distinction and no dollar cap, which is a change from the older phase-in rules you may still see quoted. The current full deduction was rewritten by acts in 2022 and applies to tax years beginning after 2021.",
+        "A surviving spouse receiving military retirement income attributable to the deceased spouse applies the deduction in the same way it applied to the deceased spouse.",
+        "There is an interaction worth understanding if you have other retirement income. South Carolina has a separate general retirement deduction, capped at $3,000, or $10,000 at age 65, plus an age 65 deduction of up to $15,000 for a resident individual and $30,000 where both spouses are over 65 on a joint federal return. That separate deduction is reduced by the amount you deduct as military retirement.",
+        "The reduction does not apply where the military retirement deduction is claimed by a surviving spouse, so a surviving spouse can keep both in full."
+      ],
+      "agency": "South Carolina Department of Revenue",
+      "statuteRef": "S.C. Code 12-6-1171",
+      "officialUrl": "https://www.scstatehouse.gov/code/t12c006.php",
       "confidence": "needs-review",
       "source": {
         "id": "curated-benefits",

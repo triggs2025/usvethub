@@ -2,7 +2,7 @@
   "sourceId": "curated-benefits",
   "recordType": "benefit",
   "jurisdiction": null,
-  "generatedAt": "2026-11-13T05:28:30.654Z",
+  "generatedAt": "2026-11-13T05:49:25.056Z",
   "records": [
     {
       "id": "az-disabled-veteran-hunting-fishing-license",
@@ -1612,6 +1612,69 @@
       "verifiedAt": "2026-11-13"
     },
     {
+      "id": "ks-homestead-refund-disabled-veteran",
+      "jurisdiction": "KS",
+      "category": "property-tax",
+      "title": "Homestead property tax refund for disabled Veterans",
+      "summary": "Kansas has no Veteran property tax exemption. What it has is a refund you claim back after paying, and a Veteran rated 50 percent or more qualifies for it at any age. Your VA disability compensation does not count as income for the test.",
+      "amount": "A refund of part of the property tax you paid, calculated from household income. There is no fixed dollar exemption.",
+      "eligibility": [
+        "You are a Kansas resident who served in the active military, naval, air or space service",
+        "You were discharged or released under an honorable discharge, or a general discharge under honorable conditions",
+        "You received a disability that was incurred or aggravated in the line of duty",
+        "You have a service-connected evaluation percentage equal to or greater than 50 percent",
+        "You were domiciled in Kansas for the entire preceding calendar year",
+        "The surviving spouse of a deceased member of the armed forces who died in the line of duty during active service is also a qualifying claimant"
+      ],
+      "details": [
+        "Set expectations correctly: this is not an exemption and your tax bill does not shrink. You pay the tax and then claim a refund, so you need to be able to carry the cost first.",
+        "The 50 percent threshold is fixed in the statute and is not adjusted over time.",
+        "A real advantage sits in the income definition. Income for this claim does not include Veterans disability compensation, so a Veteran with substantial VA compensation can still fall under the income limits.",
+        "There are two separate routes and you cannot use both on the same property in the same year. The standard claim under K.S.A. 79-4508 is calculated from a bracket table against your household income, with the income cap increased each year by the federal cost of living adjustment.",
+        "The alternative claim under K.S.A. 79-4508a is open to a disabled Veteran or anyone 65 or older, and works completely differently. It refunds the increase in your property tax over your base year amount, which effectively freezes your bill at the base year level. To use it your household income must be at or under $50,000 and your home's appraised value in the base year at or under $350,000. The income figure is a base that is indexed annually.",
+        "For many Veterans in a rising market the base year route is worth more than the bracket table, so compare both before filing.",
+        "A surviving spouse of a disabled Veteran who was receiving these benefits at the time of death can continue to receive them until the surviving spouse remarries. The same rule applies on the alternative claim.",
+        "We are not publishing the bracket percentages from the refund table. The source table did not render unambiguously and a wrong percentage here would misstate someone's refund. Get the current table from the Kansas Department of Revenue.",
+        "There is no individual Veteran property tax exemption in the Kansas exemption list. The only Veteran item there covers property of chartered Veterans organizations used as a clubhouse, meeting place or memorial, which is organization property rather than yours."
+      ],
+      "agency": "Kansas Department of Revenue",
+      "statuteRef": "K.S.A. 79-4501 and following, with the alternative claim at 79-4508a",
+      "officialUrl": "https://www.ksrevisor.gov/statutes/chapters/ch79/079_045_0002.html",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "ks-military-retirement-income-subtraction",
+      "jurisdiction": "KS",
+      "category": "income-tax",
+      "title": "Military retirement pay is not taxed",
+      "summary": "Kansas subtracts military retirement pay from your state income in full. There is no dollar cap, no age test and no residency condition written into the provision.",
+      "amount": "Full subtraction, with no dollar cap",
+      "eligibility": [
+        "The amount was received as a retirement benefit earned for service in the armed forces of the United States",
+        "It is subtracted to the extent it was included in your federal adjusted gross income"
+      ],
+      "details": [
+        "The subtraction sits in the same clause that covers federal civil service annuities and other federal employment retirement benefits, and it is worded broadly as retirement benefits in whatever form earned for service in the armed forces.",
+        "The clause does not limit the subtraction to a particular type of military retirement, and it carries no age condition, unlike several states that gate retirement subtractions on age."
+      ],
+      "agency": "Kansas Department of Revenue",
+      "statuteRef": "K.S.A. 79-32,117(c)(vii)",
+      "officialUrl": "https://www.ksrevisor.gov/statutes/chapters/ch79/079_032_0117.html",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
       "id": "md-disabled-veteran-dwelling-house-exemption",
       "jurisdiction": "MD",
       "category": "property-tax",
@@ -2124,6 +2187,82 @@
       "statuteRef": "N.C.G.S. 126-80 through 126-83",
       "officialUrl": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/ByArticle/Chapter_126/Article_13.html",
       "confidence": "verified",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "nv-disabled-veteran-property-tax-exemption",
+      "jurisdiction": "NV",
+      "category": "property-tax",
+      "title": "Property tax exemption for a permanent service-connected disability",
+      "summary": "Nevada exempts assessed value on a sliding scale tied to your permanent service-connected disability percentage. Every figure in the statute is a base from 2003 that has risen with inflation every year since, so ask your county assessor for this year's amount.",
+      "amount": "Base figures of $20,000 of assessed valuation for total permanent disability, $15,000 at 80 to 99 percent, and $10,000 at 60 to 79 percent. All are adjusted annually and the current amounts are higher.",
+      "eligibility": [
+        "You are a bona fide resident of Nevada",
+        "You have incurred a permanent service-connected disability",
+        "You were honorably discharged from the Armed Forces of the United States",
+        "A disability of 80 to 99 percent gives the $15,000 base exemption",
+        "A disability of 60 to 79 percent gives the $10,000 base exemption",
+        "Total permanent disability gives the maximum, a $20,000 base exemption",
+        "The statute sets no amount below 60 percent",
+        "A surviving spouse can qualify, subject to the conditions below"
+      ],
+      "details": [
+        "Do not treat the dollar figures above as current. The statute says the amounts in subsection 2 are adjusted for each fiscal year by the percentage increase in the Consumer Price Index for All Urban Consumers, West Region, from July 2003 to the July preceding that fiscal year. That has been compounding since the 2005 to 2006 fiscal year, so the real figures are materially higher than the statutory bases.",
+        "The current amounts are published by the Nevada Department of Taxation in a written notice to every county assessor on or before 30 September each year. Your county assessor is the place to get the number.",
+        "A bona fide resident means you have established residence in Nevada and either actually resided here at least six months, or hold a valid Nevada driver's licence or identification card, not counting a seasonal resident card.",
+        "If you have multiple disabilities, the exemption is based on the total of the combined percentages, capped at 100 percent.",
+        "A surviving spouse files an affidavit declaring that they were married to and living with the Veteran for the five years preceding the death, that the Veteran was eligible at death or would have been if they had been a Nevada resident, that the spouse has not remarried, and that the spouse is a bona fide Nevada resident.",
+        "A Veteran who takes this exemption cannot also take the general Veterans exemption. A surviving spouse who takes it solely as a surviving spouse keeps their own eligibility for the general exemption, which is a meaningful difference.",
+        "Claims on real property are filed with your claim under NRS 361.155, and that section sets a deadline of 15 June. Personal property claimants may file at any time.",
+        "The assessor requires an original or certified copy of proof showing the disability percentage: an honorable discharge or other honorable separation document showing the total percentage, a certificate of satisfactory service showing it, or a VA or military document showing the disability and percentage together with a discharge or satisfactory service certificate.",
+        "Filing a false affidavit or false proof to obtain an exemption you are not entitled to is a gross misdemeanour.",
+        "Instead of claiming, you may pay the county tax receiver all or part of the amount the tax would have been reduced by, which is how the statute lets you waive the benefit."
+      ],
+      "agency": "County assessors, with annual amounts set by the Nevada Department of Taxation",
+      "statuteRef": "NRS 361.091",
+      "officialUrl": "https://www.leg.state.nv.us/NRS/NRS-361.html",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "nv-veterans-property-tax-exemption",
+      "jurisdiction": "NV",
+      "category": "property-tax",
+      "title": "Veterans property tax exemption",
+      "summary": "Nevada gives resident Veterans who served in a qualifying period an exemption on assessed value. The statute says $2,000, but that is a 2003 base that has been adjusted upward every year since.",
+      "amount": "A base of $2,000 of assessed valuation, adjusted annually for inflation. The current figure is higher.",
+      "eligibility": [
+        "You are an actual bona fide resident of the State of Nevada",
+        "You served a minimum of 90 continuous days on active duty during one of the qualifying periods listed in the statute",
+        "Or you served under Public Law 102-1",
+        "Or you served in a campaign or expedition for which a medal was authorized, regardless of the number of days served on active duty",
+        "You hold an honorable discharge or a certificate of satisfactory service, or you are still serving"
+      ],
+      "details": [
+        "The $2,000 is a base figure, not the current amount. The statute adjusts it each fiscal year by the percentage increase in the Consumer Price Index, All Items, from July 2003 to the July preceding that fiscal year, beginning with the 2005 to 2006 fiscal year. Ask your county assessor for the current figure.",
+        "The qualifying service periods run from the Spanish American War through to the mid 1990s, including 21 April 1898 to 15 June 1903, 6 April 1917 to 11 November 1918, 7 December 1941 to 31 December 1946, 25 June 1950 to 7 May 1975, 26 September 1982 to 1 December 1987, 23 October to 21 November 1983, 20 December 1989 to 31 January 1990, 2 August 1990 to 11 April 1991, 5 December 1992 to 31 March 1994, and 20 November 1995 to 20 December 1996.",
+        "The campaign or expedition route has no minimum days requirement, which matters for short deployments that would otherwise fail the 90 day test.",
+        "Where you hold a part interest in property, the first $2,000 of assessed valuation of property in which you have any interest is treated as yours.",
+        "File an affidavit with your real property exemption claim under NRS 361.155, which sets a 15 June deadline. Personal property claimants may file at any time.",
+        "The affidavit is made before the county assessor or a notary and states that you are a bona fide resident and that you are not claiming the exemption in any other Nevada county.",
+        "The assessor requires proof of Veteran status, including an honorable discharge or certificate of satisfactory service, or a certified copy.",
+        "If you also qualify for the disability exemption under NRS 361.091, you take that one instead. You cannot hold both as a Veteran.",
+        "The annual renewal form lets you designate an amount to the Gift Account for the Veterans Home in Southern Nevada or the Gift Account for the Veterans Home in Northern Nevada, if you would rather give the benefit than take it."
+      ],
+      "agency": "County assessors, with annual amounts set by the Nevada Department of Taxation",
+      "statuteRef": "NRS 361.090",
+      "officialUrl": "https://www.leg.state.nv.us/NRS/NRS-361.html",
+      "confidence": "needs-review",
       "source": {
         "id": "curated-benefits",
         "title": "USVetHub verified benefit records",

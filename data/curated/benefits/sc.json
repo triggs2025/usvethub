@@ -1,0 +1,54 @@
+[
+  {
+    "id": "sc-disabled-veteran-house-property-tax-exemption",
+    "jurisdiction": "SC",
+    "category": "property-tax",
+    "title": "Property tax exemption for a totally disabled Veteran",
+    "summary": "South Carolina exempts your house and the lot it sits on from property tax if you are permanently and totally disabled from a service-connected cause. There is no dollar cap and no acreage limit in this provision.",
+    "amount": "The house is exempt, meaning the dwelling and the lot it is situated on. No dollar amount applies.",
+    "eligibility": [
+      "You are a Veteran of the Armed Forces of the United States who is permanently and totally disabled as a result of a service-connected disability",
+      "You own the house in fee, or jointly with a spouse",
+      "You file a certificate signed by your county service officer certifying the disability with the Department of Revenue",
+      "A qualified surviving spouse qualifies while remaining unmarried, residing in the house, and owning it in fee or for life",
+      "The surviving spouse of a member killed in action also qualifies"
+    ],
+    "details": [
+      "Note how South Carolina defines the disability test, because it is not a VA percentage. Permanently and totally disabled means the inability to perform substantial gainful employment by reason of a medically determinable impairment, physical or mental, that has lasted or is expected to last a continuous period of twelve months or more, or result in death.",
+      "Because the test is written that way rather than by rating, the statute does not say whether individual unemployability satisfies it. The proof that matters is the certificate from your county service officer, so start there rather than trying to resolve it from the text.",
+      "Do not confuse this with the one acre cap you may have read about. That cap applies to the separate exemption for paraplegic and hemiplegic persons, not to the Veteran exemption, which exempts the dwelling and its lot without an acreage limit stated.",
+      "The timing rule is generous and often missed. A Veteran who is permanently and totally disabled for any part of the year is entitled to the exemption for the entire year, and may claim it immediately for the year in which the disability occurs.",
+      "A surviving spouse may also claim immediately for the entire year, in the same manner as the Veteran, and this applies whether or not the Veteran ever applied for or claimed the exemption.",
+      "The exemption can move with a surviving spouse to a house acquired later. The qualified surviving spouse has to tell the Department of Revenue the address of the subsequent house.",
+      "You file with the Department of Revenue, not the county auditor. The text we read sets no filing deadline for this particular exemption, which is unusual, so confirm timing with the Department before assuming you have until a general homestead deadline.",
+      "Heirs property owners are addressed separately in the same subsection, so if the title situation is complicated it is still worth asking."
+    ],
+    "agency": "South Carolina Department of Revenue, with certification by the county service officer",
+    "statuteRef": "S.C. Code 12-37-220(B)(1), with timing at 12-37-610(B)",
+    "officialUrl": "https://www.scstatehouse.gov/code/t12c037.php",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "sc-military-retirement-income-deduction",
+    "jurisdiction": "SC",
+    "category": "income-tax",
+    "title": "Military retirement income is fully deductible",
+    "summary": "South Carolina lets you deduct all military retirement income included in your state taxable income. No dollar cap, no age test. A surviving spouse gets the same treatment.",
+    "amount": "Full deduction of all military retirement income, with no cap",
+    "eligibility": [
+      "You are an individual taxpayer with military retirement income included in South Carolina taxable income",
+      "Retirement income means the total of all otherwise taxable income not subject to a penalty for premature distribution, received from a qualified military retirement plan",
+      "For a surviving spouse it also covers a retirement benefit plan and dependency and indemnity compensation related to the deceased spouse's military service"
+    ],
+    "details": [
+      "This has no age distinction and no dollar cap, which is a change from the older phase-in rules you may still see quoted. The current full deduction was rewritten by acts in 2022 and applies to tax years beginning after 2021.",
+      "A surviving spouse receiving military retirement income attributable to the deceased spouse applies the deduction in the same way it applied to the deceased spouse.",
+      "There is an interaction worth understanding if you have other retirement income. South Carolina has a separate general retirement deduction, capped at $3,000, or $10,000 at age 65, plus an age 65 deduction of up to $15,000 for a resident individual and $30,000 where both spouses are over 65 on a joint federal return. That separate deduction is reduced by the amount you deduct as military retirement.",
+      "The reduction does not apply where the military retirement deduction is claimed by a surviving spouse, so a surviving spouse can keep both in full."
+    ],
+    "agency": "South Carolina Department of Revenue",
+    "statuteRef": "S.C. Code 12-6-1171",
+    "officialUrl": "https://www.scstatehouse.gov/code/t12c006.php",
+    "confidence": "needs-review"
+  }
+]

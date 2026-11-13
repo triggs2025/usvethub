@@ -1,0 +1,49 @@
+[
+  {
+    "id": "ok-disabled-veteran-sales-tax-exemption",
+    "jurisdiction": "OK",
+    "category": "financial",
+    "title": "Sales tax exemption worth up to $25,000 a year",
+    "summary": "Oklahoma exempts a 100 percent disabled Veteran from sales tax on up to $25,000 of purchases a year. This is unusual, it is worth real money, and many Veterans who qualify never register for it.",
+    "amount": "Up to $25,000 of purchases per year per individual while the disabled Veteran is living. Up to $1,000 a year for an unremarried surviving spouse.",
+    "eligibility": [
+      "You are an Oklahoma resident who has been honorably discharged",
+      "The VA certifies you to be in receipt of disability compensation at the 100 percent rate",
+      "The disability is permanent, and was sustained through military action or accident, or resulted from disease contracted while in active service",
+      "You are registered with the Oklahoma veterans registry, unless you already received the exemption",
+      "An unremarried surviving spouse qualifies at the lower annual limit",
+      "The spouse of a service member who died in the line of duty is also covered"
+    ],
+    "details": [
+      "The qualifying test is receipt of compensation at the 100 percent rate, which is worth noting because it is about what the VA pays you rather than solely the schedular rating.",
+      "Both dollar limits are fixed in the statute. There is no inflation adjustment, so the $25,000 does not rise over time.",
+      "The registry requirement is the practical obstacle. If you have never registered with the Oklahoma veterans registry, that is the step that unlocks this.",
+      "This provision has been amended repeatedly and more changes are scheduled, including a renumbering that takes effect in 2027. Check the current version before relying on the detail, although the core exemption has been stable."
+    ],
+    "agency": "Oklahoma Tax Commission, with registration through the Oklahoma veterans registry",
+    "statuteRef": "68 O.S. 1357, paragraph 34",
+    "officialUrl": "https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=92350",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "ok-military-retirement-exemption",
+    "jurisdiction": "OK",
+    "category": "income-tax",
+    "title": "Military retirement is fully exempt from income tax",
+    "summary": "From tax year 2022 onward Oklahoma exempts all Armed Forces retirement benefits from taxable income, with no cap. Older guidance showing a 75 percent or $10,000 limit is out of date.",
+    "amount": "Full exemption, with no dollar cap, for tax year 2022 and later",
+    "eligibility": [
+      "You receive retirement benefits from any component of the Armed Forces of the United States",
+      "For tax year 2022 and subsequent tax years those benefits are exempt from taxable income"
+    ],
+    "details": [
+      "Be careful with older sources on this one. For tax years 2006 through 2021 the exemption was capped at the greater of 75 percent of the benefits or $10,000. That cap was removed from tax year 2022, and plenty of secondary guidance still quotes the old rule.",
+      "Active duty pay is handled by a separate provision, which deducts 100 percent of income received from the United States as salary or compensation in any form as a member of the Armed Forces. Retirement benefits are deliberately carved out of that paragraph and sit in the exemption above, so the two work together rather than overlapping.",
+      "There is no annual inflation adjustment here because there is no longer a dollar figure to adjust."
+    ],
+    "agency": "Oklahoma Tax Commission",
+    "statuteRef": "68 O.S. 2358(E)(17), with active duty pay at 2358(E)(5)(b)",
+    "officialUrl": "https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=92616",
+    "confidence": "needs-review"
+  }
+]
