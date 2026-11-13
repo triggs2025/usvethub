@@ -1,0 +1,54 @@
+[
+  {
+    "id": "ky-homestead-exemption-disabled-veteran",
+    "jurisdiction": "KY",
+    "category": "property-tax",
+    "title": "Homestead exemption for a totally disabled Veteran",
+    "summary": "Kentucky's homestead exemption is open to you at any age if you are classified as totally disabled. A service-connected totally disabled Veteran documents it once and never has to reapply, unlike other disabled claimants under 65.",
+    "amount": "Set by the Kentucky Constitution at $6,500 in 1972 purchasing power, adjusted every two years for the cost of living. Ask the Department of Revenue for the current figure.",
+    "eligibility": [
+      "You are 65 or older during the year you apply, or you were classified as totally disabled under a program authorised or administered by an agency of the United States government, or by any retirement system inside or outside Kentucky, on 1 January of the year you apply",
+      "You own and maintain the property as your personal residence",
+      "You must have received disability payments pursuant to the disability, and maintain the disability classification for the whole taxation period",
+      "Only one exemption is allowed per residential unit, however many qualifying residents live there"
+    ],
+    "details": [
+      "The reapplication rule is the part that matters most to Veterans. A disabled claimant under 65 normally has to apply every single year. A service-connected totally disabled Veteran of the United States Armed Forces documents the disability once at the time of application and is expressly not required to apply annually. The same exception covers people found totally and permanently disabled under Social Security or Kentucky Retirement Systems rules.",
+      "We are not publishing a current dollar figure. Section 170 of the Kentucky Constitution sets $6,500 expressed in 1972 purchasing power, and the statute provides that every two years, if the US Department of Labor cost of living index has changed by as much as one percent, the maximum exemption is adjusted accordingly. Fifty years of adjustments later the real figure is far higher, and it changes on a two year cycle. Get it from the Department of Revenue or your property valuation administrator.",
+      "Apply with the property valuation administrator of the county where you live, on forms prescribed by the department.",
+      "Filing the application cannot be used to raise your assessment. If the valuation is increased because of what you put on the form, an adjustment is made the following year so you pay the same as if it had not happened.",
+      "Timing is forgiving in both directions. Qualify before your tax bill is paid and you get full or partial exoneration of the tax. Qualify after you have already paid and you are entitled to a refund of the taxes applicable to the exemption's value.",
+      "The exemption applies for state, county, city and special district purposes alike.",
+      "A mobile home, a recreational vehicle classified as real property, or a manufactured house all count as a residential unit.",
+      "If your disability classification changes you must report it to the property valuation administrator, and the exemption ends when you no longer meet the total disability classification at the end of the taxation period. It is not prorated for anyone who kept the classification to the end of the period."
+    ],
+    "agency": "County property valuation administrators, under the Kentucky Department of Revenue",
+    "statuteRef": "KRS 132.810, under Section 170 of the Kentucky Constitution",
+    "officialUrl": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=39641",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "ky-military-pay-and-retirement-income",
+    "jurisdiction": "KY",
+    "category": "income-tax",
+    "title": "Active duty pay is fully excluded, retirement is capped",
+    "summary": "Kentucky excludes all military pay earned while on active duty, with no cap. Military retirement is treated as ordinary retirement income and shares a $31,110 exclusion with every other pension.",
+    "amount": "Active duty military pay is fully excluded. Retirement distributions are excluded up to $31,110 for tax years beginning on or after 1 January 2018.",
+    "eligibility": [
+      "All military pay received by members of the Armed Forces while on active duty is excluded, with no dollar limit",
+      "Total distributions from pension plans, annuity contracts, profit-sharing plans, retirement plans or employee savings plans are excluded up to $31,110",
+      "The retirement exclusion figure was $41,110 for taxable years beginning after 31 December 2005 but before 1 January 2018"
+    ],
+    "details": [
+      "Note the asymmetry, because it catches people out. Active duty pay gets an unlimited exclusion. Military retirement does not get its own provision at all: it falls into the general retirement exclusion and competes for the same $31,110 with any other pension or IRA distribution you receive.",
+      "That means a Veteran with both a military pension and a civilian pension does not get $31,110 for each. The cap is on total distributions.",
+      "The cap went down, not up. It was $41,110 until the 2018 tax year and has been $31,110 since, so older guidance quoting the higher figure is out of date.",
+      "There are separate provisions elsewhere in Kentucky law dealing with government annuities and with service before and after 1997, which can affect how particular federal or state retirement income is treated. We have not verified those, so if your situation is unusual, ask the Department of Revenue.",
+      "Kentucky also excludes money received from a settlement or judgment against a manufacturer or distributor of Agent Orange, for a Veteran who served in Vietnam or their dependant."
+    ],
+    "agency": "Kentucky Department of Revenue",
+    "statuteRef": "KRS 141.019(1)(l) for active duty pay, 141.019(1)(g) for retirement",
+    "officialUrl": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=57914",
+    "confidence": "needs-review"
+  }
+]

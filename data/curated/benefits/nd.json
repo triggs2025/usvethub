@@ -1,0 +1,55 @@
+[
+  {
+    "id": "nd-disabled-veteran-property-tax-credit",
+    "jurisdiction": "ND",
+    "category": "property-tax",
+    "title": "Property tax credit for disabled Veterans",
+    "summary": "North Dakota gives a credit against the first $9,000 of your homestead's taxable valuation, scaled to your disability percentage. Individual unemployability qualifies, and a surviving spouse receiving dependency and indemnity compensation gets the full 100 percent.",
+    "amount": "A credit against the first $9,000 of taxable valuation of the homestead, equal to your certified disability compensation rating percentage",
+    "eligibility": [
+      "You are a disabled Veteran of the United States armed forces with an armed forces service-connected disability of 50 percent or greater",
+      "Or you have an extra-schedular rating including individual unemployability which results in being paid at the 100 percent rate, as determined by the Department of Veterans Affairs",
+      "And you were discharged under honorable conditions, or retired from the armed forces",
+      "You own and occupy the homestead",
+      "A surviving spouse of a deceased qualifying Veteran is eligible",
+      "A surviving spouse receiving VA dependency and indemnity compensation receives a 100 percent credit"
+    ],
+    "details": [
+      "The credit scales with your rating. At 70 percent you get a credit worth 70 percent of the tax on the first $9,000 of taxable valuation, not the whole thing. Only a 100 percent rating, or the dependency and indemnity compensation route for a surviving spouse, gives the full amount.",
+      "Individual unemployability is named explicitly, which is better than many states manage. An extra-schedular rating including unemployability that results in payment at the 100 percent rate qualifies.",
+      "There is a helpful presumption for surviving spouses. If the determination of disability or service-connected death happens after the Veteran's death, under a law that makes the spouse eligible for dependency and indemnity compensation, that determination is presumed to precede the death. Correspondence from the VA confirming the spouse is a survivor and is receiving dependency and indemnity compensation counts as sufficient proof.",
+      "If two disabled Veterans are married and living together, their combined credits cannot exceed 100 percent of $9,000 of taxable valuation.",
+      "If you co-own the homestead with someone other than your spouse, parent or child, the credit is limited to your interest, worked out by applying your certified disability percentage to the taxable valuation of your share.",
+      "Claiming for the first time, file an affidavit with the county auditor together with a VA certificate stating the amount of the disability. Note that the affidavit and certificate are open for public inspection.",
+      "The credit does not reduce your liability for special assessments.",
+      "The credit terminates at the end of the taxable year in which the applicant dies."
+    ],
+    "agency": "County auditors, with certification from the US Department of Veterans Affairs",
+    "statuteRef": "N.D.C.C. 57-02-08.8",
+    "officialUrl": "https://ndlegis.gov/cencode/t57c02.pdf",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "nd-military-pay-and-retirement-exclusion",
+    "jurisdiction": "ND",
+    "category": "income-tax",
+    "title": "Military pay and retired pay are both fully excluded",
+    "summary": "North Dakota reduces your taxable income by all military pay and by all retired military personnel benefits, with no cap on either. Survivor benefits are covered too.",
+    "amount": "Full reduction of both military pay and retired military personnel benefits, with no dollar cap",
+    "eligibility": [
+      "Military pay received as a member of the armed forces of the United States on federal active duty, or as a member of the national guard or a reserve member, is deducted to the extent included in North Dakota taxable income",
+      "Retired military personnel benefits are deducted to the extent included in federal taxable income",
+      "Retired military personnel benefits paid to the surviving spouse of a deceased retired member of the armed forces, a reserve component, or the national guard are also deducted"
+    ],
+    "details": [
+      "The definition of military pay is unusually broad. It includes all federal pay for training, education, mobilization and bonuses, and state pay when called to support an emergency on state active duty. Guard members called out for a flood or a storm are covered.",
+      "The two provisions are separate, so there is no competition between them. Active pay and retired pay are each fully deducted rather than sharing a cap.",
+      "Survivor benefits are named in the statute rather than left to interpretation.",
+      "North Dakota also reduces taxable income by the amount of Social Security benefits included in federal adjusted gross income, which stacks with the above for a retired Veteran."
+    ],
+    "agency": "North Dakota Office of State Tax Commissioner",
+    "statuteRef": "N.D.C.C. 57-38-30.3, subdivisions (g) and (r)",
+    "officialUrl": "https://ndlegis.gov/cencode/t57c38.pdf",
+    "confidence": "needs-review"
+  }
+]

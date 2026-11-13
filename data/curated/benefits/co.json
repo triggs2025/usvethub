@@ -1,0 +1,56 @@
+[
+  {
+    "id": "co-disabled-veteran-property-tax-exemption",
+    "jurisdiction": "CO",
+    "category": "property-tax",
+    "title": "Property tax exemption for a Veteran with a disability",
+    "summary": "Colorado exempts half the value of your home, up to the first $200,000 of actual value, if you hold a 100 percent permanent rating or individual unemployability status. A surviving spouse keeps it.",
+    "amount": "Fifty percent of the first $200,000 of actual value of the residential real property",
+    "eligibility": [
+      "You served on active duty in the United States armed forces, including a member of the Colorado National Guard ordered into the active military service of the United States",
+      "You were separated under honorable conditions",
+      "And you have established a service-connected disability rated by the US Department of Veterans Affairs as a 100 percent permanent disability, through disability retirement benefits under a law or regulation administered by the VA, the Department of Homeland Security, or the Department of the Army, Navy or Air Force",
+      "Or you have individual unemployability status as determined by the US Department of Veterans Affairs",
+      "The property is owner-occupied and used as your primary residence as of the assessment date",
+      "You have completed and filed an exemption application as required by section 39-3-205"
+    ],
+    "details": [
+      "Individual unemployability is written into the definition as an independent route, not an afterthought, so a Veteran paid at the 100 percent rate through unemployability qualifies in their own right.",
+      "The exemption is half of the first $200,000 of actual value, so the maximum exempted amount is $100,000 of actual value. It is not a $200,000 exemption.",
+      "A surviving spouse of a qualifying Veteran who previously received the exemption on the same property keeps it, for property tax years commencing on or after 1 January 2015. A surviving spouse means someone legally married at the time of the other's death who has not remarried.",
+      "You cannot backdate it. No exemption is allowed for property taxes assessed in any year before the year you first file an application.",
+      "If ownership changes after the assessment date there are further conditions, so tell the assessor promptly if the property changes hands.",
+      "A separate version of this exemption applies to owner-occupiers aged 65 or over who have owned and occupied the home for the ten preceding years. You take one or the other, not both.",
+      "One currency caution. Colorado does not publish its statutes in HTML, and the only official source is a whole-title PDF. The copy we read is the 2024 compilation, which is the most recent the legislature publishes at that address. Confirm with your county assessor before relying on the detail."
+    ],
+    "agency": "County assessors, with applications under C.R.S. 39-3-205",
+    "statuteRef": "C.R.S. 39-3-203(1.5), with definitions at 39-3-202(3.5)",
+    "officialUrl": "https://content.leg.colorado.gov/sites/default/files/images/olls/crs2024-title-39.pdf",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "co-military-retirement-subtraction",
+    "jurisdiction": "CO",
+    "category": "income-tax",
+    "title": "Military retirement subtraction, for under 55s only, ending in 2029",
+    "summary": "Colorado subtracts up to $15,000 of military retirement, but only if you are under 55 at the end of the tax year. It also expires after the 2028 tax year. Older retirees use the general pension subtraction instead.",
+    "amount": "Up to $15,000 of military retirement benefits for income tax years commencing on or after 1 January 2022 and before 1 January 2029",
+    "eligibility": [
+      "You receive military retirement benefits, meaning any retirement benefits received as a result of service in the armed forces of the United States",
+      "The benefits are included in your federal adjusted gross income",
+      "And you are a qualified individual, which the statute defines as an individual who is under fifty-five years of age at the close of the taxable year"
+    ],
+    "details": [
+      "Read the age rule twice, because it runs the opposite way to most states. This subtraction is only for Veterans UNDER 55. Most retirement tax relief favours older people; this one deliberately targets younger military retirees, who typically retire in their forties and keep working.",
+      "If you are 55 or over you do not use this provision. Colorado has a separate general pension and annuity subtraction for older taxpayers, which is worth more, so ask about that instead.",
+      "There is an expiry. The subtraction runs for income tax years commencing on or after 1 January 2019 and before 1 January 2029, so on current law it ends after the 2028 tax year.",
+      "The cap climbed in steps: $4,500 for 2019, $7,500 for 2020, $10,000 for 2021, and $15,000 from 2022. Older guidance quoting the smaller figures is describing a superseded year.",
+      "The legislature attached a performance statement requiring it and the state auditor to measure whether military retirees are actually benefiting, which is usually a sign a provision will be reviewed before any extension.",
+      "Same currency caution as the property tax record: the only official source is a whole-title PDF, and the copy we read is the 2024 compilation."
+    ],
+    "agency": "Colorado Department of Revenue",
+    "statuteRef": "C.R.S. 39-22-104(4)(y)",
+    "officialUrl": "https://content.leg.colorado.gov/sites/default/files/images/olls/crs2024-title-39.pdf",
+    "confidence": "needs-review"
+  }
+]
