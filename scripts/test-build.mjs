@@ -173,6 +173,43 @@ check(
 );
 check('CSP allows the index fetch and nothing else', homeHtml.includes("connect-src 'self'"));
 
+// An index must never promise more than the page delivers. SUGGESTIONS #166:
+// the state grids used to count the state Veteran agency as a listing, so a
+// jurisdiction with no benefits still advertised "1 listing" and a Veteran
+// clicked through to a phone number. The count shown has to be the benefit
+// count and nothing else, on every index that shows one.
+{
+  const benefitsByJurisdiction = new Map();
+  for (const file of readdirSync(join('data', 'published', 'benefits')).filter((f) => f.endsWith('.json'))) {
+    for (const record of readJson(join('data', 'published', 'benefits', file)).records ?? []) {
+      benefitsByJurisdiction.set(record.jurisdiction, (benefitsByJurisdiction.get(record.jurisdiction) ?? 0) + 1);
+    }
+  }
+
+  const wrong = [];
+  for (const indexFile of ['index.html', join('states', 'index.html')]) {
+    const markup = read(indexFile);
+    for (const j of jurisdictions) {
+      // Federal benefits are rendered on every jurisdiction page but belong to
+      // none of them, so they are deliberately outside this count.
+      const expected = benefitsByJurisdiction.get(j.code) ?? 0;
+      const anchor = new RegExp(
+        `<a href="[^"]*/${j.slug}/"[^>]*data-count="(\\d+)"[^>]*>\\s*<strong>[^<]*</strong>\\s*<small>([^<]*)</small>`,
+      ).exec(markup);
+      if (!anchor) { wrong.push(`${indexFile}: no counted entry for ${j.name}`); continue; }
+
+      const claimed = Number(anchor[1]);
+      const label = anchor[2].trim();
+      if (claimed !== expected) {
+        wrong.push(`${indexFile}: ${j.name} data-count ${claimed}, published ${expected}`);
+      }
+      const labelClaims = expected === 0 ? label === 'Agency contact only' : label === `${expected} benefit${expected === 1 ? '' : 's'}`;
+      if (!labelClaims) wrong.push(`${indexFile}: ${j.name} label "${label}" for ${expected} benefit(s)`);
+    }
+  }
+  check('every index counts benefits only, never the agency', wrong.length === 0, wrong.slice(0, 5).join('\n      '));
+}
+
 const indexPath = join('dist', 'search-index.json');
 check('search index is generated', existsSync(indexPath));
 if (existsSync(indexPath)) {

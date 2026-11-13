@@ -74,6 +74,25 @@ const sourceLine = (record) => html`<p class="source">
   · checked ${esc(record.verifiedAt)}
 </p>`;
 
+/**
+ * The count shown against a jurisdiction in an index.
+ *
+ * SUGGESTIONS #166. This used to add organizations and benefits together, which
+ * quietly lied. Every jurisdiction has a state Veteran agency, because that
+ * comes from the VA's own directory, so a jurisdiction with no benefits at all
+ * still read as "1 listing". A Veteran clicked expecting a benefit and found a
+ * phone number.
+ *
+ * The number a visitor is asking about is benefits, so that is the number shown,
+ * and a jurisdiction that has only the agency says so before the click instead
+ * of after it. This lives in one function on purpose: the same count is rendered
+ * in two separate indexes and they are easy to let drift apart.
+ */
+const jurisdictionCount = (j) =>
+  j.benefits.length
+    ? `${j.benefits.length} benefit${j.benefits.length === 1 ? '' : 's'}`
+    : 'Agency contact only';
+
 function orgCard(org) {
   const contact = [
     org.website ? html`<a href="${escUrl(org.website)}" rel="noopener">Website</a>` : '',
@@ -335,9 +354,9 @@ page('/', layout({
       ${filterBar({ target: '#state-grid', label: 'Filter states and territories', placeholder: 'Search states and territories' })}
       <ul class="grid states" id="state-grid">
         ${jurisdictions.map((j) => html`<li data-filter-item data-search="${esc(`${j.name} ${j.code}`)}">
-          <a href="${escUrl(`/${j.slug}/`)}" data-count="${esc(j.organizations.length + j.benefits.length)}">
+          <a href="${escUrl(`/${j.slug}/`)}" data-count="${esc(j.benefits.length)}">
             <strong>${esc(j.name)}</strong>
-            <small>${esc(j.organizations.length + j.benefits.length)} listing${j.organizations.length + j.benefits.length === 1 ? '' : 's'}</small>
+            <small>${esc(jurisdictionCount(j))}</small>
           </a>
         </li>`)}
       </ul>
@@ -381,9 +400,9 @@ page('/states/', layout({
       return html`<section>
         <h2>${esc(heading)}</h2>
         <ul class="grid states">
-          ${group.map((j) => html`<li><a href="${escUrl(`/${j.slug}/`)}">
+          ${group.map((j) => html`<li><a href="${escUrl(`/${j.slug}/`)}" data-count="${esc(j.benefits.length)}">
             <strong>${esc(j.name)}</strong>
-            <small>${esc(j.organizations.length + j.benefits.length)} listing${j.organizations.length + j.benefits.length === 1 ? '' : 's'}</small>
+            <small>${esc(jurisdictionCount(j))}</small>
           </a></li>`)}
         </ul>
       </section>`;
@@ -394,7 +413,11 @@ page('/states/', layout({
 // ---------------------------------------------------------- jurisdiction pages
 
 for (const j of jurisdictions) {
-  const total = j.benefits.length + j.organizations.length;
+  // Counted separately, not summed. See jurisdictionCount and SUGGESTIONS #166:
+  // a Veteran reading "3 listings" has no way to know that two of them are
+  // contact cards rather than benefits.
+  const nBenefits = j.benefits.length;
+  const nOrgs = j.organizations.length;
   const byCategory = new Map();
   for (const benefit of j.benefits) {
     if (!byCategory.has(benefit.category)) byCategory.set(benefit.category, []);
@@ -416,9 +439,12 @@ for (const j of jurisdictions) {
     body: html`
       <h1>${esc(j.name)} Veteran benefits and resources</h1>
       <p class="lede">
-        ${total
-          ? html`${esc(total)} published listing${total === 1 ? '' : 's'} for Veterans in ${esc(j.name)}, each linked to its official source.`
-          : html`We are still building out ${esc(j.name)}. Start with your state agency below.`}
+        ${nBenefits
+          ? html`${esc(nBenefits)} ${nBenefits === 1 ? 'benefit' : 'benefits'} published for Veterans in
+             ${esc(j.name)}${nOrgs ? html`, plus ${esc(nOrgs)} organization${nOrgs === 1 ? '' : 's'} to contact` : ''},
+             each linked to its official source.`
+          : html`No ${esc(j.name)} benefits are published yet, so what is below is a contact for your
+             state agency and the federal benefits that apply wherever you live.`}
       </p>
 
       ${j.stateAgency
