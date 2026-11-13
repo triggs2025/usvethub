@@ -2,7 +2,7 @@
   "sourceId": "curated-benefits",
   "recordType": "benefit",
   "jurisdiction": null,
-  "generatedAt": "2026-11-13T06:33:12.360Z",
+  "generatedAt": "2026-11-13T06:43:43.731Z",
   "records": [
     {
       "id": "al-disabled-person-homestead-exemption",
@@ -2829,6 +2829,99 @@
       "verifiedAt": "2026-11-13"
     },
     {
+      "id": "nj-disabled-veteran-full-property-tax-exemption",
+      "jurisdiction": "NJ",
+      "category": "property-tax",
+      "title": "Full property tax exemption for a totally disabled Veteran",
+      "summary": "New Jersey exempts your dwelling house and the lot it sits on from property tax entirely if the VA has declared you totally and permanently disabled from service. A surviving spouse keeps it, and can carry it to a different home.",
+      "amount": "The dwelling house and the lot or curtilage are fully exempt from taxation. There is no dollar cap.",
+      "eligibility": [
+        "You are a citizen and resident of New Jersey, honorably discharged or released under honorable circumstances from active service in any branch of the Armed Forces",
+        "The VA has declared a service-connected disability from paraplegia, sarcoidosis, or osteochondritis resulting in permanent loss of the use of both legs, or permanent paralysis of both legs and lower parts of the body",
+        "Or hemiplegia with permanent paralysis of one leg and one arm or either side of the body, resulting from injury to the spinal cord, skeletal structure or brain, or from disease of the spinal cord",
+        "Or total blindness",
+        "Or amputation of both arms or both legs, both hands or both feet, or a combination of a hand and a foot",
+        "Or any other service-connected disability declared by the VA to be a total or 100 percent permanent disability",
+        "A disability is not disqualified merely because it is not evaluated as total solely because of hospitalisation, surgery and recuperation"
+      ],
+      "details": [
+        "The catch-all matters most. Beyond the specific conditions listed, any service-connected disability the VA declares a total or 100 percent permanent disability qualifies. You do not need one of the named conditions.",
+        "A surviving spouse keeps the exemption during widowhood or widowerhood, while remaining a New Jersey resident, for as long as they are the legal owner and actually occupy the dwelling. Importantly, that includes any other dwelling house acquired later, so selling and moving does not end it.",
+        "A surviving spouse also qualifies where the Veteran was honorably discharged and the service-connected disability was only declared after death.",
+        "The surviving spouse of someone who died in active service is entitled to the same full exemption on the dwelling house and lot, on the same widowhood, residency and occupancy terms.",
+        "There is a further provision for a surviving spouse whose partner died before 10 January 1972 and who would have qualified had the 1971 law been in force during their lifetime.",
+        "Apply to your municipal tax assessor. This is separate from, and far larger than, the $250 Veterans deduction, which almost every Veteran can claim."
+      ],
+      "agency": "Municipal tax assessors",
+      "statuteRef": "N.J.S.A. 54:4-3.30",
+      "officialUrl": "https://lis.njleg.state.nj.us/nxt/gateway.dll?f=templates&fn=default.htm&vid=Publish:10.1048/Enu",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "nj-military-pension-income-exclusion",
+      "jurisdiction": "NJ",
+      "category": "income-tax",
+      "title": "Military pensions are excluded from income",
+      "summary": "New Jersey does not count military pension payments or military survivor's benefit payments as gross income. The provision is short, flat and has no conditions attached.",
+      "amount": "Full exclusion, with no dollar cap and no age condition",
+      "eligibility": [
+        "The payments are military pension payments or military survivor's benefit payments",
+        "They are paid to individuals by the United States with respect to service in the Armed Forces of the United States"
+      ],
+      "details": [
+        "The whole operative text is one sentence, with no age test, no dollar cap and no income threshold. That is unusually clean compared with the phased and capped provisions in neighbouring states.",
+        "Survivor's benefit payments are named explicitly alongside pensions, so a surviving spouse is covered by the same provision.",
+        "This has been law since 1997 and was amended in 2001."
+      ],
+      "agency": "New Jersey Division of Taxation",
+      "statuteRef": "N.J.S.A. 54A:6-26",
+      "officialUrl": "https://lis.njleg.state.nj.us/nxt/gateway.dll?f=templates&fn=default.htm&vid=Publish:10.1048/Enu",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "nj-veterans-property-tax-deduction",
+      "jurisdiction": "NJ",
+      "category": "property-tax",
+      "title": "Veterans property tax deduction of $250",
+      "summary": "New Jersey takes $250 straight off your property tax bill every year if you were honorably discharged. No disability is required, and no wartime service condition appears in the text.",
+      "amount": "$250 deducted from the tax bill each year, or cancellation of the bill if it is less than $250",
+      "eligibility": [
+        "You are a citizen and resident of New Jersey",
+        "You were honorably discharged, or released under honorable circumstances, from active service in any branch of the Armed Forces of the United States",
+        "A surviving spouse qualifies during widowhood or widowerhood while a New Jersey resident",
+        "You make a proper claim annually"
+      ],
+      "details": [
+        "This is a deduction from the tax itself rather than from assessed value, so the whole $250 comes off your bill. If your tax is less than $250, the bill is cancelled.",
+        "No disability requirement appears here, which is what makes it the most widely claimable Veteran benefit in New Jersey. The text also carries no wartime service condition.",
+        "The figure reached $250 by steps: $100 in tax year 2000, $150 in 2001, $200 in 2002, and $250 in each subsequent tax year. It has been $250 for over two decades and is not indexed, so it has lost value in real terms.",
+        "A Veteran living in a continuing care retirement community receives the deduction to the extent of the share of taxes attributable to the unit they occupy, which is a useful provision that is easily missed.",
+        "If you qualify for the full disabled Veteran exemption, that is worth far more. This deduction is the baseline for everyone else."
+      ],
+      "agency": "Municipal tax collectors and assessors",
+      "statuteRef": "N.J.S.A. 54:4-8.11",
+      "officialUrl": "https://lis.njleg.state.nj.us/nxt/gateway.dll?f=templates&fn=default.htm&vid=Publish:10.1048/Enu",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
       "id": "nv-disabled-veteran-property-tax-exemption",
       "jurisdiction": "NV",
       "category": "property-tax",
@@ -5634,6 +5727,44 @@
       "agency": "West Virginia State Tax Department",
       "statuteRef": "W. Va. Code 11-21-12(c)(7)(C)",
       "officialUrl": "https://code.wvlegislature.gov/11-21-12/",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "wy-veterans-ad-valorem-exemption",
+      "jurisdiction": "WY",
+      "category": "property-tax",
+      "title": "Veterans property tax exemption",
+      "summary": "Wyoming exempts $3,000 of assessed value a year on your principal residence. You need three years of Wyoming residency, and you can take it against your vehicle registration fees instead if that suits you better.",
+      "amount": "An annual exemption of $3,000 of assessed value",
+      "eligibility": [
+        "You are a bona fide Wyoming resident, and have been for at least three years at the time you claim",
+        "An honorably discharged Veteran of the Indian Wars, Spanish American War, Filipino insurrection, Boxer rebellion, Puerto Rico campaign or First World War",
+        "Or of the Second World War, serving between 7 December 1941 and 31 December 1946",
+        "Or of the Korean War emergency, serving between 27 June 1950 and 31 January 1955",
+        "Or of the Vietnam War emergency, serving between 28 February 1961 and 7 May 1975",
+        "Or an honorably discharged Veteran awarded the armed forces expeditionary medal or another authorized service or campaign medal indicating service in any armed conflict in a foreign country",
+        "Or a disabled Veteran with a compensable service-connected disability certified by the Veterans Administration or a branch of the armed forces",
+        "A surviving spouse, during widowhood or widowerhood, of anyone qualifying above or who died while serving honorably during a qualifying period"
+      ],
+      "details": [
+        "File a sworn claim with your county assessor on or before the fourth Monday in May. The exemption applies to your principal residence only, and you may claim it in only one Wyoming county.",
+        "Missing the deadline is not fatal and the rule is unusually generous. An honorably discharged claimant who files late still receives the exemption for that taxable year, in addition to the following year's, provided they file by the fourth Monday in May of the next year.",
+        "After your first sworn claim you do not have to file again. In later years you simply contact the assessor's office by telephone, mail or another method on or before the fourth Monday in May and confirm you still qualify.",
+        "There is a useful alternative. Under subsection (g) you may file after the deadline and still get the benefit for that year, but only applied to reduce motor vehicle registration fees. If you do not own your home, or the property exemption is not useful to you, ask about that route.",
+        "The exemption covers property held in a trust created by or for your benefit, and property you are buying under a recorded contract for deed, not just property held outright.",
+        "A surviving spouse qualifies in their own right if both spouses were Wyoming residents at the time of death, the surviving spouse has been a Wyoming resident for at least three years when claiming, and the Veteran would have qualified had they survived and applied.",
+        "The county assessor must notify taxpayers of this exemption with the annual assessment schedule, including instructions and timelines.",
+        "The $3,000 is fixed in the statute with no inflation adjustment. Wyoming has no state income tax, so there is no military retirement question here."
+      ],
+      "agency": "County assessors",
+      "statuteRef": "Wyo. Stat. 39-13-105, with the exemption authorised by 39-11-105(a)(xxiv)",
+      "officialUrl": "https://statutes.wyoleg.gov/NXT/gateway.dll?f=templates&fn=default.htm",
       "confidence": "needs-review",
       "source": {
         "id": "curated-benefits",

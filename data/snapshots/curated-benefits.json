@@ -2,7 +2,7 @@
   "sourceId": "curated-benefits",
   "recordType": "benefit",
   "jurisdiction": null,
-  "generatedAt": "2026-11-13T06:30:31.452Z",
+  "generatedAt": "2026-11-13T06:42:07.572Z",
   "records": [
     {
       "id": "al-disabled-person-homestead-exemption",
@@ -4697,6 +4697,69 @@
       "verifiedAt": "2026-11-13"
     },
     {
+      "id": "ut-military-retirement-tax-credit",
+      "jurisdiction": "UT",
+      "category": "income-tax",
+      "title": "Military retirement tax credit",
+      "summary": "Utah does not exempt military retirement from income. Instead it gives a nonrefundable credit equal to the state tax on that retirement pay, which comes to much the same thing, with two catches.",
+      "amount": "A nonrefundable credit equal to the Utah income tax rate multiplied by the military retirement pay in your federal adjusted gross income",
+      "eligibility": [
+        "You receive military retirement pay, meaning retirement pay including survivor benefits relating to service in the armed forces or the reserve components as described in 10 U.S.C. 10101",
+        "Survivor benefits means the retired pay portion of the benefits described in 10 U.S.C. 1447 through 1455",
+        "Social Security income, 401(k) and IRA distributions, and income from other sources do not count"
+      ],
+      "details": [
+        "Understand the mechanism. Utah taxes the income and then credits back the tax on it, rather than subtracting the income. For most people the result is the same, but it matters in two situations.",
+        "First catch: the credit is nonrefundable and cannot be carried forward or back. If your Utah tax liability is smaller than the credit, you lose the excess entirely.",
+        "Second catch: you cannot claim this credit in the same taxable year as the general retirement tax credit under Section 59-10-1019. Work out which is worth more before filing.",
+        "Survivor benefits are expressly covered, which matters for a surviving spouse."
+      ],
+      "agency": "Utah State Tax Commission",
+      "statuteRef": "Utah Code 59-10-1043",
+      "officialUrl": "https://le.utah.gov/xcode/Title59/Chapter10/59-10-S1043.html",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "ut-veteran-armed-forces-property-tax-exemption",
+      "jurisdiction": "UT",
+      "category": "property-tax",
+      "title": "Veteran armed forces property tax exemption",
+      "summary": "Utah exempts taxable value in proportion to your disability rating. At 100 percent you exempt the whole limit, which was $479,504 in 2023 and has risen with inflation every year since. Individual unemployability counts as 100 percent.",
+      "amount": "Your disability percentage multiplied by the adjusted taxable value limit. The limit was $479,504 for 2023 and is increased each year by the change in the consumer price index.",
+      "eligibility": [
+        "You are a Veteran claimant and own the eligible property",
+        "The exemption equals the percentage of disability on your statement of disability multiplied by the adjusted taxable value limit",
+        "A county must treat you as 100 percent disabled, whatever percentage your statement shows, if the VA certifies you in the classification of individual unemployability",
+        "A county may not allow the exemption if the disability percentage is less than 10 percent",
+        "The exemption cannot exceed the taxable value of the property"
+      ],
+      "details": [
+        "The individual unemployability rule is unusually clear and unusually favourable. Where many states leave TDIU unaddressed, Utah states that a county shall treat the Veteran as 100 percent disabled regardless of the listed percentage. If you hold TDIU, say so when you apply.",
+        "We are not printing a current dollar figure. The adjusted taxable value limit was $479,504 for the calendar year beginning 1 January 2023, and for every year since it is the previous year's limit plus that limit multiplied by the actual percentage change in the consumer price index. Four years of compounding later the real figure is materially higher. Ask your county.",
+        "A full exemption of the total taxable value, rather than a percentage, applies to the unmarried surviving spouse of a Veteran killed in action or who died in the line of duty, and to a minor orphan of such a Veteran.",
+        "The same full exemption applies to the unmarried surviving spouse or minor orphan of a deceased Veteran with a disability who served in the military service of the United States or the state before 1 January 1921 and whose disability was 10 percent or more.",
+        "A useful procedural protection: an individual who received an honorable or general discharge is presumed to be a United States citizen and may not be required to provide additional proof of citizenship.",
+        "Disputes are resolved by the Department of Veterans and Military Affairs through an informal hearing under the Administrative Procedures Act.",
+        "Note that Utah recodified this. If you are looking for the old Section 59-2-1903 you will find an empty page. The exemption now lives in Title 59 Chapter 2a Part 5, effective 1 January 2026."
+      ],
+      "agency": "County assessors, with disputes resolved by the Utah Department of Veterans and Military Affairs",
+      "statuteRef": "Utah Code 59-2a-501, with definitions at 59-2a-101",
+      "officialUrl": "https://le.utah.gov/xcode/Title59/Chapter2a/59-2a-S501.html",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
       "id": "va-benefits-claims-assistance",
       "jurisdiction": "VA",
       "category": "legal",
@@ -5571,6 +5634,44 @@
       "agency": "West Virginia State Tax Department",
       "statuteRef": "W. Va. Code 11-21-12(c)(7)(C)",
       "officialUrl": "https://code.wvlegislature.gov/11-21-12/",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "wy-veterans-ad-valorem-exemption",
+      "jurisdiction": "WY",
+      "category": "property-tax",
+      "title": "Veterans property tax exemption",
+      "summary": "Wyoming exempts $3,000 of assessed value a year on your principal residence. You need three years of Wyoming residency, and you can take it against your vehicle registration fees instead if that suits you better.",
+      "amount": "An annual exemption of $3,000 of assessed value",
+      "eligibility": [
+        "You are a bona fide Wyoming resident, and have been for at least three years at the time you claim",
+        "An honorably discharged Veteran of the Indian Wars, Spanish American War, Filipino insurrection, Boxer rebellion, Puerto Rico campaign or First World War",
+        "Or of the Second World War, serving between 7 December 1941 and 31 December 1946",
+        "Or of the Korean War emergency, serving between 27 June 1950 and 31 January 1955",
+        "Or of the Vietnam War emergency, serving between 28 February 1961 and 7 May 1975",
+        "Or an honorably discharged Veteran awarded the armed forces expeditionary medal or another authorized service or campaign medal indicating service in any armed conflict in a foreign country",
+        "Or a disabled Veteran with a compensable service-connected disability certified by the Veterans Administration or a branch of the armed forces",
+        "A surviving spouse, during widowhood or widowerhood, of anyone qualifying above or who died while serving honorably during a qualifying period"
+      ],
+      "details": [
+        "File a sworn claim with your county assessor on or before the fourth Monday in May. The exemption applies to your principal residence only, and you may claim it in only one Wyoming county.",
+        "Missing the deadline is not fatal and the rule is unusually generous. An honorably discharged claimant who files late still receives the exemption for that taxable year, in addition to the following year's, provided they file by the fourth Monday in May of the next year.",
+        "After your first sworn claim you do not have to file again. In later years you simply contact the assessor's office by telephone, mail or another method on or before the fourth Monday in May and confirm you still qualify.",
+        "There is a useful alternative. Under subsection (g) you may file after the deadline and still get the benefit for that year, but only applied to reduce motor vehicle registration fees. If you do not own your home, or the property exemption is not useful to you, ask about that route.",
+        "The exemption covers property held in a trust created by or for your benefit, and property you are buying under a recorded contract for deed, not just property held outright.",
+        "A surviving spouse qualifies in their own right if both spouses were Wyoming residents at the time of death, the surviving spouse has been a Wyoming resident for at least three years when claiming, and the Veteran would have qualified had they survived and applied.",
+        "The county assessor must notify taxpayers of this exemption with the annual assessment schedule, including instructions and timelines.",
+        "The $3,000 is fixed in the statute with no inflation adjustment. Wyoming has no state income tax, so there is no military retirement question here."
+      ],
+      "agency": "County assessors",
+      "statuteRef": "Wyo. Stat. 39-13-105, with the exemption authorised by 39-11-105(a)(xxiv)",
+      "officialUrl": "https://statutes.wyoleg.gov/NXT/gateway.dll?f=templates&fn=default.htm",
       "confidence": "needs-review",
       "source": {
         "id": "curated-benefits",
