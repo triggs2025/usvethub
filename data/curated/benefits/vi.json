@@ -1,0 +1,33 @@
+[
+  {
+    "id": "vi-veteran-property-tax-credit",
+    "jurisdiction": "VI",
+    "category": "property-tax",
+    "title": "A $650 Veteran tax credit, and you must pick only one credit",
+    "summary": "The Virgin Islands gives a $650 property tax credit to a Veteran or a Veteran's widow or widower, on top of the homestead exemption. The catch is that you may claim only one credit besides homestead, so do the arithmetic before you choose.",
+    "amount": "$650 credit against property tax, in addition to the homestead exemption",
+    "eligibility": [
+      "You are a property owner who qualifies as a Veteran, or the widow or widower of a Veteran, of the Armed Services of the United States",
+      "You attach a copy of your DD214",
+      "A member of the National Guard who has served for twenty years or more qualifies",
+      "A member of the National Guard who spent more than thirty consecutive days deployed in a war zone qualifies",
+      "No disability rating and no income limit are stated for this credit"
+    ],
+    "details": [
+      "The choice is the thing to get right. The application lets you claim the homestead exemption plus exactly one other credit, and says select only one other credit below. The Veteran credit is $650. The senior credit and the disability credit are each $500, and both are limited to owners with individual gross income under $30,000 and household income under $50,000.",
+      "So for most Veterans the Veteran credit wins twice over: it is worth $150 more and it carries no income test. A Veteran who is also over 60, or who has a Social Security disability determination, should not default to those credits.",
+      "But check two other options before deciding, because they are percentage-based and can be worth more on a larger bill. A Certificate of Visitability credit is 20 percent of the taxes levied, and a Circuit Breaker credit can run up to $5,000 of the taxes levied under 33 V.I.C. 2305c. On a high-value property either could beat $650. The Visitability credit needs a certificate issued by the Department of Planning and Natural Resources.",
+      "The National Guard routes are specific and generous in their own way: twenty years of service, or more than thirty consecutive days deployed in a war zone. Neither requires a disability.",
+      "The homestead side has its own rules. You need permanent Virgin Islands residency on 1 January, you must have been living in the territory for six months, and the credit does not apply to vacant land. The property must be your principal residence, defined as your true, fixed and permanent home that you intend to return to.",
+      "A home occupied by a qualifying family member can still qualify, where that family member is your spouse, your parent, or your child by birth or adoption. The form asks whether they pay rent.",
+      "The deadline is firm and early: the application is due to the Office of the Tax Assessor by 1 March. You will also be asked for the address used on your last return with the Virgin Islands Bureau of Internal Revenue, and for a copy of that return, or a notarised statement explaining why there is none.",
+      "You cannot double up. The form asks whether you claim a homestead credit on another property in the Virgin Islands, or in another state or jurisdiction.",
+      "On the source, and its limits. The Virgin Islands Code is not published openly by the territory in a form we could read, so this record is built on the Office of the Lieutenant Governor's own application for homestead and related tax credits, dated January 2025, which is the document the Tax Assessor actually administers. The form cites Title 33, Section 2305 of the Virgin Islands Code for penalties and 33 V.I.C. 2305c for the circuit breaker. We have not read the statutory text itself, so treat the amounts as current practice rather than verified law, and confirm with the Assessor.",
+      "The Tax Assessor has offices on both main islands: 1131 King Street, Suite 101, Christiansted on St Croix, (340) 773-6449, and 5049 Kongens Gade, Charlotte Amalie on St Thomas, (340) 774-2991. The Assessor makes the final determination based on whatever other evidence is necessary."
+    ],
+    "agency": "Office of the Lieutenant Governor, Real Property Tax Division, Office of the Tax Assessor",
+    "statuteRef": "33 V.I.C. 2305, with the circuit breaker credit at 33 V.I.C. 2305c",
+    "officialUrl": "https://ltg.gov.vi/wp-content/uploads/2025/01/FILLABLE-TAX-CREDIT-APPLICATION.pdf",
+    "confidence": "needs-review"
+  }
+]

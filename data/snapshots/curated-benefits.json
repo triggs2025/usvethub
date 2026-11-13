@@ -2,7 +2,7 @@
   "sourceId": "curated-benefits",
   "recordType": "benefit",
   "jurisdiction": null,
-  "generatedAt": "2026-11-13T07:01:39.015Z",
+  "generatedAt": "2026-11-13T13:36:42.326Z",
   "records": [
     {
       "id": "ak-disabled-veteran-property-tax-exemption",
@@ -92,6 +92,126 @@
       "agency": "Alabama Department of Revenue",
       "statuteRef": "Ala. Code 40-18-20",
       "officialUrl": "https://alison.legislature.state.al.us/code-of-alabama?section=40-18-20",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "ar-adapted-vehicle-sales-tax-exemption",
+      "jurisdiction": "AR",
+      "category": "vehicle",
+      "title": "No sales tax on a VA adapted vehicle",
+      "summary": "Arkansas charges no state gross receipts tax on a specially adapted vehicle or on adaptive equipment bought with VA assistance for a service-connected disability.",
+      "amount": "Exemption from state gross receipts tax on the adapted vehicle or equipment",
+      "eligibility": [
+        "The vehicle or equipment is specially adapted",
+        "It was purchased with VA assistance for a service-connected disability"
+      ],
+      "details": [
+        "Claim it at your local Arkansas revenue office. Take your VA Benefit Summary Letter with you.",
+        "Same source caution as the income tax record. This comes from the Arkansas Department of Veterans Affairs summary of state benefits, not from statutory text we have read, so no section number is attached."
+      ],
+      "agency": "Arkansas Department of Finance and Administration revenue offices",
+      "officialUrl": "https://www.veterans.arkansas.gov/state-benefits",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "ar-disabled-veteran-property-tax-exemption",
+      "jurisdiction": "AR",
+      "category": "property-tax",
+      "title": "Total property tax exemption for a disabled Veteran",
+      "summary": "Arkansas exempts the homestead and personal property of a Veteran who receives special monthly compensation for loss or loss of use of a limb, total blindness, or a 100 percent total and permanent service-connected rating. It is a full exemption, not a slice of value.",
+      "amount": "Full exemption from payment of all state taxes on the homestead and personal property, with no dollar cap and no value ceiling",
+      "eligibility": [
+        "You have been awarded special monthly compensation by the Department of Veterans Affairs for the loss of, or the loss of use of, one or more limbs",
+        "Or you have been awarded special monthly compensation for total blindness in one or both eyes",
+        "Or you have been awarded compensation for service-connected one hundred percent total and permanent disability",
+        "The exemption covers the homestead and personal property owed by the disabled Veteran",
+        "On the death of a qualifying Veteran who received the exemption, it extends to the surviving spouse and minor dependent children, provided the spouse remains unmarried",
+        "The surviving spouse and minor children are also exempt if the member was killed while within the scope of their military duties, or is declared missing in action"
+      ],
+      "details": [
+        "This is one of the strongest property tax provisions in the country, because there is no cap. Most states exempt a band of value. Arkansas exempts the property.",
+        "Note the three separate routes in. Two of them are special monthly compensation awards rather than a percentage rating, so a Veteran who is not rated 100 percent may still qualify through loss or loss of use of a limb or through total blindness. Check the compensation award, not just the rating letter.",
+        "One wording point we are flagging rather than resolving. The statute exempts the property from payment of all STATE taxes. Property taxes in Arkansas are levied locally, by counties, school districts and cities. The Arkansas Department of Veterans Affairs describes the provision as a full property tax exemption and directs Veterans to the county collector, so that is plainly how the state applies it. Confirm the exact scope with your collector before you rely on it for a particular bill.",
+        "Apply at your local county collector's office. The assessment freeze below is a different office, the county assessor, which catches people out.",
+        "Recertification is annual. The Department of Veterans Affairs notes the exemption is recertified each year, so treat it as a yearly task rather than a one-time filing.",
+        "A currency caution worth reading. Arkansas does not publish its own Code in a form the public can read without accepting a commercial vendor's terms. The statutory language above is quoted from the Arkansas Department of Veterans Affairs tax guide, which is a state government publication, but the edition we read is dated 2024. Confirm with your county collector or the Department before relying on the detail."
+      ],
+      "agency": "County collectors, with guidance from the Arkansas Department of Veterans Affairs on 501-683-2382",
+      "statuteRef": "Ark. Code Ann. 26-3-306",
+      "officialUrl": "https://www.veterans.arkansas.gov/s/2024VeteransGuide-Taxes.pdf",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "ar-military-pay-and-retirement-exemption",
+      "jurisdiction": "AR",
+      "category": "income-tax",
+      "title": "Military pay and military retirement are not taxed",
+      "summary": "Arkansas does not tax military retired pay, active or reserve component pay, VA disability compensation, military disability retirement, or survivor annuities. There is no cap and no age test.",
+      "amount": "Full exemption, with no dollar cap",
+      "eligibility": [
+        "Military retired pay is fully exempt from Arkansas income tax",
+        "Pay for service in an active or reserve component is exempt",
+        "VA disability compensation and military disability retirement pay are not included in Arkansas taxable income",
+        "Survivor Benefit Plan, Reserve Component Survivor Benefit Plan and Retired Serviceman's Family Protection Plan annuities are not taxed",
+        "Social Security is also not taxed"
+      ],
+      "details": [
+        "All of it is claimed on your Arkansas income tax return rather than through a separate application.",
+        "There are related provisions worth asking about if they fit your situation: the federal Military Spouses Residency Relief Act, exclusions for certain home sale profits and for Guard and Reserve travel, and tax payment deferral under the Arkansas Service Members Civil Relief Act.",
+        "We are being explicit about the source here. The Arkansas Code is not published by the state in a form we can read, so this record rests on the Arkansas Department of Veterans Affairs own published summary of state benefits rather than on statutory text we have checked section by section. That is a state agency describing the benefits it administers, which we think is worth publishing, but it is a weaker source than the statute and we have not attached a section number we cannot verify.",
+        "Questions go to the Department of Finance and Administration individual income tax team at individual.income@dfa.arkansas.gov."
+      ],
+      "agency": "Arkansas Department of Finance and Administration, Individual Income Tax",
+      "officialUrl": "https://www.veterans.arkansas.gov/state-benefits",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "ar-property-tax-assessment-freeze",
+      "jurisdiction": "AR",
+      "category": "property-tax",
+      "title": "Assessment freeze if you are disabled or 65 or older",
+      "summary": "If you do not meet the threshold for the full exemption, Arkansas will still freeze the assessed value of your homestead. It is not Veteran-specific, which is why Veterans miss it.",
+      "amount": "Your assessed value is frozen at the lower of several reference dates, so later reassessments do not raise your bill",
+      "eligibility": [
+        "You are disabled, or you are sixty-five years of age or older",
+        "You request the exemption from the county assessor and it is granted",
+        "The property is your homestead"
+      ],
+      "details": [
+        "The freeze sets your assessed value at the lowest of four figures: the assessed value on your sixty-fifth birthday, the assessed value on the date you became disabled, the assessed value on 1 January 2001, or a later assessed value.",
+        "Read the disability test carefully, because it is broader than the full exemption. The provision says a person who is disabled, without requiring a service connection or a particular rating. A Veteran with a disability that falls short of the special monthly compensation and 100 percent routes may still qualify here.",
+        "The freeze lifts if substantial improvements are made to the homestead, or if ownership changes. Plan a renovation with that in mind.",
+        "This is a separate application to a separate office. The full exemption is filed with the county collector, the freeze with the county assessor. If you qualify for both, you deal with both offices.",
+        "There is also a general homestead property tax credit available to every homestead owner in Arkansas, under Ark. Code Ann. 26-26-1118, which you register for with the county assessor. The 2024 state guide we read puts it at $425. Ask the assessor for the current figure rather than relying on that number, because it has been changed by the legislature more than once.",
+        "Same currency caution as the exemption record. The statutory detail here comes from a 2024 Arkansas Department of Veterans Affairs publication, because the state does not publish its Code openly."
+      ],
+      "agency": "County assessors",
+      "statuteRef": "Ark. Code Ann. 26-26-1124, with the general homestead credit at 26-26-1118",
+      "officialUrl": "https://www.veterans.arkansas.gov/s/2024VeteransGuide-Taxes.pdf",
       "confidence": "needs-review",
       "source": {
         "id": "curated-benefits",
@@ -2644,6 +2764,77 @@
       "verifiedAt": "2026-11-13"
     },
     {
+      "id": "ms-retirement-income-exemption",
+      "jurisdiction": "MS",
+      "category": "income-tax",
+      "title": "Retirement pay is not taxed, military included",
+      "summary": "Mississippi exempts retirement income from any federal, state or private retirement system or plan. Military retired pay sits inside that, with no dollar cap and no age test, and the exemption carries over to your spouse or beneficiary.",
+      "amount": "Full exemption, with no dollar cap",
+      "eligibility": [
+        "The income is a retirement allowance, pension, annuity or optional retirement allowance from any federal, state or private retirement system or plan",
+        "There is no age condition, dollar cap or length of service requirement",
+        "The exemption extends to the spouse or other beneficiary on the death of the primary retiree"
+      ],
+      "details": [
+        "The wording is general rather than Veteran-specific, which is why searching Mississippi law for a military retirement exemption turns up very little. Military retired pay is paid from a federal retirement system, so it falls inside the exemption the same way other federal retirement income does.",
+        "The exemption reaches further than most people assume. Optional retirement allowances include Keogh plans, individual retirement accounts and similar tax deferred plans, and deferred compensation plans where the plan is tax deferred federally and you are already qualified to receive other retirement income on age or years of service. Roth IRA distributions follow the federal treatment.",
+        "Early distributions do not qualify and are taxable at state level. The consolation is that Mississippi applies no early withdrawal penalty of its own.",
+        "The exemption does not cover income from investments in stocks, bonds, intangible securities or real or tangible property. It is retirement income only.",
+        "There is a separate chapter in the regulations headed as an exclusion for military pensions and disability payments, but its substantive paragraphs are marked reserved and it does no more than adopt federal rules and revenue procedures. The general retirement exemption is the provision that does the work.",
+        "On the source: this record rests on Title 35, Part III of the Mississippi Administrative Code, the Department of Revenue's income tax regulations as published by the Secretary of State, because Mississippi does not publish its Code openly. We have cited the regulation rather than attaching a statutory subsection we have not read."
+      ],
+      "agency": "Mississippi Department of Revenue",
+      "statuteRef": "Title 35, Part III, Chapter 07 of the Mississippi Administrative Code, under Miss. Code Ann. 27-7-15",
+      "officialUrl": "https://www.sos.ms.gov/adminsearch/ACCode/00000158c.pdf",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "ms-veteran-homestead-total-exemption",
+      "jurisdiction": "MS",
+      "category": "property-tax",
+      "title": "Total homestead exemption, with a limit the state website leaves out",
+      "summary": "Mississippi lifts the dollar cap off the homestead exemption for a Veteran with a service-connected total disability, and for three other groups most people have never heard of. But the exemption still stops at the first $7,500 of assessed value, which the Department of Revenue's regulations say plainly and its public page does not.",
+      "amount": "All ad valorem taxes on the first $7,500 of assessed value and the first 160 acres, with no cap on the actual exempted tax dollars",
+      "eligibility": [
+        "You are an honorably discharged Veteran with a service-connected total disability, or the unremarried surviving spouse of such a Veteran",
+        "Or you are an honorably discharged Veteran who reached ninety years of age on or before 1 January of the year you claim, no disability required",
+        "Or you are the unremarried surviving spouse of a member of the armed forces who was killed or died on active duty, or of a reserve component or National Guard member killed or died on active duty for training",
+        "Or you are totally disabled under the Social Security Act, the Railroad Retirement Act or a qualified plan under the Internal Revenue Code, which is the route that does not require service connection",
+        "You own and occupy the home as your primary residence on 1 January of the year you claim",
+        "You meet the head of family and ownership definitions in the chapter, and the home meets the statutory definition of a homestead"
+      ],
+      "details": [
+        "Start with the limit, because it is the single most misleading thing about this benefit. The Department of Revenue's homestead exemption page describes the top tier as exempt from all property taxes on the qualifying homestead. The Department's own regulations are narrower: the $7,500 assessed value limit and the 160 acre limit still apply, and what changes is that the exemption is increased to cover all ad valorem taxes on that portion rather than the capped figure from the statutory table. Tax on assessed value above $7,500 must still be paid.",
+        "Then convert the figure, or it will mislead you the other way. Homestead property in Mississippi is usually Class 1, assessed at 10 percent of true value, so $7,500 of assessed value is roughly $75,000 of market value. If your home is worth appreciably more than that, expect a reduced bill rather than no bill.",
+        "If any income producing activity is on the property it may be reclassified as Class 2 at 15 percent, which changes the arithmetic.",
+        "What the total exemption actually buys you is the removal of a cap. The regular exemption every eligible homeowner gets is also limited to the first $7,500 of assessed value, but it is capped at $300 of actual exempted tax, with a floor of $6. The additional exemption removes that $300 ceiling.",
+        "Two of the four routes in are easy to miss. A Veteran of ninety or over qualifies on age and honorable discharge alone, with no disability requirement, on a birth certificate or state ID plus a DD Form 214. And the unremarried surviving spouse of a servicemember who died on active duty qualifies on a death certificate plus the DD Form 214. The Department's public page mentions neither.",
+        "There is a recent change in your favour. From 1 January 2026 the unremarried surviving spouse of someone who qualified through total disability, and the unremarried surviving spouse of a Veteran aged ninety or over, both qualify in their own right.",
+        "Proof of a service-connected total disability goes in on the Veteran's Consent of Release, Form 72-042.",
+        "Mind the two compliance traps, because they cost people the whole exemption and have nothing to do with your property. You and your spouse must be in compliance with Mississippi income tax law, and you cannot claim residency in another jurisdiction when assessed for Mississippi income tax. You must also be in compliance with road and bridge privilege tax law: if you own or possess a vehicle with an out-of-state or out-of-county tag and are not in compliance, you are not eligible for the homestead exemption at all. A vehicle owned by a business located outside the state is treated as compliant.",
+        "Applications are taken only at the county Tax Assessor's office, in person, between 1 January and 1 April. There is no other window.",
+        "Once you have a valid application on file you are credited each year without refiling, but a change in your eligibility status for Veterans Affairs benefits is specifically listed as an event that triggers the need to reapply. So are marriage, divorce, remarriage, death and deed changes.",
+        "Disallowance is retroactive and expensive. If the exemption is taken away you can be made to repay the taxing jurisdictions for exemptions you received in error, which can hit mortgage escrow and trigger collection action.",
+        "On the source: Mississippi does not publish its Code in a form the public can read without accepting a commercial vendor's terms. This record is built on Title 35, Part VI of the Mississippi Administrative Code, the Department of Revenue's own property tax regulations as published by the Secretary of State, cross-checked against the Department's homestead exemption page. Where the two disagree we have told you so rather than picking one."
+      ],
+      "agency": "County Tax Assessors, with the Mississippi Department of Revenue Homestead Exemption Division",
+      "statuteRef": "Miss. Code Ann. 27-33-1 through 27-33-79, with the additional exemption at 27-33-67(2) and the exemption table at 27-33-75",
+      "officialUrl": "https://www.sos.ms.gov/adminsearch/ACCode/00000161c.pdf",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
       "id": "mt-disabled-veterans-property-tax-assistance",
       "jurisdiction": "MT",
       "category": "property-tax",
@@ -4846,6 +5037,75 @@
       "agency": "County directors of equalization, on a form prescribed by the South Dakota secretary of revenue",
       "statuteRef": "SDCL 10-4-41",
       "officialUrl": "https://sdlegislature.gov/Statutes/10-4-41",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "tn-disabled-veteran-property-tax-relief",
+      "jurisdiction": "TN",
+      "category": "property-tax",
+      "title": "Property tax relief for a disabled Veteran, paid as a reimbursement",
+      "summary": "Tennessee does not exempt your home. It reimburses you from state funds for property taxes on the first $175,000 of market value. You still get a bill and you are still responsible for it, and unlike the elderly and disabled programmes there is no income limit.",
+      "amount": "Reimbursement calculated on the first $175,000 of full market value, which at the statutory 25 percent ratio is $43,750 of effective assessed value, multiplied by your adjusted local tax rate",
+      "eligibility": [
+        "You served in the armed forces of the United States, and you own and use the property as your residence",
+        "And you acquired in connection with that service a disability from paraplegia or permanent paralysis of both legs and the lower part of the body resulting from traumatic injury or disease to the spinal cord or brain, or from legal blindness, or from loss or loss of use of two or more limbs from any service-connected cause",
+        "Or you acquired a 100 percent permanent total disability as determined by the VA, that disability resulting from having served as a prisoner of war",
+        "Or you acquired a service-connected permanent and total disability as determined by the VA",
+        "Relief never extends to anyone dishonorably discharged from any of the armed services",
+        "You must complete form F-16, a consent form releasing disability and income information from the VA. A surviving spouse completes form F-16S"
+      ],
+      "details": [
+        "Understand the mechanism before anything else, because the word relief is doing a lot of work here. This is not an exemption. The state pays or reimburses you for all or part of the local property taxes you paid for the year. You still receive your tax bill and you are still responsible for paying it. When you are approved you get a voucher with your tax bill, which you present to the collecting official before the deadline along with payment of any balance due.",
+        "There is no income test in this section. The elderly and disabled homeowner programmes cap income, at $38,470 for the 2026 programme year, and cap the relieved market value at $33,600. Neither cap applies to a disabled Veteran, whose ceiling is $175,000 of market value. If you qualify as a disabled Veteran, this is the route to take, and the statute says the payment is in lieu of anything under the elderly or disabled sections rather than in addition.",
+        "The arithmetic is defined. Effective assessed value is the full market value up to $175,000 multiplied by 25 percent. That is then multiplied by a tax rate adjusted to reflect the relationship between appraised and market value in your jurisdiction, as determined by the State Board of Equalization. Full market value itself is your appraised value adjusted by the same relationship. So two Veterans with identically appraised homes in different counties can receive different amounts.",
+        "A deadline point where the state's own documents disagree, so we are giving you both. The statute says that a taxpayer who fails to apply or present a credit voucher within thirty-five days from the date taxes become delinquent is ineligible for that year, and then says expressly that nothing in that provision requires the full amount of taxes to be paid by the delinquency date as a condition of eligibility. The Comptroller's 2026 brochure states that taxes must also be paid by that date. Treat the thirty-five day filing deadline as firm, and ask the tax relief office before assuming you must clear the whole bill first.",
+        "There is a second backstop date. Applications and voucher presentments are valid only if received in the Division of Property Assessments by 5 May following the last date they may be made, or within thirty days of the thirty-five day deadline, whichever is later.",
+        "If you missed a deadline, ask anyway. The director of the Division of Property Assessments can waive any deadline in the section on determining that the failure was excusable for good and reasonable cause, though no deadline can be extended past 31 December of the year following the tax year.",
+        "Ask your county and your city whether they top it up. Counties, municipalities and metropolitan governments may appropriate their own funds for additional relief for disabled Veterans, capped so that state and local relief together never exceed the taxes actually paid. You have to have applied for and obtained the state relief first. This is money a lot of Veterans leave on the table.",
+        "A provision worth knowing before you need it. You continue to qualify while temporarily relocated for health care to the home of a friend or relative, or to a hospital or a skilled or intermediate care facility, as long as you indicate an intent to return to the residence when recovered sufficiently.",
+        "Surviving spouses have three separate routes. A spouse of a disabled Veteran who was eligible at the time of death qualifies, and so does the spouse where a later amendment to the eligibility rules would have made the deceased Veteran eligible, which is unusually generous. Separately, the spouse of a Veteran whose death resulted from a service-connected combat-related cause qualifies, as does the spouse of a soldier whose death resulted from being deployed away from any home base of training in support of combat or peace operations. All three require that the spouse does not remarry, owns the property solely or jointly, and uses it exclusively as a home.",
+        "The VA's determination of your disability status is conclusive for this section, so the argument about your rating happens with the VA and not with Tennessee.",
+        "Your disability information is confidential and is not subject to inspection under Tennessee public records law, though it is available to the officials who administer or audit the programme.",
+        "You can only receive relief on your primary residence, one property per year. An irrevocable trust defeats the claim, because the property is owned by the trust. Your spouse's income and signature are required for the elderly and disabled routes regardless of residency or ownership, so expect to be asked. State checks are not forwarded, so tell the collecting official about address changes and long absences.",
+        "Apply through your county trustee, or your city collecting official if the property is inside city limits. The state tax relief office is on 615-747-8871 or 1-800-221-9927, and TRInfo@cot.tn.gov.",
+        "On the source, and it is a good news story. Arkansas and Mississippi make you go through a commercial vendor to read their statutes. Tennessee's Comptroller publishes the text of these four sections directly, as a PDF on a tn.gov address, which is what this record is built on and what the official link points to. The 2026 figures come from the Comptroller's own tax relief brochure."
+      ],
+      "agency": "County trustees and city collecting officials, administered by the Tennessee Comptroller of the Treasury Division of Property Assessments",
+      "statuteRef": "Tenn. Code Ann. 67-5-704, with administration, deadlines and local top-up relief at 67-5-701",
+      "officialUrl": "https://comptroller.tn.gov/content/dam/cot/pa/documents/tax-relief/TCA%2067-5-701%20through%2067-5-704.pdf",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "tn-no-state-income-tax",
+      "jurisdiction": "TN",
+      "category": "income-tax",
+      "title": "Military retirement pay is not taxed, because there is no income tax",
+      "summary": "Tennessee has no state income tax on earned income or retirement pay. The one income tax it had, the Hall tax, only ever reached interest and dividends, and it was repealed for tax periods beginning on or after 1 January 2021.",
+      "amount": "No state income tax applies",
+      "eligibility": [
+        "No application, exemption or claim is required, because there is no tax to be exempt from",
+        "This applies to military retired pay, VA compensation, active and reserve component pay and civilian earnings alike"
+      ],
+      "details": [
+        "The Hall income tax is the reason you will still see Tennessee described as having an income tax in older guidance. It was enacted in 1929 and named after the senator who sponsored it, and it was imposed only on individuals and entities receiving interest from bonds and notes and dividends from stock. It never reached wages or retirement pay.",
+        "It was repealed for tax periods that begin on 1 January 2021 or later. The Department of Revenue's instruction is explicit: do not file a return for any tax year beginning on or after that date.",
+        "So a Veteran moving to Tennessee is not looking for a military retirement exemption, a cap or an age threshold. There is nothing to claim. Any guidance telling you to subtract military retirement on a Tennessee return is describing a tax that no longer exists.",
+        "Tennessee still levies plenty of other taxes, including property tax, which is where the Veteran-specific relief in this state sits. See the property tax relief record."
+      ],
+      "agency": "Tennessee Department of Revenue",
+      "officialUrl": "https://www.tn.gov/revenue/taxes/hall-income-tax.html",
       "confidence": "needs-review",
       "source": {
         "id": "curated-benefits",

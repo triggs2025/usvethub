@@ -1,0 +1,134 @@
+[
+  {
+    "id": "gu-disabled-veteran-property-tax-exemption",
+    "jurisdiction": "GU",
+    "category": "property-tax",
+    "title": "Total property tax exemption at 100 percent or unemployable",
+    "summary": "Guam exempts your home from all property taxes if the VA rates you 100 percent disabled or individually unemployable from service-connected injuries. A surviving spouse and even a legal guardian can hold the exemption.",
+    "amount": "Full exemption from all property taxes on the residence, with no dollar cap",
+    "eligibility": [
+      "You own and occupy the real property as a residence",
+      "And the US Department of Veterans Affairs rates you 100 percent disabled, or individually unemployable, due to injuries received while on duty with the Armed Forces of the United States",
+      "A surviving spouse qualifies, as defined in 10 GCA section 67101(e)",
+      "A legal guardian qualifies, as defined in 10 GCA section 67101(g)",
+      "The exemption lasts only while you remain 100 percent disabled or individually unemployable, the surviving spouse has not remarried, and the legal guardian remains lawfully vested with the power",
+      "No more than one residence per person"
+    ],
+    "details": [
+      "Individual unemployability is written in as its own route, named in the same breath as a 100 percent rating. A Veteran paid at the 100 percent rate through unemployability qualifies in their own right and does not need to argue the point.",
+      "The legal guardian route is unusual and worth knowing about. Most jurisdictions stop at the Veteran and the surviving spouse. Guam lets a legal guardian who is lawfully vested with the power hold the exemption, which matters where a Veteran cannot manage their own affairs.",
+      "Mixed use is handled proportionally rather than fatally. If part of the premises is used commercially you lose the exemption on that part and keep it on the part used exclusively as a residence. But the exemption never applies to a structure used for commercial purposes, including the land underneath it.",
+      "Residence is defined generously. It covers the entire homestead when occupied by the qualifying person, and it still counts if you sublet not more than one room to a tenant. So taking in a single lodger does not cost you the exemption.",
+      "A purchase agreement can qualify. Premises held under an agreement to purchase as a home count, if the agreement was duly entered into and recorded before 1 January of the preceding tax year and the purchaser agrees to pay all taxes while buying.",
+      "If you do not reach the 100 percent or unemployable threshold, ask about the general home tax exemption at 11 GCA 24402 instead. It works by excluding $50,000 of appraised value, applied first against improvements and then against the land, so it reduces rather than eliminates the bill.",
+      "This exemption was added by Public Law 34-106, enacted 5 June 2018, so it is relatively recent. Guidance written before then will not mention it."
+    ],
+    "agency": "Guam Department of Revenue and Taxation, Real Property Tax Division",
+    "statuteRef": "11 GCA 24401.1, with the general home exemption at 11 GCA 24402",
+    "officialUrl": "https://col.guamcourts.gov/sites/default/files/11gc024_Q.pdf",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "gu-gold-star-property-tax-exemption",
+    "jurisdiction": "GU",
+    "category": "property-tax",
+    "title": "Gold Star spouses and parents pay no property tax",
+    "summary": "Guam exempts the home of a Gold Star spouse or parent from all real property taxes. Very few jurisdictions give Gold Star parents a property tax exemption in their own right.",
+    "amount": "Full exemption from all real property taxes on the residence",
+    "eligibility": [
+      "You are a Gold Star spouse, or a Gold Star parent, eligible under 16 GCA section 7120.3(b)",
+      "You own and occupy the property, and you continue to own and occupy it as a residence",
+      "No more than one residence for the Gold Star spouse or parent"
+    ],
+    "details": [
+      "The parent route is the rare part. Most Gold Star provisions across the states reach the spouse and sometimes the children. Guam names parents directly and gives them a full exemption.",
+      "As with the disabled Veteran exemption, a commercially used portion of the premises is carved out and taxed, while the part used exclusively as a home stays exempt. The exemption never covers a structure used for commercial purposes or the land under it.",
+      "Eligibility is defined by cross-reference to 16 GCA 7120.3(b), so confirm you fall inside that definition before applying. The Guam Veterans Affairs Office is the right place to ask.",
+      "The exemption continues only while you continue to own and occupy the premises as a residence."
+    ],
+    "agency": "Guam Department of Revenue and Taxation, Real Property Tax Division, with eligibility questions to the Guam Veterans Affairs Office",
+    "statuteRef": "11 GCA 24401.2, with eligibility defined at 16 GCA 7120.3(b)",
+    "officialUrl": "https://col.guamcourts.gov/sites/default/files/11gc024_Q.pdf",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "gu-veteran-college-credit-and-registration",
+    "jurisdiction": "GU",
+    "category": "education",
+    "title": "Free academic credit for military training, and registration protections",
+    "summary": "Guam requires its public colleges to grant academic credit for your military training, without limit and at no charge. It also protects your registration, your grades and your tuition if you are called to active duty.",
+    "amount": "Academic credits without limitation toward your degree, with no fee, tuition or other charge assessed for the credit",
+    "eligibility": [
+      "You are a Veteran enrolled full-time or part-time, in good standing, at any institution within Guam's local university system or community college system",
+      "You apply for the credit",
+      "The completed courses were part of your military training or service",
+      "And those courses meet the institution's standards, where those standards are equivalent to or greater than the American Council on Education standards for awarding academic credit"
+    ],
+    "details": [
+      "Read the two strongest words carefully: credits are granted without limitation, and no fee, tuition or other charge may be assessed against a Veteran who qualifies. Many places cap transferred military credit or charge a per-credit assessment fee. Guam forbids both.",
+      "The statute says shall, upon application. It is a right rather than a discretion, so if an institution refuses, that is a matter to escalate rather than accept.",
+      "Early registration is protected. An institution that offers an early course registration period to any segment of its student population must have a process to offer early registration to Veterans and National Guard members.",
+      "If you are called to active duty mid-term, two things protect you. If you had regularly attended a course for thirteen weeks or more, or completed 85 percent of the term's work through acceleration, you may be given credit for each course in which you hold a letter grade of C or better. And you may be entitled to a 100 percent refund of tuition and fees if the institution provides no accommodation.",
+      "Coming in or coming back is also eased. A Veteran with no previous college experience gets a one week extension to file an application after the registration period closes, and may begin classes while the application is completed. On return from active duty you may register after normal registration closes without late fees or other penalties.",
+      "All of this comes from the SERVE Act, the Securing and Ensuring the Rights Veterans Earned Act, added by Public Law 36-084 on 11 March 2022. The Guam Office of Veterans Affairs is the lead agency and had one year from the effective date to implement.",
+      "The same Veterans Bill of Rights also directs the Office to work on housing assistance and employment support. Those provisions read as directions to the agency rather than as benefits you can claim at a counter, so ask the Office what exists in practice."
+    ],
+    "agency": "Guam Office of Veterans Affairs, with the institutions of the local university and community college systems",
+    "statuteRef": "10 GCA 67203(c), in the SERVE Act at 10 GCA 67201 to 67203",
+    "officialUrl": "https://col.guamcourts.gov/sites/default/files/10gc067_0.pdf",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "gu-veterans-healthcare-assistance",
+    "jurisdiction": "GU",
+    "category": "health",
+    "title": "Help with appointments, prescriptions and rides to the doctor",
+    "summary": "Guam funds its Veterans Affairs Office to do the practical work of getting you to care: booking and tracking appointments, filling prescriptions, keeping your medical files, and driving you there and back.",
+    "amount": "Direct assistance services, including non-emergency transportation, at no stated charge",
+    "eligibility": [
+      "The appointment scheduling, tracking and consultation support is directed at disabled and elderly Veterans",
+      "The prescription, coordination and medical documentation support is for eligible Veterans",
+      "Non-emergency transportation to and from medical appointments and pharmacies is for eligible Veterans",
+      "Ask the Office what eligible means for the service you need, because the statute does not define it"
+    ],
+    "details": [
+      "This is unusually concrete for a statutory health provision. The Office is required to help with scheduling patient appointments, and with tracking, reviewing and responding to electronic orders and consultations, which is exactly the administrative load that stops people getting care.",
+      "The transportation duty is the standout. Non-emergency transportation to and from medical appointments and pharmacies is written into the statute, not left to a grant programme.",
+      "It is funded. Public Law 37-101, enacted 5 June 2024, appropriated $340,000 from the General Fund for initial implementation, available until fully expended, and required the Director to include continuing funding in the Office's annual budget request. The appropriation is specifically protected from the Governor's transfer authority.",
+      "The statute also says the Office does not have to wait for new positions or regulations before delivering the services, so a lack of rules is not a reason to turn you away.",
+      "Separately, the SERVE Act requires the Office to develop and operate Veteran health navigator services, staffed by people with direct knowledge of the Veteran communities they serve, to identify all federal and other healthcare benefits available to you and your family and help you enroll. It also requires attention to mental health, including post-traumatic stress disorder, depression and suicide prevention.",
+      "Because this is a service rather than a payment, how much of it is actually running at any time depends on staffing. Call the Office and ask directly."
+    ],
+    "agency": "Guam Office of Veterans Affairs",
+    "statuteRef": "10 GCA 67111, with health navigator and mental health duties at 10 GCA 67203(d)",
+    "officialUrl": "https://col.guamcourts.gov/sites/default/files/10gc067_0.pdf",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "gu-veterans-cemetery-burial",
+    "jurisdiction": "GU",
+    "category": "burial",
+    "title": "Burial without charge, including Guam's own wartime units",
+    "summary": "Any Veteran of the United States Armed Forces is buried without charge to the family in the Veterans Cemetery of Guam. Eligibility also reaches the Insular Guard, the Guam Militia, the Guam Scouts, the Guam Combat Patrol and Wake Island civilians.",
+    "amount": "Burial without charge to the family of the deceased Veteran",
+    "eligibility": [
+      "Any Veteran of the United States Armed Forces is buried without charge to the family",
+      "The cemetery is also for persons who served honorably in the Insular Guard, the Guam Militia, the Guam Scouts or the Guam Combat Patrol",
+      "It is also for persons employed in a civil capacity on Wake Island on 7 December 1941",
+      "It is also for service on United States Merchant Marine vessels and other duties in direct support of the United States government at war",
+      "Spouses and dependents of eligible persons are covered"
+    ],
+    "details": [
+      "The eligibility list is a piece of Guam's history written into statute. The Insular Guard, the Guam Militia, the Guam Scouts and the Guam Combat Patrol were local units, and the Wake Island provision reaches civilians who were there on the day the Pacific war began. If your family's service was in one of those, it counts here even though it would not count anywhere else.",
+      "The burial provision is short and absolute: any Veteran of the United States Armed Forces shall be buried without charge to the family of the deceased Veteran. It was added by Public Law 18-024 on 21 December 1985.",
+      "The eligibility section was repealed and reenacted by Public Law 24-118 on 14 January 1998, so the current list is the 1998 version.",
+      "There is a Veterans Cemetery Trust Fund, transferred from the Guam Parks Commission to the Guam Veterans Commission, which is where the money for upkeep sits.",
+      "The Guam Office of Veterans Affairs publishes a burial standard operating procedure and runs a memorial locator, so a family can find a grave and check what is required before they need to.",
+      "Practical note: the Office keeps a Guam Veteran Registry under 10 GCA 67110. Registering while you are alive makes everything easier for your family later, and the Office asks Veterans to do it."
+    ],
+    "agency": "Guam Office of Veterans Affairs, cemetery line (671) 477-5697",
+    "statuteRef": "10 GCA 67105 for burial without charge, with eligibility at 10 GCA 67103.1 and the registry at 10 GCA 67110",
+    "officialUrl": "https://col.guamcourts.gov/sites/default/files/10gc067_0.pdf",
+    "confidence": "needs-review"
+  }
+]

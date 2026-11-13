@@ -2,7 +2,7 @@
   "sourceId": "curated-benefits",
   "recordType": "benefit",
   "jurisdiction": null,
-  "generatedAt": "2026-11-13T13:36:42.326Z",
+  "generatedAt": "2026-11-13T13:58:27.522Z",
   "records": [
     {
       "id": "ak-disabled-veteran-property-tax-exemption",
@@ -212,6 +212,68 @@
       "agency": "County assessors",
       "statuteRef": "Ark. Code Ann. 26-26-1124, with the general homestead credit at 26-26-1118",
       "officialUrl": "https://www.veterans.arkansas.gov/s/2024VeteransGuide-Taxes.pdf",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "as-no-real-property-tax",
+      "jurisdiction": "AS",
+      "category": "property-tax",
+      "title": "No property tax, and almost nothing else written down",
+      "summary": "American Samoa has no real property tax chapter in its revenue title, so there is no Veteran property tax exemption to claim. We also found very little else in territorial law, and we would rather tell you that plainly.",
+      "eligibility": [
+        "Nothing to apply for, because the territory's revenue title contains no real property tax",
+        "Note separately that most land in American Samoa is communal and its alienation is restricted, so land is held differently from the states"
+      ],
+      "details": [
+        "Here is exactly what we checked. Title 11 of the American Samoa Code Annotated is the Revenue title, and its chapters cover general provisions, federal tax liens, income tax, amendments to the Internal Revenue Code, miscellaneous taxes, excise tax on imports, a secondhand imported items tax, excise tax on exports, tax incentives for businesses and foreign sales corporations. There is no real property tax chapter. Searching the code for a Veteran property tax exemption returns nothing.",
+        "So do not read a blank in American Samoa's property tax column as the territory treating Veterans worse than a state. There is no annual property tax on a home for an exemption to apply to.",
+        "We also searched the code for Veteran and for armed forces provisions generally. What came back was the government employment preference, which has its own record here, and nothing else in the way of a territorial Veteran benefit. That is a thinner result than any state or any other territory.",
+        "That does not mean a Veteran in American Samoa has nothing. It means the support is federal rather than territorial: the federal VA, the territory's Veterans Affairs Office as the route into federal programmes, and the federal benefits that follow your service wherever you live. Start there rather than looking for a local exemption.",
+        "We would rather publish this than leave American Samoa blank or pad it with things we have not read. If you know of a territorial Veteran benefit we have missed, that is exactly the sort of correction we want.",
+        "On the source: American Samoa's code is published online by the American Samoa Bar Association rather than by a government office. That is the standard place to find it, but it is a weaker source than the government publications we use for other jurisdictions, and the version of the code offered by title is dated as of August 2021."
+      ],
+      "agency": "American Samoa Government, Treasury Department, with Veteran questions to the American Samoa Veterans Affairs Office",
+      "statuteRef": "No real property tax provision found in Title 11 of the American Samoa Code Annotated, the Revenue title",
+      "officialUrl": "https://asbar.org/legal-resources/code-annotated/code-annotated-by-title-and-chapter/",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "as-veteran-employment-preference",
+      "jurisdiction": "AS",
+      "category": "employment",
+      "title": "Ten points for a disabled Veteran, and a real limit on hiring around you",
+      "summary": "American Samoa gives Veterans extra points on open competitive government examinations, ten for a disabled Veteran and five for a Veteran or an unremarried widow. If three or more preference eligibles make the list, only a preference eligible can be hired.",
+      "amount": "Ten additional examination points for a disabled Veteran, five for a Veteran or the unremarried widow of a Veteran",
+      "eligibility": [
+        "The preference applies in open competitive examinations for government employment",
+        "Ten additional points go to a disabled Veteran",
+        "Five additional points go to a Veteran, or to the unremarried widow of a Veteran",
+        "The preference applies in open competitive examinations only, and not in any promotional examination"
+      ],
+      "details": [
+        "The strongest provision is the one at the end, and it is stronger than most state preferences. When three or more names of preference eligibles appear on a certificate of eligibles, the selecting official may select only a preference eligible to fill the vacancy. That is not a thumb on the scale, it is a closed door.",
+        "There is also a paper trail requirement that works in your favour. If the selecting authority passes over a preference eligible whose name is on the certificate and picks someone without preference, they must file written reasons with the director for approval. So being passed over should generate a document you can ask about.",
+        "Preference eligibles are entered on the register ahead of others with the same score, so a tie goes to the Veteran.",
+        "Note the ceiling on it: open competitive examinations only. Once you are inside the government and competing for a promotion, the preference does not apply.",
+        "A caution about age. This rule comes from Rule 10-81, effective 29 July 1981. It is the current published text but it is more than forty years old, so confirm the current practice with the Department of Human Resources before relying on the detail.",
+        "We could not verify the definitions. The published pages for the definitions of Veteran and disabled Veteran in this title carry the wrong text: the page headed disabled Veteran contains the definition of noncompetitive personnel action, and the page headed Veteran contains the definition of internship. That looks like an error in how the code has been put online rather than in the law. Because of it we cannot tell you how American Samoa defines a disabled Veteran for the ten point preference, and you should ask Human Resources directly.",
+        "On the source: American Samoa's code and administrative rules are published online by the American Samoa Bar Association rather than by a government office, which is weaker than a government publication even though it is the standard place these materials live. Taken together with the definition errors above, treat this record as a signpost to ask the right question rather than as settled law."
+      ],
+      "agency": "American Samoa Government, Department of Human Resources",
+      "statuteRef": "American Samoa Administrative Code 4.0308, with a parallel provision at 4.2208",
+      "officialUrl": "https://asbar.org/regulation/4-0308-veteran-preference/",
       "confidence": "needs-review",
       "source": {
         "id": "curated-benefits",
@@ -1764,6 +1826,168 @@
       "verifiedAt": "2026-11-13"
     },
     {
+      "id": "gu-disabled-veteran-property-tax-exemption",
+      "jurisdiction": "GU",
+      "category": "property-tax",
+      "title": "Total property tax exemption at 100 percent or unemployable",
+      "summary": "Guam exempts your home from all property taxes if the VA rates you 100 percent disabled or individually unemployable from service-connected injuries. A surviving spouse and even a legal guardian can hold the exemption.",
+      "amount": "Full exemption from all property taxes on the residence, with no dollar cap",
+      "eligibility": [
+        "You own and occupy the real property as a residence",
+        "And the US Department of Veterans Affairs rates you 100 percent disabled, or individually unemployable, due to injuries received while on duty with the Armed Forces of the United States",
+        "A surviving spouse qualifies, as defined in 10 GCA section 67101(e)",
+        "A legal guardian qualifies, as defined in 10 GCA section 67101(g)",
+        "The exemption lasts only while you remain 100 percent disabled or individually unemployable, the surviving spouse has not remarried, and the legal guardian remains lawfully vested with the power",
+        "No more than one residence per person"
+      ],
+      "details": [
+        "Individual unemployability is written in as its own route, named in the same breath as a 100 percent rating. A Veteran paid at the 100 percent rate through unemployability qualifies in their own right and does not need to argue the point.",
+        "The legal guardian route is unusual and worth knowing about. Most jurisdictions stop at the Veteran and the surviving spouse. Guam lets a legal guardian who is lawfully vested with the power hold the exemption, which matters where a Veteran cannot manage their own affairs.",
+        "Mixed use is handled proportionally rather than fatally. If part of the premises is used commercially you lose the exemption on that part and keep it on the part used exclusively as a residence. But the exemption never applies to a structure used for commercial purposes, including the land underneath it.",
+        "Residence is defined generously. It covers the entire homestead when occupied by the qualifying person, and it still counts if you sublet not more than one room to a tenant. So taking in a single lodger does not cost you the exemption.",
+        "A purchase agreement can qualify. Premises held under an agreement to purchase as a home count, if the agreement was duly entered into and recorded before 1 January of the preceding tax year and the purchaser agrees to pay all taxes while buying.",
+        "If you do not reach the 100 percent or unemployable threshold, ask about the general home tax exemption at 11 GCA 24402 instead. It works by excluding $50,000 of appraised value, applied first against improvements and then against the land, so it reduces rather than eliminates the bill.",
+        "This exemption was added by Public Law 34-106, enacted 5 June 2018, so it is relatively recent. Guidance written before then will not mention it."
+      ],
+      "agency": "Guam Department of Revenue and Taxation, Real Property Tax Division",
+      "statuteRef": "11 GCA 24401.1, with the general home exemption at 11 GCA 24402",
+      "officialUrl": "https://col.guamcourts.gov/sites/default/files/11gc024_Q.pdf",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "gu-gold-star-property-tax-exemption",
+      "jurisdiction": "GU",
+      "category": "property-tax",
+      "title": "Gold Star spouses and parents pay no property tax",
+      "summary": "Guam exempts the home of a Gold Star spouse or parent from all real property taxes. Very few jurisdictions give Gold Star parents a property tax exemption in their own right.",
+      "amount": "Full exemption from all real property taxes on the residence",
+      "eligibility": [
+        "You are a Gold Star spouse, or a Gold Star parent, eligible under 16 GCA section 7120.3(b)",
+        "You own and occupy the property, and you continue to own and occupy it as a residence",
+        "No more than one residence for the Gold Star spouse or parent"
+      ],
+      "details": [
+        "The parent route is the rare part. Most Gold Star provisions across the states reach the spouse and sometimes the children. Guam names parents directly and gives them a full exemption.",
+        "As with the disabled Veteran exemption, a commercially used portion of the premises is carved out and taxed, while the part used exclusively as a home stays exempt. The exemption never covers a structure used for commercial purposes or the land under it.",
+        "Eligibility is defined by cross-reference to 16 GCA 7120.3(b), so confirm you fall inside that definition before applying. The Guam Veterans Affairs Office is the right place to ask.",
+        "The exemption continues only while you continue to own and occupy the premises as a residence."
+      ],
+      "agency": "Guam Department of Revenue and Taxation, Real Property Tax Division, with eligibility questions to the Guam Veterans Affairs Office",
+      "statuteRef": "11 GCA 24401.2, with eligibility defined at 16 GCA 7120.3(b)",
+      "officialUrl": "https://col.guamcourts.gov/sites/default/files/11gc024_Q.pdf",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "gu-veteran-college-credit-and-registration",
+      "jurisdiction": "GU",
+      "category": "education",
+      "title": "Free academic credit for military training, and registration protections",
+      "summary": "Guam requires its public colleges to grant academic credit for your military training, without limit and at no charge. It also protects your registration, your grades and your tuition if you are called to active duty.",
+      "amount": "Academic credits without limitation toward your degree, with no fee, tuition or other charge assessed for the credit",
+      "eligibility": [
+        "You are a Veteran enrolled full-time or part-time, in good standing, at any institution within Guam's local university system or community college system",
+        "You apply for the credit",
+        "The completed courses were part of your military training or service",
+        "And those courses meet the institution's standards, where those standards are equivalent to or greater than the American Council on Education standards for awarding academic credit"
+      ],
+      "details": [
+        "Read the two strongest words carefully: credits are granted without limitation, and no fee, tuition or other charge may be assessed against a Veteran who qualifies. Many places cap transferred military credit or charge a per-credit assessment fee. Guam forbids both.",
+        "The statute says shall, upon application. It is a right rather than a discretion, so if an institution refuses, that is a matter to escalate rather than accept.",
+        "Early registration is protected. An institution that offers an early course registration period to any segment of its student population must have a process to offer early registration to Veterans and National Guard members.",
+        "If you are called to active duty mid-term, two things protect you. If you had regularly attended a course for thirteen weeks or more, or completed 85 percent of the term's work through acceleration, you may be given credit for each course in which you hold a letter grade of C or better. And you may be entitled to a 100 percent refund of tuition and fees if the institution provides no accommodation.",
+        "Coming in or coming back is also eased. A Veteran with no previous college experience gets a one week extension to file an application after the registration period closes, and may begin classes while the application is completed. On return from active duty you may register after normal registration closes without late fees or other penalties.",
+        "All of this comes from the SERVE Act, the Securing and Ensuring the Rights Veterans Earned Act, added by Public Law 36-084 on 11 March 2022. The Guam Office of Veterans Affairs is the lead agency and had one year from the effective date to implement.",
+        "The same Veterans Bill of Rights also directs the Office to work on housing assistance and employment support. Those provisions read as directions to the agency rather than as benefits you can claim at a counter, so ask the Office what exists in practice."
+      ],
+      "agency": "Guam Office of Veterans Affairs, with the institutions of the local university and community college systems",
+      "statuteRef": "10 GCA 67203(c), in the SERVE Act at 10 GCA 67201 to 67203",
+      "officialUrl": "https://col.guamcourts.gov/sites/default/files/10gc067_0.pdf",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "gu-veterans-cemetery-burial",
+      "jurisdiction": "GU",
+      "category": "burial",
+      "title": "Burial without charge, including Guam's own wartime units",
+      "summary": "Any Veteran of the United States Armed Forces is buried without charge to the family in the Veterans Cemetery of Guam. Eligibility also reaches the Insular Guard, the Guam Militia, the Guam Scouts, the Guam Combat Patrol and Wake Island civilians.",
+      "amount": "Burial without charge to the family of the deceased Veteran",
+      "eligibility": [
+        "Any Veteran of the United States Armed Forces is buried without charge to the family",
+        "The cemetery is also for persons who served honorably in the Insular Guard, the Guam Militia, the Guam Scouts or the Guam Combat Patrol",
+        "It is also for persons employed in a civil capacity on Wake Island on 7 December 1941",
+        "It is also for service on United States Merchant Marine vessels and other duties in direct support of the United States government at war",
+        "Spouses and dependents of eligible persons are covered"
+      ],
+      "details": [
+        "The eligibility list is a piece of Guam's history written into statute. The Insular Guard, the Guam Militia, the Guam Scouts and the Guam Combat Patrol were local units, and the Wake Island provision reaches civilians who were there on the day the Pacific war began. If your family's service was in one of those, it counts here even though it would not count anywhere else.",
+        "The burial provision is short and absolute: any Veteran of the United States Armed Forces shall be buried without charge to the family of the deceased Veteran. It was added by Public Law 18-024 on 21 December 1985.",
+        "The eligibility section was repealed and reenacted by Public Law 24-118 on 14 January 1998, so the current list is the 1998 version.",
+        "There is a Veterans Cemetery Trust Fund, transferred from the Guam Parks Commission to the Guam Veterans Commission, which is where the money for upkeep sits.",
+        "The Guam Office of Veterans Affairs publishes a burial standard operating procedure and runs a memorial locator, so a family can find a grave and check what is required before they need to.",
+        "Practical note: the Office keeps a Guam Veteran Registry under 10 GCA 67110. Registering while you are alive makes everything easier for your family later, and the Office asks Veterans to do it."
+      ],
+      "agency": "Guam Office of Veterans Affairs, cemetery line (671) 477-5697",
+      "statuteRef": "10 GCA 67105 for burial without charge, with eligibility at 10 GCA 67103.1 and the registry at 10 GCA 67110",
+      "officialUrl": "https://col.guamcourts.gov/sites/default/files/10gc067_0.pdf",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "gu-veterans-healthcare-assistance",
+      "jurisdiction": "GU",
+      "category": "health",
+      "title": "Help with appointments, prescriptions and rides to the doctor",
+      "summary": "Guam funds its Veterans Affairs Office to do the practical work of getting you to care: booking and tracking appointments, filling prescriptions, keeping your medical files, and driving you there and back.",
+      "amount": "Direct assistance services, including non-emergency transportation, at no stated charge",
+      "eligibility": [
+        "The appointment scheduling, tracking and consultation support is directed at disabled and elderly Veterans",
+        "The prescription, coordination and medical documentation support is for eligible Veterans",
+        "Non-emergency transportation to and from medical appointments and pharmacies is for eligible Veterans",
+        "Ask the Office what eligible means for the service you need, because the statute does not define it"
+      ],
+      "details": [
+        "This is unusually concrete for a statutory health provision. The Office is required to help with scheduling patient appointments, and with tracking, reviewing and responding to electronic orders and consultations, which is exactly the administrative load that stops people getting care.",
+        "The transportation duty is the standout. Non-emergency transportation to and from medical appointments and pharmacies is written into the statute, not left to a grant programme.",
+        "It is funded. Public Law 37-101, enacted 5 June 2024, appropriated $340,000 from the General Fund for initial implementation, available until fully expended, and required the Director to include continuing funding in the Office's annual budget request. The appropriation is specifically protected from the Governor's transfer authority.",
+        "The statute also says the Office does not have to wait for new positions or regulations before delivering the services, so a lack of rules is not a reason to turn you away.",
+        "Separately, the SERVE Act requires the Office to develop and operate Veteran health navigator services, staffed by people with direct knowledge of the Veteran communities they serve, to identify all federal and other healthcare benefits available to you and your family and help you enroll. It also requires attention to mental health, including post-traumatic stress disorder, depression and suicide prevention.",
+        "Because this is a service rather than a payment, how much of it is actually running at any time depends on staffing. Call the Office and ask directly."
+      ],
+      "agency": "Guam Office of Veterans Affairs",
+      "statuteRef": "10 GCA 67111, with health navigator and mental health duties at 10 GCA 67203(d)",
+      "officialUrl": "https://col.guamcourts.gov/sites/default/files/10gc067_0.pdf",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
       "id": "hi-military-pension-income-exclusion",
       "jurisdiction": "HI",
       "category": "income-tax",
@@ -2755,6 +2979,201 @@
       "agency": "Missouri Department of Revenue",
       "statuteRef": "RSMo 135.010 to 135.030",
       "officialUrl": "https://revisor.mo.gov/main/OneSection.aspx?section=135.030",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "mp-drivers-license-fee-discount",
+      "jurisdiction": "MP",
+      "category": "vehicle",
+      "title": "25 percent off your driver's licence",
+      "summary": "A Veteran pays 25 percent less than the standard operator's licence fee in the CNMI. No disability rating is required.",
+      "amount": "25 percent less than the fee charged for a similar operator's licence. The standard fee is $50, so the Veteran rate works out at $37.50",
+      "eligibility": [
+        "You are a Veteran, with no disability rating required",
+        "You furnish a copy of your DD214, or a certification from the Military and Veterans Affairs Office showing that you served in the US military services",
+        "The documents go to the Department of Public Safety and the Department of Finance"
+      ],
+      "details": [
+        "This one needs no rating at all, which makes it the most widely available of the CNMI's Veteran benefits. If you served and were not dishonorably discharged, ask for it.",
+        "The standard operator's licence fee set in the statute is $50, and a duplicate or substitute licence is $10. Confirm the current figures with the Bureau of Motor Vehicles, because fees get amended more often than statutes get recompiled.",
+        "The same drafting wrinkle appears here as on the license plates. The subsection sets the benefit at 25 percent less, then refers to furnishing documents in order to waive the operator's licence fees. The operative words are 25 percent less. Ask the Bureau to confirm.",
+        "Bring the DD214 if you have it. The alternative certification from the Military and Veterans Affairs Office exists for Veterans who do not."
+      ],
+      "agency": "CNMI Bureau of Motor Vehicles and Department of Public Safety, with the Department of Finance",
+      "statuteRef": "9 CMC 2202(d)",
+      "officialUrl": "https://cnmilaw.gov/commonwealth-code/7369",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "mp-nmc-tuition-waiver",
+      "jurisdiction": "MP",
+      "category": "education",
+      "title": "Full tuition waiver at Northern Marianas College from 30 percent",
+      "summary": "If you are a CNMI resident with a 30 percent or greater service-connected disability, Northern Marianas College must waive your tuition. You can use it for an associate, bachelor's or master's degree.",
+      "amount": "Full waiver of tuition. Books, student activity fees, laboratory fees and other applicable fees are not waived",
+      "eligibility": [
+        "You are a CNMI resident, classified as a resident for tuition-paying purposes under NMC Policy No. 4001 Residency Classification",
+        "You were an active member of the United States military who served in active federal service under either Title 10 or Title 32 of the United States Code",
+        "You are certified to have at least 30 percent disability as a result of serving in active military service",
+        "And if discharged from service, you received an honorable discharge",
+        "You apply in the form and manner NMC prescribes, with evidence, no later than the last class date of the semester or term the waiver applies to"
+      ],
+      "details": [
+        "The threshold is 30 percent, not 100 percent, which makes this one of the more accessible education benefits anywhere. The governing board shall waive the tuition, so it is a duty rather than a discretion.",
+        "Title 32 service counts, not just Title 10. That matters for National Guard members in federal service, who are excluded by a lot of state provisions.",
+        "You can go a long way with it. The statute expressly allows an associate, bachelor's or master's degree, so it is not limited to a first degree.",
+        "Understand how it stacks with the GI Bill, because this is the trap. The waiver does not apply if at registration you were entitled to receive, but did not apply for, federal and local education benefits usable only for tuition, where the value of those benefits for the semester equals or exceeds the waiver. In other words, you cannot skip applying for the GI Bill and take the waiver instead. If your federal and local tuition benefits come to less than the waiver, you get the balance of the waiver after those benefits are applied.",
+        "Only tuition is waived. Budget separately for books, student activity and laboratory fees, and other applicable fees.",
+        "Withdrawals and failures are not covered. The waiver does not apply to a course you withdrew from after the withdrawal period or failed to pass. There is one escape: it may still apply where you withdrew for reasonable factors beyond your control, with the permission of the relevant Dean of your programme. If something went wrong, go and ask the Dean rather than assuming the waiver is lost.",
+        "This came in through Public Law 22-16 on 13 April 2022. The legislature's findings section explicitly looked at what states like California give Veterans and set out to catch up, which is worth knowing if you are wondering whether more is coming."
+      ],
+      "agency": "Northern Marianas College, with the Office of Military Liaison and Veteran Affairs",
+      "statuteRef": "3 CMC 1372, with definitions at 3 CMC 1371 and enrollment at 3 CMC 1373",
+      "officialUrl": "https://cnmilaw.gov/commonwealth-code/2629",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "mp-no-real-property-tax",
+      "jurisdiction": "MP",
+      "category": "property-tax",
+      "title": "There is no annual property tax to be exempt from",
+      "summary": "The Northern Mariana Islands does not levy the kind of annual real property tax the fifty states do, so there is no Veteran property tax exemption and nothing to apply for. This is good news, not a gap in your benefits.",
+      "eligibility": [
+        "Nothing to apply for, because there is no annual real property tax on your home",
+        "If you are moving to the CNMI, note separately that land ownership is restricted under the Commonwealth Constitution to persons of Northern Marianas descent, so buying rather than leasing may not be open to you"
+      ],
+      "details": [
+        "We looked for this specifically and want to be straight with you about what we found and did not find. Searching the Commonwealth Code for a real property tax exemption returns nothing. The provisions that come back for property tax are about estate tax and about withholding on real estate transactions, which are one-off taxes on transfers rather than an annual bill on your home.",
+        "The word homestead means something different here. In CNMI law a homestead is a land grant programme, with village and agricultural homestead lots allocated by the government. It is not a tax exemption, so searching for a homestead exemption will mislead you.",
+        "So if you are comparing the CNMI with a state, do not record a zero in the Veteran property tax column and conclude the CNMI treats Veterans worse. There is no column. A Veteran in the CNMI is not paying an annual property tax that a Veteran in Texas gets excused from.",
+        "What the CNMI does give Veterans sits elsewhere, and it is real: a full tuition waiver at Northern Marianas College, discounted vehicle registration and driver licence fees with a full waiver at 100 percent, free burial in the CNMI Veterans Cemetery, and a statutory employment preference. Those records are on this page.",
+        "Confirm with the Division of Revenue and Taxation if you have been told you owe a property tax, because something unusual would be going on. We would rather you checked than took our word for a negative.",
+        "The Office of Military Liaison and Veteran Affairs, which sits in the Office of the Governor under 1 CMC 20122, is the single point of contact for Veterans' affairs in the Commonwealth and is the right first call on anything in this list."
+      ],
+      "agency": "CNMI Division of Revenue and Taxation, with Veteran questions to the Office of Military Liaison and Veteran Affairs",
+      "statuteRef": "No real property tax provision found in the Commonwealth Code; see Title 4 for the taxes that do exist",
+      "officialUrl": "https://cnmilaw.gov/commonwealth-code",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "mp-veteran-license-plates",
+      "jurisdiction": "MP",
+      "category": "vehicle",
+      "title": "Cheaper plates, free at 100 percent, on as many vehicles as you own",
+      "summary": "A Veteran or disabled Veteran license plate costs 25 percent less than a standard plate, and nothing at all if the VA rates you 100 percent permanent and total. The discount is not limited to one vehicle.",
+      "amount": "25 percent less than the fee for a similar plate for the same class of vehicle, on first registration and every renewal. No fee at all at a 100 percent permanent and total rating",
+      "eligibility": [
+        "For a Veteran plate: you served on active duty or in a reserve component of any branch of the United States Armed Forces and were discharged or released under conditions other than dishonorable",
+        "For a disabled Veteran plate: the same, plus certification of at least 10 percent disability due to a service-related injury",
+        "For the full fee waiver: the US Department of Veterans Affairs rates you at 100 percent permanent and total disability",
+        "The vehicle must be non-commercial and registered to you, or to a legal guardian applying on your behalf",
+        "Plates are assigned to non-commercial passenger motor vehicles and non-commercial motorcycles"
+      ],
+      "details": [
+        "The disabled Veteran plate starts at 10 percent, which is a low bar by any standard.",
+        "The best part is easy to miss. Registration for a Veteran or disabled Veteran plate is expressly not limited to one vehicle per Veteran, so the 25 percent discount can apply to every qualifying vehicle you own rather than just one.",
+        "Proof has got easier. You submit a DD214 with your vehicle registration application, but if you do not have one you can instead use a certification from the Military and Veterans Affairs Office, or a valid Veteran Identification Card issued by the US Department of Veterans Affairs. The VA ID card route was added by Public Law 24-23 in 2026, so older guidance will not mention it.",
+        "For the full waiver at 100 percent permanent and total, furnish a copy of the decision letter from the Regional Veterans Affairs Office showing the approved rating, to both the Department of Public Safety and the Department of Finance.",
+        "One drafting wrinkle to be aware of. Subsection (d) sets the benefit as 25 percent less, then its closing sentence talks about documents furnished in order to waive the fees. Read together with the sentence that grants a full waiver at 100 percent permanent and total, the sensible reading is a 25 percent discount generally and a full waiver at 100 percent. Ask the Bureau of Motor Vehicles to confirm which applies to you before you budget for it.",
+        "Plates are not transferable to anyone else. But if you die, the Commissioner of Public Safety shall allow your survivor, on request, to retain the front plate as a memorial.",
+        "Gold Star license plates are available separately under the same section. The Bureau of Motor Vehicles issues them on application, eligibility is certified by the Office of Veterans Affairs, and they are re-issued to the original holder. They are for parents, including a stepmother, stepfather, adoptive parents and foster parents."
+      ],
+      "agency": "CNMI Bureau of Motor Vehicles and Department of Public Safety, with the Department of Finance for fee waivers",
+      "statuteRef": "9 CMC 2116, as amended by PL 24-23 (2026), with Gold Star plates at 9 CMC 2116(g) and (h)",
+      "officialUrl": "https://cnmilaw.gov/commonwealth-code/7361",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "mp-veterans-cemetery-burial",
+      "jurisdiction": "MP",
+      "category": "burial",
+      "title": "Burial without charge in the CNMI Veterans Cemetery",
+      "summary": "Any eligible person or Veteran of the United States Armed Forces is buried without charge in the CNMI Veterans Cemetery. Spouses and dependents pay only the actual cost of interment, never for the plot.",
+      "amount": "No charge for an eligible Veteran. For eligible spouses and dependents, a fee covering as nearly as practicable the actual costs of interment or inurnment, excluding the value of the plot",
+      "eligibility": [
+        "You were born in the CNMI, or were a CNMI resident at entrance to or separation from the armed forces, or were a CNMI resident for two consecutive years",
+        "And you died while serving on active duty, or served as an active member of the armed forces and were honorably discharged or released under honorable conditions",
+        "A United States citizen who served in the armed forces of a government allied with the United States during a war qualifies, where that service terminated honorably and they were a US citizen at entry and at death",
+        "Reserve component, Army National Guard, Air National Guard and ROTC members qualify where death occurred under honorable conditions on active duty for training or full-time service, or while hospitalized or undergoing treatment for service-related conditions",
+        "Reservists and National Guard members, with their spouses and dependent children, qualify if entitled to retired pay at death, or would have been if they were over age 60",
+        "A spouse, widow or widower of an eligible active duty member or Veteran qualifies, including the widow or widower of someone lost or buried at sea or officially determined permanently absent as missing in action",
+        "A surviving spouse whose remarriage was annulled or declared void by a court qualifies",
+        "Unmarried minor children of an eligible member or Veteran qualify"
+      ],
+      "details": [
+        "The plot itself is never charged for. Where a spouse or dependent is interred, the fee is set to cover as nearly as practicable the actual costs of interment or inurnment, and the statute expressly excludes the value of the plot from that calculation.",
+        "The allied forces provision is worth reading twice if it might apply to your family. A US citizen who served in an allied government's armed forces during a war the United States was engaged in is eligible, provided that service ended honorably and they were a US citizen both at entry and at death.",
+        "The remarriage annulment provision is the kind of detail that gets missed. A surviving spouse whose later marriage was annulled or declared void by a competent court is eligible again.",
+        "The residence test has three alternative routes, and the two consecutive years route does not require that the residence be recent. Read all three before concluding you do not qualify.",
+        "The fee schedule may be adjusted from time to time by the executive officer, so get the current figure rather than relying on a number you were told previously.",
+        "This came in through Public Law 17-61 on 8 November 2011, together with the Veterans Cemetery Revolving Fund that pays for it."
+      ],
+      "agency": "Office of Military Liaison and Veteran Affairs, Office of the Governor",
+      "statuteRef": "1 CMC 20128 for burial without charge, with eligibility at 1 CMC 20127 and the revolving fund at 1 CMC 20129",
+      "officialUrl": "https://cnmilaw.gov/commonwealth-code/207",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "mp-veterans-employment-preference",
+      "jurisdiction": "MP",
+      "category": "employment",
+      "title": "Private employers may prefer Veterans, but do not have to",
+      "summary": "The CNMI allows private employers to give Veterans a hiring preference without that counting as discrimination. Read it carefully: it protects employers who choose to prefer you, it does not give you a preference you can demand.",
+      "amount": "A permissive hiring preference in private employment, with no set number of points or quota",
+      "eligibility": [
+        "The preference may be given to honorably discharged soldiers, sailors and marines who are Veterans of any war of the United States, or of any military campaign for which a campaign ribbon has been awarded",
+        "It may also be given to their widows or widowers",
+        "It may also be given to spouses of honorably discharged Veterans who have a service-connected permanent and total disability",
+        "The definition of Veteran reaches further than you might expect, including members of the Women's Air Forces Service Pilots, certain documented merchant mariners with service in defined date ranges, and certain civil service crewmembers aboard Army or Naval transport vessels from 7 December 1941 through 31 December 1946",
+        "It also covers recipients of the Armed Forces Expeditionary Medal, or the Marine Corps and Navy Expeditionary Medal, for opposed action on foreign soil"
+      ],
+      "details": [
+        "We are flagging the limit first because the title of the provision oversells it. This is a voluntary, permissive preference. The statute says there shall be a permissive preference and that eligible Veterans may be preferred. It does not require any private employer to prefer you, and it gives you nothing to enforce if one does not.",
+        "What it actually does is remove a legal risk for employers. The provision states that these preferences are not considered violations of any state or local equal employment opportunity law, which is what allows an employer to advertise and apply a Veteran preference without exposure.",
+        "That makes it worth raising in a job search rather than filing a complaint about. An employer who did not know they are allowed to prefer Veterans now knows.",
+        "Note the scope: this is about private, nonpublic employment. It is not a civil service preference for CNMI government jobs.",
+        "The Veteran definition is detailed and historical, covering WASPs, specific merchant mariner service windows including Korean territorial waters from 25 June 1950 through 27 July 1953 and Vietnam territorial waters from 5 August 1964 through 7 May 1975 where a military commendation was received, and civil service crewmembers on Army or Naval transport vessels. If your service was unusual, read the section rather than assuming you are out.",
+        "The requirement is service in a war or a campaign for which a campaign ribbon was awarded, so peacetime service without a campaign ribbon appears not to be covered by this particular provision."
+      ],
+      "agency": "No administering agency; raise it with the employer. The Office of Military Liaison and Veteran Affairs can confirm your Veteran status",
+      "statuteRef": "1 CMC 20134",
+      "officialUrl": "https://cnmilaw.gov/commonwealth-code/213",
       "confidence": "needs-review",
       "source": {
         "id": "curated-benefits",
@@ -4855,6 +5274,138 @@
       "verifiedAt": "2026-11-13"
     },
     {
+      "id": "pr-disabled-veteran-property-tax-exemption",
+      "jurisdiction": "PR",
+      "category": "property-tax",
+      "title": "Total property tax exemption for a disabled Veteran",
+      "summary": "Puerto Rico exempts the home of a disabled Veteran from property tax entirely, along with the lot up to 1,000 square metres in an urban zone or one cuerda in a rural one. Build, buy or remodel all qualify.",
+      "amount": "Full exemption from payment of property taxes on the house, plus the lot up to 1,000 square metres in urban zones or one cuerda in rural zones",
+      "eligibility": [
+        "You are a disabled or impaired Veteran, which the law calls a veterano incapacitado o impedido",
+        "The house was built, acquired or remodeled by you, or will be built, acquired or remodeled by you in the future",
+        "The property is the residence of you or your immediate family",
+        "The land exemption is capped at 1,000 square metres in urban zones, or one cuerda in rural zones"
+      ],
+      "details": [
+        "A cuerda is the Puerto Rican land measure, about 3,930 square metres, so just under an acre. In a rural zone the land allowance is therefore roughly four times the urban one.",
+        "Remodelling counts, and so does future work. The provision covers a house already built, acquired or remodeled and one you build, acquire or remodel later, so a Veteran planning a move or a renovation is not shut out.",
+        "The exemption is tied to the home being lived in. It ceases as soon as the property stops being used as the residence of the Veteran or their immediate family.",
+        "But losing it is not permanent, and this is the important part. The right to the exemption is recoverable once you rebuild your home on the previously exempt property, or acquire another property and establish your home there. So selling up or being displaced does not end the benefit for good.",
+        "The statute attributes the provision to a federal Act effective 1 January 1968, which the published text cites as Congress Act 06-89 and marks with sic. That citation looks garbled in the official compilation, so do not spend time chasing it.",
+        "This exemption sits alongside the general Veteran exemption, not instead of it. The law states that the general exemption is in addition to any other exemption Puerto Rico grants taxpayers.",
+        "Applications go to the Centro de Recaudación de Ingresos Municipales, known as CRIM, which is the body that collects municipal property tax across Puerto Rico. Its Executive Director issues the regulations and determines how claims are made. CRIM's online services list an exención de veterano among the applications you can file electronically.",
+        "On currency: the version of the law we read is the Office of Management and Budget compilation revised 3 August 2026, which carries the amendments made in 2025 and 2026. That is about as current as a published compilation gets."
+      ],
+      "agency": "Centro de Recaudación de Ingresos Municipales (CRIM)",
+      "statuteRef": "Ley 203-2007, Carta de Derechos del Veterano Puertorriqueño del Siglo XXI, Article C, Segundo (b)",
+      "officialUrl": "https://bvirtualogp.pr.gov/ogp/Bvirtual/leyesreferencia/PDF/Derechos%20Civiles/203-2007/203-2007.pdf",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "pr-free-tuition-public-universities",
+      "jurisdiction": "PR",
+      "category": "education",
+      "title": "Free tuition at the University of Puerto Rico, including if you have no GI Bill left",
+      "summary": "Puerto Rico gives Veterans free tuition at the University of Puerto Rico and every public postsecondary institution, both when your federal education benefits run out mid-degree and when you never had any. The university is barred from asking for extra paperwork.",
+      "amount": "Free tuition at the University of Puerto Rico and all its academic units, and at any public postsecondary institution, plus preference on equal terms for aid, scholarships and other student benefits",
+      "eligibility": [
+        "You are a Veteran who exhausted your federal education benefits without being able to finish a bachelor's or postgraduate course of study already begun, because the studies run longer than the period federal law authorises",
+        "Or you are a Veteran who has no education benefits at all under legislation passed by the Congress of the United States",
+        "In the second case you must maintain the academic standards the institution sets, and those standards cannot be more onerous than the academic requirements set for regular students",
+        "The degree concentration you finally choose does not matter"
+      ],
+      "details": [
+        "The second route is the remarkable one. A Veteran who never had federal education benefits is entitled to free tuition at Puerto Rico's public institutions on the same footing as one who used them up. Very few jurisdictions do that.",
+        "The documentation rule is a protection you can hold the institution to. To receive the benefit it is enough to present evidence of having served in the Armed Forces of the United States and of Veteran status under Article 5 of the law, a copy of valid photo identification, and an original certification from the federal Department of Veterans Affairs showing whether your federal education benefits are exhausted or about to be. The statute then says the University of Puerto Rico, all its academic units and any public higher education institution are barred from requiring other documentation as a precondition. If you are asked for more, point at this.",
+        "You also get preference, on equal terms, for the aid, scholarships and other benefits granted to students of the institution. The economic benefit can never exceed what would be granted for study at any higher education institution in Puerto Rico.",
+        "If you study at a recognised private or non-UPR institution in Puerto Rico, you are entitled to an amount for tuition plus stipends for books, library, laboratory, health plan and other items, capped at what that institution ordinarily charges other students for the same things for similar studies. The institution must be recognised by the Council on Higher Education or by a United States national accrediting agency.",
+        "The law names the institutions that must honour these rights, and the list goes well beyond the main university: the Conservatory of Music of Puerto Rico, the Puerto Rico Technological Institute of the Department of Education and its campuses, the School of Plastic Arts and Design, the School of Die and Tool Making, the San Juan University College and the Criminal Justice University College at Gurabo.",
+        "Family members are covered in defined cases. A non-resident spouse or child using the Veteran's transferred Montgomery or Post-9/11 GI Bill benefits qualifies if they enroll in the public institution within three years of the Veteran's discharge, after 90 days or more of active military service. A non-resident surviving spouse or child on the Fry Scholarship qualifies if they enroll within three years of the Veteran's death in the line of duty, after 90 days or more of active service.",
+        "The Secretary of Education is authorised to make rules, with the Governor's approval, so ask about current procedure as well as the statute."
+      ],
+      "agency": "University of Puerto Rico and the public postsecondary institutions, with rules from the Secretary of Education",
+      "statuteRef": "Ley 203-2007, Article B, rights relating to education",
+      "officialUrl": "https://bvirtualogp.pr.gov/ogp/Bvirtual/leyesreferencia/PDF/Derechos%20Civiles/203-2007/203-2007.pdf",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "pr-veteran-income-tax-deduction",
+      "jurisdiction": "PR",
+      "category": "income-tax",
+      "title": "A $1,500 Veteran deduction on your Puerto Rico return",
+      "summary": "Every Veteran is entitled to a $1,500 deduction under the Puerto Rico Internal Revenue Code. Ask Hacienda to confirm how it applies to your year, because the statute's wording leaves that open.",
+      "amount": "$1,500, described in the statute as a deducción vitalicia, a lifetime deduction",
+      "eligibility": [
+        "You are a Veteran, as defined by Article 5 of the Veterans Bill of Rights",
+        "The deduction has been effective since the tax year beginning 1 January 2007",
+        "The Secretary of the Treasury is empowered to issue the rules and regulations governing it"
+      ],
+      "details": [
+        "We are flagging a genuine ambiguity rather than resolving it for you. The statute grants a deducción vitalicia, literally a lifetime deduction, of $1,500. That phrasing does not say on its face whether the $1,500 is available in each year for the rest of your life or is a single allowance. We are not going to guess at a number that goes on your tax return.",
+        "Ask the Departamento de Hacienda, and ask by citation. The deduction was originally keyed to Section 1023(bb)(4) of the 1994 Internal Revenue Code, and the compilation notes it has been substituted by Section 1033.18(a)(2) of Ley 1-2011, the Puerto Rico Internal Revenue Code of 2011. Quote that section and you will get a straight answer.",
+        "The Secretary of the Treasury is authorised to promulgate rules and regulations about the deduction, and the statute says those have the force of law once approved, so the practical answer may live in a regulation rather than in the statute.",
+        "Note what this is not. It is not an exemption of military retirement pay. Puerto Rico's treatment of military retirement income is a separate question under the Internal Revenue Code of 2011 and we have not verified it, so do not assume your retired pay is exempt because this deduction exists.",
+        "Puerto Rico's income tax is its own system, not a mirror of the federal one. If you are moving to Puerto Rico from a state, that is the single biggest thing to get professional advice about, and it is worth more than this deduction either way.",
+        "The source is the Office of Management and Budget compilation of Ley 203-2007 revised 3 August 2026, which carries the 2025 and 2026 amendments."
+      ],
+      "agency": "Departamento de Hacienda de Puerto Rico",
+      "statuteRef": "Ley 203-2007, Article C, Primero, applying Section 1033.18(a)(2) of Ley 1-2011",
+      "officialUrl": "https://bvirtualogp.pr.gov/ogp/Bvirtual/leyesreferencia/PDF/Derechos%20Civiles/203-2007/203-2007.pdf",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "pr-veteran-property-tax-exemption",
+      "jurisdiction": "PR",
+      "category": "property-tax",
+      "title": "General Veteran property tax exemption, and why the $50,000 figure is wrong now",
+      "summary": "Every Veteran in Puerto Rico gets a permanent property tax exemption on their principal residence, with no disability required. The amount is $5,000 of assessed value. It was $50,000 for ten fiscal years ending in 2018-19, and a lot of guidance still quotes that.",
+      "amount": "$5,000 of assessed value, permanently. The figure was $50,000 for the fiscal years 2009-10 through 2018-19 only",
+      "eligibility": [
+        "You are a Veteran, or the surviving spouse of a Veteran. No disability is required",
+        "The dwelling was built or acquired in good faith as your principal residence",
+        "Where the building contains more than one dwelling, the exempt value is the proportional part of the total value of the building and lot attributable to the dwelling you occupy, as determined by the Executive Director of CRIM",
+        "You apply in the form CRIM determines"
+      ],
+      "details": [
+        "Check any figure you have been given against the dates. The statute sets the permanent exemption at $5,000 of assessed value, and then lists ten specific fiscal years, 2009-10 through 2018-19, for which it was $50,000. That enhanced period has ended. Guidance written during it, or copied from guidance written during it, overstates the benefit tenfold.",
+        "The exemption is permanent and requires no disability, which makes it the one benefit here that every Veteran who owns a home in Puerto Rico should be claiming.",
+        "It stacks. The law says expressly that this exemption is in addition to any other exemption the Commonwealth grants to taxpayers, so it sits on top of the ordinary residential exoneración rather than replacing it. A disabled Veteran should look at the total exemption record as well.",
+        "Backdating is allowed, and this is worth money. Once an application is approved its effect is retroactive, up to a maximum of three years. If you have owned your home as a Veteran for years without claiming, apply anyway and ask about the three years.",
+        "The retroactivity is subject to the municipal law, which the published text still cites as Ley 81 of 30 August 1991. A note in the compilation records that this was repealed and replaced by Ley 107-2020, the Código Municipal de Puerto Rico. Expect CRIM to work from the newer code.",
+        "Vivienda, the word for dwelling, is defined to include the building where you have established your principal residence and that of your immediate family, together with the lot it sits on. In a multi-unit building it covers only the part you actually occupy as your home.",
+        "Surviving family are protected beyond the spouse. Article 6 of the law continues the privileges and exemptions for the surviving spouse, for minor children, and for adult children who are incapacitated, for as long as the Veteran would have enjoyed them. They end for a spouse on remarriage, for minor children on reaching majority, and for incapacitated children when the incapacity ends after majority.",
+        "CRIM's public frequently asked questions cover the ordinary residential exoneración and agricultural exemptions but not the Veteran exemption, so do not take its absence there as a sign the benefit does not exist. Its own services page lists the exención de veterano as an electronic filing."
+      ],
+      "agency": "Centro de Recaudación de Ingresos Municipales (CRIM)",
+      "statuteRef": "Ley 203-2007, Article C, Segundo (a), with surviving family at Article 6, 29 L.P.R.A. 739",
+      "officialUrl": "https://bvirtualogp.pr.gov/ogp/Bvirtual/leyesreferencia/PDF/Derechos%20Civiles/203-2007/203-2007.pdf",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
       "id": "ri-military-service-pension-modification",
       "jurisdiction": "RI",
       "category": "income-tax",
@@ -5905,6 +6456,43 @@
       "statuteRef": "Va. Code 2.2-2903",
       "officialUrl": "https://law.lis.virginia.gov/vacode/title2.2/chapter29/section2.2-2903/",
       "confidence": "verified",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "vi-veteran-property-tax-credit",
+      "jurisdiction": "VI",
+      "category": "property-tax",
+      "title": "A $650 Veteran tax credit, and you must pick only one credit",
+      "summary": "The Virgin Islands gives a $650 property tax credit to a Veteran or a Veteran's widow or widower, on top of the homestead exemption. The catch is that you may claim only one credit besides homestead, so do the arithmetic before you choose.",
+      "amount": "$650 credit against property tax, in addition to the homestead exemption",
+      "eligibility": [
+        "You are a property owner who qualifies as a Veteran, or the widow or widower of a Veteran, of the Armed Services of the United States",
+        "You attach a copy of your DD214",
+        "A member of the National Guard who has served for twenty years or more qualifies",
+        "A member of the National Guard who spent more than thirty consecutive days deployed in a war zone qualifies",
+        "No disability rating and no income limit are stated for this credit"
+      ],
+      "details": [
+        "The choice is the thing to get right. The application lets you claim the homestead exemption plus exactly one other credit, and says select only one other credit below. The Veteran credit is $650. The senior credit and the disability credit are each $500, and both are limited to owners with individual gross income under $30,000 and household income under $50,000.",
+        "So for most Veterans the Veteran credit wins twice over: it is worth $150 more and it carries no income test. A Veteran who is also over 60, or who has a Social Security disability determination, should not default to those credits.",
+        "But check two other options before deciding, because they are percentage-based and can be worth more on a larger bill. A Certificate of Visitability credit is 20 percent of the taxes levied, and a Circuit Breaker credit can run up to $5,000 of the taxes levied under 33 V.I.C. 2305c. On a high-value property either could beat $650. The Visitability credit needs a certificate issued by the Department of Planning and Natural Resources.",
+        "The National Guard routes are specific and generous in their own way: twenty years of service, or more than thirty consecutive days deployed in a war zone. Neither requires a disability.",
+        "The homestead side has its own rules. You need permanent Virgin Islands residency on 1 January, you must have been living in the territory for six months, and the credit does not apply to vacant land. The property must be your principal residence, defined as your true, fixed and permanent home that you intend to return to.",
+        "A home occupied by a qualifying family member can still qualify, where that family member is your spouse, your parent, or your child by birth or adoption. The form asks whether they pay rent.",
+        "The deadline is firm and early: the application is due to the Office of the Tax Assessor by 1 March. You will also be asked for the address used on your last return with the Virgin Islands Bureau of Internal Revenue, and for a copy of that return, or a notarised statement explaining why there is none.",
+        "You cannot double up. The form asks whether you claim a homestead credit on another property in the Virgin Islands, or in another state or jurisdiction.",
+        "On the source, and its limits. The Virgin Islands Code is not published openly by the territory in a form we could read, so this record is built on the Office of the Lieutenant Governor's own application for homestead and related tax credits, dated January 2025, which is the document the Tax Assessor actually administers. The form cites Title 33, Section 2305 of the Virgin Islands Code for penalties and 33 V.I.C. 2305c for the circuit breaker. We have not read the statutory text itself, so treat the amounts as current practice rather than verified law, and confirm with the Assessor.",
+        "The Tax Assessor has offices on both main islands: 1131 King Street, Suite 101, Christiansted on St Croix, (340) 773-6449, and 5049 Kongens Gade, Charlotte Amalie on St Thomas, (340) 774-2991. The Assessor makes the final determination based on whatever other evidence is necessary."
+      ],
+      "agency": "Office of the Lieutenant Governor, Real Property Tax Division, Office of the Tax Assessor",
+      "statuteRef": "33 V.I.C. 2305, with the circuit breaker credit at 33 V.I.C. 2305c",
+      "officialUrl": "https://ltg.gov.vi/wp-content/uploads/2025/01/FILLABLE-TAX-CREDIT-APPLICATION.pdf",
+      "confidence": "needs-review",
       "source": {
         "id": "curated-benefits",
         "title": "USVetHub verified benefit records",

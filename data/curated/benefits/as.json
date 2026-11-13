@@ -1,0 +1,52 @@
+[
+  {
+    "id": "as-veteran-employment-preference",
+    "jurisdiction": "AS",
+    "category": "employment",
+    "title": "Ten points for a disabled Veteran, and a real limit on hiring around you",
+    "summary": "American Samoa gives Veterans extra points on open competitive government examinations, ten for a disabled Veteran and five for a Veteran or an unremarried widow. If three or more preference eligibles make the list, only a preference eligible can be hired.",
+    "amount": "Ten additional examination points for a disabled Veteran, five for a Veteran or the unremarried widow of a Veteran",
+    "eligibility": [
+      "The preference applies in open competitive examinations for government employment",
+      "Ten additional points go to a disabled Veteran",
+      "Five additional points go to a Veteran, or to the unremarried widow of a Veteran",
+      "The preference applies in open competitive examinations only, and not in any promotional examination"
+    ],
+    "details": [
+      "The strongest provision is the one at the end, and it is stronger than most state preferences. When three or more names of preference eligibles appear on a certificate of eligibles, the selecting official may select only a preference eligible to fill the vacancy. That is not a thumb on the scale, it is a closed door.",
+      "There is also a paper trail requirement that works in your favour. If the selecting authority passes over a preference eligible whose name is on the certificate and picks someone without preference, they must file written reasons with the director for approval. So being passed over should generate a document you can ask about.",
+      "Preference eligibles are entered on the register ahead of others with the same score, so a tie goes to the Veteran.",
+      "Note the ceiling on it: open competitive examinations only. Once you are inside the government and competing for a promotion, the preference does not apply.",
+      "A caution about age. This rule comes from Rule 10-81, effective 29 July 1981. It is the current published text but it is more than forty years old, so confirm the current practice with the Department of Human Resources before relying on the detail.",
+      "We could not verify the definitions. The published pages for the definitions of Veteran and disabled Veteran in this title carry the wrong text: the page headed disabled Veteran contains the definition of noncompetitive personnel action, and the page headed Veteran contains the definition of internship. That looks like an error in how the code has been put online rather than in the law. Because of it we cannot tell you how American Samoa defines a disabled Veteran for the ten point preference, and you should ask Human Resources directly.",
+      "On the source: American Samoa's code and administrative rules are published online by the American Samoa Bar Association rather than by a government office, which is weaker than a government publication even though it is the standard place these materials live. Taken together with the definition errors above, treat this record as a signpost to ask the right question rather than as settled law."
+    ],
+    "agency": "American Samoa Government, Department of Human Resources",
+    "statuteRef": "American Samoa Administrative Code 4.0308, with a parallel provision at 4.2208",
+    "officialUrl": "https://asbar.org/regulation/4-0308-veteran-preference/",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "as-no-real-property-tax",
+    "jurisdiction": "AS",
+    "category": "property-tax",
+    "title": "No property tax, and almost nothing else written down",
+    "summary": "American Samoa has no real property tax chapter in its revenue title, so there is no Veteran property tax exemption to claim. We also found very little else in territorial law, and we would rather tell you that plainly.",
+    "eligibility": [
+      "Nothing to apply for, because the territory's revenue title contains no real property tax",
+      "Note separately that most land in American Samoa is communal and its alienation is restricted, so land is held differently from the states"
+    ],
+    "details": [
+      "Here is exactly what we checked. Title 11 of the American Samoa Code Annotated is the Revenue title, and its chapters cover general provisions, federal tax liens, income tax, amendments to the Internal Revenue Code, miscellaneous taxes, excise tax on imports, a secondhand imported items tax, excise tax on exports, tax incentives for businesses and foreign sales corporations. There is no real property tax chapter. Searching the code for a Veteran property tax exemption returns nothing.",
+      "So do not read a blank in American Samoa's property tax column as the territory treating Veterans worse than a state. There is no annual property tax on a home for an exemption to apply to.",
+      "We also searched the code for Veteran and for armed forces provisions generally. What came back was the government employment preference, which has its own record here, and nothing else in the way of a territorial Veteran benefit. That is a thinner result than any state or any other territory.",
+      "That does not mean a Veteran in American Samoa has nothing. It means the support is federal rather than territorial: the federal VA, the territory's Veterans Affairs Office as the route into federal programmes, and the federal benefits that follow your service wherever you live. Start there rather than looking for a local exemption.",
+      "We would rather publish this than leave American Samoa blank or pad it with things we have not read. If you know of a territorial Veteran benefit we have missed, that is exactly the sort of correction we want.",
+      "On the source: American Samoa's code is published online by the American Samoa Bar Association rather than by a government office. That is the standard place to find it, but it is a weaker source than the government publications we use for other jurisdictions, and the version of the code offered by title is dated as of August 2021."
+    ],
+    "agency": "American Samoa Government, Treasury Department, with Veteran questions to the American Samoa Veterans Affairs Office",
+    "statuteRef": "No real property tax provision found in Title 11 of the American Samoa Code Annotated, the Revenue title",
+    "officialUrl": "https://asbar.org/legal-resources/code-annotated/code-annotated-by-title-and-chapter/",
+    "confidence": "needs-review"
+  }
+]

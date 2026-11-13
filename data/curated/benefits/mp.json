@@ -1,0 +1,161 @@
+[
+  {
+    "id": "mp-no-real-property-tax",
+    "jurisdiction": "MP",
+    "category": "property-tax",
+    "title": "There is no annual property tax to be exempt from",
+    "summary": "The Northern Mariana Islands does not levy the kind of annual real property tax the fifty states do, so there is no Veteran property tax exemption and nothing to apply for. This is good news, not a gap in your benefits.",
+    "eligibility": [
+      "Nothing to apply for, because there is no annual real property tax on your home",
+      "If you are moving to the CNMI, note separately that land ownership is restricted under the Commonwealth Constitution to persons of Northern Marianas descent, so buying rather than leasing may not be open to you"
+    ],
+    "details": [
+      "We looked for this specifically and want to be straight with you about what we found and did not find. Searching the Commonwealth Code for a real property tax exemption returns nothing. The provisions that come back for property tax are about estate tax and about withholding on real estate transactions, which are one-off taxes on transfers rather than an annual bill on your home.",
+      "The word homestead means something different here. In CNMI law a homestead is a land grant programme, with village and agricultural homestead lots allocated by the government. It is not a tax exemption, so searching for a homestead exemption will mislead you.",
+      "So if you are comparing the CNMI with a state, do not record a zero in the Veteran property tax column and conclude the CNMI treats Veterans worse. There is no column. A Veteran in the CNMI is not paying an annual property tax that a Veteran in Texas gets excused from.",
+      "What the CNMI does give Veterans sits elsewhere, and it is real: a full tuition waiver at Northern Marianas College, discounted vehicle registration and driver licence fees with a full waiver at 100 percent, free burial in the CNMI Veterans Cemetery, and a statutory employment preference. Those records are on this page.",
+      "Confirm with the Division of Revenue and Taxation if you have been told you owe a property tax, because something unusual would be going on. We would rather you checked than took our word for a negative.",
+      "The Office of Military Liaison and Veteran Affairs, which sits in the Office of the Governor under 1 CMC 20122, is the single point of contact for Veterans' affairs in the Commonwealth and is the right first call on anything in this list."
+    ],
+    "agency": "CNMI Division of Revenue and Taxation, with Veteran questions to the Office of Military Liaison and Veteran Affairs",
+    "statuteRef": "No real property tax provision found in the Commonwealth Code; see Title 4 for the taxes that do exist",
+    "officialUrl": "https://cnmilaw.gov/commonwealth-code",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "mp-nmc-tuition-waiver",
+    "jurisdiction": "MP",
+    "category": "education",
+    "title": "Full tuition waiver at Northern Marianas College from 30 percent",
+    "summary": "If you are a CNMI resident with a 30 percent or greater service-connected disability, Northern Marianas College must waive your tuition. You can use it for an associate, bachelor's or master's degree.",
+    "amount": "Full waiver of tuition. Books, student activity fees, laboratory fees and other applicable fees are not waived",
+    "eligibility": [
+      "You are a CNMI resident, classified as a resident for tuition-paying purposes under NMC Policy No. 4001 Residency Classification",
+      "You were an active member of the United States military who served in active federal service under either Title 10 or Title 32 of the United States Code",
+      "You are certified to have at least 30 percent disability as a result of serving in active military service",
+      "And if discharged from service, you received an honorable discharge",
+      "You apply in the form and manner NMC prescribes, with evidence, no later than the last class date of the semester or term the waiver applies to"
+    ],
+    "details": [
+      "The threshold is 30 percent, not 100 percent, which makes this one of the more accessible education benefits anywhere. The governing board shall waive the tuition, so it is a duty rather than a discretion.",
+      "Title 32 service counts, not just Title 10. That matters for National Guard members in federal service, who are excluded by a lot of state provisions.",
+      "You can go a long way with it. The statute expressly allows an associate, bachelor's or master's degree, so it is not limited to a first degree.",
+      "Understand how it stacks with the GI Bill, because this is the trap. The waiver does not apply if at registration you were entitled to receive, but did not apply for, federal and local education benefits usable only for tuition, where the value of those benefits for the semester equals or exceeds the waiver. In other words, you cannot skip applying for the GI Bill and take the waiver instead. If your federal and local tuition benefits come to less than the waiver, you get the balance of the waiver after those benefits are applied.",
+      "Only tuition is waived. Budget separately for books, student activity and laboratory fees, and other applicable fees.",
+      "Withdrawals and failures are not covered. The waiver does not apply to a course you withdrew from after the withdrawal period or failed to pass. There is one escape: it may still apply where you withdrew for reasonable factors beyond your control, with the permission of the relevant Dean of your programme. If something went wrong, go and ask the Dean rather than assuming the waiver is lost.",
+      "This came in through Public Law 22-16 on 13 April 2022. The legislature's findings section explicitly looked at what states like California give Veterans and set out to catch up, which is worth knowing if you are wondering whether more is coming."
+    ],
+    "agency": "Northern Marianas College, with the Office of Military Liaison and Veteran Affairs",
+    "statuteRef": "3 CMC 1372, with definitions at 3 CMC 1371 and enrollment at 3 CMC 1373",
+    "officialUrl": "https://cnmilaw.gov/commonwealth-code/2629",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "mp-veteran-license-plates",
+    "jurisdiction": "MP",
+    "category": "vehicle",
+    "title": "Cheaper plates, free at 100 percent, on as many vehicles as you own",
+    "summary": "A Veteran or disabled Veteran license plate costs 25 percent less than a standard plate, and nothing at all if the VA rates you 100 percent permanent and total. The discount is not limited to one vehicle.",
+    "amount": "25 percent less than the fee for a similar plate for the same class of vehicle, on first registration and every renewal. No fee at all at a 100 percent permanent and total rating",
+    "eligibility": [
+      "For a Veteran plate: you served on active duty or in a reserve component of any branch of the United States Armed Forces and were discharged or released under conditions other than dishonorable",
+      "For a disabled Veteran plate: the same, plus certification of at least 10 percent disability due to a service-related injury",
+      "For the full fee waiver: the US Department of Veterans Affairs rates you at 100 percent permanent and total disability",
+      "The vehicle must be non-commercial and registered to you, or to a legal guardian applying on your behalf",
+      "Plates are assigned to non-commercial passenger motor vehicles and non-commercial motorcycles"
+    ],
+    "details": [
+      "The disabled Veteran plate starts at 10 percent, which is a low bar by any standard.",
+      "The best part is easy to miss. Registration for a Veteran or disabled Veteran plate is expressly not limited to one vehicle per Veteran, so the 25 percent discount can apply to every qualifying vehicle you own rather than just one.",
+      "Proof has got easier. You submit a DD214 with your vehicle registration application, but if you do not have one you can instead use a certification from the Military and Veterans Affairs Office, or a valid Veteran Identification Card issued by the US Department of Veterans Affairs. The VA ID card route was added by Public Law 24-23 in 2026, so older guidance will not mention it.",
+      "For the full waiver at 100 percent permanent and total, furnish a copy of the decision letter from the Regional Veterans Affairs Office showing the approved rating, to both the Department of Public Safety and the Department of Finance.",
+      "One drafting wrinkle to be aware of. Subsection (d) sets the benefit as 25 percent less, then its closing sentence talks about documents furnished in order to waive the fees. Read together with the sentence that grants a full waiver at 100 percent permanent and total, the sensible reading is a 25 percent discount generally and a full waiver at 100 percent. Ask the Bureau of Motor Vehicles to confirm which applies to you before you budget for it.",
+      "Plates are not transferable to anyone else. But if you die, the Commissioner of Public Safety shall allow your survivor, on request, to retain the front plate as a memorial.",
+      "Gold Star license plates are available separately under the same section. The Bureau of Motor Vehicles issues them on application, eligibility is certified by the Office of Veterans Affairs, and they are re-issued to the original holder. They are for parents, including a stepmother, stepfather, adoptive parents and foster parents."
+    ],
+    "agency": "CNMI Bureau of Motor Vehicles and Department of Public Safety, with the Department of Finance for fee waivers",
+    "statuteRef": "9 CMC 2116, as amended by PL 24-23 (2026), with Gold Star plates at 9 CMC 2116(g) and (h)",
+    "officialUrl": "https://cnmilaw.gov/commonwealth-code/7361",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "mp-drivers-license-fee-discount",
+    "jurisdiction": "MP",
+    "category": "vehicle",
+    "title": "25 percent off your driver's licence",
+    "summary": "A Veteran pays 25 percent less than the standard operator's licence fee in the CNMI. No disability rating is required.",
+    "amount": "25 percent less than the fee charged for a similar operator's licence. The standard fee is $50, so the Veteran rate works out at $37.50",
+    "eligibility": [
+      "You are a Veteran, with no disability rating required",
+      "You furnish a copy of your DD214, or a certification from the Military and Veterans Affairs Office showing that you served in the US military services",
+      "The documents go to the Department of Public Safety and the Department of Finance"
+    ],
+    "details": [
+      "This one needs no rating at all, which makes it the most widely available of the CNMI's Veteran benefits. If you served and were not dishonorably discharged, ask for it.",
+      "The standard operator's licence fee set in the statute is $50, and a duplicate or substitute licence is $10. Confirm the current figures with the Bureau of Motor Vehicles, because fees get amended more often than statutes get recompiled.",
+      "The same drafting wrinkle appears here as on the license plates. The subsection sets the benefit at 25 percent less, then refers to furnishing documents in order to waive the operator's licence fees. The operative words are 25 percent less. Ask the Bureau to confirm.",
+      "Bring the DD214 if you have it. The alternative certification from the Military and Veterans Affairs Office exists for Veterans who do not."
+    ],
+    "agency": "CNMI Bureau of Motor Vehicles and Department of Public Safety, with the Department of Finance",
+    "statuteRef": "9 CMC 2202(d)",
+    "officialUrl": "https://cnmilaw.gov/commonwealth-code/7369",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "mp-veterans-cemetery-burial",
+    "jurisdiction": "MP",
+    "category": "burial",
+    "title": "Burial without charge in the CNMI Veterans Cemetery",
+    "summary": "Any eligible person or Veteran of the United States Armed Forces is buried without charge in the CNMI Veterans Cemetery. Spouses and dependents pay only the actual cost of interment, never for the plot.",
+    "amount": "No charge for an eligible Veteran. For eligible spouses and dependents, a fee covering as nearly as practicable the actual costs of interment or inurnment, excluding the value of the plot",
+    "eligibility": [
+      "You were born in the CNMI, or were a CNMI resident at entrance to or separation from the armed forces, or were a CNMI resident for two consecutive years",
+      "And you died while serving on active duty, or served as an active member of the armed forces and were honorably discharged or released under honorable conditions",
+      "A United States citizen who served in the armed forces of a government allied with the United States during a war qualifies, where that service terminated honorably and they were a US citizen at entry and at death",
+      "Reserve component, Army National Guard, Air National Guard and ROTC members qualify where death occurred under honorable conditions on active duty for training or full-time service, or while hospitalized or undergoing treatment for service-related conditions",
+      "Reservists and National Guard members, with their spouses and dependent children, qualify if entitled to retired pay at death, or would have been if they were over age 60",
+      "A spouse, widow or widower of an eligible active duty member or Veteran qualifies, including the widow or widower of someone lost or buried at sea or officially determined permanently absent as missing in action",
+      "A surviving spouse whose remarriage was annulled or declared void by a court qualifies",
+      "Unmarried minor children of an eligible member or Veteran qualify"
+    ],
+    "details": [
+      "The plot itself is never charged for. Where a spouse or dependent is interred, the fee is set to cover as nearly as practicable the actual costs of interment or inurnment, and the statute expressly excludes the value of the plot from that calculation.",
+      "The allied forces provision is worth reading twice if it might apply to your family. A US citizen who served in an allied government's armed forces during a war the United States was engaged in is eligible, provided that service ended honorably and they were a US citizen both at entry and at death.",
+      "The remarriage annulment provision is the kind of detail that gets missed. A surviving spouse whose later marriage was annulled or declared void by a competent court is eligible again.",
+      "The residence test has three alternative routes, and the two consecutive years route does not require that the residence be recent. Read all three before concluding you do not qualify.",
+      "The fee schedule may be adjusted from time to time by the executive officer, so get the current figure rather than relying on a number you were told previously.",
+      "This came in through Public Law 17-61 on 8 November 2011, together with the Veterans Cemetery Revolving Fund that pays for it."
+    ],
+    "agency": "Office of Military Liaison and Veteran Affairs, Office of the Governor",
+    "statuteRef": "1 CMC 20128 for burial without charge, with eligibility at 1 CMC 20127 and the revolving fund at 1 CMC 20129",
+    "officialUrl": "https://cnmilaw.gov/commonwealth-code/207",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "mp-veterans-employment-preference",
+    "jurisdiction": "MP",
+    "category": "employment",
+    "title": "Private employers may prefer Veterans, but do not have to",
+    "summary": "The CNMI allows private employers to give Veterans a hiring preference without that counting as discrimination. Read it carefully: it protects employers who choose to prefer you, it does not give you a preference you can demand.",
+    "amount": "A permissive hiring preference in private employment, with no set number of points or quota",
+    "eligibility": [
+      "The preference may be given to honorably discharged soldiers, sailors and marines who are Veterans of any war of the United States, or of any military campaign for which a campaign ribbon has been awarded",
+      "It may also be given to their widows or widowers",
+      "It may also be given to spouses of honorably discharged Veterans who have a service-connected permanent and total disability",
+      "The definition of Veteran reaches further than you might expect, including members of the Women's Air Forces Service Pilots, certain documented merchant mariners with service in defined date ranges, and certain civil service crewmembers aboard Army or Naval transport vessels from 7 December 1941 through 31 December 1946",
+      "It also covers recipients of the Armed Forces Expeditionary Medal, or the Marine Corps and Navy Expeditionary Medal, for opposed action on foreign soil"
+    ],
+    "details": [
+      "We are flagging the limit first because the title of the provision oversells it. This is a voluntary, permissive preference. The statute says there shall be a permissive preference and that eligible Veterans may be preferred. It does not require any private employer to prefer you, and it gives you nothing to enforce if one does not.",
+      "What it actually does is remove a legal risk for employers. The provision states that these preferences are not considered violations of any state or local equal employment opportunity law, which is what allows an employer to advertise and apply a Veteran preference without exposure.",
+      "That makes it worth raising in a job search rather than filing a complaint about. An employer who did not know they are allowed to prefer Veterans now knows.",
+      "Note the scope: this is about private, nonpublic employment. It is not a civil service preference for CNMI government jobs.",
+      "The Veteran definition is detailed and historical, covering WASPs, specific merchant mariner service windows including Korean territorial waters from 25 June 1950 through 27 July 1953 and Vietnam territorial waters from 5 August 1964 through 7 May 1975 where a military commendation was received, and civil service crewmembers on Army or Naval transport vessels. If your service was unusual, read the section rather than assuming you are out.",
+      "The requirement is service in a war or a campaign for which a campaign ribbon was awarded, so peacetime service without a campaign ribbon appears not to be covered by this particular provision."
+    ],
+    "agency": "No administering agency; raise it with the employer. The Office of Military Liaison and Veteran Affairs can confirm your Veteran status",
+    "statuteRef": "1 CMC 20134",
+    "officialUrl": "https://cnmilaw.gov/commonwealth-code/213",
+    "confidence": "needs-review"
+  }
+]
