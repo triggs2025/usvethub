@@ -1,0 +1,54 @@
+[
+  {
+    "id": "mi-disabled-veteran-homestead-property-tax-exemption",
+    "jurisdiction": "MI",
+    "category": "property-tax",
+    "title": "Disabled Veteran homestead property tax exemption",
+    "summary": "Michigan exempts your home from property tax entirely, not just at a reduced rate, if you are a Michigan resident Veteran who is 100 percent disabled, rated individually unemployable, or has received VA assistance for specially adapted housing.",
+    "amount": "A full exemption from property tax on the homestead, with no dollar cap in the statute",
+    "eligibility": [
+      "You are a Michigan resident who served in the United States Armed Forces, including reserve components, and were discharged or released under honorable conditions",
+      "You use and own the property as your homestead",
+      "And you meet any one of the three following criteria, each of which qualifies on its own",
+      "Permanently and totally disabled as a result of military service and entitled to Veterans benefits at the 100 percent rate",
+      "Or you hold a VA certificate that you are receiving or have received pecuniary assistance due to disability for specially adapted housing",
+      "Or the VA has rated you individually unemployable",
+      "Legal title is held solely by you, or jointly by you and your spouse"
+    ],
+    "details": [
+      "This is a full exemption from the collection of taxes under the General Property Tax Act, not a reduction in assessed value. The statute contains no dollar figure at all.",
+      "A surviving spouse of a Veteran who was eligible for the exemption immediately before death keeps it, and keeps it for as long as they do not remarry. It applies to any homestead the surviving spouse owns, including a home bought after the Veteran's death, provided the spouse holds legal title solely.",
+      "You file an application with the assessing officer for your local assessing unit, after 1 January and before 31 December of the year you are claiming. A legal designee may file for you. The form is prescribed by the State Tax Commission.",
+      "For taxes levied on or after 1 January 2025, an exemption once granted stays in effect without reapplying each year, until you rescind it or the assessor denies it under Section 7c.",
+      "The exemption is prorated if you do not own the home for the whole tax year, and taxes are canceled for a year in which a qualifying person acquires title to exempt property.",
+      "Note the discharge standard here is narrower than Michigan's income tax rule: this exemption requires honorable conditions, while the income tax additional exemption also accepts a general discharge."
+    ],
+    "agency": "Local assessing officers, on a form prescribed by the Michigan State Tax Commission",
+    "statuteRef": "MCL 211.7b",
+    "officialUrl": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-211-7b",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "mi-military-pay-income-tax-subtraction",
+    "jurisdiction": "MI",
+    "category": "income-tax",
+    "title": "Military pay and military retirement are not taxed",
+    "summary": "Michigan subtracts military compensation from your taxable income, and that includes retirement and pension benefits for Armed Forces service. There is no dollar cap on this subtraction.",
+    "amount": "Full subtraction of Armed Forces compensation, including retirement or pension benefits, with no dollar limit",
+    "eligibility": [
+      "The pay was received for services in the Armed Forces of the United States",
+      "It is subtracted only to the extent it was included in your adjusted gross income",
+      "Retirement or pension benefits received for service in the Michigan National Guard are subtracted under a separate subparagraph"
+    ],
+    "details": [
+      "The subtraction sits at MCL 206.30(1)(e)(i) and covers compensation for Armed Forces service, including retirement or pension benefits. Active duty pay and military retirement pay both fall inside it.",
+      "The dollar caps that Michigan applies to other pension income, currently $42,240 on a single return and $84,480 on a joint return and adjusted each year by CPI, apply to the separate non-military pension provision at subsection (1)(f), not to the military subtraction.",
+      "Separately, a qualified disabled Veteran gets an additional personal exemption of $250. A qualified disabled Veteran here means a Veteran with a service-connected disability, and this provision accepts an honorable or a general discharge.",
+      "That $250 is a base figure. It is adjusted every year by a CPI fraction and rounded to the nearest $100, so check the current year's number before relying on it."
+    ],
+    "agency": "Michigan Department of Treasury",
+    "statuteRef": "MCL 206.30(1)(e)",
+    "officialUrl": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-206-30",
+    "confidence": "needs-review"
+  }
+]

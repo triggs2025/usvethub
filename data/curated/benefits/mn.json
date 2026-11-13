@@ -1,0 +1,57 @@
+[
+  {
+    "id": "mn-veteran-homestead-market-value-exclusion",
+    "jurisdiction": "MN",
+    "category": "property-tax",
+    "title": "Homestead market value exclusion for Veterans with a disability",
+    "summary": "Minnesota takes a fixed slice of your home's market value out of the property tax calculation: $150,000 at a 70 percent or higher rating, and $300,000 if you are totally and permanently disabled. A surviving spouse can keep it, and so can a primary family caregiver.",
+    "amount": "$150,000 of market value excluded at a 70 percent or higher rating, or $300,000 for a total, 100 percent and permanent disability",
+    "eligibility": [
+      "The VA has certified a service-connected disability of 70 percent or more",
+      "You were honorably discharged, shown by a DD214 or other official discharge papers",
+      "You own the property, meaning your name appears as an owner on the deed, and it is your homestead",
+      "At a 70 percent or higher rating the exclusion is $150,000 of market value",
+      "For a total, 100 percent and permanent disability the exclusion is $300,000 of market value",
+      "If you meet the disability criteria but do not own a Minnesota homestead, your primary family caregiver's homestead can take the exclusion instead"
+    ],
+    "details": [
+      "Apply to your county assessor by 31 December of the first assessment year you are claiming. There is no annual reapplication written into the statute, but you must notify the assessor if ownership changes or the property stops being your homestead.",
+      "The two tiers are genuinely different. Only the higher one requires the disability to be permanent, and the 70 percent tier carries no permanence requirement.",
+      "If a Veteran with a total and permanent disability dies before their spouse, the exclusion carries over to the spouse while they hold title and permanently reside there. It lasts until the spouse remarries, sells, transfers, or otherwise disposes of the property. There is no fixed number of years.",
+      "A spouse of a service member who died from a service-connected cause while in active service can also qualify, with a DD1300 or DD2064. A first-time application in that case has to be made within two years of the death.",
+      "A spouse can still qualify where the Veteran never applied, or where the exclusion did not exist when the Veteran died, provided the VA certifies a 100 percent permanent disability or an award of dependency and indemnity compensation.",
+      "A surviving spouse can sometimes carry the exclusion to a different property, if they apply, hold title, live there, the new property is worth no more than the original, and they have not used that continuation before.",
+      "On an agricultural homestead the exclusion covers only the house, the garage, and the one acre immediately surrounding them.",
+      "A property taking this exclusion cannot also take the market value exclusion under subdivision 35.",
+      "By 1 July each year the county Veterans service officer certifies the disability rating and permanent address of each Veteran receiving the benefit to the assessor.",
+      "The dollar amounts are fixed in the statute. There is no indexing provision, so they do not rise with inflation."
+    ],
+    "agency": "County assessors, with certification from county Veterans service officers",
+    "statuteRef": "Minn. Stat. 273.13, subd. 34",
+    "officialUrl": "https://www.revisor.mn.gov/statutes/cite/273.13",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "mn-military-pay-income-tax-subtraction",
+    "jurisdiction": "MN",
+    "category": "income-tax",
+    "title": "Military pay and military pensions are subtracted from income",
+    "summary": "Minnesota subtracts active duty pay, National Guard and reserve pay, and military retirement pay from your taxable income. The retirement subtraction comes with one catch: you cannot also claim the separate military service credit.",
+    "eligibility": [
+      "Active duty pay under Title 10 or United Nations authority is subtracted for Minnesota residents",
+      "Pay to members of the Minnesota National Guard or other reserve components for active service, including Active Guard Reserve service, is subtracted",
+      "Nonresidents subtract compensation paid for military service as defined in 50 U.S.C. 3911(2)",
+      "Military pension and retirement pay from the federal government is subtracted to the extent it was included in federal adjusted gross income",
+      "The retirement subtraction is limited to individuals who do not claim the credit under section 290.0677"
+    ],
+    "details": [
+      "These sit in different subdivisions of the same section. Active duty compensation for residents is subdivision 12, nonresident military service compensation is subdivision 15, National Guard and reserve pay is subdivision 11, and military pensions and retirement pay is subdivision 21.",
+      "For the Guard and reserve subtraction, active service is limited to state active service, or federally funded state active service, as those are defined in section 190.05.",
+      "The choice between the retirement subtraction and the section 290.0677 credit matters. Work out which is worth more in your situation before filing, because you cannot take both."
+    ],
+    "agency": "Minnesota Department of Revenue",
+    "statuteRef": "Minn. Stat. 290.0132, subds. 11, 12, 15 and 21",
+    "officialUrl": "https://www.revisor.mn.gov/statutes/cite/290.0132",
+    "confidence": "needs-review"
+  }
+]

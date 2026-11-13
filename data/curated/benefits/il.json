@@ -1,0 +1,83 @@
+[
+  {
+    "id": "il-disabled-veterans-standard-homestead-exemption",
+    "jurisdiction": "IL",
+    "category": "property-tax",
+    "title": "Homestead exemption for Veterans with disabilities",
+    "summary": "Illinois reduces the taxable value of your home based on your VA service-connected disability rating. At 70 percent or more the first $250,000 of equalized assessed value is exempt outright, which for most homes means no property tax bill at all.",
+    "amount": "Tax year 2023 and later: $2,500 at 30 to 49 percent, $5,000 at 50 to 69 percent, and the first $250,000 of equalized assessed value exempt at 70 percent or more",
+    "eligibility": [
+      "You use the property as your primary residence, less any portion used for commercial purposes",
+      "The VA has certified your service-connected disability rating as of the date you submit the application for that tax year",
+      "At 30 percent or more but less than 50 percent the annual exemption is $2,500",
+      "At 50 percent or more but less than 70 percent the annual exemption is $5,000",
+      "At 70 percent or more the first $250,000 in equalized assessed value is exempt from taxation",
+      "A surviving spouse certified by the VA as receiving dependency and indemnity compensation also gets the first $250,000 in equalized assessed value exempt",
+      "From tax year 2024, a Veteran who served in the United States Armed Forces during World War II is exempt regardless of disability level",
+      "You cannot claim this exemption and the Section 15-165 or Section 15-168 exemption at the same time"
+    ],
+    "details": [
+      "You normally have to reapply every year, during the application period set by your county. There is one important exception: since 23 May 2022, if you have a combined service-connected rating of 100 percent and are deemed permanently and totally disabled, you no longer reapply annually and the exemption stays in effect. A Veteran who qualifies through World War II service also does not reapply.",
+      "If you did not occupy the home on 1 January of the tax year, the exemption is prorated monthly and starts with the first complete month you live there.",
+      "The exemption carries over to a surviving spouse who holds title, lives there, and does not remarry. If that spouse sells, an exemption up to the amount on the most recent tax roll can move to the new primary residence, again so long as they do not remarry.",
+      "Since tax year 2015, a Veteran killed in the line of duty did not need to have claimed the exemption before death for the surviving spouse to qualify.",
+      "From tax year 2023 the surviving spouse rules widened further, covering a spouse of a Veteran who never claimed it but would have qualified, provided that spouse lived in Illinois continuously from the Veteran's death through the year claimed.",
+      "If you move into a nursing home licensed under the Nursing Home Care Act or a VA facility, the exemption continues while your spouse still occupies the home, or while the home stays unoccupied but you still own it.",
+      "Apply through your county assessor or chief county assessment officer, not the state."
+    ],
+    "agency": "County chief county assessment officers, under the Illinois Department of Revenue, with disability certification from the US Department of Veterans Affairs",
+    "statuteRef": "35 ILCS 200/15-169",
+    "officialUrl": "https://www.ilga.gov/legislation/ILCS/details?MajorTopic=GOVERNMENT&Chapter=REVENUE&ActName=Property%20Tax%20Code.&ActID=596&ChapterID=8&ChapAct=35+ILCS+200%2F&SeqStart=38400000&SeqEnd=43899999",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "il-specially-adapted-housing-property-tax-exemption",
+    "jurisdiction": "IL",
+    "category": "property-tax",
+    "title": "Property tax exemption for specially adapted housing",
+    "summary": "If the federal government authorized payment to buy or build Specially Adapted Housing for you, Illinois exempts up to $100,000 of the assessed value of that home. A spouse or unmarried surviving spouse can hold it too.",
+    "amount": "Property up to an assessed value of $100,000 is exempt",
+    "eligibility": [
+      "You served in the Armed Forces of the United States",
+      "Your disability is of such a nature that the federal government has authorized payment for purchase or construction of Specially Adapted Housing under 38 U.S.C. 2101",
+      "The property is owned and used exclusively as a home by you, your spouse, or your unmarried surviving spouse",
+      "You cannot claim this exemption and the Section 15-168 or Section 15-169 exemption at the same time"
+    ],
+    "details": [
+      "The exemption covers housing where federal funds were used to buy it or to construct the special adaptations.",
+      "It also covers a home specially adapted to your disability that you bought wholly or partly with the proceeds of selling, or receiving a casualty loss reimbursement on, an earlier home the federal government had authorized payment for. Those proceeds have to go into the new home up to its purchase price.",
+      "From the 2015 tax year it also covers housing built or adapted for you and donated by a charitable organization, provided you were approved for Specially Adapted Housing funds and a licensed home inspector certifies the home meets the standards in VA Veterans Benefits Administration Pamphlet 26-13.",
+      "This exemption has to be reestablished every year by certification from the Illinois Department of Veterans' Affairs to the Department of Revenue, which passes a copy to local assessing officials.",
+      "For this Section, an unmarried surviving spouse means the Veteran's surviving spouse at any time after the Veteran's death during which that spouse is not married."
+    ],
+    "agency": "Illinois Department of Veterans' Affairs certifies to the Illinois Department of Revenue, administered by local assessing officials",
+    "statuteRef": "35 ILCS 200/15-165",
+    "officialUrl": "https://www.ilga.gov/legislation/ILCS/details?MajorTopic=GOVERNMENT&Chapter=REVENUE&ActName=Property%20Tax%20Code.&ActID=596&ChapterID=8&ChapAct=35+ILCS+200%2F&SeqStart=38400000&SeqEnd=43899999",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "il-returning-veterans-homestead-exemption",
+    "jurisdiction": "IL",
+    "category": "property-tax",
+    "title": "Returning Veterans homestead exemption",
+    "summary": "Illinois takes $5,000 off the assessed value of your home for the year you return from an armed conflict, and for the following year as well. It stacks on top of any other homestead exemption you already have.",
+    "amount": "A $5,000 reduction in equalized assessed value, in all counties",
+    "eligibility": [
+      "You are an Illinois resident who served as a member of the United States Armed Forces, the Illinois National Guard, or the United States Reserve Forces",
+      "You are returning from an armed conflict involving the armed forces of the United States",
+      "You own and occupy the property as your principal residence and are liable for the property taxes on it",
+      "An ownership interest that is legal, equitable, or as a lessee of land under a single family residence can qualify"
+    ],
+    "details": [
+      "The reduction applies for the taxable year in which you return from active duty. Since taxable year 2010 it is also allowed for the year after that, so most returning Veterans get it twice.",
+      "If you first buy your principal residence during the year you return but after 1 January, and you own and occupy it on 1 January of the next year, you may apply the exemption for that next year, and only that year.",
+      "This exemption is in addition to any other homestead exemption in Article 15, so it stacks rather than replacing what you already claim.",
+      "Apply during the application period in effect for your county.",
+      "In a cooperative apartment building, the savings must be credited to the apportioned tax liability of the Veteran who qualified. Willfully refusing to credit it is a Class B misdemeanor."
+    ],
+    "agency": "County chief county assessment officers, under the Illinois Department of Revenue",
+    "statuteRef": "35 ILCS 200/15-167",
+    "officialUrl": "https://www.ilga.gov/legislation/ILCS/details?MajorTopic=GOVERNMENT&Chapter=REVENUE&ActName=Property%20Tax%20Code.&ActID=596&ChapterID=8&ChapAct=35+ILCS+200%2F&SeqStart=38400000&SeqEnd=43899999",
+    "confidence": "needs-review"
+  }
+]
