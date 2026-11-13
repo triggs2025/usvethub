@@ -1,0 +1,51 @@
+[
+  {
+    "id": "sd-disabled-veteran-dwelling-exemption",
+    "jurisdiction": "SD",
+    "category": "property-tax",
+    "title": "Dwelling exemption for a permanently and totally disabled Veteran",
+    "summary": "South Dakota exempts $200,000 of the full and true value of your owner-occupied dwelling if you are rated permanently and totally disabled from a service-connected disability. If your rating claim is still pending, you can recover up to four previous years of tax.",
+    "amount": "$200,000 of the full and true value of the dwelling",
+    "eligibility": [
+      "You are a Veteran rated as permanently and totally disabled from a service-connected disability",
+      "You own and occupy the dwelling, and it is classified as owner-occupied under the relevant sections",
+      "You apply on a form prescribed by the secretary of revenue"
+    ],
+    "details": [
+      "The retroactive provision is the part worth acting on, and it is unusually generous. If you meet every requirement except the application deadline because your claim for a permanent and total rating is still pending with the VA, the board of county commissioners must abate or refund the difference in taxes accumulated since the effective date of the claim, up to the previous four years. Note the word must rather than may in that case.",
+      "Separately, if you simply missed the deadline for the owner-occupied classification or for this exemption, you may petition the board of county commissioners, and they may abate or refund the difference. That one is discretionary.",
+      "Your application and its supporting documents are confidential, which matters if you would rather your medical details not be a public record.",
+      "Once the director of equalization grants it you keep the exemption without reapplying, until ownership transfers, you stop occupying the dwelling, or the property changes use. Redrawing or amending the legal description does not cost you the exemption if you still live there.",
+      "This section was most recently amended in 2026, so figures in older guidance may be out of date.",
+      "South Dakota has no state personal income tax, so there is no military retirement question here."
+    ],
+    "agency": "County directors of equalization, on a form prescribed by the South Dakota secretary of revenue",
+    "statuteRef": "SDCL 10-4-40",
+    "officialUrl": "https://sdlegislature.gov/Statutes/10-4-40",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "sd-surviving-spouse-dwelling-exemption",
+    "jurisdiction": "SD",
+    "category": "family",
+    "title": "Dwelling exemption for a surviving spouse",
+    "summary": "South Dakota gives a surviving spouse the same $200,000 exemption, either where the Veteran was rated permanently and totally disabled, or where the spouse receives dependency and indemnity compensation for a service-connected death.",
+    "amount": "$200,000 of the full and true value of the dwelling",
+    "eligibility": [
+      "You are the surviving spouse of a Veteran who was rated as permanently and totally disabled from a service-connected disability",
+      "Or you are the surviving spouse of a Veteran and receive dependency and indemnity compensation from the VA as a result of the Veteran's service-connected death",
+      "You own and occupy the dwelling, and it is classified as owner-occupied",
+      "You apply on a form prescribed by the secretary of revenue"
+    ],
+    "details": [
+      "Either route qualifies independently. You do not need both the rating history and the dependency and indemnity compensation.",
+      "If you missed the application deadline but meet every other requirement, you may petition the board of county commissioners, which may abate or refund the difference in taxes over a period not exceeding the previous four years.",
+      "Your application and supporting documents are confidential.",
+      "You keep the exemption without reapplying until ownership transfers, you stop occupying the dwelling, you remarry, or the property changes use. Remarriage ends it, which is the main difference from the Veteran's own exemption."
+    ],
+    "agency": "County directors of equalization, on a form prescribed by the South Dakota secretary of revenue",
+    "statuteRef": "SDCL 10-4-41",
+    "officialUrl": "https://sdlegislature.gov/Statutes/10-4-41",
+    "confidence": "needs-review"
+  }
+]

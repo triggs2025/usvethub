@@ -1,0 +1,46 @@
+[
+  {
+    "id": "hi-military-pension-income-exclusion",
+    "jurisdiction": "HI",
+    "category": "income-tax",
+    "title": "Military retirement pay is not taxed",
+    "summary": "Hawaii excludes any compensation received in the form of a pension for past services from state income tax. Military retirement falls inside that, with no dollar cap and no age test.",
+    "amount": "Full exclusion, with no dollar cap",
+    "eligibility": [
+      "The income is compensation received in the form of a pension for past services",
+      "There is no age condition, dollar cap or length of service requirement in the provision"
+    ],
+    "details": [
+      "The wording is broad rather than Veteran-specific. Hawaii excludes pensions for past services generally, which is why military retirement is not taxed here even though no provision names it.",
+      "The same section separately excludes income not subject to state taxation under the Constitution and laws of the United States, and rights and benefits under public retirement systems.",
+      "Reserve and National Guard drill pay has its own exclusion. Income received by members of the reserve components of the Army, Navy, Air Force, Marine Corps or Coast Guard, and the Hawaii National Guard, is excluded as compensation for performance of duty equivalent to 48 drills, which is twelve weekends, plus fifteen days of annual duty. The exclusion is measured at the E-5 pay grade after eight years of service for taxable years beginning after 31 December 2008.",
+      "Because the pension exclusion is general rather than written for Veterans, confirm your particular payments qualify with the Department of Taxation if your retirement income comes from an unusual source."
+    ],
+    "agency": "Hawaii Department of Taxation",
+    "statuteRef": "HRS 235-7(a)(3), with reserve and Guard pay at 235-7(a)(7)",
+    "officialUrl": "https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0235/HRS_0235-0007.htm",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "hi-property-tax-is-county-administered",
+    "jurisdiction": "HI",
+    "category": "property-tax",
+    "title": "Property tax exemptions are set by your county, not the state",
+    "summary": "There is no state Veteran property tax exemption in Hawaii, because there is no state real property tax law at all. Both chapters that used to govern it are repealed. Your exemption is set by county ordinance.",
+    "eligibility": [
+      "Which exemption you can claim depends entirely on which county you live in",
+      "The four counties are the City and County of Honolulu, Hawaii County, Maui County and Kauai County",
+      "Each sets its own disabled Veteran exemption by ordinance, administered by the county real property tax office"
+    ],
+    "details": [
+      "This surprises people, so it is worth stating plainly. HRS chapter 246, the Real Property Tax Law, is repealed. So is chapter 246A, which handled the transfer of real property taxation functions, repealed by Act 52 of 2016. Searching Hawaii state law for a Veteran property tax exemption correctly returns nothing.",
+      "Real property taxation in Hawaii is a county function. That means the exemption amount, the qualifying disability standard and the filing deadline are all county decisions, and they differ between islands.",
+      "Contact your county real property tax office directly. A Veteran in Honolulu and a Veteran in Hilo with identical ratings may receive quite different treatment, and neither is governed by a state statute we can point you to.",
+      "We would rather tell you this than publish a state exemption that does not exist. When we have verified each county's current ordinance we will publish them separately."
+    ],
+    "agency": "County real property tax offices in Honolulu, Hawaii, Maui and Kauai counties",
+    "statuteRef": "HRS chapter 246 (repealed) and chapter 246A (repealed, L 2016 c 52 s 8)",
+    "officialUrl": "https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0246A/HRS_0246A-.htm",
+    "confidence": "needs-review"
+  }
+]
