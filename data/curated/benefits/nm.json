@@ -1,0 +1,79 @@
+[
+  {
+    "id": "nm-disabled-veteran-property-tax-exemption",
+    "jurisdiction": "NM",
+    "category": "property-tax",
+    "title": "Disabled Veteran property tax exemption",
+    "summary": "New Mexico exempts your home in proportion to your disability rating, applied after the general Veteran exemption. At 100 percent the whole remaining taxable value is exempt, so the bill goes to zero.",
+    "amount": "Your disability percentage multiplied by the taxable value remaining after the general Veteran exemption is deducted",
+    "eligibility": [
+      "You were honorably discharged from the armed forces of the United States, meaning a discharge other than dishonorable or bad conduct",
+      "Or you received a discharge certificate for civilian service recognised under federal law as service in the armed forces",
+      "And you have been determined under federal law to have a permanent service-connected disability",
+      "You occupy the property continuously as your principal place of residence",
+      "A surviving spouse qualifies if they were married to the Veteran at the time of death and continue to occupy the property as their principal residence"
+    ],
+    "details": [
+      "The two exemptions stack in a specific order. The general Veteran exemption comes off the taxable value first, then your disability percentage is applied to what remains. So a 100 percent rated Veteran pays no property tax at all.",
+      "The permanent requirement matters. The statute asks for a permanent service-connected disability determined under federal law, not simply a current rating.",
+      "Property held in a grantor trust under sections 671 to 677 of the Internal Revenue Code, established by the Veteran or surviving spouse, is covered on the same terms.",
+      "Moving is handled well. On transferring the principal residence, the Veteran or surviving spouse may either keep the exemption on that home for the rest of the year, or remove it and apply it to the new principal residence, and the usual thirty day deadline after the assessor's notice of valuation does not block that.",
+      "If two or more disabled Veterans qualify on the same property, the exemption uses the highest disability percentage among the eligible owners.",
+      "The New Mexico Veterans' Services Department assists the Taxation and Revenue Department and county assessors in deciding who qualifies, so that is a useful place to start if your eligibility is unclear."
+    ],
+    "agency": "County assessors, with the Taxation and Revenue Department and the New Mexico Veterans' Services Department",
+    "statuteRef": "NMSA 1978, 7-37-5.1",
+    "officialUrl": "https://nmonesource.com/nmos/nmsa/en/item/4340/index.do",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "nm-veteran-property-tax-exemption",
+    "jurisdiction": "NM",
+    "category": "property-tax",
+    "title": "General Veteran property tax exemption",
+    "summary": "New Mexico exempts a flat amount of taxable value for any qualifying Veteran, with no disability required. It jumped from $4,000 to $10,000 in 2025 and is now adjusted for inflation every year.",
+    "amount": "$10,000 of taxable value for tax year 2025, adjusted for inflation each year from 2026. The department publishes the current figure.",
+    "eligibility": [
+      "You have been honorably discharged from membership in the armed forces of the United States",
+      "And you served on active duty continuously for ninety days, subject to the exceptions in the section",
+      "You are a New Mexico resident, and the property is owned by you or your unmarried surviving spouse",
+      "Property held in a grantor trust under sections 671 to 677 of the Internal Revenue Code by the Veteran or unmarried surviving spouse also qualifies",
+      "No disability is required"
+    ],
+    "details": [
+      "Do not rely on an old figure. The exemption was $4,000 for tax years 2006 through 2024, then rose to $10,000 for 2025. From 2026 it is adjusted annually for inflation, by multiplying $10,000 by the consumer price index for the prior tax year over the index for 2025, rounded down to the nearest $100. It never goes down.",
+      "The department publishes the calculated amount each year and gives it to every county assessor no later than 1 December of the prior tax year, so there is a definite annual source for the current number.",
+      "Community or joint property of married individuals is covered.",
+      "The exemption is only applied if you claim it under Section 7-38-17 and the department's regulations, so it is not automatic.",
+      "This is the exemption that gets deducted first, before the disabled Veteran percentage is applied to what remains."
+    ],
+    "agency": "County assessors, with amounts published by the New Mexico Taxation and Revenue Department",
+    "statuteRef": "NMSA 1978, 7-37-5",
+    "officialUrl": "https://nmonesource.com/nmos/nmsa/en/item/4340/index.do",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "nm-military-pay-and-retirement-exemption",
+    "jurisdiction": "NM",
+    "category": "income-tax",
+    "title": "Active duty pay is exempt, retirement pay up to $30,000",
+    "summary": "New Mexico exempts active duty salary entirely, and exempts $30,000 of armed forces retirement pay. The retirement exemption's sunset was removed in 2024 and surviving spouses can now claim it.",
+    "amount": "Full exemption of active duty salary, plus a $30,000 exemption on armed forces retirement pay",
+    "eligibility": [
+      "A salary paid by the United States for active duty service in the armed forces of the United States is exempt from state income taxation",
+      "An armed forces retiree may claim an exemption equal to $30,000 of armed forces retirement pay",
+      "A surviving spouse of an armed forces retiree may claim the same exemption",
+      "An armed forces retiree means a former member of the armed forces who qualified by years of service or disability to separate from military service with lifetime benefits"
+    ],
+    "details": [
+      "Two things changed for the better in 2024, effective for taxable years beginning on or after 1 January 2025. The sunset date on the retirement pay exemption was removed, so it no longer expires. And surviving spouses were added, where previously only the retiree could claim.",
+      "The retirement exemption is a flat $30,000 rather than a phased or capped percentage, which is simpler than most states manage.",
+      "One trap confirmed by the courts on the active duty exemption: commissioned officers of the United States Public Health Service are not members of the armed forces for this purpose, so USPHS service does not qualify.",
+      "The active duty exemption has applied to taxable years beginning on or after 1 January 2007."
+    ],
+    "agency": "New Mexico Taxation and Revenue Department",
+    "statuteRef": "NMSA 1978, 7-2-5.11 for active duty salary and 7-2-5.13 for retirement pay",
+    "officialUrl": "https://nmonesource.com/nmos/nmsa/en/item/4340/index.do",
+    "confidence": "needs-review"
+  }
+]

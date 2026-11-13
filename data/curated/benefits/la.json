@@ -1,0 +1,53 @@
+[
+  {
+    "id": "la-disabled-veteran-homestead-exemption",
+    "jurisdiction": "LA",
+    "category": "property-tax",
+    "title": "Disabled Veteran homestead exemption, in three tiers",
+    "summary": "Louisiana adds to the standard homestead exemption based on your rating, and at 100 percent or unemployability the whole remaining assessed value is exempt. Mind the assessed value trap: Louisiana assesses at 10 percent of market value.",
+    "amount": "On top of the standard $7,500 homestead exemption: an extra $2,500 of assessed valuation at 50 to 69 percent, an extra $4,500 at 70 to 99 percent, and all remaining assessed valuation at 100 percent or unemployability",
+    "eligibility": [
+      "You own and occupy the property, and it receives the standard homestead exemption under Article VII Section 20",
+      "A service-connected disability rating of 50 percent or more but less than 70 percent exempts the next $2,500 of assessed valuation, giving $10,000 in total",
+      "A rating of 70 percent or more but less than 100 percent exempts the next $4,500, giving $12,000 in total",
+      "A rating of 100 percent unemployability, or totally disabled, exempts all remaining assessed valuation of the property",
+      "A surviving spouse of a deceased Veteran is eligible at the same tier, whether or not the exemption was in effect on the property before the Veteran's death"
+    ],
+    "details": [
+      "Understand Louisiana's assessed value before reading the figures, or you will badly underestimate this. Louisiana assesses residential property at 10 percent of fair market value. So the standard $7,500 homestead exemption covers a home worth about $75,000, and the $12,000 top tier covers roughly $120,000 of market value. These are not small numbers once converted.",
+      "At the top tier there is no cap at all. For a Veteran rated 100 percent or with unemployability, the entire remaining assessed valuation is exempt, so the property tax bill goes to zero.",
+      "Unemployability is named directly in the constitutional text alongside total disability, so a Veteran paid at the 100 percent rate through unemployability is covered.",
+      "In the two lower tiers there is a ceiling on the property, not just the exemption. If the property's assessed value exceeds $10,000 in the 50 to 69 percent tier, or $12,000 in the 70 to 99 percent tier, ad valorem taxes apply to the assessment above that figure.",
+      "A surviving spouse who has taken the exemption and then buys a different qualifying homestead gets a one-time transfer of the exemption to the new property, limited in value to the amount claimed on the previous homestead in its last year.",
+      "A constitutional amendment proposed by Acts 2026 No. 39 takes effect on 1 January 2027 if ratified, and rewrites this subparagraph. The tiers and amounts look the same, but the surviving spouse conditions differ slightly. Check which version applies before relying on the detail for 2027 onwards.",
+      "This sits in the state constitution rather than the statutes, which is why searching the Revised Statutes for a Veteran property exemption turns up nothing."
+    ],
+    "agency": "Parish assessors",
+    "statuteRef": "Louisiana Constitution Article VII, Section 21(K), with the base exemption at Section 20",
+    "officialUrl": "https://legis.la.gov/Legis/Law.aspx?d=206551",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "la-federal-retirement-income-exemption",
+    "jurisdiction": "LA",
+    "category": "income-tax",
+    "title": "Federal retirement income is exempt from state income tax",
+    "summary": "Louisiana exempts income from a retirement system for retirees of the United States Government, which is how military retirement pay escapes state income tax here. Social Security and railroad retirement are exempt too.",
+    "amount": "Full exemption, with no dollar cap",
+    "eligibility": [
+      "Income received pursuant to a retirement system for retirees of the United States Government is exempt from the state income tax",
+      "Benefits received under Chapter 7 of Title 42 of the United States Code, which is Social Security, are exempt",
+      "Income under the Railroad Retirement Act of 1974 is exempt"
+    ],
+    "details": [
+      "The provision does not say the word military anywhere. It exempts income from a retirement system for retirees of the United States Government, and military retired pay falls within that description, which is how Louisiana reaches the same result other states get through a Veteran-specific clause.",
+      "Because the wording is general rather than Veteran-specific, confirm with the Louisiana Department of Revenue if your retirement income comes from an unusual source or a mixed federal and civilian career.",
+      "There is no cap, no age condition and no income threshold in the section.",
+      "This has been law since 1989 and is short enough to read in full in under a minute, which is unusual for a tax exemption."
+    ],
+    "agency": "Louisiana Department of Revenue",
+    "statuteRef": "La. R.S. 47:44.2",
+    "officialUrl": "https://legis.la.gov/Legis/Law.aspx?d=102134",
+    "confidence": "needs-review"
+  }
+]

@@ -2,7 +2,7 @@
   "sourceId": "curated-benefits",
   "recordType": "benefit",
   "jurisdiction": null,
-  "generatedAt": "2026-11-13T06:50:29.444Z",
+  "generatedAt": "2026-11-13T06:59:20.756Z",
   "records": [
     {
       "id": "ak-disabled-veteran-property-tax-exemption",
@@ -679,6 +679,72 @@
       "agency": "California Department of Veterans Affairs (CalVet)",
       "statuteRef": "Cal. Mil. & Vet. Code 1012, homes defined at Cal. Mil. & Vet. Code 1010",
       "officialUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=MVC&sectionNum=1012.",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "co-disabled-veteran-property-tax-exemption",
+      "jurisdiction": "CO",
+      "category": "property-tax",
+      "title": "Property tax exemption for a Veteran with a disability",
+      "summary": "Colorado exempts half the value of your home, up to the first $200,000 of actual value, if you hold a 100 percent permanent rating or individual unemployability status. A surviving spouse keeps it.",
+      "amount": "Fifty percent of the first $200,000 of actual value of the residential real property",
+      "eligibility": [
+        "You served on active duty in the United States armed forces, including a member of the Colorado National Guard ordered into the active military service of the United States",
+        "You were separated under honorable conditions",
+        "And you have established a service-connected disability rated by the US Department of Veterans Affairs as a 100 percent permanent disability, through disability retirement benefits under a law or regulation administered by the VA, the Department of Homeland Security, or the Department of the Army, Navy or Air Force",
+        "Or you have individual unemployability status as determined by the US Department of Veterans Affairs",
+        "The property is owner-occupied and used as your primary residence as of the assessment date",
+        "You have completed and filed an exemption application as required by section 39-3-205"
+      ],
+      "details": [
+        "Individual unemployability is written into the definition as an independent route, not an afterthought, so a Veteran paid at the 100 percent rate through unemployability qualifies in their own right.",
+        "The exemption is half of the first $200,000 of actual value, so the maximum exempted amount is $100,000 of actual value. It is not a $200,000 exemption.",
+        "A surviving spouse of a qualifying Veteran who previously received the exemption on the same property keeps it, for property tax years commencing on or after 1 January 2015. A surviving spouse means someone legally married at the time of the other's death who has not remarried.",
+        "You cannot backdate it. No exemption is allowed for property taxes assessed in any year before the year you first file an application.",
+        "If ownership changes after the assessment date there are further conditions, so tell the assessor promptly if the property changes hands.",
+        "A separate version of this exemption applies to owner-occupiers aged 65 or over who have owned and occupied the home for the ten preceding years. You take one or the other, not both.",
+        "One currency caution. Colorado does not publish its statutes in HTML, and the only official source is a whole-title PDF. The copy we read is the 2024 compilation, which is the most recent the legislature publishes at that address. Confirm with your county assessor before relying on the detail."
+      ],
+      "agency": "County assessors, with applications under C.R.S. 39-3-205",
+      "statuteRef": "C.R.S. 39-3-203(1.5), with definitions at 39-3-202(3.5)",
+      "officialUrl": "https://content.leg.colorado.gov/sites/default/files/images/olls/crs2024-title-39.pdf",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "co-military-retirement-subtraction",
+      "jurisdiction": "CO",
+      "category": "income-tax",
+      "title": "Military retirement subtraction, for under 55s only, ending in 2029",
+      "summary": "Colorado subtracts up to $15,000 of military retirement, but only if you are under 55 at the end of the tax year. It also expires after the 2028 tax year. Older retirees use the general pension subtraction instead.",
+      "amount": "Up to $15,000 of military retirement benefits for income tax years commencing on or after 1 January 2022 and before 1 January 2029",
+      "eligibility": [
+        "You receive military retirement benefits, meaning any retirement benefits received as a result of service in the armed forces of the United States",
+        "The benefits are included in your federal adjusted gross income",
+        "And you are a qualified individual, which the statute defines as an individual who is under fifty-five years of age at the close of the taxable year"
+      ],
+      "details": [
+        "Read the age rule twice, because it runs the opposite way to most states. This subtraction is only for Veterans UNDER 55. Most retirement tax relief favours older people; this one deliberately targets younger military retirees, who typically retire in their forties and keep working.",
+        "If you are 55 or over you do not use this provision. Colorado has a separate general pension and annuity subtraction for older taxpayers, which is worth more, so ask about that instead.",
+        "There is an expiry. The subtraction runs for income tax years commencing on or after 1 January 2019 and before 1 January 2029, so on current law it ends after the 2028 tax year.",
+        "The cap climbed in steps: $4,500 for 2019, $7,500 for 2020, $10,000 for 2021, and $15,000 from 2022. Older guidance quoting the smaller figures is describing a superseded year.",
+        "The legislature attached a performance statement requiring it and the state auditor to measure whether military retirees are actually benefiting, which is usually a sign a provision will be reviewed before any extension.",
+        "Same currency caution as the property tax record: the only official source is a whole-title PDF, and the copy we read is the 2024 compilation."
+      ],
+      "agency": "Colorado Department of Revenue",
+      "statuteRef": "C.R.S. 39-22-104(4)(y)",
+      "officialUrl": "https://content.leg.colorado.gov/sites/default/files/images/olls/crs2024-title-39.pdf",
       "confidence": "needs-review",
       "source": {
         "id": "curated-benefits",
@@ -2053,6 +2119,133 @@
       "verifiedAt": "2026-11-13"
     },
     {
+      "id": "ky-homestead-exemption-disabled-veteran",
+      "jurisdiction": "KY",
+      "category": "property-tax",
+      "title": "Homestead exemption for a totally disabled Veteran",
+      "summary": "Kentucky's homestead exemption is open to you at any age if you are classified as totally disabled. A service-connected totally disabled Veteran documents it once and never has to reapply, unlike other disabled claimants under 65.",
+      "amount": "Set by the Kentucky Constitution at $6,500 in 1972 purchasing power, adjusted every two years for the cost of living. Ask the Department of Revenue for the current figure.",
+      "eligibility": [
+        "You are 65 or older during the year you apply, or you were classified as totally disabled under a program authorised or administered by an agency of the United States government, or by any retirement system inside or outside Kentucky, on 1 January of the year you apply",
+        "You own and maintain the property as your personal residence",
+        "You must have received disability payments pursuant to the disability, and maintain the disability classification for the whole taxation period",
+        "Only one exemption is allowed per residential unit, however many qualifying residents live there"
+      ],
+      "details": [
+        "The reapplication rule is the part that matters most to Veterans. A disabled claimant under 65 normally has to apply every single year. A service-connected totally disabled Veteran of the United States Armed Forces documents the disability once at the time of application and is expressly not required to apply annually. The same exception covers people found totally and permanently disabled under Social Security or Kentucky Retirement Systems rules.",
+        "We are not publishing a current dollar figure. Section 170 of the Kentucky Constitution sets $6,500 expressed in 1972 purchasing power, and the statute provides that every two years, if the US Department of Labor cost of living index has changed by as much as one percent, the maximum exemption is adjusted accordingly. Fifty years of adjustments later the real figure is far higher, and it changes on a two year cycle. Get it from the Department of Revenue or your property valuation administrator.",
+        "Apply with the property valuation administrator of the county where you live, on forms prescribed by the department.",
+        "Filing the application cannot be used to raise your assessment. If the valuation is increased because of what you put on the form, an adjustment is made the following year so you pay the same as if it had not happened.",
+        "Timing is forgiving in both directions. Qualify before your tax bill is paid and you get full or partial exoneration of the tax. Qualify after you have already paid and you are entitled to a refund of the taxes applicable to the exemption's value.",
+        "The exemption applies for state, county, city and special district purposes alike.",
+        "A mobile home, a recreational vehicle classified as real property, or a manufactured house all count as a residential unit.",
+        "If your disability classification changes you must report it to the property valuation administrator, and the exemption ends when you no longer meet the total disability classification at the end of the taxation period. It is not prorated for anyone who kept the classification to the end of the period."
+      ],
+      "agency": "County property valuation administrators, under the Kentucky Department of Revenue",
+      "statuteRef": "KRS 132.810, under Section 170 of the Kentucky Constitution",
+      "officialUrl": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=39641",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "ky-military-pay-and-retirement-income",
+      "jurisdiction": "KY",
+      "category": "income-tax",
+      "title": "Active duty pay is fully excluded, retirement is capped",
+      "summary": "Kentucky excludes all military pay earned while on active duty, with no cap. Military retirement is treated as ordinary retirement income and shares a $31,110 exclusion with every other pension.",
+      "amount": "Active duty military pay is fully excluded. Retirement distributions are excluded up to $31,110 for tax years beginning on or after 1 January 2018.",
+      "eligibility": [
+        "All military pay received by members of the Armed Forces while on active duty is excluded, with no dollar limit",
+        "Total distributions from pension plans, annuity contracts, profit-sharing plans, retirement plans or employee savings plans are excluded up to $31,110",
+        "The retirement exclusion figure was $41,110 for taxable years beginning after 31 December 2005 but before 1 January 2018"
+      ],
+      "details": [
+        "Note the asymmetry, because it catches people out. Active duty pay gets an unlimited exclusion. Military retirement does not get its own provision at all: it falls into the general retirement exclusion and competes for the same $31,110 with any other pension or IRA distribution you receive.",
+        "That means a Veteran with both a military pension and a civilian pension does not get $31,110 for each. The cap is on total distributions.",
+        "The cap went down, not up. It was $41,110 until the 2018 tax year and has been $31,110 since, so older guidance quoting the higher figure is out of date.",
+        "There are separate provisions elsewhere in Kentucky law dealing with government annuities and with service before and after 1997, which can affect how particular federal or state retirement income is treated. We have not verified those, so if your situation is unusual, ask the Department of Revenue.",
+        "Kentucky also excludes money received from a settlement or judgment against a manufacturer or distributor of Agent Orange, for a Veteran who served in Vietnam or their dependant."
+      ],
+      "agency": "Kentucky Department of Revenue",
+      "statuteRef": "KRS 141.019(1)(l) for active duty pay, 141.019(1)(g) for retirement",
+      "officialUrl": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=57914",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "la-disabled-veteran-homestead-exemption",
+      "jurisdiction": "LA",
+      "category": "property-tax",
+      "title": "Disabled Veteran homestead exemption, in three tiers",
+      "summary": "Louisiana adds to the standard homestead exemption based on your rating, and at 100 percent or unemployability the whole remaining assessed value is exempt. Mind the assessed value trap: Louisiana assesses at 10 percent of market value.",
+      "amount": "On top of the standard $7,500 homestead exemption: an extra $2,500 of assessed valuation at 50 to 69 percent, an extra $4,500 at 70 to 99 percent, and all remaining assessed valuation at 100 percent or unemployability",
+      "eligibility": [
+        "You own and occupy the property, and it receives the standard homestead exemption under Article VII Section 20",
+        "A service-connected disability rating of 50 percent or more but less than 70 percent exempts the next $2,500 of assessed valuation, giving $10,000 in total",
+        "A rating of 70 percent or more but less than 100 percent exempts the next $4,500, giving $12,000 in total",
+        "A rating of 100 percent unemployability, or totally disabled, exempts all remaining assessed valuation of the property",
+        "A surviving spouse of a deceased Veteran is eligible at the same tier, whether or not the exemption was in effect on the property before the Veteran's death"
+      ],
+      "details": [
+        "Understand Louisiana's assessed value before reading the figures, or you will badly underestimate this. Louisiana assesses residential property at 10 percent of fair market value. So the standard $7,500 homestead exemption covers a home worth about $75,000, and the $12,000 top tier covers roughly $120,000 of market value. These are not small numbers once converted.",
+        "At the top tier there is no cap at all. For a Veteran rated 100 percent or with unemployability, the entire remaining assessed valuation is exempt, so the property tax bill goes to zero.",
+        "Unemployability is named directly in the constitutional text alongside total disability, so a Veteran paid at the 100 percent rate through unemployability is covered.",
+        "In the two lower tiers there is a ceiling on the property, not just the exemption. If the property's assessed value exceeds $10,000 in the 50 to 69 percent tier, or $12,000 in the 70 to 99 percent tier, ad valorem taxes apply to the assessment above that figure.",
+        "A surviving spouse who has taken the exemption and then buys a different qualifying homestead gets a one-time transfer of the exemption to the new property, limited in value to the amount claimed on the previous homestead in its last year.",
+        "A constitutional amendment proposed by Acts 2026 No. 39 takes effect on 1 January 2027 if ratified, and rewrites this subparagraph. The tiers and amounts look the same, but the surviving spouse conditions differ slightly. Check which version applies before relying on the detail for 2027 onwards.",
+        "This sits in the state constitution rather than the statutes, which is why searching the Revised Statutes for a Veteran property exemption turns up nothing."
+      ],
+      "agency": "Parish assessors",
+      "statuteRef": "Louisiana Constitution Article VII, Section 21(K), with the base exemption at Section 20",
+      "officialUrl": "https://legis.la.gov/Legis/Law.aspx?d=206551",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "la-federal-retirement-income-exemption",
+      "jurisdiction": "LA",
+      "category": "income-tax",
+      "title": "Federal retirement income is exempt from state income tax",
+      "summary": "Louisiana exempts income from a retirement system for retirees of the United States Government, which is how military retirement pay escapes state income tax here. Social Security and railroad retirement are exempt too.",
+      "amount": "Full exemption, with no dollar cap",
+      "eligibility": [
+        "Income received pursuant to a retirement system for retirees of the United States Government is exempt from the state income tax",
+        "Benefits received under Chapter 7 of Title 42 of the United States Code, which is Social Security, are exempt",
+        "Income under the Railroad Retirement Act of 1974 is exempt"
+      ],
+      "details": [
+        "The provision does not say the word military anywhere. It exempts income from a retirement system for retirees of the United States Government, and military retired pay falls within that description, which is how Louisiana reaches the same result other states get through a Veteran-specific clause.",
+        "Because the wording is general rather than Veteran-specific, confirm with the Louisiana Department of Revenue if your retirement income comes from an unusual source or a mixed federal and civilian career.",
+        "There is no cap, no age condition and no income threshold in the section.",
+        "This has been law since 1989 and is short enough to read in full in under a minute, which is unusual for a tax exemption."
+      ],
+      "agency": "Louisiana Department of Revenue",
+      "statuteRef": "La. R.S. 47:44.2",
+      "officialUrl": "https://legis.la.gov/Legis/Law.aspx?d=102134",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
       "id": "ma-military-retirement-income-exclusion",
       "jurisdiction": "MA",
       "category": "income-tax",
@@ -2796,6 +2989,71 @@
       "statuteRef": "N.C.G.S. 126-80 through 126-83",
       "officialUrl": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/ByArticle/Chapter_126/Article_13.html",
       "confidence": "verified",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "nd-disabled-veteran-property-tax-credit",
+      "jurisdiction": "ND",
+      "category": "property-tax",
+      "title": "Property tax credit for disabled Veterans",
+      "summary": "North Dakota gives a credit against the first $9,000 of your homestead's taxable valuation, scaled to your disability percentage. Individual unemployability qualifies, and a surviving spouse receiving dependency and indemnity compensation gets the full 100 percent.",
+      "amount": "A credit against the first $9,000 of taxable valuation of the homestead, equal to your certified disability compensation rating percentage",
+      "eligibility": [
+        "You are a disabled Veteran of the United States armed forces with an armed forces service-connected disability of 50 percent or greater",
+        "Or you have an extra-schedular rating including individual unemployability which results in being paid at the 100 percent rate, as determined by the Department of Veterans Affairs",
+        "And you were discharged under honorable conditions, or retired from the armed forces",
+        "You own and occupy the homestead",
+        "A surviving spouse of a deceased qualifying Veteran is eligible",
+        "A surviving spouse receiving VA dependency and indemnity compensation receives a 100 percent credit"
+      ],
+      "details": [
+        "The credit scales with your rating. At 70 percent you get a credit worth 70 percent of the tax on the first $9,000 of taxable valuation, not the whole thing. Only a 100 percent rating, or the dependency and indemnity compensation route for a surviving spouse, gives the full amount.",
+        "Individual unemployability is named explicitly, which is better than many states manage. An extra-schedular rating including unemployability that results in payment at the 100 percent rate qualifies.",
+        "There is a helpful presumption for surviving spouses. If the determination of disability or service-connected death happens after the Veteran's death, under a law that makes the spouse eligible for dependency and indemnity compensation, that determination is presumed to precede the death. Correspondence from the VA confirming the spouse is a survivor and is receiving dependency and indemnity compensation counts as sufficient proof.",
+        "If two disabled Veterans are married and living together, their combined credits cannot exceed 100 percent of $9,000 of taxable valuation.",
+        "If you co-own the homestead with someone other than your spouse, parent or child, the credit is limited to your interest, worked out by applying your certified disability percentage to the taxable valuation of your share.",
+        "Claiming for the first time, file an affidavit with the county auditor together with a VA certificate stating the amount of the disability. Note that the affidavit and certificate are open for public inspection.",
+        "The credit does not reduce your liability for special assessments.",
+        "The credit terminates at the end of the taxable year in which the applicant dies."
+      ],
+      "agency": "County auditors, with certification from the US Department of Veterans Affairs",
+      "statuteRef": "N.D.C.C. 57-02-08.8",
+      "officialUrl": "https://ndlegis.gov/cencode/t57c02.pdf",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "nd-military-pay-and-retirement-exclusion",
+      "jurisdiction": "ND",
+      "category": "income-tax",
+      "title": "Military pay and retired pay are both fully excluded",
+      "summary": "North Dakota reduces your taxable income by all military pay and by all retired military personnel benefits, with no cap on either. Survivor benefits are covered too.",
+      "amount": "Full reduction of both military pay and retired military personnel benefits, with no dollar cap",
+      "eligibility": [
+        "Military pay received as a member of the armed forces of the United States on federal active duty, or as a member of the national guard or a reserve member, is deducted to the extent included in North Dakota taxable income",
+        "Retired military personnel benefits are deducted to the extent included in federal taxable income",
+        "Retired military personnel benefits paid to the surviving spouse of a deceased retired member of the armed forces, a reserve component, or the national guard are also deducted"
+      ],
+      "details": [
+        "The definition of military pay is unusually broad. It includes all federal pay for training, education, mobilization and bonuses, and state pay when called to support an emergency on state active duty. Guard members called out for a flood or a storm are covered.",
+        "The two provisions are separate, so there is no competition between them. Active pay and retired pay are each fully deducted rather than sharing a cap.",
+        "Survivor benefits are named in the statute rather than left to interpretation.",
+        "North Dakota also reduces taxable income by the amount of Social Security benefits included in federal adjusted gross income, which stacks with the above for a retired Veteran."
+      ],
+      "agency": "North Dakota Office of State Tax Commissioner",
+      "statuteRef": "N.D.C.C. 57-38-30.3, subdivisions (g) and (r)",
+      "officialUrl": "https://ndlegis.gov/cencode/t57c38.pdf",
+      "confidence": "needs-review",
       "source": {
         "id": "curated-benefits",
         "title": "USVetHub verified benefit records",
