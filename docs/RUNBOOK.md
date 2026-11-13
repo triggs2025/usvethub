@@ -194,6 +194,42 @@ with `_` are ignored.
 personally opened its `officialUrl` and confirmed it. A wrong figure here can
 cost a Veteran a filing deadline.
 
+### Working through the draft backlog
+
+```bash
+npm run verify
+```
+
+Opens a local queue at `http://127.0.0.1:4322` listing every record that is not
+yet `verified`, with the record's claims on the left and its official source on
+the right. Verified, Needs fixing and Skip are `v`, `n` and `s`. Decisions are
+written straight back to `data/curated/benefits/`, preserving the file byte for
+byte apart from the one field, so reviewing does not produce a noisy diff.
+
+Three things to know about it:
+
+- **The Verified button is disabled until you open the official source for that
+  record.** That is deliberate. The rule above is the whole basis of the site,
+  and a tool that let you tick a box without looking would turn it into
+  paperwork.
+- **The queue leads with the records where being wrong costs the most**, not
+  with A for Alabama: a record asserting a dollar figure on a property or income
+  tax exemption outranks one saying a territory has no property tax. Pass
+  `--order=jurisdiction` to go alphabetically instead, or
+  `--jurisdiction=CA` to work one place at a time.
+- **Your notes are kept** in `data/curated/review-notes.json`, with who decided
+  and when. The pipeline does not read it and it is never published. Commit it:
+  it is the only record of who checked what.
+
+When you finish a session, publish the changes:
+
+```bash
+npm run scrape:one curated-benefits && npm run build
+```
+
+The server binds to loopback only and requires a token minted at startup, so
+another site open in your browser cannot reach it. Never expose it.
+
 ---
 
 ## 8. Accounts and where things live

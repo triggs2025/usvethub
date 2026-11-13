@@ -16,6 +16,7 @@
     "scrape:one": "node pipeline/core/run.mjs --only",
     "jurisdictions": "node scripts/build-jurisdictions.mjs",
     "status": "node scripts/status.mjs",
+    "verify": "node scripts/verify.mjs",
     "dashboard": "node scripts/status.mjs --html --full",
     "test": "node scripts/test-isolation.mjs && node scripts/test-build.mjs && node backend/test-export.mjs",
     "test:backend": "node backend/test-export.mjs",
