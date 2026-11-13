@@ -3,11 +3,11 @@
   "reason": null,
   "published": true,
   "unchanged": false,
-  "recordCount": 177,
-  "previousCount": 174,
+  "recordCount": 179,
+  "previousCount": 177,
   "rejected": [],
-  "startedAt": "2026-11-13T06:30:31.452Z",
-  "finishedAt": "2026-11-13T06:30:31.560Z",
+  "startedAt": "2026-11-13T06:33:12.360Z",
+  "finishedAt": "2026-11-13T06:33:12.427Z",
   "requestsUsed": 0,
   "sourceId": "curated-benefits",
   "log": [
@@ -46,12 +46,13 @@
     "[curated-benefits] tx.json: 4 record(s)",
     "[curated-benefits] us-federal-family-business.json: 4 record(s)",
     "[curated-benefits] us-federal.json: 6 record(s)",
+    "[curated-benefits] ut.json: 2 record(s)",
     "[curated-benefits] va-state.json: 10 record(s)",
     "[curated-benefits] vt.json: 2 record(s)",
     "[curated-benefits] wa.json: 11 record(s)",
     "[curated-benefits] wi.json: 2 record(s)",
     "[curated-benefits] wv.json: 2 record(s)",
-    "[curated-benefits] 177 curated benefit(s) from 40 file(s)",
-    "[curated-benefits] published 177 record(s) to .\\data\\published\\benefits\\curated-benefits.json"
+    "[curated-benefits] 179 curated benefit(s) from 41 file(s)",
+    "[curated-benefits] published 179 record(s) to .\\data\\published\\benefits\\curated-benefits.json"
   ]
 }

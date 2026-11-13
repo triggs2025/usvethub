@@ -2,7 +2,7 @@
   "sourceId": "curated-benefits",
   "recordType": "benefit",
   "jurisdiction": null,
-  "generatedAt": "2026-11-13T06:30:31.452Z",
+  "generatedAt": "2026-11-13T06:33:12.360Z",
   "records": [
     {
       "id": "al-disabled-person-homestead-exemption",
@@ -4689,6 +4689,69 @@
       "applyUrl": "https://www.va.gov/careers-employment/vocational-rehabilitation/how-to-apply/",
       "phone": "800-827-1000",
       "confidence": "verified",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "ut-military-retirement-tax-credit",
+      "jurisdiction": "UT",
+      "category": "income-tax",
+      "title": "Military retirement tax credit",
+      "summary": "Utah does not exempt military retirement from income. Instead it gives a nonrefundable credit equal to the state tax on that retirement pay, which comes to much the same thing, with two catches.",
+      "amount": "A nonrefundable credit equal to the Utah income tax rate multiplied by the military retirement pay in your federal adjusted gross income",
+      "eligibility": [
+        "You receive military retirement pay, meaning retirement pay including survivor benefits relating to service in the armed forces or the reserve components as described in 10 U.S.C. 10101",
+        "Survivor benefits means the retired pay portion of the benefits described in 10 U.S.C. 1447 through 1455",
+        "Social Security income, 401(k) and IRA distributions, and income from other sources do not count"
+      ],
+      "details": [
+        "Understand the mechanism. Utah taxes the income and then credits back the tax on it, rather than subtracting the income. For most people the result is the same, but it matters in two situations.",
+        "First catch: the credit is nonrefundable and cannot be carried forward or back. If your Utah tax liability is smaller than the credit, you lose the excess entirely.",
+        "Second catch: you cannot claim this credit in the same taxable year as the general retirement tax credit under Section 59-10-1019. Work out which is worth more before filing.",
+        "Survivor benefits are expressly covered, which matters for a surviving spouse."
+      ],
+      "agency": "Utah State Tax Commission",
+      "statuteRef": "Utah Code 59-10-1043",
+      "officialUrl": "https://le.utah.gov/xcode/Title59/Chapter10/59-10-S1043.html",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "ut-veteran-armed-forces-property-tax-exemption",
+      "jurisdiction": "UT",
+      "category": "property-tax",
+      "title": "Veteran armed forces property tax exemption",
+      "summary": "Utah exempts taxable value in proportion to your disability rating. At 100 percent you exempt the whole limit, which was $479,504 in 2023 and has risen with inflation every year since. Individual unemployability counts as 100 percent.",
+      "amount": "Your disability percentage multiplied by the adjusted taxable value limit. The limit was $479,504 for 2023 and is increased each year by the change in the consumer price index.",
+      "eligibility": [
+        "You are a Veteran claimant and own the eligible property",
+        "The exemption equals the percentage of disability on your statement of disability multiplied by the adjusted taxable value limit",
+        "A county must treat you as 100 percent disabled, whatever percentage your statement shows, if the VA certifies you in the classification of individual unemployability",
+        "A county may not allow the exemption if the disability percentage is less than 10 percent",
+        "The exemption cannot exceed the taxable value of the property"
+      ],
+      "details": [
+        "The individual unemployability rule is unusually clear and unusually favourable. Where many states leave TDIU unaddressed, Utah states that a county shall treat the Veteran as 100 percent disabled regardless of the listed percentage. If you hold TDIU, say so when you apply.",
+        "We are not printing a current dollar figure. The adjusted taxable value limit was $479,504 for the calendar year beginning 1 January 2023, and for every year since it is the previous year's limit plus that limit multiplied by the actual percentage change in the consumer price index. Four years of compounding later the real figure is materially higher. Ask your county.",
+        "A full exemption of the total taxable value, rather than a percentage, applies to the unmarried surviving spouse of a Veteran killed in action or who died in the line of duty, and to a minor orphan of such a Veteran.",
+        "The same full exemption applies to the unmarried surviving spouse or minor orphan of a deceased Veteran with a disability who served in the military service of the United States or the state before 1 January 1921 and whose disability was 10 percent or more.",
+        "A useful procedural protection: an individual who received an honorable or general discharge is presumed to be a United States citizen and may not be required to provide additional proof of citizenship.",
+        "Disputes are resolved by the Department of Veterans and Military Affairs through an informal hearing under the Administrative Procedures Act.",
+        "Note that Utah recodified this. If you are looking for the old Section 59-2-1903 you will find an empty page. The exemption now lives in Title 59 Chapter 2a Part 5, effective 1 January 2026."
+      ],
+      "agency": "County assessors, with disputes resolved by the Utah Department of Veterans and Military Affairs",
+      "statuteRef": "Utah Code 59-2a-501, with definitions at 59-2a-101",
+      "officialUrl": "https://le.utah.gov/xcode/Title59/Chapter2a/59-2a-S501.html",
+      "confidence": "needs-review",
       "source": {
         "id": "curated-benefits",
         "title": "USVetHub verified benefit records",
