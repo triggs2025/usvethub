@@ -2,7 +2,7 @@
   "sourceId": "curated-benefits",
   "recordType": "benefit",
   "jurisdiction": null,
-  "generatedAt": "2026-11-13T06:16:55.353Z",
+  "generatedAt": "2026-11-13T06:23:56.842Z",
   "records": [
     {
       "id": "az-disabled-veteran-hunting-fishing-license",
@@ -1473,6 +1473,62 @@
       ],
       "agency": "Georgia Department of Veterans Service",
       "officialUrl": "https://veterans.georgia.gov/services/war-veterans-homes",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "hi-military-pension-income-exclusion",
+      "jurisdiction": "HI",
+      "category": "income-tax",
+      "title": "Military retirement pay is not taxed",
+      "summary": "Hawaii excludes any compensation received in the form of a pension for past services from state income tax. Military retirement falls inside that, with no dollar cap and no age test.",
+      "amount": "Full exclusion, with no dollar cap",
+      "eligibility": [
+        "The income is compensation received in the form of a pension for past services",
+        "There is no age condition, dollar cap or length of service requirement in the provision"
+      ],
+      "details": [
+        "The wording is broad rather than Veteran-specific. Hawaii excludes pensions for past services generally, which is why military retirement is not taxed here even though no provision names it.",
+        "The same section separately excludes income not subject to state taxation under the Constitution and laws of the United States, and rights and benefits under public retirement systems.",
+        "Reserve and National Guard drill pay has its own exclusion. Income received by members of the reserve components of the Army, Navy, Air Force, Marine Corps or Coast Guard, and the Hawaii National Guard, is excluded as compensation for performance of duty equivalent to 48 drills, which is twelve weekends, plus fifteen days of annual duty. The exclusion is measured at the E-5 pay grade after eight years of service for taxable years beginning after 31 December 2008.",
+        "Because the pension exclusion is general rather than written for Veterans, confirm your particular payments qualify with the Department of Taxation if your retirement income comes from an unusual source."
+      ],
+      "agency": "Hawaii Department of Taxation",
+      "statuteRef": "HRS 235-7(a)(3), with reserve and Guard pay at 235-7(a)(7)",
+      "officialUrl": "https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0235/HRS_0235-0007.htm",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "hi-property-tax-is-county-administered",
+      "jurisdiction": "HI",
+      "category": "property-tax",
+      "title": "Property tax exemptions are set by your county, not the state",
+      "summary": "There is no state Veteran property tax exemption in Hawaii, because there is no state real property tax law at all. Both chapters that used to govern it are repealed. Your exemption is set by county ordinance.",
+      "eligibility": [
+        "Which exemption you can claim depends entirely on which county you live in",
+        "The four counties are the City and County of Honolulu, Hawaii County, Maui County and Kauai County",
+        "Each sets its own disabled Veteran exemption by ordinance, administered by the county real property tax office"
+      ],
+      "details": [
+        "This surprises people, so it is worth stating plainly. HRS chapter 246, the Real Property Tax Law, is repealed. So is chapter 246A, which handled the transfer of real property taxation functions, repealed by Act 52 of 2016. Searching Hawaii state law for a Veteran property tax exemption correctly returns nothing.",
+        "Real property taxation in Hawaii is a county function. That means the exemption amount, the qualifying disability standard and the filing deadline are all county decisions, and they differ between islands.",
+        "Contact your county real property tax office directly. A Veteran in Honolulu and a Veteran in Hilo with identical ratings may receive quite different treatment, and neither is governed by a state statute we can point you to.",
+        "We would rather tell you this than publish a state exemption that does not exist. When we have verified each county's current ordinance we will publish them separately."
+      ],
+      "agency": "County real property tax offices in Honolulu, Hawaii, Maui and Kauai counties",
+      "statuteRef": "HRS chapter 246 (repealed) and chapter 246A (repealed, L 2016 c 52 s 8)",
+      "officialUrl": "https://www.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0246A/HRS_0246A-.htm",
       "confidence": "needs-review",
       "source": {
         "id": "curated-benefits",
@@ -3994,6 +4050,67 @@
       "agency": "South Carolina Department of Revenue",
       "statuteRef": "S.C. Code 12-6-1171",
       "officialUrl": "https://www.scstatehouse.gov/code/t12c006.php",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "sd-disabled-veteran-dwelling-exemption",
+      "jurisdiction": "SD",
+      "category": "property-tax",
+      "title": "Dwelling exemption for a permanently and totally disabled Veteran",
+      "summary": "South Dakota exempts $200,000 of the full and true value of your owner-occupied dwelling if you are rated permanently and totally disabled from a service-connected disability. If your rating claim is still pending, you can recover up to four previous years of tax.",
+      "amount": "$200,000 of the full and true value of the dwelling",
+      "eligibility": [
+        "You are a Veteran rated as permanently and totally disabled from a service-connected disability",
+        "You own and occupy the dwelling, and it is classified as owner-occupied under the relevant sections",
+        "You apply on a form prescribed by the secretary of revenue"
+      ],
+      "details": [
+        "The retroactive provision is the part worth acting on, and it is unusually generous. If you meet every requirement except the application deadline because your claim for a permanent and total rating is still pending with the VA, the board of county commissioners must abate or refund the difference in taxes accumulated since the effective date of the claim, up to the previous four years. Note the word must rather than may in that case.",
+        "Separately, if you simply missed the deadline for the owner-occupied classification or for this exemption, you may petition the board of county commissioners, and they may abate or refund the difference. That one is discretionary.",
+        "Your application and its supporting documents are confidential, which matters if you would rather your medical details not be a public record.",
+        "Once the director of equalization grants it you keep the exemption without reapplying, until ownership transfers, you stop occupying the dwelling, or the property changes use. Redrawing or amending the legal description does not cost you the exemption if you still live there.",
+        "This section was most recently amended in 2026, so figures in older guidance may be out of date.",
+        "South Dakota has no state personal income tax, so there is no military retirement question here."
+      ],
+      "agency": "County directors of equalization, on a form prescribed by the South Dakota secretary of revenue",
+      "statuteRef": "SDCL 10-4-40",
+      "officialUrl": "https://sdlegislature.gov/Statutes/10-4-40",
+      "confidence": "needs-review",
+      "source": {
+        "id": "curated-benefits",
+        "title": "USVetHub verified benefit records",
+        "homepage": "https://usvethub.com/about/"
+      },
+      "verifiedAt": "2026-11-13"
+    },
+    {
+      "id": "sd-surviving-spouse-dwelling-exemption",
+      "jurisdiction": "SD",
+      "category": "family",
+      "title": "Dwelling exemption for a surviving spouse",
+      "summary": "South Dakota gives a surviving spouse the same $200,000 exemption, either where the Veteran was rated permanently and totally disabled, or where the spouse receives dependency and indemnity compensation for a service-connected death.",
+      "amount": "$200,000 of the full and true value of the dwelling",
+      "eligibility": [
+        "You are the surviving spouse of a Veteran who was rated as permanently and totally disabled from a service-connected disability",
+        "Or you are the surviving spouse of a Veteran and receive dependency and indemnity compensation from the VA as a result of the Veteran's service-connected death",
+        "You own and occupy the dwelling, and it is classified as owner-occupied",
+        "You apply on a form prescribed by the secretary of revenue"
+      ],
+      "details": [
+        "Either route qualifies independently. You do not need both the rating history and the dependency and indemnity compensation.",
+        "If you missed the application deadline but meet every other requirement, you may petition the board of county commissioners, which may abate or refund the difference in taxes over a period not exceeding the previous four years.",
+        "Your application and supporting documents are confidential.",
+        "You keep the exemption without reapplying until ownership transfers, you stop occupying the dwelling, you remarry, or the property changes use. Remarriage ends it, which is the main difference from the Veteran's own exemption."
+      ],
+      "agency": "County directors of equalization, on a form prescribed by the South Dakota secretary of revenue",
+      "statuteRef": "SDCL 10-4-41",
+      "officialUrl": "https://sdlegislature.gov/Statutes/10-4-41",
       "confidence": "needs-review",
       "source": {
         "id": "curated-benefits",

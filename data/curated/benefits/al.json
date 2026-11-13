@@ -1,0 +1,49 @@
+[
+  {
+    "id": "al-disabled-person-homestead-exemption",
+    "jurisdiction": "AL",
+    "category": "property-tax",
+    "title": "Homestead exemption for a permanently and totally disabled person",
+    "summary": "Alabama exempts your principal residence and 160 adjacent acres from property tax if you are permanently and totally disabled. If you draw a disability pension from the armed services, the state must grant you the disability certificate automatically.",
+    "amount": "The principal residence and 160 acres adjacent to it, exempt from ad valorem taxation. There is no dollar cap.",
+    "eligibility": [
+      "You are permanently and totally disabled",
+      "Or you are 65 or older with a net annual taxable income of $12,000 or less, shown on your and your spouse's latest US income tax return",
+      "The property is a single-family home owned and occupied during the tax year as your principal residence",
+      "Anyone drawing a pension or annuity from the armed services because they are permanently and totally disabled is automatically granted a certificate of permanent and total disability by the department"
+    ],
+    "details": [
+      "The automatic certification is the part Veterans should act on. The statute says that a person drawing any pension or annuity from the armed services, a private company or a government agency because they are permanently and totally disabled shall automatically be granted a certificate of permanent and total disability. It says so twice, once in the exemption itself and again in the rulemaking direction. So if you receive a military disability pension, you should not have to prove disability separately.",
+      "The exemption is unusually broad in what it covers: the principal residence plus 160 adjacent acres, with no dollar ceiling at all.",
+      "One ambiguity we are flagging rather than resolving. The sentence reads: any person who is permanently and totally disabled, or who is 65 years of age or older having a net annual taxable income of $12,000 or less. On the ordinary reading the income limit attaches to the age 65 route and not to the disability route, which is how it is generally administered. The text can be read either way, so confirm with the Department of Revenue if your income is above that figure and you are claiming on disability.",
+      "If you do not qualify automatically and have not previously filed written certification, you may submit affidavits from two physicians licensed in Alabama, at least one of whom is actively providing treatment directly related to the disability.",
+      "There is a separate and useful provision at Section 40-9-21.3, the Disabled Veterans Property Tax Debt-To-Income Ratio Exemption Act. A Veteran with a 100 percent VA rating can get a tentative certificate of permanent and total disability before buying a home, within 20 days of applying, and a settlement agent or loan closing officer may not count ad valorem taxes in your debt to income ratio once you provide it. If you are house hunting, get that certificate first, because it can change what you qualify to borrow."
+    ],
+    "agency": "Alabama Department of Revenue, with county tax assessing officials",
+    "statuteRef": "Ala. Code 40-9-21, with the mortgage certificate at 40-9-21.3",
+    "officialUrl": "https://alison.legislature.state.al.us/code-of-alabama?section=40-9-21",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "al-military-retirement-exemption",
+    "jurisdiction": "AL",
+    "category": "income-tax",
+    "title": "Military retirement is fully exempt, including survivor benefits",
+    "summary": "Alabama exempts all military retirement pay and survivor benefits from income tax, and not just state income tax. The exemption also covers county and municipal income taxes.",
+    "amount": "Full exemption, with no dollar cap, since 1 January 1989",
+    "eligibility": [
+      "You are retired from the military services of the United States of America and receive retirement or compensation as a retirement benefit",
+      "Survivor benefits derived from that retirement are also exempt",
+      "From 1 January 1989 and for all successive tax years, all retirement payments or compensation recognised under the section are exempt"
+    ],
+    "details": [
+      "The scope is wider than most states. The statute exempts the income from any state, county or municipal income tax or like tax by whatever name called, so it reaches local taxes too.",
+      "Survivor benefits are named in the statute rather than left to interpretation, which is worth knowing for a surviving spouse.",
+      "The dollar figures still visible in the section are historical. The exemption began at the first $4,750, rose to $8,000 in 1983 and $10,000 in 1985, then became unlimited from 1989. If you see one of those older numbers quoted somewhere, it is a superseded step in the phase-in rather than a current cap."
+    ],
+    "agency": "Alabama Department of Revenue",
+    "statuteRef": "Ala. Code 40-18-20",
+    "officialUrl": "https://alison.legislature.state.al.us/code-of-alabama?section=40-18-20",
+    "confidence": "needs-review"
+  }
+]
