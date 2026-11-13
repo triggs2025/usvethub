@@ -78,17 +78,54 @@ const today = () =>
  * out loud that something was uncertain.
  */
 function risk(record) {
-  let score = 0;
   const prose = [record.summary, ...(record.details ?? []), ...(record.eligibility ?? [])].join(' ');
 
-  if (record.amount && /\d/.test(record.amount)) score += 3; // asserts a figure
-  if (record.category === 'property-tax' || record.category === 'income-tax') score += 2;
-  if (/\bexpires?\b|\bsunset\b|\brepeal/i.test(prose)) score += 2; // time-limited
-  if (/we could not|we are flagging|ambiguit|conflict|do not rely|treat .* as/i.test(prose)) score += 2;
-  if (/\b(19|20)\d{2}\b/.test(prose)) score += 1; // depends on a date
-  if (!record.statuteRef) score += 1; // nothing to check it against but prose
+  // Tuned against the real corpus, and the first version was useless: it
+  // included \brepeal and flagged 8 records, 0 of which had an unrecorded
+  // sunset. In statutory writing "repealed" is nearly always a codification
+  // note about the past, as in "the chapters that used to govern it are
+  // repealed" or "repealed and reenacted by Public Law 24-118". So the word is
+  // gone, and phrasings that say an ending was REMOVED are suppressed outright.
+  //
+  // Recall is unharmed: all four sunsets we know about are still caught by this
+  // pattern, through "expires" for Indiana, Colorado and California and
+  // "discontinued" for Maine.
+  // "ends after" has to be followed by a year or a tax year. Unanchored it
+  // matched "the incapacity ends after majority" in the Puerto Rico record,
+  // which is about a surviving child and not about the benefit ending at all.
+  const mentionsEnd = /\bexpires?\b|\bsunset\b|\bends? after (?:the )?(?:tax year\s*)?\d|\bdiscontinu|\bno longer applies\b/i.test(prose);
+  const endingWasRemoved = /sunset(?: date)? (?:was|is|has been) removed|no longer expires|removed the sunset/i.test(prose);
+  const mentionsYear = /\b(19|20)\d{2}\b/.test(prose);
 
-  return score;
+  // Flags are shown to the reviewer, so each one has to say what to go and look
+  // at. A score on its own tells you the order; it does not tell you why.
+  const flags = [];
+  let score = 0;
+
+  if (record.amount && /\d/.test(record.amount)) { score += 3; flags.push('asserts a figure'); }
+  if (record.category === 'property-tax' || record.category === 'income-tax') score += 2;
+  if (mentionsEnd && !endingWasRemoved) { score += 2; flags.push('mentions an ending'); }
+  if (/we could not|we are flagging|ambiguit|conflict|do not rely|treat .* as/i.test(prose)) {
+    score += 2; flags.push('researcher flagged doubt');
+  }
+  if (mentionsYear) score += 1;
+  if (!record.statuteRef) { score += 1; flags.push('no statute cited'); }
+
+  // SUGGESTIONS #230. The four sunsets we know about were all found by accident,
+  // and only because somebody happened to write the words down. A record whose
+  // prose talks about an ending but carries no expiresAt is either missing the
+  // field or describing a per-person deadline that should never have one. No
+  // regex can tell those apart, which is the whole reason it goes to a human.
+  //
+  // The label says what to do rather than asserting a sunset exists. The
+  // reviewer is asked the end date question on every record anyway; this flag
+  // only decides what they are asked about first.
+  if (mentionsEnd && !endingWasRemoved && !record.expiresAt) {
+    score += 3;
+    flags.push('check for an end date');
+  }
+
+  return { score, flags };
 }
 
 function loadQueue() {
@@ -115,7 +152,8 @@ function loadQueue() {
       const confidence = record.confidence ?? 'verified';
       if (confidence === 'verified') { verifiedCount += 1; continue; }
       if (ONLY_JURISDICTION && record.jurisdiction !== ONLY_JURISDICTION) continue;
-      items.push({ file, record, risk: risk(record) });
+      const { score, flags } = risk(record);
+      items.push({ file, record, risk: score, flags });
     }
   }
 
@@ -143,7 +181,22 @@ function writeJsonAtomic(path, value) {
   }
 }
 
-function applyDecision({ file, id, decision, note, reviewer }) {
+const ISO_DATE = /^\d{4}-\d{2}-\d{2}$/;
+
+/**
+ * Validated here as well as in the page, because this endpoint writes to the
+ * files the public site is built from and the page is only one of its callers.
+ */
+function checkExpiry(expiry) {
+  if (!expiry) return null;
+  const { expiresAt, expiryNote } = expiry;
+  if (!ISO_DATE.test(expiresAt ?? '')) throw new Error('expiresAt must be YYYY-MM-DD');
+  if (Number.isNaN(new Date(`${expiresAt}T00:00:00Z`).getTime())) throw new Error('expiresAt is not a real date');
+  if (expiryNote && expiryNote.length > 600) throw new Error('expiryNote is over 600 characters');
+  return { expiresAt, expiryNote: expiryNote || undefined };
+}
+
+function applyDecision({ file, id, decision, note, reviewer, expiry }) {
   const path = join(BENEFITS_DIR, file);
   // The filename comes from our own queue, never from the request body, but
   // check anyway: this function writes to disk.
@@ -151,10 +204,13 @@ function applyDecision({ file, id, decision, note, reviewer }) {
     throw new Error(`refusing to write to ${file}`);
   }
 
+  const validExpiry = checkExpiry(expiry);
+
   const parsed = JSON.parse(readFileSync(path, 'utf8'));
   const list = Array.isArray(parsed) ? parsed : parsed.records;
-  const record = list.find((r) => r.id === id);
-  if (!record) throw new Error(`no record ${id} in ${file}`);
+  const index = list.findIndex((r) => r.id === id);
+  if (index === -1) throw new Error(`no record ${id} in ${file}`);
+  const record = list[index];
 
   // Only these two fields. The reviewer's job is to judge the record, not to
   // let a tool rewrite it behind their back.
@@ -165,6 +221,22 @@ function applyDecision({ file, id, decision, note, reviewer }) {
   // use to a reader than "nobody has looked at this yet".
   record.confidence = decision === 'verified' ? 'verified' : 'needs-review';
   record.checkedAt = today();
+
+  // SUGGESTIONS #230. The sunset answer is captured here because it is only
+  // cheap to get right now, with the statute open in the other pane. Asked
+  // afterwards it means re-reading the source, which is the whole job again.
+  if (validExpiry) {
+    // Placed just after amount so a reader meets the deadline next to the
+    // money, matching how the four existing sunsets are laid out.
+    const rebuilt = {};
+    for (const [key, value] of Object.entries(record)) {
+      if (key === 'expiresAt' || key === 'expiryNote') continue; // re-added in position
+      rebuilt[key] = value;
+      if (key === 'amount') Object.assign(rebuilt, validExpiry);
+    }
+    if (!('expiresAt' in rebuilt)) Object.assign(rebuilt, validExpiry);
+    list[index] = rebuilt;
+  }
 
   writeJsonAtomic(path, parsed);
 
@@ -179,6 +251,10 @@ function applyDecision({ file, id, decision, note, reviewer }) {
   notes.reviews.push({
     id, jurisdiction: record.jurisdiction, file, decision,
     at: today(), reviewer: reviewer || 'unnamed',
+    // Recorded either way. "A person read the source and it states no end date"
+    // is a finding, and without it the next session has no way to tell that
+    // apart from nobody having looked.
+    sunset: validExpiry ? validExpiry.expiresAt : 'none stated in source',
     ...(note ? { note } : {}),
   });
   writeJsonAtomic(NOTES_PATH, notes);
@@ -214,6 +290,17 @@ const PAGE = () => `<!doctype html>
   .meta { display:flex; gap:8px; flex-wrap:wrap; margin:0 0 10px; }
   .chip { font-size:12px; padding:2px 9px; border-radius:20px; background:#0b1118; color:var(--dim); border:1px solid var(--line); }
   .chip.risk { color:var(--gold); border-color:#4a3a14; }
+  .chip.flag { color:var(--ink); border-color:#3c4e5c; }
+  .chip.alarm { color:#ffd9d5; background:#3d1714; border-color:#8d3a32; font-weight:600; letter-spacing:.02em; }
+  fieldset.sunset { margin:12px 0 0; border:1px solid var(--line); border-radius:8px;
+                    padding:8px 12px 12px; background:#0b1118; }
+  fieldset.sunset legend { font-size:13px; color:var(--gold); padding:0 6px; }
+  fieldset.sunset label { display:block; margin:6px 0; font-size:14px; }
+  fieldset.sunset input[type=date], fieldset.sunset #sunnote {
+    background:#16212c; color:var(--ink); border:1px solid var(--line);
+    border-radius:5px; padding:4px 7px; font:inherit;
+  }
+  fieldset.sunset #sunnote { width:100%; margin-top:8px; }
   h2 { font-size:21px; line-height:1.3; margin:4px 0 10px; }
   .amount { color:var(--gold); font-weight:600; margin:0 0 12px; }
   h3 { font-size:12px; text-transform:uppercase; letter-spacing:.08em; color:var(--dim);
@@ -289,6 +376,10 @@ function render() {
         '<span class="chip risk">risk ' + item.risk + '</span>' +
         '<span class="chip">' + (at + 1) + ' / ' + queue.length + '</span>' +
       '</p>' +
+      (item.flags?.length
+        ? '<p class="meta">' + item.flags.map(f =>
+            '<span class="chip ' + (/end date/.test(f) ? 'alarm' : 'flag') + '">' + esc(f) + '</span>').join('') + '</p>'
+        : '') +
       '<h2>' + esc(b.title) + '</h2>' +
       (b.amount ? '<p class="amount">' + esc(b.amount) + '</p>' : '') +
       '<p class="claim">' + esc(b.summary) + '</p>' +
@@ -306,32 +397,87 @@ function render() {
       '<iframe src="' + esc(b.officialUrl) + '" referrerpolicy="no-referrer" sandbox="allow-same-origin allow-scripts allow-popups"></iframe>' +
       '<p class="hint">Many government sites refuse to be embedded. If the pane above is blank, ' +
         'use Open official source. PDFs usually do render here.</p>' +
+      '<fieldset class="sunset">' +
+        '<legend>Does the source state an end date for this benefit?</legend>' +
+        '<label><input type="radio" name="sun" value="no"> No end date stated</label>' +
+        '<label><input type="radio" name="sun" value="yes"> Yes, it ends on ' +
+          '<input type="date" id="sundate" value="' + esc(b.expiresAt || '') + '"></label>' +
+        '<input id="sunnote" placeholder="What happens then, and what should the reader do (optional)" ' +
+          'value="' + esc(b.expiryNote || '') + '">' +
+        '<p class="hint">The FIRST date it no longer applies, so "tax years beginning before 1 January 2029" ' +
+          'is 2029-01-01. A per-person deadline, like a licence that needs renewing, is not an end date: ' +
+          'answer No and leave that in the details.</p>' +
+      '</fieldset>' +
       '<textarea id="note" placeholder="What did you check, or what is wrong? Saved either way."></textarea>' +
       '<div class="actions">' +
         '<button class="btn ok" id="ok" disabled>Verified <kbd>v</kbd></button>' +
         '<button class="btn bad" id="bad">Needs fixing <kbd>n</kbd></button>' +
         '<button class="btn" id="skip">Skip <kbd>s</kbd></button>' +
-        '<span class="hint" id="guard">Open the source before you can verify.</span>' +
+        '<span class="hint" id="guard"></span>' +
       '</div>' +
     '</div>';
 
-  document.getElementById('open').addEventListener('click', () => {
-    opened = true;
-    document.getElementById('ok').disabled = false;
-    document.getElementById('guard').textContent = 'Source opened. Verify only what you actually read.';
-  });
+  // Pre-answer where the record already carries a date: that question has been
+  // settled, and re-asking it trains the reviewer to click through prompts.
+  if (b.expiresAt) document.querySelector('input[name="sun"][value="yes"]').checked = true;
+
+  document.getElementById('open').addEventListener('click', () => { opened = true; updateGuard(); });
+  for (const el of document.querySelectorAll('input[name="sun"], #sundate')) {
+    el.addEventListener('change', updateGuard);
+  }
   document.getElementById('ok').addEventListener('click', () => decide('verified'));
   document.getElementById('bad').addEventListener('click', () => decide('needs-review'));
   document.getElementById('skip').addEventListener('click', () => { at += 1; render(); });
+  updateGuard();
+}
+
+/**
+ * Reads the sunset answer, or null if it has not been given.
+ *
+ * "No end date stated" is an answer and returns {stated:false}. An unanswered
+ * question returns null, which is what gates the Verified button.
+ */
+function sunsetAnswer() {
+  const picked = document.querySelector('input[name="sun"]:checked');
+  if (!picked) return null;
+  if (picked.value === 'no') return { stated: false };
+  const date = document.getElementById('sundate').value;
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(date)) return null; // "yes" without a date is not an answer
+  return { stated: true, expiresAt: date, expiryNote: document.getElementById('sunnote').value.trim() };
+}
+
+/**
+ * Two gates on Verified, both of which exist because the cheap version of this
+ * tool would let you clear the backlog without reading anything: you must have
+ * opened the source, and you must have answered the sunset question. See
+ * SUGGESTIONS #226 and #230.
+ */
+function updateGuard() {
+  const answer = sunsetAnswer();
+  const ok = document.getElementById('ok');
+  const guard = document.getElementById('guard');
+  if (!ok) return;
+
+  ok.disabled = !(opened && answer);
+  guard.textContent = !opened
+    ? 'Open the source before you can verify.'
+    : !answer
+      ? 'Answer the end date question. It is cheap now and expensive later.'
+      : 'Verify only what you actually read.';
 }
 
 async function decide(decision) {
   const item = queue[at];
-  if (decision === 'verified' && !opened) return;
+  const answer = sunsetAnswer();
+  if (decision === 'verified' && !(opened && answer)) return;
+
   const body = {
     file: item.file, id: item.record.id, decision,
     note: document.getElementById('note').value.trim(),
     reviewer: document.getElementById('reviewer').value.trim(),
+    // Only sent when a date was actually given. Answering "no end date" records
+    // the finding in the review log without writing a field to the record.
+    expiry: answer?.stated ? { expiresAt: answer.expiresAt, expiryNote: answer.expiryNote } : null,
   };
   const r = await fetch('/api/decide', {
     method: 'POST',

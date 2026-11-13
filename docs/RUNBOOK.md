@@ -246,9 +246,19 @@ byte apart from the one field, so reviewing does not produce a noisy diff.
 Three things to know about it:
 
 - **The Verified button is disabled until you open the official source for that
-  record.** That is deliberate. The rule above is the whole basis of the site,
-  and a tool that let you tick a box without looking would turn it into
-  paperwork.
+  record, and until you answer the end date question.** Both are deliberate.
+  The rule above is the whole basis of the site, and a tool that let you tick a
+  box without looking would turn it into paperwork.
+- **You will be asked whether the source states an end date, on every record.**
+  Answer it while the statute is open in the other pane: it takes one click for
+  most records, and answering it afterwards means reading the source again. "No
+  end date stated" is a real answer and is recorded as one, so nobody has to
+  wonder later whether the question was asked. A date you enter is written
+  straight into the record as `expiresAt`. Remember a per-person deadline is not
+  an end date.
+- **Flags next to the risk score say what to go and look at**, for example
+  `asserts a figure` or `check for an end date`. They are hints about ordering,
+  not accusations.
 - **The queue leads with the records where being wrong costs the most**, not
   with A for Alabama: a record asserting a dollar figure on a property or income
   tax exemption outranks one saying a territory has no property tax. Pass
