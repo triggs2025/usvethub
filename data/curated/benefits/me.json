@@ -1,0 +1,57 @@
+[
+  {
+    "id": "me-veteran-property-tax-exemption",
+    "jurisdiction": "ME",
+    "category": "property-tax",
+    "title": "Veteran property tax exemption, scheduled to end in 2027",
+    "summary": "Maine exempts $6,000 of just value for qualifying Veterans at 62 or on a total disability pension, and $50,000 for a home bought with a federal specially adapted housing grant. Act on this now: the statute says these exemptions are discontinued for property tax years beginning on or after 1 April 2027.",
+    "amount": "$6,000 of just value in the standard case, $7,000 for World War I era service, and $50,000 for specially adapted housing",
+    "eligibility": [
+      "You are a resident of Maine and a Veteran who served on active duty and was discharged under other than dishonorable conditions",
+      "You served in a listed war period, including the Korean Conflict, the Vietnam War, the Persian Gulf War, 24 August 1982 to 31 July 1984, 20 December 1989 to 31 January 1990, Operations Enduring Freedom, Iraqi Freedom and New Dawn, or 1 February 1955 to 27 February 1961, or you received an expeditionary medal",
+      "And you have reached 62, or you receive any form of pension or compensation from the United States Government for total disability, whether service-connected or not",
+      "Alternatively, with no age test: you are disabled by injury or disease incurred or aggravated during active service in the line of duty and receive pension or compensation for total, service-connected disability",
+      "An unremarried surviving spouse, minor child, or a parent aged 62 or over receiving a federal pension for the Veteran's service-connected death, qualifies for $6,000",
+      "A Veteran described in 38 U.S.C. 2101 who received a federal grant for specially adapted housing qualifies for $50,000, as does their unremarried surviving spouse"
+    ],
+    "details": [
+      "The sunset is the most important thing on this page. Subsection 3 was added by PL 2025 chapter 650 and says these exemptions are discontinued beginning with property tax years beginning on or after 1 April 2027. Unless the Legislature changes that, Maine Veterans have a limited window. If you qualify and have not applied, apply now.",
+      "The age 62 route is broader than it is usually described. It accepts any form of pension or compensation from the federal government for total disability, service-connected or nonservice-connected. A Veteran with a nonservice-connected total disability pension still qualifies.",
+      "The disability route has no age test at all, but it does require total, service-connected disability.",
+      "World War I era service carries higher figures: $7,000 rather than $6,000, including for surviving spouses, minor children and qualifying parents.",
+      "The specially adapted housing figure of $50,000 is more than eight times the standard exemption, so it is worth checking whether a federal housing grant was involved.",
+      "Apply on or before 1 April in the year you first request it, filing with the assessors of the place where you live. Once granted it continues while you remain a resident, until the assessors are notified otherwise.",
+      "Only one paragraph of the exemption can apply, so you take the best one rather than adding them together.",
+      "The exemption extends to property held in joint tenancy with a spouse, in a revocable living trust for the Veteran, and to cooperative housing shareholders.",
+      "The local assessed value of the exemption is the amount multiplied by the local ratio of current just value to assessed value, so the figure on your bill may not match the headline number.",
+      "All the dollar amounts are fixed in the statute. There is no inflation adjustment."
+    ],
+    "agency": "Local assessors",
+    "statuteRef": "36 M.R.S. 653",
+    "officialUrl": "https://legislature.maine.gov/statutes/36/title36sec653.html",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "me-military-retirement-income-subtraction",
+    "jurisdiction": "ME",
+    "category": "income-tax",
+    "title": "Military retirement pay is fully subtracted",
+    "summary": "Maine subtracts the full amount of military retirement benefits from your income, with no dollar cap. Unlike the general pension deduction, it is not reduced by the high income phase-out.",
+    "amount": "Full subtraction of military retirement benefits included in federal adjusted gross income, with no cap",
+    "eligibility": [
+      "You receive retirement benefits under a military retirement plan included in your federal adjusted gross income",
+      "A military retirement plan means service in the active or reserve components of the Army, Navy, Air Force, Marines, Coast Guard or Space Force",
+      "For tax years beginning on or after 1 January 2026 the definition becomes uniformed services as defined in 37 U.S.C. 101(3)"
+    ],
+    "details": [
+      "Maine's modification has two clauses and the distinction matters. Clause (a) is the general pension deduction, which is capped and reduced for higher incomes. Clause (b) is the military one, and it has no dollar cap in the text.",
+      "The high income phase-out that starts at $125,000 of federal adjusted gross income for a single filer, $187,500 for head of household and $250,000 for joint filers applies to the general clause only. It does not reduce the military subtraction.",
+      "The general pension deduction amount, for context, was $10,000 before 2022, $25,000 for 2022, $30,000 for 2023, and from 2024 is tied to the maximum annual Social Security benefit as of 28 June 2023.",
+      "This provision applies to tax years beginning on or after 1 January 2016."
+    ],
+    "agency": "Maine Revenue Services",
+    "statuteRef": "36 M.R.S. 5122(2)(M-2)",
+    "officialUrl": "https://legislature.maine.gov/statutes/36/title36sec5122.html",
+    "confidence": "needs-review"
+  }
+]

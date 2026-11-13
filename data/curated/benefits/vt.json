@@ -1,0 +1,54 @@
+[
+  {
+    "id": "vt-veteran-property-tax-exemption",
+    "jurisdiction": "VT",
+    "category": "property-tax",
+    "title": "Veteran property tax exemption",
+    "summary": "Vermont exempts $10,000 of appraisal value on the home of a Veteran receiving disability compensation at 50 percent or more. Your town can vote to raise that to as much as $40,000, so the amount depends on where you live.",
+    "amount": "$10,000 of appraisal value, which a town may vote to increase to up to $40,000",
+    "eligibility": [
+      "The property is your established residence, owned in fee simple by you, your spouse, widow, widower or child, or jointly",
+      "One or more of you receives disability compensation for at least 50 percent disability, death compensation, dependence and indemnity compensation, or a pension for disability paid through any military department or the Veterans Administration",
+      "Any part of the property used for business or rental is excluded",
+      "An unremarried widow or widower of a previously qualified Veteran is entitled to the exemption whether or not they themselves receive government compensation or pension",
+      "Only one exemption is allowed per property"
+    ],
+    "details": [
+      "The town option is the part worth acting on. By majority vote at an annual or special meeting warned for the purpose, a town may increase the exemption to up to $40,000 of appraisal value. Once voted it stays until amended or repealed by a similar vote. If your town has not voted one, that is a thing to raise locally.",
+      "Note the 50 percent threshold. Vermont sets the bar lower than many states, which require 70 or 100 percent.",
+      "Apply to the Office of Veterans Affairs before 1 May each year, with a written statement from the Military Department or the VA. This is unusual: you file with the state Veterans office rather than your town assessor.",
+      "If your disability is permanent you only need to apply once, before 1 May of the first year.",
+      "The surviving spouse provision is notably generous. An unremarried widow or widower keeps the exemption even if they receive no compensation or pension of their own.",
+      "Both the $10,000 and the $40,000 ceiling are fixed in the statute with no inflation adjustment, so changing them requires legislation, or a town vote within the existing ceiling."
+    ],
+    "agency": "Vermont Office of Veterans Affairs, with the exemption applied by the town",
+    "statuteRef": "32 V.S.A. 3802(11)",
+    "officialUrl": "https://legislature.vermont.gov/statutes/section/32/125/03802",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "vt-military-retirement-income-exclusion",
+    "jurisdiction": "VT",
+    "category": "income-tax",
+    "title": "Military retirement and survivor benefits, excluded below an income limit",
+    "summary": "Vermont excludes all federally taxable military retirement and survivor benefit income if your federal adjusted gross income is $125,000 or less. Between $125,000 and $175,000 the exclusion tapers away, and above $175,000 there is none.",
+    "amount": "Full exclusion at federal AGI of $125,000 or less, tapering to nothing at $175,000",
+    "eligibility": [
+      "You receive US military retirement income, or US military survivor benefit income as an eligible beneficiary",
+      "If your federal adjusted gross income is $125,000 or less, all federally taxable military retirement and survivor benefit income is excluded",
+      "If it is above $125,000 but below $175,000, a proportional share is excluded",
+      "If it is $175,000 or more, nothing is excluded"
+    ],
+    "details": [
+      "The taper is linear rather than a cliff. The excluded share is 175,000 minus your federal adjusted gross income, divided by 50,000, applied to your federally taxable military retirement and survivor income.",
+      "This is not a fixed dollar cap. Below the threshold the whole amount comes out, however large it is, which is more generous than the capped exclusions several neighbouring states use.",
+      "A taxpayer eligible for the military exclusion may elect it even while also electing one of Vermont's other retirement income exclusions.",
+      "The thresholds are stated as fixed dollar figures with no indexing, so they do not move with inflation.",
+      "The current form of this provision took effect on 1 January 2025."
+    ],
+    "agency": "Vermont Department of Taxes",
+    "statuteRef": "32 V.S.A. 5830e(d)",
+    "officialUrl": "https://legislature.vermont.gov/statutes/section/32/151/05830e",
+    "confidence": "needs-review"
+  }
+]

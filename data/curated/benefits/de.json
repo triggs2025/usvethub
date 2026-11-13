@@ -1,0 +1,28 @@
+[
+  {
+    "id": "de-military-pension-exclusion",
+    "jurisdiction": "DE",
+    "category": "income-tax",
+    "title": "Military pension exclusion, rising each year to 2029",
+    "summary": "Delaware excludes part of your military pension from state income tax, and the cap is on a legislated upward schedule: $12,500 now, $15,000 in 2027, $20,000 in 2028, and $25,000 from 2029.",
+    "amount": "Up to $12,500 of military pension through tax year 2026, then $15,000 for 2027, $20,000 for 2028, and $25,000 for 2029 and later",
+    "eligibility": [
+      "You receive a United States military pension, meaning a pension from service in the Army, Navy, Air Force, Marine Corps, Space Force, Coast Guard, the NOAA commissioned corps, the Public Health Service commissioned corps, or the National Guard",
+      "For tax years from 2022 through 2026, if you are under 60, the exclusion is the greater of up to $2,000 of employer or government pension, or up to $12,500 as a military pension",
+      "For those years, if you are 60 or older, the military pension falls under the general cap of $12,500",
+      "From the 2027 tax year the military cap rises to $15,000, from 2028 to $20,000, and from 2029 to $25,000",
+      "If you are 60 or older you must have been legally domiciled in Delaware for at least three years where you became domiciled before 1 January 2027, or at least five years where you became domiciled on or after that date"
+    ],
+    "details": [
+      "The schedule is the thing to plan around. These are fixed statutory amounts rising on set dates, with no inflation indexing, so a Veteran deciding when to move or retire can work out the effect exactly.",
+      "Watch the domicile rule if you are considering moving to Delaware at 60 or older. The qualifying period lengthens from three years to five for anyone becoming domiciled on or after 1 January 2027.",
+      "On a joint return the dollar limits apply to each spouse separately, but the total subtraction cannot exceed twice the relevant limit.",
+      "There is a separate $2,000 disability and age exclusion elsewhere in the same section. It is a different provision and is not part of the pension figures above.",
+      "We have not published a Delaware Veteran property tax record. Delaware property taxes are administered at county and school district level, and we did not locate a statewide Veteran credit in the county government title. That is an absence of evidence rather than evidence of absence, so ask your county office before concluding there is nothing."
+    ],
+    "agency": "Delaware Division of Revenue",
+    "statuteRef": "30 Del. C. 1106(b)(3)",
+    "officialUrl": "https://delcode.delaware.gov/title30/c011/sc02/index.html",
+    "confidence": "needs-review"
+  }
+]
