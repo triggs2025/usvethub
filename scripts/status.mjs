@@ -17,6 +17,7 @@ import { mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import {
   loadAll, daysSince, isStale, today, STALE_AFTER_DAYS, CATEGORIES, CATEGORY_LABELS,
+  isHumanChecked, isCheckStale, isExpired, isExpiringSoon, daysUntilExpiry, EXPIRY_WARNING_DAYS,
 } from '../src/lib/data.mjs';
 import { SLOTS, SLOT_LABELS, MAX_ADS_PER_SLOT, eligibleSponsors } from '../src/lib/sponsors.mjs';
 import { esc } from '../src/lib/html.mjs';
@@ -70,7 +71,39 @@ const totals = {
   stale: benefits.filter(isStale).length,
   covered: coverage.filter((c) => c.benefits > 0).length,
   empty: coverage.filter((c) => c.benefits === 0),
+  // Verified at some point by a person, but before we started recording when.
+  // These are not wrong, they are undated, and the only way to date one is to
+  // put it back through npm run verify.
+  undated: benefits.filter((b) => b.confidence === 'verified' && !isHumanChecked(b)).length,
+  checkStale: benefits.filter(isCheckStale).length,
 };
+
+/**
+ * Benefits that end on a date, soonest first.
+ *
+ * SUGGESTIONS #209. Prose in a record cannot be queried, drives no warning, and
+ * cannot answer "how many of our published records die within a year". A
+ * published record that silently outlives its date becomes actively wrong
+ * overnight, which is the exact harm the house rules exist to prevent, so the
+ * count belongs in the place Tony actually looks.
+ */
+// Named sunsets rather than expiring: the advertiser book below already owns
+// `expiringSoon` for ad flights, and the two mean completely different things.
+const sunsets = benefits
+  .filter((b) => b.expiresAt)
+  .map((b) => ({
+    id: b.id,
+    jurisdiction: b.jurisdiction,
+    title: b.title,
+    expiresAt: b.expiresAt,
+    daysLeft: daysUntilExpiry(b),
+    state: isExpired(b) ? 'ended' : isExpiringSoon(b) ? 'soon' : 'later',
+  }))
+  .sort((a, b) => a.expiresAt.localeCompare(b.expiresAt) || a.id.localeCompare(b.id));
+
+const sunsetsEnded = sunsets.filter((e) => e.state === 'ended');
+const sunsetsSoon = sunsets.filter((e) => e.state === 'soon');
+const sunsetsLater = sunsets.filter((e) => e.state === 'later');
 
 const backlog = CATEGORIES
   .map((c) => ({
@@ -205,14 +238,39 @@ console.log('');
 console.log('CONTENT');
 console.log(`  ${totals.benefits} benefit records across ${totals.covered} of ${jurisdictions.length} jurisdictions`);
 console.log(`  ${totals.verified} verified, ${totals.benefits - totals.verified} still drafts   ${bar(totals.verified, totals.benefits)}  ${pct(totals.verified, totals.benefits)}%`);
-if (totals.stale > 0) {
-  console.log(`  ${totals.stale} records last checked over ${STALE_AFTER_DAYS} days ago`);
+if (totals.checkStale > 0) {
+  console.log(`  ${totals.checkStale} records a person last read over ${STALE_AFTER_DAYS} days ago`);
+}
+if (totals.undated > 0) {
+  console.log(`  ${totals.undated} verified but undated, no record of when a person read them. Re-run through npm run verify`);
 }
 console.log(`  ${organizations.length} organizations, ${discounts.length} live discounts`);
 if (totals.empty.length) {
   console.log(`  ${totals.empty.length} jurisdictions with no benefits at all: ${totals.empty.map((c) => c.code).join(' ')}`);
 }
 console.log('');
+
+// Expiry comes before the advertiser book on purpose. A benefit that has ended
+// is published misinformation, which outranks anything commercial.
+if (sunsets.length) {
+  const line = (e) =>
+    console.log(`    ${e.expiresAt}  ${String(e.daysLeft).padStart(5)}d  ${e.jurisdiction}  ${e.title.slice(0, 54)}`);
+
+  console.log('ENDING');
+  if (sunsetsEnded.length) {
+    console.log(`  ${sunsetsEnded.length} ALREADY ENDED and still published:`);
+    sunsetsEnded.forEach(line);
+  }
+  if (sunsetsSoon.length) {
+    console.log(`  ${sunsetsSoon.length} ending within ${EXPIRY_WARNING_DAYS} days:`);
+    sunsetsSoon.forEach(line);
+  }
+  if (sunsetsLater.length) {
+    console.log(`  ${sunsetsLater.length} with a sunset further out:`);
+    sunsetsLater.forEach(line);
+  }
+  console.log('');
+}
 
 console.log('ADVERTISERS');
 console.log(`  ${live.length} live, ${scheduled.length} scheduled, ${ended.length} ended`);

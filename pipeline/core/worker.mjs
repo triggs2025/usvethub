@@ -76,12 +76,28 @@ try {
   }
 
   // -- Stamp provenance. A source cannot opt out of saying where data came from.
+  //
+  // Two dates, and the difference matters more than it looks.
+  //
+  // verifiedAt is the COLLECTION date. The worker owns it and overwrites it on
+  // every run, which is why it must never be presented to a reader as "checked
+  // by a person": for a curated record it only says when someone last ran the
+  // pipeline.
+  //
+  // checkedAt is the HUMAN REVIEW date. The worker never writes it, and strips
+  // it from any source that has not declared humanCurated in its config. A
+  // scraper able to set checkedAt could claim a person had read a page that
+  // nobody opened, which is exactly the lie this field exists to prevent.
   const runDate = startedAt.toISOString().slice(0, 10);
-  const records = raw.map((record) => ({
-    ...record,
-    source: { id: sourceId, title: cleanText(config.title), homepage: config.homepage },
-    verifiedAt: runDate,
-  }));
+  const records = raw.map((record) => {
+    const stamped = {
+      ...record,
+      source: { id: sourceId, title: cleanText(config.title), homepage: config.homepage },
+      verifiedAt: runDate,
+    };
+    if (!config.humanCurated) delete stamped.checkedAt;
+    return stamped;
+  });
 
   // -- Gate 1: schema. A record that fails is dropped, not published.
   const valid = [];

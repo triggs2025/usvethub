@@ -194,6 +194,43 @@ with `_` are ignored.
 personally opened its `officialUrl` and confirmed it. A wrong figure here can
 cost a Veteran a filing deadline.
 
+### The three dates on a record, and which one is a promise
+
+| Field | Means | Written by |
+|---|---|---|
+| `verifiedAt` | When the pipeline last **collected** the record | The worker, on every run, over whatever was there |
+| `checkedAt` | When a **person** last read it against its `officialUrl` | Only `npm run verify`. Never type it by hand |
+| `expiresAt` | The first date the benefit **no longer applies** | You, when the source states an end |
+
+The name `verifiedAt` is misleading and it is kept only because the worker owns
+it. It is a collection timestamp. The site never calls it "checked", because for
+a curated record it just says when somebody last ran a command.
+
+`checkedAt` is the one that carries the promise. The worker strips it from any
+source without `"humanCurated": true` in its config, so no scraper can claim a
+person read a page. A record with `confidence: verified` and no `checkedAt` was
+checked before we started recording the date, and the card says exactly that.
+
+### Marking a benefit that is going to end
+
+```json
+"expiresAt": "2027-04-01",
+"expiryNote": "Subsection 3, added by PL 2025 chapter 650, discontinues these exemptions for property tax years beginning on or after this date."
+```
+
+`expiresAt` is **the first date the benefit does not apply**, not the last day it
+does. "Applies to tax years beginning before 1 January 2029" is `2029-01-01`.
+
+Use it only for a sunset on the benefit itself. Do not use it for a per-person
+deadline: a hunting licence that needs reissuing every five years, or the GI
+Bill's fifteen-year rule for pre-2013 discharges, are not benefits ending. Those
+belong in `details`.
+
+An expired record **stays published** and is labelled as ended. That is
+deliberate: a Veteran searching for a benefit that has gone needs to be told it
+existed and ended, not shown a blank page that reads as though it never existed.
+`npm run status` lists everything with a date, ended first.
+
 ### Working through the draft backlog
 
 ```bash

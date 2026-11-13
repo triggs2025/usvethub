@@ -18,6 +18,7 @@ import { payingForHelpBody, payingForHelpMeta } from '../src/pages/paying-for-he
 import {
   loadAll, isStale, daysSince, STALE_AFTER_DAYS, ORG_TYPE_LABELS, CATEGORY_LABELS, CATEGORIES,
   DISCOUNT_CATEGORIES, DISCOUNT_CATEGORY_LABELS, DISCOUNT_STALE_AFTER_DAYS, FREE_HELP_ORG_TYPES,
+  isHumanChecked, isCheckStale, isExpired, isExpiringSoon, daysUntilExpiry,
 } from '../src/lib/data.mjs';
 
 const OUT = join(process.cwd(), 'dist');
@@ -55,24 +56,101 @@ const { jurisdictions, byCode, benefits, federal, organizations, nonprofits, dis
  * as a human-checked record would make that claim false. So the reader is told,
  * on the card, in plain words.
  */
-const confidenceNote = (record) =>
-  record.confidence === 'verified'
-    ? ''
-    : html`<p class="unchecked">
-        <strong>Draft, not yet checked by a person.</strong>
-        Researched from the official source linked below, but nobody here has
-        confirmed it line by line yet. Verify with the agency before you rely on it.
-      </p>`;
+const confidenceNote = (record) => {
+  if (record.confidence === 'verified') return '';
 
+  // A record can be unverified for two opposite reasons, and telling a reader
+  // the wrong one is worse than saying nothing. Nobody has looked yet is not
+  // the same as somebody looked and found a problem: the second is a stronger
+  // warning and it also tells the reader a human has been here.
+  if (isHumanChecked(record)) {
+    return html`<p class="unchecked">
+      <strong>Checked and flagged for correction.</strong>
+      A person read this against the official source on ${esc(record.checkedAt)} and marked
+      something as wrong or unclear. Treat the detail with caution and confirm with the agency.
+    </p>`;
+  }
+
+  return html`<p class="unchecked">
+    <strong>Draft, not yet checked by a person.</strong>
+    Researched from the official source linked below, but nobody here has
+    confirmed it line by line yet. Verify with the agency before you rely on it.
+  </p>`;
+};
+
+/**
+ * Organizations only. Benefits use checkStaleNote.
+ *
+ * The word is "collected", not "checked", for the same reason as #227:
+ * `verifiedAt` is written by the worker on every run, so for a directory record
+ * pulled from the VA's own listing it says when we last fetched it and nothing
+ * about whether a person confirmed the phone number still works.
+ */
 const staleNote = (record) =>
   isStale(record)
-    ? html`<p class="stale">Last checked ${esc(record.verifiedAt)}, over ${STALE_AFTER_DAYS} days ago. Confirm with the agency before relying on it.</p>`
+    ? html`<p class="stale">Last collected ${esc(record.verifiedAt)}, over ${STALE_AFTER_DAYS} days ago. Confirm with the agency before relying on it.</p>`
     : '';
 
 const sourceLine = (record) => html`<p class="source">
   Source: <a href="${escUrl(record.source?.homepage)}" rel="nofollow noopener">${esc(record.source?.title)}</a>
-  · checked ${esc(record.verifiedAt)}
+  · collected ${esc(record.verifiedAt)}
 </p>`;
+
+/**
+ * When a benefit ends, said on the record rather than discovered afterwards.
+ *
+ * SUGGESTIONS #209. An expired record does not get hidden: a Veteran searching
+ * for Colorado's military retirement subtraction in 2029 needs to be told it
+ * ended, not shown an empty page that reads as though it never existed. So the
+ * record stays and says so, in the strongest styling on the card.
+ *
+ * A future sunset is always shown, however far off, because the whole point is
+ * that a Veteran can still act on it. It escalates from the mild warning to the
+ * urgent one inside a year.
+ */
+const expiryBanner = (record) => {
+  if (!record.expiresAt) return '';
+  const note = record.expiryNote ? html` ${esc(record.expiryNote)}` : '';
+
+  if (isExpired(record)) {
+    return html`<p class="expired">
+      <strong>This ended on ${esc(record.expiresAt)}.</strong>
+      We are keeping it here so you know it existed and is gone, rather than leaving you
+      to wonder. Do not rely on it for a current filing.${note}
+    </p>`;
+  }
+
+  const left = daysUntilExpiry(record);
+  return html`<p class="expiring">
+    <strong>Ends ${esc(record.expiresAt)}${isExpiringSoon(record) ? html`, in ${esc(left)} day${left === 1 ? '' : 's'}` : ''}.</strong>
+    On current law this does not apply after that date. If you qualify and have not
+    claimed it, do it now rather than later.${note}
+  </p>`;
+};
+
+/**
+ * Where a benefit record came from, and whether a person has read it.
+ *
+ * SUGGESTIONS #227. Organizations keep sourceLine, which is honest for them
+ * because collection is all that ever happens to one. A benefit is different:
+ * the site's entire claim is that a person checked it, so the card has to
+ * distinguish "a person read this on this date" from "a cron job fetched this
+ * on this date", and must not use the word checked for the second one.
+ */
+const benefitProvenance = (record) => html`<p class="source">
+  Source: <a href="${escUrl(record.source?.homepage)}" rel="nofollow noopener">${esc(record.source?.title)}</a>
+  · ${isHumanChecked(record)
+      ? html`checked by a person ${esc(record.checkedAt)}`
+      : record.confidence === 'verified'
+        ? 'verified by a person, date not recorded'
+        : html`collected ${esc(record.verifiedAt)}, not yet read by a person`}
+</p>`;
+
+/** Only meaningful once a person has actually looked. See isCheckStale. */
+const checkStaleNote = (record) =>
+  isCheckStale(record)
+    ? html`<p class="stale">A person last checked this ${esc(record.checkedAt)}, over ${STALE_AFTER_DAYS} days ago. Confirm with the agency before relying on it.</p>`
+    : '';
 
 /**
  * The count shown against a jurisdiction in an index.
@@ -111,9 +189,10 @@ function orgCard(org) {
 }
 
 function benefitCard(benefit) {
-  return html`<article class="card">
+  return html`<article class="card${isExpired(benefit) ? ' is-expired' : ''}">
     <h3>${esc(benefit.title)}</h3>
     <p class="tag">${esc(CATEGORY_LABELS[benefit.category] ?? benefit.category)}</p>
+    ${expiryBanner(benefit)}
     ${benefit.amount ? html`<p class="amount">${esc(benefit.amount)}</p>` : ''}
     <p>${esc(benefit.summary)}</p>
     ${benefit.eligibility?.length
@@ -130,8 +209,8 @@ function benefitCard(benefit) {
       ${benefit.applyUrl ? html` · <a href="${escUrl(benefit.applyUrl)}" rel="noopener">How to apply</a>` : ''}
     </p>
     ${confidenceNote(benefit)}
-    ${staleNote(benefit)}
-    ${sourceLine(benefit)}
+    ${checkStaleNote(benefit)}
+    ${benefitProvenance(benefit)}
   </article>`;
 }
 
@@ -233,7 +312,7 @@ function discountCard(discount) {
     ${discount.paidPlacement ? html`<p class="sponsor-flag inline">Paid placement</p>` : ''}
     ${confidenceNote(discount)}
     ${stale
-      ? html`<p class="stale">Last checked ${esc(discount.verifiedAt)}. Discounts change without notice, so confirm at the register.</p>`
+      ? html`<p class="stale">Last collected ${esc(discount.verifiedAt)}. Discounts change without notice, so confirm at the register.</p>`
       : ''}
     ${sourceLine(discount)}
   </article>`;
@@ -366,8 +445,8 @@ page('/', layout({
     <section class="promise">
       <h2>How we work</h2>
       <div class="grid three">
-        <div><h3>Every entry is sourced</h3><p>Each listing links to the government or organization page it came from, with the date we last checked it. If we cannot source it, we do not publish it.</p></div>
-        <div><h3>We show you when data is old</h3><p>Benefit rules change quietly. Anything we have not re-checked in ${esc(STALE_AFTER_DAYS)} days is labeled on the page instead of being quietly served as current.</p></div>
+        <div><h3>Every entry is sourced</h3><p>Each listing links to the government or organization page it came from. Where a person has read it against that page, the card says so and gives the date. Where nobody has yet, it says that instead. If we cannot source it, we do not publish it.</p></div>
+        <div><h3>We show you when data is old, or ending</h3><p>Benefit rules change quietly. Anything a person has not read in ${esc(STALE_AFTER_DAYS)} days is labeled on the page, and a benefit with a known end date carries that date instead of running out from under you.</p></div>
         <div><h3>Territories are not an afterthought</h3><p>Guam, Puerto Rico, American Samoa, the US Virgin Islands, and the Northern Marianas get the same treatment as the 50 states. Most "national" resources skip them.</p></div>
       </div>
     </section>

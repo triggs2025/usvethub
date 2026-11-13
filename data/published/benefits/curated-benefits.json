@@ -2,7 +2,7 @@
   "sourceId": "curated-benefits",
   "recordType": "benefit",
   "jurisdiction": null,
-  "generatedAt": "2026-11-13T13:58:27.522Z",
+  "generatedAt": "2026-11-13T14:29:12.185Z",
   "records": [
     {
       "id": "ak-disabled-veteran-property-tax-exemption",
@@ -700,6 +700,8 @@
       "title": "Partial state income tax exclusion for military retirement pay",
       "summary": "California now lets qualified taxpayers leave up to $20,000 of federal uniformed services retirement pay out of state gross income. There is a federal adjusted gross income ceiling, and the provision expires after tax year 2029.",
       "amount": "Up to $20,000 of retirement pay per year, for tax years 2025 through 2029.",
+      "expiresAt": "2030-01-01",
+      "expiryNote": "Applies to taxable years beginning before 1 January 2030, so tax year 2029 is the last one, and the section repeals itself on 1 December 2030. The companion Survivor Benefit Plan exclusion at Revenue and Taxation Code 17132.10 runs on the same clock.",
       "eligibility": [
         "You receive retirement pay from the federal government for service in the uniformed services",
         "The statute defines uniformed services as the Armed Forces, the Army National Guard and Air National Guard when engaged in active duty for training, inactive duty training, or full-time National Guard duty, the commissioned corps of the Public Health Service, and the NOAA Commissioned Officer Corps",
@@ -911,6 +913,8 @@
       "title": "Military retirement subtraction, for under 55s only, ending in 2029",
       "summary": "Colorado subtracts up to $15,000 of military retirement, but only if you are under 55 at the end of the tax year. It also expires after the 2028 tax year. Older retirees use the general pension subtraction instead.",
       "amount": "Up to $15,000 of military retirement benefits for income tax years commencing on or after 1 January 2022 and before 1 January 2029",
+      "expiresAt": "2029-01-01",
+      "expiryNote": "The subtraction runs for income tax years commencing before 1 January 2029, so the 2028 tax year is the last one. The legislature attached a performance statement requiring the state auditor to measure whether military retirees actually benefit, which usually precedes a review.",
       "eligibility": [
         "You receive military retirement benefits, meaning any retirement benefits received as a result of service in the armed forces of the United States",
         "The benefits are included in your federal adjusted gross income",
@@ -2340,6 +2344,8 @@
       "title": "Deduction for a Veteran with a partial disability, expiring in 2028",
       "summary": "Indiana deducts $24,960 of assessed value for a wartime Veteran with a service-connected disability of 10 percent or more. Act on this: the section expires on 1 January 2028.",
       "amount": "$24,960 deducted from assessed value",
+      "expiresAt": "2028-01-01",
+      "expiryNote": "The statute states that this section expires on this date. Unless the legislature extends it, the window is closing.",
       "eligibility": [
         "You served in the military or naval forces of the United States during any of its wars",
         "You received an honorable discharge",
@@ -2791,6 +2797,8 @@
       "title": "Veteran property tax exemption, scheduled to end in 2027",
       "summary": "Maine exempts $6,000 of just value for qualifying Veterans at 62 or on a total disability pension, and $50,000 for a home bought with a federal specially adapted housing grant. Act on this now: the statute says these exemptions are discontinued for property tax years beginning on or after 1 April 2027.",
       "amount": "$6,000 of just value in the standard case, $7,000 for World War I era service, and $50,000 for specially adapted housing",
+      "expiresAt": "2027-04-01",
+      "expiryNote": "Subsection 3, added by PL 2025 chapter 650, discontinues these exemptions for property tax years beginning on or after this date. Unless the Legislature changes that, apply now if you qualify.",
       "eligibility": [
         "You are a resident of Maine and a Veteran who served on active duty and was discharged under other than dishonorable conditions",
         "You served in a listed war period, including the Korean Conflict, the Vietnam War, the Persian Gulf War, 24 August 1982 to 31 July 1984, 20 December 1989 to 31 January 1990, Operations Enduring Freedom, Iraqi Freedom and New Dawn, or 1 February 1955 to 27 February 1961, or you received an expeditionary medal",

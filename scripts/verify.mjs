@@ -156,10 +156,15 @@ function applyDecision({ file, id, decision, note, reviewer }) {
   const record = list.find((r) => r.id === id);
   if (!record) throw new Error(`no record ${id} in ${file}`);
 
-  // Only this field. The reviewer's job is to judge the record, not to let a
-  // tool rewrite it behind their back.
-  if (decision === 'verified') record.confidence = 'verified';
-  else record.confidence = 'needs-review';
+  // Only these two fields. The reviewer's job is to judge the record, not to
+  // let a tool rewrite it behind their back.
+  //
+  // checkedAt is set on BOTH decisions, because both mean a person read the
+  // record against its source. Rejecting one is still having checked it, and
+  // the card says so: "a person checked this and flagged a problem" is more
+  // use to a reader than "nobody has looked at this yet".
+  record.confidence = decision === 'verified' ? 'verified' : 'needs-review';
+  record.checkedAt = today();
 
   writeJsonAtomic(path, parsed);
 

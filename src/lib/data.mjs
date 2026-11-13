@@ -45,6 +45,46 @@ export function daysSince(isoDate) {
 export const isStale = (record) => daysSince(record.verifiedAt) > STALE_AFTER_DAYS;
 
 /**
+ * Has a PERSON read this record against its official source?
+ *
+ * SUGGESTIONS #227. `verifiedAt` is rewritten by the worker on every pipeline
+ * run, so it answers "when did we last collect this", not "when did someone
+ * last check it". The site used to print it as "checked <date>", which put a
+ * confident date directly underneath a banner saying nobody had checked the
+ * record. `checkedAt` is the honest answer, only scripts/verify.mjs writes it,
+ * and absent means absent rather than zero.
+ */
+export const isHumanChecked = (record) => Boolean(record.checkedAt);
+
+/** Staleness that means something: time since a person looked, not since a cron ran. */
+export const isCheckStale = (record) =>
+  isHumanChecked(record) && daysSince(record.checkedAt) > STALE_AFTER_DAYS;
+
+/**
+ * How far ahead to start warning that a benefit is ending.
+ *
+ * A year, because these are mostly tax provisions and a Veteran needs a whole
+ * filing cycle of notice to be able to act on one.
+ */
+export const EXPIRY_WARNING_DAYS = 365;
+
+/**
+ * Expiry is a business date, so it is compared as a string against today() in
+ * Arizona, the same way sponsor flights and discounts already are. `expiresAt`
+ * is the first date the benefit no longer applies, so a record whose date is
+ * today has already gone.
+ */
+export const isExpired = (record, now = today()) =>
+  Boolean(record.expiresAt) && record.expiresAt <= now;
+
+export const isExpiringSoon = (record) =>
+  Boolean(record.expiresAt) && !isExpired(record) && daysSince(record.expiresAt) > -EXPIRY_WARNING_DAYS;
+
+/** Negative until the date passes, so it reads naturally as "days left". */
+export const daysUntilExpiry = (record) =>
+  record.expiresAt ? -daysSince(record.expiresAt) : null;
+
+/**
  * Today's date in Arizona, as YYYY-MM-DD.
  *
  * Every date this site acts on is a business date, not an instant: when an ad

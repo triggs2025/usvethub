@@ -63,7 +63,26 @@
       "description": "verified: a human checked it. scraped: automated, unreviewed. needs-review: automation flagged a problem.",
       "enum": ["verified", "scraped", "needs-review"]
     },
-    "verifiedAt": { "type": "string", "format": "date" },
+    "verifiedAt": {
+      "type": "string",
+      "format": "date",
+      "description": "PROVENANCE, not review. The date the pipeline last collected this record. The worker stamps it on every run, overwriting whatever was here. Do not read it as 'a person checked it on this date'. That is checkedAt."
+    },
+    "checkedAt": {
+      "type": "string",
+      "format": "date",
+      "description": "The date a PERSON last read this record against its officialUrl. Written only by scripts/verify.mjs. The worker strips it from any source not marked humanCurated, so an automated source cannot claim a human check. Absent means nobody has checked it, or it was checked before we started recording the date."
+    },
+    "expiresAt": {
+      "type": "string",
+      "format": "date",
+      "description": "The first date on which the benefit no longer applies, where the source states an end. 'Applies to tax years beginning before 1 January 2029' is 2029-01-01. Only for a sunset on the benefit itself, never a per-person deadline such as a licence that needs renewing."
+    },
+    "expiryNote": {
+      "type": "string",
+      "description": "What happens on expiresAt and what the reader should do about it. Rendered with the date.",
+      "maxLength": 600
+    },
     "source": {
       "type": "object",
       "additionalProperties": false,

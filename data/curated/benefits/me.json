@@ -6,6 +6,8 @@
     "title": "Veteran property tax exemption, scheduled to end in 2027",
     "summary": "Maine exempts $6,000 of just value for qualifying Veterans at 62 or on a total disability pension, and $50,000 for a home bought with a federal specially adapted housing grant. Act on this now: the statute says these exemptions are discontinued for property tax years beginning on or after 1 April 2027.",
     "amount": "$6,000 of just value in the standard case, $7,000 for World War I era service, and $50,000 for specially adapted housing",
+    "expiresAt": "2027-04-01",
+    "expiryNote": "Subsection 3, added by PL 2025 chapter 650, discontinues these exemptions for property tax years beginning on or after this date. Unless the Legislature changes that, apply now if you qualify.",
     "eligibility": [
       "You are a resident of Maine and a Veteran who served on active duty and was discharged under other than dishonorable conditions",
       "You served in a listed war period, including the Korean Conflict, the Vietnam War, the Persian Gulf War, 24 August 1982 to 31 July 1984, 20 December 1989 to 31 January 1990, Operations Enduring Freedom, Iraqi Freedom and New Dawn, or 1 February 1955 to 27 February 1961, or you received an expeditionary medal",

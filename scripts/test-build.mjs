@@ -10,6 +10,7 @@ import { readFileSync, existsSync, readdirSync, statSync } from 'node:fs';
 import { join } from 'node:path';
 import { readJson } from '../pipeline/core/registry.mjs';
 import { eligibleSponsors, placedSponsors, SLOTS, MAX_ADS_PER_SLOT } from '../src/lib/sponsors.mjs';
+import { isExpired, isExpiringSoon, isHumanChecked, isCheckStale, today } from '../src/lib/data.mjs';
 
 let failures = 0;
 const check = (label, ok, detail = '') => {
@@ -56,7 +57,16 @@ check('homepage renders', home.includes('Every Veteran benefit'));
 check('homepage states the never-pay warning', home.includes('Never pay for help with a VA claim'));
 
 const az = read(join('arizona', 'index.html'));
-check('a populated state page shows its source and check date', /class="source"/.test(az) && /checked \d{4}-\d{2}-\d{2}/.test(az));
+// Every record discloses where it came from and what has happened to it since.
+// The wording differs by what is true of the record, so the test accepts any of
+// the three honest phrasings and would fail if a card said nothing at all.
+// Before #227 this asserted /checked \d{4}-\d{2}-\d{2}/, which passed on a date
+// that only recorded when the pipeline last ran.
+check('a populated state page shows its source and what is known about it',
+  /class="source"/.test(az)
+  && (/collected \d{4}-\d{2}-\d{2}/.test(az)
+      || /checked by a person \d{4}-\d{2}-\d{2}/.test(az)
+      || /verified by a person, date not recorded/.test(az)));
 
 // 5. Search engines and the correction path both depend on these.
 check('sitemap.xml exists and lists pages', existsSync('dist/sitemap.xml') && read('sitemap.xml').includes('<loc>'));
@@ -208,6 +218,92 @@ check('CSP allows the index fetch and nothing else', homeHtml.includes("connect-
     }
   }
   check('every index counts benefits only, never the agency', wrong.length === 0, wrong.slice(0, 5).join('\n      '));
+}
+
+// Expiry and human-check dates. SUGGESTIONS #209 and #227.
+{
+  const allBenefits = readdirSync(join('data', 'published', 'benefits'))
+    .filter((f) => f.endsWith('.json'))
+    .flatMap((f) => readJson(join('data', 'published', 'benefits', f)).records ?? []);
+
+  // The helpers are unit tested rather than only exercised through the pages,
+  // because nothing is expired yet and a test that passes because the data
+  // happens to be empty is not a test.
+  check('isExpired reads a past date, a future date and a missing one',
+    isExpired({ expiresAt: '2000-01-01' }) === true
+    && isExpired({ expiresAt: '2099-01-01' }) === false
+    && isExpired({}) === false);
+
+  // expiresAt is the first day the benefit no longer applies, so the date
+  // itself counts as gone rather than as the last good day.
+  check('an expiry dated today has already passed', isExpired({ expiresAt: today() }) === true);
+
+  check('isExpiringSoon is a window, not a synonym for having a date',
+    isExpiringSoon({ expiresAt: '2099-01-01' }) === false
+    && isExpiringSoon({ expiresAt: '2000-01-01' }) === false
+    && isExpiringSoon({}) === false);
+
+  check('a human check is only claimed when there is a date',
+    isHumanChecked({ checkedAt: '2026-01-01' }) === true
+    && isHumanChecked({ verifiedAt: '2026-01-01' }) === false);
+
+  // The worker rewrites verifiedAt on every run, so it can never stand in for
+  // a human check. This is the invariant behind the whole two-date split.
+  check('staleness is measured against the human date, never the pipeline date',
+    isCheckStale({ verifiedAt: '1999-01-01' }) === false
+    && isCheckStale({ checkedAt: '1999-01-01' }) === true);
+
+  // No source other than curated-benefits may publish checkedAt. Today that is
+  // the only benefit source, so this guards the next one somebody adds.
+  const forged = allBenefits.filter((b) => b.checkedAt && b.source?.id !== 'curated-benefits');
+  check('no automated source publishes a human check date', forged.length === 0,
+    forged.map((b) => `${b.id} via ${b.source?.id}`).join(', '));
+
+  // A dated sunset has to reach the page. Prose about it is not enough: the
+  // point of the field is a warning a reader cannot miss.
+  const dated = allBenefits.filter((b) => b.expiresAt && b.jurisdiction !== 'US');
+  const missingDate = dated.filter((b) => {
+    const j = jurisdictions.find((x) => x.code === b.jurisdiction);
+    return !j || !read(join(j.slug, 'index.html')).includes(b.expiresAt);
+  });
+  check(`all ${dated.length} dated sunsets render their date on the state page`,
+    missingDate.length === 0, missingDate.map((b) => b.id).join(', '));
+
+  // An ended benefit stays published and says so. Hiding it would leave a
+  // Veteran who searched for it unable to tell whether it ever existed.
+  const ended = allBenefits.filter((b) => isExpired(b) && b.jurisdiction !== 'US');
+  const unlabelled = ended.filter((b) => {
+    const j = jurisdictions.find((x) => x.code === b.jurisdiction);
+    return !j || !read(join(j.slug, 'index.html')).includes('This ended on');
+  });
+  check('an ended benefit is labelled rather than hidden', unlabelled.length === 0,
+    unlabelled.map((b) => b.id).join(', '));
+
+  // And the contradiction that started #227: a card saying "checked" above a
+  // banner saying nobody had checked it.
+  // Matched as "checked by a person <date>", not as a bare phrase: the draft
+  // banner legitimately contains the words "not yet checked by a person", and a
+  // substring test flagged it on the first run.
+  const CLAIM = /checked by a person \d{4}-\d{2}-\d{2}/;
+  const anyChecked = allBenefits.some((b) => b.checkedAt);
+  const falseClaim = anyChecked ? [] : pageFiles.filter((f) => CLAIM.test(readFileSync(f, 'utf8')));
+  check('no page claims a human check while no record records one', falseClaim.length === 0,
+    falseClaim.slice(0, 3).join(', '));
+}
+
+// The management view is not deployed, so nothing in the test suite ran it, and
+// a syntax error in it survived a green `npm test`. It is the script Tony
+// actually looks at, so at minimum it has to start.
+{
+  let ran = true;
+  let detail = '';
+  try {
+    execFileSync(process.execPath, ['scripts/status.mjs'], { stdio: 'pipe' });
+  } catch (error) {
+    ran = false;
+    detail = String(error.stderr ?? error.message).split('\n').slice(0, 3).join(' ');
+  }
+  check('npm run status executes', ran, detail);
 }
 
 const indexPath = join('dist', 'search-index.json');

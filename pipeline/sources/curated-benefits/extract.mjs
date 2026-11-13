@@ -51,6 +51,7 @@ export default async function extract({ log }) {
       if (entry.details) record.details = entry.details.map(cleanText).filter(Boolean);
       if (entry.eligibility) record.eligibility = entry.eligibility.map(cleanText).filter(Boolean);
       if (entry.amount) record.amount = cleanText(entry.amount);
+      if (entry.expiryNote) record.expiryNote = cleanText(entry.expiryNote);
       if (entry.agency) record.agency = cleanText(entry.agency);
       if (entry.officialUrl) record.officialUrl = cleanUrl(entry.officialUrl);
       if (entry.applyUrl) record.applyUrl = cleanUrl(entry.applyUrl);

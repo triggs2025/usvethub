@@ -436,6 +436,37 @@ h2 small { font-weight: 400; color: var(--text-2); font-size: 0.62em; letter-spa
   padding: 9px 13px; margin: 12px 0 0;
 }
 
+/* ------------------------------------------------------------------- expiry
+   A sunset is neither staleness nor a draft, so it gets its own voice. Both
+   sit ABOVE the summary and the amount, unlike every other note on a card,
+   because a Veteran needs to know a deadline exists before reading what the
+   benefit is worth. A full border rather than a left rule only, so it reads as
+   a boxed warning rather than a footnote. */
+.expiring {
+  font-size: 14px;
+  background: rgba(240, 180, 41, 0.1);
+  border: 1px solid rgba(210, 154, 28, 0.4);
+  border-left: 3px solid var(--gold-500);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  padding: 10px 13px; margin: 0 0 13px;
+}
+.expired {
+  font-size: 14px;
+  background: rgba(196, 52, 43, 0.09);
+  border: 1px solid rgba(196, 52, 43, 0.38);
+  border-left: 3px solid var(--red-500);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  padding: 10px 13px; margin: 0 0 13px;
+}
+
+/* An ended benefit stays on the page on purpose, so that a Veteran searching
+   for it learns it is gone rather than finding nothing. But it must not
+   compete with the live ones, and its headline figure must not be readable as
+   a current offer. Body text keeps full contrast: it is still there to read. */
+.card.is-expired { background: var(--surface-2); }
+.card.is-expired h3 { color: var(--text-2); }
+.card.is-expired .amount { color: var(--text-2); text-decoration: line-through; }
+
 /* ------------------------------------------------------------------ callout */
 .callout {
   background: linear-gradient(135deg, var(--surface-2), var(--bg-alt));

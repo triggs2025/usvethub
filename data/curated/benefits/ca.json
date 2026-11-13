@@ -68,6 +68,8 @@
     "title": "Partial state income tax exclusion for military retirement pay",
     "summary": "California now lets qualified taxpayers leave up to $20,000 of federal uniformed services retirement pay out of state gross income. There is a federal adjusted gross income ceiling, and the provision expires after tax year 2029.",
     "amount": "Up to $20,000 of retirement pay per year, for tax years 2025 through 2029.",
+    "expiresAt": "2030-01-01",
+    "expiryNote": "Applies to taxable years beginning before 1 January 2030, so tax year 2029 is the last one, and the section repeals itself on 1 December 2030. The companion Survivor Benefit Plan exclusion at Revenue and Taxation Code 17132.10 runs on the same clock.",
     "eligibility": [
       "You receive retirement pay from the federal government for service in the uniformed services",
       "The statute defines uniformed services as the Armed Forces, the Army National Guard and Air National Guard when engaged in active duty for training, inactive duty training, or full-time National Guard duty, the commissioned corps of the Public Health Service, and the NOAA Commissioned Officer Corps",

@@ -5,6 +5,7 @@
   "recordType": "benefit",
   "jurisdiction": null,
   "enabled": true,
+  "humanCurated": true,
   "schedule": "on-change",
   "timeoutMs": 30000,
   "maxRequests": 0,
@@ -16,6 +17,7 @@
     "Reads hand-written records from data/curated/benefits/*.json. Touches no network.",
     "This is the layer a person edits. Some state benefit rules will never scrape cleanly, and a hand-checked record beats a confidently wrong scraped one on the pages that get the most traffic.",
     "Records here are marked confidence: verified, which means a human read the official page. Do not mark anything verified that you have not actually read.",
+    "humanCurated lets records from this source carry a checkedAt date through the worker. Every other source has checkedAt stripped, so no scraper can ever claim a person read a page. Only scripts/verify.mjs should write checkedAt.",
     "Guards are relaxed on purpose: a human deleting a record is an intentional edit, not a scraper breaking."
   ]
 }

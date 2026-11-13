@@ -34,6 +34,8 @@
     "title": "Deduction for a Veteran with a partial disability, expiring in 2028",
     "summary": "Indiana deducts $24,960 of assessed value for a wartime Veteran with a service-connected disability of 10 percent or more. Act on this: the section expires on 1 January 2028.",
     "amount": "$24,960 deducted from assessed value",
+    "expiresAt": "2028-01-01",
+    "expiryNote": "The statute states that this section expires on this date. Unless the legislature extends it, the window is closing.",
     "eligibility": [
       "You served in the military or naval forces of the United States during any of its wars",
       "You received an honorable discharge",
