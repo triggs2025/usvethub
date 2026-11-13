@@ -1,0 +1,56 @@
+[
+  {
+    "id": "mt-disabled-veterans-property-tax-assistance",
+    "jurisdiction": "MT",
+    "category": "property-tax",
+    "title": "Disabled Veterans property tax assistance",
+    "summary": "Montana does not exempt a dollar amount. It cuts the tax rate on your home, by 100, 80, 70 or 50 percent depending on your income, if you are rated 100 percent or paid at the 100 percent rate for a service-connected disability.",
+    "amount": "A reduction in the property tax rate itself, on a sliding scale set by income. Income thresholds are adjusted annually, so ask the Department of Revenue for this year's bands.",
+    "eligibility": [
+      "You were honorably discharged from active service in any branch of the armed services",
+      "And you are currently rated 100 percent disabled, or are paid at the 100 percent disabled rate by the VA for a service-connected disability, verified by official VA documentation",
+      "Or the Veteran was killed while on active duty, or died as a result of a service-connected disability",
+      "The property is your residential real property and your primary residence, owned and occupied at least seven months of the year",
+      "Income is measured as federal adjusted gross income excluding capital and income losses, from the prior year's Montana return",
+      "A surviving spouse qualifies if they own and occupy the house, are unmarried, and hold a VA letter confirming the Veteran's status at the time of death"
+    ],
+    "details": [
+      "Understand the mechanism, because it is unlike most states. Your home is taxed at the normal residential rate multiplied by a percentage figure that falls as your income falls. At the lowest income band the multiplier is zero, which means no property tax. Higher bands pay 20, 30 or 50 percent of the normal rate.",
+      "We are not publishing the income bands. They are adjusted every year using the PCE inflation factor, rounded to the nearest whole dollar, and the statute protects them from falling in a year when the calculation would reduce them. Any figures we printed would be wrong for the current year. Get them from the Montana Department of Revenue.",
+      "There are three separate tables: one for single and head of household filers, one for married couples, and a lower set for surviving spouses.",
+      "On individual unemployability, the statute does not answer the question. It says rated 100 percent disabled or paid at the 100 percent disabled rate. Whether a TDIU award counts as being paid at the 100 percent rate is a VA question the text does not address, so ask the Department of Revenue with your VA documentation rather than assuming either way.",
+      "Apply by 15 April of the year you first claim. After you are approved, the benefit continues through annual verification and you do not reapply.",
+      "There is a proration rule in a separate section. You get full year assistance where your residence covers the year, prorated by days owned if you sell, and a buyer gets nothing for their partial year."
+    ],
+    "agency": "Montana Department of Revenue",
+    "statuteRef": "MCA 15-6-311, with applications under 15-6-302 and definitions at 15-6-301",
+    "officialUrl": "https://mca.legmt.gov/bills/mca/title_0150/chapter_0060/part_0030/section_0110/0150-0060-0030-0110.html",
+    "confidence": "needs-review"
+  },
+  {
+    "id": "mt-military-pension-subtraction",
+    "jurisdiction": "MT",
+    "category": "income-tax",
+    "title": "Military pension subtraction, limited and time-boxed",
+    "summary": "Montana subtracts part of your military pension, but read the conditions carefully. It is capped at your Montana wage income, it is limited to five consecutive years, and it is only open to people who moved to Montana on or after 30 June 2023 or were already resident when the pension started.",
+    "amount": "The lesser of your Montana source wage income, or 50 percent of your military pension or retirement income",
+    "eligibility": [
+      "You are a retired member of the armed forces of the United States, the Montana or another state's Army or Air National Guard, or a reserve component",
+      "And you became a resident of Montana on or after 30 June 2023",
+      "Or you were a resident before you began receiving military pension or retirement income and remained a resident after it started",
+      "The subtraction is limited to five consecutive years after you satisfy that condition",
+      "It is not available if you claimed the exemption before becoming a nonresident",
+      "Up to 50 percent of survivor benefits for the same groups is also covered"
+    ],
+    "details": [
+      "The cap is the part that surprises people. The subtraction is the lesser of your Montana source wage income or half your military pension. If you are fully retired with no Montana wages, the subtraction is nothing. This provision is built to attract working-age retirees, not to relieve retired people generally.",
+      "The five year limit runs consecutively, so it is a transitional benefit rather than a permanent one. Plan on that basis.",
+      "This is a fixed formula with no inflation adjustment. Montana does index some other subtractions, including the age 65 one, but not this.",
+      "Active duty pay is handled separately. Montana excludes active duty salary for residents who entered active duty from Montana, under a different provision."
+    ],
+    "agency": "Montana Department of Revenue",
+    "statuteRef": "MCA 15-30-2120(3)(n), with the calculation at (8) and eligibility at (9)",
+    "officialUrl": "https://mca.legmt.gov/bills/mca/title_0150/chapter_0300/part_0210/section_0200/0150-0300-0210-0200.html",
+    "confidence": "needs-review"
+  }
+]
